@@ -1,5 +1,10 @@
 # *created  "Wed May 17 12:54:47 2000" *by "Paul E. Black"
-# *modified "Tue Dec  3 12:30:26 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:49:45 2004" *by "Paul E. Black"
+
+# $Log: deutschJozsaAlgo.trm,v $
+# Revision 1.2  2004/12/17 16:49:46  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Deutsch-Jozsa algorithm
@@ -17,15 +22,26 @@ Next, run the function once; this {exclusive or#xor}'s the result with
 the answer qubit.  Finally, do Hadamards on the $n$ inputs again, and
 measure the answer qubit.  If it is 0, the function is constant,
 otherwise the function is balanced.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={quantum computation}
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=The algorithm needs only one (quantum) evaluation of the
 function.  A classical algorithm to answer the same question is to
 examine one more than half the domain in the {worst case}.
-</P>
+</p>
 
-<P>
+<p>
 See Arthur O. Pittenger, "An Introduction to Quantum Computing
 Algorithms", page 41, or Michael A. Nielsen and Isaac L. Chuang,
 "Quantum Computation and Quantum Information", pages 34-36.
@@ -35,4 +51,4 @@ Algorithms", page 41, or Michael A. Nielsen and Isaac L. Chuang,
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/deutschJozsaAlgo.trm,v $
