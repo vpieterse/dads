@@ -1,0 +1,45 @@
+# *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
+# *modified "Fri May  9 10:11:57 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Bellman-Ford algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=An efficient algorithm to find the {shortest paths}
+from a single {source} {vertex} to all other vertices in a 
+{weighted, directed graph}.
+Weights may be negative.  
+The algorithm initializes the distance to
+the source vertex to 0 and all other vertices to $\infty$.  It then
+does $V-1$ passes (V is the number of vertices) over all {edges}
+relaxing, or updating, the distance to the destination of each edge.
+Finally it checks each edge again to detect negative weight {cycles},
+in which case it returns false.  The time complexity is {O(VE)#big-O
+notation}, where E is the number of edges.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Ford-Bellman
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Dijkstra's algorithm}, {Johnson's algorithm},
+{all pairs shortest path}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is used as one step in Johnson's algorithm.
+</P>
+
+<P>
+After <A href="../terms.html#CLR90">[CLR90, page 532]</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.ece.northwestern.edu/~guanghui/Transportation/spt/section3_2.html">explanation
+and example (C-like pseudocode)</A>
+# further explanation (pure HTML)
+@LINKS=
+# author's initials
+@AUTHOR=PEB
+# end
