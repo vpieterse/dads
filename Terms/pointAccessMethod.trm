@@ -1,0 +1,26 @@
+# *created  "Mon Nov 16 15:09:15 1998" *by "Paul E. Black"
+# *modified "Fri Nov 30 14:26:26 2001" *by "Paul E. Black"
+# entry name
+@NAME=point access method
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A data structure and associated algorithms primarily to search
+for points defined in multidimensional space.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=PAM
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={EXCELL}, {grid file}, {hB-tree}, {twin grid file}, 
+{two-level grid file}, {k-d tree}, {BSP-tree}, {quadtree},
+{buddy tree}, {spatial access method}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
