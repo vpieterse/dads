@@ -1,0 +1,43 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu May  2 13:11:01 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=in-order traversal
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=Process all {nodes} of a {tree} by {recursively#recursion}
+processing the left subtree, then processing the {root}, and finally
+the right subtree.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=inorder traversal
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={postorder traversal}, {preorder traversal}, {tree traversal},
+{level-order traversal}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, if the "processing" is just printing, a tree is
+printed as "(left subtree) root (right subtree)."
+Here is pseudocode for a {binary tree}:
+<pre>
+inorder(tree)<br>
+begin<br>
+    if tree is null, return;<br><br>
+    inorder(tree.left_subtree);<br>
+    print(tree.root);<br>
+    inorder(tree.right_subtree);<br>
+end
+</pre>
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">demonstration</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
