@@ -1,0 +1,28 @@
+# *created  "Thu Mar  4 16:31:26 1999" *by "Paul E. Black"
+# *modified "Thu Mar 11 14:59:47 1999" *by "Paul E. Black"
+# entry name
+@NAME=pile
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN=An ordered {deque}, that is, items may only be added 
+to or removed from the {head} or the {tail}.
+An item is added to the {head} if it is smaller than the current
+head.  An item is added to the {tail} if it is greater than the
+current tail.  Items are never inserted into the 
+middle, rather, an additional pile may be created.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={linked list}, {UnShuffle sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+#Implemented as a {linked list}, this data structure is the
+#basis of the {UnShuffle sort}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
