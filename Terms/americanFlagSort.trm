@@ -1,5 +1,5 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Tue May 13 16:23:53 2003" *by "Paul E. Black"
+# *modified "Fri Apr 16 10:10:04 2004" *by "Paul E. Black"
 
 # entry name
 @NAME=American flag sort
@@ -36,7 +36,7 @@ Computing Systems, 6(1):5-27, 1993.
 using 256 buckets.
 # implementation(s) (pure HTML)
 @IMPL=<A
-href="http://goanna.cs.rmit.edu.au/~rsinha/resources/source/allsorts/McIlroyCC.c">(C)</A>.
+href="http://goanna.cs.rmit.edu.au/~rsinha/resources/source/allsorts/mbmradix.c">(C)</A>.
 It is <A
 href="citeseer.nj.nec.com/mcilroy93engineering.html">program C (C)</A>
 in the paper.
