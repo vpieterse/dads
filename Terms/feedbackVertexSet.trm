@@ -1,0 +1,21 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Mar 17 15:10:44 1999" *by "Paul E. Black"
+# entry name
+@NAME=vertex set
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={feedback edge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://www.cs.sunysb.edu/~algorith/files/feedback-set.shtml">(C)</A>
+# author's initials
+@AUTHOR=
+# end
