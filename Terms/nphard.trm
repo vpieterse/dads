@@ -1,5 +1,14 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Oct 14 12:41:21 2003" *by "Paul E. Black"
+# *modified "Mon Sep 20 10:14:01 2004" *by "Paul E. Black"
+
+# $Log: nphard.trm,v $
+# Revision 1.3  2004/09/20 14:33:22  black
+# Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
+# Add RCS keywords.
+#
+# Revision 1.2  2003/10/14 16:42:22  black
+# Improve grammar.
+#
 
 # entry name
 @NAME=NP-hard
@@ -16,8 +25,19 @@ combinatorial {optimization problem} is proved to belong to the class
 of {NP-complete} problems, which includes well-known problems such as
 satisfiability, {traveling salesman}, the {bin packing problem}, etc., 
 then the optimization version is NP-hard.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={strongly NP-hard}, {AP}, {unbounded knapsack problem}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For example, "is there a tour with length less than k" is
 NP-complete: it is easy to determine if a proposed {certificate} has
@@ -48,10 +68,10 @@ FAQ</A>, scroll down to <strong>P vs. NP</strong>.
 
 <P>
 Scott Aaronson's
-<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+<A href="http://www.complexityzoo.com/">Complexity
 Zoo</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/nphard.trm,v $
