@@ -1,0 +1,24 @@
+# *created  "Tue Apr  6 07:54:28 1999" *by "Paul E. Black"
+# *modified "Thu Feb 20 12:22:10 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=hash table delete
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=search
+# the definition
+@DEFN=If the {hash table} uses {chaining}, use the chaining data
+structure delete.  If it uses {open addressing}, mark the item
+"deleted" for future reuse.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={cuckoo hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
