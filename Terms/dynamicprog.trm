@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Nov 19 09:44:36 2003" *by "Paul E. Black"
+# *modified "Wed Nov 19 16:11:02 2003" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Revision 1.3  2003/11/19 21:11:32  black
+# Remove "fossil" line.
+#
 # Revision 1.2  2003/11/19 14:46:57  black
 # Add new link and cross references.  Separate xrefs to problems which
 # can be solved with dyn. prog. from related techniques.
@@ -35,7 +38,6 @@ Dan Hirschberg's example of using dynamic programming for
 href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">matrix
 multiplication and longest common substring and subsequence</A>,
 including pseudocode.
-as an example of <A
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's program to <A
 href="http://pobox.com/~oleg/ftp/packages/word_layout.cc">optimally
