@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb  2 15:37:54 2005" *by "Paul E. Black"
+# *modified "Tue Mar 22 10:42:36 2005" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.7  2005/03/22 22:01:05  black
+# Johnson-Trotter is a VARIANT, not INME.  NOTE the relation between a
+# derangement and a permutation.
+#
 # Revision 1.6  2005/02/02 20:38:14  black
 # Fix typo in IMPL language.
 #
@@ -40,17 +44,20 @@ changed.  The {Fisher-Yates shuffle} randomly permutes elements.
 # Generalization: "I am a kind of ..."
 @IMA={combination}
 # Specialization: "... is a kind of me."
-@VARIANT={perfect shuffle}, {Fisher-Yates shuffle}, {sort}, {derangement}
+@VARIANT={perfect shuffle}, {Fisher-Yates shuffle}, {Johnson-Trotter},
+{sort}, {derangement}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={American flag sort}
 # Aggregate child: "... is a part of or used in me."
-@INME={Johnson-Trotter}
+@INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={pseudo-random number generator}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A {sort} is a permutation where the items are arranged in some
 order.
+A {derangement} is a permutation where the items are not in the
+original order.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
