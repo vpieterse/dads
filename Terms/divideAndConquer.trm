@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan  3 16:58:44 2005" *by "Paul E. Black"
+# *modified "Tue Jan 11 15:56:15 2005" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.4  2005/01/11 20:56:55  black
+# Remove leading redundant phrase in DEFN.  Improve the rest of the
+# definition.
+#
 # Revision 1.3  2005/01/03 21:59:04  black
 # Remove notes which are no longer accessible.
 #
@@ -16,10 +20,10 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=basic
 # the definition
-@DEFN=An algorithmic technique.  To solve a problem on an
-instance of size <em>n</em>, a solution is found either directly
+@DEFN=Solve a problem on an
+instance of size <em>n</em>, either directly
 because solving that instance is easy (typically, because the instance
-is small) or the instance is <em>divided</em> into two or more smaller
+is small) or by <em>dividing</em> it into two or more smaller
 instances.  Each of these smaller instances is 
 {recursively#recursion} solved, and the solutions are combined to
 produce a solution for the original instance.
@@ -37,7 +41,7 @@ produce a solution for the original instance.
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The name <em>divide and conquer</em> is because the
+@NOTES=The technique is named <em>divide and conquer</em> because a
 problem is conquered by dividing it into several smaller problems.
 </p>
 
@@ -75,5 +79,5 @@ parallelism</a>.
 href="http://www.geocities.com/Vienna/7079/src/addodd.txt">how many
 odd numbers in an array? (C)</a>
 # author's initials
-@AUTHOR=CM
+@AUTHOR=PEB,CM
 # end $Source: /home/black/Workspace/dads/Terms/RCS/divideAndConquer.trm,v $
