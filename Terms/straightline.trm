@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Dec 12 13:18:22 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:00 2004" *by "Paul E. Black"
+
+# $Log: straightline.trm,v $
+# Revision 1.2  2004/12/17 17:08:00  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=straight-line drawing
@@ -10,8 +15,19 @@
 # the definition
 @DEFN=A {graph drawing} in which each edge is represented by a
 straight line segment.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={grid drawing}, {orthogonal drawing}, {planar straight-line graph}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 9-23,
@@ -23,4 +39,4 @@ Appearing in the Dictionary of Computer Science, Engineering and Technology, Cop
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/straightline.trm,v $
