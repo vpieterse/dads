@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 14:57:07 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:13:31 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=big-O notation
@@ -11,21 +11,21 @@
 @DEFN=A theoretical measure of the execution of an {algorithm},
 usually the time or memory needed, given the problem size $n$,
 which is usually the number of items.  Informally, saying some equation
-$g(n) = O(f(n))$ means it is less than some constant
-multiple of $f(n)$.    
-The notation is read, "g of n is big oh of f of n".
-<BR>
-<IMG src="../Images/bigOGraph.gif" height="261" width="453" alt="graph
-showing relation between a function, f, and the limit function, g">
+$f(n) = O(g(n))$ means it is less than some constant
+multiple of $g(n)$.    
+The notation is read, "f of n is big oh of g of n".
 # formal definition or {cross reference} to an entry
 @FORML=
-$g(n) = O(f(n))$
+$f(n) = O(g(n))$
 means there are positive
 constants $c$ and $k$, such that 
-$0 \leq g(n) \leq cf(n)$ for all
+$0 \leq f(n) \leq cg(n)$ for all
 $n \geq k$.
 The values of $c$ and $k$ must be fixed for the function
 $f$ and must not depend on $n$.
+<BR>
+<IMG src="../Images/bigOGraph.gif" height="261" width="453" alt="graph
+showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=O
 # other cross-listings solely for the web, such as word or spelling variants
@@ -73,9 +73,6 @@ the letter O, but who can tell the difference?
 @LINKS=<A
 href="http://www.cs.strath.ac.uk/~mdd/teaching/alg&comp/big_oh.html">A
 rough guide to big-oh notation</A> by Mark Dunlop.
-Tutorial on <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Algorithm">complexity
-classes</A> illustrated with several sort algorithms.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
