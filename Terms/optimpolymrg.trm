@@ -1,0 +1,26 @@
+# *created  "Tue Mar 30 09:44:21 1999" *by "Paul E. Black"
+# *modified "Tue Mar 30 10:25:20 1999" *by "Paul E. Black"
+# entry name
+@NAME=optimal polyphase merge
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=sort
+# the definition
+@DEFN=A {polyphase merge} which seeks to minimize the number of
+merge passes by allocating output runs of each pass to the various output
+files.  Since polyphase merging must have a different number of runs
+in each file to be efficient, one seeks the optimal way of selecting how
+many runs go into each output file.  A series of {kth order
+Fibonacci numbers} is one way to select the number of runs.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge}, {polyphase merge}, {optimal merge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
