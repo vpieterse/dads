@@ -1,0 +1,19 @@
+# *created  "Wed Nov 18 10:14:54 1998" *by "Paul E. Black"
+# *modified "Wed Aug 16 16:34:56 2000" *by "Paul E. Black"
+# entry name
+@NAME=bipartite graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=An {undirected graph} where {vertices#vertex} can be
+divided into two sets such that no {edge} connects vertices in the
+same set.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={layered graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A bipartite graph is a layered graph with two layers.
+# author's initials
+@AUTHOR=PEB
+# end
