@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Mon Mar 15 13:39:11 2004" *by "Paul E. Black"
+# *modified "Wed Dec  1 08:58:51 2004" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Revision 1.5  2004/12/01 14:00:38  black
+# Add WEB and NOTE of implementation called shuttle sort.
+#
 # Revision 1.4  2004/03/15 18:39:32  black
 # Add reference to new algo, gnome sort.
 #
@@ -29,7 +32,7 @@ order with respect to items already inserted.  Run time is
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=linear insertion sort
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=shuttle sort
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -47,7 +50,10 @@ order with respect to items already inserted.  Run time is
 @NOTES=Sorting can be done {in place#in-place sort} by moving
 the next item into place by
 repeatedly swapping it with the preceding item until it is in place -
-a {linear search} and move combined.
+a {linear search} and move combined.  
+This implementation is given in
+<strong>C. J. Shaw and T. N. Trimble</strong>, <em>Algorithm 175
+Shuttle Sort</em>, CACM, 6(6):312-313, June 1963.
 </P>
 
 <P>
