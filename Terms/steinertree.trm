@@ -1,0 +1,34 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Apr 17 09:20:49 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Steiner tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A minimum-weight {tree} connecting a designated set of 
+{vertices#vertex}, called <em>terminals</em>, in a {weighted graph} or
+points in a space.
+The tree may include non-terminals, which are called
+{Steiner vertices#Steiner vertex} or {Steiner points}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Euclidean Steiner tree},{rectilinear Steiner tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# ck6 is Clark Kimberling
+Named for <A
+href="http://faculty.evansville.edu/ck6/bstud/steiner.html">Jakob
+Steiner</A>.  
+# further explanation (pure HTML)
+@LINKS=The <A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/steiner-tree.shtml">(C
+and Pascal)</A>,
+<A href="http://www.diku.dk/geosteiner/">GeoSteiner (C)</A> -
+software for computing steiner trees.
+# author's initials
+@AUTHOR=JLG
+# end
