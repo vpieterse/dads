@@ -1,0 +1,83 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Sep  4 14:57:07 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=big-O notation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A theoretical measure of the execution of an {algorithm},
+usually the time or memory needed, given the problem size $n$,
+which is usually the number of items.  Informally, saying some equation
+$g(n) = O(f(n))$ means it is less than some constant
+multiple of $f(n)$.    
+The notation is read, "g of n is big oh of f of n".
+<BR>
+<IMG src="../Images/bigOGraph.gif" height="261" width="453" alt="graph
+showing relation between a function, f, and the limit function, g">
+# formal definition or {cross reference} to an entry
+@FORML=
+$g(n) = O(f(n))$
+means there are positive
+constants $c$ and $k$, such that 
+$0 \leq g(n) \leq cf(n)$ for all
+$n \geq k$.
+The values of $c$ and $k$ must be fixed for the function
+$f$ and must not depend on $n$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=O
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=O notation
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={$\Omega(n)$#\Omega},{$\omega(n)$#\omega},
+{$\Theta(n)$#\Theta}, {$\sim$},
+{little-o notation}, {asymptotic upper bound}, 
+{asymptotically tight bound}, {NP}, {complexity}, {model of computation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+As an example, $n<sup>2</sup> + 3n + 4$ is $O(n<sup>2</sup>)$,
+since n<sup>2</sup> + 3n + 4 &lt; 2n<sup>2</sup> for all $n
+&gt; 10$.  Strictly speaking, 3n + 4 is $O(n<sup>2</sup>)$, too, but
+big-O notation is often misused to mean equal to rather than less than.
+The notion of "equal to" is expressed by {$\Theta(n)$#\Theta}.
+</P>
+
+<P>
+The importance of this measure can be seen in trying to decide whether
+an algorithm is adequate, but may just need a better implementation,
+or the algorithm will always be too slow on a big enough input.  For
+instance, {quicksort}, which is O(n log n) on average, running on
+a small desktop computer can beat {bubble sort}, which is
+O(n<sup>2</sup>), running on a supercomputer if there are a lot of
+numbers to sort.  To sort 1,000,000 numbers, the quicksort takes
+20,000,000 steps on average, while the bubble sort takes
+1,000,000,000,000 steps!
+</P>
+
+<P>
+Any measure of execution must implicitly or explicitly refer to some
+computation model.  Usually this is some notion of the limiting
+factor.  For one problem or machine, the number of
+floating point multiplications may be the limiting factor, while for
+another, it may be the number of messages passed across a network.
+Other measures which may be important are compares, item moves,
+disk accesses, memory used, or elapsed ("wall clock") time.
+</P>
+
+<P>
+Strictly, the character is the upper-case Greek letter Omicron, not
+the letter O, but who can tell the difference?
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.strath.ac.uk/~mdd/teaching/alg&comp/big_oh.html">A
+rough guide to big-oh notation</A> by Mark Dunlop.
+Tutorial on <A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Algorithm">complexity
+classes</A> illustrated with several sort algorithms.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
