@@ -1,52 +1,63 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Oct 29 09:20:54 2004" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:39:07 2004" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.3  2004/11/01 16:40:14  black
+# Change encoding to coding.  Improve DEF'N.  Add original BIB and links
+# to Wikipedia.
+#
 # Revision 1.2  2004/10/29 13:23:35  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
 
 # entry name
-@NAME=Huffman encoding
+@NAME=Huffman coding
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=crypt
 # the definition
-@DEFN=A minimal variable-length character encoding based on the frequency of 
+@DEFN=A minimal variable-length character coding based on the frequency of 
 each character.  First, each character becomes a trivial 
 {binary tree}, with the
 character as the only {node}.  The character's frequency is the tree's
-frequency.  The two trees with the least frequencies are joined with a
+frequency.  Two trees with the least frequencies are joined as the
+subtrees of a
 new root that is assigned the sum of their frequencies.  This is
 repeated until all characters are in one tree.  One code bit represents
 each level.  Thus more frequent characters are near the {root} and
-are encoded with few bits, and rare characters are far from the root
-and are encoded with many bits.
+are coded with few bits, and rare characters are far from the root
+and are coded with many bits.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=static Huffman encoding
+@AKA=static Huffman coding
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Huffman coding, Hufman encoding, Huffmann coding
+@WEB=Huffman encoding, Hufman encoding, Huffmann encoding
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
 @IMA={greedy algorithm}
 # Specialization: "... is a kind of me."
-@VARIANT={adaptive Huffman encoding}, {k-ary Huffman encoding} 
+@VARIANT={adaptive Huffman coding}, {k-ary Huffman coding} 
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={full binary tree}
+@INME={full binary tree}, {priority queue}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={arithmetic coding}, 
 {optimal merge}, {Shannon-Fano coding}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>David A. Huffman</strong>, <em>A Method for The Construction
+of Minimum Redundancy Codes</em>, 
+Proceedings of IRE, 40(9):1098-1101, September 1952.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-The {worst case} for Huffman encoding (or, equivalently, the longest
-Huffman encoding for a set of characters) is when the distribution
+The {worst case} for Huffman coding (or, equivalently, the longest
+Huffman coding for a set of characters) is when the distribution
 of frequencies follows the {Fibonacci numbers}.  For this and other
 relations see Alex Vinokur's note on
 <A href="http://mathforum.org/discuss/sci.math/t/207334 ">Huffman
@@ -57,14 +68,20 @@ codes and Fibonacci numbers</A>.
 Joining trees by frequency is the same as merging sequences by length
 in {optimal merge}.  See the example there.
 Since a node with only one child is not optimal, any Huffman
-encoding is a {full binary tree}.
+coding is a {full binary tree}.
+</P>
+
+<P>
+Huffman coding is one of many <A
+href="http://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms">lossless
+compression algorithms</A>.
 </P>
 
 <P>
 Shannon-Fano is a minimal prefix code. Huffman is optimal for
-character encoding (one character-one code word) and simple to
-program.  Arithmetic coding is better still, since it can allocate
-fractional bits, but more complicated.
+character coding (one character-one code word) and simple to
+program.  Arithmetic coding is a little better still, since it can
+allocate fractional bits, but more complicated and has patents.
 # further explanation (pure HTML)
 @LINKS=
 Dr. Pam J. Vermeer's <A
@@ -77,6 +94,9 @@ compression</A>,
 <A
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/huffman.html">explanation,
 example, and analysis</A>.
+Wikipedia's encyclopedic article on
+<A href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman
+coding</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 <A
