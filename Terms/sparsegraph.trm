@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Sat Dec 27 11:41:24 2003" *by "Paul E. Black"
+# *modified "Mon Dec 29 12:16:54 2003" *by "Paul E. Black"
 
 # $Log: sparsegraph.trm,v $
+# Revision 1.4  2003/12/29 17:19:58  black
+# Move Preiss link and commentary from LINKS to NOTES because LINKS
+# doesn't convert Latex math expressions ($...$)
+#
 # Revision 1.3  2003/12/27 16:48:44  black
 # Refer to Preiss' definition of sparse and dense graphs.
 #
@@ -34,12 +38,6 @@ squared.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-From Algorithms and Theory of Computation Handbook, page 6-22,
-Copyright &copy; 1999 by CRC Press LLC.
-Appearing in the Dictionary of Computer Science, Engineering and
-Technology, Copyright &copy; 2000 CRC Press LLC.
-# further explanation (pure HTML)
-@LINKS=
 Bruno Preiss' <A
 href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
 of sparse and dense graphs</A> has problems, but may help.  First, for
@@ -49,6 +47,15 @@ $|E|$ is the number of edges, and $|V|$ is the number of vertexes.
 <BR>
 Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
 22 December 2003
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, page 6-22,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
