@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 18 14:57:32 2003" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:44:34 2004" *by "Paul E. Black"
 
 # $Log: eulercycle.trm,v $
+# Revision 1.3  2004/02/27 16:50:42  black
+# Refer to Christofides algorithm.
+#
 # Revision 1.2  2003/12/18 20:12:17  black
 # Separate XREFS into new, more precise fields.  Standard clean up.
 #
@@ -28,7 +31,7 @@ same {vertex} and includes every {edge} exactly once.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={Christofides algorithm}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
