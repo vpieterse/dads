@@ -1,7 +1,12 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Mon Jan  3 12:06:45 2005" *by "Paul E. Black"
+# *modified "Fri Jan  7 09:23:57 2005" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.12  2005/01/07 14:37:58  black
+# Make shell sort a diminishing increment sort.  Make the DEFN stand
+# alone better.  Contrast with comb sort.  Move NOTE of Knuth's analysis
+# here (from dim. incr. sort).  Be more specific about Harrison's IMPL.
+#
 # Revision 1.11  2005/01/03 17:08:18  black
 # Fix IBM 1620 URL.  Break out note from Marlene.
 #
@@ -44,9 +49,10 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=sort
 # the definition
-@DEFN=The first {diminishing increment sort}.  Originally the first increment
-was half the number of items to be sorted, i.e., $n/2$, and each
-succeeding increment was half the preceding increment.
+@DEFN=The first {diminishing increment sort}.  On each pass $i$ sets
+of $n/i$ items are sorted, typically with {insertion sort}.  On each
+succeeding pass, $i$ is reduced until it is 1 for the last pass.  A
+good series of $i$ values is important to efficiency.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -57,13 +63,13 @@ succeeding increment was half the preceding increment.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={diminishing increment sort}, {in-place sort}
+@IMA={diminishing increment sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={insertion sort}
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 
@@ -103,6 +109,16 @@ Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+{Comb sort} does a single "bubbling" pass (ala {bubble sort}) over
+each set for each gap or increment, whereas Shell sort completely
+sorts each set.
+</p>
+
+<p>
+Donald E. Knuth extensively analyzes this algorithm in 
+<a href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.2.1]</a>. 
+A good set of increments is 2<sup>k</sup>+1, . . ., 9, 5, 3, 1 with
+the first increment no more than $N/3$.
 
 # any historical notes
 @HISTORY=
@@ -227,8 +243,8 @@ suit.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
-(Java)</a>;
+href="http://www.cs.ubc.ca/spider/harrison/Java/ShellSortAlgorithm.java">shell
+sort (Java)</a>.
 Sedgewick's <a href="http://www.cs.princeton.edu/~rs/shell/">Analysis
 of Shellsort and Related Algorithms (C)</a>;
 Worst-case behavior <a
