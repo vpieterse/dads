@@ -1,5 +1,10 @@
 # *created  "Mon Dec 14 12:19:58 1998" *by "Paul E. Black"
-# *modified "Mon Feb  4 10:44:36 2002" *by "Paul E. Black"
+# *modified "Wed Oct 29 13:17:56 2003" *by "Paul E. Black"
+
+# $Log: multiwaytree.trm,v $
+# Revision 1.2  2003/10/29 18:18:42  black
+# Add xrefs to binary tree representation of trees (and RCS keywords)
+#
 
 # entry name
 @NAME=multiway tree
@@ -11,13 +16,14 @@
 @DEFN=A {tree} with any number of {children#child} for each 
 {node}.
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={binary tree}, {k-ary tree}, {B-tree}
+@XREFS={binary tree}, {k-ary tree}, {B-tree},
+{binary tree representation of trees}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A typical implementation is to have a {list} of child nodes at
 each node, rather than a fixed number of children.  A more elaborate
 implementation is to have a fixed number of children, to handle most
 nodes efficiently, and a {linked list} for those rare nodes that
-have more children.
+have more children.  See also the {binary tree representation of trees}.
 # further explanation (pure HTML)
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
@@ -28,4 +34,4 @@ and example</A>
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/multiwaytree.trm,v $
