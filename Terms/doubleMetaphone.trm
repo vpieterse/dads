@@ -1,5 +1,14 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Fri May  3 15:36:35 2002" *by "Paul E. Black"
+# *modified "Fri Apr  9 16:32:39 2004" *by "Paul E. Black"
+
+# $Log: doubleMetaphone.trm,v $
+# Revision 1.2  2004/04/09 20:35:30  black
+# Refine XREFS to IMA, etc.  Refer to new umbrella term phonetic
+# matching.  Update "A Better Phonetic Lookup" link: it is now an applet
+# with implementation (wbrogden.com).  Add another impl at Apache
+# codec.  Change C/C++ User Journal article from comment to BIB entry.
+#
+#
 
 # entry name
 @NAME=double metaphone
@@ -12,22 +21,43 @@
 heard in the United States) phonetically by reducing them
 to 12 consonant sounds.  This reduces matching problems from wrong
 spelling.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={phonetic matching}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Jaro-Winkler}, {NYSIIS}, {soundex}, {metaphone}, {edit distance}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# Author's email is <lphilips@verity.com>
+<strong>Lawrence Philips</strong>, <em>The Double Metaphone Search
+Algorithm</em>, C/C++ Users Journal, June 2000.
+<A
+href="http://www.cuj.com/documents/s=8038/cuj0006philips/">http://www.cuj.com/documents/s=8038/cuj0006philips/</A>
+accessed April 2004.
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=This is an improved version of {metaphone}.  It returns two
 keys if a word has two feasible pronunciations, such as a foreign
 word.
 # further explanation (pure HTML)
-@LINKS=<A HREF="http://www.lanw.com/java/phonetic/">A Better Phonetic
-Lookup</A>
-# "The Double Metaphone Search Algorithm", C/C++ Users Journal, June 2000
-# by Lawrence Philips <lphilips@verity.com>
-# http://www.cuj.com/current/feature.html (as of May 2000)
+@LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A HREF="http://aspell.sourceforge.net/metaphone/">Metaphone and
-double metaphone (Basic, C, Perl, and C++)</A>,
-<A HREF="ftp://ftp.cuj.com/pub/2000/1806/philips.zip">zip'd (C++)</A>
+@IMPL=<A href="http://aspell.sourceforge.net/metaphone/">Metaphone and
+double metaphone (Basic, C, Perl, and C++)</A>.
+Apache codec implementations of 
+<A href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
+and Double Metaphone (Java)</A>. 
+<A href="http://www.wbrogden.com/phonetic/index.html">applet
+for name lookup (Java)</A>.
+<A href="ftp://ftp.cuj.com/pub/2000/1806/philips.zip">zip'd (C++)</A>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/doubleMetaphone.trm,v $
