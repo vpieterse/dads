@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: editTerms,v 1.4 2003/10/28 20:59:50 black Exp $
+# $Id: editTerms,v 1.5 2003/10/29 15:03:47 black Exp $
 # *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-# *modified "Tue Oct 28 15:59:19 2003" *by "Paul E. Black"
+# *modified "Wed Oct 29 10:01:40 2003" *by "Paul E. Black"
 
 #-----------------------------------------------------------------------------
 # Check out, change, and check in terms
@@ -30,10 +30,10 @@
 #
 #-----------------------------------------------------------------------------
 
-$reason = "Testing clean-up edit that adds Log RCS keyword";
+$reason = "Standard clean-up edits";
 $editor = "Paul E. Black"; # for *modified line
 # make sure the program is not accidentally rerun without being updated
-if (localtime() !~ /Tue Oct 28/) {
+if (localtime() !~ /Wed Oct 29/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -165,10 +165,20 @@ foreach $term_file_name (@ARGV) {
     # review any changes
     system "rcsdiff $term_file_name";
 
-    print "Commit (check in)? [nyq](n): ";
-    $ans = <STDIN>;
-    if ($ans =~ /[yY]/) {
+    while (1) {
+	print "Commit (check in)? [ynhlq](n): ";
+	$ans = <STDIN>;
+	if ($ans =~ /[ynlq]?/i) {
+	    last;
+	} else {
+	    print "Yes: check in; Leave edits but don't check in; Help: show this message\n";
+	    print "No: unlock and revert; Quit: unlock and revert then exit\n";
+	}
+    } 
+    if ($ans =~ /[y]/i) {
 	system "echo $reason | ci -u $term_file_name";
+    } elsif ($ans =~ /[l]/i) {
+	print "leaving edits as is and locked.  Remember to check in $term_file_name\n";
     } else {
 	# (try to) UNLOCK it
 	system "echo n | rcs -u $term_file_name";
@@ -177,7 +187,7 @@ foreach $term_file_name (@ARGV) {
 	system "co -f $term_file_name";
     }
 
-    if ($ans =~ /[qQ]/) {
+    if ($ans =~ /[q]/i) {
 	exit;
     }
 }
