@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Oct 15 10:04:13 1999" *by "Paul E. Black"
+# entry name
+@NAME=Euclidean traveling salesman problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=Find a {path} of minimum {Euclidean distance}
+between points in a plane which includes each point exactly once and
+returns to its starting point.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={traveling salesman}, {spanning tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This can be generalized to higher dimensions, for instance,
+points in a 3-dimensional space.  This problem is a special case of
+traveling salesman since the cost between points is the planar
+distance instead of arbitrary weights.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
