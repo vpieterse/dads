@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: editTerms,v 1.3 2003/10/28 16:11:30 black Exp $
+# $Id: editTerms,v 1.4 2003/10/28 20:59:50 black Exp $
 # *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-# *modified "Tue Oct 28 11:08:36 2003" *by "Paul E. Black"
+# *modified "Tue Oct 28 15:59:19 2003" *by "Paul E. Black"
 
 #-----------------------------------------------------------------------------
 # Check out, change, and check in terms
@@ -61,6 +61,7 @@ sub formatLogHistory {
 	# handle revision and date lines
 	if (/^revision ([0-9.]+)/) {
 	    $rev=$1;
+	    last if $rev == "1.1"; # Rev 1.1 is just "Initial revision"
 	}
 
 	if (/^date: ([^;]+);  author: ([^;]+)/) {
