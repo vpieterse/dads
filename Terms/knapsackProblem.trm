@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:52:44 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 09:54:28 2005" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.6  2005/01/04 14:54:58  black
+# Remove leventc (optimal solution)-gone.
+#
 # Revision 1.5  2004/12/17 16:52:44  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -62,11 +65,7 @@ The {decision problem} is, given items of
 different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
 # further explanation (pure HTML)
-@LINKS=How to <a
-href="http://www.ceng.metu.edu.tr/~leventc/C567/lectures/chapter4_3_1.html">construct
-an optimal solution</a> using 
-<a href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
-programming</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/knapsack.shtml">(Fortran
