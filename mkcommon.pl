@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.13 2002/04/05 19:38:02 black Exp $
+# $Id: mkcommon.pl,v 1.14 2002/05/06 14:36:26 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Apr  5 14:32:51 2002" *by "Paul E. Black"
+# *modified "Fri May  3 14:31:28 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -348,7 +348,7 @@ sub addToDictionary (\%) {
     %entry = %$entryRef;
 
     if (! defined $entry{NAME}) {
-	# something is very wrong
+	print "\nSomething is very wrong: no NAME defined\n";
 	for $fld (keys %entry) {
 	    print "\$entry\{$fld} = $entry{$fld}\n";
 	}
