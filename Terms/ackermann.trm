@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Fri Nov 26 13:43:03 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:22:58 2004" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.3  2004/12/17 17:22:58  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/11/26 19:01:41  black
 # Replace the CLR definition with the more widely used defn.
 # Add Ackermann-Peter as a WEB variant since Rozsa Peter called it that
@@ -32,7 +35,7 @@
 # I. Juha'sz (that is, a-acute-accent), Ellis Horwood Ltd, 1981, p 29.
 # NIST QA76.7 .P46 1981
 
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Ackerman's function, Ackermann-Peter function
@@ -51,34 +54,34 @@
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In 1928, 
-<A
+<a
 href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Ackermann.html">Wilhelm
-Ackermann</A> observed that
+Ackermann</a> observed that
 A(x,y,z), the z-fold iterated exponentiation of x with y, is an
 example of a recursive function which is not primitive recursive.
 A(x,y,z) was simplified to a function of 2 variables by 
 R&oacute;zsa P&eacute;ter in 1935. 
 Raphael M. Robinson simplified the initial condition in 1948.
-</P>
+</p>
 
-<P>
+<p>
 Many people have given other versions of Ackermann's function, some
 of which are not simply a restating of this one.
 
 # further explanation (pure HTML)
 @LINKS=
-Robert Munafo's <A
+Robert Munafo's <a
 href="http://home.earthlink.net/~mrob/pub/math/ln-2deep.html">Versions
-of Ackermann's Function</A> and analysis.
-Cowles and Bailey <A
+of Ackermann's Function</a> and analysis.
+Cowles and Bailey <a
 href="http://www.cs.utexas.edu/users/boyer/ftp/nqthm/nqthm-1992/examples/basic/peter.events">Several
-Versions of Ackermann's function</A>.
+Versions of Ackermann's function</a>.
 # implementation(s) (pure HTML)
 @IMPL=History of the function and
-<A href="http://www.modulaware.com/mdlt08.htm">(Modula-2)</A> code,
-<A href="http://www.kosara.net/thoughts/ackermann.html">(Lisp)</A>,
-<A href="http://www.geocities.com/hjsmithh/Ackerman.html">(Pascal)</A>,
-<A href="http://www.engin.umd.umich.edu/CIS/course.des/cis400/miranda/Ack.htm">(Miranda)</A>.
+<a href="http://www.modulaware.com/mdlt08.htm">(Modula-2)</a> code,
+<a href="http://www.kosara.net/thoughts/ackermann.html">(Lisp)</a>,
+<a href="http://www.geocities.com/hjsmithh/Ackerman.html">(Pascal)</a>,
+<a href="http://www.engin.umd.umich.edu/CIS/course.des/cis400/miranda/Ack.htm">(Miranda)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/ackermann.trm,v $
