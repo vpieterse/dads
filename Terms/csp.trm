@@ -1,5 +1,10 @@
 # *created  "Sat Sep  4 16:26:55 1999" *by "Paul E. Black"
-# *modified "Fri Jan 11 09:27:29 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:24 2004" *by "Paul E. Black"
+
+# $Log: csp.trm,v $
+# Revision 1.2  2004/12/17 17:03:24  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=CSP
@@ -12,12 +17,23 @@
 concurrent computation.  An acronym for Communicating Sequential Processes.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={CCS}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -26,4 +42,4 @@ concurrent computation.  An acronym for Communicating Sequential Processes.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/csp.trm,v $
