@@ -1,0 +1,56 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jul 10 12:11:35 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=memoization
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=An algorithmic technique which saves (memoizes) a computed
+answer for later reuse, rather than recomputing the answer.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=memoize
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={dynamic programming}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The term comes from "memo": "A short note written as a
+reminder." [The American Heritage Dictionary of the English Language,
+&copy; 1970, American Heritage Publishing]
+<P>
+A naive program to compute {Fibonacci numbers} is
+<pre>
+fib(n) \{<br>
+   if n is 1 or 2, return 1;<br>
+   return fib(n-1) + fib(n-2);<br>
+}
+</pre>
+Because fib() is recomputed over and over for the same argument, run
+time for the above is ${\Omega}(1.6<sup>n</sup>)$.
+If instead we memoize (save) the value of fib(n) the first time we
+compute it, the run time is ${\Theta}(n)$.
+<pre>
+allocate array for memo;<br>
+initialize memo[1] and memo[2] to 1;<br>
+<br>
+fib(n) \{<br>
+   if memo[n] is not zero, return memo[n];<br>
+   memo[n] = fib(n-1) + fib(n-2);<br>
+   return memo[n];<br>
+}
+</pre>
+<P>
+Of course, computing Fibonacci numbers can be easily done in constant
+time (see {Fibonacci numbers}), but this illustrates the technique.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
