@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:24:18 2004" *by "Paul E. Black"
+# *modified "Mon Jan 10 11:15:49 2005" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.6  2005/01/10 16:16:59  black
+# Remove Brian Luke's Monte Carlo sim URL - host now (Dec 2004) charges,
+# and a visit to Brian's home page (aol.com) doesn't have new links.
+#
 # Revision 1.5  2004/12/17 17:24:18  black
 # Make more XHTML compliant.
 #
@@ -63,9 +67,6 @@ href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
 introduction</a> with history.
 An example of <a
 href="http://www.chem.unl.edu/zeng/joy/mclab/mcintro.html">calculating Pi</a>.
-Brian T. Luke's Learning from the Web pages on
-<a href="http://btluke.members.easyspace.com/montecs.html">Monte Carlo
-Simulation</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
