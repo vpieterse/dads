@@ -1,10 +1,11 @@
+# $Id: authors.data,v 1.5 2002/02/13 13:43:18 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
 #	Initials<tab>Name<tab>(comma separated
 #	e-mails [with @] or URLs)
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Thu Dec 13 15:52:54 2001" *by "Paul E. Black"
+# *modified "Wed Feb 13 08:31:04 2002" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -13,6 +14,7 @@ AB	Andrew Boniface	bonifaceaw@yahoo.com
 SE	Stefan Edelkamp	edelkamp@informatik.uni-freiburg.de, http://www.informatik.uni-freiburg.de/~edelkamp/
 ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
 JLG	Joseph L. Ganley	joe@ganley.org, http://ganley.org/
+LH	Leslie Hastings	prof_math@yahoo.com, http://www.geocities.com/leslie_hastings/
 BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
 ASK	Art S. Kagel	kagel@bloomberg.net
 CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
@@ -26,7 +28,8 @@ PMS	Paul M. Sant	pauls@csc.liv.ac.uk
 SKS	Sandeep Kumar Shukla	skshukla@mipos2.intel.com
 GS	Gopinath Srinivasan	s.gopinath@in.ibm.com
 PJT	Paul J. Tanenbaum	pjt@ARL.MIL, http://ftp.arl.mil/~pjt/
+LJW	Lawrence J. Wobker	ljwobker@pobox.com
 VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com, http://www.geocities.com/SiliconValley/Garage/3323/
 YZ	Yuming Zou	zou@fas.harvard.edu
 CRC-A	Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999
-# end of authors list
+# end of $Source: /home/black/DADS/dads/RCS/authors.data,v $
