@@ -1,0 +1,54 @@
+# *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:18:36 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=insertion sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=sort
+# the definition
+@DEFN=Sort by repeatedly taking the next
+item and inserting it into the final data structure in its proper
+order with respect to items already inserted.  Run time is
+{O(n<sup>2</sup>)#big-O notation} because of moves.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=linear insertion sort
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Sorting can be done {in place#in-place sort} by moving
+the next item past the end of the sorted items into place by
+repeatedly swapping it with the preceding item until it is in place -
+a {linear search} and move combined.
+</P>
+
+<P>
+If comparing items is very expensive, use {binary search} to reduce
+the number of comparisons needed to find where the item should be
+inserted, then open a space by moving all later items down one.
+However a binary search is likely to make this not a {stable} sort.
+# further explanation (pure HTML)
+@LINKS=<A href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</A>
+of several sort algorithms, with particular emphasis on insertion
+sort; more <A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstrations</A>;
+a
+<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ISort.html">demonstration</A>
+of insertion sort.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.ubc.ca/spider/harrison/Java/InsertionSortAlgorithm.java">(Java)</A>.
+Other implementations may be available through the <A
+href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
+Brook Algorithm Repository, Sorting</A>;
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/insertion.html">(Scheme)</A>;
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Insertion_Sort">explanation (C)</A>;
+<A href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
