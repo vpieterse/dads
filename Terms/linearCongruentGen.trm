@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jun 13 16:34:03 2002" *by "Paul E. Black"
+# *modified "Wed Jun 16 12:57:13 2004" *by "Paul E. Black"
+
+# $Log: linearCongruentGen.trm,v $
+# Revision 1.2  2004/06/16 17:09:29  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Correct defn: A and
+# M are relatively random (not A and B).  LINK to good review.
+#
 
 # entry name
 @NAME=linear congruential generator
@@ -10,10 +16,21 @@
 # the definition
 @DEFN=A class of {algorithms} that are {pseudo-random number
 generators}.  The next number is generated from the current one by 
-$r<sub>n+1</sub> = (A \times r<sub>n</sub> + B)\bmod M$, where A and B are
+$r<sub>n+1</sub> = (A \times r<sub>n</sub> + B)\bmod M$, where A and M are
 relatively prime numbers.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=When implemented in software, A and B may be chosen so as to
 have integer overflow on nearly every step, and therefore have a less predictable
@@ -28,8 +45,11 @@ the range of the integer used in the computation.
 Better algorithms are available, but they are more complex.
 # further explanation (pure HTML)
 @LINKS=
+Karl Entacher's thorough review and comparison of
+<A href="http://random.mat.sbg.ac.at/~charly/server/node3.html">many
+linear congruential generators</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=BB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/linearCongruentGen.trm,v $
