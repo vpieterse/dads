@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
-# *modified "Wed Sep 22 09:01:22 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:47 2004" *by "Paul E. Black"
 
 # $Log: fibonacciHeap.trm,v $
+# Revision 1.5  2004/12/17 17:23:47  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/09/22 13:01:50  black
 # Add misspelling of Fibonacci as web entry.
 #
@@ -27,7 +30,7 @@ and merge or join ({meld}) two heaps, is a constant
 notation}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=Fibonnaci heap
@@ -44,25 +47,25 @@ notation}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Michael Fredman</strong> and <strong>Robert Tarjan</strong>,
 #<em></em>, Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February
 1984.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 421]</A>.
+@NOTES=After <a href="../terms.html#CLR90">[CLR90, page 421]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-An <A
+An <a
 href="http://algorithm.myrice.com/resources/technical_artile/fibonacci_heap/fibonacci.htm">explanation
-and code for ExtractMin and DecreaseKey (C++)</A> by
+and code for ExtractMin and DecreaseKey (C++)</a> by
 <strong>John Boyer</strong>, <em>Algorithm Alley</em>, Dr. Dobb's
 Journal, January 1997.
-<A href="http://www.ddj.com/ftp/1997/1997.01/aa197.zip">Complete
-Fibonacci Heap code (C++)</A> in zip format.
+<a href="http://www.ddj.com/ftp/1997/1997.01/aa197.zip">Complete
+Fibonacci Heap code (C++)</a> in zip format.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciHeap.trm,v $
