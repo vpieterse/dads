@@ -1,0 +1,22 @@
+# *created  "Tue Mar  9 08:24:52 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:08:59 2000" *by "Paul E. Black"
+# entry name
+@NAME=terminal
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=graph
+# the definition
+@DEFN=The set of points in a plane or {vertices#vertex} in a 
+{graph} defining endpoints of a {Steiner tree}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Steiner point}, {Steiner vertex}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
