@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Fri Nov  5 15:06:29 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:54 2004" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.10  2004/12/17 17:23:54  black
+# Make more XHTML compliant.
+#
 # Revision 1.9  2004/11/05 20:06:52  black
 # Remove "dominate" - I deleted it from DADS
 #
@@ -48,7 +51,7 @@ relation defined by the edges is {symmetric}, or
 $E = \{\{u,v} | u, v \in V}$ (sets of vertices rather than
 ordered pairs).
 If the graph does not allow {self-loops}, adjacency is {irreflexive}.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -80,9 +83,9 @@ Other: {graph drawing}.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Graphs are so general that many other data structures, such as
 {trees}, are just special kinds of graphs.
-</P>
+</p>
 
-<P>
+<p>
 A graph is like a road map.  Cities are vertices.  Roads from
 city to city are edges.  (How about junctions or branches in a road?
 You could consider junctions to be vertices, too.  If you don't want
@@ -91,9 +94,9 @@ So strictly speaking you have {hyperedges} in a {hypergraph}.  If you
 want to allow more than one road between each pair of cities, you have
 a {multigraph}, instead.  It all
 depends on how you want to define it.)
-</P>
+</p>
 
-<P> 
+<p> 
 Another way to think of a graph is as a bunch of dots connected by
 lines.  Because mathematicians
 stopped talking to regular people long ago, the dots in a graph are
@@ -105,37 +108,37 @@ Thus the dots can be anywhere, and the lines that join them are
 infinitely stretchy.  Moreover, a mathematical graph is not a
 comparison chart, nor a diagram with an x- and y-axis, nor a squiggly
 line on a stock report.  A graph is simply dots and lines between
-them---pardon me, vertices and edges. <BR>
+them---pardon me, vertices and edges. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Michael Bolton &lt;mb@michaelbolton.net&gt; 22
 February 2000
 
 # further explanation (pure HTML)
 @LINKS=Journal of Combinatorics dynamic surveys DS8 and DS9 are 
-<A href="http://www.combinatorics.org/Surveys/">a bibliography and
-glossary of graphs</A>.
+<a href="http://www.combinatorics.org/Surveys/">a bibliography and
+glossary of graphs</a>.
 # implementation(s) (pure HTML)
-@IMPL=GraphEd -- <A
+@IMPL=GraphEd -- <a
 href="http://www.cs.sunysb.edu/~algorith/implement/graphed/implement.shtml">Graph
-Editor and Layout Program (C)</A>,
-<A
+Editor and Layout Program (C)</a>,
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/graph-data-structures.shtml">graph
-manipulation (C++, C, Mathematica, and Pascal)</A>,
-<A
+manipulation (C++, C, Mathematica, and Pascal)</a>,
+<a
 href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
-traverse, top sort, etc. weighted, directed graphs (Java)</A>,
-<A href="http://jgrapht.sourceforge.net/">JGraphT (Java)</A> build, traverse,
+traverse, top sort, etc. weighted, directed graphs (Java)</a>,
+<a href="http://jgrapht.sourceforge.net/">JGraphT (Java)</a> build, traverse,
 and display directed and undirected graphs,
-<A href="http://gef.tigris.org/">GEF - Graph Editing Framework
-(Java)</A> a library to edit and display graphs.
-<A
+<a href="http://gef.tigris.org/">GEF - Graph Editing Framework
+(Java)</a> a library to edit and display graphs.
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">graph
-generating (C, Mathematica, Pascal, C++, and Fortran)</A>,
-<A href="http://infosun.fmi.uni-passau.de/GTL/">GTL - the Graph
-Template Library (C)</A>,
-<A href="http://www.boost.org/libs/graph/doc/">BGL - the Boost Graph
-Library (C++)</A>
-<A href="http://jung.sourceforge.net/">Jung (Java)</A.
-<A href="www.jdsl.org/home.html">jdsl (Java)</A>.
+generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
+<a href="http://infosun.fmi.uni-passau.de/GTL/">GTL - the Graph
+Template Library (C)</a>,
+<a href="http://www.boost.org/libs/graph/doc/">BGL - the Boost Graph
+Library (C++)</a>
+<a href="http://jung.sourceforge.net/">Jung (Java)</A.
+<a href="www.jdsl.org/home.html">jdsl (Java)</a>.
 # author's initials
 @AUTHOR=PEB,PJT
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graph.trm,v $
