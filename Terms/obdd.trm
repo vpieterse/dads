@@ -1,0 +1,36 @@
+# *created  "Thu Feb  3 16:52:31 2000" *by "Paul E. Black"
+# *modified "Wed Nov 20 11:36:16 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=OBDD
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=ordered binary decision diagram
+# other cross-listings solely for the web, such as word or spelling variants
+# OBDD referred to as Oblivious ... by <strong>Lance Fortnow</strong>,
+# <em>Review of Branching Programs and Binary Decision Diagrams:
+# Theory and Applications</em>, SIGACT News, 33(1):7, March 2002. 
+@WEB=oblivious binary decision diagram
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={BDD}, {reduced ordered binary decision diagram}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+http://www.cs.engr.uky.edu/~lewis/research/obdd.html
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.acm.org/pubs/citations/journals/surveys/1992-24-3/p293-bryant/">Symbolic
+Boolean manipulation with ordered binary-decision diagrams</A>, <A
+HREF="http://niikaan.fdl.cc.mn.us/obdd/">OBDD's in gif and
+postscript</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
