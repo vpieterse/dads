@@ -1,5 +1,14 @@
 # *created  "Thu Sep 30 10:19:08 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:04:11 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:36:44 2004" *by "Paul E. Black"
+
+# $Log: dagShortPath.trm,v $
+# Revision 1.3  2004/04/19 18:36:59  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:04:15  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=DAG shortest paths
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,15 +19,26 @@
 @DEFN=Solve the {single-source shortest-path problem} in a
 {weighted#weighted graph}
 {directed acyclic graph} by 1) doing a {topological sort} on the
-{vertexes} by {edge} so vertexes with no incoming {edges} are
-first and vertexes with only incoming {edges} are last, 2) assign an
+{vertices#vertex} by {edge} so vertices with no incoming {edges} are
+first and vertices with only incoming {edges} are last, 2) assign an
 infinite distance to every vertex ($dist(v)=\infty$) and a zero
 distance to the source,
 and 3) for each vertex $v$ in sorted order, for each outgoing edge
 $e(v,u)$, if $dist(v) + weight(e) &lt; dist(u)$, set $dist(u)=dist(v)
 + weight(e)$ and the predecessor of $u$ to $v$.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Dijkstra's algorithm}, {Bellman-Ford algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
