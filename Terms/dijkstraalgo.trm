@@ -1,5 +1,5 @@
 # *created  "Mon Oct 19 15:06:57 1998" *by "Paul E. Black"
-# *modified "Wed Mar 13 10:47:23 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 12:56:14 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Dijkstra's algorithm
@@ -9,12 +9,12 @@
 @AREA=graph
 # the definition
 @DEFN=An algorithm to find the {shortest paths} from a single {source}
-{vertex} to all other vertices in a
+{vertex} to all other vertexes in a
 {weighted, directed graph}.  All
 weights must be nonnegative.
 Implementing the {priority queue} with a {Fibonnaci heap} makes the
 time complexity {$O(E + V \log V)$#big-O notation}, where $V$ is the
-number of vertices and $E$ is the number of {edges}.
+number of vertexes and $E$ is the number of {edges}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Bellman-Ford algorithm}, {Johnson's algorithm},
 {all pairs shortest path}
@@ -34,4 +34,4 @@ An <A href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/dijkstra.html">anal
 with code (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dijkstraalgo.trm,v $
