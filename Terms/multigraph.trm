@@ -1,0 +1,19 @@
+# *created  "Wed Nov 18 10:09:06 1998" *by "Paul E. Black"
+# *modified "Tue Oct  2 14:27:26 2001" *by "Paul E. Black"
+# entry name
+@NAME=multigraph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {graph} whose {edges} are unordered pairs
+of  {vertices#vertex}, and the same pair of vertices can be
+connected by multiple edges.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={hypergraph}, {undirected graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The edges are a {bag}, not a {set}.
+# author's initials
+@AUTHOR=PEB
+# end
