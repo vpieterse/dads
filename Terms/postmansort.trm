@@ -1,0 +1,53 @@
+# *created  "Tue Dec  1 13:01:38 1998" *by "Paul E. Black"
+# *modified "Tue Aug 12 15:24:00 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=postman's sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A variant of a {bucket sort} where
+attributes of the {key} are described so the algorithm can allocate
+buckets efficiently.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=postman sort
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={radix sort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Robert Ramey</strong>, <em>The Postman's Sort</em>,
+C Users Journal, August 1992.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is the algorithm used by letter-sorting machines in the
+post office: first states, then post offices, then routes, etc.  Since
+keys are not compared against each other, sorting
+time is {O(cn)#big-O notation}, where <em>c</em> depends on the
+size of the key and number of buckets.  You probably used a form 
+of this if
+you sorted lots of papers alphabetically: you put each paper in its
+pile (or bucket), A's, B's, C's, D's, etc., then sort each pile.  
+</P>
+
+<P>
+This is similar to {radix sort}, but works "top down" or "most
+significant digit first" while radix sort works "bottom up" or "least
+significant digit first".
+</P>
+
+<P>
+After Robert Ramey (ramey@rrsd.com)
+# further information (pure HTML)
+@LINKS=Robert Ramey's 
+<A href="http://www.rrsd.com/psort/cuj/cuj.htm">August 1992
+article</A>.
+# implementation (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
