@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 10:09:29 1999" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:07:37 2001" *by "Paul E. Black"
+# entry name
+@NAME=select mode
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An algorithm to find the mode, or most frequently occurring
+value, in a group of elements.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/523.mode.p">(Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
