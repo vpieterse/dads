@@ -1,0 +1,41 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri May 10 12:42:59 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Euler cycle
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {path} through a {graph} which starts and ends at the
+same {vertex} and includes every {edge} exactly once.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Eulerian path, K&ouml;nigsberg bridges problem
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Euler tour, Koenigsberg bridges problem
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Hamiltonian cycle}, {Chinese postman problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES="Euler" is pronounced "oil-er."  A Hamiltonian cycle includes
+each vertex once; an Euler cycle includes each edge once.
+<P>
+
+</P>
+Euler defined the cycle to solve the puzzle of finding a path across
+every bridge of the German city of K&ouml;nigsberg exactly once.
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+<A
+HREF="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/hard.html#euler">examples
+and explanations</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(Mathematica
+and Fortran)</A>
+# author's initials
+@AUTHOR=PEB
+# end
