@@ -1,0 +1,17 @@
+# *created  "Fri Sep 18 11:54:47 1998" *by "Paul E. Black"
+# *modified "Fri Sep 18 11:55:54 1998" *by "Paul E. Black"
+# entry name
+@NAME=head
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=The first item of a {list}.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={tail}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
