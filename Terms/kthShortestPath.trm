@@ -1,5 +1,5 @@
 # *created  "Mon Nov 26 12:25:38 2001" *by "Paul E. Black"
-# *modified "Mon Nov 26 12:47:06 2001" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:05:18 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=k<sup>th</sup> shortest path
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,7 +10,7 @@
 @DEFN=The problem of finding the k<sup>th</sup> {shortest path} from
 one {vertex} in a {graph} to another vertex.  Variants may require
 that paths are edge- or vertex-disjoint, that is sharing no {edges} 
-or vertices.  "Shortest" may be least number of edges, least total 
+or vertexes.  "Shortest" may be least number of edges, least total 
 weight, etc.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -37,4 +37,4 @@ Andr&eacute;s Marzal keep links to
 code (C)</A>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kthShortestPath.trm,v $
