@@ -1,5 +1,11 @@
 # *created  "Wed Mar 17 15:39:46 1999" *by "Paul E. Black"
-# *modified "Mon Mar 22 11:51:22 2004" *by "Paul E. Black"
+# *modified "Tue Apr  6 14:49:32 2004" *by "Paul E. Black"
+
+# $Log: abstractDataType.trm,v $
+# Revision 1.4  2004/04/06 18:50:08  black
+# Add XREF to priority queue, which now has a formal definition.  Add
+# link to aciomatic semantics.  Add RCS keywords.
+#
 
 # entry name
 @NAME=abstract data type
@@ -17,7 +23,8 @@ precisely specified independent of any particular implementation.
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={dictionary}, {stack}, {queue}, {set}, {bag}, {data structure}
+@XREFS={dictionary}, {stack}, {queue}, {priority queue}, {set}, {bag},
+{data structure}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Since the data values and operations are defined with
 mathematical precision, rather than as
@@ -29,7 +36,7 @@ program implements the data type, etc.
 <P>
 One of the simplest abstract data types is the {stack}.  
 The operations new(), push(v, S), top(S), and popOff(S) may be
-defined as following.
+defined with {axiomatic semantics} as following.
 <ol>
 <li>new() returns a stack
 <li>popOff(push(v, S)) = S
@@ -63,4 +70,4 @@ After Nell Dale &lt;ndale@cs.utexas.edu&gt; May 2001.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/abstractDataType.trm,v $
