@@ -1,0 +1,21 @@
+# *created  "Fri Feb 26 16:50:24 1999" *by "Paul E. Black"
+# *modified "Thu Nov 18 14:27:09 1999" *by "Paul E. Black"
+# entry name
+@NAME=pushdown transducer
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=theory
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=
+# end
