@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Tue Oct 19 08:30:10 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:40 2004" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Revision 1.6  2004/12/17 17:23:40  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/10/19 12:44:24  black
 # Remove citation of "best modern reference".  Make NOTE more neutral.
 #
@@ -64,41 +67,41 @@ streets.
 @HISTORY=
 John N. Warfield &lt;Jnwarfield@aol.com&gt; provides the following
 history of digraphs.
-</P>
-<P>
+</p>
+<p>
 In the Harvard-Oxford books on Aristotle, one of the translators
 suggests that Aristotle actually used something akin to digraphs in
 his teachings, but this was pure speculation.
-</P>
-<P>
+</p>
+<p>
 Augustus De Morgan invented the Theory of Relations and published the
 key work in 1847---the same year in which Boole published his key
 book in which he credited De Morgan for essentially teaching Boole
 about logic.
-</P>
-<P>
+</p>
+<p>
 Since the Theory of Relations offers essentially the algebraic form of the 
 digraph, it is unlikely that there was any formal use before 1847.
-</P>
-<P>
-<A href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Peirce_Charles.html">Charles
-Sanders Peirce</A> made clear the use of structural patterns in doing
+</p>
+<p>
+<a href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Peirce_Charles.html">Charles
+Sanders Peirce</a> made clear the use of structural patterns in doing
 basic work, but his own graphics were not very useful in extended form, 
 though some modern enthusiasts have extolled his "existential graphs".
-</P>
-<P>
+</p>
+<p>
 The earliest actual drawing of a digraph as connected to De
 Morgan that I have been able to find occurs in the 1919 book by
 Bertrand Russell titled  "Introduction to Mathematical Philosophy".
-</P>
-<P>
+</p>
+<p>
 If you find an earlier digraph, please contact me, 
-<A href="mailto:Jnwarfield@aol.com">John N. Warfield</A>.
+<a href="mailto:Jnwarfield@aol.com">John N. Warfield</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
-traverse, top sort, etc. weighted, directed graph (Java)</A>
+traverse, top sort, etc. weighted, directed graph (Java)</a>
 # further explanation (pure HTML)
 @LINKS=
 # author's initials
