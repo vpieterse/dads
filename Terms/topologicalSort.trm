@@ -1,0 +1,34 @@
+# *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
+# *modified "Tue May 14 13:21:01 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=topological sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=To arrange items when some pairs of items have no comparison,
+that is, according to a {partial order}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=top sort
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={topological order}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#Leda98">[Leda98]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/topological-sorting.shtml">(C++,
+Mathematica, C, and Pascal)</A>,
+<A
+href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
+traverse, top sort, etc. weighted, directed graphs (Java)</A>
+# author's initials
+@AUTHOR=PEB
+# end
