@@ -1,0 +1,29 @@
+# *created  "Wed Mar 17 14:06:47 1999" *by "Paul E. Black"
+# *modified "Wed Jun  5 15:14:00 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=random number generator
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=numeric
+# the definition
+@DEFN=See {pseudo-random number generator}.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=RNG
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={spectral test}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any computer program is likely to generate pseudo-random
+numbers, not actually random numbers.  This is important when, say,
+simulations are sensitive to subtle patterns in the ``random'' numbers
+used.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
