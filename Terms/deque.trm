@@ -1,0 +1,27 @@
+# *created  "Wed Dec 16 15:58:58 1998" *by "Paul E. Black"
+# *modified "Wed Jan  9 12:42:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=deque
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A data structure in which items may be added to or deleted from
+the {head} or the {tail}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=doubly-ended queue
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={queue}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Short for <strong>D</strong>ouble-<strong>E</strong>nded
+<strong>QUE</strong>ue.
+After <A href="../terms.html#CLR90">[CLR90, page 203]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
