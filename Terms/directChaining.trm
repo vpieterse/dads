@@ -1,0 +1,30 @@
+# *created  "Wed Dec 23 08:27:04 1998" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:33:23 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=direct chaining hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An {array} of {lists} that is indexed by a 
+{hash function}.  Each list holds all items with the same hash value 
+({collisions}).
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={hash table},{linear search},{separate chaining hashing},
+{collision resolution scheme}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The items in the list may be searched and maintained with any
+list search algorithms.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.ins.c">insert
+(C)</A>, <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.srch.c">search
+(C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
