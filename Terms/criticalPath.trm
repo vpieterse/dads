@@ -1,5 +1,5 @@
 # *created  "Thu Sep 30 10:39:36 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:11:47 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:38 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=critical path problem
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,7 +9,7 @@
 # the definition
 @DEFN=Find the longest {path} from any {source} to any {sinks} in a
 {directed acyclic graph} which has weights, or numeric values, on
-{vertices#vertex}.
+{vertexes}.
 # comma-separated list of {cross references}.  printed as "See also ..."
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
@@ -24,4 +24,4 @@ far.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/criticalPath.trm,v $
