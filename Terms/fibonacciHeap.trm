@@ -1,0 +1,26 @@
+# *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
+# *modified "Wed Mar 13 10:53:15 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Fibonnaci heap
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {heap} made of a {forest} of {trees}.  The {amortized cost} of
+the operations create, insert a value, decrease a value, find minimum,
+and merge or join ({meld}) two heaps, is a constant
+{$\Theta(1)$#$\Theta$}.  The delete operation takes {$O(\log n)$#big-O
+notation}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={priority queue}, {Dijkstra's algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 421]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
