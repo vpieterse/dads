@@ -1,0 +1,32 @@
+# *created  "Wed Dec 29 12:01:44 1999" *by "Paul E. Black"
+# *modified "Wed Dec 29 12:19:10 1999" *by "Paul E. Black"
+# entry name
+@NAME=commutative
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A function where f(A, B) = f(B, A).
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={associative}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Multiplication is associative, e.g., $2 \times (3 \times 4) = 
+(2 \times 3) \times 4$, and commutative, e.g., $2 \times 3 = 3 \times 2$.
+Subtraction is neither associative, e.g., $2 - (3 - 4) \neq
+(2 - 3) - 4$, nor commutative, e.g., $2 - 3 \neq 3 - 2$.  Because of
+rounding floating point addition on a computer is not associative,
+e.g., $(1000000 + .00001) + .00001 \neq 1000000 + (.00001 + .00001)$
+(actual values depend on the details of the computer addition), but is
+commutative, e.g., $1000000 + .00001 = .00001 + 1000000$.  <br>
+Cartesian product is associative, e.g., $\{1, 2} \times
+(\{a, b} \times \{X, Y}) = (\{1, 2} \times \{a, b}) \times
+\{X, Y}$, but is not commutative, e.g., $\{1, 2} \times \{a, b} \neq
+\{a, b} \times \{1, 2}$.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
