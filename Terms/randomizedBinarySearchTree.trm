@@ -1,0 +1,51 @@
+# *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:01:52 2002" *by "Paul E. Black"
+# entry name
+@NAME=randomized binary search tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} in which {nodes} have a randomly assigned
+priority.  Updates keep priorities in {heap} order instead of keeping
+{balance} information and doing {rebalance} operations.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=cartesian tree, RBST
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={randomized search tree}, {treap}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>Conrado Martinez and Salvador Roura</strong>,
+<em>Randomized Binary Search Trees</em>, Journal of the ACM,
+45(2):288-323, March 1998.
+</P>
+
+<P>
+<strong>Jean Vuillemin</strong>, <em>A Unifying Look at Data
+Structures</em>, CACM, 23(4):229-239, April 1980.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also called a {treap}, but strictly a treap does not define how
+priorities are assigned.
+</P>
+
+<P>
+Because of the random priority, the trees are always expected to be
+nearly balanced, regardless of the number, kind and order of updates made.  
+The expected {worst case} is {O(log n)#big-O notation} for any update or
+search in a RBST of size $n$.
+# further explanation (pure HTML)
+@LINKS=Abstract of papers about <A
+href="http://www.lsi.upc.es/~techreps/html/R97-8.html">Randomized
+Binary Search Trees</A> and
+<A href="http://www.lsi.upc.es/~techreps/html/R98-48.html">Randomized
+K-Dimensional Binary Search Trees</A>
+# implementation(s) (pure HTML)
+@IMPL=Oleg Kiselyov's
+<A href="http://pobox.com/~oleg/ftp/Scheme/treap.scm">(Scheme)</A>
+# author's initials
+@AUTHOR=CM
+# end
