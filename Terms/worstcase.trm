@@ -1,5 +1,10 @@
 # *created  "Wed Dec 22 08:58:02 1999" *by "Paul E. Black"
-# *modified "Tue Dec  3 12:13:07 2002" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:59:15 2004" *by "Paul E. Black"
+
+# $Log: worstcase.trm,v $
+# Revision 1.2  2004/11/01 16:59:22  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=worst case
@@ -11,12 +16,23 @@
 @DEFN=(1) The situation or input that forces an {algorithm} or {data
 structure} to take the most time or resources.
 (2) Having to do with this situation or input.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={best case}, {average case}, {worst-case cost}, {amortized cost},
+
 {complexity}, {randomized algorithm}, {worst-case minimum access},
 {adversary}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=See the notes on worst-case behavior at {Huffman encoding} and
+@NOTES=See the notes on worst-case behavior at {Huffman coding} and
 {balanced quicksort} and
 the link at {BB$\alpha$ tree}.
 # further explanation (pure HTML)
@@ -25,4 +41,4 @@ the link at {BB$\alpha$ tree}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/worstcase.trm,v $
