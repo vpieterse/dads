@@ -1,0 +1,104 @@
+# $Id: latex2html.data,v 1.1 1999/08/31 15:36:49 black Exp $
+# *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
+# *modified "Tue Aug 31 11:34:51 1999" *by "Paul E. Black"
+
+#
+#		Rewrites from LaTeX math mode into HTML
+#
+
+# The left hand side of substitutions (patterns) start at the
+# beginning of the line and end at the first whitespace.
+# A substitution may be two parameters
+#(1)	left{hand$side}and{more$left}	right $ hand $ side
+# see \frac below.
+# A substitution may be a single parameter
+#(2a)	left{hand$side}	right $ hand side
+# for instance, {\bf $} <strong>$</strong> turns {\bf hi} into
+# <strong>hi</strong> and \mbox{$} $ turns \mbox{and} into and.
+# The single parameter may be unused
+#(2b)	left{hand$side}	right hand side
+# for instance, \begin{array}{$} <table><tr> turns \begin{array}{c} into
+# <table><tr>.
+# A substituition may be a simple replacement
+#(3)	leftHandSide	right hand side
+# which replaces the left hand side with the right hand side.  If the
+# right hand side is empty, the left hand side is just dropped.
+
+\frac{$}{$}	$/$
+
+#    Table 3.3: Greek Letters
+\alpha	<img src="Images/alpha.gif"  border=0 height=7  width=8  alt="alpha">
+\Gamma	<img src="Images/Gamma.gif"  border=0 height=10 width=7  alt="Capital Gamma">
+\delta	<img src="Images/delta.gif"  border=0 height=11 width=5  alt="delta">
+\Delta	<img src="Images/Delta.gif"  border=0 height=10 width=11 alt="Capital Delta">
+\epsilon <img src="Images/epsilon.gif" border=0 height=7 width=5 alt="epsilon">
+\Theta	<img src="Images/Theta.gif"  border=0 height=10 width=8  alt="Capital Theta">
+\lambda	<img src="Images/lambda.gif" border=0 height=10 width=8  alt="Capital lambda">
+\mu	&micro;
+\rho	<img src="Images/rho2.gif"   border=0 height=14 width=6  alt="rho" align=middle>
+\Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="Capital Sigma">
+\omega	<img src="Images/omega.gif"  border=0 height=7  width=9  alt="omega">
+\Omega	<img src="Images/Omega.gif"  border=0 height=10 width=9  alt="Capital Omega">
+#    Table 3.4: Binary Operation Symbols
+\pm	&plusmn;
+\times	&times;
+\div	&divide;
+\cdot	&middot;
+\cap	intersect
+\cup	union
+\bigtriangleup <img src="Images/Delta.gif"  border=0 height=10 width=11 alt="symmetric difference">
+\oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
+\otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
+#    Table 3.5: Relation Symbols
+\leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
+\ll	&lt;&lt;
+\subseteq	subset of
+\geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
+\gg	&gt;&gt;
+#\in	in		must go at end to not mess up \int and \infty
+#    Table 3.6 Arrow Symbols
+\rightarrow	-&gt;
+\mapsto		|-&gt;
+#    Table 3.7: Miscellaneous Symbols
+\Re	<em>R</em>
+\surd	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">
+\infty	<img src="Images/infty.gif"  border=0 height=6  width=13 alt="infinity">
+#    Table 3.8: Variable-sized Symbols
+\int	<img src="Images/integ.gif"  border=0 height=20 width=9 alt="integral of" align=middle>
+\sum	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="summation">
+#    Table 3.9: Log-like Functions
+\cos	cos
+\log	log
+\max	max
+\min	min
+#    Table 3.10: Delimiters
+\lceil	ceiling(
+\rceil	)
+\lfloor	floor(
+\rfloor	)
+# \left and \right are modifiers, Sect. 3.3.4, page 48
+\left
+\right.
+\right
+#    Other
+\ldots	...
+``	"
+''	"
+\sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">($)
+\overline{$}	$
+\mbox{$}	$
+\bar{$}		$
+{\bf $}		<strong>$</strong>
+{\cal $}	<strong><em>$</em></strong>
+\}	}
+# a crude handling of math arrays.  You could even look in the
+# alignment parameter and use <td align=center> for {c}, etc.
+#\begin{array}{$} <table><tr><td>
+#\\		</td></tr><tr><td>
+#\end{array}	</td></tr></table>
+\begin{array}{$} 
+\\		OVER&nbsp;
+\end{array}	
+# this must go after \int and \infty to not mess them up
+\in	in
+# end $Source: /home/black/DADS/dads/RCS/latex2html.data,v $
