@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 10:01:29 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:47:03 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:50 2004" *by "Paul E. Black"
+
+# $Log: leftisttree.trm,v $
+# Revision 1.2  2004/12/17 16:52:51  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=leftist tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,20 +14,31 @@
 @AREA=tree
 # the definition
 @DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/516.del.c">merge
-and delete (C and Pascal)</A> which use <A
+and delete (C and Pascal)</a> which use <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/516.dist.c">distance
-(C and Pascal)</A>, <A
+(C and Pascal)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/516.ins.c">insert
-(C and Pascal)</A>
+(C and Pascal)</a>
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/leftisttree.trm,v $
