@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 10:49:29 2002" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:55:36 2004" *by "Paul E. Black"
+
+# $Log: directedAcyclicWordGraph.trm,v $
+# Revision 1.2  2004/11/01 16:55:58  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=directed acyclic word graph
@@ -15,8 +20,19 @@ characters along a {path} from the {root} to a {node} are the
 (2) A {finite state machine} that recognizes a set of words.
 # comma-separated list of pure names
 @AKA=DAWG
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={compact DAWG}, {suffix tree}, {trie}, {Patricia tree},
+
 {suffix automaton}
 # bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
 @BIB=(1) <strong>Andrew W. Appel and Guy J. Jacobson</strong>, <em>The
@@ -44,7 +60,7 @@ A variant, the compact DAWG, labels the edges with strings, not just
 single characters.  In the compact DAWG, any {node} with one {child}
 is merged with its {parent} and the edge labels are concatenated.
 Another variant is the morphic DAWG, where some substrings are
-encoded with new characters, like a simplified {Huffman encoding}.
+coded with new characters, like a simplified {Huffman coding}.
 #
 # See "Word Graphs" by Robert W. P. Luk (copy in Mnemo 5), a review
 # paper for the Computer Journal I received in March 2000.  It
@@ -57,4 +73,4 @@ encoded with new characters, like a simplified {Huffman encoding}.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/directedAcyclicWordGraph.trm,v $
