@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.6 2003/11/19 14:08:47 black Exp $';
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.7 2004/01/07 16:57:15 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Wed Nov 19 09:05:30 2003" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Jan  7 11:53:30 2004" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -153,6 +153,24 @@ foreach $term_file_name (@ARGV) {
 
 	#print `ls -l $term_file_name`;
 
+	# look for stuff in the term file
+	my $xrefsRefinementsFound = 0;
+	my $preXrefsCommentLine = "";
+	my $previousLine = "";
+	foreach $line (@term_contents) {
+	    # does it have refinements of XREFS (IMA, etc.)?
+	    if ($line =~ /IMA=/) {
+		$xrefsRefinementsFound = 1;
+	    }
+
+	    # what is the comment line, if any, just before XREFS?
+	    if ($line =~ /XREFS=/ && $previousLine =~ /^#/) {
+		$preXrefsCommentLine = $previousLine;
+	    }
+
+	    $previousLine = $line;
+	}
+
 	# write back an edited version
 	$runtime = localtime();
 	if (open TERM, "> $term_file_name") {
@@ -190,6 +208,30 @@ foreach $term_file_name (@ARGV) {
 		if ($line =~ /[*]modified "[^"]*" [*]by/) {
 		    $justAfterModified = 1;
 		    $blankLineFound = 0;
+		}
+
+		# add refinements of XREFS if missing
+		if (! $xrefsRefinementsFound) {
+		    if ($preXrefsCommentLine eq $line) {
+			print TERM << "___XREFS_REFINEMENTS___";
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+\@IMA=
+# Specialization: "... is a kind of me."
+\@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+\@IMIN=
+# Aggregate child: "... is a part of or used in me."
+\@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+___XREFS_REFINEMENTS___
+			next;
+		    }
+		    # add blank line after XREFS
+		    if ($line =~ /XREFS=/) {
+			$line .= "\n";
+		    }
 		}
 
 		# other clean-up edits
