@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:22 2004" *by "Paul E. Black"
+# *modified "Tue Feb  1 15:50:19 2005" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Revision 1.6  2005/02/01 20:51:05  black
+# IMA {sort}, too (for ontology)
+#
 # Revision 1.5  2004/12/17 17:23:22  black
 # Make more XHTML compliant.
 #
@@ -34,7 +37,7 @@ list until no swaps are done.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={in-place sort}, {stable} sort
+@IMA={in-place sort}, {stable} {sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
