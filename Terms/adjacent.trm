@@ -2,6 +2,9 @@
 # *modified "Thu Nov  4 12:08:29 2004" *by "Paul E. Black"
 
 # $Log: adjacent.trm,v $
+# Revision 1.5  2004/11/05 20:07:48  black
+# Remove "dominate" - I deleted it from DADS.
+#
 # Revision 1.4  2004/11/04 17:28:24  black
 # Add IMA binary relation.  Add XREF to new term, dominate.  Note that
 # relation is symmetric, not reflexive or transitive.
@@ -34,7 +37,7 @@ if they connect the same vertex.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={dominate}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The "adjacent" relation is {symmetric}, but not (necessarily)
