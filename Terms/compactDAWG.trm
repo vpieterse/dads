@@ -1,0 +1,39 @@
+# *created  "Fri Mar 31 11:09:52 2000" *by "Paul E. Black"
+# *modified "Mon Jan  8 15:53:28 2001" *by "Paul E. Black"
+# entry name
+@NAME=compact DAWG
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {directed acyclic#directed acyclic graph} word graph (DAWG)
+representing the {suffixes} of a given {string} in which each {edge}
+is labeled with the longest possible string.  The strings along a
+{path} from the {root} to a {node} are the {substring} which the
+{node} represents.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={directed acyclic word graph}, {Patricia tree}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>Andrew W. Appel and Guy J. Jacobson</strong>, <em>The
+World's Fastest Scrabble Program</em>, CACM, 31(5):572-578, May 1988.
+Good description of the basic DAWG.
+#			copy in Mnemo 5.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is a variant of a directed acyclic word graph, or DAWG, in
+which a {node} with one {child} is merged with its {parent} and the
+edge labels are concatenated.  A Patricia tree merges single-child nodes
+also, but does not combine common subtrees.
+#						copy in Mnemo 5.
+# See "Word Graphs" by Robert W. P. Luk (copy in Mnemo 5), a review
+# paper for the Computer Journal I received in March 2000.  It
+# explains DAWG, directed acyclic word graph, compact DAWG, morphic
+# DAWG, and compact morphic DAWG.  Compares space and time tradeoffs
+# and comments on implementations.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
