@@ -1,0 +1,23 @@
+# *created  "Mon Sep 27 08:54:22 1999" *by "Paul E. Black"
+# *modified "Fri Dec 14 12:47:34 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=algorithm BSTW
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Lempel-Ziv-Welch}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.ics.uci.edu/~dan/pubs/DC-Sec5.html">survey
+of data compression</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
