@@ -1,5 +1,10 @@
 # *created  "Wed Nov 10 12:41:47 1999" *by "Paul E. Black"
-# *modified "Wed Apr 24 08:44:07 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:30 2004" *by "Paul E. Black"
+
+# $Log: introspectiveSort.trm,v $
+# Revision 1.2  2004/12/17 16:52:30  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=introspective sort
@@ -13,23 +18,34 @@ pathological inputs, that is, when execution time is becoming
 quadratic.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=introsort
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=introspection sort, intro sort
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>David R. Musser</strong>, <em>Introspective Sorting and
 Selection Algorithms</em>, Software-Practice and Experience,
 8:983-993, 1997.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.cs.rpi.edu/~musser/gp/index_1.html">abstract
-and link to Musser's paper</A>
+@LINKS=<a href="http://www.cs.rpi.edu/~musser/gp/index_1.html">abstract
+and link to Musser's paper</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/introspectiveSort.trm,v $
