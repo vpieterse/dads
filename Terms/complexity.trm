@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan 28 12:23:22 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=complexity
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=The intrinsic minimum amount of resources, for instance, memory,
+time, messages, etc., needed to solve a problem or execute an
+{algorithm}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={complexity class}, {big-O notation}, {decision problem},
+{model of computation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Any measure of execution must implicitly or explicitly refer to some
+computation model.  Usually this is some notion of the limiting
+factor.  For one problem or machine, the number of
+floating point multiplications may be the limiting factor, while for
+another, it may be the number of messages passed across a network.
+Other measures that may be important are compares, item moves,
+disk accesses, memory used, or elapsed ("wall clock") time.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
