@@ -1,0 +1,48 @@
+# *created  "Tue Mar 30 10:01:22 1999" *by "Paul E. Black"
+# *modified "Mon Jan 28 09:28:14 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=kth order Fibonacci numbers
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=numeric
+# the definition
+@DEFN=A sequence of numbers where each number is the sum of
+the <em>k</em> preceding numbers.
+The usual {Fibonacci numbers} occur when <em>k=2</em>.
+# formal definition or {cross reference} to an entry
+@FORML=
+<ul>
+<li>
+<em>F<sup>(k)</sup><sub>n</sub></em> =
+<em>F<sup>(k)</sup><sub>n-1</sub></em> +
+<em>F<sup>(k)</sup><sub>n-2</sub></em> + . . . +
+<em>F<sup>(k)</sup><sub>n-k</sub></em> &nbsp;&nbsp;&nbsp;&nbsp; for 
+$n \geq k$.
+
+<li><em>F<sup>(k)</sup><sub>k-1</sub></em> = 1
+
+<li><em>F<sup>(k)</sup><sub>n</sub></em> = 0 &nbsp;&nbsp;&nbsp;&nbsp; for
+&nbsp; 
+$0 \leq n \leq k-2$
+</ul>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=pth order Fibonacci numbers
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={optimal polyphase merge}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+Apparently first studied by <strong>V. Schlegel</strong>, El Progreso
+Matem&aacute;tico, 4:173-174, 1894.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
