@@ -1,5 +1,5 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Fri Nov 30 10:42:51 2001" *by "Paul E. Black"
+# *modified "Fri May  3 14:37:08 2002" *by "Paul E. Black"
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -53,6 +53,12 @@ lower case
 Plants, or, What Kind of Terminal Could a Tulip Use?</em>, to be
 published in Deep Thoughts, Proceedings of Life, the Universe,
 &amp; Everything XV, Provo, Utah, USA, February 1997.
+</P>
+
+<P>
+<strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
+for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
+Symposium on Discrete Algorithms (SODA), January 1997.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 $\alpha \times \alpha \leq \Omega \ll \Sigma$ and
