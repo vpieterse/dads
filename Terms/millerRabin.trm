@@ -1,0 +1,45 @@
+# *created  "Fri Apr 27 13:00:51 2001" *by "Paul E. Black"
+# *modified "Thu Oct  3 09:49:04 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Miller-Rabin
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=A {heuristic} test for prime numbers.  It repeatedly checks if
+the number being tested, n, is pseudoprime to a randomly chosen base,
+a, and there are only trivial square roots of 1, modulo n.  In other
+words, n is surely composite if
+$a<sup>n-1</sup> \neq 1 (mod n)$, where $0 &lt; a &lt; n$.  Some
+composites may be incorrectly judged to be prime.  
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Miller-Rabin probabilistic primality test
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=For k repetitions, the chance of incorrectly judging an odd
+integer greater than 2 to be prime is $2<sup>-k</sup>$.  For randomly
+chosen large integers, a small number of repetitions, say 3, is
+enough.
+After <A href="../terms.html#CLR90">[CLR90, pp 838-844]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Frederic Raynal's
+<A href="http://minimum.inria.fr/~raynal/index.php3?page=5">Miller-Rabin
+Primality test (pseudo-code)</A> pages, with mathematical background,
+implementation, demonstration, etc. 
+<A href="http://jasper.cs.yale.edu/thesis/node5.html">Explanation</A>
+and <A href="http://jasper.cs.yale.edu/thesis/node10.html">code
+(C)</A> in Pete Emerson's thesis.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
