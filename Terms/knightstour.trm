@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:08:47 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=knight's tour
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=A series of moves of a chess knight that visits all squares on
+the board exactly once.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Hamiltonian cycle}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The associated problem is to find such a series of moves.  The
+problem can be generalized to an $n \times m$ rectangular chess board.
+Solutions may be found using {backtracking}.
+# further explanation (pure HTML)
+@LINKS=
+# page author is Mark R. Keen <mark@markkeen.com> Nov 2001
+Mark R. Keen's <A
+href="http://www.markkeen.com/knight.html">Knight's Tour</A>
+page, a thorough discussion of the origin of and ways of
+finding solutions to the Knight's Tour.  It treats rectangular boards
+of arbitrary size.  
+# implementation(s) (pure HTML)
+@IMPL=Oleg Kiselyov's <A
+href="http://pobox.com/~oleg/ftp/Prolog/Knight.prl">derivation (Prolog)</A>
+# author's initials
+@AUTHOR=PEB
+# end
