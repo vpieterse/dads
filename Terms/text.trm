@@ -1,0 +1,28 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri Oct  5 09:55:14 2001" *by "Paul E. Black"
+# entry name
+@NAME=text
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A list of characters, usually thought of as a list of words
+separated by spaces.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={string matching}, {string matching with errors},
+{longest common subsequence}, {inverted index}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The term {string} usually refers to a small sequence of characters,
+such as a name or a sentence.  The term text usually refers to a large
+sequence of characters, such as an article or a book.
+<P>
+See definition relating to string matching in Algorithms and Theory
+of Computation Handbook, page 11-26.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
