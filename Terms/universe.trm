@@ -1,0 +1,21 @@
+# *created  "Tue Mar 14 10:56:06 2000" *by "Paul E. Black"
+# *modified "Tue Mar 14 11:00:22 2000" *by "Paul E. Black"
+# entry name
+@NAME=universe
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=All potential elements of a {set}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={complement}, {restricted universe sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
