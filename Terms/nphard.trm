@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec 26 10:43:36 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 12:41:21 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=NP-hard
@@ -12,7 +12,7 @@
 intrinsically harder
 than those that can be solved by a {nondeterministic Turing machine}
 in {polynomial time}.  When a decision version of a
-combinatorial {optimization problem} is proven to belong to the class
+combinatorial {optimization problem} is proved to belong to the class
 of {NP-complete} problems, which includes well-known problems such as
 satisfiability, {traveling salesman}, the {bin packing problem}, etc., 
 then the optimization version is NP-hard.
