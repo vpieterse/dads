@@ -1,7 +1,10 @@
 # *created  "Mon Mar 22 11:48:38 2004" *by "Paul E. Black"
-# *modified "Mon Mar 22 12:33:38 2004" *by "Paul E. Black"
+# *modified "Fri Aug 13 15:09:11 2004" *by "Paul E. Black"
 
 # $Log: axiomaticSemantics.trm,v $
+# Revision 1.2  2004/08/13 19:10:55  black
+# Fix grammar mistake and improve wording.
+#
 # Revision 1.1  2004/03/22 17:33:58  black
 # Initial revision
 #
@@ -13,7 +16,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=Defining the meaning of an {abstract data type} with axioms.
+@DEFN=Defining the behavior of an {abstract data type} with axioms.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -64,9 +67,9 @@ says it means the same as new().
 
 <P>
 The third axiom assigns meaning to expressions like 
-top(push(1, push(2, new()))): it is 1.  This is reasonably, since the
-top element is the latest one pushed.  A series of push, pop and top
-operations may be reduced with these axioms.
+top(push(1, push(2, new()))): it is 1.  This is reasonable, since the
+top element is the latest one pushed.  A series of push and popOff
+operations and a top operation may be reduced with these axioms.
 </P>
 
 <P>
