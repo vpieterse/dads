@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Sep  3 12:34:33 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:50 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.7  2004/12/17 17:24:50  black
+# Make more XHTML compliant.
+#
 # Revision 1.6  2004/09/03 16:35:34  black
 # Add LINK to Nuutila and Soisalon-Soininen's paper with algorithms.
 #
@@ -53,10 +56,10 @@ vertex $v\in V'$ for which $(u, v)\in E$.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={cycle}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 This has a linear time algorithm for finding strongly connected
-components:<BR>
+components:<br>
 <strong>Robert E. Tarjan</strong>, 
 <em>Depth-first search and linear graph algorithms</em>,
 SIAM Journal on Computing, 1(2):146-160, 1972.
@@ -64,15 +67,15 @@ SIAM Journal on Computing, 1(2):146-160, 1972.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=If a graph is strongly connected, it has only one
 strongly connected component.
-</P>
+</p>
 
-<P>
+<p>
 The strongly connected components {partition} the vertices in the
 graph.  That is, every vertex is in exactly one strongly connected
 component.
-</P>
+</p>
 
-<P>
+<p>
 Formally, let $G=(V, E)$ be a directed graph and
 $G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
 G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
@@ -86,26 +89,26 @@ V<sub>i</sub>
 <LI> $\bigcup<sub>i=1</sub> V<sub>i</sub> = V$ <br>(subgraphs exactly
 cover the original).
 </ul>
-</P>
+</p>
 
-<P>
+<p>
 After Robert Caswell (caswer01@cs.uwa.edu.au), 3 May 2002.
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://www.cs.hut.fi/~enu/tc.html">Transitive closure</A> has
+<a href="http://www.cs.hut.fi/~enu/tc.html">Transitive closure</a> has
 a link to 
 <strong>Esko Nuutila</strong> and <strong>Eljas Soisalon-Soininen</strong>, 
-<A href="http://www.cs.hut.fi/~enu/ps/ipl-scc.ps"><em>On finding the
-strongly connected components in a directed graph</em></A>
+<a href="http://www.cs.hut.fi/~enu/ps/ipl-scc.ps"><em>On finding the
+strongly connected components in a directed graph</em></a>
 (PostScript&reg;),
 Information Processing Letters 49 (1993) 9-14.
 The paper has Tarjan's algorithm, references to other algorithms, and
 two faster algorithms in Pascal-like pseudo-code.
 
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
-Pascal, Mathematica, and Fortran)</A>
+Pascal, Mathematica, and Fortran)</a>
 
 # author's initials
 @AUTHOR=PEB
