@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 09:28:58 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:37:54 2005" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.6  2005/02/02 20:38:14  black
+# Fix typo in IMPL language.
+#
 # Revision 1.5  2005/01/10 14:29:02  black
 # Update Oleg Kiselyov's URL
 #
@@ -58,7 +61,7 @@ Michael Gilleland's
 <a href="http://www.merriampark.com/perm.htm">PermutationGenerator
 class (Java)</a>;
 Glenn Rhoads' 
-<a href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (c)</a>;
+<a href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>;
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</a>;
