@@ -1,0 +1,59 @@
+# *created  "Thu May 13 10:18:15 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 09:46:03 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=adjacency-list representation
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A representation of a {directed graph} with $n$
+{vertices#vertex} using an {array} of $n$ {lists} of vertices.  List
+$i$ contains vertex $j$ if there is an {edge} from
+vertex $i$ to vertex $j$.  A {weighted graph} may be
+represented with a list of vertex/weight pairs.  An {undirected graph}
+may be represented by having vertex $j$ in the list for vertex $i$
+and vertex $i$ in the list for vertex $j$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=adjacency list
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={adjacency-matrix representation}, {sparse graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Suppose we have a directed graph with four vertices.  Here are
+adjacency-matrix and adjacency-list representations.  The arrow (-&gt;)
+means a link in a list.
+<P>
+<pre>
+   1 2 3 4<br>
+1  1 1 1 1<br>
+2  1 0 0 0<br>
+3  0 1 0 1<br>
+4  0 1 1 0<br>
+</pre>
+</P>
+<P>
+<pre>
+1  -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4<br>
+2  -&gt; 1<br>
+3  -&gt; 2 -&gt; 4<br>
+4  -&gt; 2 -&gt; 3<br>
+</pre>
+</P>
+
+<P>
+One variant is to have an array of columns, rather than rows, with the
+list going "down".  The adjacency-list representation is more compact
+for a {sparse matrix}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=BB,PEB
+# end
