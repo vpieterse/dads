@@ -1,9 +1,12 @@
 # *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 12:22:56 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:17 2004" *by "Paul E. Black"
 
 # $Log: metaphone.trm,v $
+# Revision 1.6  2004/12/17 17:24:17  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/11/01 17:23:02  black
-# Change caverphone to Caverphone
+# Change Caverphone to Caverphone
 #
 # Revision 1.4  2004/05/05 19:44:12  black
 # Rename edit distance to be Levenshtein distance.
@@ -38,40 +41,40 @@ to 16 consonant sounds.  A better variant is {double metaphone}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Jaro-Winkler}, {Caverphone}, {NYSIIS}, {soundex}, {Levenshtein distance}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Andrew Binstock and John Rex</strong>. <em>Metaphone: A Modern
 Soundex<em>. Practical Algorithms For Programmers.  Addison-Wesley,
 1995 pages 160-169.
-</P>
+</p>
 
-<P>
+<p>
 <strong>Gary Parker</strong>. <em>A Better Phonetic Search</em>. C
 Gazette, Vol. 5, No. 4 (June/July), 1990.
-</P>
+</p>
 
-<P>
+<p>
 <strong>Lawrence Philips</strong>. <em>Hanging on the
 Metaphone</em>. Computer Language, Vol. 7, No. 12 (December), 1990.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.lanw.com/java/phonetic/">A Better Phonetic
-Lookup</A>
+@LINKS=<a href="http://www.lanw.com/java/phonetic/">A Better Phonetic
+Lookup</a>
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://aspell.sourceforge.net/metaphone/">Metaphone and
-double metaphone (Basic, C, Perl, and C++)</A>,
-<A href="http://www.wbrogden.com/phonetic/index.html">applet
-for name lookup (Java)</A>,
+@IMPL=<a href="http://aspell.sourceforge.net/metaphone/">Metaphone and
+double metaphone (Basic, C, Perl, and C++)</a>,
+<a href="http://www.wbrogden.com/phonetic/index.html">applet
+for name lookup (Java)</a>,
 Apache codec implementations of 
-<A href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
-and Double Metaphone (Java)</A>. 
-<A
+<a href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
+and Double Metaphone (Java)</a>. 
+<a
 href="http://www.iiug.org/members/memb_software/archive/metaphone">(C,
-Basic)</A>.
-<A
-href="http://www.lanw.com/java/phonetic/">(Java)</A>, <A
-href="http://www.ddj.com/ftp/1997/1997.odbms/DD-3.TXT">(Java)</A>.
+Basic)</a>.
+<a
+href="http://www.lanw.com/java/phonetic/">(Java)</a>, <a
+href="http://www.ddj.com/ftp/1997/1997.odbms/DD-3.TXT">(Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/metaphone.trm,v $
