@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 09:33:06 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=asymptotically tight bound
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=When the {asymptotic complexity#$\sim$} of an {algorithm} exactly
+matches the theoretically proven asymptotic complexity of the
+corresponding problem.  Informally, when an algorithm solves a problem
+at the theoretical minimum.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={$\Theta$}, {asymptotic upper bound}, {asymptotic
+lower bound}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
