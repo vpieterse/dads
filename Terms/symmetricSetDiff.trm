@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Mar  7 16:19:38 2001" *by "Paul E. Black"
+# entry name
+@NAME=symmetric set difference
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=Members which are in either {set}, but not in both.  That is,
+for sets $A$ and $B$, it is $(A - B) \cup (B - A)$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={difference}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=$\{2, 3, 5} \bigtriangleup \{7, 5} = \{2, 3, 7}$.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
