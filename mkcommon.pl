@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.17 2003/01/07 17:08:21 black Exp $
+# $Id: mkcommon.pl,v 1.18 2003/12/18 19:33:55 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Tue Jan  7 11:54:39 2003" *by "Paul E. Black"
+# *modified "Thu Dec 18 10:40:12 2003" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -88,8 +88,13 @@ $URL_DIR	="http://www.nist.gov/dads";
 	AKA	=> 1,
 	WEB	=> 1,
 	XREFS	=> 1,
+	IMA	=> 1,	# Generalization ("I am a kind of ...")
+	VARIANT	=> 1,	# Specialization ("... is a kind of me.")
+	IMIN	=> 1,	# Aggregate parent ("I am a part of or used in ...")
+	INME	=> 1,	# Aggregate child ("... is a part of or used in me.")
 	BIB	=> 1,
 	NOTES	=> 1,
+	HISTORY	=> 1,	# Historical note
 	AUTHOR	=> 1,
 	IMPL	=> 1,
 	LINKS	=> 1
