@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Aug 12 14:56:00 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:07:17 2004" *by "Paul E. Black"
+
+# $Log: restricted.trm,v $
+# Revision 1.2  2004/12/17 17:07:17  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=restricted universe sort
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=A {sort} algorithm that operates on the basis that the {keys}
 are members of a restricted set of values.  They may not require
 comparisons of keys to perform the sorting.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={comparison sort}, {counting sort}, {bucket sort}, {radix
+
 sort}, {distribution sort}, {universe}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -25,4 +42,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/restricted.trm,v $
