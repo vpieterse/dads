@@ -1,0 +1,29 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jul 31 13:27:16 2000" *by "Paul E. Black"
+# entry name
+@NAME=edge coloring
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An assignment of colors (or any distinct marks) to the 
+{edges} of a {graph}.  A coloring is a {proper
+coloring} if no two {adjacent} edges have the same color.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={vertex coloring}, {k-coloring}, {chromatic index}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 7-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/edge-coloring.shtml">(C++,
+Mathematica, and C)</A>
+# author's initials
+@AUTHOR=PEB, CRC-A
+# end
