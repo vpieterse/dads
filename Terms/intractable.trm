@@ -1,5 +1,11 @@
 # *created  "Mon Jan 31 15:42:15 2000" *by "Paul E. Black"
-# *modified "Mon Jan 31 15:47:32 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:04:54 2004" *by "Paul E. Black"
+
+# $Log: intractable.trm,v $
+# Revision 1.2  2004/12/17 17:04:54  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=intractable
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=A problem for which no {algorithm} can exist which computes all
 instances of it in {polynomial time}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={tractable}, {undecidable problem}, {unsolvable problem}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -19,4 +36,4 @@ instances of it in {polynomial time}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/intractable.trm,v $
