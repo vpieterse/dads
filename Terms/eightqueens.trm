@@ -1,0 +1,31 @@
+# *created  "Mon Nov  1 11:21:25 1999" *by "Paul E. Black"
+# *modified "Wed Jan 30 10:13:59 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=8 queens
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Place eight chess queens on an $8 \times 8$ board such that no
+queen can attach another.  Efficiently find all possible placements.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=eight queens
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={n queens}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.math.utah.edu/~alfeld/queens/queens.html">explanation
+and Java classes</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
