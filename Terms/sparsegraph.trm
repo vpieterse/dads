@@ -1,5 +1,14 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Oct 18 16:42:36 2001" *by "Paul E. Black"
+# *modified "Sat Dec 27 11:41:24 2003" *by "Paul E. Black"
+
+# $Log: sparsegraph.trm,v $
+# Revision 1.3  2003/12/27 16:48:44  black
+# Refer to Preiss' definition of sparse and dense graphs.
+#
+# Revision 1.2  2003/10/14 19:02:32  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=sparse graph
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +19,19 @@
 @DEFN=A {graph} in which the number of {edges} is much less than the
 possible number of edges, that is, the number of {vertexes}
 squared.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={dense graph}, {complete graph}, {adjacency-list representation}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 6-22,
@@ -20,6 +40,15 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+Bruno Preiss' <A
+href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
+of sparse and dense graphs</A> has problems, but may help.  First, for
+one graph, one can always choose a k.  Second a class of graphs might
+be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $2 &gt; k &gt; 1$.
+$|E|$ is the number of edges, and $|V|$ is the number of vertexes.
+<BR>
+Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
+22 December 2003
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
