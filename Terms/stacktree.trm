@@ -1,0 +1,28 @@
+# *created  "Thu Nov 18 16:39:33 1999" *by "Paul E. Black"
+# *modified "Tue Apr  4 15:31:25 2000" *by "Paul E. Black"
+# entry name
+@NAME=stack tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {binary tree} where no {node}, except the {root}, has more
+than one non-{leaf} {child}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This topology is used to define simple, fault-tolerant, acyclic
+networks.  See Ann T. Tai, Savio N. Chau, and Leon Alkalai,
+"COTS-Based Fault Tolerance in Deep Space: Qualitative and
+Quantitative Analyses of a Bus Network Architecture," in Proceedings
+of the 4th International IEEE High-Assurance Systems Engineering
+Symposium (HASE '99), November 1999, Washington, D.C., pages 97 -
+104.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
