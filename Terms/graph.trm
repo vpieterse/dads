@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Wed Aug  6 08:28:21 2003" *by "Paul E. Black"
+# *modified "Wed Sep 24 13:19:32 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=graph
@@ -10,7 +10,7 @@
 # the definition
 @DEFN=A set of items connected by {edges}.  Each
 item is called a {vertex} or node.  Formally, a graph is a
-{set} of vertices and a {relation} between vertices, adjacency.
+{set} of vertices and a {binary relation} between vertices, adjacency.
 # formal definition or {cross reference} to an entry
 @FORML=A graph G can be defined as a pair (V,E), where V is a set
 of vertices, and E is a set of edges between the vertices
@@ -82,7 +82,9 @@ traverse, top sort, etc. weighted, directed graphs (Java)</A>,
 and display directed and undirected graphs,
 <A
 href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">graph
-generating (C, Mathematica, Pascal, C++, and Fortran)</A>
+generating (C, Mathematica, Pascal, C++, and Fortran)</A>,
+<A href="http://infosun.fmi.uni-passau.de/GTL/">GTL - the Graph
+Template Library (C)</A>
 # author's initials
 @AUTHOR=PEB,PJT
 # end
