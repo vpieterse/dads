@@ -1,0 +1,39 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Thu Apr  4 15:22:08 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=decidable
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=A {decision problem} that can be solved by an {algorithm} that
+halts on all inputs in a finite number of steps.  The associated
+language is called a {decidable language}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=totally decidable problem, algorithmically solvable, recursively solvable
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={undecidable}, {NP}, {NP-complete}, {solvable}, {tractable},
+{computable}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For emphasis, the equivalent term <em>totally decidable
+problem</em> is sometimes used.
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, pages 24-19 and 26-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CRC-A
+# end
