@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.45 2000/05/15 14:59:28 black Exp $
+# $Id: mkterms,v 1.46 2000/10/26 16:50:20 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Mon May 15 10:56:33 2000" *by "Paul E. Black"
+# *modified "Thu Oct 26 12:41:18 2000" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -42,13 +42,15 @@ $justTesting = "";
 # - LATEXREWRITES is the (path) name of PERL substitutions to change LaTeX 
 #	to the target language, e.g., HTML
 # - WEB_DIR is the file system path of the web pages.
-# - WEBPAGE is the name of final web page, less extension (.html), for 
-#	instance, the main page is written to $WEB_DIR/$WEBPAGE.html
 # - OUT_DIR is the path of the directory where term pages go, that is,
 #	$WEB_DIR/$OUT_DIR/termFile.html is the path for termFile.trm
 # - URL_DIR is the URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
+# - WEBPAGE is the name of final (combined or main) web page, less extension 
+#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
+# - TWOLEVEL is the name of the two-level index web page, less extension
+#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
 
 $TERMS_DIR="Terms";
 $TERM_EXT ="trm";
@@ -57,9 +59,10 @@ $AREAS	  ="areas.data";
 $TYPES	  ="types.data";
 $LATEXREWRITES = "latex2html.data";
 $WEB_DIR  ="Target";
-$WEBPAGE  ="terms";
 $OUT_DIR  ="HTML";
 $URL_DIR  ="http://hissa.nist.gov/dads";
+$WEBPAGE  ="terms";
+$TWOLEVEL ="terms2";
 #$ownerEmail = "paul.black\@nist.gov";
 
 # true prints information as this runs
@@ -176,9 +179,9 @@ sub backupMove {
     }
 
     # rename the temporary file
-    link($temppage, $topage)
-	|| die("Cannot link temporary file to page $topage, stopped");
-    unlink($temppage);
+    link($frompage, $topage)
+	|| die("Cannot link temporary file $frompage to $topage, stopped");
+    unlink($frompage);
 }
 
 # "quote" characters which are special in regular expression patterns
@@ -501,13 +504,15 @@ print "Read $numEntriesRead terms\n";
 
 #------------------------------------------------------------------------
 #
-# Step III: create the main web page in a temporary file
-#	-) create a temporary file
-#	a) copy the introduction
-#	b) sort the entries
+# Step III: create the main and two-level web pages in temporary files
+#	a) create a temporary file for the main (combined) index
+#		copy the introduction
+#	b) create a temporary file for the two-level index
+#		and copy the introduction
 #
 #------------------------------------------------------------------------
 
+# Step IIIa: create a temporary file for the main index and copy the intro
 $pagename="$WEBPAGE.html";
 $temppage="$WEB_DIR/\#$WEBPAGE.html";
 
@@ -515,7 +520,6 @@ unlink($temppage) if (-e $temppage);
 open(TMPPAGE, "> $temppage")
     || die ("Cannot create temporary web page $temppage, stopped");
 
-# Step IIIa: copy the intro
 &concatenate("$WEBPAGE.intro", TMPPAGE);
 
 # write processing date and time
@@ -528,13 +532,22 @@ foreach $letter ("A".."Z") {
 }
 print TMPPAGE "</h3>\n";
 
-# Step IIIb: sort the entries
-@sortedentries = sort keys %entries;
-#print @sortedentries;
+
+# Step IIIb: create a temporary file for the two-level index and copy the intro
+$twolevpage="$TWOLEVEL.html";
+$twolevtemp="$WEB_DIR/\#$TWOLEVEL.html";
+
+unlink($twolevtemp) if (-e $twolevtemp);
+open(TMP2LEV, "> $twolevtemp")
+    || die ("Cannot create temporary web page $twolevtemp, stopped");
+
+&concatenate("$TWOLEVEL.intro", TMP2LEV);
+
 
 #------------------------------------------------------------------------
 #
-# Step IIIc: write each entry to its own page and in main page index
+# Step IIIc: write each entry to its own page, in main page index, 
+# and in the two-level index
 #
 #------------------------------------------------------------------------
 
@@ -620,8 +633,8 @@ sub rewriteHrefs {
 
 print STDERR "Writing terms\n" if ($verbose);
 
-# find out how old the younger of the entry intro and entry conclusion 
-# files are, so we can check whether we need to rewrite the HTML page.
+# find the age of the younger of the entry intro and entry conclusion 
+# files, so we can check whether we need to rewrite the HTML page.
 if (-M $ENTINTRO < -M $ENTCONCL) {
     $ENTNEWESTMOD = -M $ENTINTRO;
 } else {
@@ -642,12 +655,46 @@ TABLE_BEGINNING
 $letter = " ";
 print TMPPAGE "<dl>\n";
 
+$prevdname = ""; # check for repeated entries
+
+# sort the entries
+@sortedentries = sort keys %entries;
+#print @sortedentries;
+
 # Step IIIc: write the entries
 for $ekey (@sortedentries) {
+    %thisEntry = %{$entries{$ekey}};
+    #print %thisEntry; print "\n";
+
+    my($ename) = $thisEntry{NAME};
+    my($tname) = $thisEntry{TNAME};
+    my $dname = $thisEntry{DNAME};
+    my $xname = $thisEntry{XNAME};
+    if (defined $thisEntry{MODIFIED}) {
+	$moddate = $thisEntry{MODIFIED};
+    } else {
+	$moddate = "sometime";
+    }
+
+    # check for repeated entry names.  This happens when I change the
+    # file name for an entry, but forget to remove the old file.
+    if ($dname eq $prevdname) {
+	print "\n    *****Repeated entry: $dname\n";
+    }
+    $prevdname = $dname;
+
+    $termpage="$OUT_DIR/$thisEntry{BASEFILENM}.html";
+    $termurl ="$URL_DIR/$termpage";
+    $termfile="$WEB_DIR/$termpage";
+
+    ###########################################################################
+    # Write an entry in the combined index page
+    ###########################################################################
+
     # if we are half way, start second of two columns
     $numEntries++;
     if ($numEntries == $halfEntries) {
-# start new column at M, instead
+# start new column at M, instead of half way
 #	print TMPPAGE << "TABLE_NEXT_COLUMN";
 #</dl>
 #</td>
@@ -678,26 +725,17 @@ TABLE_NEXT_COLUMN
 	print TMPPAGE "<a name=\"$letter\"><h2>$letter</h2>\n\n<dl>\n";
     }
 
-    %thisEntry = %{$entries{$ekey}};
-    #print %thisEntry; print "\n";
-
-    my($ename) = $thisEntry{NAME};
-    my($tname) = $thisEntry{TNAME};
-    my $dname = $thisEntry{DNAME};
-    my $xname = $thisEntry{XNAME};
-    if (defined $thisEntry{MODIFIED}) {
-	$moddate = $thisEntry{MODIFIED};
-    } else {
-	$moddate = "sometime";
-    }
-
-    $termpage="$OUT_DIR/$thisEntry{BASEFILENM}.html";
-    $termurl ="$URL_DIR/$termpage";
-    $termfile="$WEB_DIR/$termpage";
-
     # write an entry in the main page
     print TMPPAGE "<dt><a href=\"$termpage\">$dname</a>";
     print TMPPAGE "\n";
+
+    ###########################################################################
+    # Write an entry in the two-level index
+    ###########################################################################
+
+    ###########################################################################
+    # Write the entry HTML page (if necessary)
+    ###########################################################################
 
     # should we write the HTML page?
     if ((! -e $termfile) || $writeAllPages
@@ -706,7 +744,7 @@ TABLE_NEXT_COLUMN
 	# write the page
 	print STDERR "$tname, " if ($verbose);
     } else {
-	# don't need to write the page (except to check crossreferences)
+	# don't need to write the page
 	print STDERR ", " if ($verbose); # just a "working" mark
 	next;
     }
@@ -874,14 +912,22 @@ print TMPPAGE "</dl>\n\n";
 
 close TMPPAGE;
 
+# Step IIIf: backup old page and rename the temporary file
+
+&backupMove($temppage, "$WEB_DIR/$pagename") if ! $justTesting;
+
 #------------------------------------------------------------------------
 #
-# Step IV: backup old page and rename the temporary file
+# Step IV: copy closing of two-level index, backup old page, and
+# rename temporary file
 #
 #------------------------------------------------------------------------
 
-die ("TESTING-INDEX PAGES NOT CHANGED, stopped") if $justTesting;
-&backupMove($temppage, "$WEB_DIR/$pagename");
+&concatenate("$TWOLEVEL.concl", TMP2LEV);
+
+close TMP2LEV;
+
+&backupMove($twolevtemp, "$WEB_DIR/$twolevpage") if ! $justTesting;
 
 #------------------------------------------------------------------------
 #
