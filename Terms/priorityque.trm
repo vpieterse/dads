@@ -1,0 +1,39 @@
+# *created  "Fri Sep 18 12:52:42 1998" *by "Paul E. Black"
+# *modified "Wed Nov 20 12:15:14 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=priority queue
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An {abstract data type} to efficiently support finding
+the item with the highest priority across a series of
+operations.  The basic operations are: insert, find-minimum (or
+maximum), and delete-minimum (or maximum).  Some implementations also
+efficiently
+support join two priority queues ({meld}), delete an arbitrary item,
+and increase the priority of a item (decrease-key).
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={discrete interval encoding tree}, {best-first search}, {heap},
+{hash heap}, {Fibonnaci heap}, {calendar queue}, {queue}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=It can be implemented efficiently with a {heap}.
+After LK.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# forwards to http://www.leekillough.com/heaps/, which is under construction
+#links to <A href="http://priority-queues.webhop.org/">implementations,
+#dozens of papers</A>, introductory material, etc.  
+Implemented as a heap: <A
+href="http://www-theory.dcs.st-and.ac.uk/~mda/cs2001/pqs/pqcode.html">insert,
+delete, etc. (Modula-2?)</A>
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/priority-queues.shtml">(C++,
+Pascal, and Fortran)</A>
+# author's initials
+@AUTHOR=PEB
+# end
