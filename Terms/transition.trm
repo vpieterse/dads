@@ -1,5 +1,10 @@
 # *created  "Wed Apr  5 09:00:55 2000" *by "Paul E. Black"
-# *modified "Fri Feb 15 09:49:26 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:16 2004" *by "Paul E. Black"
+
+# $Log: transition.trm,v $
+# Revision 1.2  2004/12/17 17:08:16  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=transition
@@ -12,8 +17,19 @@
 machine}.  Analogously, an {edge} in a {directed graph}.
 # comma-separated list of pure names that this is Also Known As.
 @AKA=state transition, move
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={transition function}, {next state}, {Mealy machine}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -22,4 +38,4 @@ machine}.  Analogously, an {edge} in a {directed graph}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/transition.trm,v $
