@@ -1,7 +1,10 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:34:30 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:51 2004" *by "Paul E. Black"
 
 # $Log: christofides.trm,v $
+# Revision 1.5  2004/12/17 17:27:51  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/04/19 19:10:06  black
 # Use the standard English plural of vertex.  Crossref vertex.
 #
@@ -30,7 +33,7 @@ vertices already seen.  (2) An algorithm to find the {chromatic
 number} of a graph.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=Christofides heuristic
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -47,30 +50,30 @@ number} of a graph.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=(1) <strong>Nicos Christofides</strong>, <em>Worst-case analysis
 of a new heuristic for the travelling salesman problem</em>,
 Report 388, Graduate School of Industrial Administration, CMU,
 1976.
-</P>
-<P>
+</p>
+<p>
 Also CMU Tech. Report CS-93-13, 1976.
 Also Sympos. on New Directions and Recent Results in Algorithms and
 Complexity, J. F. Traub ed., page 441, Academic Press, New York, NY,
 1976.
-</P>
-<P>
+</p>
+<p>
 (2) <strong>Nicos Christofides</strong>, <em>An algorithm for the
 chromatic number of a graph</em>, Computer J., 14(1):38-39, February
 1971.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=A <A
+@LINKS=A <a
 href="http://www.msci.memphis.edu/~giri/7713/f00/HuiChen/HuiChen2.htm#chris">graphical
-example and algorithm outline</A>, a PDF document explaining the <A
+example and algorithm outline</a>, a PDF document explaining the <a
 href="http://troy.troy.org/cs170/week13.pdf">algorithm with proof of
-guarantee</A>.
+guarantee</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
