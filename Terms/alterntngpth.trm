@@ -1,0 +1,26 @@
+# *created  "Fri Jul 23 12:21:42 1999" *by "Paul E. Black"
+# *modified "Mon Jul 31 13:48:08 2000" *by "Paul E. Black"
+# entry name
+@NAME=alternating path
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {path} with alternating {free#free edge} and {matched#matched
+edge} edges.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={augmenting path}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 7-3,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
