@@ -1,0 +1,29 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:36:22 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=collision resolution scheme
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A way of handling {collisions}, that is, when two or more
+items should be kept in the same location, especially in a {hash table}.
+The general ways are keeping subsequent items within the table 
+({open addressing}), keeping a list for items which
+collide ({direct chaining hashing} or {separate chaining
+hashing}), keeping a
+special overflow area, etc.  {Perfect hashes#perfect hashing} avoid
+collisions, but may be time-consuming to create.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
