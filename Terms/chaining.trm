@@ -1,7 +1,10 @@
 # *created  "Tue Apr  6 08:12:37 1999" *by "Paul E. Black"
-# *modified "Wed Dec  1 16:28:00 2004" *by "Paul E. Black"
+# *modified "Wed Dec  1 16:36:00 2004" *by "Paul E. Black"
 
 # $Log: chaining.trm,v $
+# Revision 1.3  2004/12/01 21:36:25  black
+# Reword defn to follow open addressing.
+#
 # Revision 1.2  2004/12/01 21:33:37  black
 # Change defn: chaining may be in the table.  Refine XREFS into IMA,
 # etc.  Add xrefs.  Add RCS keywords.
@@ -14,8 +17,9 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=search
 # the definition
-@DEFN=A scheme in which {linked lists} handle {collisions} in a {hash
-table}.  The two main classes of chaining are {separate chaining}, 
+@DEFN=A class of {collision resolution schemes} in which 
+{linked lists} handle {collisions} in a {hash table}.  The two main
+subclasses are {separate chaining},
 where lists are outside the table, and {coalesced chaining}, where the
 lists are within the table.
 
