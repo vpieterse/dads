@@ -1,0 +1,38 @@
+# *created  "Wed Nov 10 13:53:47 1999" *by "Paul E. Black"
+# *modified "Wed Mar 26 10:33:40 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=homeomorphic
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Two {graphs} are homeomorphic if they can be made
+{isomorphic} by inserting new {vertices#vertex} of {degree} 2 into
+{edges}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This corresponds to the topological notion since adding or
+removing degree 2 vertices doesn't change the graph's topology.
+</P>
+
+<P>
+This is similar to, but not the same as, homomorphic.
+# further explanation (pure HTML)
+@LINKS=Eric Weisstein's MathWorld entries for
+<A href="http://mathworld.wolfram.com/Homomorphism.html">homomorphism</A>
+and
+<A href="http://mathworld.wolfram.com/Homeomorphism.html">homeomorphism</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
