@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 09:34:58 1999" *by "Paul E. Black"
-# *modified "Fri Aug 10 14:35:38 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:41 2004" *by "Paul E. Black"
+
+# $Log: polyphmrgsrt.trm,v $
+# Revision 1.2  2004/12/17 16:53:42  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=polyphase merge sort
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,21 +15,32 @@
 # the definition
 @DEFN=A {merge sort} algorithm which reduces the number of
 intermediate files needed by reusing emptied files.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={polyphase merge},{sort},
+
 {distribution sort}, {merge}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-<A HREF="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
-balanced, <em>k</em>-way, and polyphase merge sorts</A>
+<a href="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</a>
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.sort.c">(C)</A>
-using an auxiliary function to <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.next.c">select
-next file (C)</A>
+@IMPL=<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.sort.c">(C)</a>
+using an auxiliary function to <a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.next.c">select
+next file (C)</a>
 # author's initials
 @AUTHOR=ASK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/polyphmrgsrt.trm,v $
