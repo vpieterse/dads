@@ -1,0 +1,38 @@
+# *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
+# *modified "Thu Oct  3 14:04:50 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=sparse matrix
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {matrix} that has relatively few non-zero (or "interesting")
+entries.  It may be
+represented in much less than $n \times m$ space.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=sparse array
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={ragged matrix}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A matrix which is $n \times m$ with $k$ non-zero
+entries is sparse if $k \ll n \times m$.  It may be
+faster to represent the matrix compactly as a {list} of the non-zero
+indexes and associated entries, as a list of lists of entries (one
+list for each row), or by a {point access method}.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.Sonnack.com/Pub/sparse_array.gif">picture</A> of one
+type of sparse matrix.
+# implementation(s) (pure HTML)
+@IMPL=Input/output for sparse matrices stored in <A
+href="http://gams.nist.gov/serve.cgi/Module/HBIO/HBIO/13020">Harwell-Boeing
+Format (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
