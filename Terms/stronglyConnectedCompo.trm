@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:57:06 2004" *by "Paul E. Black"
+# *modified "Fri Sep  3 12:34:33 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.6  2004/09/03 16:35:34  black
+# Add LINK to Nuutila and Soisalon-Soininen's paper with algorithms.
+#
 # Revision 1.5  2004/04/19 18:57:12  black
 # Use the standard English plural of vertex
 #
@@ -89,10 +92,21 @@ cover the original).
 After Robert Caswell (caswer01@cs.uwa.edu.au), 3 May 2002.
 # further explanation (pure HTML)
 @LINKS=
+<A href="http://www.cs.hut.fi/~enu/tc.html">Transitive closure</A> has
+a link to 
+<strong>Esko Nuutila</strong> and <strong>Eljas Soisalon-Soininen</strong>, 
+<A href="http://www.cs.hut.fi/~enu/ps/ipl-scc.ps"><em>On finding the
+strongly connected components in a directed graph</em></A>
+(PostScript&reg;),
+Information Processing Letters 49 (1993) 9-14.
+The paper has Tarjan's algorithm, references to other algorithms, and
+two faster algorithms in Pascal-like pseudo-code.
+
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</A>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stronglyConnectedCompo.trm,v $
