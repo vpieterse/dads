@@ -1,5 +1,14 @@
 # *created  "Mon Nov 26 12:25:38 2001" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:05:18 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:40:06 2004" *by "Paul E. Black"
+
+# $Log: kthShortestPath.trm,v $
+# Revision 1.3  2004/04/19 18:40:12  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:05:21  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=k<sup>th</sup> shortest path
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,7 +19,7 @@
 @DEFN=The problem of finding the k<sup>th</sup> {shortest path} from
 one {vertex} in a {graph} to another vertex.  Variants may require
 that paths are edge- or vertex-disjoint, that is sharing no {edges} 
-or vertexes.  "Shortest" may be least number of edges, least total 
+or vertices.  "Shortest" may be least number of edges, least total 
 weight, etc.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -18,8 +27,19 @@ weight, etc.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=kth shortest path
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
