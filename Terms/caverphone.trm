@@ -1,7 +1,10 @@
 # *created  "Fri Apr 16 07:59:55 2004" *by "Paul E. Black"
-# *modified "Thu Aug 19 08:57:01 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:25 2004" *by "Paul E. Black"
 
 # $Log: caverphone.trm,v $
+# Revision 1.5  2004/12/17 17:23:25  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/08/19 13:03:06  black
 # Capitialize name.  Change entry to refer to the latest, v 2.0.
 #
@@ -25,7 +28,7 @@
 @DEFN=An algorithm to code English words phonetically.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -43,7 +46,7 @@
 @XREFS={double metaphone}, {Jaro-Winkler}, {NYSIIS}, {soundex},
 {Levenshtein distance}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
@@ -59,14 +62,14 @@ matching system."
 @HISTORY=
 
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://caversham.otago.ac.nz/files/working/ctp150804.pdf">PDF
 document comparing soundex, metaphone, and Caverphone 2.0
-(Python)</A>.
-<A
+(Python)</a>.
+<a
 href="http://caversham.otago.ac.nz/files/working/ctp060902.pdf">PDF
 document comparing soundex, metaphone, NYSIIS, and Caverphone
-(JavaScript)</A>.
+(JavaScript)</a>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
