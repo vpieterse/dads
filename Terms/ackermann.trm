@@ -1,0 +1,46 @@
+# *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
+# *modified "Wed Nov 20 10:59:15 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Ackermann's function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A function of two parameters whose value grows very fast.
+# formal definition or {cross reference} to an entry
+@FORML=
+<ul>
+<li>$A(1, j)=2<sup>j</sup>$		for $j \geq 1$
+<li>$A(i, 1)=A(i-1, 2)$			for $i \geq 2$
+<li>$A(i, j)=A(i-1, A(i, j-1))$		for $i, j \geq 2$
+</ul>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Ackerman's function
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={inverse Ackermann function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In 1928, Wilhelm Ackermann (1896 - 1962) observed that
+A(x,y,z), the z-fold iterated exponentiation of x with y, is an
+example of a recursive function which is not primitive recursive.
+A(x,y,z) was simplified to a function of 2 variables by Rosza Peter
+whose initial condition was simplified by Raphael Robinson.
+Ackermann was a student of David Hilbert.
+</P>
+
+<P>
+After <A href="../terms.html#CLR90">[CLR90, page 451]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=History of the function and
+<A href="http://www.modulaware.com/mdlt08.htm">(Modula-2)</A> code,
+<A href="http://www.kosara.net/thoughts/ackermann.html">(Lisp)</A>,
+<A href="http://pweb.netcom.com/~hjsmith/Ackerman/Acker1P.html">(Pascal)</A>,
+<A href="http://www.engin.umd.umich.edu/CIS/course.des/cis400/miranda/Ack.htm">(Miranda)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
