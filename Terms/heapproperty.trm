@@ -1,0 +1,35 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Jan 10 13:35:59 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=heap property
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=Each {node} in a {tree} has a {key} which is more
+extreme (greater or less) than or equal to the key of its 
+{parent}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=heap ordered, heap condition
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={max-heap property}, {min-heap property}, {heap}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The {root} node has the largest or smallest key.
+After LK.
+</P>
+
+<P>
+A tree with the heap property is a {heap}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
