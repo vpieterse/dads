@@ -1,0 +1,28 @@
+# *created  "Tue Feb  1 15:38:06 2000" *by "Paul E. Black"
+# *modified "Tue Feb  1 15:56:03 2000" *by "Paul E. Black"
+# entry name
+@NAME=moderately exponential
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The measure of computation, $m(n)$
+(usually execution time or memory space), is more than any
+{polynomial} $n<sup>k</sup>$, but less than any {exponential}
+$c<sup>n</sup>$ where $c &gt; 1$.  Formally, $m(n)$ is of moderately
+exponential growth if $\forall k  &gt; 0
+m(n)={\Omega(n<sup>k</sup>)#\Omega}$ and
+$\forall \epsilon  &gt; 0 m(n)={o((1+\epsilon)<sup>n</sup>)#little-o
+notation}$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
