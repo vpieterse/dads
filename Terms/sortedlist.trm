@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 09:51:55 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:07:25 2001" *by "Paul E. Black"
+# *modified "Mon Aug 16 11:33:05 2004" *by "Paul E. Black"
+
+# $Log: sortedlist.trm,v $
+# Revision 1.2  2004/08/16 15:34:11  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Fix link desciption.
+#
+
 # entry name
 @NAME=sorted list
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,16 +14,27 @@
 @AREA=search
 # the definition
 @DEFN=A {list} whose items are kept sorted.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={sorted array}, {ordered linked list}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=Often the term "sorted list" is short for "ordered linked list".
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/511.ins.c">insert
-(C and Pascal)</A>
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/511.ins.c">insertion
+(C)</A> into an ordered linked list.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/sortedlist.trm,v $
