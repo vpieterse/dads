@@ -1,5 +1,5 @@
 # *created  "Tue Mar  9 08:24:52 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:08:59 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:20:10 2003" *by "Paul E. Black"
 # entry name
 @NAME=terminal
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +7,7 @@
 # basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
 @AREA=graph
 # the definition
-@DEFN=The set of points in a plane or {vertices#vertex} in a 
+@DEFN=The set of points in a plane or {vertexes} in a 
 {graph} defining endpoints of a {Steiner tree}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Steiner point}, {Steiner vertex}
@@ -19,4 +19,4 @@
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/terminal.trm,v $
