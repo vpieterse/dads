@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Apr  5 14:40:27 2002" *by "Paul E. Black"
+# *modified "Tue Apr 27 09:20:37 2004" *by "Paul E. Black"
+
+# $Log: monteCarlo.trm,v $
+# Revision 1.2  2004/04/27 13:26:48  black
+# Refine XREFS into IMA, etc.  Link to pages on Monte Carlo simulation.
+#
 
 # entry name
 @NAME=Monte Carlo algorithm
@@ -10,8 +15,19 @@
 # the definition
 @DEFN=A {randomized algorithm} that may produce incorrect results, but
 with bounded error probability.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={Las Vegas algorithm}, {heuristic}, {RP}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={heuristic}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Las Vegas algorithm}, {RP}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, 15-21,
@@ -20,8 +36,11 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+Brian T. Luke's Learning from the Web pages on
+<A href="http://btluke.members.easyspace.com/montecs.html">Monte Carlo
+Simulation</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/monteCarlo.trm,v $
