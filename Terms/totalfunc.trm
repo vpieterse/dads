@@ -1,5 +1,11 @@
 # *created  "Thu Jun 17 12:56:57 1999" *by "Paul E. Black"
-# *modified "Tue Mar 28 13:44:33 2000" *by "Paul E. Black"
+# *modified "Tue Jan 20 15:18:57 2004" *by "Paul E. Black"
+
+# $Log: totalfunc.trm,v $
+# Revision 1.2  2004/01/20 20:19:23  black
+# Clarify note.  Add RCS Log and Source.
+#
+
 # entry name
 @NAME=total function
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,15 +15,26 @@
 # the definition
 @DEFN=A {function} which is defined for all inputs of the right type,
 that is, for all of its {domain}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={partial function}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Square ($x<sup>2</sup>$) is total, while reciprocal ($1/x$) is
-not, since 0 is a real number, but has no reciprocal.
+@NOTES=Square ($x<sup>2</sup>$) is a total function.  Reciprocal
+($1/x$) is not, since 0 is a real number, but has no reciprocal.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/totalfunc.trm,v $
