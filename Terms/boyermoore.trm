@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 13:35:17 1998" *by "Paul E. Black"
-# *modified "Mon Dec 13 16:05:14 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 11:01:20 2005" *by "Paul E. Black"
 
 # $Log: boyermoore.trm,v $
+# Revision 1.5  2005/01/04 16:01:30  black
+# Update Lecroq URL.
+#
 # Revision 1.4  2004/12/13 21:07:53  black
 # Refine definition.  XREF Boyer-Moore-Horspool.  Update HTML to be
 # XHTML compatible.
@@ -57,7 +60,7 @@ href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/fstrpos-e
 Boyer-Moore works</a>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <a
-href="http://www-igm.univ-mlv.fr/~lecroq/string/node14">Boyer-Moore
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node14.html">Boyer-Moore
 algorithm (C)</a>.
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713a.srch.c">(C)</a>
