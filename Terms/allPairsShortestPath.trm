@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 15:34:21 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:33:20 2004" *by "Paul E. Black"
+# *modified "Thu Jul 29 09:20:40 2004" *by "Paul E. Black"
 
 # $Log: allPairsShortestPath.trm,v $
+# Revision 1.5  2004/07/29 13:56:24  black
+# Refer to a new, similar problem: all simple paths.
+#
 # Revision 1.4  2004/04/19 18:33:26  black
 # Use the standard English plural of vertex
 #
@@ -35,10 +38,10 @@ graph}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Floyd-Warshall algorithm}, {Johnson's algorithm}
-
 {Dijkstra's algorithm}, {Bellman-Ford algorithm},
 similar problems: {shortest path}, {minimum spanning tree}, 
-{traveling salesman}
+{traveling salesman}, {all simple paths}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The problem is to find the weights of the shortest paths
 between all pairs of vertices.  For a map, it is to produce the
