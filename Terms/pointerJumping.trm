@@ -1,7 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:06:30 2004" *by "Paul E. Black"
+# *modified "Fri Feb  4 10:55:18 2005" *by "Paul E. Black"
 
 # $Log: pointerJumping.trm,v $
+# Revision 1.3  2005/02/04 16:00:51  black
+# Rename file to pointerJumping.  Add AKA recursive doubling (and the
+# NOTE about why its called that), and remove recursive doubling as a
+# separate term.
+#
 # Revision 1.2  2004/12/17 17:06:30  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -18,7 +23,7 @@ points to.  Used for various algorithms on {lists} and {trees}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=shortcutting
+@AKA=recursive doubling, shortcutting
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=short cutting
 
@@ -36,6 +41,9 @@ points to.  Used for various algorithms on {lists} and {trees}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+The name "recursive doubling" comes the fact that if all the pointers
+are jumped at every step, the pointers cover double the distance with
+each {recursion}.<br>
 From Algorithms and Theory of Computation Handbook, page 47-40,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
