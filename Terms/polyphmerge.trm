@@ -1,0 +1,26 @@
+# *created  "Tue Mar 30 09:41:23 1999" *by "Paul E. Black"
+# *modified "Tue Mar 30 09:43:43 1999" *by "Paul E. Black"
+# entry name
+@NAME=polyphase merge
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=sort
+# the definition
+@DEFN=A nonbalanced {k-way merge} which reduces the number of
+output files needed
+by reusing the emptied input file or device as one of the output devices. 
+This is most efficient if the number of output runs in each output file is
+different.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge}, {optimal polyphase merge}, {nonbalanced
+merge}, {polyphase merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
