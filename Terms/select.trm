@@ -1,0 +1,49 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri May  3 15:21:44 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Select
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=search
+# the definition
+@DEFN=A four-part algorithm to select the k<sup>th</sup> smallest
+element of
+an {array}.  Part 1) Consider the array as groups of 5 elements;
+sort and find the {median} of each group.  2) Use Select 
+{recursively#recursion} to find <em>x</em>, the median of the medians.
+3) Next {partition} the array around <em>x</em>.  
+4) Let $i$ be the
+number of elements in the low side of the partition.  If $k \leq
+i$, use Select recursively to find the k<sup>th</sup> element
+of the low side.  Otherwise Select the k-i<sup>th</sup>
+element of the high side.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=quickselect, quick select
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Find}, {MODIFIND}, {select and partition}, {select
+k<sup>th</sup> element}, {tournament}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Robert W. Floyd and Ronald L. Rivest</strong>,
+<em>Expected time bounds for selection</em>, CACM, 18(3):165-172,
+March 1975
+</P>
+
+<P>
+<strong>Robert W. Floyd and Ronald L. Rivest</strong>, <em>Algorithm #489
+SELECT</em>, CACM, 18(3):173, March 1975
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, p 190]</A>.
+Sometimes called "quick select".
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
