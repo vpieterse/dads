@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.14 1999/02/04 16:54:27 black Exp $
+# $Id: mkterms,v 1.15 1999/02/11 14:14:04 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Feb  4 11:37:19 1999" *by "Paul E. Black"
+# *modified "Thu Feb 11 08:55:02 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -308,8 +308,9 @@ print TMPPAGE "</h3>\n<hr>";
 
 sub rewriteXrefs {
     # preserve any HTML markup
+    #print "STEP 1: $_[0] \n"; # for debugging
     $_[0] =~ s|%|%P|go; # preserve our escape character
-    $_[0] =~ s|(<[^=>]+)>|$1%L|go; # replace >'s in HTML markup
+    $_[0] =~ s|(<[^=][^>]+)>|$1%L|go; # replace >'s in HTML markup
     # rewrite complex references ( <=> text#xref> ) first
     $_[0] =~ s|<=> ([^>]+)\#([^>]+)>|<a href="\#$2"><em>$1</em></a>|go;
     # now rewrite simple references ( <=> textref> )
@@ -317,13 +318,14 @@ sub rewriteXrefs {
     # change escaped characters back
     $_[0] =~ s|%L|>|go;
     $_[0] =~ s|%P|%|go;
+    #print "STEP 7: $_[0] \n"; # for debugging
 
     # change entry names to their corresponding files and
     #   report any dangling xrefs
     foreach $xref (split /^[^\#]*href="\#|"[^\#]*href="\#|"[^\#]*$|^[^\#]*$/,
 								$_[0]) {
 	next if ($xref eq ""); # above RE starts with a null split
-	#print "\nFound $xref\n";
+	#print "\nFound $xref\n"; # for debugging
 	if (defined $entriesForXref{$xref}) {
 	    my($xrefKey) = $entriesForXref{$xref};
 	    #print "\nit is $xrefKey\n";
@@ -339,10 +341,10 @@ sub rewriteXrefs {
 	    $xrefQ =~ s|\+|\\+|;
 	    $xrefQ =~ s|\?|\\?|;
 	    $xrefQ =~ s|\.|\\.|;
-	    #print "subs is /$xrefQ/$xrefFile/\n";
+	    #print "subs is /$xrefQ/$xrefFile/\n"; # for debugging
 	    $_[0] =~ s/$xrefQ/$xrefFile/;
 	} else {
-	    print "\n***Unknown HyperREFerence to \"$xref\" in $_[1]\n";
+	    print "\n    *****Unknown HyperREFerence to \"$xref\" in $_[1]\n";
 	}
     }
 }
