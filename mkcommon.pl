@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.18 2003/12/18 19:33:55 black Exp $
+# $Id: mkcommon.pl,v 1.19 2004/02/27 16:04:02 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Dec 18 10:40:12 2003" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:00:47 2004" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -533,7 +533,7 @@ sub readTermEntries {
 	    if (s/^@([^=]*)=//o) {
 		$prop=$1;
 	    }
-	    chop;
+	    s/\n$//; # can't "chop" in case file doesn't end with new line
 	    next if /^$/; # ignore empty lines
 	    if (! defined $properties{$prop}) {
 		print "Unknown property $prop in $entryFile\n";
