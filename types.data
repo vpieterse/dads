@@ -1,0 +1,12 @@
+# List of types with a print name and abbreviation for
+# Algorithms, Data Structures, and Classical Problems
+#    Format is
+#	abbrev<tab>+print name
+# *created  "Thu Mar 25 10:48:38 1999" *by "Paul E. Black"
+# *modified "Thu Mar 25 10:49:42 1999" *by "Paul E. Black"
+A	Algorithms
+T	Algorithmic Techniques
+D	Definitions
+P	Classic Problems
+S	Data Structures
+# end of areas list
