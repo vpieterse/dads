@@ -1,5 +1,11 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Thu Apr  4 10:50:32 2002" *by "Paul E. Black"
+# *modified "Mon Nov  1 12:08:43 2004" *by "Paul E. Black"
+
+# $Log: arithmeticCoding.trm,v $
+# Revision 1.2  2004/11/01 17:10:01  black
+# Change "encoding" to "coding".  Refine XREF to IMA, etc.  Add RCS
+# keywords.  Mention patents.
+#
 
 # entry name
 @NAME=arithmetic coding
@@ -8,7 +14,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=A minimal variable-length message encoding based on the
+@DEFN=A minimal variable-length message coding based on the
 frequency of each character.  The message is represented by a
 fraction which is the repeated offset-plus-product reduction of the
 range (offset) and probability (product) of each character.
@@ -18,18 +24,34 @@ range (offset) and probability (product) of each character.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=arithmetic encoding
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={Huffman encoding}, {Shannon-Fano coding}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Huffman coding}, {Shannon-Fano coding}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 # Algorithms and Theory of Computation Handbook, pages 12-11 to 12-17.
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=Shannon-Fano is a minimal prefix code. Huffman is optimal for
-character encoding (one character-one code word) and simple to
-program.  Arithmetic coding is better still, since it can allocate
-fractional bits, but more complicated.
+character coding (one character-one code word) and simple to
+program.  Arithmetic coding is a little better still, since it can
+allocate fractional bits, but more complicated and has patents.
+</P>
+
+<P>
+Patents cover some use of arithmetic coding.
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://dogma.net/markn/articles/arith/part1.htm">Theory
 development and implementation (C)</A>.
@@ -40,4 +62,4 @@ href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey on data
 compression</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/arithmeticCoding.trm,v $
