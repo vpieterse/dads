@@ -1,0 +1,47 @@
+# *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
+# *modified "Fri May  3 15:36:36 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=metaphone
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=search
+# the definition
+@DEFN=An algorithm to code English words phonetically by reducing them
+to 16 consonant sounds.  A better variant is {double metaphone}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Jaro-Winkler}, {NYSIIS}, {soundex}, {edit distance}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Andrew Binstock and John Rex</strong>. <em>Metaphone: A Modern
+Soundex<em>. Practical Algorithms For Programmers.  Addison-Wesley,
+1995 pages 160-169.
+</P>
+
+<P>
+<strong>Gary Parker</strong>. <em>A Better Phonetic Search</em>. C
+Gazette, Vol. 5, No. 4 (June/July), 1990.
+</P>
+
+<P>
+<strong>Lawrence Philips</strong>. <em>Hanging on the
+Metaphone</em>. Computer Language, Vol. 7, No. 12 (December), 1990.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.lanw.com/java/phonetic/">A Better Phonetic
+Lookup</A>
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://aspell.sourceforge.net/metaphone/">Metaphone and
+double metaphone (Basic, C, Perl, and C++)</A>,
+<A HREF="ftp://ftp.cuj.com/pub/2000/1806/philips.zip">double metaphone,
+zip'd (C++)</A>,
+<A
+HREF="http://www.iiug.org/members/memb_software/archive/metaphone">(C,
+Basic)</A>, <A
+HREF="http://www.lanw.com/java/phonetic/">(Java)</A>, <A
+HREF="http://www.ddj.com/ftp/1997/1997.odbms/DD-3.TXT">(Java)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
