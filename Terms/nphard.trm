@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 20 10:14:01 2004" *by "Paul E. Black"
+# *modified "Mon Sep 20 12:22:24 2004" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Revision 1.4  2004/09/20 16:22:26  black
+# Change Comp.Theory FAQ URL.
+#
 # Revision 1.3  2004/09/20 14:33:22  black
 # Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
 # Add RCS keywords.
@@ -62,7 +65,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <A
-href="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</A>, scroll down to <strong>P vs. NP</strong>.
 </P>
 
