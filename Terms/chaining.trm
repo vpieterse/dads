@@ -1,0 +1,29 @@
+# *created  "Tue Apr  6 08:12:37 1999" *by "Paul E. Black"
+# *modified "Wed Jul 30 11:31:07 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=chaining
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=search
+# the definition
+@DEFN=The use of an external data structure to store 
+{collisions} of a {hash table}.  A {linked list} is
+often used.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={open addressing}, {load factor}, {separate chaining hashing},
+{direct chaining hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any searchable data structure may be used instead of a linked
+list, but it is usually better to expand the hash table, thus lowering
+the load factor, and use a simple collision resolution mechanism, like
+the linked list.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+<A href="http://burtleburtle.net/bob/hash/hashtab.html">(C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
