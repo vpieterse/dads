@@ -1,7 +1,11 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Thu Oct 14 14:31:28 2004" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:41:11 2004" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.7  2004/10/15 20:43:15  black
+# Add AKA map, IMA binary relation, and a NOTE explaining it.  Make
+# associative array a VARIANT.
+#
 # Revision 1.6  2004/10/14 18:32:46  black
 # Explain a little more about kazlib.
 #
@@ -61,21 +65,21 @@ This only changes the return type of find.
 <li>find(k, new()) = <em>fail</em>
 </ol>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=association list, property list
+@AKA=association list, map, property list
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=assoc list, prop list, directory, database, data base
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={binary relation}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={associative array}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={total order}, {associative array}, {set}
+@XREFS={total order}, {set}
 Some implementations: {linked list}, {hash table}, {B-tree}, 
 {jump list}, {directed acyclic word graph}
 
@@ -88,6 +92,7 @@ specialized semantics for "dictionary" and related terms.
 </P>
 
 <P>
+A dictionary defines a {binary relation} that maps keys to values.
 The keys of a dictionary are a {set}.
 </P>
 
