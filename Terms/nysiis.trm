@@ -1,7 +1,11 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Fri Apr  9 16:02:04 2004" *by "Paul E. Black"
+# *modified "Fri Apr 16 08:41:02 2004" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Revision 1.5  2004/04/16 12:41:37  black
+# Change phonetic matching to phonetic coding.  Add link to Cobol
+# implementation.
+#
 # Revision 1.4  2004/04/09 20:22:48  black
 # Link to new term: phonetic matching.
 #
@@ -29,7 +33,7 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic matching}
+@IMA={phonetic coding}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -45,15 +49,18 @@
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
+<A href="http://www.name-searching.com/Working/Name_SearchKeyWordPhoneticcoding3.htm">review
+of algorithm</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # search for "phonetic code" or "New York State Identification and
 # Intelligence System" from the http://www.samhsa.gov/ search page
 SAMHSA's code <A
 href="http://www.samhsa.gov/centers/csat/content/idbse/idbsas.asp">(SAS)</A> --
-click on nysiis.sas;
-<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</A>;
+click on nysiis.sas.
+<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</A>.
 <A href="http://www.dropby.com/NYSIIS.html">(pseudocode)</A>.
+<A href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</A>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
