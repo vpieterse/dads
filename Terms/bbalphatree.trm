@@ -1,0 +1,27 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Nov  8 10:41:12 2001" *by "Paul E. Black"
+# entry name
+@NAME=BB$\alpha$ tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary tree} where the {balance} of every subtree, 
+$\rho(T')$, is bounded
+by $\alpha \leq \rho(T') \leq 1-\alpha$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={weight-balanced tree} 
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <strong>Johann Blieberger</strong>
+&lt;blieb@auto.tuwien.ac.at&gt;, <em>Discrete Loops and Worst Case
+Performance</em>, page 22.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Worst-case behavior of <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/euclid.html">traversal,
+annotated for real time (WOOP/ADA)</A>, including bibliography.
+# author's initials
+@AUTHOR=PEB
+# end
