@@ -1,0 +1,35 @@
+# *created  "Thu Jan 10 15:39:51 2002" *by "Paul E. Black"
+# *modified "Fri Jan 18 14:21:42 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=external memory data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=extern
+# the definition
+@DEFN=A {data structure} that is efficient even when accessing most of the
+data is very slow, such as, on a disk.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=EM data structure
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={B-tree}, {external memory algorithm}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=See <A href="../terms.html#Vitt01">[Vitt01]</A>.  
+The external memory could be magnetic tape or even main memory if the
+cache is very fast.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
