@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Wed Feb  2 15:38:28 2005" *by "Paul E. Black"
+# *modified "Mon Mar 21 08:44:55 2005" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.7  2005/03/21 13:46:45  black
+# Update URL of PDF to convert between binary and Gray
+#
 # Revision 1.6  2005/02/02 20:38:35  black
 # Fix typo in IMPL language.
 #
@@ -134,7 +137,7 @@ href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 href="http://www.cs.bham.ac.uk/Mirrors/ftp.de.uu.net/EC/clife/www/Q21.htm">binary-to-Gray
 and Gray-to-binary conversion (C)</a> with history, references, and
 application to genetic algorithms.
-<a href="http://lib-www.lanl.gov/numerical/bookcpdf/c20-2.pdf">convert
+<a href="http://library.lanl.gov/numerical/bookcpdf/c20-2.pdf">convert
 between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <em>Numerical recipes in C</em>,
 <a
