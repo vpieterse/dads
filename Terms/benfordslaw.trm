@@ -1,0 +1,30 @@
+# *created  "Thu Dec  9 16:04:45 1999" *by "Paul E. Black"
+# *modified "Fri Jan  4 08:40:22 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Benford's law
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=On a wide variety of statistical data, the first digit is $d$
+with the probability $\log<sub>10</sub>\left ( 1 + \frac\{1}\{d} \right )$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Zipf's law}, {Lotka's law}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is also referred to as ``the first-digit phenomenon.''
+The general significant-digit law is that the first significant digits
+$ddd\ldots d$ occur with the probability
+$\log<sub>10</sub>\left ( 1 + \frac\{1}\{ddd\ldots d} \right )$.
+This law was first published by Simon Newcomb in 1881.  It went
+unnoticed until Frank Benford, apparently unaware of Newcomb's paper,
+concluded the same law and published it in 1938, supported by huge
+amounts of data.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
