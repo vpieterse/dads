@@ -1,7 +1,10 @@
 # *created  "Fri Apr 16 07:59:55 2004" *by "Paul E. Black"
-# *modified "Fri Apr 16 08:36:52 2004" *by "Paul E. Black"
+# *modified "Fri Apr 16 08:45:32 2004" *by "Paul E. Black"
 
 # $Log: caverphone.trm,v $
+# Revision 1.2  2004/04/16 12:46:06  black
+# Correct spelling and capitalization.
+#
 # Revision 1.1  2004/04/16 12:43:59  black
 # Initial revision
 #
@@ -41,7 +44,7 @@
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Similar to {metaphone}, but customized for the caversham data
-set (names and accents in the soutern part of Dunedin, New Zealand in
+set (names and accents in the southern part of Dunedin, New Zealand in
 1893-1938).
 # any historical notes
 @HISTORY=
@@ -49,8 +52,8 @@ set (names and accents in the soutern part of Dunedin, New Zealand in
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://caversham.otago.ac.nz/files/working/ctp060902.pdf">PDF
-document comparing Soundex, Metaphone, NYSIIS, and Caverphone
-(Javascript)</A>.
+document comparing soundex, metaphone, NYSIIS, and caverphone
+(JavaScript)</A>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
