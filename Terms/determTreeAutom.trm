@@ -1,0 +1,29 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:10:57 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=deterministic tree automaton
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=autom
+# the definition
+@DEFN=A {deterministic finite state machine} that accepts infinite
+{trees} rather than just {strings}.  The tree {nodes} are
+marked with the letters of the {alphabet} of the automaton, and the
+transition function encodes the {next states} for each branch of the
+tree.  The expressive power of such automata varies depending on the
+acceptance conditions of the trees.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={deterministic finite tree automaton}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=These are used in various studies in branching-time temporal
+logic, second order logic with multiple successors, etc.
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.grappa.univ-lille3.fr/tata/">Tree Automata
+Techniques and Applications</A> page.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
