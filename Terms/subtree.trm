@@ -1,0 +1,22 @@
+# *created  "Mon Jan  4 09:29:19 1999" *by "Paul E. Black"
+# *modified "Fri Oct  5 10:22:53 2001" *by "Paul E. Black"
+# entry name
+@NAME=subtree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=The {tree} which is a {child} of a {node}.  
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The name emphasizes that everything which is a descendant of a
+tree node is a tree, too, and is a subset of the larger tree.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
