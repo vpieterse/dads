@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Aug 14 16:06:49 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 15:02:57 2003" *by "Paul E. Black"
 # entry name
 @NAME=spanning tree
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,7 +8,7 @@
 @AREA=tree
 # the definition
 @DEFN=A {connected#connected graph}, {acyclic#acyclic graph} subgraph
-containing all the {vertices#vertex} of a {graph}.
+containing all the {vertexes} of a {graph}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={minimum spanning tree}
 # any notes.  these will not be printed in the final dictionary
@@ -18,10 +18,10 @@ Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and Technology, Copyright
 &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS=OR-Notes on graph theory, including <A
-HREF="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">spanning trees</A>.
+@LINKS=OR-Notes on graph theory, including 
+<A href="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">spanning trees</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/spanningtree.trm,v $
