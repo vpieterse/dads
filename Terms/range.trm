@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Sat Jul 31 12:23:18 1999" *by "Paul E. Black"
+# entry name
+@NAME=range
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=The possible results of a {function} or {relation}.  For
+instance, the range of cosine is [-1,+1].
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={domain}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
