@@ -1,5 +1,10 @@
 # *created  "Thu Feb  4 14:05:52 1999" *by "Paul E. Black"
-# *modified "Tue Jan 29 12:20:23 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:17 2004" *by "Paul E. Black"
+
+# $Log: treeAutomaton.trm,v $
+# Revision 1.2  2004/12/17 16:55:17  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=tree automaton
@@ -15,24 +20,35 @@ a new state with a single state and character, a tree automaton
 takes <em>n</em> states and constructors.  Tree automata may be
 top-down (starting from the {root}) or bottom-up (starting from the
 {leaves#leaf}), and {deterministic} or {nondeterministic}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={deterministic finite tree automaton}, {nondeterministic finite
+
 tree automaton}, {deterministic tree automaton}, {nondeterministic
 tree automaton}, {bottom-up tree automaton}, {top-down tree automaton}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Words for finite state automata can be seen as composed of
 unary constructors, the {alphabet}, and a 0-ary constructor, the
 end of the word.
-</P>
-<P>
+</p>
+<p>
 Nondeterministic top-down and bottom-up automata, and
 deterministic bottom-up automata are equivalent, but top-down automata
 are weaker.
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.grappa.univ-lille3.fr/tata/">Tree Automata
-Techniques and Applications</A> page.
+@LINKS=<a href="http://www.grappa.univ-lille3.fr/tata/">Tree Automata
+Techniques and Applications</a> page.
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.loria.fr/equipes/protheo/PROJECTS/ELAN/elan-automata.html">(ELAN)</A>
+@IMPL=<a href="http://www.loria.fr/equipes/protheo/PROJECTS/ELAN/elan-automata.html">(ELAN)</a>
 # author's initials
 @AUTHOR=DM
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/treeAutomaton.trm,v $
