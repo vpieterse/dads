@@ -1,0 +1,42 @@
+# *created  "Mon Jan 11 13:51:47 1999" *by "Paul E. Black"
+# *modified "Wed Jan  9 16:02:00 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=discrete interval encoding tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} which stores consecutive values as
+intervals.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=diet
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Each {node} is an interval signifying consecutive values,
+instead of a single value.  This is better than if there are many sets
+of consecutive values.
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.fernuni-hagen.de/inf/pi4/erwig/diet/">Discrete
+Interval Encoding Trees</A> with links to implementations.
+Abstract and links to full text of <A
+HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/papers/abstracts.html#JFP98">Diets
+for Fat Sets</A> from Journal of Functional Programming, Vol. 8,
+No. 6, 1998.
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/diet/diet.sml.txt">insert,
+delete, and member (ML)</A>,
+<A
+HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/diet/diet.hs.txt">insert,
+delete, and member (Haskell)</A>
+# author's initials
+@AUTHOR=PEB
+# end
