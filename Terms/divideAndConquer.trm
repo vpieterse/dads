@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 15:56:15 2005" *by "Paul E. Black"
+# *modified "Mon Mar  7 09:03:53 2005" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.5  2005/03/07 14:04:23  black
+# Improve wording of definition and explanation of why binary search is
+# divide-and-conquer.
+#
 # Revision 1.4  2005/01/11 20:56:55  black
 # Remove leading redundant phrase in DEFN.  Improve the rest of the
 # definition.
@@ -20,8 +24,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=basic
 # the definition
-@DEFN=Solve a problem on an
-instance of size <em>n</em>, either directly
+@DEFN=Solve a problem, either directly
 because solving that instance is easy (typically, because the instance
 is small) or by <em>dividing</em> it into two or more smaller
 instances.  Each of these smaller instances is 
@@ -41,7 +44,7 @@ produce a solution for the original instance.
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The technique is named <em>divide and conquer</em> because a
+@NOTES=The technique is named "divide and conquer" because a
 problem is conquered by dividing it into several smaller problems.
 </p>
 
@@ -50,9 +53,11 @@ This technique yields elegant, simple and quite often very efficient
 algorithms.  Well-known examples include {heapify},
 {merge sort}, {quicksort}, Strassen's fast matrix multiplication,
 the Fast Fourier Transform (FFT), and {binary search}.  (Why is binary
-search included?  The dividing part just picks which segment in which
-to search, and "combining the solutions" is trivial: take the answer
-from the segment in which you searched.)  Similar principles are at
+search included?  The dividing part picks which segment
+to search, and "the solutions are combined" trivially: take the answer
+from the segment searched.  Segments not searched are "recursively
+solved" by the null operation: they are ignored.)  A similar
+principle is at
 the heart of several important data structures such as 
 {binary search tree}, {multiway search trees}, {tries}, {skip lists},
 multidimensional search trees ({k-d trees}, {quadtrees}),
