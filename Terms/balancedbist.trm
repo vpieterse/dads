@@ -1,0 +1,26 @@
+# *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
+# *modified "Fri Jan 11 16:18:05 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=balanced binary search tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} in which at most one {node} has one
+{child}.  All other nodes have two or zero children.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={balanced binary tree}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>M. R. Brown and R. E. Tarjan</strong>, <em>A Fast Merging
+Algorithm</em>, Journal of the ACM, 26(2):211-226, 1979.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
