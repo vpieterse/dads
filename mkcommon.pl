@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.6 2001/12/20 18:47:42 black Exp $
+# $Id: mkcommon.pl,v 1.7 2002/01/02 15:27:44 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Dec 20 13:34:42 2001" *by "Paul E. Black"
+# *modified "Wed Jan  2 10:11:32 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -362,9 +362,11 @@ sub addToDictionary (\%) {
 	# prepend a space so names with special characters come first
 	$alphaName = " $alphaName";
     }
-    # make sure entry name is unique
+    # make sure entry name is unique.  (Use "A" for suffix to sort close to
+    # word with no suffix, e.g., TOUR and TOURA.)  Actual (display name) 
+    # duplicates are reported when the index is written.
     while (defined $entries{$alphaName}) {
-	$alphaName .= "Z";
+	$alphaName .= "A";
     }
 
     #print "NAME is $entry{NAME}\n"
