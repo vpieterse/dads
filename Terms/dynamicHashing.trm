@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jan  8 09:27:48 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 16:29:14 2004" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.4  2004/10/14 20:29:42  black
+# Add Falconer's and Kaz's IMPLs.
+#
 # Revision 1.3  2004/01/08 14:29:23  black
 # Move load factor to INME.  Add XREFS to expandable hashing and virtual
 # hashing.  Although they should prob. be VARIANTS, until they're
@@ -60,6 +63,14 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Charles B. Falconer's
+<A href="http://cbfalconer.home.att.net/download/">hashlib (C)</A>
+including several example applications.
+Kaz Kylheku's
+<A
+href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+implementing dictionary, dynamic hash table, red-black tree, and
+doubly linked list.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dynamicHashing.trm,v $
