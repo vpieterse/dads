@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Dec 12 13:10:01 2001" *by "Paul E. Black"
+# *modified "Wed Oct 15 10:33:00 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=planarization
@@ -11,7 +11,7 @@
 @DEFN=The process of transforming a {graph} into a {planar graph}.
 More formally, the transformation involves either removing edges
 (planarization by edge removal), or replacing pairs of nonincident
-edges by 4-starts (planarization by adding crossing {vertices#vertex}).  In
+edges by 4-starts (planarization by adding crossing {vertexes}).  In
 both cases, the aim of planarization is minimize the number of edge
 removals or replacements.
 # comma-separated list of {cross references}, i.e., See also ...
@@ -28,4 +28,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/planarization.trm,v $
