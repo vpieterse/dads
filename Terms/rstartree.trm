@@ -1,5 +1,10 @@
 # *created  "Fri Nov 20 16:32:24 1998" *by "Paul E. Black"
-# *modified "Wed Nov 13 09:51:28 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:21 2004" *by "Paul E. Black"
+
+# $Log: rstartree.trm,v $
+# Revision 1.2  2004/12/17 16:54:22  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=R<sup>*</sup>-tree
@@ -12,16 +17,27 @@
 hierarchically nested, possibly overlapping, boxes.  The tree is
 height-balanced.  It is similar to the {R-tree}, but reinserts entries
 upon overflow, rather than splitting.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+@NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=In the <A
+@IMPL=In the <a
 href="http://www.cs.ucr.edu/~marioh/spatialindex/">Spatial Index
-Library (C++)</A>
+Library (C++)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/rstartree.trm,v $
