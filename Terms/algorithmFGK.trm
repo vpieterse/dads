@@ -1,5 +1,12 @@
 # *created  "Mon Sep 27 08:50:42 1999" *by "Paul E. Black"
-# *modified "Mon Jun 30 16:22:18 2003" *by "Paul E. Black"
+# *modified "Fri Oct 29 09:12:42 2004" *by "Paul E. Black"
+
+# $Log: algorithmFGK.trm,v $
+# Revision 1.2  2004/10/29 13:25:31  black
+# Refine XREFS into IMA, etc.  Add: never much worse than 2xoptimal.
+# Change "algorithm V" to "Vitter's Algorithm", per author.  Add BIB and
+# RCS keywords.
+#
 
 # entry name
 @NAME=algorithm FGK
@@ -8,9 +15,26 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=An {adaptive Huffman encoding} scheme.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={algorithm V}
+@DEFN=An {adaptive Huffman encoding} scheme.  Encoding is never much
+worse than twice {optimal}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={adaptive Huffman encoding}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Vitter's Algorithm}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Donald E. Knuth</strong>, <em>Dynamic Huffman Coding</em>,
+Journal of Algorithms, 6(2):163-180, June 1985.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -20,4 +44,4 @@ of data compression</A>
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/algorithmFGK.trm,v $
