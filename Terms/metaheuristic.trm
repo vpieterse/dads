@@ -1,5 +1,5 @@
 # *created  "Mon Mar 26 16:04:24 2001" *by "Paul E. Black"
-# *modified "Fri May 23 09:28:36 2003" *by "Paul E. Black"
+# *modified "Thu Sep 25 09:22:28 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=metaheuristic
@@ -8,19 +8,23 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=A state space search that looks for better solutions by changing a
-current set of solutions, for instance, genetic algorithms or
-{simulated annealing}.
+@DEFN=(1) A high-level algorithmic framework or approach that can be
+specialized to solve {optimization problems}.  (2) A high-level strategy
+that guides other {heuristics} in a search for {feasible solutions}.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={optimization problem}
+@XREFS={optimization problem}, {simulated annealing}
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=The
+@LINKS=
+<A
+href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?metaheuristic">FOLDOC
+definition</A>.
+The
 <A href="http://iridia.ulb.ac.be/~meta/newsite/index.php?main=1">Metaheuristic
 research group</A>.
 # implementation(s) (pure HTML)
