@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.62 2002/06/27 18:34:09 black Exp $
+# $Id: mkterms,v 1.63 2002/11/20 16:47:34 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Jun 27 14:30:32 2002" *by "Paul E. Black"
+# *modified "Wed Nov 20 11:12:30 2002" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -138,9 +138,9 @@ sub rewriteXrefs {
     $_[0] =~ s|\\{|%R|go; # escape {'s in HTML markup
     #print "STEP 3: $_[0] \n"; # for debugging
     # rewrite complex references ( {text#xref} ) first
-    $_[0] =~ s|{([^}]+)\#([^}]+)}|<a href="\#$2"><em>$1</em></a>|go;
+    $_[0] =~ s|{([^}]+)\#([^}]+)}|<A href="\#$2"><em>$1</em></A>|go;
     # now rewrite simple references ( {textref} )
-    $_[0] =~ s|{(.+?)}|<a href="\#$1"><em>$1</em></a>|go;
+    $_[0] =~ s|{(.+?)}|<A href="\#$1"><em>$1</em></A>|go;
     # change escaped characters back
     $_[0] =~ s|%R|{|go; # unescape {'s for final display
     $_[0] =~ s|%P|%|go;
@@ -207,7 +207,7 @@ open(TMPPAGE, "> $temppage")
 
 print TMPPAGE "\n<h3>";
 foreach $letter ("A".."Z") {
-    print TMPPAGE "<a href=\"\#$letter\">$letter</a>\n";
+    print TMPPAGE "<A href=\"\#$letter\">$letter</A>\n";
 }
 print TMPPAGE "</h3>\n";
 
@@ -349,11 +349,11 @@ for $ekey (@sortedentries) {
 <td valign=top>
 TABLE_NEXT_COLUMN
 	    }
-	    print TMPPAGE "<a name=\"$letter\"><h2>$letter</h2>\n\n<dl>\n";
+	    print TMPPAGE "<A name=\"$letter\"><h2>$letter</h2>\n\n<dl>\n";
 	}
 
 	# write an entry in the main page
-	print TMPPAGE "<dt><a href=\"$entrypg\">$dname</a>\n";
+	print TMPPAGE "<dt><A href=\"$entrypg\">$dname</A>\n";
 
 	###########################################################
 	# Write an entry in the two-level index
@@ -370,18 +370,18 @@ TABLE_NEXT_COLUMN
 		|| die ("Cannot create index web page $indexPage, stopped");
 	    &concatenate("$PAGES/${TWOLEVEL}page.intro", SUB2LEV);
 
-	    print TMP2LEV "<li><a href=\"$indexPageName.html\">$dname - ";
+	    print TMP2LEV "<li><A href=\"$indexPageName.html\">$dname - ";
 	}
 
 	# write an entry in the second level page
-	print SUB2LEV "<dt><a href=\"$entrypg\">$dname</a>\n";
+	print SUB2LEV "<dt><A href=\"$entrypg\">$dname</A>\n";
 	$entriesInPage++;
 	if ($entriesInPage > $optimEntriesPerPage) {
 	    # finish the current index page
 	    &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
 	    close SUB2LEV;
 
-	    print TMP2LEV "$dname</a>\n";
+	    print TMP2LEV "$dname</A>\n";
 
 	    $entriesInPage = 0;
 	}
@@ -391,7 +391,7 @@ TABLE_NEXT_COLUMN
     # Write an entry in the unified index
     ###########################################################
 
-    print TMPUNIFI "<li><a href=\"$termpage\">$dname</a>\n";
+    print TMPUNIFI "<li><A href=\"$termpage\">$dname</A>\n";
 
     ###########################################################
     # Write the entry HTML page (if necessary)
@@ -463,7 +463,7 @@ TABLE_NEXT_COLUMN
     } else {
 	print TERMPAGE << "NO_DEFN_MESSAGE";
 (no definition here, yet, but
-<a href=\"../$MAINPAGE\#needHelp\">you can help</a>.)
+<A href=\"../$MAINPAGE\#needHelp\">you can help</A>.)
 NO_DEFN_MESSAGE
     }
     print TERMPAGE "</p>\n\n";
@@ -483,6 +483,8 @@ NO_DEFN_MESSAGE
 	$ealiases =~ s|,\s*|, |go;
 	# change cross references ({...}) to href's
 	&rewriteXrefs($ealiases, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($ealiases);
 	print TERMPAGE "<p>\n<strong>Also known as</strong> $ealiases.\n</p>\n\n";
     }
     if (defined $thisEntry{XREFS}) {
@@ -507,7 +509,7 @@ NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{AUTHOR}) {
 	my($eauth) = $thisEntry{AUTHOR};
-	$eauth =~ s| *([^,]+)|<a href="../$OTHER/$AUTHPAGE.html\#author$1">$1</a>|go;
+	$eauth =~ s| *([^,]+)|<A href="../$OTHER/$AUTHPAGE.html\#author$1">$1</A>|go;
 	# SKIMP write plural if more than one
 	print TERMPAGE "<p>Author: $eauth</p>\n";
     }
@@ -576,7 +578,7 @@ while ("Z" gt $letter) {
 
     # start new letter
     $letter++;
-    print TMPPAGE "<h2><a name=\"$letter\">$letter</a></h2>\n\n<dl>\n";
+    print TMPPAGE "<h2><A name=\"$letter\">$letter</A></h2>\n\n<dl>\n";
 }
 
 # finish last letter
@@ -610,7 +612,7 @@ if ($entriesInPage > 0) {
     &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
     close SUB2LEV;
 
-    print TMP2LEV "$prevdname</a>\n";
+    print TMP2LEV "$prevdname</A>\n";
 }
 
 print TMP2LEV "</UL>\n\n";
@@ -671,7 +673,7 @@ for $ent (@sortedentries) {
     my $dname = $thisEntry{DNAME};
     my $eimpls = $thisEntry{IMPL};
     my $erelurl = pageURLrel($thisEntry{SRCFILE});
-    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>: $eimpls\n";
+    print TMPPAGE "<li><A href=\"$erelurl\">$dname</A>: $eimpls\n";
 }
 print TMPPAGE "</ul>\n\n";
 
@@ -711,10 +713,10 @@ print TMPPAGE "<P>\nRun on $now\n";
 # Add links to each area for fast access
 print TMPPAGE "\n<h3>Areas</h3>\n<ul>\n";
 for $area (sort keys %areas) {
-    print TMPPAGE "<li><a href=\"\#$area\">$areas{$area}</a>\n";
+    print TMPPAGE "<li><A href=\"\#$area\">$areas{$area}</A>\n";
 }
 # add link to no area
-print TMPPAGE "<li><a href=\"\#noarea\">Entries with No Area</a>\n";
+print TMPPAGE "<li><A href=\"\#noarea\">Entries with No Area</A>\n";
 print TMPPAGE "</ul>\n";
 
 # Step VIc: write areas and entries
@@ -726,7 +728,7 @@ sub printAreaEntry {
     return if $thisEntry{ENTCLASS} eq "WEB";
     my $dname = $thisEntry{DNAME};
     my $erelurl = pageURLrel($thisEntry{SRCFILE});
-    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>";
+    print TMPPAGE "<li><A href=\"$erelurl\">$dname</A>";
     if (defined $thisEntry{TYPE}) {
 	my $etype = $thisEntry{TYPE};
 	print TMPPAGE " [<strong>$etype</strong>]";
@@ -735,7 +737,7 @@ sub printAreaEntry {
 }
 
 for $area (sort keys %areas) {
-    print TMPPAGE "<h2><a name=\"$area\">$areas{$area}</a></h2>\n";
+    print TMPPAGE "<h2><A name=\"$area\">$areas{$area}</A></h2>\n";
     print TMPPAGE "<ul>\n";
 
     # go through all the entries and print those in this area
@@ -748,7 +750,7 @@ for $area (sort keys %areas) {
 }
 
 # print any entries without an area
-print TMPPAGE "<h2><a name=\"noarea\">Entries with No Area</a></h2>\n";
+print TMPPAGE "<h2><A name=\"noarea\">Entries with No Area</A></h2>\n";
 print TMPPAGE "<ul>\n";
 for $ent (@sortedentries) {
     if (! defined $entries{$ent}{AREA}) {
@@ -793,10 +795,10 @@ print TMPPAGE "<P>\nRun on $now\n";
 # Add links to each section for fast access
 print TMPPAGE "\n<h3>Types</h3>\n<ul>\n";
 for $tent (keys %types) {
-    print TMPPAGE "<li><a href=\"\#$tent\">$types{$tent}</a>\n";
+    print TMPPAGE "<li><A href=\"\#$tent\">$types{$tent}</A>\n";
 }
 # add link to unclassified entries
-print TMPPAGE "<li><a href=\"\#notype\">Entries with No Type</a>\n";
+print TMPPAGE "<li><A href=\"\#notype\">Entries with No Type</A>\n";
 print TMPPAGE "</ul>\n";
 
 # Step VIIc: write types and entries
@@ -808,11 +810,11 @@ sub printTypeEntry {
     return if $thisEntry{ENTCLASS} eq "WEB";
     my $dname = $thisEntry{DNAME};
     my $erelurl = pageURLrel($thisEntry{SRCFILE});
-    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>\n";
+    print TMPPAGE "<li><A href=\"$erelurl\">$dname</A>\n";
 }
 
 for $tent (keys %types) {
-    print TMPPAGE "<h2><a name=\"$tent\">$types{$tent}</a></h2>\n";
+    print TMPPAGE "<h2><A name=\"$tent\">$types{$tent}</A></h2>\n";
     print TMPPAGE "<ul>\n";
 
     # go through all the entries and print those of this type
@@ -825,7 +827,7 @@ for $tent (keys %types) {
 }
 
 # print those with no type
-print TMPPAGE "<h2><a name=\"notype\">Entries with No Type</a></h2>\n";
+print TMPPAGE "<h2><A name=\"notype\">Entries with No Type</A></h2>\n";
 print TMPPAGE "<ul>\n";
 for $ent (@sortedentries) {
     if (! defined $entries{$ent}{TYPE}) {
