@@ -1,0 +1,23 @@
+# *created  "Thu Sep  2 10:52:05 1999" *by "Paul E. Black"
+# *modified "Fri Dec 10 12:54:58 1999" *by "Paul E. Black"
+# entry name
+@NAME=Stirling's formula
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=For large values of $n$,
+$(n/e)<sup>n</sup>\sqrt\{2n\pi} &lt; {n!#factorial} &lt;
+(n/e)<sup>n</sup>(1 + 1/(12n-1))\sqrt\{2n\pi}$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Stirling's approximation},{factorial},{gamma function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
