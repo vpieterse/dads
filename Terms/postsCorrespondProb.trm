@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 14 08:52:54 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:43 2004" *by "Paul E. Black"
+
+# $Log: postsCorrespondProb.trm,v $
+# Revision 1.2  2004/12/17 16:53:44  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Post's correspondence problem
@@ -14,25 +19,36 @@ same string as the concatenation of all second members.
 This is an {undecidable problem}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=PCP
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
-@BIB=<strong><A
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong><a
 href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Post.html">Emil
-Post</A></strong>, <em>A Variant of a Recursively Unsolvable Problem.</em>
+Post</a></strong>, <em>A Variant of a Recursively Unsolvable Problem.</em>
 Bulletin of the American Mathematical Society, 52:264-268, 1946.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=Ling Zhao's
-<A href="http://web.cs.ualberta.ca/~zhao/PCP/intro.htm">page with
-examples, notes on programs to find solutions, etc.</A>.
+<a href="http://web.cs.ualberta.ca/~zhao/PCP/intro.htm">page with
+examples, notes on programs to find solutions, etc.</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/postsCorrespondProb.trm,v $
