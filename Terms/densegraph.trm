@@ -1,9 +1,12 @@
 # *created  "Tue Feb  9 08:55:41 1999" *by "Paul E. Black"
-# *modified "Tue Mar  9 12:00:20 2004" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:36:59 2004" *by "Paul E. Black"
 
 # $Log: densegraph.trm,v $
+# Revision 1.7  2004/04/19 18:37:11  black
+# Use the standard English plural of vertex
+#
 # Revision 1.6  2004/03/09 17:00:55  black
-# Put curly braces around vertexes.
+# Put curly braces around vertices.
 #
 # Revision 1.5  2004/03/09 16:56:41  black
 # Move the number of edges to NOTE since directed and undirected graphs
@@ -48,7 +51,7 @@ the possible number of edges.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 A {directed graph} can have at most $n(n-1)$ edges, where $n$ is the
-number of {vertexes}.
+number of {vertices#vertex}.
 An {undirected graph} can have at most $n(n-1)/2$ edges.
 </P>
 
@@ -59,7 +62,7 @@ href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
 of sparse and dense graphs</A> has problems, but may help.  First, for
 one graph, one can always choose a k.  Second a class of graphs might
 be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $2 &gt; k &gt; 1$.
-$|E|$ is the number of edges, and $|V|$ is the number of vertexes.
+$|E|$ is the number of edges, and $|V|$ is the number of vertices.
 <BR>
 Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
 22 December 2003
