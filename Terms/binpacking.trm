@@ -1,0 +1,38 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Oct  8 13:04:41 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=bin packing problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=Determine how to put the most objects in the least number of
+fixed space bins.  More
+formally, find a {partition} and assignment of a {set} of objects such
+that a constraint is
+satisfied or an {objective function} is minimized (or maximized).
+There are many variants, such as, 3D, 2D, linear, pack by volume, pack
+by weight, minimize volume, maximize value, fixed shape objects, etc.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={knapsack problem}, {cutting stock problem}, {optimization
+problem}, {strip packing}, {set packing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A common form of the problem is, what is the least number of
+bins (containers of fixed volume) needed to hold a set of objects.
+This problem often appears in manufacturing.  For instance, suppose we
+need a number of pipes of different, specific lengths to plumb a
+house and we can buy pipe stock in 5 meter lengths.  How can we cut
+the 5 meter pipes to waste as little as possible (minimize the cost of
+pipe)?
+
+<P>
+Thanks to Frank A. Adrian &lt;fadrian@symantec.com&gt;, 28 January 2000.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://www.cs.sunysb.edu/~algorith/files/bin-packing.shtml">(C++)</A>
+# author's initials
+@AUTHOR=PEB
+# end
