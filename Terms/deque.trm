@@ -1,5 +1,11 @@
 # *created  "Wed Dec 16 15:58:58 1998" *by "Paul E. Black"
-# *modified "Wed Jan  9 12:42:12 2002" *by "Paul E. Black"
+# *modified "Tue Jun 22 11:44:37 2004" *by "Paul E. Black"
+
+# $Log: deque.trm,v $
+# Revision 1.2  2004/06/22 15:48:43  black
+# Refine XREFS into IMA, etc.  Change reference from CLR to Knuth.  Add
+# pronunciation and XREF to stack.
+#
 
 # entry name
 @NAME=deque
@@ -16,12 +22,23 @@ the {head} or the {tail}.
 @AKA=doubly-ended queue
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={queue}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={queue}, {stack}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Short for <strong>D</strong>ouble-<strong>E</strong>nded
-<strong>QUE</strong>ue.
-After <A href="../terms.html#CLR90">[CLR90, page 203]</A>.
+<strong>QUE</strong>ue.  Pronounced "deck".
+After <A href="../terms.html#Knuth98">[Knuth98, vol 1, page 239]</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/deque.trm,v $
