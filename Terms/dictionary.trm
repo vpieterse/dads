@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Fri Oct 15 16:41:11 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:35 2004" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.8  2004/12/17 17:23:36  black
+# Make more XHTML compliant.
+#
 # Revision 1.7  2004/10/15 20:43:15  black
 # Add AKA map, IMA binary relation, and a NOTE explaining it.  Make
 # associative array a VARIANT.
@@ -46,25 +49,25 @@ defined with {axiomatic semantics} as follows.
 <li>$find(k, insert(j, v, D)) = find(k, D) if k \neq j$
 </ol>
 where k and j are keys, v is a value, and D is a dictionary.
-</P>
+</p>
 
-<P>
+<p>
 The modifier function delete(k, D) may be defined as follows.
 <ol start="4">
 <li>$delete(k, new()) = new()$
 <li>$delete(k, insert(k, v, D)) = delete(k, D)$
 <li>$delete(k, insert(j, v, D)) = insert(j, v, delete(k, D)) if k \neq j$
 </ol>
-</P>
+</p>
 
-<P>
+<p>
 If we want find to be a {total function}, we could define 
 find(k, new()) using a special value: <em>fail</em>.
 This only changes the return type of find.
 <ol start="7">
 <li>find(k, new()) = <em>fail</em>
 </ol>
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=association list, map, property list
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=assoc list, prop list, directory, database, data base
@@ -89,24 +92,24 @@ LISP-like languages and in the area of Artificial Intelligence.  These
 suggest a relatively small number of items, whereas a dictionary may
 be quite large.  Professionals in the Data Management area have
 specialized semantics for "dictionary" and related terms.
-</P>
+</p>
 
-<P>
+<p>
 A dictionary defines a {binary relation} that maps keys to values.
 The keys of a dictionary are a {set}.
-</P>
+</p>
 
-<P>
+<p>
 Contributions by Rob Stewart 16 March 2004.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
-Pascal, and Fortran)</A>.
+Pascal, and Fortran)</a>.
 Kaz Kylheku's
-<A
-href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+<a
+href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>
 implementing dictionary, dynamic hash table, red-black tree, and
 doubly linked list.
 # author's initials
