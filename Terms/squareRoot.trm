@@ -1,5 +1,12 @@
 # *created  "Wed Apr 25 11:40:02 2001" *by "Paul E. Black"
-# *modified "Tue Jul 15 08:39:44 2003" *by "Paul E. Black"
+# *modified "Wed Mar 17 11:14:21 2004" *by "Paul E. Black"
+
+# $Log: squareRoot.trm,v $
+# Revision 1.2  2004/03/17 16:15:27  black
+# Refine XREFS into IMA etc.  Add link to Grzesina's geometric
+# interpretation.  (Mine is more closely tied to the algorithm, but that
+# one has pretty pictures.)
+#
 
 # entry name
 @NAME=square root
@@ -148,8 +155,19 @@ more digits, and repeat the process.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 @NOTES=In computers and hand-held calculators, square root, sine,
@@ -165,6 +183,8 @@ Here is a more detailed lesson that explains, for instance,
 convergence</A>.
 # further explanation (pure HTML)
 @LINKS=
+Another <A
+href="http://mathcentral.uregina.ca/RR/database/RR.09.95/grzesina1.html">geometric justification</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://gams.nist.gov/">GAMS</A> Class C2 has many
 implementations of
@@ -175,4 +195,4 @@ Many
 and Assembler)</A> for caching, pipelined processing, etc.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/squareRoot.trm,v $
