@@ -1,0 +1,384 @@
+#!/usr/bin/perl -w
+# $Id: mkterms,v 1.1 1998/10/09 12:52:35 black Exp $
+# *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
+# *modified "Fri Sep 18 13:19:14 1998" *by "Paul E. Black"
+#
+# Collect all terms and format them for a web page.
+#	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
+#	http://hissa.ncsl.nist.gov/~black/black.html
+#
+#------------------------------------------------------------------------
+#
+$usage="usage: mkterms";
+#
+#------------------------------------------------------------------------
+#
+# CONFIGURATION SECTION:
+# - set TERMS_DIR to the path of the directory with term files.
+# - set TERM_EXT to the extension of term files (.trm for now).
+# - set AUTHORS to the (path) name of the authors' initials.
+# - set WEBPAGE to name of final web page, less extension (.html).
+
+$TERMS_DIR="Terms";
+$TERM_EXT="trm";
+$AUTHORS="authors";
+$WEBPAGE="terms";
+
+# defined areas
+%areas = (
+	basic		=> "Basic",
+	graph		=> "Graphs",
+	numeric		=> "Numeric Computation",
+	search		=> "Searching",
+	"sort"		=> "Sorting",
+	tree		=> "Trees",
+	combin		=> "Combinatorics",
+	theory		=> "Theory",
+);
+
+#defined types
+%types = (
+	A	=> "Algorithms",
+	D	=> "Definitions",
+	P	=> "Classic Problems",
+	S	=> "Data Structures",
+);
+
+#------------------------------------------------------------------------
+#
+# you should not have to edit anything below this
+#
+#------------------------------------------------------------------------
+
+# defined entry properties
+%properties = (
+	NAME	=> 1,
+	TYPE	=> 1,
+	AREA	=> 1,
+	DEFN	=> 1,
+	XREFS	=> 1,
+	NOTES	=> 1,
+	AUTHOR	=> 1,
+);
+
+# get today's year (CCYY), month (01 - 12), day (01 - 31), etc. and
+# print it.  This is Y2K compliant.
+($sec,$min,$hr,$mday,$mon,$yr,$wday,undef,undef) = localtime;
+# SKIMP - timezone (like MDT or EST) not printed
+printf("%3s %3s %2d %02d:%02d:%02d %4d\n",
+        (Sun,Mon,Tue,Wed,Thu,Fri,Sat)[$wday],
+        (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)[$mon],
+        $mday, $hr, $min, $sec, 1900+$yr); # TEMP
+
+# copy the file to the file handle
+# example: append the contents of $TEMP_FILE to $target
+#	open(TARGET, "> $target");
+#	&concatenate($TEMP_FILE, TARGET);
+#	close(TARGET);
+sub concatenate {
+    local($filename, $handle) = @_;
+    open(FHANDLE, "< $filename")
+	|| die("Cannot open $filename\n");
+    while (<FHANDLE>) {print $handle $_};
+    close(FHANDLE);
+}
+
+# check for option
+while ($#ARGV > 0) {
+	# some other operand, quit processing
+	last;
+}
+
+if ($#ARGV > 0) {
+    print STDERR "$usage\n";
+    exit 1;
+}
+
+# read/write by owner, readable by everyone else
+umask(0022);
+
+
+#------------------------------------------------------------------------
+#
+# Step I: read authors and their initials
+#
+#------------------------------------------------------------------------
+open(AUTHRS, "< $AUTHORS")
+	|| die("Cannot open authors file, $AUTHORS\n");
+
+while (<AUTHRS>) {
+    next if (/^ *\#/o);
+    /^([^\t]*)\t(.*)/o; # get initials ($1) and name ($2)
+    $authors{$1} = $2;
+}
+
+close AUTHRS;
+
+
+#------------------------------------------------------------------------
+#
+# Step II: read term entries
+#
+#------------------------------------------------------------------------
+
+# Step IIa: get a list of all term entry files (eventually about 1,500)
+@entries=`ls $TERMS_DIR/[a-z]*.$TERM_EXT`;
+
+# Step IIb: read each entry file and save the properties
+while ($entryFile = shift @entries) {
+    undef %thisEntry; # make sure nothing is left over
+    local($thisEntry) = {};
+
+    chop $entryFile;
+
+    open(ENTRY, "< $entryFile")
+	|| print STDERR "Cannot open $entryFile\n" && next;
+
+    while (<ENTRY>) {
+	next if (/^ *\#/o); # skip comments
+
+	# look for property headers
+	if (s/^@([^=]*)=//o) {
+	    $prop=$1;
+	}
+	chop;
+	s/^[ \t]*//o; # remove leading whitespace
+	next if /^$/; # ignore empty lines
+	if (! defined $properties{$prop}) {
+	    print "Unknown property $prop in $entryFile\n";
+	}
+	if (defined $thisEntry{$prop}) {
+	    $thisEntry{$prop} .= " "; # space after existing stuff
+	}
+	$thisEntry{$prop} .= $_; # save the info
+    }
+
+    close ENTRY;
+
+    # audit the entry
+    if (! defined $thisEntry{NAME}) {
+	print "No entry NAME given in $entryFile\n";
+	# assign a default
+	($thisEntry{NAME}) = ($entryFile =~ m|.*/([^.]*)|o);
+    }
+    if (defined $thisEntry{TYPE}) {
+	local($etype) = $thisEntry{TYPE};
+	if (! defined $types{$etype}) {
+	    print "Unknown TYPE $etype in $entryFile\n";
+	}
+    }
+    if (defined $thisEntry{AREA}) {
+	local($earea) = $thisEntry{AREA};
+	if (! defined $areas{$earea}) {
+	    print "Unknown AREA $earea in $entryFile\n";
+	}
+    }
+    if (defined $thisEntry{AUTHOR} &&
+	! defined $authors{$thisEntry{AUTHOR}}) {
+	local($initials) = $thisEntry{AUTHOR};
+	print "Unknown AUTHOR $initials in $entryFile\n";
+    }
+
+    # add this to an "index" for later sorting and printing
+    my $ename = $thisEntry{NAME};
+    $ename =~ tr/A-Za-z\0-\377/A-ZA-Z/d;
+    # save as a hash-of-hashes
+    for $fld (keys %thisEntry) {
+	$entries{$ename}{$fld} = $thisEntry{$fld};
+    }
+}
+
+
+#------------------------------------------------------------------------
+#
+# Step III: create the web page in a temporary file
+#
+#------------------------------------------------------------------------
+
+$pagename="$WEBPAGE.html";
+$temppage="\#$pagename";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+# Step IIIa: copy the intro
+&concatenate("$WEBPAGE.intro", TMPPAGE);
+
+# Step IIIb: sort the entries
+@sortedentries = sort keys %entries;
+#print @sortedentries;
+
+sub rewriteXrefs {
+    # rewrite complex references ( <=> text#xref> ) first
+    $_[0] =~ s|<=> ([^>]+)\#([^>]+)>|<a href="\#$2"><em>$1</em></a>|go;
+    # now rewrite simple references ( <=> textref> )
+    $_[0] =~ s|<=> ([^>]+)>|<a href="\#$1"><em>$1</em></a>|go;
+}
+
+# Step IIIb: write the entries
+foreach $letter ("A".."Z") {
+    print TMPPAGE "<h2>$letter</h2>\n\n";
+    print TMPPAGE "<dl>\n"; # beginning of list
+
+    if ($sortedentries[0] lt $letter) {
+	# go on to next letter
+	#print "Shifting for $letter.\n";
+	shift @sortedentries;
+    }
+
+#    print "LET'S SEE EVERYTHING\n";
+#    for $kkk (keys %entries) {
+#	print "HERE'S $kkk\n";
+#	for $kk (keys %{$entries{$kkk}}) {
+#	    print "$kk = $entries{$kkk}{$kk} ";
+#	}
+#	print "\n";
+#    }
+#    print "==========\n\n";
+
+    # output all entries beginning with this letter
+    while (substr($sortedentries[0], 0, 1) eq $letter) {
+	local($ekey) = shift @sortedentries;
+	%thisEntry = %{$entries{$ekey}};
+	#for $kk (keys %thisEntry) {
+	#    print "$kk = $thisEntry{$kk}\n";
+	#}
+
+	local($ename) = $thisEntry{NAME};
+	#print "Name is $ename\n";
+	print TMPPAGE "<dt><a name=\"$ename\"><em>$ename</em></a>\n";
+
+	if (defined $thisEntry{TYPE}) {
+	    local($etype) = $thisEntry{TYPE};
+	    print TMPPAGE " [<strong>$etype</strong>]\n";
+	}
+	print TMPPAGE "<dd>";
+	if (defined $thisEntry{DEFN}) {
+	    local($edefn) = $thisEntry{DEFN};
+	    # convert cross references (<=> ...>) to href's
+	    &rewriteXrefs($edefn);
+	    # SKIMP check cross references
+	    # SKIMP? I'm using some marks, such as <sup> in defn's
+	    # "quote" any HTML special characters
+	    #$edefn =~ s/&/&amp;/go;
+	    #$edefn =~ s/</&lt;/go;
+	    #$edefn =~ s/>/&gt;/go;
+	    print TMPPAGE "$edefn\n";
+	} else {
+	    print TMPPAGE "(no definition, yet)\n";
+	}
+	if (defined $thisEntry{XREFS}) {
+	    local($exrefs) = $thisEntry{XREFS};
+	    # change cross references (<...>) to href's
+	    $exrefs =~ s|<([^>]+)>|<a href="\#$1"><em>$1</em></a>|go;
+	    # add spaces after commas
+	    $exrefs =~ s|,([^ ])|, $1|go;
+	    print TMPPAGE "See also $exrefs\n";
+	}
+	if (defined $thisEntry{AUTHOR}) {
+	    local($eauth) = $thisEntry{AUTHOR};
+	    print TMPPAGE " (<a href=\"\#$eauth\">$eauth</a>)\n";
+	}
+	if (defined $thisEntry{NOTES}) {
+	    local($enotes) = $thisEntry{NOTES};
+	    # convert cross references (<=> ...>) to href's
+	    &rewriteXrefs($enotes);
+	    print TMPPAGE "<dd>(Note: <em>$enotes</em>)\n";
+	}
+	print TMPPAGE "\n";
+
+	# exit if no more entries (to avoid warning)
+	last if ! defined @sortedentries;
+    }
+
+    print TMPPAGE "</dl>\n\n"; # end of list and section
+}
+
+
+# Step IIIc: write areas and entries
+
+print TMPPAGE "<hr>\n";
+print TMPPAGE "<h1><a name=\"entriesByArea\">Entries by Area</a></h1>\n";
+
+for $area (sort keys %areas) {
+    print TMPPAGE "<h2>$areas{$area}</h2>\n";
+    print TMPPAGE "<ul>\n";
+
+    # go through all the entries and print those in this area
+    for $ent (sort keys %entries) {
+	next if ! defined $entries{$ent}{AREA} ||
+			$entries{$ent}{AREA} ne $area;
+	my $entName = $entries{$ent}{NAME};
+	print TMPPAGE "<li><a href=\"\#$entName\">$entName</a>\n";
+    }
+    print TMPPAGE "</ul>\n\n";
+}
+
+# Step IIId: write types and entries
+
+print TMPPAGE "<hr>\n";
+print TMPPAGE "<h1><a name=\"entriesByType\">Entries by Type</a></h1>\n";
+
+for $tent (keys %types) {
+    print TMPPAGE "<h2>$types{$tent}</h2>\n";
+    print TMPPAGE "<ul>\n";
+
+    # go through all the entries and print those in this area
+    for $ent (sort keys %entries) {
+	next if ! defined $entries{$ent}{TYPE} ||
+			$entries{$ent}{TYPE} ne $tent;
+	my $entName = $entries{$ent}{NAME};
+	print TMPPAGE "<li><a href=\"\#$entName\">$entName</a>\n";
+    }
+    print TMPPAGE "</ul>\n\n";
+}
+
+# Step IIIe: write authors
+
+print TMPPAGE "<hr>\n";
+print TMPPAGE "<h1>Author Index</h1>\n";
+print TMPPAGE "<dl>\n";
+
+for $akey (sort keys %authors) {
+    print TMPPAGE "<dt><a name=\"$akey\">$akey</a>\n";
+    my $aentry = $authors{$akey};
+    # "quote" any HTML special characters
+    $aentry =~ s/&/&amp;/go;
+    $aentry =~ s/</&lt;/go;
+    $aentry =~ s/>/&gt;/go;
+    print TMPPAGE "<dd>$aentry\n";
+}
+
+print TMPPAGE "</dl>\n\n";
+
+# Step IIIf: copy the closing
+&concatenate("$WEBPAGE.concl", TMPPAGE);
+
+close TMPPAGE;
+
+
+#------------------------------------------------------------------------
+#
+# Step IV: rename the temporary file
+#
+#------------------------------------------------------------------------
+
+# Step IVa: backup the existing page
+$backuppage="$pagename~";
+if (-e $pagename) {
+    unlink($backuppage);
+    link($pagename, $backuppage)
+	|| print STDERR "Warning: cannot create backup page $backuppage\n";
+    unlink($pagename)
+	|| print STDERR "Warning: cannot unlink page $pagename\n";
+}
+
+# Step IVb: rename the temporary file
+link($temppage, $pagename)
+    || die("Cannot link temporary file to page $pagename, stopped");
+unlink($temppage);
+
+exit;
+
+# end of $Source: /home/black/DADS/dads/RCS/mkterms,v $
