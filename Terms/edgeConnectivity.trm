@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 14 15:26:29 2001" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:05:15 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=edge connectivity
@@ -10,7 +10,7 @@
 # the definition
 @DEFN=(1) The smallest number of {edges} whose deletion will
 cause a {connected graph} to not be connected.  (2) For a pair of
-vertices $s$ and $t$ in a graph, the smallest number of edges whose
+vertexes $s$ and $t$ in a graph, the smallest number of edges whose
 deletion will separate $s$ from $t$.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={vertex connectivity}
@@ -24,4 +24,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/edge-vertex-connectivity.shtml">(
 C, and Pascal)</A>
 # author's initials
 @AUTHOR=GS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/edgeConnectivity.trm,v $
