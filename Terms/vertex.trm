@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 13:24:39 1998" *by "Paul E. Black"
-# *modified "Thu Jan 17 11:52:10 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:08:11 2003" *by "Paul E. Black"
 # entry name
 @NAME=vertex
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -13,11 +13,11 @@
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=vertexes
+@WEB=vertices
 # comma-separated list of cross references, i.e., See also ...
 @XREFS={edge}, {in-degree}, {out-degree}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The plural is vertices.
+@NOTES=The plural is vertexes.  Another plural is vertices.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/vertex.trm,v $
