@@ -1,5 +1,10 @@
 # *created  "Mon Jan 11 13:51:47 1999" *by "Paul E. Black"
-# *modified "Wed Jan  9 16:02:00 2002" *by "Paul E. Black"
+# *modified "Mon Jan 12 09:53:06 2004" *by "Paul E. Black"
+
+# $Log: discretintrv.trm,v $
+# Revision 1.2  2004/01/12 14:56:59  black
+# Add RCS Log and refine XREFS into IMA, etc.  Update links.
+#
 
 # entry name
 @NAME=discrete interval encoding tree
@@ -8,7 +13,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {binary search tree} which stores consecutive values as
+@DEFN=A {binary search tree} that stores consecutive values as
 intervals.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -16,27 +21,39 @@ intervals.
 @AKA=diet
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary search tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Each {node} is an interval signifying consecutive values,
-instead of a single value.  This is better than if there are many sets
+instead of a single value.  This saves space and time if there are
+many sets
 of consecutive values.
 # further explanation (pure HTML)
 @LINKS=<A
-HREF="http://www.fernuni-hagen.de/inf/pi4/erwig/diet/">Discrete
+href="http://web.engr.oregonstate.edu/~erwig/diet/">Discrete
 Interval Encoding Trees</A> with links to implementations.
 Abstract and links to full text of <A
-HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/papers/abstracts.html#JFP98">Diets
+href="http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP98">Diets
 for Fat Sets</A> from Journal of Functional Programming, Vol. 8,
 No. 6, 1998.
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/diet/diet.sml.txt">insert,
+href="http://web.engr.oregonstate.edu/~erwig/diet/diet.sml.txt">insert,
 delete, and member (ML)</A>,
 <A
-HREF="http://www.informatik.fernuni-hagen.de/import/pi4/erwig/diet/diet.hs.txt">insert,
+href="http://web.engr.oregonstate.edu/~erwig/diet/diet.hs.txt">insert,
 delete, and member (Haskell)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/discretintrv.trm,v $
