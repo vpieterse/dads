@@ -1,0 +1,78 @@
+# *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:34 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=stack
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=basic
+# the definition
+@DEFN=A collection of items in which only the most recently added item may be
+removed.  The latest added item is at the top.  Basic operations are
+push and pop.  Often top and isEmpty are available, too.
+Also known as "last-in, first-out" or LIFO.
+# formal definition or {cross reference} to an entry
+@FORML=The operations new(), push(v, S), top(S), and popoff(S) may be
+defined as follows.
+<ol>
+<li>new() returns a stack
+<li>popoff(push(v, S)) = S
+<li>top(push(v, S)) = v
+</ol>
+where S is a stack and v is a value.  The pop operation is a
+combination of top, to return the top value, and popoff, to remove the
+top value.
+</P>
+
+<P>
+The {predicate} isEmpty(S) may be defined with the following additional axioms.
+<ol start="4">
+<li>isEmpty(new()) = true
+<li>isEmpty(push(v, S)) = false
+</ol>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=LIFO
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=pushdown, PD
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={bounded stack},{queue},{cactus stack},{abstract data type}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=Origin is attributed to <strong>A. W. Burks, D. W. Warren</strong>, and
+<strong>J. B. Wright</strong>, <em>An analysis of a logical machine using
+parenthesis-free notation</em>, Mathematical Tables and Other Aids to
+Computation, 8(46):53-57, April 1954, and
+<strong>A. Newell</strong> and <strong>J. C. Shaw</strong>,
+<em>Programming the logic theory machine</em>, In Proceedings of the
+1957 Western Joint Computer Conference, pp 230-240, Institute of Radio
+Engineers, New York, February 1957.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Other operations may
+include index(i, S), return the ith item in the stack, isFull(S), and
+rotate(i, S), move i items from top to bottom or vice versa.
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+<A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/stacks.html">examples
+and code</A>.
+Tutorial, diagrams, and code (C, C++) of
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Stacks/stacks.html">array
+and linked list implementation</A>.
+Demonstration with <A
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/StackAppl.html">dynamic
+array</A> and
+<A
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkStackAppl.html">linked
+list</A> implementations.
+# implementation(s) (pure HTML)
+@IMPL=Jonathan G. Campbell's <A
+href="http://www.cs.qub.ac.uk/~J.Campbell/myweb/oop/oophtml/node18.html">Queue
+and Stack Classes (C++)</A> and <A
+href="http://www.cs.qub.ac.uk/~J.Campbell/csc721/noteshtml/ads.html#SECTION001130000000000000000">(Java)</A>,
+<A
+href="http://www.math.grin.edu/~stone/events/scheme-workshop/stacks.html">(Scheme)</A>
+# author's initials
+@AUTHOR=PEB
+# end
