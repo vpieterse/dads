@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 30 08:50:24 2001" *by "Paul E. Black"
+# *modified "Mon Jan 12 10:24:11 2004" *by "Paul E. Black"
+
+# $Log: malhotraKumr.trm,v $
+# Revision 1.2  2004/01/12 15:24:31  black
+# Use more regular form of "vertex".  Add RCS Log and Source.
+#
+
 # entry name
 @NAME=Malhotra-Kumar-Maheshwari blocking flow
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,7 +17,7 @@
 {maximum-flow problem}),
 select a {vertex} with the least throughput and
 {greedily#greedy heuristic} push the maximum flow from it to the
-{sink}.  This is repeated until all vertices are deleted.
+{sink}.  This is repeated until all vertexes are deleted.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
@@ -26,4 +32,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/malhotraKumr.trm,v $
