@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Apr  5 13:55:31 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:21 2004" *by "Paul E. Black"
+
+# $Log: turingMachine.trm,v $
+# Revision 1.2  2004/12/17 16:55:21  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Turing machine
@@ -15,12 +20,23 @@ machine can change its state and move the head to the left or right.
 Unless otherwise specified, a Turing machine is {deterministic}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS= other models: {cell probe model}, {random access machine},
+
 {pointer machine}, {multiprocessor model}, 
 related terms: {big-O notation}, {busy beaver},
 variants: {alternating Turing machine}, {nondeterministic
@@ -33,11 +49,11 @@ Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS=An <A
-href="http://plato.stanford.edu/entries/turing-machine/">article</A>
+@LINKS=An <a
+href="http://plato.stanford.edu/entries/turing-machine/">article</a>
 in the Stanford Encyclopedia of Philosophy.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/turingMachine.trm,v $
