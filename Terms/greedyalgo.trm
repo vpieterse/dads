@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 14 12:39:35 2001" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:56:17 2004" *by "Paul E. Black"
+
+# $Log: greedyalgo.trm,v $
+# Revision 1.2  2004/11/01 16:56:36  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=greedy algorithm
@@ -13,8 +18,19 @@ solution while finding an answer.  Greedy algorithms find
 the overall, or globally, {optimal solution} for some {optimization
 problems}, but may
 find less-than-optimal solutions for some instances of other problems.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={greedy heuristic}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES={Prim's algorithm} and {Kruskal's algorithm} are greedy
 algorithms that find the globally optimal solution, a {minimum
@@ -32,7 +48,7 @@ quicker, since they don't consider the details of possible alternatives.
 
 <P>
 {Dijkstra's algorithm} for finding {shortest paths}, {Huffman
-encoding} and {optimal merge} are other examples
+coding} and {optimal merge} are other examples
 of greedy algorithms that find optimal solutions.
 # further explanation (pure HTML)
 @LINKS=
@@ -40,4 +56,4 @@ of greedy algorithms that find optimal solutions.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/greedyalgo.trm,v $
