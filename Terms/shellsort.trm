@@ -1,0 +1,65 @@
+# *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
+# *modified "Wed May 14 08:32:33 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Shell sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=The first {diminishing increment sort}.  Originally the first increment
+was half the number of items to be sorted, i.e., $n/2$, and each
+succeeding increment was half the preceding increment.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Shell-Metzner sort, shell sort
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>Donald Lewis Shell</strong>, <em>A High-Speed
+Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
+
+# Donald Shell discovered the Shell Sort algorithm while working on a
+# Masters degree in the Mathematics Department of the University of
+# Cincinnati.
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Based on an "adaptation by Marlene Metzner" this algorithm is
+referred to as the Shell-Metzner sort by <strong>John
+P. Grillo</strong>, <em>A Comparison of Sorts</em>, Creative
+Computing, 2:76-80, Nov/Dec 1976.
+# Copy of "A Comparison of Sorts" in Mnemo 5
+Grillo cites <strong>Fredric Stuart</strong>, <em>FORTRAN
+Programming</em>, John Wiley and Sons, New York, 1969, page 294.
+In crediting "one of the fastest" programs for sorting, Stuart says
+in a footnote, "Published by Marlene Metzner, Pratt & Whitney
+Aircraft Company.  From a method described by D. L. Shell."
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
+(Java)</A>;
+Sedgewick's <A href="http://www.cs.princeton.edu/~rs/shell/">Analysis
+of Shellsort and Related Algorithms (C)</A>;
+Worst-case behavior <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
+for real time (WOOP/ADA)</A>, including bibliography;
+<A href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</A>;
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Shell_Sort">explanation (C)</A>;
+<A href="http://www.nmt.edu/~es421/pascal/sort.htm">(Pascal)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</A>,
+<A href="http://www.certified-capital.com/examples/asp/sorting/ShellSort/default.asp">(VBScript)</A>,
+<A href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</A>,
+<A href="http://www.ahml.lib.il.us/pfw/ProcessSaveFile.txt">(Passport for
+Windows PFW)</A>,
+<A href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</A>,
+<A href="http://www.outer-court.com/basic/echo/T469.HTM">(Basic)</A>.
+# author's initials
+@AUTHOR=PEB,ASK
+# end
