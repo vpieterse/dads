@@ -1,0 +1,21 @@
+# *created  "Wed Mar 10 12:53:59 1999" *by "Paul E. Black"
+# *modified "Wed Mar 10 12:55:44 1999" *by "Paul E. Black"
+# entry name
+@NAME=NIST
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=The United States National Institute of Standards and Technology.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.nist.gov/">home page</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
