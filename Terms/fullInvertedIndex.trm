@@ -1,0 +1,34 @@
+# *created  "Thu Dec 28 11:14:03 2000" *by "Paul E. Black"
+# *modified "Thu Jan 10 13:39:26 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=full inverted index
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=An {inverted index} which includes the exact location within
+texts, in addition to the text in which the word appears.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=fully inverted index
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={inverted file index}, {block addressing index}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Nivio Ziviani, Edleno Silva de Moura, Gonzalo Navarro,
+Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
+Next-Generation Text Retrieval Systems</em>, IEEE Computer,
+33(11):37-44, November 2000, (page 42).
+# any notes.  these are not printed in the final dictionary
+@NOTES=See the example at {inverted index}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
