@@ -1,5 +1,10 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Wed Jul 30 11:31:02 2003" *by "Paul E. Black"
+# *modified "Fri May 14 12:43:57 2004" *by "Paul E. Black"
+
+# $Log: hashtab.trm,v $
+# Revision 1.2  2004/05/14 16:44:39  black
+# Refine XREFS into IMA, etc.  Refer to SparkNotes.
+#
 
 # entry name
 @NAME=hash table
@@ -14,8 +19,19 @@
 many ways to resolve collisions, but they may be divided into
 {open addressing}, in which all elements are kept within the
 table, and {chaining}, in which additional data structures are used.
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={perfect hashing}, {dynamic hashing}, {cuckoo hashing},
+
 {load factor}, {hash table delete},
 collision resolution: {coalesced hashing},
 {linear probing}, {double hashing}, {quadratic probing}, {uniform
@@ -33,7 +49,7 @@ resolution, but may be constant
 <A
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/hash_tables.html">explanation
 and example of hashing and various collision resolution
-techniques</A>
+techniques</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 chaining: <A href="http://burtleburtle.net/bob/hash/hashtab.html">(C)</A>,
@@ -46,6 +62,9 @@ up (C)</A>, <A
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>,
 chaining: <A href="http://epaperpress.com/vbhash/">explanations,
 diagrams, and code (Visual Basic)</A>
+Explanation and sample problems for <A
+href="http://www.sparknotes.com/cs/searching/hashtables/section1.html">hashing
+(C)</A> (some pages require free registration).
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hashtab.trm,v $
