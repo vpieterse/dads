@@ -1,0 +1,21 @@
+# *created  "Wed May 17 13:04:31 2000" *by "Paul E. Black"
+# *modified "Wed May 17 13:05:00 2000" *by "Paul E. Black"
+# entry name
+@NAME=finite Fourier transform
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
