@@ -1,0 +1,35 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 10:13:03 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Lotka's law
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=The number of authors making $n$ contributions is about
+$1/n<sup>a</sup>$ of those making one contribution, where $a$ is often
+nearly 2.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Zipf's law}, {Benford's law}, {Bradford's law}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Alfred J. Lotka</strong>, <em>The Frequency Distribution
+of Scientific Productivity</em>, Journal of the Washington Academy of
+Sciences, 16(12):317-323, 1926.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A power law; often nearly an inverse square law.
+</P>
+
+<P>
+Contributed by Christiane Fritze &lt;h0444who@rz.hu-berlin.de&gt; July
+2000.
+# further explanation (pure HTML)
+@LINKS=A short biography of <A
+href="http://users.pandora.be/ronald.rousseau/html/lotka.html">Alfred
+James Lotka</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
