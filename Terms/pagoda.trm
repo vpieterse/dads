@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 09:59:26 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:46:30 2001" *by "Paul E. Black"
+# *modified "Mon May 24 11:22:28 2004" *by "Paul E. Black"
+
+# $Log: pagoda.trm,v $
+# Revision 1.2  2004/05/24 15:22:47  black
+# Change pp. to pages.
+#
+
 # entry name
 @NAME=pagoda
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,24 +14,35 @@
 @AREA=tree
 # the definition
 @DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Francon, J., Viennot, G., and Vuillemin, J.  Description and
 analysis of an efficient priority queue representation.  Proc. 19th
 Annual Symp. on Foundations of Computer Science.  IEEE, 1978,
-pp. 1-7.  Nix, R.  An Evaluation of Pagodas.  Res. Rep. 164, Dept. of
+pages 1-7.  Nix, R.  An Evaluation of Pagodas.  Res. Rep. 164, Dept. of
 Computer Science, Yale Univ.  1988?
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.del.c">delete
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.del.c">delete
 (C and Pascal)</A>, <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.ins.c">insert
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.ins.c">insert
 (C and Pascal)</A>, and <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.merg.c">merge
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.merg.c">merge
 (C and Pascal)</A>
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/pagoda.trm,v $
