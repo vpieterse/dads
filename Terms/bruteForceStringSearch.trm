@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 10:12:01 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:09:05 2003" *by "Paul E. Black"
+# *modified "Tue Oct  5 16:23:41 2004" *by "Paul E. Black"
+
+# $Log: bruteForceStringSearch.trm,v $
+# Revision 1.2  2004/10/05 20:23:53  black
+# Remove LINK to Eric Schank & Michael Baer's comparison page.
+#
 
 # entry name
 @NAME=brute force string search
@@ -13,14 +18,23 @@ of text by trying each position one at a time.  There are many far
 faster {string matching} algorithms.
 # comma-separated list of pure names
 @AKA=naive string search
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=A <A
-href="http://www5.palmnet.net/~eschank/search/search.html">comparison</A>
-of Naive, Knuth-Morris-Pratt, and Boyer-Moore string searches.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <A
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
@@ -30,4 +44,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/711a.srch.c">(C
 and Pascal)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bruteForceStringSearch.trm,v $
