@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 28 12:56:59 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:01 2004" *by "Paul E. Black"
+
+# $Log: tailRecursion.trm,v $
+# Revision 1.2  2004/12/17 16:55:02  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=tail recursion
@@ -12,8 +17,19 @@
 function is a recursive call.  The recursion may be optimized
 away by executing the call in the current stack frame and returning
 its result rather than creating a new stack frame.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={collective recursion}, {iteration}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Although it may not save a lot of run time, it can save a lot
 of memory.
@@ -33,7 +49,7 @@ int max_list(list l, int max_so_far)<br>
 }
 </pre>
 
-<P>
+<p>
 The return value of the current invocation is just the return value of
 the recursive call.  A compiler could optimize it something like
 the following so it doesn't allocate new space for l and max_so_far on
@@ -63,7 +79,7 @@ code transformation is simple enough to do by hand in this example,
 but it is much harder for complex {recursive} data structures, such as
 {trees}.
 
-<P>
+<p>
 Of course, if a compiler is good enough to find and rewrite tail
 recursion, it will also collapse the loop test, eliminate the
 assignment of max_so_far to itself, and hoist the assignment of l
@@ -87,4 +103,4 @@ int max_list(list l, int max_so_far)<br>
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/tailRecursion.trm,v $
