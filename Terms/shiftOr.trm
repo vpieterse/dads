@@ -1,0 +1,28 @@
+# *created  "Wed Jul  7 08:39:12 1999" *by "Paul E. Black"
+# *modified "Thu Dec 28 10:58:17 2000" *by "Paul E. Black"
+# entry name
+@NAME=Shift-Or
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm which keeps an {array} of bits, R,
+showing if {prefixes} of the {pattern} don't match at the current
+place.  Before searching, mismatch arrays are computed for each
+character in the {alphabet} and saved in an array, S.  For the next
+position, with the character c, $R = shift(R) {or} S[c]$.  If the
+last bit of R is 0, the pattern matches.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node6.html">explanation
+and code (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
