@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.19 2004/02/27 16:04:02 black Exp $
+# $Id: mkcommon.pl,v 1.20 2004/08/25 15:33:31 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Feb 27 11:00:47 2004" *by "Paul E. Black"
+# *modified "Tue Aug 10 09:20:40 2004" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -399,7 +399,7 @@ sub addToDictionary (\%) {
     # TNAME is plain-text name, e.g., without HTML or LaTeX markers.
     #		BBalpha2 tree
     #		K&ouml;nigsberg bridges
-    # alphname HERE is name used to alphabetize, e.g.,
+    # alphaName is name used to alphabetize, e.g.,
     #		BBALPHATWOTREE
     #		bTHETA (where b is a blank)
     #		KOENIGSBERGBRIDGES
@@ -603,7 +603,7 @@ sub readTermEntries {
 	    #print "$thisEntry{NAME} has variant(s) for web of";
 
 	    if ($webaliases =~ /[., ]$/) {
-		print "\nAKA <<$webaliases>> has a funny trailing character in $entryFile\n";
+		print "\nWEB <<$webaliases>> has a funny trailing character in $entryFile\n";
 	    }
 
 	    foreach $webvar (split /^ *{?|}?, *{?|}? *$/, $webaliases) {
