@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jun 17 12:51:28 2003" *by "Paul E. Black"
+# *modified "Wed Jun  9 08:40:36 2004" *by "Paul E. Black"
+
+# $Log: gammaFunction.trm,v $
+# Revision 1.2  2004/06/09 12:43:49  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Change file name to
+# gammaFunction.trm.
+#
 
 # entry name
 @NAME=gamma function
@@ -13,8 +19,19 @@ $\int <sub>0</sub><sup>\infty</sup>
 e<sup>-x</sup>x<sup>n-1</sup>dx$.  Recursively
 $\Gamma(n+1) = n\Gamma(n)$.  For non-negative integers $\Gamma(n+1)
 = {n!#factorial}$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Stirling's formula}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The gamma function is defined for all numbers whereas factorial
 is (strictly) only defined for non-negative integers.
@@ -25,4 +42,4 @@ is (strictly) only defined for non-negative integers.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/gammaFunction.trm,v $
