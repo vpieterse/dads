@@ -1,5 +1,11 @@
 # *created  "Mon Nov 16 15:21:02 1998" *by "Paul E. Black"
-# *modified "Tue Aug 21 13:37:44 2001" *by "Paul E. Black"
+# *modified "Wed Oct  6 11:02:03 2004" *by "Paul E. Black"
+
+# $Log: kdtree.trm,v $
+# Revision 1.2  2004/10/06 15:02:32  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=k-d tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=A multidimensional {search tree} for points in $k$ dimensional
 space.  Levels of the tree are split along successive dimensions at
 the points.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={binary search tree}, {adaptive k-d tree}, {point access method}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <A href="../terms.html#GG98">[GG98]</A>.  
 Robert Keith Oswald (rko9h@virginia.edu) explains,
@@ -19,7 +36,7 @@ In a traditional binary search tree, records are
 defined by only one key. In a k-d tree, records are defined 
 by k keys. Like a traditional binary search trees, records 
 are inserted and returned using $&lt;$ and $\geq$. 
-However, the key which determines the subtree to use 
+However, the key that determines the subtree to use 
 (i.e. left or right) varies with the level in the tree. 
 At level $L$, key number $L \bmod k + 1$ is used, where the 
 root is at level 0. Therefore, the first key is used 
@@ -42,4 +59,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.srch.c">search
 Pascal, and Fortran)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kdtree.trm,v $
