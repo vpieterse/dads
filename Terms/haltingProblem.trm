@@ -1,7 +1,10 @@
 # *created  "Tue Sep 22 17:06:56 1998" *by "Paul E. Black"
-# *modified "Mon Aug  9 15:38:35 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:10 2004" *by "Paul E. Black"
 
 # $Log: haltingProblem.trm,v $
+# Revision 1.5  2004/12/17 17:28:10  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/08/09 19:41:08  black
 # State the problem explicitly using the wording from undecidable
 # problem.  Add otherparts of the wording to NOTES.  Be more specific:
@@ -43,7 +46,7 @@ impossible, although
 @XREFS={uncomputable problem},
 {Turing machine}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Alan Turing</strong>, <em>On computable numbers, with an
 application to the Entscheidungsproblem</em>, Proceedings of the
@@ -55,19 +58,19 @@ In more detail, can there be a program that, when given any
 arbitrary program, finishes in finite time and correctly answers "Yes,
 the program you gave me halts for all inputs" or "No, the program you
 gave me does not halt for some inputs."
-</P>
+</p>
 
-<P>
+<p>
 This is an informal wording of what Turing proved.  Please do
 not refer to this page if you claim to refute his proof.
 # further explanation (pure HTML)
 @LINKS=Wikipedia's 
-<A href="http://en.wikipedia.org/wiki/Halting_problem">extensive
-entry</A> including related problems and a link to Turing's original
+<a href="http://en.wikipedia.org/wiki/Halting_problem">extensive
+entry</a> including related problems and a link to Turing's original
 paper.
 Eric W. Weisstein's entry for
-<A href="http://mathworld.wolfram.com/HaltingProblem.html">Halting
-Problem</A>.
+<a href="http://mathworld.wolfram.com/HaltingProblem.html">Halting
+Problem</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
