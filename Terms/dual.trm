@@ -1,0 +1,36 @@
+# *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:16:30 2000" *by "Paul E. Black"
+# entry name
+@NAME=dual
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=The dual of a {planar graph}, G, is a {graph} with a
+{vertex} for each region in G and an {edge} between vertices for
+each pair of adjacent regions.  The new edge crosses the edge in G
+which is the boundary between the adjacent regions.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=<IMG src="Images/dual.gif" height=266 width=303 align=right>
+The dual of a planar graph is also planar.  The original graph
+is the dual of the dual.  That is, they are duals of each other.
+<P>
+In the accompanying figure, the black circles and solid lines are one
+planar graph.  The white squares and dotted lines are another planar
+graph.  Each is the dual of the other.
+# further explanation (pure HTML)
+@LINKS=The <A
+HREF="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
+Venn diagram</A>, also
+<A
+HREF="http://www.wisdom.weizmann.ac.il/Journal/Surveys/ds5/VennGraphEJC.html">here</A>.
+<A HREF="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</A>,
+that is, planar graphs which are duals of themselves.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
