@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 13:44:16 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 15:07:53 2005" *by "Paul E. Black"
+# *modified "Tue Jan 11 16:17:02 2005" *by "Paul E. Black"
 
 # $Log: bag.trm,v $
+# Revision 1.6  2005/01/11 21:17:19  black
+# Specify that IMA ADT.
+#
 # Revision 1.5  2005/01/11 20:09:50  black
 # Change TYPE to data Structure so it shows up in the ontology
 #
@@ -25,7 +28,7 @@
 @DEFN=An unordered collection of values that may have duplicates.
 # formal definition or {cross reference} to an entry
 @FORML=
-As an {abstract data type}, a bag has a single query function,
+A bag has a single query function,
 numberIn(v, B), which tells how many copies of an element are in the
 bag, and two modifier functions, add(v, B) and remove(v, B).
 These may be defined with {axiomatic semantics} as follows.
@@ -54,7 +57,7 @@ The {predicate} isEmpty(B) may be defined with the following additional axioms.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={abstract data type}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
