@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:31:25 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:33:44 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=move-to-front heuristic
@@ -11,15 +11,15 @@
 @DEFN=A {heuristic} that moves the target of a {search} to the {head}
 of a {list} so it is found faster next time.
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={move-to-root heuristic}, {transpose sequential search}
+@XREFS={move-to-root heuristic}, {transpose sequential search},
+{self-organizing list}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This technique speeds up {linear search} performance only if the
 target item is likely to be searched for again soon.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Discussion and <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Self_Organizing_Lists/self_organizing_lists.html">code (C)</A>
+@IMPL=
 # author's initials
 @AUTHOR=PEB
 # end
