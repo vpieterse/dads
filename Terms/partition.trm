@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue May 13 15:20:06 2003" *by "Paul E. Black"
+# *modified "Thu Feb 26 15:12:17 2004" *by "Paul E. Black"
+
+# $Log: partition.trm,v $
+# Revision 1.2  2004/02/26 20:13:52  black
+# Refine XREFS into IMA, etc.  Improve formal def'n: *different* subsets
+# are disjoint.  Refer to quicksort.
+#
 
 # entry name
 @NAME=partition
@@ -20,7 +26,8 @@ with the following properties:
 <ul>
 <LI> $\forall s<sub>i</sub> \in P, s<sub>i</sub> \neq \emptyset$ <br>(no
 subset is empty),
-<LI> $\forall s<sub>i</sub>, s<sub>j</sub> \in P, s<sub>i</sub>
+<LI> $\forall s<sub>i</sub>, s<sub>j</sub> \in P, i \neq j \rightarrow
+s<sub>i</sub>
 \cap s<sub>j</sub> = \emptyset $ <br> (subsets are disjoint), and
 <LI> $\bigcup<sub>i=1</sub> s<sub>i</sub> = S$ <br>(subsets exactly
 cover the original).
@@ -33,9 +40,19 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={select and partition}, {set packing}, {subset}, {Dutch
-national flag}, {American flag sort}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={set}
+# Specialization: "... is a kind of me."
+@VARIANT={select and partition}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={quicksort}, {Dutch national flag}, {American flag sort}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={set packing}, {subset}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -47,4 +64,4 @@ partitions (Fortran, Mathematica, Pascal, and C)</A>,
 <A href="http://www.math.grin.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/partition.trm,v $
