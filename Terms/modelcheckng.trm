@@ -1,0 +1,29 @@
+# *created  "Fri May 14 14:04:05 1999" *by "Paul E. Black"
+# *modified "Fri Jun 27 16:09:20 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=model checking
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=Efficiently deciding whether a {temporal logic} formula is
+satisfied in a {finite state machine} model.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Kripke structure}, {BDD}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Model checking is increasingly used in the {formal verification}
+of hardware and software.  The decision process often uses some form
+of binary decision diagram (BDD).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+Model checkers: 
+<A href="http://spinroot.com/spin/whatispin.html">Spin</A> 
+and
+<A href="http://www.cs.cmu.edu/~modelcheck/">SMV</A>.
+# author's initials (see authors.data)
+@AUTHOR=SKS
+# end
