@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue May 13 15:43:15 2003" *by "Paul E. Black"
+# *modified "Tue Mar 30 12:17:59 2004" *by "Paul E. Black"
+
+# $Log: permutation.trm,v $
+# Revision 1.2  2004/03/30 17:19:19  black
+# Refine XREFS into IMA, etc.  Refer to Ben Pfaff's shuffle impl.
+#
 
 # entry name
 @NAME=permutation
@@ -18,9 +23,19 @@ element from $i$ to $N$.
 @AKA=shuffle
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=permute
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={perfect shuffle}, {combination}, {pseudo-random number generator},
-{sort}, {derangement}, {Johnson-Trotter}, {American flag sort}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={combination}
+# Specialization: "... is a kind of me."
+@VARIANT={perfect shuffle}, {sort}, {derangement}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={American flag sort}
+# Aggregate child: "... is a part of or used in me."
+@INME={Johnson-Trotter}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={pseudo-random number generator}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A {sort} is a permutation where the items are arranged in some
 order.  The algorithm above can be viewed as a reverse {selection
@@ -43,9 +58,12 @@ Glenn Rhoads'
 href="http://www.cs.sunysb.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</A>;
 <A href="http://gams.nist.gov/serve.cgi/Class/N8">(Fortran)</A>.
+Ben Pfaff's answer to
+<A href="http://www.msu.edu/~pfaffben/writings/clc/shuffle.html">how
+can I shuffle the contents of an array? (C)</A>.
 <A
 href="http://pobox.com/~oleg/ftp/Haskell/perfect-shuffle.txt">Perfect
 shuffle (Haskell)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/permutation.trm,v $
