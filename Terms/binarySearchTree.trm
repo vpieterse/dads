@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:15 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 14:03:30 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.12  2004/12/17 19:04:06  black
+# Fix ref to tree sort which IMIN.
+#
 # Revision 1.11  2004/12/17 17:23:15  black
 # Make more XHTML compliant.
 #
@@ -52,7 +55,7 @@ subtree has keys greater than the node's key.
 @VARIANT={AVL tree}, {splay tree}, {threaded tree}, 
 {randomized binary search tree}, {discrete interval encoding tree}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={tree sort}
+@IMIN={treesort (1)}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
