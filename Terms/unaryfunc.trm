@@ -1,0 +1,21 @@
+# *created  "Wed Aug  4 10:58:53 1999" *by "Paul E. Black"
+# *modified "Thu Dec 21 16:33:50 2000" *by "Paul E. Black"
+# entry name
+@NAME=unary function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {function} which takes one argument.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={constant function}, {binary function}, {n-ary function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
