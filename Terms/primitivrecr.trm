@@ -1,0 +1,35 @@
+# *created  "Thu May  6 08:55:42 1999" *by "Paul E. Black"
+# *modified "Thu Jan 10 14:03:41 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=primitive recursive
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=theory
+# the definition
+@DEFN=A {total function} which can be written using only nested
+conditional (if-then-else) statements and fixed iteration (for)
+loops.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={computable}
+# any notes.  these will not be printed in the final dictionary
+@NOTES={Ackermann's function} is {computable}, but is not
+primitive recursive.  Primitive recursion functions always
+terminate.  More powerful languages have some functions which cannot
+be proved to either terminate or run forever.
+</P>
+
+<P>
+After Algorithms and Theory of Computation Handbook, footnote, page
+26-13, 
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
