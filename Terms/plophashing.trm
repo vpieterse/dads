@@ -1,0 +1,20 @@
+# *created  "Tue Nov 17 17:03:04 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:35:40 2001" *by "Paul E. Black"
+# entry name
+@NAME=PLOP-hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=Piecewise linear order-preserving (PLOP) hashing is a {spatial
+access method} which splits space into a nonperiodic grid.  Each
+spatial dimension is divided by nodes of a {binary tree}.  Object
+are stored in the grid cell of their {centroid}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={grid file}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
