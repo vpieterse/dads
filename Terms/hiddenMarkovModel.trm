@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Wed Jul  7 12:09:17 2004" *by "Paul E. Black"
+# *modified "Wed Dec  8 10:54:43 2004" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.4  2004/12/08 15:57:17  black
+# Add BIB entry
+#
 # Revision 1.3  2004/07/07 16:10:21  black
 # Remove link to Cohen's lecture 19, since it only renders in IE.
 #
@@ -55,6 +58,14 @@ $o<sub>k</sub>$ given that the current state is $q<sub>i</sub>$.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Markov chain}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# this might not be *the* defining article, but it is early and by the
+# originator, Baum
+<strong>L. E. Baum</strong>, <em>An inequality and associated
+maximization technique in statistical estimation for probabilistic
+functions of Markov processe</em>, Inequalities, 3:1-8, 1972.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Computing a model given sets of sequences of observed outputs
