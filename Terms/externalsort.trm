@@ -1,0 +1,37 @@
+# *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
+# *modified "Thu Feb 27 11:00:58 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=external sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=Any {sort} algorithm that uses external memory, such as tape
+or disk, during the sort.  Since most common sort algorithms assume
+high-speed random access to all intermediate memory, they are
+unsuitable if the values to be sorted don't fit in main memory.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={internal sort}, {balanced multiway merge}, {cascade merge sort},
+{external merge sort}, {optimal polyphase merge sort},
+{oscillating merge sort}, {polyphase merge sort},
+{external radix sort}, {external merge}, {external memory algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Algorithms may read the initial values from magnetic tape or
+write sorted values to disk, but this is not using external memory
+during the sort.  Note that even though virtual memory may mask the
+use of disk, sorting sets of data much larger than main memory may be
+much faster using an explicit external sort.
+</P>
+
+<P>
+See <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.4]</A>
+for an extensive treatment.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
