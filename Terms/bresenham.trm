@@ -1,7 +1,11 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Thu Dec 18 13:53:40 2003" *by "Paul E. Black"
+# *modified "Mon Nov  1 13:17:11 2004" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Revision 1.3  2004/11/01 18:18:17  black
+# Bresenham is no longer with Winthrop.  Remove dead java applet LINK.
+# Add Autocoder IMPL.
+#
 # Revision 1.2  2003/12/18 18:54:23  black
 # Break out historical note to a new, separate field.
 #
@@ -53,16 +57,16 @@ from the IBM Systems Journal asked me after I made my presentation if
 they could publish the paper.  I happily agreed, and they printed it in
 1965."
 # further explanation (pure HTML)
-@LINKS=<A
-href="http://cba.winthrop.edu/faculty/bresenhamj.htm">Jack E.
-Bresenham</A> is a professor at Winthrop University.
+@LINKS=
+# Jack E. Bresenham retired from Winthrop University in May 2003.
+# His email is j.bresenham@computer.org (Nov 2004)
 An <A
 href="http://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</A>.
-A <A href="http://www.cs.rit.edu/~yxy7691/Bookmark.html">java
-applet</A> showing which points are selected.  Dragging the end point
-shows how the selection of points changes.
 # implementation(s) (pure HTML)
 @IMPL=
+The original IBM 1401 <A
+href="http://www.bitsavers.org/1401/progs/bresenham/bresenham.s">implementation
+(Autocoder)</A> from 1962.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bresenham.trm,v $
