@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb  2 16:59:50 2000" *by "Paul E. Black"
+# entry name
+@NAME=secondary clustering
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The tendency for some {collision resolution schemes} to create
+long {probe sequences} of filled slots.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={primary clustering}, {clustering free}, {hash table}, {open
+addressing}, {clustering}, {linear probing}, {quadratic probing},
+{double hashing}, {uniform hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Secondary clustering increases average search time.  Quadratic
+probing is susceptible to secondary clustering since {keys} which have
+the same hash value also have the same probe sequence.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
