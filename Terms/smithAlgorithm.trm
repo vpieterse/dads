@@ -1,0 +1,30 @@
+# *created  "Wed Jul  7 08:42:45 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:18:59 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Smith algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm which computes the shift
+value for both the rightmost character of the {window} and the
+character preceding it, then uses the maximum of the two values.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>P. D. Smith</strong>, <em>Experiments with a very fast
+substring search algorithm</em>, Software Practice &amp; Experience,
+21(10):1065-1074, 1991.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node21.html">visualization
+and code (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=BB
+# end
