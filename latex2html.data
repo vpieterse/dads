@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.5 2000/01/28 14:47:27 black Exp $
+# $Id: latex2html.data,v 1.6 2000/02/02 16:01:28 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Fri Jan 28 09:44:40 2000" *by "Paul E. Black"
+# *modified "Tue Feb  1 15:27:13 2000" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -55,6 +55,7 @@
 #    Table 3.5: Relation Symbols
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
 \ll	&lt;&lt;
+\sim	<img src="Images/approx.gif" border=0 height=5 width=10 alt="asymptotically equal to">
 \subset		proper subset of
 \subseteq	subset of
 \geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
