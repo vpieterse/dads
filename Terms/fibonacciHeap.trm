@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:47 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 10:53:40 2005" *by "Paul E. Black"
 
 # $Log: fibonacciHeap.trm,v $
+# Revision 1.6  2005/01/04 16:02:54  black
+# Remove DDJ URL - requires registration.
+#
 # Revision 1.5  2004/12/17 17:23:47  black
 # Make more XHTML compliant.
 #
@@ -64,8 +67,6 @@ href="http://algorithm.myrice.com/resources/technical_artile/fibonacci_heap/fibo
 and code for ExtractMin and DecreaseKey (C++)</a> by
 <strong>John Boyer</strong>, <em>Algorithm Alley</em>, Dr. Dobb's
 Journal, January 1997.
-<a href="http://www.ddj.com/ftp/1997/1997.01/aa197.zip">Complete
-Fibonacci Heap code (C++)</a> in zip format.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciHeap.trm,v $
