@@ -1,5 +1,11 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Tue Dec 11 13:37:11 2001" *by "Paul E. Black"
+# *modified "Tue Feb 10 13:09:38 2004" *by "Paul E. Black"
+
+# $Log: suffixtree.trm,v $
+# Revision 1.2  2004/02/10 18:13:11  black
+# Refine XREFS into IMA, etc.  Add link to McGill's tries and suffix trees.
+#
+
 # entry name
 @NAME=suffix tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,16 +16,34 @@
 @DEFN=A compact representation of a {trie}
 corresponding to the {suffixes} of a given {string} where all
 {nodes} with one {child} are merged with their {parents}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={multi suffix tree},{Patricia tree}, {suffix array}, {directed
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={Patricia tree}, {trie}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={multi suffix tree}, {suffix array}, {directed
 acyclic word graph}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A suffix tree is a Patricia tree corresponding to the suffixes
 of a given string.  A directed acyclic word graph (DAWG) is a more
 compact form.
+
 # further explanation (pure HTML)
 @LINKS=<A href="http://www.informatik.uni-freiburg.de/~edelkamp/MultiSuffixTree.html">Multi Suffix Trees</A>,
-<A href="http://www.dna.lth.se/~jesper/research.html">links to papers</A>
+<A href="http://www.dna.lth.se/~jesper/research.html">links to papers</A>.
+# Winter 1997 Class Notes for 308-251
+# DATA STRUCTURES AND ALGORITHMS
+# Topic #7: TRIES AND SUFFIX TREES
+Explanations of and comparisons between
+<A href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
+and suffix trees</A>.
+
 # implementation(s) (pure HTML)
 @IMPL=Strmat - a variety of <A
 href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">string matching
@@ -32,4 +56,4 @@ random text (clisp)</A> and in
 <A href="http://www.ddj.com/ftp/2001/2001_04/aa0401.txt">(C)</A>.
 # author's initials
 @AUTHOR=SE
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/suffixtree.trm,v $
