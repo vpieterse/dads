@@ -1,5 +1,12 @@
 # *created  "Mon Jan  8 12:42:30 2001" *by "Paul E. Black"
-# *modified "Tue May 13 15:48:22 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 09:34:19 2004" *by "Paul E. Black"
+
+# $Log: histogramSort.trm,v $
+# Revision 1.2  2004/12/17 14:39:11  black
+# Add AKA interpolation sort.  Move Single Buffered Count Sort IMPL to
+# counting sort.  Move GBY IMPL here from interpolation sort.  Refine
+# XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=histogram sort
@@ -15,8 +22,25 @@ and then makes a running total so each auxiliary entry is the number of
 preceding items.  The second pass puts each item in its proper bucket
 according to the auxiliary entry for the {key} of that item.  The last
 pass sorts each bucket.
-# comma-separated list of {cross references}.  printed as "See also ..."
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=interpolation sort
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={distribution sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={counting sort}, {American flag sort}
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=The run time is effectively {O(n log log n)#big-O notation}.
 Let S be the data set to be sorted, where $n=|S|$.  R is an
@@ -31,9 +55,9 @@ following properties.
 Each bin then has, on average, 1 entry.  Under some rather broad
 assumptions the number of entries in a bin will be Poisson distributed
 whence the observation that the sort is O(n log log n).
-</P>
+</p>
 
-<P>
+<p>
 Let T be the final array for the sorted data.  Allocate an auxiliary
 integer array H indexed $0 \ldots n-1$.  
 We make one pass through the data to count the number of items in
@@ -44,31 +68,30 @@ second pass through the data.  We copy each item x in S from S to T at
 H(R(x)), then increment H(R(x)) so the next item in the bin goes in
 the next location in T.  (The bin number R(x) could be saved in still
 another auxiliary array to trade off memory for computation.)
-</P>
+</p>
 
-<P>
+<p>
 For numeric data, there is a simple R function that works very well:
 Let min, max be the minimum and maximum of S.  Then R(x) = n*(x -
 min)/(max-min).
-</P>
+</p>
 
-<P>
+<p>
 This uses quite a bit of extra memory.  For large data sets, there
 could be slow downs because of page faults.  For large n it is more
 efficient to bound the number of bins.
-</P>
+</p>
 
-<P>
+<p>
 This note is due to Richard Harter, cri@tiac.net,
 http://www.tiac.net/users/cri/, 8 January 2001, and is used by
 permission.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Marion McCoskey's
-<A href="http://members.aol.com/mckyyy/sbcntsrt.htm">Single Buffered
-Count Sort</A> in
-<A href="http://members.aol.com/mckyyy/sbhst.cpp">(C++)</A>.
+@IMPL=<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/416.sort.c">(C
+and Pascal)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/histogramSort.trm,v $
