@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Apr 17 14:20:42 2000" *by "Paul E. Black"
+# entry name
+@NAME=reachable
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {vertex} $v$ is reachable from another vertex $u$
+if there is a {path} of any length from $u$ to $v$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={sink}, {source}, {connected graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Usually applied only to {directed graphs}, since any vertex
+in a {connected#connected graph}, {undirected graph} is reachable from
+any other vertex.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=JM
+# end
