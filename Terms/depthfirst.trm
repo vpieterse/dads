@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Wed Aug 25 09:42:01 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:34 2004" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.5  2004/12/17 17:23:34  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/08/25 13:43:55  black
 # Update Mukundan's demonstration URL.  Improve language in defn slightly.
 #
@@ -27,7 +30,7 @@ that marks all vertices in a {directed graph} in the order they are
 discovered and finished, partitioning the graph into a {forest}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=DFS
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -45,24 +48,24 @@ discovered and finished, partitioning the graph into a {forest}.
 @XREFS={breadth-first search}, {best-first search}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=<A href="../terms.html#CLR90">[CLR90, pages 477-485]</A>
+@NOTES=<a href="../terms.html#CLR90">[CLR90, pages 477-485]</a>
 # further explanation (pure HTML)
-@LINKS=<A
+@LINKS=<a
 href="http://yoda.cis.temple.edu:8080/UGAIWWW/resources/search-resources.html">Laboratory
-Resources on Search and Game Playing</A>,
-Lecture notes on <A
+Resources on Search and Game Playing</a>,
+Lecture notes on <a
 href="http://www.cs.utoronto.ca/~mitchell/ai-course/s1.html">Uninformed
-Search</A>,
-Lecture notes from Design and Analysis of Algorithms on <A
+Search</a>,
+Lecture notes from Design and Analysis of Algorithms on <a
 href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
-search and depth-first search</A>.
-A <A
-href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/GraphAppl.html">demonstration</A>.
+search and depth-first search</a>.
+A <a
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/GraphAppl.html">demonstration</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A
-href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/knight/dfs.html">(Lisp)</A>,
-<A
-href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/shoham/chapter2/section2.4.html">(Prolog)</A>
+@IMPL=<a
+href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/knight/dfs.html">(Lisp)</a>,
+<a
+href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/shoham/chapter2/section2.4.html">(Prolog)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/depthfirst.trm,v $
