@@ -71,7 +71,7 @@ $\Gamma \geq \Theta<sub>j</sub>+\alpha \gg \epsilon$
 # further explanation (pure HTML)
 @LINKS=<A href="http://www.lds.org/">The Church of Jesus Christ of
 Latter Day Saints</A>
-<A HREF="http://nowhere.org/ %&+;=~blackfish">bad link</A>
+<A href="http://nowhere.org/ %&+;=~blackfish">bad link</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
