@@ -1,0 +1,49 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Oct  8 12:55:51 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=knapsack problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=Given items of different values and volumes, find the
+most valuable set of items that fit in a knapsack of fixed volume.
+# formal definition or {cross reference} to an entry
+@FORML=There is a knapsack of capacity $c &gt; 0$ and $N$ items.  Each
+item has value $v<sub>i</sub> &gt; 0$ and
+weight $w<sub>i</sub> &gt; 0$.  
+Find the selection of items ($\delta<sub>i</sub> = 1$ if selected, $0$
+if not) that fit,
+$\sum<sub>i=1</sub><sup>N</sup> \delta<sub>i</sub>w<sub>i</sub> \leq c$,
+and the total value,
+$\sum<sub>i=1</sub><sup>N</sup> \delta<sub>i</sub>v<sub>i</sub>$,
+is maximized.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=0-1 knapsack problem, binary knapsack problem
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=BKP
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={fractional knapsack problem}, {unbounded knapsack problem}, 
+{bin packing problem}, {cutting stock problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also called 0-1 knapsack (each item may be taken (1) or not
+(0)), in contrast to the {fractional
+knapsack problem}.  Also called unbounded knapsack because they are an
+unbounded number of copies items of each The {decision problem} form is, given items of
+different values and volumes and a knapsack, is there a subset which
+exceeds a certain value?  The decision problem is {NP-complete}.
+# further explanation (pure HTML)
+@LINKS=How to <A
+href="http://www.ceng.metu.edu.tr/~leventc/C567/lectures/chapter4_3_1.html">construct
+an optimal solution</A> using 
+<A href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
+programming</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/knapsack.shtml">(Fortran
+and Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
