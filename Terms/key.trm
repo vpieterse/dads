@@ -1,5 +1,10 @@
 # *created  "Tue Feb  9 08:46:10 1999" *by "Paul E. Black"
-# *modified "Mon Jan 28 09:48:05 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:05:01 2004" *by "Paul E. Black"
+
+# $Log: key.trm,v $
+# Revision 1.2  2004/12/17 17:05:01  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=key
@@ -10,8 +15,19 @@
 # the definition
 @DEFN=The part of a group of data by which it is sorted, indexed, cross
 referenced, etc.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={dictionary}, {heap}, {sort}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, to sort customer records
 alphabetically, the key is the last name, then the given names.
@@ -27,4 +43,4 @@ balance as the key.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/key.trm,v $
