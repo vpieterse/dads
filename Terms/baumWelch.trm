@@ -1,7 +1,10 @@
 # *created  "Thu Aug  1 16:42:06 2002" *by "Paul E. Black"
-# *modified "Tue Jul  6 08:56:59 2004" *by "Paul E. Black"
+# *modified "Wed Jul  7 12:11:13 2004" *by "Paul E. Black"
 
 # $Log: baumWelch.trm,v $
+# Revision 1.3  2004/07/07 16:12:08  black
+# Add hidden Markov model as an aggregate child, like in Viterbi algo.
+#
 # Revision 1.2  2004/07/06 13:10:05  black
 # Refine XREFS into IMA, etc. and add RCS keywords.  Remove HMM link;
 # pages now renders only in Microsoft Internet Explorer.
@@ -32,7 +35,7 @@ sequence in the observation vector.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={hidden Markov model}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Viterbi algorithm}
 
