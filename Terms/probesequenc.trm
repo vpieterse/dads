@@ -1,0 +1,23 @@
+# *created  "Wed Feb  2 16:50:21 2000" *by "Paul E. Black"
+# *modified "Wed Feb  2 17:04:03 2000" *by "Paul E. Black"
+# entry name
+@NAME=probe sequence
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=The list of locations which a method for {open addressing}
+produces as alternatives in case of a {collision}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={hash table}, {collision resolution scheme}, {clustering},
+{uniform hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
