@@ -1,5 +1,10 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Thu Jul 31 14:18:59 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:22 2004" *by "Paul E. Black"
+
+# $Log: rtree.trm,v $
+# Revision 1.2  2004/12/17 16:54:23  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=R-tree
@@ -12,22 +17,33 @@
 hierarchically nested, and possibly overlapping, boxes.  The tree is
 height-balanced.
 (2) A {recursion tree}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={B-tree},{P-tree} (2),{P-tree} (3),
+
 {R<sup>+</sup>-tree},{R<sup>*</sup>-tree}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
-@BIB=(1) After <A href="../terms.html#GG98">[GG98]</A>.
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=(1) After <a href="../terms.html#GG98">[GG98]</a>.
 Also found in Algorithms and Theory of Computation Handbook, page 18-24.
-(2) Used in <A href="../terms.html#GCG92">[GCG92]</A>.  Suggested by
+(2) Used in <a href="../terms.html#GCG92">[GCG92]</a>.  Suggested by
 Rama Maiti, 19 August 2001.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-href="http://www.cs.bu.edu/faculty/gkollios/rtrees.html">(Java)</A>,
-<A href="http://www.volny.cz/r-tree/">(C++)</A>
+@IMPL=<a
+href="http://www.cs.bu.edu/faculty/gkollios/rtrees.html">(Java)</a>,
+<a href="http://www.volny.cz/r-tree/">(C++)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/rtree.trm,v $
