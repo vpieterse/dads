@@ -1,0 +1,22 @@
+# *created  "Fri Oct  6 13:16:29 2000" *by "Paul E. Black"
+# *modified "Fri Oct  6 13:16:57 2000" *by "Paul E. Black"
+# entry name
+@NAME=brick sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Sedgewick's <A HREF="http://www.cs.princeton.edu/~rs/shell/">Analysis
+of Shellsort and Related Algorithms (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
