@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Jul 31 13:25:01 2000" *by "Paul E. Black"
+# entry name
+@NAME=fixed-grid method
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=geom
+# the definition
+@DEFN=Space decomposition into rectangular cells by overlaying a grid on it.If the cells are congruent (i.e.,of the same width, height, etc.), then the grid is said to be uniform.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={bucketing method}, {regular decomposition}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 18-24,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
