@@ -1,0 +1,23 @@
+# *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
+# *modified "Thu Nov  8 10:41:05 2001" *by "Paul E. Black"
+# entry name
+@NAME=Fibonacci search
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=search
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Worst-case behavior <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
+for real time (WOOP/ADA)</A>, including bibliography.
+# author's initials
+@AUTHOR=
+# end
