@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:10:28 1998" *by "Paul E. Black"
-# *modified "Wed Jan  7 13:12:35 2004" *by "Paul E. Black"
+# *modified "Thu Feb 19 13:04:53 2004" *by "Paul E. Black"
 
 # $Log: heap.trm,v $
+# Revision 1.5  2004/02/19 18:08:56  black
+# Add Fib heap as a variant.
+#
 # Revision 1.4  2004/01/07 18:16:32  black
 # Correct definition: a heap is a complete tree (a binary heap is a
 # complete binary tree).  Move most of the xrefs, notes, implementation
@@ -37,7 +40,7 @@ Usually understood to be a {binary heap}.
 # Generalization: "I am a kind of ..."
 @IMA={complete tree}
 # Specialization: "... is a kind of me."
-@VARIANT={binary heap}, {k-ary heap}, {binomial heap}
+@VARIANT={binary heap}, {k-ary heap}, {binomial heap}, {Fibonnaci heap}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
