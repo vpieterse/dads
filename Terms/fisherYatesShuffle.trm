@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Tue Sep  7 12:24:51 2004" *by "Paul E. Black"
+# *modified "Wed Oct 20 17:47:15 2004" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.3  2004/10/20 21:47:54  black
+# Remove link to illegal copy of O'Reilly's "Perl Cookbook".
+#
 # Revision 1.2  2004/09/07 16:26:01  black
 # Update Pfaff's URL.  Correct typo.
 #
@@ -63,10 +66,6 @@ sort}.  It is described in some detail as algorithm P in
 Ben Pfaff's answer to
 <A href="http://www.stanford.edu/~blp/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</A>.
-Recipe 4.17 in "Perl Cookbook" for
-<A
-href="http://iis1.cps.unizar.es/Oreilly/perl/cookbook/ch04_18.htm">Randomizing
-an Array (Perl)</A>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
