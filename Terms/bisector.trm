@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Mar 21 14:01:12 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:48:30 2004" *by "Paul E. Black"
+
+# $Log: bisector.trm,v $
+# Revision 1.2  2004/12/17 16:48:31  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=bisector
@@ -9,14 +14,25 @@
 @AREA=geom
 # the definition
 @DEFN=For two elements $e<sub>i</sub>$ and $e<sub>j</sub>$, the locus of points equidistant from $e<sub>i</sub>$ and $e<sub>j</sub>$.  That is $\{p|d(p,e<sub>i</sub>)=d(p(e<sub>j</sub>)}$, where $d$ is some distance metric.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if $e<sub>i</sub>$ and $e<sub>j</sub>$ are two
 points in the plane and we use {Euclidean distance}, the bisector is
 the perpendicular bisector of the line segment
 $\overline\{e<sub>i</sub>,e<sub>j</sub>}$.
-<P>
+<p>
 From Algorithms and Theory of Computation Handbook, page 20-26,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
@@ -27,4 +43,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bisector.trm,v $
