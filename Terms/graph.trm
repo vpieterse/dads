@@ -2,6 +2,9 @@
 # *modified "Mon Apr 19 14:37:53 2004" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.7  2004/08/13 19:00:47  black
+# Link to Jung and jdsl IMPLs.
+#
 # Revision 1.6  2004/04/19 18:38:01  black
 # Use the standard English plural of vertex
 #
@@ -118,6 +121,8 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</A>,
 Template Library (C)</A>,
 <A href="http://www.boost.org/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</A>
+<A href="http://jung.sourceforge.net/">Jung (Java)</A.
+<A href="www.jdsl.org/home.html">jdsl (Java)</A>.
 # author's initials
 @AUTHOR=PEB,PJT
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graph.trm,v $
