@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Tue Jan  4 11:15:29 2005" *by "Paul E. Black"
+# *modified "Thu Jan 27 13:09:12 2005" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Revision 1.4  2005/01/27 18:09:24  black
+# Add Graphviz IMPL.
+#
 # Revision 1.3  2005/01/04 16:15:52  black
 # Remove rellis IMPL - account not found on server.
 #
@@ -48,6 +51,9 @@ a graph in the plane such that no edges cross (C, C++, and
 Mathematica)</a>, GraphEd: <a
 href="http://www.cs.sunysb.edu/~algorith/implement/graphed/implement.shtml">Graph
 Editor and Layout Program (C)</a>.
+Graphviz: <a href="http://www.graphviz.org/">Graph Visualization
+Software (C)</a>, consisting of many graph drawing programs, viewers
+(C, Java, and TCL/TK), etc.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graphdrawing.trm,v $
