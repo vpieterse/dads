@@ -1,0 +1,33 @@
+# *created  "Tue Sep 15 12:08:29 1998" *by "Paul E. Black"
+# *modified "Thu Jun 19 10:04:36 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=greatest common divisor
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=numeric
+# the definition
+@DEFN=(1) The greatest integer which is a divisor of given positive
+integers.  For instance, GCD(30, 42) = 6.  (2) An algorithm to find
+the same.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# On 19 Jun 2003 Simon Hosie <simon.hosie@clear.net.nz> said this is
+# called "Highest common factor" in the UK and New Zealand. 
+@AKA=GCD, highest common factor
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=greatest common denominator
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={Euclid's algorithm}, {binary GCD algorithm}, {least common multiple},
+{extended Euclid's algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 804]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/gcd.html">(Scheme)</A>
+# author's initials
+@AUTHOR=PEB
+# end
