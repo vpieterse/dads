@@ -1,7 +1,11 @@
 # *created  "Wed Mar 17 14:06:47 1999" *by "Paul E. Black"
-# *modified "Wed Dec 15 14:31:14 2004" *by "Paul E. Black"
+# *modified "Thu Dec 16 09:40:18 2004" *by "Paul E. Black"
 
 # $Log: randomnumgen.trm,v $
+# Revision 1.3  2004/12/16 14:42:57  black
+# Add Dragon Tails comic illustrating the difference between random and
+# pseudorandom numbers.
+#
 # Revision 1.2  2004/12/15 19:31:57  black
 # Remove XREF to deleted term, spectral test.  Refine XREFS into IMA,
 # etc.  Add RCS keywords.  Make more XHTML compliant.
@@ -37,6 +41,24 @@
 numbers, not actually random numbers.  This is important when, say,
 simulations are sensitive to subtle patterns in the ``random'' numbers
 used.
+</p>
+
+<p>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr><td>
+<a
+href="http://www.dragon-tails.com/comics/large.php?date=040112"><img
+src="../Images/dt random 040112.jpg" border="0" 
+alt="comic with the lines 'lets do something random'
+'Sorry, living creatures are notoriously terrible at generating true
+random numbers.'"></a>
+</td></tr>
+<tr><td align="center">
+click the comic for a larger version
+</td></tr>
+</table>
+From <a href="http://www.dragon-tails.com/">Dragon Tails</a>.
+Used by permission.  Copyright &copy; 2004 Tim Dawson.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
