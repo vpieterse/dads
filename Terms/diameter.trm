@@ -1,5 +1,14 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Oct 16 13:01:14 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:37:20 2004" *by "Paul E. Black"
+
+# $Log: diameter.trm,v $
+# Revision 1.3  2004/04/19 18:37:27  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:01:25  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=diameter
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,11 +17,22 @@
 @AREA=graph
 # the definition
 @DEFN=The maximum of the distances between all possible pairs of
-{vertexes} of a {graph}.
-# comma-separated list of {cross references}, i.e., See also ...
+{vertices#vertex} of a {graph}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={degree}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The distance between two vertexes $u$ and $v$ in a {weighted
+@NOTES=The distance between two vertices $u$ and $v$ in a {weighted
 graph} is the sum of weights of the {edges} of a shortest path between
 them.  For unweighted graph, it is the number of edges of a shortest
 path.
