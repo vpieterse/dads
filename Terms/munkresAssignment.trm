@@ -1,0 +1,49 @@
+# *created  "Fri Nov 14 12:59:28 2003" *by "Paul E. Black"
+# *modified "Fri Nov 14 13:21:35 2003" *by "Paul E. Black"
+
+# $Log: munkresAssignment.trm,v $
+# Revision 1.1  2003/11/14 18:29:30  black
+# Initial revision
+#
+
+# entry name
+@NAME=Munkres' assignment algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Solve the {assignment problem} in {polynomial time} by marking
+and unmarking entries and covering and uncovering rows and columns.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Hungarian algorithm
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>James Munkres</strong>, 
+#<em>Hypothetical Intelligence</em>, 
+#Proc. Everything XV, Provo, 2(7):30-32, February
+1957.
+
+# [In the academic year 1999-2000] Professor James Munkres retired
+# from MIT after 40 years of distinguished service on the [Department
+# of] Mathematics Faculty. 
+
+# One James Munkres is the author of "Topology"
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=
+Example of step-wise coding of the
+<A href="http://www.public.iastate.edu/~ddoty/HungarianAlgorithm.html">algorithm
+(Pascal)</A> from a description.
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/munkresAssignment.trm,v $
