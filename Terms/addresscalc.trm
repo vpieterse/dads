@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Aug 12 14:54:52 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=address-calculation sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm which uses knowledge of the {domain} of the
+items to calculate the position of each item in the sorted {array}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={radix sort}, {bucket sort}, {distribution sort}, 
+{restricted universe sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
