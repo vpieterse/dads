@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.5 1998/10/27 15:04:08 black Exp $
+# $Id: mkterms,v 1.6 1998/11/16 20:00:36 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Tue Oct 27 10:01:56 1998" *by "Paul E. Black"
+# *modified "Mon Nov 16 14:51:50 1998" *by "Paul E. Black"
 #
 # Collect all terms and format them for a web page.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -134,6 +134,8 @@ print STDERR "Reading terms...\n" if ($verbose);
 # Step IIa: get a list of all term entry files (eventually about 1,500)
 @entries=`ls $TERMS_DIR/[A-Za-z]*.$TERM_EXT`;
 
+#print @entries;
+
 # Step IIb: read each entry file and save the properties
 while ($entryFile = shift @entries) {
     undef %thisEntry; # make sure nothing is left over
@@ -191,7 +193,16 @@ while ($entryFile = shift @entries) {
 
     # add this to an "index" for later sorting and printing
     my $ename = $thisEntry{NAME};
+    # index some numbers as words
+    $ename =~ s/\b2\b/two/g;
+    $ename =~ s/\b3\b/three/g;
+    $ename =~ s/\b4\b/four/g;
+    # make all letters upper case and remove any non-letter
     $ename =~ tr/A-Za-z\0-\377/A-ZA-Z/d;
+    # make sure entry name is unique
+    while (defined $entries{$ename}) {
+	$ename++;
+    }
     # save as a hash-of-hashes
     for $fld (keys %thisEntry) {
 	$entries{$ename}{$fld} = $thisEntry{$fld};
@@ -296,7 +307,7 @@ foreach $letter ("A".."Z") {
 	if (defined $thisEntry{AUTHOR}) {
 	    local($eauth) = $thisEntry{AUTHOR};
 	    $eauth =~ s| *([^,]+)|<a href="\#$1">$1</a>|go;
-	    print TMPPAGE "$eauth\n";
+	    print TMPPAGE "($eauth)\n";
 	}
 	if (defined $thisEntry{NOTES}) {
 	    local($enotes) = $thisEntry{NOTES};
