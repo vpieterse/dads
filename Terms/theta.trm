@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:09:45 2003" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:33:59 2004" *by "Paul E. Black"
+
+# $Log: theta.trm,v $
+# Revision 1.3  2004/06/14 13:34:34  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Add BIB ref.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
 
 # entry name
 @NAME=$\Theta$
@@ -31,8 +39,26 @@ showing relation between a function, f, and the limit function, g">
 @AKA=theta
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={big-O notation}, {$\sim$}, {asymptotically tight bound}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={big-O notation}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={$\sim$}, {asymptotically tight bound}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Donald E. Knuth</strong>, <em>Big Omicron and Big Omega and
+Big Theta</em>, SIGACT News, 8(2):18-24, April-June 1976.
+# Some sources give last page as 23.  The article proper ends on page
+# 23, but bibliographical references continue to page 24.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This is the upper-case Greek letter Theta.
 # further explanation (pure HTML)
@@ -41,4 +67,4 @@ showing relation between a function, f, and the limit function, g">
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/theta.trm,v $
