@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Jan  2 10:38:41 2002" *by "Paul E. Black"
+# *modified "Fri Feb 27 15:11:02 2004" *by "Paul E. Black"
+
+# $Log: parallelRandomAccessMachine.trm,v $
+# Revision 1.2  2004/02/27 20:19:40  black
+# Refine XREFS into IMA, etc.  Refer to "shared memory".
+#
 
 # entry name
 @NAME=parallel random-access machine
@@ -8,7 +13,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=para
 # the definition
-@DEFN=A shared-memory {model of computation}, where typically the
+@DEFN=A {shared memory} {model of computation}, where typically the
 processors all execute the same instruction synchronously, and access
 to any memory location occurs in unit time.
 # formal definition or {cross reference} to an entry
@@ -17,8 +22,19 @@ to any memory location occurs in unit time.
 @AKA=PRAM
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={shared memory}
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={work-depth model}, {multiprocessor model}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 47-3,
@@ -31,4 +47,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/parallelRandomAccessMachine.trm,v $
