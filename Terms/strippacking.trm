@@ -1,5 +1,10 @@
 # *created  "Tue Feb  8 09:46:46 2000" *by "Paul E. Black"
-# *modified "Tue Oct  8 13:06:40 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:58 2004" *by "Paul E. Black"
+
+# $Log: strippacking.trm,v $
+# Revision 1.2  2004/12/17 16:54:58  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=strip packing
@@ -13,8 +18,19 @@ determine how to
 get the most objects from the least number of fixed length strips.
 More formally, find a {partition} and assignment of a {set} of objects
 of certain lengths such that they fit on a minimum number of strips.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={knapsack problem}, a two-dimensional variant is the {cutting
+
 stock problem}, {optimization problem}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -23,9 +39,9 @@ need a number of pipes of different, specific lengths to plumb a
 house and we can buy pipe stock in 5 meter lengths.  How can we cut
 the 5 meter pipes to waste as little as possible (minimize the cost of
 pipe)?
-</P>
+</p>
 
-<P>
+<p>
 The classic method comes
 from Gilmore and Gomory, who published in <em>Operations Research</em>
 in the 1960's.  The method "iterates between solving a potentially
@@ -37,4 +53,4 @@ construct new columns)." (Paul Rubin, rubin@msu.edu, 20 June 1996)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/strippacking.trm,v $
