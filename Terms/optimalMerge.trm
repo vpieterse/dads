@@ -1,0 +1,122 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 16:20:17 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=optimal merge
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN={Merge} $n$ sorted sequences of different
+lengths into one output while minimizing reads.  Only two sequences
+can be merged at once.  At each step, the two shortest sequences are merged.
+# formal definition or {cross reference} to an entry
+@FORML=Let $D=\{n<sub>1</sub>, \ldots , n<sub>k</sub>\}$ be the set of lengths 
+of sequences to be merged.  Take the two shortest sequences, 
+$n<sub>i</sub>, n<sub>j</sub>\in D$, 
+such that $n\geq n<sub>i$</sub> and $n\geq n<sub>j</sub> \forall n\in D$.  
+Merge these two sequences.  The new set $D$ is
+$D' = (D - \{n<sub>i</sub>, n<sub>j</sub>\}) \cup \{n<sub>i</sub>+n<sub>j</sub>\}$.  
+Repeat until there is only one sequence.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={simple merge}, {ideal merge}, {Huffman encoding}, {greedy algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Merging sequences by length is the same as joining trees by frequency in
+{Huffman encoding}.
+For example, let there be a set of sorted sequences of the following 
+lengths: $D=\{3,5,7,9,12,14,15,17\}$.  Building the optimal merge tree goes
+as follows.  Note that merged sequences are replaced by the sum of their
+lengths.  For instance, the first step merges the sequence of length 3
+and the sequence of length 5 to get a sequence of length 8.
+<pre>
+3        5        7        9       12        14     15       17
+</pre>
+
+<pre>
+  8          7        9       12        14     15       17	<br>
+ / \								<br>
+3   5
+</pre>
+
+<pre>
+    15         9       12        14     15       17	<br>
+   /  \							<br>
+  8    7						<br>
+ / \							<br>
+3   5
+</pre>
+
+<pre>
+    15          21       14     15       17	<br>
+   /  \        /  \				<br>
+  8    7      9    12				<br>
+ / \						<br>
+3   5
+</pre>
+
+
+<pre>
+   29             21        15       17	<br>
+  /  \           /  \			<br>
+14    15        9    12			<br>
+     /  \				<br>
+    8    7				<br>
+   / \					<br>
+  3   5
+</pre>
+
+
+<pre>
+   29             21           32	<br>
+  /  \           /  \         /  \	<br>
+14    15        9    12     15    17	<br>
+     /  \				<br>
+    8    7				<br>
+   / \					<br>
+  3   5
+</pre>
+
+
+<pre>
+        50                 32		<br>
+      /    \              /  \		<br>
+     /      \           15    17	<br>
+   29        21				<br>
+  /  \      /  \			<br>
+14    15   9    12			<br>
+     /  \				<br>
+    8    7				<br>
+   / \					<br>
+  3   5
+</pre>
+
+
+<pre>
+              82		<br>
+            /    \		<br>
+           /      \		<br>
+          /        \		<br>
+        50          32		<br>
+      /    \       /  \		<br>
+     /      \    15    17	<br>
+   29        21			<br>
+  /  \      /  \		<br>
+14    15   9    12		<br>
+     /  \			<br>
+    8    7			<br>
+   / \				<br>
+  3   5
+</pre>
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=AL
+# end
