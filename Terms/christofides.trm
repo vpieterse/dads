@@ -1,5 +1,5 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Mon Aug 13 09:12:38 2001" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:32 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=Christofides algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,10 +9,10 @@
 # the definition
 @DEFN=(1) A {heuristic} {algorithm} to find a near-optimal solution to
 the {traveling salesman} problem.  Step 1: find a {minimum spanning
-tree} T.  Step 2: find a perfect matching M among vertices with odd
+tree} T.  Step 2: find a perfect matching M among vertexes with odd
 {degree}.  Step 3: combine the {edges} of M and T to make a
 {multigraph} G.  Step 4: find an {Euler cycle} in G by skipping
-vertices already seen.  (2) An algorithm to find the {chromatic
+vertexes already seen.  (2) An algorithm to find the {chromatic
 number} of a graph.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -50,4 +50,4 @@ guarantee</A>.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/christofides.trm,v $
