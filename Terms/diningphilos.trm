@@ -1,0 +1,34 @@
+# *created  "Wed Feb 17 12:42:53 1999" *by "Paul E. Black"
+# *modified "Thu Sep  6 03:45:58 2001" *by "Paul E. Black"
+# entry name
+@NAME=dining philosophers
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=theory
+# the definition
+@DEFN=Suppose a number of philosophers surround a dining table.  
+Adjacent philosophers share one fork.  
+They spend time thinking or trying to eat.  
+A philosopher must have both the fork on the left and
+the fork on the right to eat.  Clearly adjacent philosophers cannot
+eat at the same
+time.  The problem is to find an algorithm for taking forks which
+prevents deadlock, starvation, etc.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+<A
+href="http://www.math-cs.gordon.edu/courses/cs322/projects/p2/dp/">code
+Shared Memory and Semaphores (C and C++)</A>,
+<A
+href="http://www.informatik.hu-berlin.de/~mueller/java/philo.html">(Java)</A>,
+<A href="http://www.cis.ohio-state.edu/siefast/siefast/examples/siefast_example_dining_philosophers.html">(Siefast)</A>
+# author's initials
+@AUTHOR=PEB
+# end
