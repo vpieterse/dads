@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 09:27:56 2002" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:31:09 2004" *by "Paul E. Black"
+
+# $Log: omegaCapital.trm,v $
+# Revision 1.2  2004/06/14 13:33:30  black
+# Refine XREFS to IMA, etc.  Add RCS keywords.  Add BIB ref and note
+# difference with traditional mathematical notation.
+#
 
 # entry name
 @NAME=$\Omega$
@@ -26,15 +32,50 @@ $f$ and must not depend on $n$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={big-O notation}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={$\omega(n)$#$\omega$}, 
-{big-O notation}, {asymptotic lower bound}
+{asymptotic lower bound}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Donald E. Knuth</strong>, <em>Big Omicron and Big Omega and
+Big Theta</em>, SIGACT News, 8(2):18-24, April-June 1976.
+# Some sources give last page as 23.  The article proper ends on page
+# 23, but bibliographical references continue to page 24.
+
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This is the upper-case Greek letter Omega.
+</P>
+
+<P>
+This definition is stronger than the traditional mathematical
+definition.  Here, f must be greater than g FOR ALL x bigger than some
+k.  The traditional definition is f is big omega of g if
+it is not little o of g.  That is, one needs only an unbounded
+sequence of values of x tending to infinity such that $cg(x) \leq
+f(x)$ for all x in the sequence. <BR>
+
+After Duncan Buell (BUELL@engr.sc.edu) 21 May 2004.
+# Capital omega is "defined as the negation of o"
+# Edward Charles Titchmarsh, revised by D. R. Heath-Brown, "The Theory
+# of the Riemann Zeta-function", 2nd ed., Oxford University Press,
+# 1986, page 184.  NIST library QA 246.T44
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/omegaCapital.trm,v $
