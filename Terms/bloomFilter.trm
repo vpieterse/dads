@@ -1,0 +1,38 @@
+# *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:33:50 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Bloom filter
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {probabilistic algorithm} to quickly test membership in a
+large set using multiple {hash functions} into a single 
+{array} of bits.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Burton Bloom</strong>, <em>Space/time trade-offs in hash
+coding with allowable errors</em>, CACM, 13(7):422-426, July 1970. 
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This involves a particular data structure, the bit array, too.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+<A href="http://cap-lore.com/code/BloomTheory.html">tradeoffs and
+engineering techniques</A>,
+<A
+href="http://www.cs.wisc.edu/~cao/papers/summary-cache/node8.html">the
+math</A>.
+# author's initials
+@AUTHOR=PEB
+# end
