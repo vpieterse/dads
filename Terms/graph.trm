@@ -1,0 +1,88 @@
+# *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
+# *modified "Wed Aug  6 08:28:21 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A set of items connected by {edges}.  Each
+item is called a {vertex} or node.  Formally, a graph is a
+{set} of vertices and a {relation} between vertices, adjacency.
+# formal definition or {cross reference} to an entry
+@FORML=A graph G can be defined as a pair (V,E), where V is a set
+of vertices, and E is a set of edges between the vertices
+$E = \{(u,v) | u, v \in V}$. If the graph is undirected, the adjacency
+relation defined by the edges is {symmetric}, or
+$E = \{\{u,v} | u, v \in V}$ (sets of vertices rather than
+ordered pairs).
+If the graph does not allow {self-loops}, adjacency is {irreflexive}.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=kinds of graphs: {directed graph},{undirected graph}, {acyclic graph},
+{biconnected graph}, {connected graph}, 
+{complete graph}, {sparse graph}, {dense graph},
+{hypergraph}, {multigraph}, {labeled graph},
+{weighted graph}, 
+other terms related to graphs: {self-loop}, {isomorphic},
+{homeomorphic}, {graph drawing}, {diameter}, {degree}, {dual}, 
+{adjacency-list representation}, {adjacency-matrix representation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Graphs are so general that many other data structures, such as
+{trees}, are just special kinds of graphs.
+</P>
+
+<P>
+A graph is like a road map.  Cities are vertices.  Roads from
+city to city are edges.  (How about junctions or branches in a road?
+You could consider junctions to be vertices, too.  If you don't want
+to count them as vertices, a road may connect more than two cities.
+So strictly speaking you have {hyperedges} in a {hypergraph}.  If you
+want to allow more than one road between each pair of cities, you have
+a {multigraph}, instead.  It all
+depends on how you want to define it.)
+</P>
+
+<P> 
+Another way to think of a graph is as a bunch of dots connected by
+lines.  Because mathematicians
+stopped talking to regular people long ago, the dots in a graph are
+called vertices, and the lines that connect the dots are called
+edges.  The important things are edges and the vertices: the dots
+and the connections between them.  The actual position of a given
+dot or the length or straightness of a given line isn't at issue.
+Thus the dots can be anywhere, and the lines that join them are
+infinitely stretchy.  Moreover, a mathematical graph is not a
+comparison chart, nor a diagram with an x- and y-axis, nor a squiggly
+line on a stock report.  A graph is simply dots and lines between
+them---pardon me, vertices and edges. <BR>
+&nbsp;&nbsp;&nbsp;&nbsp;Michael Bolton &lt;mb@michaelbolton.net&gt; 22
+February 2000
+</P>
+# further explanation (pure HTML)
+@LINKS=Journal of Combinatorics dynamic surveys DS8 and DS9 are 
+<A href="http://www.combinatorics.org/Surveys/">a bibliography and
+glossary of graphs</A>.
+# implementation(s) (pure HTML)
+@IMPL=GraphEd -- <A
+href="http://www.cs.sunysb.edu/~algorith/implement/graphed/implement.shtml">Graph
+Editor and Layout Program (C)</A>,
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/graph-data-structures.shtml">graph
+manipulation (C++, C, Mathematica, and Pascal)</A>,
+<A
+href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
+traverse, top sort, etc. weighted, directed graphs (Java)</A>,
+<A href="http://jgrapht.sourceforge.net/">JGraphT (Java)</A> build, traverse,
+and display directed and undirected graphs,
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">graph
+generating (C, Mathematica, Pascal, C++, and Fortran)</A>
+# author's initials
+@AUTHOR=PEB,PJT
+# end
