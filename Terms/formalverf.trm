@@ -1,0 +1,25 @@
+# *created  "Fri May 14 14:06:42 1999" *by "Paul E. Black"
+# *modified "Sat Sep  4 17:12:12 1999" *by "Paul E. Black"
+# entry name
+@NAME=formal verification
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=verf
+# the definition
+@DEFN=Establishing properties of hardware or software designs using
+logic, rather than (just) testing or informal arguments.  This
+involves formal specification of the requirement, formal modeling of
+the implementation, and precise rules of inference to prove, say, that
+the implementation satisfies the specification.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={model checking}, {temporal logic}, {formal methods}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=SKS
+# end
