@@ -1,0 +1,38 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Tue Jan 29 12:09:05 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=decision problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A problem with a ``yes'' or ``no'' answer.  Equivalently, a
+{function} whose {range} is two values, such as $\{0,1\}$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={optimization problem}, {certificate}, {NP}, {NP-complete}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+A decision problem asks, is there a solution with a certain
+characteristic?  An optimization problem asks, what is the best
+solution?  For instance, the {traveling salesman} problem is an
+optimization problem, while the corresponding decision problem asks if
+there is a {Hamiltonian cycle} with a cost less than some fixed amount
+$k$.
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, page 26-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=History, definitions, examples, etc. given in <A
+HREF="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+FAQ</A>, scroll down to <strong>P vs. NP</strong>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
