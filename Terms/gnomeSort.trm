@@ -1,7 +1,10 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Wed Aug 25 09:52:19 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:53 2004" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.3  2004/12/17 17:23:53  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/08/25 14:04:10  black
 # Note that IMA stable sort.  Improve wording slightly.
 #
@@ -23,7 +26,7 @@ to the previous item.  If there is no previous item, move to the next
 item.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -40,7 +43,7 @@ item.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={insertion sort}, {bubble sort}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
@@ -50,16 +53,16 @@ item.
 This can be seen as an {insertion sort} with only one current item.
 After having moved an item backward, orders are checked while moving
 forward to where progress left off.
-</P>
+</p>
 
-<P>
+<p>
 Dick Grune calls this "the simplest sort algorithm."
 # any historical notes
 @HISTORY=
 
 # implementation(s) (pure HTML)
 @IMPL=
-<A href="http://www.cs.vu.nl/~dick/gnomesort.html">(C)</A>
+<a href="http://www.cs.vu.nl/~dick/gnomesort.html">(C)</a>
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
