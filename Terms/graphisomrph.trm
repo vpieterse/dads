@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Mar 26 10:32:02 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=graph isomorphism
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=Determine if two {graphs} are {isomorphic}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={subgraph isomorphism}, {homeomorphic}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/graph-isomorphism.shtml">(C
+and Mathematica)</A>
+# author's initials
+@AUTHOR=PEB
+# end
