@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue May 11 16:24:44 1999" *by "Paul E. Black"
+# entry name
+@NAME=double-ended priority queue
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {priority queue} which simultaneously keeps track of the
+maximum and minimum {keys}, and supports operations
+efficiently on either extreme (minimum or maximum).
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+After LK.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
