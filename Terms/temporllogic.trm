@@ -1,0 +1,25 @@
+# *created  "Fri May 14 14:05:42 1999" *by "Paul E. Black"
+# *modified "Sat Sep  4 16:48:17 1999" *by "Paul E. Black"
+# entry name
+@NAME=temporal logic
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A logic with a notion of time included.  The formulas can express
+facts about past, present, and future states.  The formulas are
+interpreted over Kripke structures, which can model computation;
+hence temporal logic is very useful in {formal verification}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=The <A HREF="http://www.cs.cmu.edu/~modelcheck/">SMV</A> model
+checker.
+# author's initials (see authors.data)
+@AUTHOR=SKS
+# end
