@@ -1,0 +1,27 @@
+# *created  "Fri Sep 18 09:56:57 1998" *by "Paul E. Black"
+# *modified "Mon Jan 28 09:46:08 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=associative array
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A collection of items that are randomly accessible by a {key},
+often a {string}.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={array}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Implementation: the access method must essentially search for a
+match.  The simplest, but slowest, implementation is to do a
+{linear search} over the array for a match.
+</P>
+
+<P>
+If that is too slow, and you access the array by number, too,
+you must create and maintain an index into the array.  The index is a
+{dictionary}, organized by the content, of indexes into the array.
+# author's initials
+@AUTHOR=PEB
+# end
