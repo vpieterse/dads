@@ -1,0 +1,39 @@
+# *created  "Thu Mar  4 16:37:49 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 16:00:59 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=UnShuffle sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN=A {distribution sort} with two phases.  In the first phase,
+the inputs are distributed among {doubly-ended queues#deque}
+keeping the items in each queue ordered and creating a new queue when
+there is no place on an existing queue.  The second phase is an 
+{ideal merge} in which the item to be removed is determined by keeping
+the queues in a {priority queue}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge sort}, {distribution sort}, {ideal merge}, 
+{pile}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Art S. Kagel</strong>, <em>Unshuffle Algorithm, Not Quite a
+Sort?</em>, Computer Language Magazine, 3(11), November 1985.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The doubly-ended queue with ordered items is called a 
+{pile}.  The UnShuffle algorithm is the
+most efficient available for sorting data streams that exhibit 
+low entropy, i.e., are already mostly sorted or contains runs of 
+sorted elements.  The run time is {$\Theta$}(N)
+for sorted input.  The general case is $NK/2 + N \log K$ where
+$K$ is the entropy of the input and is manifest in the number
+of piles generated during the distribution phase.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
