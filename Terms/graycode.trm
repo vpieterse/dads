@@ -1,7 +1,11 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Wed Dec 17 11:31:17 2003" *by "Paul E. Black"
+# *modified "Wed Feb 25 12:37:47 2004" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.4  2004/02/25 17:40:52  black
+# Refine XREFS into IMA, etc.  In note, add that Gray codes are
+# *particularly* useful in mechanical encoders ...
+#
 # Revision 1.3  2003/12/17 16:33:23  black
 # Expand on uniqueness.  In notes say that there are poly-time
 # algorithms for conversion.
@@ -28,11 +32,23 @@ are not unique, even allowing for {permutation} or inversion of bits.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=grey code
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={Karnaugh map}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={Karnaugh map}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Gray codes are useful in mechanical encoders since a slight
-change in location only affects one bit.  Using a typical binary code,
+@NOTES=Gray codes are particularly useful in mechanical encoders since
+a slight change in position only affects one bit.  
+Using a typical binary code,
 up to $n$ bits could change, and slight misalignments between reading
 elements could cause wildly incorrect readings.
 </P>
