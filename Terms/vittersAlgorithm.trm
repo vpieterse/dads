@@ -1,7 +1,11 @@
 # *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
-# *modified "Fri Oct 29 09:26:17 2004" *by "Paul E. Black"
+# *modified "Fri Oct 29 09:33:29 2004" *by "Paul E. Black"
 
 # $Log: vittersAlgorithm.trm,v $
+# Revision 1.4  2004/10/29 13:35:11  black
+# Rephrase worst case.  Add IMA adaptive Huffman encoding and that full
+# binary tree is INME.
+#
 # Revision 1.3  2004/10/29 13:27:40  black
 # Add: at worse 1 more bit per code word.
 #
@@ -18,7 +22,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=An {adaptive Huffman encoding} scheme.  This may use one more
+@DEFN=An {adaptive Huffman encoding} scheme.  At worst, this uses one more
 bit per codeword than the static {Huffman encoding}.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -29,13 +33,13 @@ bit per codeword than the static {Huffman encoding}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={adaptive Huffman encoding}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={full binary tree}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={algorithm FGK}
 
