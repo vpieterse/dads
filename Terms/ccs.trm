@@ -1,0 +1,23 @@
+# *created  "Sat Sep  4 16:32:39 1999" *by "Paul E. Black"
+# *modified "Sat Sep  4 16:33:42 1999" *by "Paul E. Black"
+# entry name
+@NAME=CCS
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=Robin Milner's algebraic theory to formalize the notion of
+concurrent computation.  An acronym for Calculus of Communicating
+Systems.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={CSP}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=SKS
+# end
