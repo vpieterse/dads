@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 13:46:52 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 12:58:39 2003" *by "Paul E. Black"
 # entry name
 @NAME=augmenting path
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,7 +8,7 @@
 @AREA=graph
 # the definition
 @DEFN=A {path} with alternating {free#free edge} and {matched#matched
-edge} edges which begins and ends with {free#free vertex} vertices.
+edge} edges which begins and ends with {free vertexes}.
 Used to augment (improve or increase) a {matching} or {flow}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={alternating path}
@@ -24,4 +24,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/augmentngpth.trm,v $
