@@ -1,0 +1,21 @@
+# *created  "Thu Feb  3 16:59:04 2000" *by "Paul E. Black"
+# *modified "Thu Feb  3 16:59:29 2000" *by "Paul E. Black"
+# entry name
+@NAME=result cache
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=memoize - page 408 of McMillan article (see mnemodex)
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
