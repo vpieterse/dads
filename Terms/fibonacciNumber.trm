@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep  3 12:11:05 2003" *by "Paul E. Black"
+# *modified "Mon Jun 14 10:42:23 2004" *by "Paul E. Black"
+
+# $Log: fibonacciNumber.trm,v $
+# Revision 1.2  2004/06/14 14:49:59  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Remove extraneous $.
+# Refer to new entry, repeated squaring.
+#
 
 # entry name
 @NAME=Fibonacci number
@@ -24,8 +30,19 @@ where $\Phi=(1+\sqrt 5)/2$ and $\phi=(1-\sqrt 5)/2$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Fibonacci numbers
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={kth order Fibonacci numbers}, {memoization}, {Fibonacci tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Fibonacci, or more correctly Leonardo of Pisa, discovered the
 series in 1202 when he was studying how fast rabbits could breed in
@@ -48,9 +65,9 @@ This is just $(AX+B)*(CX+D) \bmod X<sup>2</sup>-X-1$, and so is
 associative and commutative. 
 Note that (A,B)(1,0) = (A+B,A) which is the Fibonacci recurrence.  Thus,
 <pre>
-	(1,0)^N = (F(N),F(N-1))$
+	(1,0)^N = (F(N),F(N-1))
 </pre>
-which can be computed in $\log N$ steps by repeated squaring.
+which can be computed in $\log N$ steps by {repeated squaring}.
 </P>
 
 <P>
@@ -76,9 +93,13 @@ and here are some "Fibonacci" multiplications
 
 <P>
 They also note that for general second order recurrences
+<pre>
 	G(N+1) = XG(N) + YG(N-1)
+</pre>
 we have the rule
+<pre>
 	(A,B)(C,D) = (AD+BC+XAC,BD+YAC)
+</pre>
 </P>
 
 <P>
@@ -94,4 +115,4 @@ nth number, annotated for real time (WOOP/ADA)</A>,
 <A href="http://www.math.grin.edu/~stone/events/scheme-workshop/fibonacci.html">(Scheme)</A>.
 # author's initials
 @AUTHOR=PR
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciNumber.trm,v $
