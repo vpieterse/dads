@@ -1,0 +1,32 @@
+# *created  "Wed Jul  7 08:45:54 1999" *by "Paul E. Black"
+# *modified "Wed Feb  6 14:59:06 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Zhu-Takaoka
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm that is a variant of the
+{Boyer-Moore} algorithm.  It uses two consecutive text characters to
+compute the bad character shift.  It is faster when the {alphabet} or
+{pattern} is small, but the skip table grows quickly, slowing the
+pre-processing phase.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>R. F. Zhu and T. Takaoka</strong>, <em>On improving the
+average case of the Boyer-Moore string matching algorithm</em>,
+J. Inform. Process. 10(3):173-177 (1987).
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node20.html">explanation,
+animation, and example (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=BB
+# end
