@@ -1,5 +1,11 @@
 # *created  "Wed Jun  9 10:36:22 1999" *by "Paul E. Black"
-# *modified "Thu Apr 27 08:38:24 2000" *by "Paul E. Black"
+# *modified "Fri Jan 23 13:57:42 2004" *by "Paul E. Black"
+
+# $Log: order.trm,v $
+# Revision 1.2  2004/01/23 18:58:11  black
+# Add B-tre use.
+#
+
 # entry name
 @NAME=order
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,10 +15,13 @@
 # the definition
 @DEFN=(1) The {height} of a {tree}.  
 (2) The number of {children#child} of the {root} of a {binomial tree}.
-(3) The number of data streams, usually denoted $\omega$, in a
+(3) The maximum number of children of {nodes} in a {B-tree}.
+(4) The number of data streams, usually denoted $\omega$, in a
 {multiway merge}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={total order}, {partial order}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -20,5 +29,5 @@
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
-@AUTHOR=CRC-A
-# end
+@AUTHOR=CRC-A,PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/order.trm,v $
