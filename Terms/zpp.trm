@@ -1,5 +1,10 @@
 # *created  "Fri Apr  5 15:03:14 2002" *by "Paul E. Black"
-# *modified "Fri Apr  5 15:28:15 2002" *by "Paul E. Black"
+# *modified "Wed Dec  1 11:51:19 2004" *by "Paul E. Black"
+
+# $Log: zpp.trm,v $
+# Revision 1.2  2004/12/01 16:52:02  black
+# Fix AKA comment.  Add RCS keywords.  Refine XREFS into IMA, etc.
+#
 
 # entry name
 @NAME=ZPP
@@ -17,12 +22,23 @@ in <strong>P</strong>olynomial" time.
 @FORML=For a language, S, there exists a {probabilistic Turing
 machine}, M, that halts in {polynomial time}.  M (correctly) accepts
 or rejects the string or, randomly, halts in an "I don't know" state.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=zero error probability in polynomial time
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={RP}, {NP}, {BPP}, {Las Vegas algorithm}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
@@ -40,4 +56,4 @@ After <A href="../terms.html#Hirv01">[Hirv01, page 19]</A>.
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/zpp.trm,v $
