@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:16:18 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:03:19 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=independent set
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,8 +7,8 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=A set of {vertices#vertex} in a {graph} such that for any pair
-of vertices, there is no {edge} between them.
+@DEFN=A set of {vertexes} in a {graph} such that for any pair
+of vertexes, there is no {edge} between them.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={maximal independent set}
 # any notes.  these will not be printed in the final dictionary
@@ -17,8 +17,8 @@ of vertices, there is no {edge} between them.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.cs.sunysb.edu/~algorith/files/independent-set.shtml">(Fortran
+href="http://www.cs.sunysb.edu/~algorith/files/independent-set.shtml">(Fortran
 and C)</A>
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/independentSet.trm,v $
