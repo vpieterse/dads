@@ -1,5 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Thu Dec 19 08:25:32 2002" *by "Paul E. Black"
+# *modified "Tue Jun  8 12:56:49 2004" *by "Paul E. Black"
+
+# $Log: postMachine.trm,v $
+# Revision 1.2  2004/06/08 16:57:35  black
+# Refine XREFS into IMA, etc.  Link simulator implementation at WPI.
+#
 
 # entry name
 @NAME=Post machine
@@ -9,8 +14,19 @@
 @AREA=
 # the definition
 @DEFN=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>Post, E. L.</strong>, <em>Finite Combinatory Processes -
 Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
@@ -23,6 +39,7 @@ href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Post.html">Emil
 Leon Post</A>.
 # implementation(s) (pure HTML)
 @IMPL=
+<A href="http://semillon.wpi.edu/~aofa/AofA/msg00021.html">simulator (C++)</A>.
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/postMachine.trm,v $
