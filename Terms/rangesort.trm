@@ -1,0 +1,22 @@
+# *created  "Wed Mar  3 16:54:54 1999" *by "Paul E. Black"
+# *modified "Tue Apr  4 15:32:10 2000" *by "Paul E. Black"
+# entry name
+@NAME=range sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN=A {bucket sort} where the function to determine the 
+{bucket} is based on the {range} of possible {keys}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={distribution sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
