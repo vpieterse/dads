@@ -1,5 +1,13 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Oct 14 14:57:52 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:57:12 2004" *by "Paul E. Black"
+
+# $Log: stronglyConnectedGraph.trm,v $
+# Revision 1.3  2004/04/19 18:57:15  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 18:58:02  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=strongly connected graph
@@ -12,14 +20,25 @@
 to every other vertex.
 # formal definition or {cross reference} to an entry
 @FORML=A {directed graph} $D=(V, E)$ such that for all pairs of
-{vertexes} $u, v \in V$, there is a {path} from
+{vertices#vertex} $u, v \in V$, there is a {path} from
 $u$ to $v$ and from $v$ to $u$.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={connected graph}, {strongly connected component}, {bridge}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 6-21,
