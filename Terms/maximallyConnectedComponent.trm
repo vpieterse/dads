@@ -1,0 +1,44 @@
+# *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
+# *modified "Fri May  3 13:24:40 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=maximally connected component
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {connected#connected graph} {subgraph} of a {graph} to which
+no {vertex} can be added and it still be connected.
+# formal definition or {cross reference} to an entry
+@FORML=Given a {graph} $G=(V, E)$, a {subgraph} $S=(V', E')$ is a
+maximally connected component if 
+<ul>
+<li> $S$ is {connected#connected graph}, and
+<li> for all vertices $u such that u\in V and u\notin V'$ there is no
+vertex $v\in V'$ for which $(u, v)\in E$.
+</ul>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={connected graph}, {connected components}, {biconnected component}, 
+{strongly connected component}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Informally, (one of) the biggest connected subgraph(s) of a
+graph.  Also know as "connected component", with the "maximal"
+property understood.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
+Pascal, Mathematica, and Fortran)</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=AL
+# end
