@@ -1,0 +1,38 @@
+# *created  "Wed Feb  3 09:15:03 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:24:43 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=right rotation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) In a {binary search tree}, pushing a {node} N down and to
+the right to {balance} the tree.  N's left {child} replaces N, and the
+left child's right child becomes N's left child.
+(2) In an {array}, moving all items to the next higher location.  The
+last item is moved to the first location, which is now vacant.
+(3) In a {list}, removing the {tail} and inserting it at the
+{head}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=rotate right
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=right single rotation
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={left rotation}, {double right rotation}, {rotation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also known as right single rotation, in contrast with a double
+right rotation.
+# further explanation (pure HTML)
+@LINKS=A great series of <A
+href="http://www.dgp.toronto.edu/people/JamesStewart/applets/bst/bst-rotation.html">animations
+explaining rotations</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C and Pascal)</A>
+# author's initials
+@AUTHOR=BB
+# end
