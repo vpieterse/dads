@@ -1,5 +1,11 @@
 # *created  "Tue Feb  2 17:00:47 1999" *by "Paul E. Black"
-# *modified "Tue Apr 17 14:44:55 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:27 2004" *by "Paul E. Black"
+
+# $Log: interpsequen.trm,v $
+# Revision 1.2  2004/12/17 16:52:28  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=interpolation-sequential search
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,17 +16,28 @@
 @DEFN=An approximate location is interpolated from the first and last
 items of a sorted {array}, then a {linear search} finds the actual
 location.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={interpolation search}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p">(Pascal)</A>
-or <A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p.html">(Pascal)</A>
+@IMPL=<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p">(Pascal)</a>
+or <a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p.html">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/interpsequen.trm,v $
