@@ -1,0 +1,62 @@
+# *created  "Fri Dec  3 10:31:39 2004" *by "Paul E. Black"
+# *modified "Fri Dec  3 10:41:39 2004" *by "Paul E. Black"
+
+# $Log: cordic.trm,v $
+# Revision 1.1  2004/12/03 15:44:16  black
+# Initial revision
+#
+
+# entry name
+@NAME=CORDIC
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=Compute trigonometric functions by iterative complex rotations.
+The advantage is that all computations can be done with addition,
+subtraction, and binary shifts.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=COrdinate Rotation DIgital Computer
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>J. E. Volder</strong>, <em>The CORDIC trigonometric computing
+technique</em>, IRE Trans. Electron. Comput., EC-8, 3:330-334,
+(September 1959).
+# bib copied from Turkowski
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+<A href="http://www.dspguru.com/info/faqs/cordic.htm">introduction and
+code (C)</A>.
+Ken Turkowski's <A
+href="http://www.worldserver.com/turk/computergraphics/FixedPointTrigonometry.pdf">Introduction
+to the CORDIC Technique (C)</A>.
+# further explanation (pure HTML)
+@LINKS=
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/cordic.trm,v $
