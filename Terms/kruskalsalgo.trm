@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb  4 10:45:01 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:25 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Kruskal's algorithm
@@ -10,7 +10,7 @@
 # the definition
 @DEFN=An algorithm for computing a {minimum spanning tree}.  It
 maintains a set of partial minimum spanning trees, and repeatedly adds
-the shortest {edge} in the {graph} whose {vertices#vertex}
+the shortest {edge} in the {graph} whose {vertexes}
 are in different partial minimum spanning trees.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Prim's algorithm}
@@ -18,15 +18,15 @@ are in different partial minimum spanning trees.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=OR-Notes on graph theory, including <A
-HREF="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">Kruskal's
+href="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">Kruskal's
 algorithm</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au
-<A HREF="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/mst.html">analysis
+<A href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/mst.html">analysis
 and code (C)</A>, 
 <A
 href="http://students.ceid.upatras.gr/~papagel/project/pseukrus.htm">(pseudocode)</A>
 # author's initials
 @AUTHOR=JLG
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kruskalsalgo.trm,v $
