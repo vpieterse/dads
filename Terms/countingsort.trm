@@ -1,0 +1,28 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue May 13 15:49:56 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=counting sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=sort
+# the definition
+@DEFN=A 2-pass {sort} algorithm that is efficient when the range
+of {keys} is small and there many duplicate keys.  The first
+pass counts the occurrences of each key in an auxiliary {array}, and
+then makes a running total so each auxiliary entry is the number of
+preceding keys.  The second pass puts each item in its final place
+according to the auxiliary entry for that key.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={histogram sort}, {American flag sort}, {bucket sort}, 
+{bingo sort}, {distribution sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
