@@ -1,0 +1,27 @@
+# *created  "Sat Aug 28 14:05:38 1999" *by "Paul E. Black"
+# *modified "Thu Jan 10 13:51:31 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=deterministic finite state machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {finite state machine} with exactly one transition for each
+given symbol and {state}.
+# comma-separated list of pure names
+@AKA=DFA, deterministic finite automaton
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=deterministic finite state automaton
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={nondeterministic finite state machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
