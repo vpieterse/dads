@@ -1,5 +1,11 @@
 # *created  "Tue Dec  1 12:01:16 1998" *by "Paul E. Black"
-# *modified "Thu Oct 25 16:41:51 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:15 2004" *by "Paul E. Black"
+
+# $Log: totalorder.trm,v $
+# Revision 1.2  2004/12/17 17:08:15  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=total order
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -13,14 +19,25 @@ for any two integers, one of them is less than or equal to the other.
 # formal definition or {cross reference} to an entry
 @FORML=A total order is a {relation} that is {reflexive}, {transitive},
 {antisymmetric}, and total.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=linear order
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={partial order}, {chain}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # author's initials
 @AUTHOR=PEB,PJT
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/totalorder.trm,v $
