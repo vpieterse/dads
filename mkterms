@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.12 1998/12/01 15:14:52 black Exp $
+# $Id: mkterms,v 1.13 1999/01/13 15:13:33 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Tue Dec  1 10:10:41 1998" *by "Paul E. Black"
+# *modified "Wed Jan 13 09:53:56 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for a web page.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -65,6 +65,8 @@ $verbose = 1;
 	XREFS	=> 1,
 	NOTES	=> 1,
 	AUTHOR	=> 1,
+	IMPL	=> 1,
+	LINKS	=> 1
 );
 
 # get the year (CCYY), month (01-12), day (01-31), etc.  This is Y2K compliant.
@@ -138,7 +140,7 @@ open(AUTHRS, "< $AUTHORS")
 
 while (<AUTHRS>) {
     next if (/^ *\#/o);
-    # get initials ($1), name ($2), and optional e-mail ($3)
+    # get initials ($1), name ($2), and optional e-mail, url, etc. ($3)
     /^([^\t]*)\t([^\t]*)\t?(.*)?/o;
     $authors{$1} = $2;
     $authemail{$1} = $3;
@@ -322,9 +324,6 @@ for $ekey (@sortedentries) {
     }
 
     %thisEntry = %{$entries{$ekey}};
-    #for $kk (keys %thisEntry) {
-    #    print "$kk = $thisEntry{$kk}\n";
-    #}
 
     local($ename) = $thisEntry{NAME};
     print STDERR "$ename, " if ($verbose);
@@ -347,12 +346,12 @@ for $ekey (@sortedentries) {
 	#$edefn =~ s/>/&gt;/go;
 	print TMPPAGE "$edefn\n";
     } else {
-	print TMPPAGE "(no definition, yet)\n";
+	print TMPPAGE "<A HREF=\"\#needHelp\">(no definition, yet)</A>\n";
     }
     if (defined $thisEntry{XREFS}) {
 	local($exrefs) = $thisEntry{XREFS};
-	# change cross references (<...>) to href's
-	$exrefs =~ s|<([^>]+)>|<a href="\#$1"><em>$1</em></a>|go;
+	# change cross references (<=> ...>) to href's
+	&rewriteXrefs($exrefs);
 	&checkXrefs($exrefs, $ename);
 	# add spaces after commas
 	$exrefs =~ s|,([^ ])|, $1|go;
@@ -360,7 +359,7 @@ for $ekey (@sortedentries) {
     }
     if (defined $thisEntry{AUTHOR}) {
 	local($eauth) = $thisEntry{AUTHOR};
-	$eauth =~ s| *([^,]+)|<a href="\#$1">$1</a>|go;
+	$eauth =~ s| *([^,]+)|<a href="\#author$1">$1</a>|go;
 	print TMPPAGE "($eauth)\n";
     }
     if (defined $thisEntry{NOTES}) {
@@ -369,6 +368,14 @@ for $ekey (@sortedentries) {
 	&rewriteXrefs($enotes);
 	&checkXrefs($enotes, $ename);
 	print TMPPAGE "<dd>(Note: <em>$enotes</em>)\n";
+    }
+    if (defined $thisEntry{IMPL}) {
+	local($eimpls) = $thisEntry{IMPL};
+	print TMPPAGE "<dd><em>Implementation</em>: $eimpls\n";
+    }
+    if (defined $thisEntry{LINKS}) {
+	local($elinks) = $thisEntry{LINKS};
+	print TMPPAGE "<dd><em>More information</em>: $elinks\n";
     }
     print TMPPAGE "\n";
 }
@@ -405,7 +412,7 @@ print TMPPAGE "<h1>Contributors Index</h1>\n";
 print TMPPAGE "<dl>\n";
 
 for $akey (sort keys %authors) {
-    print TMPPAGE "<dt><a name=\"$akey\">$akey</a>\n";
+    print TMPPAGE "<dt><a name=\"author$akey\">$akey</a>\n";
     my $aentry = $authors{$akey};
     # "quote" any HTML special characters
     $aentry =~ s/&/&amp;/go;
@@ -443,7 +450,7 @@ close TMPPAGE;
 
 #------------------------------------------------------------------------
 #
-# Step V: write areas and types page
+# Step V: write index page: implementations, areas, and types
 #
 #------------------------------------------------------------------------
 
@@ -466,7 +473,25 @@ open(TMPPAGE, "> $temppage")
 # write processing date and time
 print TMPPAGE "<P>\nRun on $now\n";
 
-# Step Vc: write areas and entries
+# Step Vc: write entries with implementations
+
+print STDERR "Writing entries with implementation links\n" if ($verbose);
+
+print TMPPAGE "<hr>\n";
+print TMPPAGE "<h1><a name=\"implementations\">Entries with Implementation Links</a></h1>\n";
+
+print TMPPAGE "<ul>\n";
+
+# go through all the entries and print those in this area
+for $ent (@sortedentries) {
+    next if ! defined $entries{$ent}{IMPL};
+    my $entName = $entries{$ent}{NAME};
+    my $eimpls = $entries{$ent}{IMPL};
+    print TMPPAGE "<li><a href=\"$mainpage\#$entName\">$entName</a>: $eimpls\n";
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step Vd: write areas and entries
 
 print STDERR "Writing entries by area\n" if ($verbose);
 
@@ -506,7 +531,7 @@ if (defined $headersPrinted) {
     print TMPPAGE "</ul>\n\n";
 }
 
-# Step Vc: write types and entries
+# Step Ve: write types and entries
 
 print STDERR "Writing entries by type\n" if ($verbose);
 
@@ -546,12 +571,12 @@ if (defined $headersPrinted) {
     print TMPPAGE "</ul>\n\n";
 }
 
-# Step Vd: copy the conclusion and close
+# Step Vf: copy the conclusion and close
 &concatenate("$pageroot.concl", TMPPAGE);
 
 close TMPPAGE;
 
-# Step Ve: backup page and relink
+# Step Vg: backup page and relink
 
 &backupMove($temppage, $pagename);
 
