@@ -1,7 +1,11 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Fri Apr  2 15:37:17 2004" *by "Paul E. Black"
+# *modified "Wed Aug 25 09:13:38 2004" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.7  2004/08/25 13:15:35  black
+# Refine XREFS into IMA, etc. and classify xrefs.  Clarify wording for
+# the stable version of the algorithm a little.
+#
 # Revision 1.6  2004/04/02 20:38:24  black
 # Refer to bingo sort, a variant of selection sort.  Note that the
 # algorithm is not stable.
@@ -28,8 +32,19 @@ is the number of comparisons.  The number of swaps is
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={bingo sort}, {strand sort}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT={bingo sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={strand sort}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
@@ -38,7 +53,8 @@ filled.  However, the algorithm is not stable.
 
 <P>
 If the (first) least remaining item is inserted, that is, all
-intervening items moved down, this algorithm is {stable}.
+intervening items moved down (instead of swapping), this algorithm is
+{stable}.
 However, if the items are in an array, rather than, say a {linked
 list}, the number of moves is {$O(n<sup>2</sup>)$#big-O notation}, and
 this algorithm is like {bubble sort} with a more complicated control
