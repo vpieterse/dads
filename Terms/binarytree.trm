@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Wed May  5 13:18:45 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:53:51 2004" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Revision 1.7  2004/10/06 14:54:28  black
+# Fix grammar in formal defn.
+#
 # Revision 1.6  2004/05/05 17:19:24  black
 # Correct transliteration of Akademii.
 #
@@ -29,9 +32,9 @@
 @DEFN=A {tree} with at most two {children#child} for each 
 {node}.
 # formal definition or {cross reference} to an entry
-@FORML=A binary tree is either
+@FORML=A binary tree either
 <ul>
-<li>empty (no nodes), or
+<li>is empty (no nodes), or
 <li>has a {root} node, a left binary tree, and a right binary tree.
 </ul>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
