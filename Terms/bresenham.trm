@@ -1,5 +1,11 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Fri Nov 30 15:04:59 2001" *by "Paul E. Black"
+# *modified "Thu Dec 18 13:53:40 2003" *by "Paul E. Black"
+
+# $Log: bresenham.trm,v $
+# Revision 1.2  2003/12/18 18:54:23  black
+# Break out historical note to a new, separate field.
+#
+
 # entry name
 @NAME=Bresenham's algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -23,7 +29,11 @@ IEEE catalog no. EHO 156-0, Library of Congress no. 79-91237, 1980, and
 Rosalee Wolfe ed., ACM SIGGRAPH, ACM order no. 435985, 
 ISBN 1-58113-052-X, 1998.
 # any notes.  these are not printed in the final dictionary
-@NOTES=In November 2001 Jack E. Bresenham wrote, "I was working in
+@NOTES=
+
+# any historical notes
+@HISTORY=
+In November 2001 Jack E. Bresenham wrote, "I was working in
 the computation lab at 
 IBM's San Jose development lab.  A Calcomp plotter had been attached to
 an IBM 1401 via the 1407 typewriter console.  [The algorithm] was in 
@@ -55,4 +65,4 @@ shows how the selection of points changes.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bresenham.trm,v $
