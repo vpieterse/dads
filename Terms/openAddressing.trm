@@ -1,0 +1,31 @@
+# *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:06:25 2001" *by "Paul E. Black"
+# entry name
+@NAME=open addressing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A general {collision resolution scheme} for a {hash table} in
+which all items are stored within the table.  In case of {collision},
+other positions are computed and checked (a {probe sequence}) until an
+empty position is found.  Some ways of computing possible new
+positions are less efficient because of
+{clustering}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={chaining}, {coalesced hashing}, {linear probing}, 
+{quadratic probing}, {double hashing}, {uniform hashing}, 
+{expandable hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 232]</A>.
+Chaining, the use of external data
+structures to resolve collisions, has no clustering in the usual
+sense.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
