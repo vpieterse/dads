@@ -1,5 +1,11 @@
 # *created  "Mon Nov 16 15:09:15 1998" *by "Paul E. Black"
-# *modified "Fri Nov 30 14:26:26 2001" *by "Paul E. Black"
+# *modified "Tue Sep  7 12:11:55 2004" *by "Paul E. Black"
+
+# $Log: pointAccessMethod.trm,v $
+# Revision 1.2  2004/09/07 16:12:28  black
+# Refine XREF into IMA, etc.  Add UB-tree.  Add RCS keywords.
+#
+
 # entry name
 @NAME=point access method
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -15,12 +21,23 @@ for points defined in multidimensional space.
 @AKA=PAM
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={EXCELL}, {grid file}, {hB-tree}, {twin grid file}, 
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={EXCELL}, {grid file}, {hB-tree}, {twin grid file}, 
 {two-level grid file}, {k-d tree}, {BSP-tree}, {quadtree},
-{buddy tree}, {spatial access method}
+{UB-tree}, {buddy tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={spatial access method}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/pointAccessMethod.trm,v $
