@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:52:42 1998" *by "Paul E. Black"
-# *modified "Wed Sep 22 08:57:34 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:30 2004" *by "Paul E. Black"
 
 # $Log: priorityque.trm,v $
+# Revision 1.7  2004/12/17 17:24:30  black
+# Make more XHTML compliant.
+#
 # Revision 1.6  2004/09/22 12:57:38  black
 # Correct spelling of Fibonacci
 #
@@ -70,8 +73,8 @@ After LK.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Links to <A href="http://www.leekillough.com/heaps/">implementations,
-dozens of papers, introductory material, etc.</A>.
+Links to <a href="http://www.leekillough.com/heaps/">implementations,
+dozens of papers, introductory material, etc.</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/priorityque.trm,v $
