@@ -1,7 +1,10 @@
 # *created  "Fri Dec  3 10:31:39 2004" *by "Paul E. Black"
-# *modified "Fri Dec  3 10:41:39 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:29 2004" *by "Paul E. Black"
 
 # $Log: cordic.trm,v $
+# Revision 1.2  2004/12/17 17:23:29  black
+# Make more XHTML compliant.
+#
 # Revision 1.1  2004/12/03 15:44:16  black
 # Initial revision
 #
@@ -35,7 +38,7 @@ subtraction, and binary shifts.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>J. E. Volder</strong>, <em>The CORDIC trigonometric computing
 technique</em>, IRE Trans. Electron. Comput., EC-8, 3:330-334,
@@ -49,11 +52,11 @@ technique</em>, IRE Trans. Electron. Comput., EC-8, 3:330-334,
 
 # implementation(s) (pure HTML)
 @IMPL=
-<A href="http://www.dspguru.com/info/faqs/cordic.htm">introduction and
-code (C)</A>.
-Ken Turkowski's <A
+<a href="http://www.dspguru.com/info/faqs/cordic.htm">introduction and
+code (C)</a>.
+Ken Turkowski's <a
 href="http://www.worldserver.com/turk/computergraphics/FixedPointTrigonometry.pdf">Introduction
-to the CORDIC Technique (C)</A>.
+to the CORDIC Technique (C)</a>.
 # further explanation (pure HTML)
 @LINKS=
 
