@@ -1,0 +1,22 @@
+# *created  "Fri Jul 23 10:42:12 1999" *by "Paul E. Black"
+# *modified "Fri Jul 23 12:16:47 1999" *by "Paul E. Black"
+# entry name
+@NAME=matched edge
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=An {edge} which is in a {matching}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={free edge}, {matched vertex}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# See CRC-A, page 7-2.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
