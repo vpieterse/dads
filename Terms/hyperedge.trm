@@ -1,5 +1,15 @@
 # *created  "Mon Apr 26 13:12:45 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:02:12 EDT 2003" *by "Paul E. Black"
+# *modified "Tue Mar  9 10:13:22 2004" *by "Paul E. Black"
+
+# $Log: hyperedge.trm,v $
+# Revision 1.3  2004/03/09 15:20:15  black
+# Refine XREFS into IMA, etc. and add IMIN hypergraph.  Add note that
+# hyperedge is a set of vertexes.
+#
+# Revision 1.2  2003/10/16 17:02:15  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=hyperedge
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,11 +19,22 @@
 # the definition
 @DEFN=A connection between two or more {vertexes} of a 
 {hypergraph}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={hypergraph}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={edge}, {graph}, {directed graph}, {undirected graph}, 
 {weighted graph}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=A hyperedge is a {set} of vertexes of a hypergraph.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
