@@ -1,27 +1,52 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Apr  5 15:16:04 2002" *by "Paul E. Black"
+# *modified "Thu Dec  9 09:45:06 2004" *by "Paul E. Black"
+
+# $Log: lasVegas.trm,v $
+# Revision 1.2  2004/12/09 14:46:36  black
+# Contrast Monte Carlo and Las Vegas algorithms.  This is a Technique,
+# not a Definition.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Las Vegas algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=T
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
 @DEFN=A {randomized algorithm} that always produces correct results,
 with the only variation from one run to another being its running
 time.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={Monte Carlo algorithm}, {ZPP}, {Grover's algorithm}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={Grover's algorithm}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Monte Carlo algorithm}, {ZPP}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, 15-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+
+<P>
+A Monte Carlo algorithm gives more precise results the longer you run
+it.  A Las Vegas algorithm always gives the right answer, but the run
+time is indeterminate.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/lasVegas.trm,v $
