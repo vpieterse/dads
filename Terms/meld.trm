@@ -1,0 +1,24 @@
+# *created  "Wed Feb 17 12:02:25 1999" *by "Paul E. Black"
+# *modified "Wed Feb 17 12:21:12 1999" *by "Paul E. Black"
+# entry name
+@NAME=meld
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=tree
+# the definition
+@DEFN=Joining several data structures with particular properties into
+one large data structure having those properties.  For instance, some
+{priority queue} implementations support the operation of joining
+two priority queues into a larger one.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
