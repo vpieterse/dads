@@ -1,5 +1,5 @@
 # *created  "Tue Jan 28 13:33:19 2003" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:38:11 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:36:08 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=frequency count heuristic
@@ -25,10 +25,9 @@ number of times each element is the target of a {search}.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
-@IMPL=Discussion and <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Self_Organizing_Lists/self_organizing_lists.html">code (C)</A>
+@IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
-@AUTHOR=
+@AUTHOR=PEB
 # end
