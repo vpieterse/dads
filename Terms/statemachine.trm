@@ -1,0 +1,24 @@
+# *created  "Wed Jun 23 15:33:03 1999" *by "Paul E. Black"
+# *modified "Wed Apr  5 11:30:30 2000" *by "Paul E. Black"
+# entry name
+@NAME=state machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=An abstract computer consisting of a (possibly infinite) set of
+{states}, a set of {start states}, an input {alphabet}, and a
+{transition function} which maps input symbols and current states to a
+{next state}.  Usually understood to be a {finite state machine}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
