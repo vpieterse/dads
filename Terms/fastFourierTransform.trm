@@ -1,5 +1,10 @@
 # *created  "Thu Sep 13 11:31:47 2001" *by "Paul E. Black"
-# *modified "Tue Feb 19 09:39:19 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:50:20 2004" *by "Paul E. Black"
+
+# $Log: fastFourierTransform.trm,v $
+# Revision 1.2  2004/12/17 16:50:22  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=fast fourier transform
@@ -12,13 +17,24 @@
 the time domain to the frequency domain.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=FFT
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
@@ -28,9 +44,9 @@ waves.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Worst-case behavior <A
+@IMPL=Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/fft.html">annotated
-for real time (WOOP/ADA)</A>.
+for real time (WOOP/ADA)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/fastFourierTransform.trm,v $
