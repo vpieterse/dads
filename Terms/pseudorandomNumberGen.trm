@@ -1,0 +1,48 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan  7 11:58:36 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=pseudo-random number generator
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=crypt
+# the definition
+@DEFN=A {deterministic algorithm} to generate a sequence of numbers
+with little or no discernible pattern in the numbers, except for broad
+statistical patterns.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=PRNG
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=pseudorandom number
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={spectral test}, {randomized algorithm}, {linear congruential
+generator}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any computer program is likely to generate pseudo-random
+numbers, not actually random numbers.  This is important when, say,
+simulations are sensitive to subtle patterns in the ``random'' numbers
+used.  Hardware-based random number generators are built from parts
+with naturally random events, such as noise in a diode.
+</P>
+
+<P>
+A generator may be ``seeded'', or initialized, with a random event,
+such as the current time in milliseconds, to give different sequences
+every time it is used.
+# further explanation (pure HTML)
+@LINKS=<A href="http://csrc.nist.gov/rng/">Random Number Generation
+and Testing</A> with links to reports, standard tests, and on-going
+research.
+<A href="http://www.fourmilab.ch/random/">ent</A>: a program to
+test the randomness of bytes in a file.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
+C, and Fortran)</A>,
+Glenn Rhoads' <A
+href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</A>,
+<A href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
