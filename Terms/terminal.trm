@@ -1,5 +1,14 @@
 # *created  "Tue Mar  9 08:24:52 1999" *by "Paul E. Black"
-# *modified "Tue Oct 14 13:20:10 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:57:29 2004" *by "Paul E. Black"
+
+# $Log: terminal.trm,v $
+# Revision 1.3  2004/04/19 18:57:34  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 17:20:24  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=terminal
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,14 +16,25 @@
 # basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
 @AREA=graph
 # the definition
-@DEFN=The set of points in a plane or {vertexes} in a 
+@DEFN=The set of points in a plane or {vertices#vertex} in a 
 {graph} defining endpoints of a {Steiner tree}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Steiner point}, {Steiner vertex}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+@LINKS=<A href="http://ganley.org/steiner/">Steiner Tree page</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
