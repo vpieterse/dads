@@ -1,7 +1,10 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:51 2004" *by "Paul E. Black"
+# *modified "Tue Feb  1 14:50:40 2005" *by "Paul E. Black"
 
 # $Log: christofides.trm,v $
+# Revision 1.6  2005/02/01 19:51:31  black
+# Remove IMA algorithm (for ontology): they're ALL algorithms.
+#
 # Revision 1.5  2004/12/17 17:27:51  black
 # Make more XHTML compliant.
 #
@@ -40,7 +43,7 @@ number} of a graph.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={heuristic}, {algorithm}
+@IMA={heuristic}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
