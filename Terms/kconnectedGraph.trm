@@ -1,0 +1,33 @@
+# *created  "Tue Jan  7 09:47:21 2003" *by "Paul E. Black"
+# *modified "Tue Jan  7 10:00:47 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=k-connected graph
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {connected graph} such that deleting any $k-1$
+{vertices#vertex} (and incident {edges}) results in a graph that is
+still connected.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={biconnected graph}, {triconnected graph}, {cut vertex}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=Informally, there are at least $k$ independent {paths} from any
+vertex to any other vertex.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PMS
+# end
