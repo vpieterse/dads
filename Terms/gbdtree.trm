@@ -1,0 +1,20 @@
+# *created  "Tue Nov 17 17:02:35 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:40:31 2001" *by "Paul E. Black"
+# entry name
+@NAME=GBD-tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A generalized {BD-tree}, hence the name, which stores
+spatially extended objects as a hierarchy 
+of {minimum bounding boxes}.  It is a balanced
+multiway tree which serves as a {spatial access method}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98, page 211]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
