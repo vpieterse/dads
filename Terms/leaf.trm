@@ -1,0 +1,33 @@
+# *created  "Fri Sep 18 12:07:57 1998" *by "Paul E. Black"
+# *modified "Wed Feb  6 09:54:49 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=leaf
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A terminal or "bottom" item of a {tree}, i.e., an item with
+no {child}.  More formally, a {vertex} with {degree} one.
+See the figure at {tree}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=external node, terminal node
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={root}, {internal node}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=From Algorithms and Theory of Computation
+Handbook, and is Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB, CRC-A
+# end
