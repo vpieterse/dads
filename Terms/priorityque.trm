@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:52:42 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:30 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 17:02:26 2004" *by "Paul E. Black"
 
 # $Log: priorityque.trm,v $
+# Revision 1.8  2004/12/17 22:02:50  black
+# Add pagoda and leftist tree as VARIANTs.
+#
 # Revision 1.7  2004/12/17 17:24:30  black
 # Make more XHTML compliant.
 #
@@ -57,7 +60,7 @@ the priority of item v.
 # Generalization: "I am a kind of ..."
 @IMA={abstract data type}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={pagoda}, {leftist tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={best-first search}, {Dijkstra's algorithm}
 # Aggregate child: "... is a part of or used in me."
