@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Mon Oct  4 14:24:50 2004" *by "Paul E. Black"
+# *modified "Tue Nov 30 10:06:52 2004" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.6  2004/11/30 15:15:19  black
+# Add treesort (1).
+#
 # Revision 1.5  2004/10/04 18:25:24  black
 # LINK to Jim Gray's Sort Benchmark page.
 #
@@ -50,7 +53,7 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 {selection sort}, {merge sort}, {counting sort},
 {histogram sort}, {strand sort}, {J sort}, {shuffle sort}, 
 {American flag sort}, {bubble sort}, {gnome sort},
-{bidirectional bubble sort}, 
+{bidirectional bubble sort}, {treesort (1)},
 {adaptive heap sort}, {three-way radix quicksort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
