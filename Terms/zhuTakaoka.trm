@@ -1,5 +1,10 @@
 # *created  "Wed Jul  7 08:45:54 1999" *by "Paul E. Black"
-# *modified "Wed Feb  6 14:59:06 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:35 2004" *by "Paul E. Black"
+
+# $Log: zhuTakaoka.trm,v $
+# Revision 1.2  2004/12/17 16:55:36  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Zhu-Takaoka
@@ -13,9 +18,20 @@
 compute the bad character shift.  It is faster when the {alphabet} or
 {pattern} is small, but the skip table grows quickly, slowing the
 pre-processing phase.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>R. F. Zhu and T. Takaoka</strong>, <em>On improving the
 average case of the Boyer-Moore string matching algorithm</em>,
 J. Inform. Process. 10(3):173-177 (1987).
@@ -24,9 +40,9 @@ J. Inform. Process. 10(3):173-177 (1987).
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node20.html">explanation,
-animation, and example (C)</A>
+animation, and example (C)</a>
 # author's initials (see authors.data)
 @AUTHOR=BB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/zhuTakaoka.trm,v $
