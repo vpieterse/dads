@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 20 16:31:56 2004" *by "Paul E. Black"
+# *modified "Tue Sep 28 16:38:36 2004" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.3  2004/09/28 20:41:11  black
+# Refer to the entry repeated squaring.
+#
 # Revision 1.2  2004/01/20 21:35:43  black
 # Refine XREFS into IMA, etc. and add reference to recurrence relation,
 # in case someone is looking for it.  Clarify bits in Note.  Add RCS Log
@@ -82,7 +85,7 @@ the following relations
 (after "ML for the Working Programmer", page 49).
 
 <li>Write a function to compute any number to the power of a positive
-integer using squaring, that is,
+integer using {repeated squaring}, that is,
 $x<sup>2n</sup> = (x<sup>n</sup>)<sup>2</sup>$ and
 $x<sup>2n+1</sup> = x \times x<sup>2n</sup>$.
 (after "ML for the Working Programmer", pages 45 and 46).
