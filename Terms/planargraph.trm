@@ -1,5 +1,5 @@
 # *created  "Tue Mar  9 08:38:47 1999" *by "Paul E. Black"
-# *modified "Fri May 23 15:03:41 2003" *by "Paul E. Black"
+# *modified "Wed Oct 15 10:33:43 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=planar graph
@@ -20,8 +20,8 @@ crossing {edges}.
 @XREFS={planar straight-line graph}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Equivalently, a graph that does not contain any subgraph
-{homeomorphic} to the {complete graph} on 5 {vertices#vertex} or the
-complete {bipartite graph} with 3 vertices in each partition.
+{homeomorphic} to the {complete graph} on 5 {vertexes} or the
+complete {bipartite graph} with 3 vertexes in each partition.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
