@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.15 2003/03/26 17:44:35 black Exp $
+# $Id: latex2html.data,v 1.16 2003/08/05 13:20:24 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Jan  7 11:46:27 2003" *by "Paul E. Black"
+# *modified "Thu Jul 31 11:20:55 2003" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -50,6 +50,7 @@
 \cdot	&middot;
 \cap	<img src="Images/cap.gif"    border=0 height=8  width=7  alt="intersect">
 \cup	<img src="Images/cup.gif"    border=0 height=8  width=7  alt="union">
+\wedge	<img src="Images/wedge.gif"  border=0 height=8  width=7  alt="and">
 \bigtriangleup <img src="Images/Delta.gif"  border=0 height=10 width=11 alt="symmetric difference">
 \oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
 \otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
