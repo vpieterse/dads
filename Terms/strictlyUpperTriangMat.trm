@@ -1,5 +1,10 @@
 # *created  "Tue Jun 27 08:48:07 2000" *by "Paul E. Black"
-# *modified "Wed Jul 23 11:57:04 2003" *by "Paul E. Black"
+# *modified "Thu Mar 18 09:59:15 2004" *by "Paul E. Black"
+
+# $Log: strictlyUpperTriangMat.trm,v $
+# Revision 1.2  2004/03/18 16:06:54  black
+# Refine XREFS into IMA, etc.  Reference new term, one-based indexing.
+#
 
 # entry name
 @NAME=strictly upper triangular matrix
@@ -8,10 +13,21 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=A {matrix} which is only defined at $(i,j)$ when $i &lt; j$.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={upper triangular matrix}, {strictly lower triangular matrix},
+@DEFN=A {matrix} that is only defined at $(i,j)$ when $i &lt; j$.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={upper triangular matrix}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={strictly lower triangular matrix},
 {ragged matrix}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For example
 <table>
@@ -27,12 +43,12 @@
 <P>
 It may be more compactly represented in an array by storing entry
 $(i,j)$ in location
-$n(i-1)+j-\frac\{i(i-1)}\{2}-i = \frac\{(2n-i)(i-1)}\{2} - i + j$
-(one-based indexing).
+$n(i-1) + j - i(i-1)/2 - i = (2n-i)(i-1)/2 - i + j$
+({one-based indexing}).
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/strictlyUpperTriangMat.trm,v $
