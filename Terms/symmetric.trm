@@ -1,0 +1,26 @@
+# *created  "Thu Oct 12 08:52:19 2000" *by "Paul E. Black"
+# *modified "Tue Jun 19 09:40:36 2001" *by "Paul E. Black"
+# entry name
+@NAME=symmetric
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {binary relation} R for which $a R b$ implies $b R a$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={reflexive}, {transitive}, {antisymmetric}
+# any notes.  these are not printed in the final dictionary
+@NOTES=The relation ``not equal to'' is symmetric: if $a \neq
+b$, then $b \neq a$.  However, ``loves'' is not symmetric since love
+might not be reciprocated.  The relation ``is married to'' is
+symmetric, but not {antisymmetric}: if Paul is married to Marlena, then
+Marlena is married to Paul (symmetric), but that does not mean that
+Paul and Marlena are the same person.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
