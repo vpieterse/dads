@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed May 31 13:25:16 2000" *by "Paul E. Black"
+# entry name
+@NAME=dynamic array
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=An {array} whose size may change over time.  Items are not only
+added or removed, but memory used changes, too.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, <tt>REDIM</tt> in Visual Basic or
+<tt>malloc()</tt> in C.  In some languages, such as Perl, all arrays
+are dynamic.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
