@@ -1,0 +1,61 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Dec 26 10:41:23 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=NP
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=The {complexity class} of {decision problems} for which answers
+can be checked by an algorithm whose run time is 
+{polynomial#polynomial time} in the size of the input.  Note that this
+doesn't require or imply that an answer can be found quickly, only
+that any claimed solution can be verified quickly.  "NP" is
+the class that a {<strong>N</strong>ondeterministic Turing
+machine#nondeterministic Turing machine} accepts in
+<strong>P</strong>olynomial time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=nondeterministic polynomial time
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={P}, {NP-complete}, {NP-hard}, {coNP}, {RP}, {ZPP},
+{BPP},
+{big-O notation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, a "yes" answer to the question, "is there a
+{Hamiltonian cycle}, or tour, of a certain {graph}?" can be quickly
+checked given a {certificate} for the answer.  We can quickly check
+that the path which is the certificate, indeed, starts and ends at
+the same {vertex}, contains every other {vertex} exactly once, and
+only uses valid {edges}.  Another example is that a purported
+sorting of an input can be verified in {$O(n \log n)$#big-O notation}.
+This can be done by sorting the input (again), then comparing it with
+the purported sorting.
+</P>
+
+<P>
+Being in NP doesn't require that a negative answer, e.g. "there is no
+tour", can be quickly checked.
+# further explanation (pure HTML)
+@LINKS=History, definitions, examples, etc. given in <A
+href="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+FAQ</A>, scroll down to <strong>P vs. NP</strong>.
+Wikipedia entry on <A
+href="http://www.wikipedia.com/wiki/Complexity_classes_P_and_NP">Complexity
+classes P and NP</A>.
+</P>
+
+<P>
+Scott Aaronson's
+<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+Zoo</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
