@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.5 2001/11/30 18:26:18 black Exp $
+# $Id: mkcommon.pl,v 1.6 2001/12/20 18:47:42 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Nov 30 13:15:50 2001" *by "Paul E. Black"
+# *modified "Thu Dec 20 13:34:42 2001" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -37,6 +37,8 @@ $URL_DIR	="http://www.nist.gov/dads";
 *TERMS_DIR=\"Terms";
 # - The extension of term files (.trm for now).
 *TERM_EXT =\"trm";
+# - The directory with the .concl, .intro, etc. files
+*PAGES    =\"Pages";
 # - The (path) name of file with the authors' initials, name, ref., etc. file
 *AUTHORS  =\"authors.data";
 # - The (path) name of file with the areas into which entries are classified
@@ -51,6 +53,7 @@ $URL_DIR	="http://www.nist.gov/dads";
 *OUT_DIR  =\"HTML";
 # - The name of final (combined or main) web page, less extension 
 #	(.html).  The page is written to $WEB_DIR/$WEBPAGE.html
+#	It is made from $PAGES/$WEBPAGE.intro and .concl.
 *WEBPAGE  =\"terms";
 # - Name of the main web page with extension
 *MAINPAGE =\"$WEBPAGE.html";
