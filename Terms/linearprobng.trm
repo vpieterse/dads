@@ -1,5 +1,10 @@
 # *created  "Wed Dec 23 09:03:20 1998" *by "Paul E. Black"
-# *modified "Wed Feb  6 13:34:42 2002" *by "Paul E. Black"
+# *modified "Wed Sep 29 11:08:43 2004" *by "Paul E. Black"
+
+# $Log: linearprobng.trm,v $
+# Revision 1.2  2004/09/29 15:09:40  black
+# Remove blank line at end.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=linear probing
@@ -13,8 +18,19 @@ putting the item in the
 next empty place in the array following the occupied place.  Even with
 a moderate {load factor}, {primary clustering} tends to slow
 retrieval.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={double hashing}, {quadratic probing}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Deletion may be hard because finding collisions again relies on
 not creating empty spots.  One solution is to mark an entry as deleted
@@ -31,5 +47,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.srch.c">search
 (C)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
-
+# end $Source: /home/black/Workspace/dads/Terms/RCS/linearprobng.trm,v $
