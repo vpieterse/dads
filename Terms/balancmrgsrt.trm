@@ -1,0 +1,31 @@
+# *created  "Wed Feb  3 09:33:02 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 15:54:04 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=balanced merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {k-way merge sort} in which the number of input and 
+output data streams is the same.  See {balanced k-way merge sort}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge sort}, {simple merge}, 
+{nonbalanced merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is an {external sort}.
+# further explanation (pure HTML)
+@LINKS=
+<A HREF="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/442.sort.c">(C)</A>
+using an auxiliary function to <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/442.next.c">select
+next file (C)</A>,
+<A HREF="http://www.dcs.kcl.ac.uk/staff/russel/DevJavaSoft/SourceCode/ADS/BalancedMergeSort.java">(Java)</A>
+# author's initials
+@AUTHOR=ASK
+# end
