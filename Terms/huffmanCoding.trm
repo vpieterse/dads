@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan  4 10:26:18 2005" *by "Paul E. Black"
+# *modified "Mon Jan 10 11:48:58 2005" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.7  2005/01/10 16:49:56  black
+# Fix typo in Vinokur's URL in NOTES.
+#
 # Revision 1.6  2005/01/04 15:28:17  black
 # Remove Vermeer's URL - gone.  Fix typo.  Show John Morris' name.
 #
@@ -69,7 +72,7 @@ The {worst case} for Huffman coding (or, equivalently, the longest
 Huffman coding for a set of characters) is when the distribution
 of frequencies follows the {Fibonacci numbers}.  For this and other
 relations see Alex Vinokur's note on
-<a href="http://mathforum.org/discuss/sci.math/t/207334 ">Huffman
+<a href="http://mathforum.org/discuss/sci.math/t/207334">Huffman
 codes and Fibonacci numbers</a>.
 </p>
 
