@@ -1,0 +1,19 @@
+# *created  "Tue Nov 17 17:07:31 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:34:35 2001" *by "Paul E. Black"
+# entry name
+@NAME=R-file
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {spatial access method} which divides space into a
+hierarchically of nested boxes.  Objects are indexed in the lowest
+cell which completely contains them.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={BANG file}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
