@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 14 14:15:15 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:49:49 2004" *by "Paul E. Black"
+
+# $Log: divideAndConquer.trm,v $
+# Revision 1.2  2004/12/17 16:49:50  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=divide and conquer
@@ -15,14 +20,25 @@ is small) or the instance is <em>divided</em> into two or more smaller
 instances.  Each of these smaller instances is 
 {recursively#recursion} solved, and the solutions are combined to
 produce a solution for the original instance.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The name <em>divide and conquer</em> is because the
 problem is conquered by dividing it into several smaller problems.
-</P>
+</p>
 
-<P>
+<p>
 This technique yields elegant, simple and quite often very efficient
 algorithms.  Well-known examples include {heapify},
 {merge sort}, {quicksort}, Strassen's fast matrix multiplication,
@@ -34,9 +50,9 @@ the heart of several important data structures such as
 {binary search tree}, {multiway search trees}, {tries}, {skip lists},
 multidimensional search trees ({k-d trees}, {quadtrees}),
 etc.
-</P>
+</p>
 
-<P>
+<p>
 Here is this term in different languages:
 <table>
 <tr><td>French</td>	<td>diviser pour r&eacute;gner</td></tr>
@@ -46,18 +62,18 @@ Here is this term in different languages:
 <tr><td></td>	<td></td></tr>
 </table>
 # further explanation (pure HTML)
-@LINKS=<A
-HREF="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
-and conquer sorting algorithms</A>, as a means of <A
-HREF="http://www.dcs.gla.ac.uk/~hwloidl/publications/Strategies/strategies_18.html">using
-parallelism</A>, and
-some <A
-HREF="http://www.qucis.queensu.ca/home/cisc365/dc/dc.p01.html">notes
-on divide and conquer algorithms</A>.
+@LINKS=<a
+href="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
+and conquer sorting algorithms</a>, as a means of <a
+href="http://www.dcs.gla.ac.uk/~hwloidl/publications/Strategies/strategies_18.html">using
+parallelism</a>, and
+some <a
+href="http://www.qucis.queensu.ca/home/cisc365/dc/dc.p01.html">notes
+on divide and conquer algorithms</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.geocities.com/Vienna/7079/src/addodd.txt">how many
-odd numbers in an array? (C)</A>
+@IMPL=<a
+href="http://www.geocities.com/Vienna/7079/src/addodd.txt">how many
+odd numbers in an array? (C)</a>
 # author's initials
 @AUTHOR=CM
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/divideAndConquer.trm,v $
