@@ -1,0 +1,24 @@
+# *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
+# *modified "Mon Dec 27 16:12:17 1999" *by "Paul E. Black"
+# entry name
+@NAME=order preserving minimal perfect hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {minimal perfect hashing} function for keys in $S$ such that if
+$k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For example, if the keys are stored in order in an {array}, the
+array offsets are an order preserving minimal perfect hash of the
+keys.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=BJ
+# end
