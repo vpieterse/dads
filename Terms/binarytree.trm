@@ -1,5 +1,11 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Wed Apr 24 09:46:45 2002" *by "Paul E. Black"
+# *modified "Wed Jan  7 12:14:03 2004" *by "Paul E. Black"
+
+# $Log: binarytree.trm,v $
+# Revision 1.2  2004/01/07 17:15:10  black
+# Refine XREFS into IMA and VARIANT.  Add binary search tree and
+# balanced binary tree.
+#
 
 # entry name
 @NAME=binary tree
@@ -20,15 +26,23 @@
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={complete binary tree},{full binary tree},
-{multiway tree}, {k-ary tree}, {threaded tree}, {Fibonacci tree},
-{extended binary tree}
-# any notes.  these will not be printed in the final dictionary
-@NOTES=A binary tree is a k-ary tree with $k=2$.
-</P>
 
-<P>
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={tree}, {multiway tree}, {k-ary tree} with k=2
+# Specialization: "... is a kind of me."
+@VARIANT={complete binary tree}, {full binary tree}, 
+{binary search tree}, {balanced binary tree}, {threaded tree},
+{Fibonacci tree}, {extended binary tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
 Formal definition after 
 <A href="../terms.html#CLR90">[CLR90, page 94]</A>.
 # further explanation (pure HTML)
@@ -44,4 +58,4 @@ href="http://www.auto.tuwien.ac.at/~blieb/woop/bintree.html">traversal,
 annotated for real time (WOOP/ADA)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binarytree.trm,v $
