@@ -1,0 +1,42 @@
+# *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
+# *modified "Wed Nov 19 09:41:26 2003" *by "Paul E. Black"
+
+# $Log: longestCommonSubstring.trm,v $
+# Revision 1.1  2003/11/19 14:49:50  black
+# Initial revision
+#
+
+# entry name
+@NAME=longest common substring
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Find the longest {substring} of two or more {strings}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={longest common subsequence}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+The longest common substring is contiguous, while the longest common
+subsequence need not be.
+# further explanation (pure HTML)
+@LINKS=
+Dan Hirschberg's <A
+href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</A>
+as an example of <A
+href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
+programming</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
+and Mathematica)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/longestCommonSubstring.trm,v $
