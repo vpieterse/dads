@@ -1,5 +1,15 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:13:31 2003" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:35:02 2004" *by "Paul E. Black"
+
+# $Log: bigOnotation.trm,v $
+# Revision 1.3  2004/06/14 13:37:32  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Add WEB name Landau
+# symbol and link to MathWorld entry.  Refer to Lueker's "Notation".
+# Add BIB entry.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
 
 # entry name
 @NAME=big-O notation
@@ -29,12 +39,30 @@ showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=O
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=O notation
-# comma-separated list of {cross references}, i.e., See also ...
+@WEB=O notation, Landau symbol
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={$\Omega(n)$#\Omega},{$\omega(n)$#\omega},
 {$\Theta(n)$#\Theta}, {$\sim$},
 {little-o notation}, {asymptotic upper bound}, 
 {asymptotically tight bound}, {NP}, {complexity}, {model of computation}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Donald E. Knuth</strong>, <em>Big Omicron and Big Omega and
+Big Theta</em>, SIGACT News, 8(2):18-24, April-June 1976.
+# Some sources give last page as 23.  The article proper ends on page
+# 23, but bibliographical references continue to page 24.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 As an example, $n<sup>2</sup> + 3n + 4$ is $O(n<sup>2</sup>)$,
@@ -73,8 +101,13 @@ the letter O, but who can tell the difference?
 @LINKS=<A
 href="http://www.cs.strath.ac.uk/~mdd/teaching/alg&comp/big_oh.html">A
 rough guide to big-oh notation</A> by Mark Dunlop.
+George S. Lueker's
+<A href="http://www.ics.uci.edu/~lueker/23/notation.pdf">Notation for
+growth rates</A> (in PDF).
+Big O is a
+<A href="http://mathworld.wolfram.com/LandauSymbols.html">Landau Symbol</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bigOnotation.trm,v $
