@@ -1,0 +1,40 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Dec 13 15:59:00 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=tournament
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=para
+# the definition
+@DEFN=Find the maximum of a set of $n$ elements in 
+$\lceil \log n \rceil$ "rounds" (passes) by "playing" (comparing)
+pairs of elements and advancing the winner (greater) of each pair to
+the next round.  It takes $n-1$ comparisons, like {linear search}, but
+may be parallelized, extended to also find the second greatest
+element, etc.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={select k<sup>th</sup> element}, {select and partition}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The second greatest element can be found with $\log n - 1$
+additional comparisons.
+# implementation(s) (pure HTML)
+@IMPL=Forbes D. Lewis' essay on <A
+href="http://www.cs.engr.uky.edu/~lewis/essays/algorithms/tournaments/tournmnt.html">Order
+Statistics and Tournaments (C)</A>.
+# further explanation (pure HTML)
+@LINKS=
+# author's initials
+@AUTHOR=GS
+# end
