@@ -1,7 +1,10 @@
 # *created  "Tue Nov  2 13:00:29 1999" *by "Paul E. Black"
-# *modified "Wed Jan 12 13:30:32 2005" *by "Paul E. Black"
+# *modified "Wed Jan 12 13:33:49 2005" *by "Paul E. Black"
 
 # $Log: britishMuseum.trm,v $
+# Revision 1.5  2005/01/12 18:33:57  black
+# IMA breadth-first search.
+#
 # Revision 1.4  2005/01/12 18:31:20  black
 # Change NAME: this is an algorithmic technique, not an algorithm per se.
 # Improve wording of DEFN.
@@ -31,7 +34,7 @@ possibilities are enormous.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={exhaustive search}
+@IMA={exhaustive search}, {breadth-first search}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -39,7 +42,7 @@ possibilities are enormous.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={breadth-first search}, {brute force}
+@XREFS={brute force}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, one may, in theory, find the smallest program
