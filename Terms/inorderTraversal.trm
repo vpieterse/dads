@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Aug 25 09:34:28 2004" *by "Paul E. Black"
+# *modified "Mon Nov 29 12:31:32 2004" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
+# Revision 1.3  2004/11/29 17:30:27  black
+# Add IMIN tree sort.  Add WEB infix traversal.
+#
 # Revision 1.2  2004/08/25 13:36:27  black
 # Refine XREFS into IMA, etc. and note IMA tree traversal.  Add RCS
 # keywords.  Change file name to inorderTraversal.
@@ -22,7 +25,7 @@ the right subtree.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=inorder traversal
+@WEB=inorder traversal, infix traversal
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -30,7 +33,7 @@ the right subtree.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={tree sort}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
