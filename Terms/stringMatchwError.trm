@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed May  5 15:44:19 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:47 2004" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Revision 1.6  2004/12/17 17:28:47  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/05/05 19:44:22  black
 # Rename edit distance to be Levenshtein distance.
 #
@@ -29,7 +32,7 @@ string in a text string.  Preprocessing, e.g., building an index, may
 or may not be allowed.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=approximate string matching
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=string similarity search
@@ -53,21 +56,21 @@ From Algorithms and Theory of Computation Handbook, page 13-18,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
-</P>
+</p>
 
-<P>
+<p>
 For large collections that are searched often, it is far
 faster, though more complicated, to start with an {inverted index}.
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://arxiv.org/abs/cs.DS/0112022">Faster Algorithm of
-String Comparison</A> 2001.
+<a href="http://arxiv.org/abs/cs.DS/0112022">Faster Algorithm of
+String Comparison</a> 2001.
 # implementation(s) (pure HTML)
-@IMPL=See implementations at <A
+@IMPL=See implementations at <a
 href="http://www.nist.gov/dads/HTML/stringMatching.html">string
-matching</A>.  <A
+matching</a>.  <a
 href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtml">(C
-and Pascal)</A>
+and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stringMatchwError.trm,v $
