@@ -1,0 +1,26 @@
+# *created  "Mon Nov  1 11:06:29 1999" *by "Paul E. Black"
+# *modified "Wed Jan 30 10:15:27 2002" *by "Paul E. Black"
+# entry name
+@NAME=n queens
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Place $n$ chess queens on an $n \times n$ board such that no
+queen can attack another.  Efficiently find all possible placements.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={8 queens}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A {backtracking} algorithm may be efficient enough for small
+values of $n$.
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.math.utah.edu/~alfeld/queens/queens.html">explanation
+and Java classes</A>,
+<A HREF="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/NQP.html">demonstration</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
