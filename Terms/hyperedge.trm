@@ -1,10 +1,13 @@
 # *created  "Mon Apr 26 13:12:45 1999" *by "Paul E. Black"
-# *modified "Tue Mar  9 10:13:22 2004" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:39:07 2004" *by "Paul E. Black"
 
 # $Log: hyperedge.trm,v $
+# Revision 1.4  2004/04/19 18:39:12  black
+# Use the standard English plural of vertex
+#
 # Revision 1.3  2004/03/09 15:20:15  black
 # Refine XREFS into IMA, etc. and add IMIN hypergraph.  Add note that
-# hyperedge is a set of vertexes.
+# hyperedge is a set of vertices.
 #
 # Revision 1.2  2003/10/16 17:02:15  black
 # Use a more regular plural of vertex
@@ -17,7 +20,7 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=graph
 # the definition
-@DEFN=A connection between two or more {vertexes} of a 
+@DEFN=A connection between two or more {vertices#vertex} of a 
 {hypergraph}.
 
 #    These are all comma-separated lists of {cross references}
@@ -34,7 +37,7 @@
 {weighted graph}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A hyperedge is a {set} of vertexes of a hypergraph.
+@NOTES=A hyperedge is a {set} of vertices of a hypergraph.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
