@@ -1,0 +1,57 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 16:18:33 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=merge
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=Combine two or more sorted sequences of data into a single sorted 
+sequence.
+# formal definition or {cross reference} to an entry
+@FORML=
+The input is two sequences, A=$\{a<sub>1</sub>, \ldots,
+a<sub>n</sub>}$ and B=$\{b<sub>1</sub>, \ldots, b<sub>m</sub>}$, each sorted
+according to some {total order}, $\leq$.  The output is a single
+sequence, merge(A,B), which is a sorted permutation of $\{a<sub>1</sub>,
+\ldots, a<sub>n</sub>, b<sub>1</sub>, \ldots, b<sub>m</sub>}$.
+</P>
+
+<P>
+merge(A, B) is
+<ol>
+<li> A, if B is empty, 
+<li> B, if A is empty, 
+<li> \{a<sub>1</sub>}.merge($\{a<sub>2</sub>, \ldots, a<sub>n</sub>}$,
+B) if a<sub>1</sub> <= b<sub>1</sub>, and 
+<li> \{b<sub>1</sub>}.merge(A, $\{b<sub>2</sub>, \ldots,
+b<sub>m</sub>}$) otherwise.  
+</ol>
+The symbol "." stands for concatenation, for example, $\{a<sub>1</sub>, \ldots,
+a<sub>n</sub>}.\{b<sub>1</sub>, \ldots, b<sub>m</sub>} =
+\{a<sub>1</sub>, \ldots, a<sub>n</sub>, b<sub>1</sub>, \ldots,
+b<sub>m</sub>}$.
+</P>
+
+<P>
+Formalization by Mustafa Ege &lt;ege@eti.cc.hun.edu.tr&gt;.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={simple merge}, {ideal merge}, {optimal merge},
+{two-way merge sort}, {three-way merge sort}, 
+{k-way merge sort}, 
+{balanced merge sort}, {nonbalanced merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/merge.html">(Scheme)</A>
+# author's initials
+@AUTHOR=ASK
+# end
