@@ -1,7 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Sep 20 12:22:20 2004" *by "Paul E. Black"
+# *modified "Thu Dec 16 14:56:42 2004" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.4  2004/12/16 19:58:06  black
+# Move examples of NP-complete problems here (from NP-hard).  NOTE the
+# source of the term "NP".  Remove AP - no definition.  Make more XHTML
+# compatible.
+#
 # Revision 1.3  2004/09/20 16:22:24  black
 # Change Comp.Theory FAQ URL.
 #
@@ -27,14 +32,14 @@ quickly, and a quick algorithm to solve this problem can be used to
 solve all other NP problems quickly.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=NPC
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={NP}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -42,7 +47,7 @@ solve all other NP problems quickly.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={NP-hard}, {P}, {AP}
+@XREFS={NP-hard}, {P}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A trivial example of NP, but (presumably) not NP-complete is
@@ -53,22 +58,34 @@ the answer is correct, but knowing how to <strong>AND</strong> two
 bit strings doesn't help one quickly find, say, a {Hamiltonian cycle} or
 tour of a graph.  So bitwise <strong>AND</strong> is not
 NP-complete (as far as we know).
-# further explanation (pure HTML)
-@LINKS=History, definitions, examples, etc. given in <A
-href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
-FAQ</A>, scroll down to <strong>P vs. NP</strong>.  A
-<A href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">compendium
-of NP optimization problems</A>.  
-</P>
+</p>
 
-<P>
+<p>
+Some other well-known NP-complete problems are
+satisfiability (SAT), {traveling salesman}, and the {bin packing problem}.
+</p>
+
+<p>
+"NP" comes from the class that a {<strong>N</strong>ondeterministic
+Turing machine#nondeterministic Turing machine} accepts in
+<strong>P</strong>olynomial time.
+
+# further explanation (pure HTML)
+@LINKS=History, definitions, examples, etc. given in <a
+href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+FAQ</a>, scroll down to <strong>P vs. NP</strong>.  A
+<a href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">compendium
+of NP optimization problems</a>.  
+</p>
+
+<p>
 Scott Aaronson's
-<A href="http://www.complexityzoo.com/">Complexity
-Zoo</A>
+<a href="http://www.complexityzoo.com/">Complexity
+Zoo</a>
 # implementation(s) (pure HTML)
-@IMPL=Stas Busygin's <A
+@IMPL=Stas Busygin's <a
 href="http://www.busygin.dp.ua/npc.html">NP-Completeness Page with
-QUALEX and SAT01 (C++)</A>.
+QUALEX and SAT01 (C++)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/npcomplete.trm,v $
