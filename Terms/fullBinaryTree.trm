@@ -1,5 +1,10 @@
 # *created  "Tue Nov 17 14:51:26 1998" *by "Paul E. Black"
-# *modified "Mon Aug 25 09:55:06 2003" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:56:00 2004" *by "Paul E. Black"
+
+# $Log: fullBinaryTree.trm,v $
+# Revision 1.2  2004/11/01 16:56:15  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=full binary tree
@@ -16,11 +21,22 @@
 @AKA=proper binary tree
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={complete binary tree}, {perfect binary tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In other words, every node is either a {leaf} or has two
-children.  For efficiency, any {Huffman encoding} is a full binary
+children.  For efficiency, any {Huffman coding} is a full binary
 tree.  A {BDD} is a full binary tree.
 </P>
 
@@ -37,4 +53,4 @@ This kind of tree is called "proper" by Goodrich &amp; Tamassia page
 231.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/fullBinaryTree.trm,v $
