@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 19 14:57:12 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:49 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedGraph.trm,v $
+# Revision 1.4  2004/12/17 17:28:49  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/04/19 18:57:15  black
 # Use the standard English plural of vertex
 #
@@ -22,7 +25,7 @@ to every other vertex.
 @FORML=A {directed graph} $D=(V, E)$ such that for all pairs of
 {vertices#vertex} $u, v \in V$, there is a {path} from
 $u$ to $v$ and from $v$ to $u$.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -47,9 +50,9 @@ Appearing in the Dictionary of Computer Science, Engineering and Technology, Cop
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
-Pascal, Mathematica, and Fortran)</A>
+Pascal, Mathematica, and Fortran)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stronglyConnectedGraph.trm,v $
