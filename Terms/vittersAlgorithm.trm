@@ -1,0 +1,23 @@
+# *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
+# *modified "Mon Jun 30 16:22:20 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=algorithm V
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=An {adaptive Huffman encoding} scheme.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={algorithm FGK}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">survey
+of data compression</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
