@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 10:36:09 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:59 2004" *by "Paul E. Black"
+
+# $Log: exclusiveReadExcluWrt.trm,v $
+# Revision 1.2  2004/12/17 17:03:59  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=exclusive read, exclusive write
@@ -13,12 +18,23 @@ from any one memory location at one time, and only one processor
 can write to any one memory location at one time.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=EREW
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 {concurrent read, concurrent write}, 
 {concurrent read, exclusive write},
 {exclusive read, concurrent write}
@@ -30,4 +46,4 @@ can write to any one memory location at one time.
 @IMPL=
 # author's initials
 @AUTHOR=PMS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/exclusiveReadExcluWrt.trm,v $
