@@ -1,5 +1,5 @@
 # *created  "Sat Aug 28 14:05:38 1999" *by "Paul E. Black"
-# *modified "Thu Jan 10 13:51:31 2002" *by "Paul E. Black"
+# *modified "Mon Oct 27 16:46:19 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=deterministic finite state machine
@@ -8,8 +8,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=autom
 # the definition
-@DEFN=A {finite state machine} with exactly one transition for each
-given symbol and {state}.
+@DEFN=A {finite state machine} with at most one transition for each
+symbol and {state}.
 # comma-separated list of pure names
 @AKA=DFA, deterministic finite automaton
 # other cross-listings solely for the web, such as word or spelling variants
@@ -17,7 +17,21 @@ given symbol and {state}.
 # comma-separated list of {cross references}.  printed as "See also ..."
 @XREFS={nondeterministic finite state machine}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=Some fields, like {model checking}, require (and assume) that
+there is <em>exactly one</em> transition for each symbol and state.  
+A finite state machine that has <em>at least one</em> transition for
+each symbol and state is sometimes called "complete".
+
+# "A DFA has at most one transition ..." Alfred V. Aho, Ravi Sethi,
+# and Jeffrey D. Ullman, "Compilers: Principles, Techniques, and
+# Tools", page 116, 1988.
+
+# "maps to singleton sets" "Algorithms and Theory of Computation
+# Handbook", page 24-3.
+
+# The definition must be "at most one" to be consistent with being
+# able to make any NFA into a DFA.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
