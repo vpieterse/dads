@@ -1,5 +1,6 @@
 # *created  "Wed Feb 17 11:42:48 1999" *by "Paul E. Black"
-# *modified "Tue May 11 16:23:18 1999" *by "Paul E. Black"
+# *modified "Fri Sep  5 09:02:38 2003" *by "Paul E. Black"
+
 # entry name
 @NAME=max-heap property
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,10 +10,14 @@
 # the definition
 @DEFN=Each {node} in a {tree} has a {key} which is less than
 or equal to the key of its {parent}.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=maximum-heap property
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={min-heap property}, {heap property}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The {root} node has the largest key.
+@NOTES=The {root} node has the largest, or maximum, key.
 After LK.
 # further explanation (pure HTML)
 @LINKS=
