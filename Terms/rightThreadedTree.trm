@@ -1,7 +1,10 @@
 # *created  "Mon May 15 14:03:39 2000" *by "Paul E. Black"
-# *modified "Tue Sep  7 09:01:21 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:24:00 2004" *by "Paul E. Black"
 
 # $Log: rightThreadedTree.trm,v $
+# Revision 1.4  2004/10/06 14:24:52  black
+# Improve wording of note, in particular, use "key" instead of "value".
+#
 # Revision 1.3  2004/09/07 16:55:45  black
 # Update Ben Pfaff's URL (again).
 #
@@ -33,8 +36,8 @@ i.e. {link} to the successor, of each {node} is maintained.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Keeping only the right thread, rather than both left and right
-threads, makes it quicker to find the next
-greater value and cheaper to insert and delete.
+threads, keeps it quick to find the next greater key and faster to
+insert and delete.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
