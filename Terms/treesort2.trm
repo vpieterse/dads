@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 09:39:25 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:07:17 2001" *by "Paul E. Black"
+# *modified "Tue Apr  6 14:44:33 2004" *by "Paul E. Black"
+
+# $Log: treesort2.trm,v $
+# Revision 1.2  2004/04/06 18:45:04  black
+# Add bib info.  Add RCS keywords.
+#
+
 # entry name
 @NAME=tree sort
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,6 +16,14 @@
 @DEFN=
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={binary search tree}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Robert W. Floyd</strong>, <em>Algorithm 245 Treesort 3</em>,
+CACM, 7(12):701, December 1964.<BR>
+<strong>Robert W. Floyd</strong>, <em>Algorithm 113 Treesort</em>,
+CACM, 5(8):434, August 1962.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -18,4 +32,4 @@
 @IMPL=<A HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/426.treesort.p">(C)</A>
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/treesort2.trm,v $
