@@ -1,0 +1,36 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan  7 10:54:18 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Euclid's algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=numeric
+# the definition
+@DEFN=An algorithm to compute the {greatest common divisor} of two
+positive
+integers.  It is <tt>Euclid(a,b)\{if (b=0) then return a; else return
+Euclid(b, a mod b);}</tt>.  The run time complexity is 
+{$O((\log a)(\log b))$#big-O notation} bit operations. 
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Euclidean algorithm
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary GCD algorithm}, {extended Euclid's algorithm},
+{Ferguson-Forcade algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 810]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Worst-case behavior <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/euclid.html">annotated
+for real time (WOOP/ADA)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/gcd.html">(Scheme)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
