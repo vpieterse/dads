@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct 28 10:33:06 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:34 2004" *by "Paul E. Black"
+
+# $Log: perfectKaryTree.trm,v $
+# Revision 1.2  2004/12/17 16:53:34  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=perfect <strong>k</strong>-ary tree
@@ -12,19 +17,30 @@
 All {internal nodes} have {degree} k.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=complete <strong>k</strong>-ary tree
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={complete graph},{full binary tree},{complete binary tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Called "complete" by 
-<A href="../terms.html#CLR90">[CLR90, page 95]</A>.
+<a href="../terms.html#CLR90">[CLR90, page 95]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/perfectKaryTree.trm,v $
