@@ -1,0 +1,29 @@
+# *created  "Wed Sep 22 16:42:56 1999" *by "Paul E. Black"
+# *modified "Wed Sep 22 16:52:34 1999" *by "Paul E. Black"
+# entry name
+@NAME=linear
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=(1) Any function which is a constant times the argument plus a
+constant:
+$f(x)=c<sub>1</sub>x + c<sub>0</sub>$.
+(2) In complexity theory, the measure of computation, $m(n)$ (usually
+execution time or memory space), is bounded by a linear function
+of the problem size, $n$.  More
+formally $m(n) = {O(n)#big-O notation}$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={exponential}, {logarithmic}, {polynomial}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Strictly speaking, a linear function is polynomial with the
+highest exponent being 1.  However polynomial usually means exponents
+greater than 1.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
