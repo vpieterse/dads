@@ -1,0 +1,22 @@
+# *created  "Wed Aug  4 11:04:41 1999" *by "Paul E. Black"
+# *modified "Wed Aug  4 11:05:17 1999" *by "Paul E. Black"
+# entry name
+@NAME=trinary function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {function} with three arguments.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={constant function}, {unary function}, {binary function},
+{n-ary function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
