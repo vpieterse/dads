@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Jul 31 09:43:38 2000" *by "Paul E. Black"
+# entry name
+@NAME=quadtree complexity theorem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=geom
+# the definition
+@DEFN=The number of nodes in a {quadtree} region representation for a simple polygon (i.e. with nonintersecting edges and without holes) is $O(p+q)$ for a $2<sup>q</sup>\times 2<sup>q</sup>$ image with perimeter $p$ measured in pixel widths.  In most cases, $q$ is negligible, and thus, the number of nodes is proportional to the perimeter.  It also holds for three-dimensional data where the perimeter is replaced by surface area, and in general  for $d$-dimensions where instead of perimeter we have the size of the $(d-1)$-dimensional interfaces between the $d$-dimensional objects.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 18-24,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
