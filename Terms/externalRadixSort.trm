@@ -1,0 +1,21 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Mar 22 09:47:56 1999" *by "Paul E. Black"
+# entry name
+@NAME=external radix sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=sort
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=
+# end
