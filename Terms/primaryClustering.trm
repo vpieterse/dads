@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:20:24 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=primary clustering
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The tendency for some {collision resolution schemes} to create
+long runs of filled slots at the {hash function} position.  
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={secondary clustering}, {clustering free}, {hash table}, {open
+addressing}, {clustering}, {linear probing}, {quadratic probing},
+{double hashing}, {uniform hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Primary clustering increases average search time.
+Linear probing is especially susceptible to primary clustering.  
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
