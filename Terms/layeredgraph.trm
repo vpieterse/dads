@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:01:47 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:40:12 2004" *by "Paul E. Black"
+
+# $Log: layeredgraph.trm,v $
+# Revision 1.3  2004/04/19 18:40:15  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:01:53  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=layered graph
@@ -9,10 +17,10 @@
 @AREA=graph
 # the definition
 @DEFN=A {connected graph} where "layers" $L<sub>0</sub> \ldots
-L<sub>k</sub>$ {partition} the {vertexes}.  Each {edge}, which
+L<sub>k</sub>$ {partition} the {vertices#vertex}.  Each {edge}, which
 has a nonnegative integral {weight#weighted graph}, connects only
-vertexes in successive layers.  The width is the greatest number of
-vertexes in any layer, i.e., 
+vertices in successive layers.  The width is the greatest number of
+vertices in any layer, i.e., 
 $MAX<sub>i=0</sub><sup>k</sup> |L<sub>i</sub>|$.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -20,8 +28,19 @@ $MAX<sub>i=0</sub><sup>k</sup> |L<sub>i</sub>|$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=layered digraph
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={bipartite graph}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A bipartite graph is a layered graph with two layers.
 </P>
