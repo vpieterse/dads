@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:34 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:15:21 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=stack
@@ -56,10 +56,6 @@ rotate(i, S), move i items from top to bottom or vice versa.
 <A
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/stacks.html">examples
 and code</A>.
-Tutorial, diagrams, and code (C, C++) of
-<A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Stacks/stacks.html">array
-and linked list implementation</A>.
 Demonstration with <A
 href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/StackAppl.html">dynamic
 array</A> and
