@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Tue Sep  7 12:31:05 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 16:18:46 2004" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.7  2004/10/14 20:18:57  black
+# Add Kaz's IMPL.  Note that IMA red-black tree (when colored).
+#
 # Revision 1.6  2004/09/07 16:31:27  black
 # Update Ben Pfaff's URL (again).
 #
@@ -37,7 +40,8 @@ where $n$ is the number of {nodes} in the tree.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={height-balanced tree}, {balanced binary tree}, {binary search tree}
+@IMA={height-balanced tree}, {balanced binary tree}, 
+{binary search tree}, {red-black tree} (when colored)
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -45,7 +49,7 @@ where $n$ is the number of {nodes} in the tree.
 # Aggregate child: "... is a part of or used in me."
 @INME={left rotation}, {right rotation}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={red-black tree}, {B-tree}, {threaded tree}, {Fibonacci tree}
+@XREFS={B-tree}, {threaded tree}, {Fibonacci tree}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
@@ -66,6 +70,13 @@ deletions using rotations.
 
 <P>
 After Gary Grubb &lt;ggrubb@sr.hp.com&gt;.
+</P>
+
+<P>
+An AVL tree is at least as balanced than a red-black tree.
+# Kaz Kylheku <kaz@ashi.footprints.net>
+# comp.theory 12 Oct 2004
+
 # further explanation (pure HTML)
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
@@ -77,6 +88,10 @@ example</A>.
 Ben Pfaff's 
 <A href="http://www.stanford.edu/~blp/avl/">explanations and code
 (C)</A>,
+Kaz Kylheku's
+<A href="http://users.footprints.net/~kaz/austin.html">Austin (C)</A>
+implementing sorted list, binary search tree, AVL, red-black and splay
+trees and convertions from any of these to any other.
 <A
 href="http://pentagon.cs.jhu.edu/~jkloss/htmls/structures/src/kloss/structures/AVLTree.java">(Java)</A>
 needs insert, delete, search, etc. from the <A
