@@ -1,9 +1,9 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:53 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:49:45 2004" *by "Paul E. Black"
 
 # $Log: theta.trm,v $
-# Revision 1.5  2004/12/17 17:28:54  black
-# Make more XHTML compliant.
+# Revision 1.6  2004/12/17 17:50:16  black
+# Make IMG XHTML compliant.
 #
 # Revision 1.4  2004/12/17 17:24:54  black
 # Make more XHTML compliant.
@@ -39,7 +39,7 @@ The values of $c<sub>1</sub>$, $c<sub>2</sub>$, and
 $k$ must be fixed for the function
 $f$ and must not depend on $n$.
 <br>
-<IMG src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
+<img src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
 showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names that this is Also Known As.
 @AKA=theta
