@@ -1,0 +1,23 @@
+# *created  "Wed Aug  4 10:36:34 1999" *by "Paul E. Black"
+# *modified "Thu Sep 13 09:35:18 2001" *by "Paul E. Black"
+# entry name
+@NAME=or
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=Disjunction: 0 OR 0 = 0, 0 OR 1 = 1, 1 OR 0 = 1, 1 OR 1 = 1.
+# comma-separated list of pure names
+@AKA=inclusive or
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={and}, {not}, {xor}, {nor}, {implies}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also known as "inclusive or" in contrast to exclusive or (xor).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
