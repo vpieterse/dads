@@ -1,5 +1,14 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Oct 14 14:58:37 2003" *by "Paul E. Black"
+# *modified "Thu Feb 26 14:54:45 2004" *by "Paul E. Black"
+
+# $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.3  2004/02/26 19:56:25  black
+# Refine XREFS into IMA, etc.  Add references to cycle and depth-first
+# search.  Add Tarjan's original paper.  Add an informal definition.
+#
+# Revision 1.2  2003/10/14 18:58:57  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=strongly connected component
@@ -10,7 +19,8 @@
 # the definition
 @DEFN=A {strongly connected#strongly connected graph} {subgraph}, $S$,
 of a {directed graph}, $D$, such that no {vertex} of $D$ can be added to
-$S$ and it still be strongly connected.
+$S$ and it still be strongly connected.  Informally, a maximal
+subgraph in which every vertex is {reachable} from every other vertex.
 @FORML=Given a directed graph $D=(V, E)$, a subgraph $S=(V', E')$
 is a strongly connected component if 
 <ul>
@@ -18,9 +28,28 @@ is a strongly connected component if
 <li> for all vertexes $u such that u\in V and u\notin V'$ there is no
 vertex $v\in V'$ for which $(u, v)\in E$.
 </ul>
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={maximally connected component}, {strongly connected graph},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={maximally connected component}, {strongly connected graph},
 {connected graph}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={depth-first search}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={cycle}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+This has a linear time algorithm for finding strongly connected
+components:<BR>
+<strong>Robert E. Tarjan</strong>, 
+<em>Depth-first search and linear graph algorithms</em>,
+SIAM Journal on Computing, 1(2):146-160, 1972.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=If a graph is strongly connected, it has only one
 strongly connected component.
