@@ -1,7 +1,10 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Wed Nov 19 09:41:26 2003" *by "Paul E. Black"
+# *modified "Wed Nov 19 09:58:21 2003" *by "Paul E. Black"
 
 # $Log: longestCommonSubstring.trm,v $
+# Revision 1.2  2003/11/19 15:01:14  black
+# Add xref to new term: shortest common superstring
+#
 # Revision 1.1  2003/11/19 14:49:50  black
 # Initial revision
 #
@@ -21,7 +24,7 @@
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={longest common subsequence}
+@XREFS={longest common subsequence}, {shortest common superstring}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 The longest common substring is contiguous, while the longest common
