@@ -1,0 +1,36 @@
+# *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
+# *modified "Wed Dec 12 13:14:48 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=graph drawing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=The problem of representing a {graph} in a plane "neatly,"
+for instance with a minimum number of {edge crossings}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={grid drawing}, {orthogonal drawing}, {straight-line drawing},
+{planar graph}, {planarization}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=Roberto Tamassia's
+<A href="http://www.cs.brown.edu/people/rt/gd.html">Graph Drawing
+links</A> page (conferences, software, etc.)
+# implementation(s) (pure HTML)
+@IMPL=Links to <A
+href="http://math.ucsd.edu/~rellis/graphdraw/graphdraw.html">graph
+drawing packages (Java, C, etc.)</A>,
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/drawing-graphs.shtml">draw
+a graph nicely (C and Mathematica)</A>, <A
+href="http://www.cs.sunysb.edu/~algorith/files/planar-drawing.shtml">draw
+a graph in the plane such that no edges cross (C, C++, and
+Mathematica)</A>, GraphEd: <A
+href="http://www.cs.sunysb.edu/~algorith/implement/graphed/implement.shtml">Graph
+Editor and Layout Program (C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
