@@ -1,0 +1,74 @@
+# *created  "Mon Jan  8 12:42:30 2001" *by "Paul E. Black"
+# *modified "Tue May 13 15:48:22 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=histogram sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=An efficient 3-pass refinement of a {bucket sort} algorithm.  
+The first pass
+counts the number of items for each bucket in an auxiliary {array},
+and then makes a running total so each auxiliary entry is the number of
+preceding items.  The second pass puts each item in its proper bucket
+according to the auxiliary entry for the {key} of that item.  The last
+pass sorts each bucket.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={counting sort}, {American flag sort}
+# any notes.  these are not printed in the final dictionary
+@NOTES=The run time is effectively {O(n log log n)#big-O notation}.
+Let S be the data set to be sorted, where $n=|S|$.  R is an
+approximate rank function to sort the data into n bins.  R has the
+following properties.
+<ul>
+<li>R is an integer valued function into [0, n-1].
+<li>$0 \leq R(x) \leq n-1$ for x in S.
+<li>For some x,y in S, R(x)=0 and R(y)=n-1.
+<li>x &lt; y implies $R(x) \leq R(y)$ for x,y in S.
+</ul>
+Each bin then has, on average, 1 entry.  Under some rather broad
+assumptions the number of entries in a bin will be Poisson distributed
+whence the observation that the sort is O(n log log n).
+</P>
+
+<P>
+Let T be the final array for the sorted data.  Allocate an auxiliary
+integer array H indexed $0 \ldots n-1$.  
+We make one pass through the data to count the number of items in
+each bin, recording the counts in H.  The array H is then
+converted into a cumulative array so each entry in H specifies the
+beginning bin position of the bin contents in T.  We then make a
+second pass through the data.  We copy each item x in S from S to T at
+H(R(x)), then increment H(R(x)) so the next item in the bin goes in
+the next location in T.  (The bin number R(x) could be saved in still
+another auxiliary array to trade off memory for computation.)
+</P>
+
+<P>
+For numeric data, there is a simple R function that works very well:
+Let min, max be the minimum and maximum of S.  Then R(x) = n*(x -
+min)/(max-min).
+</P>
+
+<P>
+This uses quite a bit of extra memory.  For large data sets, there
+could be slow downs because of page faults.  For large n it is more
+efficient to bound the number of bins.
+</P>
+
+<P>
+This note is due to Richard Harter, cri@tiac.net,
+http://www.tiac.net/users/cri/, 8 January 2001, and is used by
+permission.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Marion McCoskey's
+<A href="http://members.aol.com/mckyyy/sbcntsrt.htm">Single Buffered
+Count Sort</A> in
+<A href="http://members.aol.com/mckyyy/sbhst.cpp">(C++)</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
