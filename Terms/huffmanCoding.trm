@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:39:07 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:00 2004" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.4  2004/12/17 17:24:01  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/11/01 16:40:14  black
 # Change encoding to coding.  Improve DEF'N.  Add original BIB and links
 # to Wikipedia.
@@ -30,7 +33,7 @@ are coded with few bits, and rare characters are far from the root
 and are coded with many bits.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=static Huffman coding
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Huffman encoding, Hufman encoding, Huffmann encoding
@@ -48,7 +51,7 @@ and are coded with many bits.
 @XREFS={arithmetic coding}, 
 {optimal merge}, {Shannon-Fano coding}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>David A. Huffman</strong>, <em>A Method for The Construction
 of Minimum Redundancy Codes</em>, 
@@ -60,48 +63,48 @@ The {worst case} for Huffman coding (or, equivalently, the longest
 Huffman coding for a set of characters) is when the distribution
 of frequencies follows the {Fibonacci numbers}.  For this and other
 relations see Alex Vinokur's note on
-<A href="http://mathforum.org/discuss/sci.math/t/207334 ">Huffman
-codes and Fibonacci numbers</A>.
-</P>
+<a href="http://mathforum.org/discuss/sci.math/t/207334 ">Huffman
+codes and Fibonacci numbers</a>.
+</p>
 
-<P>
+<p>
 Joining trees by frequency is the same as merging sequences by length
 in {optimal merge}.  See the example there.
 Since a node with only one child is not optimal, any Huffman
 coding is a {full binary tree}.
-</P>
+</p>
 
-<P>
-Huffman coding is one of many <A
+<p>
+Huffman coding is one of many <a
 href="http://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms">lossless
-compression algorithms</A>.
-</P>
+compression algorithms</a>.
+</p>
 
-<P>
+<p>
 Shannon-Fano is a minimal prefix code. Huffman is optimal for
 character coding (one character-one code word) and simple to
 program.  Arithmetic coding is a little better still, since it can
 allocate fractional bits, but more complicated and has patents.
 # further explanation (pure HTML)
 @LINKS=
-Dr. Pam J. Vermeer's <A
+Dr. Pam J. Vermeer's <a
 href="http://home.wlu.edu/~vermeerp/Classes/211w99/Lectures/Ch5_2/tsld001.htm">step
-by step discovery of the algorithm</A>, 
-<A
+by step discovery of the algorithm</a>, 
+<a
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey on data
-compression</A>,
+compression</a>,
 # John Morris morris@ee.uwa.edu.au
-<A
+<a
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/huffman.html">explanation,
-example, and analysis</A>.
+example, and analysis</a>.
 Wikipedia's encyclopedic article on
-<A href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman
-coding</A>.
+<a href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman
+coding</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<A
+<a
 href="http://www.cs.mu.oz.au/~alistair/abstracts/mk95:wads.html">build
-tree in array (C)</A> --  also computes entropy and efficiency.
+tree in array (C)</a> --  also computes entropy and efficiency.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/huffmanCoding.trm,v $
