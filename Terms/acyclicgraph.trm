@@ -1,0 +1,19 @@
+# *created  "Tue Dec  1 11:32:19 1998" *by "Paul E. Black"
+# *modified "Wed Dec  4 10:17:01 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=acyclic graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {graph} with no {path} which starts and
+ends at the same {vertex} and repeats no other vertex.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={cycle}, {directed acyclic graph}, {simple path}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=An acyclic undirected graphic is like a {tree}.
+# author's initials
+@AUTHOR=PEB
+# end
