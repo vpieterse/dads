@@ -1,7 +1,11 @@
 # *created  "Tue May 11 09:10:45 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:33:11 2004" *by "Paul E. Black"
+# *modified "Thu Nov  4 12:08:29 2004" *by "Paul E. Black"
 
 # $Log: adjacent.trm,v $
+# Revision 1.4  2004/11/04 17:28:24  black
+# Add IMA binary relation.  Add XREF to new term, dominate.  Note that
+# relation is symmetric, not reflexive or transitive.
+#
 # Revision 1.3  2004/04/19 18:33:20  black
 # Use the standard English plural of vertex
 #
@@ -22,7 +26,7 @@ if they connect the same vertex.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={binary relation}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -30,10 +34,11 @@ if they connect the same vertex.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={dominate}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=The "adjacent" relation is {symmetric}, but not (necessarily)
+{reflexive} or {transitive}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
