@@ -1,5 +1,5 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:16:30 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 12:41:37 2003" *by "Paul E. Black"
 # entry name
 @NAME=dual
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -23,12 +23,12 @@ planar graph.  The white squares and dotted lines are another planar
 graph.  Each is the dual of the other.
 # further explanation (pure HTML)
 @LINKS=The <A
-HREF="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
+href="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
 Venn diagram</A>, also
 <A
-HREF="http://www.wisdom.weizmann.ac.il/Journal/Surveys/ds5/VennGraphEJC.html">here</A>.
-<A HREF="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</A>,
-that is, planar graphs which are duals of themselves.
+href="http://www.wisdom.weizmann.ac.il/Journal/Surveys/ds5/VennGraphEJC.html">here</A>.
+<A href="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</A>,
+that is, planar graphs that are duals of themselves.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
