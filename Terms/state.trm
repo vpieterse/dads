@@ -1,0 +1,23 @@
+# *created  "Fri Feb 26 16:52:15 1999" *by "Paul E. Black"
+# *modified "Wed Apr  5 09:07:17 2000" *by "Paul E. Black"
+# entry name
+@NAME=state
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=autom
+# the definition
+@DEFN=The condition of a {finite state machine} or {Turing machine} at
+a certain time.  Informally, the content of memory.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={start state}, {accepting state}, {next state}, {universal
+state}, {existential state}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
