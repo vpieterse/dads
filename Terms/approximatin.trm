@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Jul 31 13:47:54 2000" *by "Paul E. Black"
+# entry name
+@NAME=approximation algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=An {algorithm} to solve an {optimization problem} that runs in {polynomial time} in the length of the input and outputs a solution that is guaranteed to be close to the {optimal solution}.  ``Close'' has some well-defined sense called the {performance guarantee}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={$\rho$-approximation algorithm}, {absolute performance guarantee}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 34-17,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
