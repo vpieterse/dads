@@ -1,0 +1,60 @@
+# *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
+# *modified "Wed Sep  3 16:30:06 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Karnaugh map
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A method for minimizing a {boolean expression}, usually aided by
+a rectangular map of the value of the expression for all possible input
+values.  Input values are arranged in a {Gray code}.  Maximal
+rectangular groups that cover the inputs where the expression is true
+give a minimum implementation.
+<br>
+<img src="../Images/karnaugh.gif" height="225" width="221">
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Veitch diagram, KV diagram
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Venn diagram}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# copy of article in Mnemo 5.  Paper covers don't-cares, negative
+# expressions, factoring, etc.
+<strong>Maurice Karnaugh</strong>, <em>The Map Method for Synthesis of
+Combinational Logic Circuits</em>, Trans. AIEE. pt I, 72(9):593-599,
+November 1953.
+# any notes.  these will not be printed in the final dictionary
+@NOTES="Karnaugh" is pronounced "car-no". 
+<!-- pronunciation confirmed by a phone call to Polytechnic
+University, NJ, the school where he taught until recently.
+Paul E. Black 18 Dec 2000 -->
+</P>
+
+<P>
+In the example, "*" means "don't care", that is, it doesn't
+matter what the function value is for those inputs.  This expression
+may be realized as AB' + AD + BC'D + B'CD'.  Some expressions may be
+implemented more compactly by grouping 
+the zeros, possibly including "don't care" cells, and negating the
+final output.  The positive implementation is smaller for this
+expression.
+# further explanation (pure HTML)
+@LINKS=An <A
+href="http://unix.cc.wmich.edu/~johnson/ece250/Quiz5/quiz.html">interactive
+quiz</A>, and
+lecture 16 in
+<A
+href="http://www.bendigo.latrobe.edu.au/mte/maths/staff/smith/discrete/">Discrete
+Mathematics</A> (click on the Lecture Notes link) explain more.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://tech-www.informatik.uni-hamburg.de/applets/kvd/">(Java)</A>
+# author's initials
+@AUTHOR=SKS
+# end
