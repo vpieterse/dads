@@ -1,0 +1,38 @@
+# *created  "Mon Dec  4 14:01:57 2000" *by "Paul E. Black"
+# *modified "Fri May  3 14:35:43 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=three-way radix quicksort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=radix quicksort
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={radix sort}, {quicksort}, {ternary search tree}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
+for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
+Symposium on Discrete Algorithms (SODA), January 1997.
+</P>
+
+<P>
+<strong>Jon Bentley and Robert Sedgewick</strong>, <em>Ternary
+Search Trees</em>,  Dr. Dobb's Journal, April 1998.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.princeton.edu/~rs/strings/">papers,
+demos, and code (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
