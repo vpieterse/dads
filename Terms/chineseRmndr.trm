@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jul 16 10:09:06 1999" *by "Paul E. Black"
+# *modified "Wed Dec  3 11:51:02 2003" *by "Paul E. Black"
+
+# $Log: chineseRmndr.trm,v $
+# Revision 1.2  2003/12/03 16:51:16  black
+# Standard clean-up edits
+#
+
 # entry name
 @NAME=Chinese remainder theorem
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -28,4 +34,4 @@ After LK.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/chineseRmndr.trm,v $
