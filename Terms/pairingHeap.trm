@@ -1,0 +1,26 @@
+# *created  "Wed Nov 29 17:06:07 2000" *by "Paul E. Black"
+# *modified "Thu Jan 10 14:19:37 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=pairing heap
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>M. L. Fredman, R. Sedgewick, D. Sleator, and R. Tarjan</strong>,
+<em>The Pairing Heap: A New Form of Self-Adjusting Heap</em>, 1988?
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
