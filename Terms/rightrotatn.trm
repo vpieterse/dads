@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 09:15:03 1999" *by "Paul E. Black"
-# *modified "Mon Oct 27 11:13:53 2003" *by "Paul E. Black"
+# *modified "Mon Oct 27 15:03:55 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=right rotation
@@ -27,12 +27,15 @@ last item is moved to the first location, which is now vacant.
 @NOTES=Also known as right single rotation, in contrast with a double
 right rotation.
 # further explanation (pure HTML)
-@LINKS=A great series of <A
-href="http://www.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
-explaining rotations</A>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C and Pascal)</A>
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C
+and Pascal)</A>.  A great series of <A
+href="http://www.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
+explaining rotations</A> with <A
+href="http://www.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
+(Java)</A>.
 # author's initials
 @AUTHOR=BB
 # end
