@@ -1,7 +1,10 @@
 # *created  "Mon May 15 14:03:39 2000" *by "Paul E. Black"
-# *modified "Wed Oct  6 10:24:00 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:36 2004" *by "Paul E. Black"
 
 # $Log: rightThreadedTree.trm,v $
+# Revision 1.5  2004/12/17 17:24:36  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/10/06 14:24:52  black
 # Improve wording of note, in particular, use "key" instead of "value".
 #
@@ -42,8 +45,8 @@ insert and delete.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Ben Pfaff's 
-<A href="http://www.stanford.edu/~blp/avl/">explanations and
-code (C)</A>
+<a href="http://www.stanford.edu/~blp/avl/">explanations and
+code (C)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/rightThreadedTree.trm,v $
