@@ -1,0 +1,31 @@
+# *created  "Fri Jan 18 14:11:59 2002" *by "Paul E. Black"
+# *modified "Fri Jan 18 14:17:00 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=passive data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {data structure} with is only changed by external threads or
+processes, in contrast to an {active data structure}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=See the note for {active data structure} for an example.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
