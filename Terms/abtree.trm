@@ -1,5 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 13:48:31 2000" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:57:20 2004" *by "Paul E. Black"
+
+# $Log: abtree.trm,v $
+# Revision 1.2  2004/10/06 14:59:43  black
+# Improve definition to be more parallel to B-tree.  Refine XREFS into
+# IMA, etc. and add IMA search tree.  Add RCS keywords.
+#
+
 # entry name
 @NAME=($a,b$)-tree
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,19 +14,32 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=tree
 # the definition
-@DEFN=A {search tree} with the restrictions that all {leaves#leaf} are at the same {depth} and all {internal nodes} have between $a$ and $b$ {children#child}.  More formally $a$ and $b$ are integers such that $2 \leq a \leq (b+1)/2$.  If $\mu$ is an internal node with $d$ children, the {root} has $d \geq 2$, otherwise $a \leq d \leq b$.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={B-tree}
+@DEFN=A {search tree} with the restrictions that all {leaves#leaf} are
+at the same {depth} and all {internal nodes} have between $a$ and $b$
+{children#child}, where $a$ and $b$ are integers such that 
+$2 \leq a \leq (b+1)/2$.  
+The {root} may have as few as 2 children.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={search tree}
+# Specialization: "... is a kind of me."
+@VARIANT={B-tree} with $1 \leq a$
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-From Algorithms and Theory of Computation Handbook, page 4-18,
-Copyright &copy; 1999 by CRC Press LLC.
-Appearing in the Dictionary of Computer Science, Engineering and
-Technology, Copyright &copy; 2000 CRC Press LLC.
+After <em>Algorithms and Theory of Computation Handbook</em>, 
+page 4-18, CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
-@AUTHOR=CRC-A
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/abtree.trm,v $
