@@ -1,0 +1,46 @@
+# *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
+# *modified "Fri Mar 14 13:39:12 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=depth-first search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=(1) Any search algorithm which considers outgoing {edges} of
+a {vertex} before any neighbors of the vertex, that is, outgoing
+edges of the vertex's predecessor in the search.  Extremes are searched
+first.  This is easily implemented with {recursion}.  (2) An algorithm
+which marks all vertices in a {directed graph} in the order they are
+discovered and finished, partitioning the graph into a {forest}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=DFS
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={breadth-first search}, {best-first search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=<A href="../terms.html#CLR90">[CLR90, pages 477-485]</A>
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://yoda.cis.temple.edu:8080/UGAIWWW/resources/search-resources.html">Laboratory
+Resources on Search and Game Playing</A>,
+Lecture notes on <A
+href="http://www.cs.utoronto.ca/~mitchell/ai-course/s1.html">Uninformed
+Search</A>,
+Lecture notes from Design and Analysis of Algorithms on <A
+href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
+search and depth-first search</A>.
+A <A
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/Graph1.html">demonstration</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/knight/dfs.html">(Lisp)</A>,
+<A
+href="http://yoda.cis.temple.edu:8080/UGAIWWW/books/shoham/chapter2/section2.4.html">(Prolog)</A>
+# author's initials
+@AUTHOR=PEB
+# end
