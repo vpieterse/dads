@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.52 2001/08/21 13:54:11 black Exp $
+# $Id: mkterms,v 1.53 2001/08/21 14:00:47 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Tue Aug 21 09:24:40 2001" *by "Paul E. Black"
+# *modified "Tue Aug 21 09:59:44 2001" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -39,7 +39,7 @@ $verbose = 1;
 $writeAllPages = "";
 
 # CONFIGURATION SECTION:
-require 'mkcommon';
+require 'mkcommon.pl';
 
 # - Name of the two-level index web page, less extension (.html),
 #	it is written to $WEB_DIR/$WEBPAGE.html
@@ -568,8 +568,6 @@ print TMPPAGE << "TABLE_ENDING";
 TABLE_ENDING
 
 print STDERR "\n" if ($verbose);
-
-print "Wrote $numEntries terms\n";
 
 # write authors
 
