@@ -1,7 +1,11 @@
 # *created  "Fri Apr  9 15:42:03 2004" *by "Paul E. Black"
-# *modified "Fri Apr 16 08:40:10 2004" *by "Paul E. Black"
+# *modified "Thu Jun 10 09:48:25 2004" *by "Paul E. Black"
 
 # $Log: phoneticCoding.trm,v $
+# Revision 1.5  2004/06/10 13:50:32  black
+# Change edit distance to Levenshtein distance.  The entry changed some
+# time ago, but I must have missed this one.
+#
 # Revision 1.4  2004/04/16 12:40:20  black
 # Change encode to code.
 #
@@ -60,7 +64,8 @@ it to offer "Hanson" as a possible match.
 </P>
 
 <P>
-{Edit distance} and other algorithms allowing for spelling errors
+{Levenshtein distance} and other measures or algorithms allowing for
+spelling errors
 usually have sophisticated matching routines, rather than
 preprocessing the names.
 # any historical notes
