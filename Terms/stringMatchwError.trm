@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May  3 12:15:21 2004" *by "Paul E. Black"
+# *modified "Wed May  5 15:44:19 2004" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Revision 1.5  2004/05/05 19:44:22  black
+# Rename edit distance to be Levenshtein distance.
+#
 # Revision 1.4  2004/05/03 16:20:46  black
 # Add web alias of string similarity search.  Add variants
 # Ratcliff/Obershelp and edit distance.  Link to Faster Algorithm [for]
@@ -36,7 +39,7 @@ or may not be allowed.
 @IMA={string matching}
 # Specialization: "... is a kind of me."
 @VARIANT={Ratcliff/Obershelp pattern recognition},
-{phonetic coding}, {edit distance}, {string matching with mismatches}
+{phonetic coding}, {Levenshtein distance}, {string matching with mismatches}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
