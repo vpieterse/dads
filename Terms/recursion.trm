@@ -1,5 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Sep 27 10:11:04 2002" *by "Paul E. Black"
+# *modified "Tue Jan 20 16:31:56 2004" *by "Paul E. Black"
+
+# $Log: recursion.trm,v $
+# Revision 1.2  2004/01/20 21:35:43  black
+# Refine XREFS into IMA, etc. and add reference to recurrence relation,
+# in case someone is looking for it.  Clarify bits in Note.  Add RCS Log
+# and Source.
+#
 
 # entry name
 @NAME=recursion
@@ -10,13 +17,24 @@
 # the definition
 @DEFN=An algorithmic technique where a function, in order to
 accomplish a task, calls itself with some part of the task.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={iteration}, {divide and conquer}, {tail recursion},
-{collective recursion},
-{divide and marriage before conquest}, {recursive}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={tail recursion}, {collective recursion}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={iteration}, {divide and conquer}, 
+{divide and marriage before conquest}, {recursive},
+{recurrence relation}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Recursive solutions involve two major parts, the second part having
-three components.
+@NOTES=Every recursive solution involves two major parts or cases, the
+second part having three components.
 <ul>
 <li><strong>base case(s)</strong>, in which the problem is simple enough to be
 solved directly, and 
@@ -58,7 +76,7 @@ the following relations
 <ul>
 <li>GCD(2m, 2n) = 2 * GCD(m, n)
 <li>GCD(2m, 2n+1) = GCD(m, 2n+1)
-<li>GCD(2m+1, 2n+1) = GCD(n-m, 2m+1)  if m < n
+<li>GCD(2m+1, 2n+1) = GCD(n-m, 2m+1)  if m &lt; n
 <li>GCD(m, m) = m
 </ul>
 (after "ML for the Working Programmer", page 49).
@@ -92,4 +110,4 @@ Recursion tutorial</A>.
 @IMPL=
 # author's initials
 @AUTHOR=PEB, PR
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/recursion.trm,v $
