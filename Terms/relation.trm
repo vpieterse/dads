@@ -1,0 +1,26 @@
+# *created  "Tue Mar  9 09:52:31 1999" *by "Paul E. Black"
+# *modified "Sat Jul 31 12:11:19 1999" *by "Paul E. Black"
+# entry name
+@NAME=relation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=A computation which takes some inputs and yields an output.  Any
+particular input may yield different outputs at different times.
+Formally, a mapping from each element in the {domain} to one or more
+elements in the {range}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Cosine is a function, since every angle has a specific cosine.
+Its inverse $\cos<sup>-1</sup>(x)$ is a relation, since a cosine
+value maps to many (for this relation, infinitely many) angles.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
