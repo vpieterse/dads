@@ -1,0 +1,23 @@
+# *created  "Thu Jun 17 09:56:40 1999" *by "Paul E. Black"
+# *modified "Thu Jun 17 12:59:29 1999" *by "Paul E. Black"
+# entry name
+@NAME=partial function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A {function} which is not defined for some of its {domain}.  For
+instance, division is (usually) a partial function since anything
+divided by $0$ is undefined.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={total function}, {partial recursive function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
