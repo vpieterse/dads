@@ -1,0 +1,35 @@
+# *created  "Wed Sep  8 09:36:23 1999" *by "Paul E. Black"
+# *modified "Mon Feb  3 12:55:28 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Doomsday rule
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An algorithm to find the day of the week for any date.  It is
+simple enough to memorize and do mentally.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=doomsday algorithm
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Zeller's congruence}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Invented sometime before January 1976 by John Horton Conway,
+the mathematician who also 
+invented the computer Game of Life.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://rudy.ca/doomsday.html">Explanation,
+examples, origin, and links</A>; a summary of the International
+Standard Date and Time Notation <A
+href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
