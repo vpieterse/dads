@@ -1,0 +1,29 @@
+# *created  "Wed May 17 13:06:36 2000" *by "Paul E. Black"
+# *modified "Tue Dec  3 11:49:01 2002" *by "Paul E. Black"
+# entry name
+@NAME=quantum computation
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=quant
+# the definition
+@DEFN=Computation based on quantum mechanical effects, such as
+superposition and entanglement, in addition to classical digital
+manipulations.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Shor's algorithm}, {Grover's algorithm}, {Simon's algorithm},
+{Deutsch-Jozsa algorithm}, {model of computation}
+# any notes.  these are not printed in the final dictionary
+@NOTES=Quantum computers can, in theory, make computations which
+are impossible to do exactly with classical computers or achieve
+{exponential} speedup.  Since nobody has yet (as of November 2002)
+implemented more than a few bit operations, problems such as
+decoherence and measurement error may limit quantum computation to a
+few specialized roles.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
