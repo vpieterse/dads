@@ -1,0 +1,40 @@
+# *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
+# *modified "Tue Mar 25 12:46:37 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=NYSIIS
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Convert a name to a phonetic coding of up to six characters.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Jaro-Winkler}, {double metaphone}, {soundex}, {edit distance}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=
+# search for "phonetic code" or "New York State Identification and
+# Intelligence System" from the http://www.samhsa.gov/ search page
+SAMHSA's code <A
+href="http://www.samhsa.gov/centers/csat/content/idbse/idbsas.asp">(SAS)</A> --
+click on nysiis.sas.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.choicemaker.com/MEDD_2001_Imm_Reg_Conference.pdf">slides
+with summary of algorithm and comparison of Soundex, edit distance, NYSIIS,
+and Jaro-Winkler</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
