@@ -1,0 +1,49 @@
+# *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
+# *modified "Thu Apr 25 08:54:52 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=unbounded knapsack problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Given types of items of different values and volumes, find the
+most valuable set of items that fit in a knapsack of fixed volume.
+The number of items of each type is unbounded.  This is an {NP-hard} 
+combinatorial {optimization problem}.
+# formal definition or {cross reference} to an entry
+@FORML=There is a knapsack of capacity $c &gt; 0$ and $N$ types of
+items.  Each item of type $t$ has value $v<sub>t</sub> &gt; 0$ and
+weight $w<sub>t</sub> &gt; 0$.  Find the number $n<sub>t</sub> &gt; 0$
+of each type of item such that they fit,
+$\sum<sub>t=1</sub><sup>N</sup> n<sub>t</sub>w<sub>t</sub> \leq c$,
+and the total value,
+$\sum<sub>t=1</sub><sup>N</sup> n<sub>t</sub>v<sub>t</sub>$, is maximized.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=UKP
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=UB
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={knapsack problem}, {fractional knapsack problem}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.tutor.ms.unimelb.edu.au/knapsack_new/">demonstration
+solutions</A> using
+<A href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
+programming</A>.
+<A
+href="http://www.irisa.fr/cosi/HOMEPAGE/Rajopadhye/knapsack.html">formal
+definition and links to papers</A>.
+<A href="http://citeseer.nj.nec.com/273951.html">Links to many papers</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
