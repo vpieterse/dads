@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.7 2000/03/28 21:04:05 black Exp $
+# $Id: latex2html.data,v 1.8 2001/04/06 19:32:03 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Mar 28 16:02:57 2000" *by "Paul E. Black"
+# *modified "Thu Apr 13 12:02:20 2000" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -95,6 +95,7 @@
 \ldots	...
 ``	"
 ''	"
+---	-
 \sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">($)
 \sqrt		<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">
 \overline{$}	$
