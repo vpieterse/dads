@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.10 2002/01/17 17:41:31 black Exp $
+# $Id: mkcommon.pl,v 1.11 2002/01/17 18:07:39 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Jan 17 12:21:30 2002" *by "Paul E. Black"
+# *modified "Thu Jan 17 13:06:42 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -388,6 +388,7 @@ sub addToDictionary (\%) {
     #		BB<src img="alpha.gif"><sub>2</sub> tree
     # TNAME is plain-text name, e.g., without HTML or LaTeX markers.
     #		BBalpha2 tree
+    #		K&ouml;nigsberg bridges
     # alphname HERE is name used to alphabetize, e.g.,
     #		BBALPHATWOTREE
     #		bTHETA (where b is a blank)
@@ -463,6 +464,12 @@ sub addToDictionary (\%) {
 
 	# remove dashes, character markers, and remaining spaces
 	$entry{FILENM} =~ s/[^a-zA-Z0-9]//go;
+
+	# try to make HTML file name unique.  Actual (display name)
+	# duplicates are reported when the index is written.
+	while (-e "$TERMS_DIR/$entry{FILENM}.trm") {
+	    $entry{FILENM} .= "I";
+	}
     }
 
     if ($entry{ENTCLASS} !~ /WEB|AKA/) {
