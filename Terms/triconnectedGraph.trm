@@ -1,5 +1,13 @@
 # *created  "Wed Sep  6 12:22:08 2000" *by "Paul E. Black"
-# *modified "Tue Oct 14 13:11:12 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:58:04 2004" *by "Paul E. Black"
+
+# $Log: triconnectedGraph.trm,v $
+# Revision 1.3  2004/04/19 18:58:13  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 17:11:30  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=triconnected graph
@@ -9,10 +17,21 @@
 @AREA=graph
 # the definition
 @DEFN=A {connected graph} such that deleting any two
-{vertexes} (and incident {edges}) results in a graph that is
+{vertices#vertex} (and incident {edges}) results in a graph that is
 still connected.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={biconnected graph}, {k-connected graph}, {cut vertex}
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=After Tomas Rokicki &lt;rokicki@instantis.com&gt;, 24 December
 2002.
@@ -27,4 +46,4 @@ vertex to any other vertex.  After Paul M. Sant, 6 Sep 2000.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/triconnectedGraph.trm,v $
