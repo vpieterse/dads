@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.14 2002/10/03 18:06:58 black Exp $
+# $Id: latex2html.data,v 1.15 2003/03/26 17:44:35 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Aug 13 12:27:57 2002" *by "Paul E. Black"
+# *modified "Tue Jan  7 11:46:27 2003" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -100,8 +100,9 @@
 \right
 #    Other
 \ldots	...
-``	"
-''	"
+# these have hard-wired conversions since they occur outside math expressions
+#``	"
+#''	"
 # we use series of hyphens for ASCII graphics more often than --- for Latex long dash
 #---	-
 \sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root">($)
