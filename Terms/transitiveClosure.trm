@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 12 09:21:19 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:12 2004" *by "Paul E. Black"
+
+# $Log: transitiveClosure.trm,v $
+# Revision 1.2  2004/12/17 16:55:12  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=transitive closure
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,16 +16,27 @@
 @DEFN=An extension or superset of a {binary relation} such that
 whenever $(a,b)$ and $(b,c)$ are
 in the extension, $(a,c)$ is also in the extension.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={transitive reduction}, {transitive}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.cs.sunysb.edu/~algorith/files/transitive-closure.shtml">on
-a graph (C++ and Mathematica)</A>
+@IMPL=<a
+href="http://www.cs.sunysb.edu/~algorith/files/transitive-closure.shtml">on
+a graph (C++ and Mathematica)</a>
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/transitiveClosure.trm,v $
