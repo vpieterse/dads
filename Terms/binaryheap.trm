@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:47 2004" *by "Paul E. Black"
+# *modified "Wed Jan 12 09:45:53 2005" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Revision 1.5  2005/01/12 14:46:14  black
+# Put IMPL language in parens and separate with a period.
+#
 # Revision 1.4  2004/12/17 17:27:47  black
 # Make more XHTML compliant.
 #
@@ -64,7 +67,7 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
 # John Morris morris@ee.uwa.edu.au
 <a
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/heaps.html">explanation,
-examples, and C code</a>,
+examples, and code (C)</a>.
 <a href="http://gams.nist.gov/serve.cgi/ModuleComponent/8600/Fullsource/NETLIB/561">(Fortran)</a>
 # author's initials
 @AUTHOR=CLK
