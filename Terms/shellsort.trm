@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:26:59 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 08:29:44 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Shell sort
@@ -52,12 +52,20 @@ for real time (WOOP/ADA)</A>, including bibliography;
 <A href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</A>;
 <A href="http://www.nmt.edu/~es421/pascal/sort.htm">(Pascal)</A>,
 <A href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</A>,
-<A href="http://www.certified-capital.com/examples/asp/sorting/ShellSort/default.asp">(VBScript)</A>,
 <A href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</A>,
 <A href="http://www.ahml.lib.il.us/pfw/ProcessSaveFile.txt">(Passport for
 Windows PFW)</A>,
 <A href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</A>,
-<A href="http://www.outer-court.com/basic/echo/T469.HTM">(Basic)</A>.
+<A href="http://www.outer-court.com/basic/echo/T469.HTM">strings (Basic)</A>,
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0475.html">initial
+increments is about 1/9N and decreases by thirds (Rexx)</A>;
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0473.html">increments
+are multiples of 3 (Rexx)</A>;
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0474.html">increments
+are 1/2^n of number of elements (Rexx)</A>.
 # author's initials
 @AUTHOR=PEB,ASK
 # end
