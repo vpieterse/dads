@@ -1,0 +1,38 @@
+# *created  "Wed May 17 12:54:47 2000" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:30:26 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Deutsch-Jozsa algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=quant
+# the definition
+@DEFN=A quantum algorithm to determine whether a function is
+{constant#constant function} or balanced, that is, returns 1 for half
+the {domain} and 0 for the other half.  For a function taking $n$
+input qubits, first, do Hadamards on $n$ 0's, forming all possible
+inputs, and a single 1, which will be the answer qubit.
+Next, run the function once; this {exclusive or#xor}'s the result with
+the answer qubit.  Finally, do Hadamards on the $n$ inputs again, and
+measure the answer qubit.  If it is 0, the function is constant,
+otherwise the function is balanced.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={quantum computation}
+# any notes.  these are not printed in the final dictionary
+@NOTES=The algorithm needs only one (quantum) evaluation of the
+function.  A classical algorithm to answer the same question is to
+examine one more than half the domain in the {worst case}.
+</P>
+
+<P>
+See Arthur O. Pittenger, "An Introduction to Quantum Computing
+Algorithms", page 41, or Michael A. Nielsen and Isaac L. Chuang,
+"Quantum Computation and Quantum Information", pages 34-36.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
