@@ -1,5 +1,5 @@
 # *created  "Thu Mar 18 13:36:18 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:10:39 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:16 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=minimum cut
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,7 +8,7 @@
 @AREA=graph
 # the definition
 @DEFN=The smallest set of {edges} in an {undirected
-graph} which separate two distinct {vertices#vertex}.  That is,
+graph} which separate two distinct {vertexes}.  That is,
 every {path} between them includes some member of the set.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={minimum vertex cut}, {cut}
@@ -20,4 +20,4 @@ every {path} between them includes some member of the set.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/minimumcut.trm,v $
