@@ -1,7 +1,13 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 29 12:16:54 2003" *by "Paul E. Black"
+# *modified "Tue Mar  9 11:57:13 2004" *by "Paul E. Black"
 
 # $Log: sparsegraph.trm,v $
+# Revision 1.5  2004/03/09 16:59:54  black
+# Refine XREFS into IMA, etc.  Move the phrase about number of edges to
+# the NOTE since directed and undirected graphs have different numbers.
+# Change author since it is no longer a copy or close derivative of
+# CRC.  Note there is no strict distinction sparse and dense graphs.
+#
 # Revision 1.4  2003/12/29 17:19:58  black
 # Move Preiss link and commentary from LINKS to NOTES because LINKS
 # doesn't convert Latex math expressions ($...$)
@@ -21,12 +27,11 @@
 @AREA=graph
 # the definition
 @DEFN=A {graph} in which the number of {edges} is much less than the
-possible number of edges, that is, the number of {vertexes}
-squared.
+possible number of edges.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={graph}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -38,26 +43,26 @@ squared.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+A {directed graph} can have at most $n(n-1)$ edges, where $n$ is the
+number of {vertexes}.
+An {undirected graph} can have at most $n(n-1)/2$ edges.
+</P>
+
+<P>
+There is no strict distinction between sparse and dense graphs.
 Bruno Preiss' <A
 href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
 of sparse and dense graphs</A> has problems, but may help.  First, for
 one graph, one can always choose a k.  Second a class of graphs might
-be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $2 &gt; k &gt; 1$.
+be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $1 &lt; k &lt; 2$.
 $|E|$ is the number of edges, and $|V|$ is the number of vertexes.
 <BR>
 Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
 22 December 2003
-</P>
-
-<P>
-From Algorithms and Theory of Computation Handbook, page 6-22,
-Copyright &copy; 1999 by CRC Press LLC.
-Appearing in the Dictionary of Computer Science, Engineering and
-Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
-@AUTHOR=CRC-A
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sparsegraph.trm,v $
