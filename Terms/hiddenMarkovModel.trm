@@ -1,5 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Fri Aug  2 10:12:39 2002" *by "Paul E. Black"
+# *modified "Tue Jul  6 09:04:44 2004" *by "Paul E. Black"
+
+# $Log: hiddenMarkovModel.trm,v $
+# Revision 1.2  2004/07/06 13:06:11  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Update Cohen URL.
+#
 
 # entry name
 @NAME=hidden Markov model
@@ -17,9 +22,8 @@ outputs, O, are understood, so an HMM is said to be a triple,
 $(A, B, \Pi)$.
 # formal definition or {cross reference} to an entry
 @FORML=
-After <A
-href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">Michael
-Cohen</A>.
+After Michael Cohen's lectures for 
+<A href="http://screwdriver.bu.edu/">CN760</A>.
 <ul>
 <li> $A = \{a<sub>ij</sub> = P(q<sub>j</sub> at t+1 | q<sub>i</sub> at
 t)}$, where $P(a | b)$ is the conditional probability of a given b, 
@@ -36,8 +40,19 @@ $o<sub>k</sub>$ given that the current state is $q<sub>i</sub>$.
 @AKA=HMM
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={Markov chain}, {Baum Welch algorithm}, {Viterbi algorithm}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={finite state machine}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={Baum Welch algorithm}, {Viterbi algorithm}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Markov chain}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Computing a model given sets of sequences of observed outputs
 is very difficult, since the states are not directly observable and
@@ -65,4 +80,4 @@ Markov Models</A> for definitions, examples, algorithms, proofs, etc.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hiddenMarkovModel.trm,v $
