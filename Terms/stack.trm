@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:47 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 09:57:57 2005" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Revision 1.7  2005/01/04 14:58:26  black
+# Remove Campbell IMPL-gone.
+#
 # Revision 1.6  2004/12/17 17:24:47  black
 # Make more XHTML compliant.
 #
@@ -92,10 +95,7 @@ array</a> and
 href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkStackAppl.html">linked
 list</a> implementations.
 # implementation(s) (pure HTML)
-@IMPL=Jonathan G. Campbell's <a
-href="http://www.cs.qub.ac.uk/~J.Campbell/myweb/oop/oophtml/node18.html">Queue
-and Stack Classes (C++)</a> and <a
-href="http://www.cs.qub.ac.uk/~J.Campbell/csc721/noteshtml/ads.html#SECTION001130000000000000000">(Java)</a>,
+@IMPL=
 <a
 href="http://www.math.grin.edu/~stone/events/scheme-workshop/stacks.html">(Scheme)</a>
 # author's initials
