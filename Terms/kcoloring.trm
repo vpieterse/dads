@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 28 14:56:07 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:42 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=k-coloring
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,11 +8,11 @@
 @AREA=graph
 # the definition
 @DEFN=1) The assignment of <em>k</em> colors (or any distinct marks)
-to the {vertices#vertex} of a {graph}.
+to the {vertexes} of a {graph}.
 2) The assignment of <em>k</em> colors to the {edges} of a {graph}.
 
 <P>
-A coloring is a {proper coloring} if no two {adjacent} vertices
+A coloring is a {proper coloring} if no two {adjacent} vertexes
 or edges have the same color.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={edge coloring}, {vertex coloring}
@@ -24,4 +24,4 @@ or edges have the same color.
 @IMPL=
 # author's initials
 @AUTHOR=ME
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kcoloring.trm,v $
