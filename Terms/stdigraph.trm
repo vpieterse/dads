@@ -1,0 +1,30 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri May 23 15:32:57 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=st-digraph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {directed acyclic graph} with two specially marked nodes, the
+{source} $s$ and the {sink} $t$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=two-terminal dag, source-target directed acyclic graph
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={flow network}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After P. Bertolazzi, G. Di Battista, and W. Didimo,
+<em>Quasi-upward planarity</em>, Algorithmica, 32:474-506 (2002).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
