@@ -1,5 +1,11 @@
 # *created  "Mon Apr 26 13:01:51 1999" *by "Paul E. Black"
-# *modified "Tue Sep  3 11:56:40 2002" *by "Paul E. Black"
+# *modified "Tue May 11 12:59:19 2004" *by "Paul E. Black"
+
+# $Log: cutvertex.trm,v $
+# Revision 1.2  2004/05/11 17:06:33  black
+# Refine XREFS into IMA, etc.  Make articulation *point* the AKA and
+# articulation *vertex* the WEB entry.
+#
 
 # entry name
 @NAME=cut vertex
@@ -13,11 +19,22 @@ results in a {graph} with more components than the original graph.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=articulation vertex
+@AKA=articulation point
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=articulation point
-# comma-separated list of {cross references}, i.e., See also ...
+@WEB=articulation vertex
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={connected components}, {biconnected graph}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 After Algorithms and Theory of Computation Handbook, page 6-6,
@@ -34,4 +51,4 @@ With input from Paul Tanenbaum &lt;pjt@arl.army.mil&gt; (3 Sept 2002).
 @IMPL=
 # author's initials
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/cutvertex.trm,v $
