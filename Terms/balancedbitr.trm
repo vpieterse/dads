@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jun 11 14:27:07 2003" *by "Paul E. Black"
+# *modified "Wed Apr  7 09:02:26 2004" *by "Paul E. Black"
+
+# $Log: balancedbitr.trm,v $
+# Revision 1.2  2004/04/07 13:02:54  black
+# Refine XREFS into IMA, etc.  Update Pfaff's URL.
+#
 
 # entry name
 @NAME=balanced binary tree
@@ -11,10 +16,19 @@
 @DEFN=A {binary tree} where no {leaf} is more than a certain
 amount farther from the {root} than any other.  After inserting or
 deleting a {node}, the tree may rebalanced with "rotations."
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={AVL tree}, {red-black tree}, {height-balanced tree},
-{weight-balanced tree}, {left rotation}, 
-{right rotation}, {B-tree}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary tree}
+# Specialization: "... is a kind of me."
+@VARIANT={AVL tree}, {red-black tree}, {B-tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={left rotation}, {right rotation}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={height-balanced tree}, {weight-balanced tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -28,8 +42,8 @@ explanation and example</A>
 <A
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/red_black.html">red-black
 tree analysis, explanation, examples, and code (C)</A>, 
-Ben Pfaff's <A href="http://adtinfo.org/avl.html">AVL tree
+Ben Pfaff's <A href="http://www.msu.edu/~pfaffben/avl/">AVL tree
 explanation (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/balancedbitr.trm,v $
