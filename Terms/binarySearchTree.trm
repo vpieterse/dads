@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Nov 29 12:28:22 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:15 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.11  2004/12/17 17:23:15  black
+# Make more XHTML compliant.
+#
 # Revision 1.10  2004/11/29 17:28:54  black
 # Add IMIN tree sort.
 #
@@ -60,39 +63,39 @@ subtree has keys greater than the node's key.
 @NOTES=A binary search tree is almost always implemented with
 pointers, but may have a variety of constraints on how it is composed.
 # further explanation (pure HTML)
-@LINKS=<A
+@LINKS=<a
 href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl3.html#@l13">lecture
-notes</A>
-and <A 
+notes</a>
+and <a 
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture17/sld006.htm">two
-different deletion algorithms</A>.
-A <A
-href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</A>.
+different deletion algorithms</a>.
+A <a
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<A href="http://www.stanford.edu/~blp/avl/libavl.html/Binary-Search-Trees.html">insert,
-delete, search, copy, etc. (literate C)</A>;
+<a href="http://www.stanford.edu/~blp/avl/libavl.html/Binary-Search-Trees.html">insert,
+delete, search, copy, etc. (literate C)</a>;
 Kaz Kylheku's
-<A href="http://users.footprints.net/~kaz/austin.html">Austin (C)</A>
+<a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
 implementing sorted list, binary search tree, AVL, red-black and splay
 trees and conversions from any of these to any other.
-<A
+<a
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
-(C)</A>,
-<A
+(C)</a>,
+<a
 href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl30.html">insert
-(Lisp)</A>, 
-<A
+(Lisp)</a>, 
+<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
-(C)</A>,
-<A
+(C)</a>,
+<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
-(C)</A>,
+(C)</a>,
 and 
-<A 
+<a 
 href="http://www.csc.twu.ca/rsbook/index.html?http://www.csc.twu.ca/rsbook/Ch14/Ch14.8.html">insert,
-search, delete, and various traversals (Modula-2)</A> (use must be
+search, delete, and various traversals (Modula-2)</a> (use must be
 acknowledged).
 # author's initials
 @AUTHOR=PEB
