@@ -9,8 +9,8 @@
 @AREA=graph
 # the definition
 @DEFN=A {matching}, or subset of {edges} without common
-{vertices#vertex}, of a {connected graph} that touch
-all vertices exactly once.  A graph with an odd number of vertices is
+{vertexes}, of a {connected graph} that touch
+all vertexes exactly once.  A graph with an odd number of vertexes is
 allowed one unmatched vertex.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -26,15 +26,17 @@ other vertex.
 </P>
 
 <P>
-A graph with $n$ vertices has a perfect matching with n/2 edges.
+A graph with $n$ vertexes has a perfect matching with n/2 edges.
+</P>
 
+<P>
 If a graph has a {Hamiltonian cycle}, it has two different perfect
 matchings, since the edges in the cycle could be alternately colored.
-After Douglas Bass &lt;dbass@stthomas.edu&gt; 5 Sep 1999.
+After Douglas Bass (dbass@stthomas.edu) 5 Sep 1999.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/perfectmatch.trm,v $
