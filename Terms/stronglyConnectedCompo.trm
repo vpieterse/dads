@@ -1,0 +1,50 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri May  3 13:24:48 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=strongly connected component
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {strongly connected#strongly connected graph} {subgraph}, $S$,
+of a {directed graph}, $D$, such that no {vertex} of $D$ can be added to
+$S$ and it still be strongly connected.
+@FORML=Given a directed graph $D=(V, E)$, a subgraph $S=(V', E')$
+is a strongly connected component if 
+<ul>
+<li> $S$ is strongly connected, and
+<li> for all vertices $u such that u\in V and u\notin V'$ there is no
+vertex $v\in V'$ for which $(u, v)\in E$.
+</ul>
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={maximally connected component}, {strongly connected graph},
+{connected graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If a graph is strongly connected, it has only one
+strongly connected component.
+</P>
+
+<P>
+Let $G=(V, E)$ be a directed graph and
+$G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
+G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
+be its strongly connected components.  Every vertex is in exactly in
+one strongly connected component.  
+Formally, for all $i \neq j, V<sub>i</sub>\cap V<sub>j</sub>=\emptyset$.
+Further, $V=V<sub>1</sub>\cup\ldots V<sub>m</sub>$ and 
+$E=E<sub>1</sub>\cup\ldots\cup E<sub>m</sub>$.
+</P>
+
+<P>
+After Robert Caswell (caswer01@cs.uwa.edu.au), 3 May 2002.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
+Pascal, Mathematica, and Fortran)</A>
+# author's initials
+@AUTHOR=PEB
+# end
