@@ -1,12 +1,15 @@
-# $Id: latex2html.data,v 1.19 2004/01/23 14:09:58 black Exp $
+# $Id: latex2html.data,v 1.20 2004/10/28 14:48:49 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Fri Jan 23 09:03:43 2004" *by "Paul E. Black"
+# *modified "Thu Oct 28 10:43:04 2004" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
 #
 
 # $Log: latex2html.data,v $
+# Revision 1.20  2004/10/28 14:48:49  black
+# Add upper-case Lambda.
+#
 # Revision 1.19  2004/01/23 14:09:58  black
 # Change emptyset to &oslash; and add \prime and \Prime.
 #
@@ -46,6 +49,7 @@
 \epsilon &epsilon;
 \Theta	&Theta;
 \lambda	&lambda;
+\Lambda	&Lambda;
 \mu	&mu;
 \pi	&pi;
 \Pi	&Pi;
