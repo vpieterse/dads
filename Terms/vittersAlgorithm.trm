@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:48:06 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:25:06 2004" *by "Paul E. Black"
 
 # $Log: vittersAlgorithm.trm,v $
+# Revision 1.6  2004/12/17 17:25:06  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/11/01 16:49:15  black
 # Make "algorithm" in name lower case.  Add clarifications suggested by
 # Vitter.  Change "encode" to "code".  xref codeword.
@@ -31,7 +34,7 @@ codings the same length as or shorter than static {Huffman coding}.
 In the {worst case}, this uses one more bit per {codeword}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=Algorithm V
@@ -48,11 +51,11 @@ In the {worst case}, this uses one more bit per {codeword}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={algorithm FGK}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Jeffrey Scott Vitter</strong>, <em>Design and analysis of
 dynamic Huffman codes</em>,
-Journal of the ACM 34(4):825-845, October 1987.<BR>
+Journal of the ACM 34(4):825-845, October 1987.<br>
 <strong>Jeffrey Scott Vitter</strong>, <em>ALGORITHM 673: dynamic
 Huffman coding</em>,
 ACM Transactions on Mathematical Software, 15(2):158-167, June 1989.
@@ -60,12 +63,12 @@ ACM Transactions on Mathematical Software, 15(2):158-167, June 1989.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">survey
-of data compression</A>
+@LINKS=<a href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">survey
+of data compression</a>
 # implementation(s) (pure HTML)
 @IMPL=Algorithm 673 in
-<A href="http://www.netlib.org/toms/673">plain text (Pascal)</A> or
-<A href="http://www.acm.org/calgo/contents/673.gz">gzip'd (Pascal)</A>.
+<a href="http://www.netlib.org/toms/673">plain text (Pascal)</a> or
+<a href="http://www.acm.org/calgo/contents/673.gz">gzip'd (Pascal)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/vittersAlgorithm.trm,v $
