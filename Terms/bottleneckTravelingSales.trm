@@ -1,0 +1,19 @@
+# *created  "Tue Nov  3 16:21:21 1998" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:09:37 2001" *by "Paul E. Black"
+# entry name
+@NAME=bottleneck traveling salesman
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=Find a {tour#Hamiltonian cycle} where no edge is more costly
+than some (bottleneck) amount.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={traveling salesman}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Defined in comp.theory by Hai Zhou (haizhou@cs.utexas.edu)
+November 1998.  See <A href="../terms.html#CLR90">[CLR90, page 974]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
