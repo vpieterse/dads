@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu May  2 13:11:01 2002" *by "Paul E. Black"
+# *modified "Wed Aug 25 09:34:28 2004" *by "Paul E. Black"
+
+# $Log: inorderTraversal.trm,v $
+# Revision 1.2  2004/08/25 13:36:27  black
+# Refine XREFS into IMA, etc. and note IMA tree traversal.  Add RCS
+# keywords.  Change file name to inorderTraversal.
+#
 
 # entry name
 @NAME=in-order traversal
@@ -17,9 +23,20 @@ the right subtree.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=inorder traversal
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={postorder traversal}, {preorder traversal}, {tree traversal},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={tree traversal}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={postorder traversal}, {preorder traversal}, 
 {level-order traversal}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
 printed as "(left subtree) root (right subtree)."
@@ -35,9 +52,9 @@ end
 </pre>
 # further explanation (pure HTML)
 @LINKS=<A
-HREF="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">demonstration</A>
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">demonstration</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/inorderTraversal.trm,v $
