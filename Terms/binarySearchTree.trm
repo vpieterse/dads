@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Jan 12 09:47:38 2004" *by "Paul E. Black"
+# *modified "Wed Apr  7 08:59:38 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.5  2004/04/07 13:00:10  black
+# Update Ben Pfaff's URL.
+#
 # Revision 1.4  2004/01/12 14:48:40  black
 # Add RCS log and refine XREFS into IMA, etc.  Remove bad link.
 #
@@ -52,7 +55,7 @@ href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstrat
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<A href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
+<A href="http://www.msu.edu/~pfaffben/avl/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</A>;
 <A
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
