@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:32:45 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 08:34:45 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=quicksort
@@ -49,10 +49,18 @@ demos and code for <A
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">enhanced,
 fast, quicksort, and quicksort with bubble sort (Java)</A>;
 <A
-href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>, 
-<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>.
+href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>; 
+<A
+href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>;
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">in-line
+compare (Rexx)</A>, 
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
+function (Rexx)</A>.
 # further explanation (pure HTML)
 @LINKS=
+Java applet 
 <A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/QSort.html">demonstration</A>.
 # author's initials
 @AUTHOR=CM
