@@ -1,7 +1,10 @@
 # *created  "Wed Nov 18 10:05:53 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:36:09 2004" *by "Paul E. Black"
+# *modified "Thu Aug 12 17:09:11 2004" *by "Paul E. Black"
 
 # $Log: completeGraph.trm,v $
+# Revision 1.5  2004/08/12 21:10:05  black
+# Add that IMA undirected graph, too.  Note the maximum number of edges.
+#
 # Revision 1.4  2004/04/19 18:36:15  black
 # Use the standard English plural of vertex
 #
@@ -30,7 +33,7 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={dense graph}, {connected graph}
+@IMA={undirected graph}, {dense graph}, {connected graph}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -42,6 +45,9 @@
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+A complete graph has $n(n-1)/2$ edges, where $n$ is the number of
+vertices.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/completeGraph.trm,v $
