@@ -1,0 +1,23 @@
+# *created  "Thu Mar 18 13:25:46 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:15:50 2000" *by "Paul E. Black"
+# entry name
+@NAME=minimum vertex cut
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=graph
+# the definition
+@DEFN=The smallest set of {vertices#vertex} in an {undirected
+graph} which separate two distinct vertices.  That is, every {path}
+between them passes through some member of the {cut}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={minimum cut}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
