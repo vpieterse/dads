@@ -1,7 +1,11 @@
 # *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
-# *modified "Fri Aug 27 13:54:52 2004" *by "Paul E. Black"
+# *modified "Fri Aug 27 14:09:16 2004" *by "Paul E. Black"
 
 # $Log: fibonaccianSearch.trm,v $
+# Revision 1.3  2004/08/27 18:10:47  black
+# Use the right latex for <=.  Improve the definition.  Note that the
+# WOOP impl. applies more to interpolation or secant search.
+#
 # Revision 1.2  2004/08/27 17:51:08  black
 # Change name to the original author's: Fibonacian.  Add definition, BIB
 # entry, cross references, etc.
@@ -16,9 +20,10 @@
 # the definition
 @DEFN=Search a {sorted array} by narrowing possible locations to
 progressively smaller intervals.  Begin with two {Fibonacci numbers},
-p (F(n)) and q (F(n+1)), such that $p &lt; n \le q$, where $n$ is the
-size of the array.  Check location p.  The size of the next interval
-is p or q-p.
+p (F(n)) and q (F(n+1)), such that $p &lt; n \leq q$, where $n$ is the
+size of the array.  The first step checks location p.  The size of the
+next interval is p, if the key is less than the item at that location,
+or q-p (F(n-1)) if it is greater.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -47,15 +52,17 @@ CACM, 3(12):648, December 1960.
 Also <A href="../terms.html#Knuth98">[Knuth98, 3:417, Sect. 6.2.1]</A>.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=This is similar to a {binary search}, but only needs addition
-and subtraction, instead of divide by two or shift right, to compute
+@NOTES=This is similar to a {binary search}, but only needs
+subtraction, instead of divide by two or shift right, to compute
 the next position.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Worst-case behavior <A
 href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
-for real time (WOOP/ADA)</A>, including bibliography.
+for real time (WOOP/ADA)</A>, including bibliography.  (Interpolation
+and secant search "guess more precisely where the key being sought
+falls".)
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonaccianSearch.trm,v $
