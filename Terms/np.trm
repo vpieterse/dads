@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 26 10:41:23 2002" *by "Paul E. Black"
+# *modified "Mon Sep 20 10:13:53 2004" *by "Paul E. Black"
+
+# $Log: np.trm,v $
+# Revision 1.2  2004/09/20 14:32:28  black
+# Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
+# Add RCS keywords.
+#
 
 # entry name
 @NAME=NP
@@ -22,8 +28,19 @@ machine#nondeterministic Turing machine} accepts in
 @AKA=nondeterministic polynomial time
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={P}, {NP-complete}, {NP-hard}, {coNP}, {RP}, {ZPP},
+
 {BPP},
 {big-O notation}
 # any notes.  these will not be printed in the final dictionary
@@ -52,10 +69,10 @@ classes P and NP</A>.
 
 <P>
 Scott Aaronson's
-<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+<A href="http://www.complexityzoo.com/">Complexity
 Zoo</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/np.trm,v $
