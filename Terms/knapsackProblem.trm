@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan  4 09:54:28 2005" *by "Paul E. Black"
+# *modified "Wed Jan 26 08:55:31 2005" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.7  2005/01/26 13:55:47  black
+# NOTE link to drawing of a knapsack.
+#
 # Revision 1.6  2005/01/04 14:54:58  black
 # Remove leventc (optimal solution)-gone.
 #
@@ -64,6 +67,13 @@ problem}.
 The {decision problem} is, given items of
 different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
+</p>
+
+<p>
+Near the end, this page has 
+<a
+href="http://www.dodgenet.com/~ghostgar/ggbook/GGbook.html">drawings
+and a description</a> of a knapsack.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
