@@ -1,5 +1,5 @@
 # *created  "Tue Sep 15 16:48:57 1998" *by "Paul E. Black"
-# *modified "Thu Jan 17 11:56:51 2002" *by "Paul E. Black"
+# *modified "Wed Dec  1 11:36:08 2004" *by "Paul E. Black"
 # entry name
 @NMAE=this tests audit functions
 @NAME=   
@@ -17,7 +17,7 @@ different from the text, for instance, the text must be capitalized or
 made plural, use the dual form like {these#this}.  The word "these"
 appears in the text, but the link is to "this".
 @WEB=ends in period.
-@AKA=ends in blank 
+@AKA=embedded {curly bracket},ends in blank 
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
