@@ -1,5 +1,10 @@
 # *created  "Thu Mar  9 13:33:29 2000" *by "Paul E. Black"
-# *modified "Tue Aug 13 12:35:16 2002" *by "Paul E. Black"
+# *modified "Mon May 24 11:22:06 2004" *by "Paul E. Black"
+
+# $Log: flashsort.trm,v $
+# Revision 1.2  2004/05/24 15:22:28  black
+# Change pp. to pages.
+#
 
 # entry name
 @NAME=flash sort
@@ -15,12 +20,23 @@
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 <strong>J. H. Reif and L. G. Valiant</strong>, <em>A logarithmic time
-sort for linear size networks</em>, Proc. 15th Annual STOC, pp. 10-16, 1983.
+sort for linear size networks</em>, Proc. 15th Annual STOC, pages 10-16, 1983.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=It is "a randomized parallel sorting algorithm, similar in a
 lot of ways to quicksort with lots of pivots used simultaneously.
@@ -31,4 +47,4 @@ lot of ways to quicksort with lots of pivots used simultaneously.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/flashsort.trm,v $
