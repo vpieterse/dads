@@ -1,5 +1,12 @@
 # *created  "Tue Jan 26 08:45:51 1999" *by "Paul E. Black"
-# *modified "Mon Jan  6 10:12:11 2003" *by "Paul E. Black"
+# *modified "Wed Sep 29 16:16:49 2004" *by "Paul E. Black"
+
+# $Log: bestfirst.trm,v $
+# Revision 1.2  2004/09/29 20:17:09  black
+# Add "state-space" search to make defn more precise.  Mention variants,
+# like A* and give LINKs to explanations of A*.  Refine XREFS into IMA,
+# etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=best-first search
@@ -8,17 +15,40 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=A search algorithm that considers the estimated best partial
+@DEFN=A state-space search algorithm that considers the estimated best
+partial
 solution next.  This is typically implemented with a {priority
 queue}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={breadth-first search}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This can be seen as an improved breadth-first search.
+Since there are different ways to compute the "estimated best", there
+are variants of best-first search: uniform-cost search (estimated best
+is the least cost so far), greedy search (least estimated cost to
+goal), A* (cost so far plus estimated cost to goal), and many
+refinements of those.
 # further explanation (pure HTML)
 @LINKS=
+<A
+href="http://www.cs.utoronto.ca/~mitchell/ai-course/s2.html">Informed
+search</A>, including A* (pronounced "A-star") and IDA* (iterative
+deepening A*) search.
+Wikipedia entry for <A
+href="http://en.wikipedia.org/wiki/A-star_search_algorithm">A* search</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bestfirst.trm,v $
