@@ -1,5 +1,19 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 12:41:37 2003" *by "Paul E. Black"
+# *modified "Wed Feb  4 16:18:52 2004" *by "Paul E. Black"
+
+# $Log: dual.trm,v $
+# Revision 1.4  2004/02/04 21:40:44  black
+# Refine XREFS into IMA, etc. and add planar graph.  Add link to
+# Torus.pdf with an algorithm for finding a dual.  Remove dead link, a
+# 2nd link to Venn diagram.
+#
+# Revision 1.3  2003/10/16 16:42:17  black
+# Regularize hyperlinks
+#
+# Revision 1.2  2003/10/16 16:39:55  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=dual
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,12 +25,31 @@
 {vertex} for each region in G and an {edge} between vertexes for
 each pair of adjacent regions.  The new edge crosses the edge in G
 which is the boundary between the adjacent regions.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={planar graph}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=<IMG src="Images/dual.gif" height=266 width=303 align=right>
+An <A
+href="http://bkocay.cs.umanitoba.ca/G&G/articles/Torus.pdf">algorithm
+for finding the dual</A> (PDF format) is in Fig. 2.1, page 4.
+</P>
+
+<P>
 The dual of a planar graph is also planar.  The original graph
 is the dual of the dual.  That is, they are duals of each other.
+</P>
+
 <P>
 In the accompanying figure, the black circles and solid lines are one
 planar graph.  The white squares and dotted lines are another planar
@@ -24,9 +57,7 @@ graph.  Each is the dual of the other.
 # further explanation (pure HTML)
 @LINKS=The <A
 href="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
-Venn diagram</A>, also
-<A
-href="http://www.wisdom.weizmann.ac.il/Journal/Surveys/ds5/VennGraphEJC.html">here</A>.
+Venn diagram</A>.
 <A href="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</A>,
 that is, planar graphs that are duals of themselves.
 # implementation(s) (pure HTML)
