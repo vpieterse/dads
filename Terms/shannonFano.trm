@@ -1,5 +1,10 @@
 # *created  "Mon Sep 27 08:40:55 1999" *by "Paul E. Black"
-# *modified "Wed Jul 30 12:46:32 2003" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:58:29 2004" *by "Paul E. Black"
+
+# $Log: shannonFano.trm,v $
+# Revision 1.2  2004/11/01 16:58:45  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=Shannon-Fano coding
@@ -8,24 +13,35 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=A variable-length encoding based on the frequency of occurrence
+@DEFN=A variable-length coding based on the frequency of occurrence
 of each character.  Divide the characters into two {sets} with the
 frequency of each set as close to half as possible, and assign the
-sets either 0 or 1 encoding.  Repeatedly divide the sets until each
-character has a unique encoding.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={arithmetic coding}, {Huffman encoding}, {Zipf's law}
+sets either 0 or 1 coding.  Repeatedly divide the sets until each
+character has a unique coding.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={arithmetic coding}, {Huffman coding}, {Zipf's law}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Shannon-Fano is a minimal prefix code. Huffman is optimal for
-character encoding (one character-one code word) and simple to
+character coding (one character-one code word) and simple to
 program.  Arithmetic coding is better still, since it can allocate
 fractional bits, but more complicated.
 # further explanation (pure HTML)
 @LINKS=Debra A. Lelewer's and Daniel S. Hirschberg's <A
-HREF="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey of data
+href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey of data
 compression</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/shannonFano.trm,v $
