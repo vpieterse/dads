@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Oct 26 15:43:01 2000" *by "Paul E. Black"
+# entry name
+@NAME=digital search tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {trie} which stores the {strings} in {internal nodes}, so
+there is no need for extra {leaf} nodes to store the strings.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={digital tree}, {directed acyclic word graph}, {compact DAWG},
+{Patricia tree}, {suffix tree}
+# any notes.  these will not be printed in the final dictionary
+#	after Algorithms & Theory of Computation Handbook, page 14-3
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
