@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 16 14:45:07 2004" *by "Paul E. Black"
+# *modified "Fri Mar 11 11:43:08 2005" *by "Paul E. Black"
 
 # $Log: np.trm,v $
+# Revision 1.6  2005/03/11 16:43:26  black
+# Update Wikipedia URL
+#
 # Revision 1.5  2004/12/16 19:45:21  black
 # NP-hard is not a subset of NP.
 #
@@ -73,7 +76,7 @@ tour", can be quickly checked.
 href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 Wikipedia entry on <a
-href="http://www.wikipedia.com/wiki/Complexity_classes_P_and_NP">Complexity
+href="http://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
 classes P and NP</a>.
 </p>
 
