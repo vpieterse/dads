@@ -1,5 +1,13 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:04:06 EDT 2003" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:36:09 2004" *by "Paul E. Black"
+
+# $Log: minimumSpanningTree.trm,v $
+# Revision 1.3  2004/02/27 16:52:54  black
+# Refine XREFS into IMA, etc.  Refer to Christofides algorithm.
+#
+# Revision 1.2  2003/10/16 17:04:11  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=minimum spanning tree
@@ -16,9 +24,19 @@ contains all of the graph's {vertexes}.
 @AKA=MST, shortest spanning tree, SST
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=minimum code spanning tree, minimum cost spanning tree
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={spanning tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={Christofides algorithm} (1)
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Kruskal's algorithm}, {Prim's algorithm}, {Steiner minimum
-tree}, {spanning tree}, {arborescence},
+tree}, {arborescence},
 similar problems: {all pairs shortest path}, {traveling salesman}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A minimum spanning tree can be used to quickly find a
