@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:51:26 1998" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:56:00 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:51 2004" *by "Paul E. Black"
 
 # $Log: fullBinaryTree.trm,v $
+# Revision 1.3  2004/12/17 17:23:52  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/11/01 16:56:15  black
 # Change encoding to coding
 #
@@ -17,7 +20,7 @@
 {children#child}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=proper binary tree
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -38,17 +41,17 @@
 @NOTES=In other words, every node is either a {leaf} or has two
 children.  For efficiency, any {Huffman coding} is a full binary
 tree.  A {BDD} is a full binary tree.
-</P>
+</p>
 
-<P>
+<p>
 After Mustafa Ege (ege@eti.cc.hun.edu.tr) Hacettepe University,
 comp.theory, 17 November 1998.  
 Also Carrano &amp; Prichard page 427,
-<A href="../terms.html#CLR90">[CLR90, page 95]</A>, and
-<A href="../terms.html#Stand98">[Stand98, page 248]</A>.
-</P>
+<a href="../terms.html#CLR90">[CLR90, page 95]</a>, and
+<a href="../terms.html#Stand98">[Stand98, page 248]</a>.
+</p>
 
-<P>
+<p>
 This kind of tree is called "proper" by Goodrich &amp; Tamassia page
 231.
 # author's initials
