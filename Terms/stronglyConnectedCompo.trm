@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:48 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 13:55:22 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.9  2004/12/17 18:56:01  black
+# Make LI XHTML compliant.
+#
 # Revision 1.8  2004/12/17 17:28:48  black
 # Make more XHTML compliant.
 #
@@ -84,12 +87,12 @@ $G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots,
 G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
 be its strongly connected components.
 <ul>
-<LI> $\forall V<sub>i</sub>, V<sub>i</sub> \neq \emptyset$ <br>(no
+<li> $\forall V<sub>i</sub>, V<sub>i</sub> \neq \emptyset$ <br>(no
 subgraph is empty),
-<LI> $\forall V<sub>i</sub>, V<sub>j</sub> \in P, i \neq j \rightarrow
+<li> $\forall V<sub>i</sub>, V<sub>j</sub> \in P, i \neq j \rightarrow
 V<sub>i</sub>
 \cap V<sub>j</sub> = \emptyset $ <br> (subsets are disjoint), and
-<LI> $\bigcup<sub>i=1</sub> V<sub>i</sub> = V$ <br>(subgraphs exactly
+<li> $\bigcup<sub>i=1</sub> V<sub>i</sub> = V$ <br>(subgraphs exactly
 cover the original).
 </ul>
 </p>
