@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 11:50:50 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=predicate
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A {function} that returns true or false.  Conceptually it tests
+for a condition.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary function}, {boolean expression}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See the description of isEmpty() in the Notes for
+{abstract data type}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
