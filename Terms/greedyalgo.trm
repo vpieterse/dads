@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 25 14:41:17 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:14:06 2005" *by "Paul E. Black"
 
 # $Log: greedyalgo.trm,v $
+# Revision 1.5  2005/02/02 20:53:19  black
+# Fix grammatical error.
+#
 # Revision 1.4  2005/01/25 19:42:17  black
 # Change Prim's to Prim-Jarnik.  Put algos under VARIANT.
 #
@@ -41,7 +44,7 @@ find less-than-optimal solutions for some instances of other problems.
 # any notes.  these will not be printed in the final dictionary
 @NOTES={Prim-Jarnik algorithm} and {Kruskal's algorithm} are greedy
 algorithms that find the globally optimal solution, a {minimum
-spanning tree}.  In contrast, any known greedy algorithm to find an
+spanning tree}.  In contrast, any known greedy algorithm to find a
 {Hamiltonian cycle} might not find the shortest path, that is, a solution
 to the {traveling salesman} problem.
 </p>
