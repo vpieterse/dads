@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.16 2002/10/28 16:45:22 black Exp $
+# $Id: mkcommon.pl,v 1.17 2003/01/07 17:08:21 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Mon Oct 28 11:37:55 2002" *by "Paul E. Black"
+# *modified "Tue Jan  7 11:54:39 2003" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -157,6 +157,10 @@ sub quoteREpatterns ($) {
 
 # Rewrite any LaTeX expressions with those in latexRewrites
 sub rewriteLatex ($) {
+    # special hardwired conversion: rewrite `` and '' into "
+    # this Latex applies *outside* math expressions
+    $_[0] =~ s/``|''/"/go;
+
     if ($_[0] =~ /\$/) {
 	# it has a dollar sign, so it is probably a LaTeX expression
 	# print "Start : $_[0]\n";
