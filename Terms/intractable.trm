@@ -1,0 +1,22 @@
+# *created  "Mon Jan 31 15:42:15 2000" *by "Paul E. Black"
+# *modified "Mon Jan 31 15:47:32 2000" *by "Paul E. Black"
+# entry name
+@NAME=intractable
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A problem for which no {algorithm} can exist which computes all
+instances of it in {polynomial time}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={tractable}, {undecidable problem}, {unsolvable problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
