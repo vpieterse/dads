@@ -1,0 +1,30 @@
+# *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
+# *modified "Thu Sep 13 09:04:37 2001" *by "Paul E. Black"
+# entry name
+@NAME=Johnson-Trotter
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=An algorithm to generate {permutations} by transposing
+elements.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Steinhaus-Johnson-Trotter
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Information on
+Permutations (Pascal and C)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
