@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Fri Apr 30 09:31:45 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:29:02 2004" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.3  2004/12/17 17:29:03  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/04/30 13:33:00  black
 # Refine XREFS into IMA, etc. and add RCS keywords.  Update Stockton's URL.
 #
@@ -16,7 +19,7 @@
 @DEFN=An algorithm to find the day of the week for any date.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Zeller's algorithm
@@ -33,23 +36,23 @@
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Doomsday rule}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Christian Zeller</strong>, <em>Kalender-Formeln</em>,
 Acta Mathematica, 9:131-6, Nov 1886.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
-@IMPL=Dr J R Stockton's <A
+@IMPL=Dr J R Stockton's <a
 href="http://www.merlyn.demon.co.uk/zeller-c.htm#ZC">Zeller's
-congruence, for day-of-week (Pascal, JavaScript)</A>.  Includes tests
+congruence, for day-of-week (Pascal, JavaScript)</a>.  Includes tests
 and code for Easter, Zeller's original papers (in German and English
 translations), etc.
-Comp.lang.c FAQ <A
+Comp.lang.c FAQ <a
 href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
-17.28 (C)</A>.
+17.28 (C)</a>.
 # further explanation (pure HTML)
-@LINKS=A summary of the International Standard Date and Time Notation <A
-href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</A>.
+@LINKS=A summary of the International Standard Date and Time Notation <a
+href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/zellersCongruence.trm,v $
