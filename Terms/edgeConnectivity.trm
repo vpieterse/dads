@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:05:15 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:37:45 2004" *by "Paul E. Black"
+
+# $Log: edgeConnectivity.trm,v $
+# Revision 1.3  2004/04/19 18:37:49  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:05:18  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=edge connectivity
@@ -10,10 +18,21 @@
 # the definition
 @DEFN=(1) The smallest number of {edges} whose deletion will
 cause a {connected graph} to not be connected.  (2) For a pair of
-vertexes $s$ and $t$ in a graph, the smallest number of edges whose
+vertices $s$ and $t$ in a graph, the smallest number of edges whose
 deletion will separate $s$ from $t$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={vertex connectivity}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
