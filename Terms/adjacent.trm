@@ -1,5 +1,5 @@
 # *created  "Tue May 11 09:10:45 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:12:19 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 12:56:14 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=adjacent
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +7,7 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=graph
 # the definition
-@DEFN=Two {vertices#vertex} of a {graph} are adjacent if there
+@DEFN=Two {vertexes} of a {graph} are adjacent if there
 is an {edge} between them.  Two {edges} of a graph are adjacent
 if they connect the same vertex.
 # comma-separated list of {cross references}, i.e., See also ...
@@ -20,4 +20,4 @@ if they connect the same vertex.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/adjacent.trm,v $
