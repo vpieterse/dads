@@ -1,5 +1,10 @@
 # *created  "Fri Sep 18 09:59:05 1998" *by "Paul E. Black"
-# *modified "Tue Dec  3 11:06:58 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:00 2004" *by "Paul E. Black"
+
+# $Log: string.trm,v $
+# Revision 1.2  2004/12/17 17:08:01  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=string
@@ -12,8 +17,19 @@
 Informally a word, phrase, sentence, etc.
 Since text processing is so common, a special type with
 substring operations is often available.
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={string matching}, {string matching with errors}, 
+
 {longest common subsequence}, {end-of-string}, {text}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The term string usually refers to a small sequence of characters,
@@ -21,4 +37,4 @@ such as a name or a sentence.  The term {text} usually refers to a large
 sequence of characters, such as an article or a book.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/string.trm,v $
