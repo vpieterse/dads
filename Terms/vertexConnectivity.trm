@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 14 15:26:35 2001" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:06:37 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=vertex connectivity
@@ -8,9 +8,9 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=(1) The smallest number of {vertices#vertex} whose deletion will
-cause a {connected graph} to not be connected.  (2) For a pair of
-vertices $s$ and $t$ in a graph, the smallest number of vertices whose
+@DEFN=(1) The smallest number of {vertexes} whose deletion
+causes a {connected graph} to not be connected.  (2) For a pair of
+vertexes $s$ and $t$ in a graph, the smallest number of vertexes whose
 deletion will separate $s$ from $t$.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={edge connectivity}
@@ -24,4 +24,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/edge-vertex-connectivity.shtml">(
 C, and Pascal)</A>
 # author's initials
 @AUTHOR=GS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/vertexConnectivity.trm,v $
