@@ -1,0 +1,29 @@
+# *created  "Thu Nov 16 16:51:48 2000" *by "Paul E. Black"
+# *modified "Wed Jan  9 16:33:59 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=randomized search tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=See {randomized binary search tree}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={treap}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Raimund G. Seidel and Cecilia R. Aragon</strong>, 
+<em>Randomized Search Trees</em>, Algorithmica, 16(4/5):464-497 (1996).<BR>
+# copy in Mnemo 5
+Also in 30th Annual
+Symposium on Foundations of Computer Science, pages 540-545, Research
+Triangle Park, North Carolina, 30 October-1 November 1989. IEEE.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
