@@ -1,7 +1,13 @@
 # *created  "Wed Jul  7 08:42:36 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:02:53 2003" *by "Paul E. Black"
+# *modified "Wed Oct 29 10:05:31 2003" *by "Paul E. Black"
+
+# $Log: skipSearch.trm,v $
+# Revision 1.2  2003/10/29 15:06:02  black
+# Change name to lower case - only proper names are capitalized
+#
+
 # entry name
-@NAME=Skip Search
+@NAME=skip search
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
@@ -15,7 +21,7 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A HREF="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
+@IMPL=Christian Charras' and Thierry Lecroq's <A href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/skipSearch.trm,v $
