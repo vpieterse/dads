@@ -1,0 +1,28 @@
+# *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
+# *modified "Mon Apr  7 17:12:30 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=q sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=sort
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=qsort
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
