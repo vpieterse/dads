@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  9 16:55:31 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 12:56:14 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=bipartite matching
@@ -8,7 +8,7 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=(1) A {perfect matching} between {vertices#vertex} of a
+@DEFN=(1) A {perfect matching} between {vertexes} of a
 {bipartite graph}, that is, a {subgraph} which pairs every vertex
 with exactly one other vertex.
 (2) The problem of finding such a matching.
@@ -28,4 +28,4 @@ with exactly one other vertex.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bipartmatch.trm,v $
