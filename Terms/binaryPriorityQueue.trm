@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:03:39 1999" *by "Paul E. Black"
-# *modified "Wed Oct  6 12:35:10 2004" *by "Paul E. Black"
+# *modified "Fri Nov 26 17:04:34 2004" *by "Paul E. Black"
 
 # $Log: binaryPriorityQueue.trm,v $
+# Revision 1.3  2004/11/26 22:05:22  black
+# Replace the complete citation with a link to the (new) bibliography entry.
+#
 # Revision 1.2  2004/10/06 16:37:53  black
 # Initial definition.  Refine XREFS into IMA, etc. and fill in.  Add RCS
 # keywords.
@@ -45,11 +48,7 @@ the left subtree tends to make the tree taller and thinner.
 
 <P>
 After 
-<strong>Gaston H. Gonnet</strong> and <strong>Ricardo Baeza-Yates</strong>,
-<em>Handbook of Algorithms and Data Structures</em>, Addison Wesley,
-2nd ed. 1991.
-Section 5.1.6.2, pages 223-225.
-# NIST Library QA76.73.P2 G66, accessed Oct 2004
+<A href="../terms.html#GBY91">[GBY91, pages 223-225]</A>.
 
 # further explanation (pure HTML)
 @LINKS=
