@@ -1,0 +1,39 @@
+# *created  "Fri May 25 08:52:04 2001" *by "Paul E. Black"
+# *modified "Tue May 28 15:41:25 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=vehicle routing problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Find an {optimal} route of one or more vehicles through a {graph}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=VRP
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={traveling salesman}, {Hamiltonian cycle}, 
+{Chinese postman problem}, {optimization problem}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=The vehicles may be school buses, garbage trucks, delivery
+vans, etc.  The optimal may be fastest routes, least variation (all
+get nearly equal assignments), least "cost" (big cost for going
+through Mayor's neighborhood, small cost for taking freeway), etc.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Jano Simicka's <A
+href="http://j.simicka.home.att.net/vrp.html">Vehicle
+Routing Problem</A> page has links to papers, sample problems,
+implementations, etc.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
