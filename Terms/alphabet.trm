@@ -1,0 +1,26 @@
+# *created  "Fri Feb 26 16:51:45 1999" *by "Paul E. Black"
+# *modified "Wed Apr  5 09:56:45 2000" *by "Paul E. Black"
+# entry name
+@NAME=alphabet
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=autom
+# the definition
+@DEFN=The set of all possible symbols in an application.  For
+instance, input characters used by a {finite state machine}, letters
+making up strings in a {language}, or symbols in a {pattern element}.
+In some cases, an alphabet may be infinite.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={don't care}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+An alphabet may be as simple as the booleans 1 and 0, or as rich as
+the key words and token types in a programming language.  
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
