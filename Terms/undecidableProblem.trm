@@ -1,0 +1,38 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri Dec 14 13:08:30 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=undecidable problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A problem that cannot be solved for all cases by any {algorithm}
+whatsoever---equivalently, whose associated language cannot be
+recognized by a {Turing machine} that halts for all inputs.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={decidable}, {unsolvable problem}, {undecidable
+language}, {intractable}, {Post's correspondence problem},
+{halting problem}, {busy beaver}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, figuring out whether any arbitrary program halts
+for all inputs or not is an undecidable problem (this is the {halting
+problem}).  That is, there can
+be no program that, when given any program, finishes in finite time
+and correctly answers "Yes, the program you gave me halts for all
+inputs" or "No, the program you gave me does not halt for some inputs."
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, page 24-19 or 26-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
