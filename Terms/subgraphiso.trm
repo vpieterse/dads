@@ -1,0 +1,25 @@
+# *created  "Tue May  4 17:16:56 1999" *by "Paul E. Black"
+# *modified "Thu Aug 23 12:31:15 2001" *by "Paul E. Black"
+# entry name
+@NAME=subgraph isomorphism
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=Decide if there is a {subgraph} of one {graph} which is 
+{isomorphic} to another graph.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is known to be {NP-complete}.  
+After <A href="../terms.html#ATCH99">[ATCH99, page 6-21]</A>.
+# further explanation (pure HTML)
+@LINKS=A large 
+<A href="http://www.ics.uci.edu/~eppstein/bibs/subiso.bib">bibtex
+bibliography</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
