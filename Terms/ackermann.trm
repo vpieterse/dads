@@ -1,5 +1,16 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Wed Nov 20 10:59:15 2002" *by "Paul E. Black"
+# *modified "Fri Nov 26 13:43:03 2004" *by "Paul E. Black"
+
+# $Log: ackermann.trm,v $
+# Revision 1.2  2004/11/26 19:01:41  black
+# Replace the CLR definition with the more widely used defn.
+# Add Ackermann-Peter as a WEB variant since Rozsa Peter called it that
+# in her book.
+# Add HREF to Ackermann Bio.  Add year to Peter's and Robinson's
+# simplifications and correct spelling.
+# Note that there are many variants of the function.  Link to sites
+# about the variants.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=Ackermann's function
@@ -12,35 +23,62 @@
 # formal definition or {cross reference} to an entry
 @FORML=
 <ul>
-<li>$A(1, j)=2<sup>j</sup>$		for $j \geq 1$
-<li>$A(i, 1)=A(i-1, 2)$			for $i \geq 2$
-<li>$A(i, j)=A(i-1, A(i, j-1))$		for $i, j \geq 2$
+<li>$A(0, j)=j+1$			for $j \geq 0$
+<li>$A(i, 0)=A(i-1, 1)$			for $i &gt; 0$
+<li>$A(i, j)=A(i-1, A(i, j-1))$		for $i, j &gt; 0$
 </ul>
+# from
+# Rozsa Peter, "Recursive Functions in Computer Theory", translated by
+# I. Juha'sz (that is, a-acute-accent), Ellis Horwood Ltd, 1981, p 29.
+# NIST QA76.7 .P46 1981
+
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Ackerman's function
-# comma-separated list of {cross references}, i.e., See also ...
+@WEB=Ackerman's function, Ackermann-Peter function
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={inverse Ackermann function}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=In 1928, Wilhelm Ackermann (1896 - 1962) observed that
+@NOTES=In 1928, 
+<A
+href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Ackermann.html">Wilhelm
+Ackermann</A> observed that
 A(x,y,z), the z-fold iterated exponentiation of x with y, is an
 example of a recursive function which is not primitive recursive.
-A(x,y,z) was simplified to a function of 2 variables by Rosza Peter
-whose initial condition was simplified by Raphael Robinson.
-Ackermann was a student of David Hilbert.
+A(x,y,z) was simplified to a function of 2 variables by 
+R&oacute;zsa P&eacute;ter in 1935. 
+Raphael M. Robinson simplified the initial condition in 1948.
 </P>
 
 <P>
-After <A href="../terms.html#CLR90">[CLR90, page 451]</A>.
+Many people have given other versions of Ackermann's function, some
+of which are not simply a restating of this one.
+
 # further explanation (pure HTML)
 @LINKS=
+Robert Munafo's <A
+href="http://home.earthlink.net/~mrob/pub/math/ln-2deep.html">Versions
+of Ackermann's Function</A> and analysis.
+Cowles and Bailey <A
+href="http://www.cs.utexas.edu/users/boyer/ftp/nqthm/nqthm-1992/examples/basic/peter.events">Several
+Versions of Ackermann's function</A>.
 # implementation(s) (pure HTML)
 @IMPL=History of the function and
 <A href="http://www.modulaware.com/mdlt08.htm">(Modula-2)</A> code,
 <A href="http://www.kosara.net/thoughts/ackermann.html">(Lisp)</A>,
-<A href="http://pweb.netcom.com/~hjsmith/Ackerman/Acker1P.html">(Pascal)</A>,
+<A href="http://www.geocities.com/hjsmithh/Ackerman.html">(Pascal)</A>,
 <A href="http://www.engin.umd.umich.edu/CIS/course.des/cis400/miranda/Ack.htm">(Miranda)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/ackermann.trm,v $
