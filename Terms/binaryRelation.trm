@@ -1,7 +1,10 @@
 # *created  "Sat Sep  4 16:51:08 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:33:59 2004" *by "Paul E. Black"
+# *modified "Fri Oct 15 16:45:15 2004" *by "Paul E. Black"
 
 # $Log: binaryRelation.trm,v $
+# Revision 1.4  2004/10/15 20:46:50  black
+# Add that IMA relation and that dictionary is a VARIANT.
+#
 # Revision 1.3  2004/04/19 18:34:13  black
 # Use the standard English plural of vertex
 #
@@ -23,17 +26,17 @@ of" ($\subset$), or "is connected to" (has an {edge} to) for
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={relation}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={dictionary}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={binary function}, {reflexive}, {symmetric}, {transitive},
-
 {antisymmetric}, {irreflexive}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=One may think of a binary relation as a binary function whose
 {range} is $\{true, false}$.  For example since $3 &gt; 2$,
