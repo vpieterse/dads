@@ -1,5 +1,10 @@
 # *created  "Fri Sep 18 11:55:24 1998" *by "Paul E. Black"
-# *modified "Fri Apr 25 13:14:18 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:09 2004" *by "Paul E. Black"
+
+# $Log: tail.trm,v $
+# Revision 1.2  2004/12/17 17:08:09  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=tail
@@ -10,12 +15,23 @@
 # the definition
 @DEFN=(1) The last item of a {list}.
 (2) All but the first item of a list; the list following the head.
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={head}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The first definition is common when building lists from
 other language constructs, such as C pointers.  The second definition
 occurs in languages with primitive list types, such as ML or Lisp.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/tail.trm,v $
