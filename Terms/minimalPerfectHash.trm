@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jul 30 11:30:47 2003" *by "Paul E. Black"
+# *modified "Tue Feb 10 13:52:13 2004" *by "Paul E. Black"
+
+# $Log: minimalPerfectHash.trm,v $
+# Revision 1.2  2004/02/10 18:52:38  black
+# Refine XREFS into IMA, etc.  Add link to a good article.  Add RCS Log, etc.
+#
 
 # entry name
 @NAME=minimal perfect hashing
@@ -10,14 +15,41 @@
 # the definition
 @DEFN=A {perfect hashing} function that maps each different {key} to
 a distinct integer and has the same number of possible integers as
-keys.  Formally, given a set of $N$ {keys}, the size of the {range} is
-$N$.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={order preserving minimal perfect hashing}
+keys.
+# formal definition or {cross reference} to an entry
+@FORML=A function f is a minimal perfect hash function for a set of
+keys K iff
+$\forall j, k \in K f(j) = f(k) \rightarrow j = k$ and the size of the
+{range} of f is $|K|$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={perfect hashing}, {hash function}
+# Specialization: "... is a kind of me."
+@VARIANT={order preserving minimal perfect hashing}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After BJ.
 # further explanation (pure HTML)
 @LINKS=
+<strong>Edward A. Fox, Lenwood S. Heath, Qi Fan Chen</strong> and
+<strong>Amjad M. Daoud</strong>,
+<em><A href="http://doi.acm.org/10.1145/129617.129623">Practical
+minimal perfect hash functions for large databases</A></em>, 
+CACM, 35(1):105-121, January 1992.
 # implementation(s) (pure HTML)
 @IMPL=
 Description and code for <A
@@ -30,4 +62,4 @@ href="http://www.cco.caltech.edu/cco/texinfo/libgplusplus/gperf_3.html">gperf:
 near minimal perfect hashing (C++)</A>,
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/minimalPerfectHash.trm,v $
