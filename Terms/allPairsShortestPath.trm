@@ -1,5 +1,17 @@
 # *created  "Mon Dec 14 15:34:21 1998" *by "Paul E. Black"
-# *modified "Thu Oct 16 12:55:09 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:33:20 2004" *by "Paul E. Black"
+
+# $Log: allPairsShortestPath.trm,v $
+# Revision 1.4  2004/04/19 18:33:26  black
+# Use the standard English plural of vertex
+#
+# Revision 1.3  2003/10/16 16:55:25  black
+# Use a more regular plural of vertex
+#
+# Revision 1.2  2003/10/14 16:52:14  black
+# Remove note on finding the shortest paths.  It is not clear how to do
+# this efficiently for all pairs.  Add RCS keyword.
+#
 
 # entry name
 @NAME=all pairs shortest path
@@ -9,16 +21,27 @@
 @AREA=graph
 # the definition
 @DEFN=Find the weight (or length) of the {shortest paths}
-between all pairs of {vertexes} in a {weighted, directed
+between all pairs of {vertices#vertex} in a {weighted, directed
 graph}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Floyd-Warshall algorithm}, {Johnson's algorithm}
+
 {Dijkstra's algorithm}, {Bellman-Ford algorithm},
 similar problems: {shortest path}, {minimum spanning tree}, 
 {traveling salesman}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The problem is to find the weights of the shortest paths
-between all pairs of vertexes.  For a map, it is to produce the
+between all pairs of vertices.  For a map, it is to produce the
 (shortest) road distances between all cities, not which roads to take
 to get from one city to another.
 </P>
