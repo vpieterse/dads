@@ -1,0 +1,43 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Thu Mar  6 11:57:46 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=persistent data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {data structure} that preserves its old versions, that is,
+previous versions may be queried in addition to the latest version.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=persistant data structure, 
+data structure persistence, data structure persistance
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={partially persistent data structure}, 
+{fully persistent data structure},
+{confluently persistent data structure}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>James R. Driscoll, Neil Sarnak, Daniel
+D. Sleator</strong>, and <strong>Robert E. Tarjan</strong>,
+<em>Making Data Structures Persistent</em>,
+Journal of Computer and System Sciences, 38(1):86-124, 1989.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 5-24,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.research.att.com/~hkl/persistent-data-structures.html">A
+Brief Introduction to Persistent Data Structures</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
