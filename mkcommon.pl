@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.9 2002/01/17 17:08:37 black Exp $
+# $Id: mkcommon.pl,v 1.10 2002/01/17 17:41:31 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Jan 17 12:03:35 2002" *by "Paul E. Black"
+# *modified "Thu Jan 17 12:21:30 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -465,8 +465,10 @@ sub addToDictionary (\%) {
 	$entry{FILENM} =~ s/[^a-zA-Z0-9]//go;
     }
 
-    # remember this entry to find cross references
-    $entriesForXref{$entry{XNAME}} = $alphaName;
+    if ($entry{ENTCLASS} !~ /WEB|AKA/) {
+	# remember this entry to find cross references
+	$entriesForXref{$entry{XNAME}} = $alphaName;
+    }
 
     # save as a hash-of-hashes
     for $fld (keys %entry) {
