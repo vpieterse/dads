@@ -1,0 +1,38 @@
+# *created  "Tue Jun 27 09:05:12 2000" *by "Paul E. Black"
+# *modified "Wed Jul 23 11:57:26 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=strictly lower triangular matrix
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {matrix} which is only defined at $(i,j)$ when $i &gt; j$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={lower triangular matrix}, {strictly upper triangular matrix},
+{ragged matrix}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+For example
+<table>
+<tr><th></th><th colspan=4 align=center>j</th></tr>
+<tr><th rowspan=4 valign=middle>i</th>
+    <td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>7</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>1</td><td>0</td><td>-</td><td>-</td></tr>
+<tr><td>1</td><td>9</td><td>5</td><td>-</td></tr>
+</table>
+</P>
+
+<P>
+It may be more compactly represented in an array by storing entry
+$(i,j)$ in location
+$\frac\{(i-1)(i-2)}\{2} + j$ (one-based indexing).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
