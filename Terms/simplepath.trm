@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jul 14 16:49:33 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=simple path
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {path} that repeats no {vertex}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Hamiltonian path}, {cycle}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
