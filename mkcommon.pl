@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.20 2004/08/25 15:33:31 black Exp $
+# $Id: mkcommon.pl,v 1.21 2004/11/18 19:43:33 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Tue Aug 10 09:20:40 2004" *by "Paul E. Black"
+# *modified "Thu Nov 18 14:37:39 2004" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -318,9 +318,10 @@ sub readConfigFiles {
 	    if (/^(\S+)\s*(.*)/o) {
 		$pat = quoteREpatterns($1);
 		$replace = $2;
-		if (!($replace eq '"' || $replace eq ')' || $replace eq '}')) {
-		    # pad everything but left-closers with a space so
-		    # things like $s\in T$ look right
+		if (!($replace eq '"' || $replace eq ')' || $replace eq '}'
+		      || substr($replace, 0, 4) eq '&sup')) {
+		    # pad everything but left-closers and superscripts with a 
+		    # space so things like $s\in T$ look right
 		    # HTML compresses spaces, so $s \in T$ looks right, too
 		    $replace = " $replace";
 		}
