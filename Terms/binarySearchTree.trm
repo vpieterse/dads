@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Wed Oct  6 10:27:02 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 12:21:19 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.8  2004/10/06 16:21:57  black
+# Fix mistake: a binary priority queue does NOT use a BST.
+#
 # Revision 1.7  2004/10/06 15:04:56  black
 # Use "key" instead of "value".  Note that IMA search tree and IMIN
 # binary priority queue.
@@ -40,7 +43,7 @@ subtree has keys greater than the node's key.
 @VARIANT={AVL tree}, {splay tree}, {threaded tree}, 
 {randomized binary search tree}, {discrete interval encoding tree}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={binary priority queue}
+@IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
