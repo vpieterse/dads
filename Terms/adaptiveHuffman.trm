@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:40:01 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:52:44 2004" *by "Paul E. Black"
+# *modified "Mon Nov  1 12:18:33 2004" *by "Paul E. Black"
 
 # $Log: adaptiveHuffman.trm,v $
+# Revision 1.5  2004/11/01 17:18:43  black
+# Make "Algorithm" lower case.
+#
 # Revision 1.4  2004/11/01 16:53:30  black
 # Change encoding to coding
 #
@@ -35,7 +38,7 @@ coding tree is modified).
 # Generalization: "I am a kind of ..."
 @IMA={Huffman coding}
 # Specialization: "... is a kind of me."
-@VARIANT={Vitter's Algorithm}, {algorithm FGK}
+@VARIANT={Vitter's algorithm}, {algorithm FGK}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
