@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon Mar 22 13:05:03 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 14:31:28 2004" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.6  2004/10/14 18:32:46  black
+# Explain a little more about kazlib.
+#
 # Revision 1.5  2004/03/22 18:06:42  black
 # Rewrite the definition to emphasize storing values (not keys).  Use k
 # for k in formal definition.
@@ -51,7 +54,7 @@ The modifier function delete(k, D) may be defined as follows.
 </P>
 
 <P>
-If we wished find to be a {total function}, we could define 
+If we want find to be a {total function}, we could define 
 find(k, new()) using a special value: <em>fail</em>.
 This only changes the return type of find.
 <ol start="7">
@@ -95,8 +98,12 @@ Contributions by Rob Stewart 16 March 2004.
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
-Pascal, and Fortran)</A>, <A
+Pascal, and Fortran)</A>.
+Kaz Kylheku's
+<A
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+implementing dictionary, dynamic hash table, red-black tree, and
+doubly linked list.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dictionary.trm,v $
