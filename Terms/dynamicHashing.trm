@@ -1,0 +1,41 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:32:59 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=dynamic hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {hash table} that grows to handle more items.  The associated
+{hash function} must change as the table grows.  Some schemes may
+shrink the table to save space when items are deleted.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={load factor}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>R. J. Enbody and H. C. Du</strong>, <em>Dynamic Hashing
+Schemes</em>, ACM computing Surveys, 20(2):85-113, June 1998.  Note:
+Figure 5b has errors: boxes should be labeled (top to bottom) A, D, B,
+and C.  
+</P>
+
+<P>
+<strong>P. Larson</strong>, <em>Dynamic hashing</em>, BIT
+18:184-201, 1978.
+</P>
+
+<P>
+<strong>Martin Dietzfelbinger, Anna Karlin, Kurt Melhorn, Friedhelm
+Meyer Auf Der Heide, Hans Rohnert, and Robert E. Tarjan</strong>,
+<em>Dynamic Perfect Hashing: Upper and Lower Bounds</em>,
+SIAM J. Comput., 23(4):738-761, August 1994.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
