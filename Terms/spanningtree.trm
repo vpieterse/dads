@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:28:41 2004" *by "Paul E. Black"
+# *modified "Fri Mar 18 08:42:26 2005" *by "Paul E. Black"
 
 # $Log: spanningtree.trm,v $
+# Revision 1.5  2005/03/18 13:44:26  black
+# Remove LINK to OR notes on graph theory--connection refused.
+#
 # Revision 1.4  2004/12/17 17:28:41  black
 # Make more XHTML compliant.
 #
@@ -41,8 +44,7 @@ Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and Technology, Copyright
 &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS=OR-Notes on graph theory, including 
-<a href="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">spanning trees</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
