@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 24 14:53:07 2003" *by "Paul E. Black"
+# *modified "Wed Sep 22 08:55:58 2004" *by "Paul E. Black"
+
+# $Log: binomialheap.trm,v $
+# Revision 1.2  2004/09/22 12:56:23  black
+# Correct spelling of Fibonacci
+#
 
 # entry name
 @NAME=binomial heap
@@ -22,8 +27,19 @@ operation is a constant {$\Theta(1)$#$\Theta$}.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=binomial queue
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={Fibonnaci heap}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Fibonacci heap}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Binomial heaps are so called because the number of nodes at
 each level of each subtree is a binomial coefficient.  Sometimes
@@ -35,4 +51,4 @@ After LK.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binomialheap.trm,v $
