@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr  4 12:21:01 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:05:31 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=vertex coloring
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=An assignment of colors (or any distinct marks) to the 
-{vertices#vertex} of a {graph}.  Strictly speaking, a coloring is 
+{vertexes} of a {graph}.  Strictly speaking, a coloring is 
 {proper#proper coloring} if no two {adjacent} vertices have the same
 color.
 # comma-separated list of {cross references}, i.e., See also ...
@@ -29,4 +29,4 @@ HREF="http://www.cs.sunysb.edu/~algorith/files/vertex-coloring.shtml">(Fortran,
 C, Pascal, C++, and Mathematica)</A>
 # author's initials
 @AUTHOR=PEB, CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/vertexcolor.trm,v $
