@@ -1,5 +1,20 @@
 # *created  "Fri Sep 18 12:10:28 1998" *by "Paul E. Black"
-# *modified "Fri Sep  5 10:30:28 2003" *by "Paul E. Black"
+# *modified "Wed Jan  7 13:12:35 2004" *by "Paul E. Black"
+
+# $Log: heap.trm,v $
+# Revision 1.4  2004/01/07 18:16:32  black
+# Correct definition: a heap is a complete tree (a binary heap is a
+# complete binary tree).  Move most of the xrefs, notes, implementation
+# links, etc. to binary heap, since most of them apply to binary heaps.
+# Refine XREFS into IMA, IMIN, etc.  Add a note about OS heaps.
+#
+# Revision 1.3  2003/09/05 14:35:08  black
+# Note that a heap may be efficiently implemented as an array - copy the
+# note from complete binary tree.
+#
+# Revision 1.2  2003/09/05 14:25:13  black
+# Be more specific - a heap is a complete binary tree.
+#
 
 # entry name
 @NAME=heap
@@ -8,33 +23,35 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {complete binary tree} where every {node} has a {key} more
+@DEFN=A {complete tree} where every {node} has a {key} more
 extreme (greater or less) than or equal to the key of its {parent}.
-# comma-separated list of cross references, i.e., See also ...
-@XREFS={build-heap},{heapsort},{binary heap},{k-ary heap},
-{priority queue},{heap property},{treap},{complete binary tree}
+Usually understood to be a {binary heap}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={complete tree}
+# Specialization: "... is a kind of me."
+@VARIANT={binary heap}, {k-ary heap}, {binomial heap}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={heap property}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Insertion is {O($\log<sub>2</sub> n$)#big-O notation} where $n$ is
-the number of nodes.
-A heap can be efficiently implemented as an {array}, where a node at
-index $i$ has children at indexes $2i$ and $2i+1$ and a
-parent at index $i/2$.  If child index is greater than the number
-of nodes, the child does not exist.
+@NOTES=Speaking about operating systems, "heap" refers to
+memory from which chunks can be allocated.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
-(C)</A> and <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
-(C and Pascal)</A> both of which use the auxiliary function <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
-(C and Pascal)</A>,
-# John Morris morris@ee.uwa.edu.au
-<A
-HREF="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/heaps.html">explanation,
-examples, and C code</A>,
-<A HREF="http://gams.nist.gov/serve.cgi/ModuleComponent/8600/Fullsource/NETLIB/561">(Fortran)</A>
+@IMPL=
 # author's initials
 @AUTHOR=CLK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/heap.trm,v $
