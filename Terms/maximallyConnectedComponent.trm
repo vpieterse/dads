@@ -1,5 +1,13 @@
 # *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:04:55 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:40:20 2004" *by "Paul E. Black"
+
+# $Log: maximallyConnectedComponent.trm,v $
+# Revision 1.3  2004/04/19 18:40:23  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:05:03  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=maximally connected component
@@ -15,15 +23,26 @@ no {vertex} can be added and it still be connected.
 maximally connected component if 
 <ul>
 <li> $S$ is {connected#connected graph}, and
-<li> for all vertexes $u such that u\in V and u\notin V'$ there is no
+<li> for all vertices $u such that u\in V and u\notin V'$ there is no
 vertex $v\in V'$ for which $(u, v)\in E$.
 </ul>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={connected graph}, {connected components}, {biconnected component}, 
+
 {strongly connected component}
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
