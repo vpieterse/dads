@@ -1,5 +1,5 @@
 # *created  "Tue May 11 14:58:57 1999" *by "Paul E. Black"
-# *modified "Tue Jan 28 12:31:51 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 10:35:57 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=weak-heap
@@ -17,15 +17,15 @@
 @XREFS={weak-heap sort}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-A weak-heap is realized with an array <em>a</em> of items and an 
-array <em>r</em> of reverse bits.  The left child of an index
-<em>i</em> is addressed by <em>2i+1-r<sub>i</sub></em>, and the right
-child is addressed by <em>2i+r<sub>i</sub></em>.
+A weak-heap may be efficiently implemented with an {array} $a$ of
+items and an array $r$ of reverse bits.  The left child of an index
+$i$ is at index $2i+1-r<sub>i</sub>$, and the right
+child is at index $2i+r<sub>i</sub>$.
 </P>
 
 <P>
-This is a min weak-heap.  A max weak-heap has subtree keys that are
-less than the node's key.
+This is a minimum weak-heap.  A maximum weak-heap has subtree keys
+that are less than the node's key.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
