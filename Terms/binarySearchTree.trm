@@ -1,7 +1,11 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Wed Apr  7 08:59:38 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:27:02 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.7  2004/10/06 15:04:56  black
+# Use "key" instead of "value".  Note that IMA search tree and IMIN
+# binary priority queue.
+#
 # Revision 1.6  2004/09/07 16:27:49  black
 # Update Ben Pfaff's URL (again).
 #
@@ -26,17 +30,17 @@
 @AREA=tree
 # the definition
 @DEFN=A {binary tree} where every {node's#node} left 
-{subtree} has values less than the node's value, and every right
-subtree has values greater.  A new node is added as a {leaf}.
+{subtree} has {keys} less than the node's key, and every right
+subtree has keys greater than the node's key.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={binary tree}
+@IMA={binary tree}, {search tree}
 # Specialization: "... is a kind of me."
 @VARIANT={AVL tree}, {splay tree}, {threaded tree}, 
 {randomized binary search tree}, {discrete interval encoding tree}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={binary priority queue}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
