@@ -1,0 +1,26 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Wed Dec 12 15:46:40 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=internal sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=Any {sort} algorithm which uses exclusively main memory during the sort.  This assumes high-speed random access to all memory.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={external sort}, {quicksort}, {insertion sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Although virtual memory may hide the use of disk, an internal sort is written as if all memory is equally accessible.
+From Algorithms and Theory of Computation Handbook, page 3-23,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://gams.nist.gov/serve.cgi/Class/N6a">(Fortran)</A>
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
