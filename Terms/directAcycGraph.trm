@@ -1,0 +1,26 @@
+# *created  "Wed Sep 16 08:49:21 1998" *by "Paul E. Black"
+# *modified "Wed Dec  4 10:34:39 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=directed acyclic graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=graph
+# the definition
+@DEFN=A {directed graph} where no {path} starts and
+ends at the same {vertex}.
+# clarified by question from Ben <olasov@ibm.net> or <olasov@cs.columbia.edu>
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=DAG, acyclic directed graph, oriented acyclic graph
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=acyclic digraph
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={directed graph}, {acyclic graph}, {cycle}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
