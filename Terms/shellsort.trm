@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Thu Dec 18 13:53:27 2003" *by "Paul E. Black"
+# *modified "Thu Dec 18 14:09:50 2003" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.9  2003/12/18 20:11:05  black
+# Separate XREFS into new, more precise fieds.
+#
 # Revision 1.8  2003/12/18 18:54:59  black
 # Add revision history.  Break out historical note to a new, separate field.
 #
@@ -44,8 +47,20 @@ succeeding increment was half the preceding increment.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Shell-Metzner sort, shellsort
+
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={diminishing increment sort}, {in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
+
 # bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
 @BIB=<strong>Donald Lewis Shell</strong>, <em>A High-Speed
 Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
