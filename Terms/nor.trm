@@ -1,0 +1,23 @@
+# *created  "Sat Aug 28 14:56:55 1999" *by "Paul E. Black"
+# *modified "Sat Aug 28 14:59:50 1999" *by "Paul E. Black"
+# entry name
+@NAME=nor
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=Negated disjunction: 0 NOR 0 = 1, 0 NOR 1 = 0, 1 NOR 0 = 0, 1 NOR 1 = 0.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=NOR is equivalent to OR followed by NOT.  It is of
+interest because all possible {boolean functions} can be built with
+combinations of NORs.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
