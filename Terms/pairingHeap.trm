@@ -1,5 +1,10 @@
 # *created  "Wed Nov 29 17:06:07 2000" *by "Paul E. Black"
-# *modified "Thu Jan 10 14:19:37 2002" *by "Paul E. Black"
+# *modified "Mon Jan 12 10:12:36 2004" *by "Paul E. Black"
+
+# $Log: pairingHeap.trm,v $
+# Revision 1.2  2004/01/12 15:16:13  black
+# Refine XREFS to IMA, etc.  Add Darius Bacon's implementation.
+#
 
 # entry name
 @NAME=pairing heap
@@ -9,18 +14,35 @@
 @AREA=
 # the definition
 @DEFN=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
-<strong>M. L. Fredman, R. Sedgewick, D. Sleator, and R. Tarjan</strong>,
-<em>The Pairing Heap: A New Form of Self-Adjusting Heap</em>, 1988?
+<strong>Michael L. Fredman, Robert Sedgewick, Daniel Dominic Sleator,
+and Robert Endre Tarjan</strong>,
+<em>The Pairing Heap: A New Form of Self-Adjusting Heap</em>,
+Algorithmica, 1(1):111-129, 1986.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Darius Bacon's
+<A
+href="http://www.accesscom.com/~darius/software/scheme-data-structures/pairing-heap.scm">functional
+implementation (Scheme)</A>.
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/pairingHeap.trm,v $
