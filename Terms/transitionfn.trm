@@ -1,5 +1,10 @@
 # *created  "Sat Aug 28 13:30:21 1999" *by "Paul E. Black"
-# *modified "Tue Feb 12 17:16:19 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:17 2004" *by "Paul E. Black"
+
+# $Log: transitionfn.trm,v $
+# Revision 1.2  2004/12/17 17:08:17  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=transition function
@@ -10,8 +15,19 @@
 # the definition
 @DEFN=A function of the current {state} and input giving the {next
 state} of a {finite state machine} or {Turing machine}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This defines the set of {transitions}.
 # further explanation (pure HTML)
@@ -20,4 +36,4 @@ state} of a {finite state machine} or {Turing machine}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/transitionfn.trm,v $
