@@ -1,5 +1,10 @@
 # *created  "Fri Feb 26 16:46:20 1999" *by "Paul E. Black"
-# *modified "Wed Jun  5 16:08:15 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:49:41 2004" *by "Paul E. Black"
+
+# $Log: deterministicAlgorithm.trm,v $
+# Revision 1.2  2004/12/17 16:49:42  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=deterministic algorithm
@@ -10,17 +15,28 @@
 # the definition
 @DEFN=An {algorithm} whose behavior can be completely predicted from
 the input.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={nondeterministic algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=That is, each time a certain set of input is presented, the
 algorithm gives the same results as any other time the set of input is
 presented.  For algorithms with state, or that maintain information
 between inputs, "the input" means everything since the algorithm was
 started from an initial state.
-</P>
+</p>
 
-<P>
+<p>
 There can be degrees of deterministic behavior.  For instance, an
 algorithm that uses random numbers might not be considered
 deterministic.  However if the "random numbers" come from a
@@ -31,4 +47,4 @@ deterministic.  However if the "random numbers" come from a
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/deterministicAlgorithm.trm,v $
