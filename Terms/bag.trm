@@ -1,5 +1,5 @@
 # *created  "Thu Jan 14 13:44:16 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:43:53 2002" *by "Paul E. Black"
+# *modified "Wed Oct  1 10:16:34 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=bag
@@ -9,6 +9,30 @@
 @AREA=basic
 # the definition
 @DEFN=An unordered collection of values that may have duplicates.
+# formal definition or {cross reference} to an entry
+@FORML=
+As an {abstract data type}, a bag has a single query function,
+numberIn(v, B), which tells how many copies of an element are in the
+bag, and two modifier functions, add(v, B) and remove(v, B).
+These may be defined as follows.
+<ol>
+<li>$new()$ returns a bag
+<li>$numberIn(v, new()) = 0$
+<li>$numberIn(v, add(v, B)) = 1 + numberIn(v, B)$
+<li>$numberIn(v, add(u, B)) = numberIn(v, B) if v \neq u$
+<li>$remove(v, new()) = new()$
+<li>$remove(v, add(v, B)) = B$
+<li>$remove(v, add(u, B)) = add(u, remove(v, B)) if v \neq u$
+</ol>
+where B is a bag and $u$ and $v$ are elements.
+</P>
+
+<P>
+The {predicate} isEmpty(B) may be defined with the following additional axioms.
+<ol start="8">
+<li>isEmpty(new()) = true
+<li>isEmpty(add(v, B)) = false
+</ol>
 # comma-separated list of pure names
 @AKA=multi-set
 # other cross-listings solely for the web, such as word or spelling variants
