@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Wed May  5 13:18:29 2004" *by "Paul E. Black"
+# *modified "Tue Sep  7 12:31:05 2004" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.6  2004/09/07 16:31:27  black
+# Update Ben Pfaff's URL (again).
+#
 # Revision 1.5  2004/05/05 17:20:50  black
 # Fix transliteration of Akademii.  On 5 May 2004 Vadim Okun says
 #     To indicate the possession (the Russian equivalent of the
@@ -72,7 +75,7 @@ example</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<A href="http://www.msu.edu/~pfaffben/avl/">explanations and code
+<A href="http://www.stanford.edu/~blp/avl/">explanations and code
 (C)</A>,
 <A
 href="http://pentagon.cs.jhu.edu/~jkloss/htmls/structures/src/kloss/structures/AVLTree.java">(Java)</A>
