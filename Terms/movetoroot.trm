@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Jan 11 12:59:05 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=move-to-root heuristic
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {heuristic} that moves the target of a {search} to the {root}
+of the {search tree} so it is found faster next time.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={move-to-front heuristic}, {splay tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This technique speeds up {search} performance only if the
+target item is likely to be searched for again soon.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
