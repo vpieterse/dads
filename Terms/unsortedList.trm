@@ -1,5 +1,11 @@
 # *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
-# *modified "Tue Apr  4 15:18:27 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:35 2004" *by "Paul E. Black"
+
+# $Log: unsortedList.trm,v $
+# Revision 1.2  2004/12/17 17:08:35  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=unsorted list
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,8 +14,19 @@
 @AREA=sort
 # the definition
 @DEFN=A {list} whose order of items, if any, is not known.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={sort}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The list need not be out of order, simply that it is not known
 to be in order.
@@ -19,4 +36,4 @@ to be in order.
 @IMPL=
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/unsortedList.trm,v $
