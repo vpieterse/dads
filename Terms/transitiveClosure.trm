@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Oct 12 09:21:19 2000" *by "Paul E. Black"
+# entry name
+@NAME=transitive closure
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=An extension or superset of a {binary relation} such that
+whenever $(a,b)$ and $(b,c)$ are
+in the extension, $(a,c)$ is also in the extension.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={transitive reduction}, {transitive}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/transitive-closure.shtml">on
+a graph (C++ and Mathematica)</A>
+# author's initials
+@AUTHOR=SKS
+# end
