@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb  9 13:04:16 2004" *by "Paul E. Black"
+# *modified "Wed Jun 16 12:51:55 2004" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.3  2004/06/16 16:52:27  black
+# Link to Entacher's review and comparison.
+#
 # Revision 1.2  2004/02/09 18:05:43  black
 # Add a link to the C FAQ (generate random numbers in a range).  Add RCS
 # Log, etc.
@@ -16,7 +19,7 @@
 # the definition
 @DEFN=A {deterministic algorithm} to generate a sequence of numbers
 with little or no discernible pattern in the numbers, except for broad
-statistical patterns.
+statistical properties.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=PRNG
 # other cross-listings solely for the web, such as word or spelling variants
@@ -33,8 +36,8 @@ statistical patterns.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={spectral test}, {randomized algorithm}, {linear congruential
-
 generator}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Any computer program is likely to generate pseudo-random
 numbers, not actually random numbers.  This is important when, say,
@@ -53,6 +56,10 @@ and Testing</A> with links to reports, standard tests, and on-going
 research.
 <A href="http://www.fourmilab.ch/random/">ent</A>: a program to
 test the randomness of bytes in a file.
+Karl Entacher's thorough review and comparison of
+<A href="http://random.mat.sbg.ac.at/~charly/server/server.html">A
+collection of selected pseudorandom number generators with linear
+structures</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
