@@ -1,0 +1,25 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Tue Dec 26 15:55:45 2000" *by "Paul E. Black"
+# entry name
+@NAME=multiway decision
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A decision which has more than two results.  For instance,
+testing if $a &lt; b$ yields two results, but some languages allow a
+test to return $a &lt; b$, $a=b$, or $a &gt; b$ in one operation.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The standard library function <code>strcmp()</code> in C
+returns -1, 0, or 1 depending on whether one is less than, equal to,
+or greater than the other.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
