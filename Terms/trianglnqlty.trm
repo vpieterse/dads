@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Aug 14 16:01:55 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:11:49 2003" *by "Paul E. Black"
 # entry name
 @NAME=triangle inequality
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,7 +9,7 @@
 # the definition
 @DEFN=The property that a {complete#complete graph} {weighted graph}
 satisfies $\mbox\{weight}(u,v) \leq \mbox\{weight}(u,w)
-+\mbox\{weight}(w,v)$ for all {vertices#vertex} $u, v, w$.
++\mbox\{weight}(w,v)$ for all {vertexes} $u, v, w$.
 Informally, the graph has no short cuts.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
@@ -29,4 +29,4 @@ Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/trianglnqlty.trm,v $
