@@ -1,7 +1,10 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:29 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 10:36:34 2005" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Revision 1.8  2005/01/04 15:36:53  black
+# Update SAMHSA URL.
+#
 # Revision 1.7  2004/12/17 17:28:29  black
 # Make more XHTML compliant.
 #
@@ -59,10 +62,10 @@
 of algorithm</a>
 # implementation(s) (pure HTML)
 @IMPL=
-# search for "phonetic code" or "New York State Identification and
-# Intelligence System" from the http://www.samhsa.gov/ search page
+# search for "New York State Identification and Intelligence System"
+# from the http://www.samhsa.gov/ search page
 SAMHSA's code <a
-href="http://www.samhsa.gov/centers/csat/content/idbse/idbsas.asp">(SAS)</a> --
+href="http://www.samhsa.gov/idbse/idbsas.asp">(SAS)</a> --
 click on nysiis.sas.
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
 <a href="http://www.dropby.com/NYSIIS.html">(pseudocode)</a>.
