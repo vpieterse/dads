@@ -1,5 +1,11 @@
 # *created  "Thu Aug 19 09:21:17 1999" *by "Paul E. Black"
-# *modified "Mon Dec 27 15:34:47 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:04:03 2004" *by "Paul E. Black"
+
+# $Log: externalindx.trm,v $
+# Revision 1.2  2004/12/17 17:04:03  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=external index
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=An auxiliary data structure added to a main data structure to
 improve operations, such as a {search} on a secondary {key}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={inverted index}, {hash table}, {search tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The implementation probably embeds parts of the external
 index in the primary data structure, such as adding a few fields to
@@ -24,4 +41,4 @@ indexes for title, actors, and genre.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/externalindx.trm,v $
