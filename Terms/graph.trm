@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Thu Dec 23 16:21:42 2004" *by "Paul E. Black"
+# *modified "Mon Jan 10 10:31:07 2005" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.12  2005/01/10 15:32:01  black
+# Fix malformed anchor and URL for JUNG and JDSL and add more info.
+#
 # Revision 1.11  2004/12/23 21:21:59  black
 # Remove unneeded period from end of XREFS.
 #
@@ -140,8 +143,10 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 Template Library (C)</a>,
 <a href="http://www.boost.org/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</a>
-<a href="http://jung.sourceforge.net/">Jung (Java)</A.
-<a href="www.jdsl.org/home.html">jdsl (Java)</a>.
+<a href="http://jung.sourceforge.net/">JUNG (Java)</a>, the Java
+Universal Network/Graph framework.
+<a href="http://www.jdsl.org/home.html">JDSL (Java)</a>, the Data
+Structures Library in Java.
 # author's initials
 @AUTHOR=PEB,PJT
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graph.trm,v $
