@@ -1,0 +1,40 @@
+# *created  "Thu Oct 12 09:03:14 2000" *by "Paul E. Black"
+# *modified "Fri Feb 21 10:03:39 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=antisymmetric
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {binary relation} R for which $a R b$ and $b R a$ implies $a =
+b$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={symmetric}, {irreflexive}, {partial order}
+# any notes.  these are not printed in the final dictionary
+@NOTES=The relation ``less than or equal to'' is antisymmetric: if $a
+\leq b$ and $b \leq a$, then $a=b$.  The relation ``is married to'' is
+symmetric, but not antisymmetric: if Paul is married to Marlena, then
+Marlena is married to Paul (symmetric), but Paul and Marlena are not
+the same person.
+</P>
+
+<P>
+Equals (=) is antisymmetric because $a = b$ and $b = a$ implies $a = b$.
+Less than (&lt;) is also antisymmetric because 
+$a &lt; b$ and $b &lt; a$ is always false, and false implies anything.
+
+##</P>
+## <P>
+## Other logically equivalent ways to express the definition are: for
+## different elements, if $a R b$, then not $b R a$, or, different
+## elements are not mutually related by $R$.
+
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
