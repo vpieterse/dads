@@ -1,0 +1,24 @@
+# *created  "Wed Jun 21 12:45:09 2000" *by "Paul E. Black"
+# *modified "Mon Oct 28 08:49:45 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=derangement
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A {permutation} of elements, where no element is in its original
+position.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={sort}
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=The (Combinatorial) Object Server's information on <A
+href="http://www.theory.csc.uvic.ca/~cos/inf/perm/Derangements.html">Derangements</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
