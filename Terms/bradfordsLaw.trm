@@ -1,0 +1,33 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Aug  2 10:29:52 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Bradford's law
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=Journals in a field can be divided into three parts, each
+with about one-third of all articles: 1) a core of a few journals, 2) a
+second zone, with more journals, and 3) a third zone, with the bulk of
+journals.  The number of journals is $1:n:n<sup>2</sup>$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Lotka's law}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Bradford formulated his law after studying a bibliography of
+geophysics, covering 326 journals in the field.  He discovered that 9
+journals contained 429 articles, 59 contained 499 articles, and 258
+contained 404 articles. Although Bradford's Law is not statistically
+accurate, librarians commonly use it as a guideline.
+</P>
+
+<P>
+Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
