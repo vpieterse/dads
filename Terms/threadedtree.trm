@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jun 11 14:23:57 2003" *by "Paul E. Black"
+# *modified "Wed Apr  7 08:51:45 2004" *by "Paul E. Black"
+
+# $Log: threadedtree.trm,v $
+# Revision 1.2  2004/04/07 12:52:46  black
+# Refine XREFS into IMA, etc.  Update Pfaff's URL.  Add RCS keywords.
+#
 
 # entry name
 @NAME=threaded tree
@@ -12,8 +17,19 @@
 an otherwise-empty left {child} {link} to refer to the node's
 {in-order#in-order traversal} predecessor and an empty right child
 link to refer to its in-order successor.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={right-threaded tree}, {binary search tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 See <A href="../terms.html#Knuth98">[Knuth98, 1:320, Sect. 2.3.1]</A>.
@@ -22,8 +38,9 @@ defines a threaded tree as a binary tree.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Ben Pfaff's <A href="http://adtinfo.org/">explanations and
+@IMPL=Ben Pfaff's 
+<A href="http://www.msu.edu/~pfaffben/avl/">explanations and
 code (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/threadedtree.trm,v $
