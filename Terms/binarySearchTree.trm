@@ -1,5 +1,16 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Thu Sep 25 11:23:13 2003" *by "Paul E. Black"
+# *modified "Mon Jan 12 09:47:38 2004" *by "Paul E. Black"
+
+# $Log: binarySearchTree.trm,v $
+# Revision 1.4  2004/01/12 14:48:40  black
+# Add RCS log and refine XREFS into IMA, etc.  Remove bad link.
+#
+# Revision 1.3  2003/09/25 15:26:24  black
+# Add XREF to jump list.  Update links.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
 
 # entry name
 @NAME=binary search tree
@@ -11,10 +22,21 @@
 @DEFN=A {binary tree} where every {node's#node} left 
 {subtree} has values less than the node's value, and every right
 subtree has values greater.  A new node is added as a {leaf}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={AVL tree}, {splay tree}, {threaded tree}, {relaxed balance}, 
-{randomized binary search tree}, {ternary search tree}, 
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary tree}
+# Specialization: "... is a kind of me."
+@VARIANT={AVL tree}, {splay tree}, {threaded tree}, 
+{randomized binary search tree}, {discrete interval encoding tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={relaxed balance}, {ternary search tree}, 
 {move-to-root heuristic}, {jump list}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A binary search tree is almost always implemented with
 pointers, but may have a variety of constraints on how it is composed.
@@ -32,9 +54,6 @@ href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstrat
 Ben Pfaff's 
 <A href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</A>;
-<A
-href="http://al.cs.engr.uky.edu/~lewis/cs2/programs/schtrees.html">insert,
-search, and maximum (Pascal)</A>;
 <A
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</A>,
@@ -54,4 +73,4 @@ search, delete, and various traversals (Modula-2)</A> (use must be
 acknowledged).
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binarySearchTree.trm,v $
