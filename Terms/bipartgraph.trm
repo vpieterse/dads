@@ -1,5 +1,5 @@
 # *created  "Wed Nov 18 10:14:54 1998" *by "Paul E. Black"
-# *modified "Wed Aug 16 16:34:56 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:03:11 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=bipartite graph
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,8 +7,8 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=An {undirected graph} where {vertices#vertex} can be
-divided into two sets such that no {edge} connects vertices in the
+@DEFN=An {undirected graph} where {vertexes} can be
+divided into two sets such that no {edge} connects vertexes in the
 same set.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={layered graph}
@@ -16,4 +16,4 @@ same set.
 @NOTES=A bipartite graph is a layered graph with two layers.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bipartgraph.trm,v $
