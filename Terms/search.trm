@@ -1,0 +1,27 @@
+# *created  "Thu Aug 19 08:36:01 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:18:30 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=search
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=To look for a value or item in a data structure.  There are
+dozens of algorithms, data structures, and approaches.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={array}, {binary search}, {B-tree}, {dictionary}, {hash table},
+{heap}, {inverted index}, {linked list},
+{quadtree}, {select k<sup>th</sup> element}, {linear search}, {string
+matching}, {select and partition}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For more information, see the data structure in question or
+<A href="../termsArea.html#search">terms related to searching</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
