@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec 26 10:39:54 2002" *by "Paul E. Black"
+# *modified "Mon Sep 20 10:13:43 2004" *by "Paul E. Black"
+
+# $Log: canonical.trm,v $
+# Revision 1.2  2004/09/20 14:32:16  black
+# Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
+# Add RCS keywords.
+#
 
 # entry name
 @NAME=canonical complexity class
@@ -9,8 +15,19 @@
 @AREA=theory
 # the definition
 @DEFN=One of the classes defined by {logarithmic}, {polynomial}, and {exponential} bounds on time and space, for deterministic and nondeterministic machines.  These classify most of the important computational problems.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 27-21,
@@ -20,10 +37,10 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 Scott Aaronson's
-<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+<A href="http://www.complexityzoo.com/">Complexity
 Zoo</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/canonical.trm,v $
