@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:58 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 16:52:00 2004" *by "Paul E. Black"
 
 # $Log: heapproperty.trm,v $
+# Revision 1.5  2004/12/17 21:52:54  black
+# Also called priority queue ordering in GBY91.
+#
 # Revision 1.4  2004/12/17 17:23:58  black
 # Make more XHTML compliant.
 #
@@ -28,7 +31,7 @@ extreme (greater or less) than or equal to the key of its
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=heap ordered, heap condition
+@WEB=heap ordered, heap condition, priority queue ordering
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
