@@ -1,0 +1,34 @@
+# *created  "Thu Jun 17 11:32:15 1999" *by "Paul E. Black"
+# *modified "Tue Sep 19 16:09:34 2000" *by "Paul E. Black"
+# entry name
+@NAME=model of computation
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A formal, abstract definition of a computer.  Using a model one
+can more easily analyze the intrinsic execution time or memory space
+of an {algorithm} while ignoring many implementation issues.  There
+are many models of computation which differ in computing power (that
+is, some models can perform computations impossible for other models)
+and the cost of various operations.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Turing machine}, {random access machine}, {big-O notation}, 
+{primitive recursive}, {cellular automaton}, {finite state machine},
+{cell probe model}, {pointer machine},
+{alternation}, {alternating Turing machine},
+{nondeterministic Turing machine}, 
+{oracle Turing machine}, {probabilistic Turing
+machine}, {universal Turing machine}, {multiprocessor model},
+{work-depth model}, {parallel random-access machine},
+{quantum computation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
