@@ -1,0 +1,25 @@
+# *created  "Tue Jan 26 10:42:34 1999" *by "Paul E. Black"
+# *modified "Wed Mar 29 14:04:27 2000" *by "Paul E. Black"
+# entry name
+@NAME=shadow merge
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=An algorithm to merge two {heaps} by concatenating the
+smaller heap to the larger, then reordering just the concatenated 
+{nodes} and their {parents} to restore the heap
+property.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={shadow heap}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Personal communication from Chris L. Kuszmaul
+&lt;fyodor@nas.nasa.gov&gt;, January 1999.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
