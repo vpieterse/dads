@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 14 13:08:30 2001" *by "Paul E. Black"
+# *modified "Mon Aug  9 15:26:47 2004" *by "Paul E. Black"
+
+# $Log: undecidableProblem.trm,v $
+# Revision 1.2  2004/08/09 19:28:37  black
+# Move description in NOTE to halting problem.  Refine XREFS into IMA,
+# etc.  Add RCS keywords.  xref language in definition.
+#
 
 # entry name
 @NAME=undecidable problem
@@ -9,22 +15,24 @@
 @AREA=theory
 # the definition
 @DEFN=A problem that cannot be solved for all cases by any {algorithm}
-whatsoever---equivalently, whose associated language cannot be
+whatsoever---equivalently, whose associated {language} cannot be
 recognized by a {Turing machine} that halts for all inputs.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={decidable}, {unsolvable problem}, {undecidable
-language}, {intractable}, {Post's correspondence problem},
-{halting problem}, {busy beaver}
-# any notes.  these will not be printed in the final dictionary
-@NOTES=For instance, figuring out whether any arbitrary program halts
-for all inputs or not is an undecidable problem (this is the {halting
-problem}).  That is, there can
-be no program that, when given any program, finishes in finite time
-and correctly answers "Yes, the program you gave me halts for all
-inputs" or "No, the program you gave me does not halt for some inputs."
-</P>
 
-<P>
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={halting problem}, {Post's correspondence problem}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={decidable problem}, {unsolvable problem}, {undecidable
+language}, {intractable}, {busy beaver}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
 From Algorithms and Theory of Computation Handbook, page 24-19 or 26-20,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
@@ -35,4 +43,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/undecidableProblem.trm,v $
