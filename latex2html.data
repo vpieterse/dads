@@ -1,12 +1,15 @@
-# $Id: latex2html.data,v 1.20 2004/10/28 14:48:49 black Exp $
+# $Id: latex2html.data,v 1.21 2005/01/31 18:18:07 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Thu Oct 28 10:43:04 2004" *by "Paul E. Black"
+# *modified "Mon Jan 31 13:17:28 2005" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
 #
 
 # $Log: latex2html.data,v $
+# Revision 1.21  2005/01/31 18:18:07  black
+# Add natural logarithm, \ln
+#
 # Revision 1.20  2004/10/28 14:48:49  black
 # Add upper-case Lambda.
 #
@@ -104,6 +107,7 @@
 #    Table 3.9: Log-like Functions
 \cos	cos
 #\lg	use \log<sub>2</sub>
+\ln	ln
 \log	log
 \max	max
 \min	min
