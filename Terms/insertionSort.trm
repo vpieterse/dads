@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Wed Dec  1 08:58:51 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:02 2004" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Revision 1.6  2004/12/17 17:24:03  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/12/01 14:00:38  black
 # Add WEB and NOTE of implementation called shuttle sort.
 #
@@ -29,7 +32,7 @@ order with respect to items already inserted.  Run time is
 {O(n<sup>2</sup>)#big-O notation} because of moves.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=linear insertion sort
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=shuttle sort
@@ -54,28 +57,28 @@ a {linear search} and move combined.
 This implementation is given in
 <strong>C. J. Shaw and T. N. Trimble</strong>, <em>Algorithm 175
 Shuttle Sort</em>, CACM, 6(6):312-313, June 1963.
-</P>
+</p>
 
-<P>
+<p>
 If comparing items is very expensive, use {binary search} to reduce
 the number of comparisons needed to find where the item should be
 inserted, then open a space by moving all later items down one.
 However a binary search is likely to make this not a {stable} sort.
 # further explanation (pure HTML)
-@LINKS=<A href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</A>
+@LINKS=<a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
 of several sort algorithms, with particular emphasis on insertion
-sort; more <A
-href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstrations</A>;
+sort; more <a
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstrations</a>;
 a
-<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ISort.html">demonstration</A>
+<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ISort.html">demonstration</a>
 of insertion sort.
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.cs.ubc.ca/spider/harrison/Java/InsertionSortAlgorithm.java">(Java)</A>.
-Other implementations may be available through the <A
+@IMPL=<a href="http://www.cs.ubc.ca/spider/harrison/Java/InsertionSortAlgorithm.java">(Java)</a>.
+Other implementations may be available through the <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
-Brook Algorithm Repository, Sorting</A>;
-<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/insertion.html">(Scheme)</A>;
-<A href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</A>.
+Brook Algorithm Repository, Sorting</a>;
+<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/insertion.html">(Scheme)</a>;
+<a href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/insertionSort.trm,v $
