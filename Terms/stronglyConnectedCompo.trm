@@ -1,7 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Feb 26 14:54:45 2004" *by "Paul E. Black"
+# *modified "Thu Feb 26 15:15:38 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.4  2004/02/26 20:17:55  black
+# Note that strongly connected components (SCC) partition the vertexes.
+# Adapt the formal definition of partition (which notes that SCC are
+# not empty).  Drop the statement that SCC partition the edges.
+#
 # Revision 1.3  2004/02/26 19:56:25  black
 # Refine XREFS into IMA, etc.  Add references to cycle and depth-first
 # search.  Add Tarjan's original paper.  Add an informal definition.
@@ -56,14 +61,25 @@ strongly connected component.
 </P>
 
 <P>
-Let $G=(V, E)$ be a directed graph and
+The strongly connected components {partition} the vertexes in the
+graph.  That is, every vertex is in exactly one strongly connected
+component.
+</P>
+
+<P>
+Formally, let $G=(V, E)$ be a directed graph and
 $G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
 G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
-be its strongly connected components.  Every vertex is in exactly in
-one strongly connected component.  
-Formally, for all $i \neq j, V<sub>i</sub>\cap V<sub>j</sub>=\emptyset$.
-Further, $V=V<sub>1</sub>\cup\ldots V<sub>m</sub>$ and 
-$E=E<sub>1</sub>\cup\ldots\cup E<sub>m</sub>$.
+be its strongly connected components.
+<ul>
+<LI> $\forall V<sub>i</sub>, V<sub>i</sub> \neq \emptyset$ <br>(no
+subgraph is empty),
+<LI> $\forall V<sub>i</sub>, V<sub>j</sub> \in P, i \neq j \rightarrow
+V<sub>i</sub>
+\cap V<sub>j</sub> = \emptyset $ <br> (subsets are disjoint), and
+<LI> $\bigcup<sub>i=1</sub> V<sub>i</sub> = V$ <br>(subgraphs exactly
+cover the original).
+</ul>
 </P>
 
 <P>
