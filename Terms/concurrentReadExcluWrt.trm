@@ -1,0 +1,33 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 10:34:49 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=concurrent read, exclusive write
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=para
+# the definition
+@DEFN=A parallel memory model in which multiple processors can read
+simultaneously from a single memory location, but only one processor
+can write to any one memory location at one time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=CREW
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+{concurrent read, concurrent write}, 
+{exclusive read, concurrent write},
+{exclusive read, exclusive write}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PMS
+# end
