@@ -1,0 +1,70 @@
+# *created  "Tue Feb  1 17:20:31 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 16:36:55 2005" *by "Paul E. Black"
+
+# $Log: linearHashing.trm,v $
+# Revision 1.1  2005/02/02 21:37:31  black
+# Initial revision
+#
+
+# entry name
+@NAME=linear hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {dynamic hashing} table that grows one slot at a time.  It
+has a family of {hash functions}, $h<sub>i</sub>$, where the {range}
+of $h<sub>i+1</sub>$ is twice the range of $h<sub>i</sub>$.  Slots
+below a pointer, $p$, have been split.  That is, {key}, $k$, is in
+slot $h<sub>i</sub>(k)$ if $h<sub>i</sub>(k) &gt; p$.  Otherwise it is
+in $h<sub>i+1</sub>(k)$.  To maintain the {load factor}, slot $p$ can
+be split (rehashed with $h<sub>i+1</sub>$) and $p$ incremented.
+When $p$ reaches the end, the ranges are doubled ($i$ is incremented),
+and $p$ starts over.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=incremental hashing
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={dynamic hashing}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={linear hash}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>W. Litwin</strong>, <em>Linear hashing: A new tool for file
+and table addressing</em>,
+Proc. 6th Conference on Very Large Databases, pp 212-223, 1980.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+This is called incremental hashing in P. J. Plauger, "Hash It",
+("STATE OF THE ART" column) Embedded Systems Programming, September
+1998, 117-120.  The article has a nearly complete implementation in C++.
+</p>
+
+<p>
+Stefan Edelkamp uses "incremental hashing" to mean a hash function
+where subsequent characters are independent.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/linearHashing.trm,v $
