@@ -1,7 +1,11 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon Mar 22 12:37:09 2004" *by "Paul E. Black"
+# *modified "Mon Mar 22 13:05:03 2004" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.5  2004/03/22 18:06:42  black
+# Rewrite the definition to emphasize storing values (not keys).  Use k
+# for k in formal definition.
+#
 # Revision 1.4  2004/03/22 17:37:33  black
 # Refine XREFS into IMA, etc.  Improve the definition, after Rob
 # Stewart.  Reference the new entry axiomatic semantics.
@@ -23,35 +27,35 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=An {abstract data type} storing items, or
-{keys}, with associated values.  One can locate a value using a key.
-Basic operations are insert, find, and delete.
+@DEFN=An {abstract data type} storing items, or values.  A value is
+accessed by an associated {key}.
+Basic operations are new, insert, find and delete.
 # formal definition or {cross reference} to an entry
-@FORML=The operations new(), insert(i, v, D), and find(i, D) may be
+@FORML=The operations new(), insert(k, v, D), and find(k, D) may be
 defined with {axiomatic semantics} as follows.
 <ol>
 <li>new() returns a dictionary
-<li>find(i, insert(i, v, D)) = v
-<li>find(i, insert(j, v, D)) = find(i, D) if $i \neq j$
+<li>find(k, insert(k, v, D)) = v
+<li>$find(k, insert(j, v, D)) = find(k, D) if k \neq j$
 </ol>
-where i and j are items (keys), v is a value, and D is a dictionary.
-The operation find(i, new()) is not defined.
+where k and j are keys, v is a value, and D is a dictionary.
 </P>
 
 <P>
-The modifier function delete(i, D) may be defined as follows.
+The modifier function delete(k, D) may be defined as follows.
 <ol start="4">
-<li>$delete(i, new()) = new()$
-<li>$delete(i, insert(i, v, D)) = delete(i, D)$
-<li>$delete(i, insert(j, v, D)) = insert(j, v, delete(i, D)) if i \neq j$
+<li>$delete(k, new()) = new()$
+<li>$delete(k, insert(k, v, D)) = delete(k, D)$
+<li>$delete(k, insert(j, v, D)) = insert(j, v, delete(k, D)) if k \neq j$
 </ol>
 </P>
 
 <P>
-We can define find(i, new()) using a special value: <em>fail</em>.
+If we wished find to be a {total function}, we could define 
+find(k, new()) using a special value: <em>fail</em>.
 This only changes the return type of find.
 <ol start="7">
-<li>find(i, new()) = <em>fail</em>
+<li>find(k, new()) = <em>fail</em>
 </ol>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=association list, property list
