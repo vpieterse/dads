@@ -1,5 +1,13 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Fri Jan 11 16:18:05 2002" *by "Paul E. Black"
+# *modified "Tue Apr 27 14:31:55 2004" *by "Paul E. Black"
+
+# $Log: balancedbist.trm,v $
+# Revision 1.2  2004/04/27 18:33:41  black
+# Refine XREFS into IMA, etc.  Replace Brown and Tarjan bib ref. with
+# Knuth, since he is earlier (Brown & Tarjan refer to him).  Neither of
+# them actually use the term.  Note that balanced usually mean height
+# balanced.
+#
 
 # entry name
 @NAME=balanced binary search tree
@@ -8,19 +16,33 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {binary search tree} in which at most one {node} has one
-{child}.  All other nodes have two or zero children.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={balanced binary tree}
+@DEFN=A {binary search tree} that is {balanced#balanced tree}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={balanced binary tree}, {binary search tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
-@BIB=<strong>M. R. Brown and R. E. Tarjan</strong>, <em>A Fast Merging
-Algorithm</em>, Journal of the ACM, 26(2):211-226, 1979.
+@BIB=
+<A href="../terms.html#Knuth98">[Knuth98, 3:459, Sect. 6.2.3]</A>
+<BR>
+Knuth refers to "balanced trees", but defines them as ordered, for
+searching, and binary.
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=Usually "balanced" means "height balanced".
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
-@AUTHOR=CLK
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/balancedbist.trm,v $
