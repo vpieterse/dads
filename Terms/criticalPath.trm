@@ -1,0 +1,27 @@
+# *created  "Thu Sep 30 10:39:36 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:11:47 2000" *by "Paul E. Black"
+# entry name
+@NAME=critical path problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Find the longest {path} from any {source} to any {sinks} in a
+{directed acyclic graph} which has weights, or numeric values, on
+{vertices#vertex}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This can be solved with a variant of the {DAG shortest paths}
+algorithm by assigning an initial distance of negative infinity
+($-\infty$), updating the distance and predecessor if $dist(v) +
+weight(u) &gt; dist(u)$, and recording the greatest distance found so
+far.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
