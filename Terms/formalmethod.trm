@@ -1,0 +1,23 @@
+# *created  "Sat Sep  4 17:11:25 1999" *by "Paul E. Black"
+# *modified "Sat Sep  4 17:21:05 1999" *by "Paul E. Black"
+# entry name
+@NAME=formal methods
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=verf
+# the definition
+@DEFN=A group of analytical approaches having mathematically precise
+foundation which can serve as a framework or adjunct for human
+engineering and design skills and experience.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={formal verification}, {model checking}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
