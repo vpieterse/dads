@@ -1,5 +1,5 @@
 # *created  "Thu May 13 10:18:15 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 09:46:03 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:03:28 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=adjacency-list representation
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=A representation of a {directed graph} with $n$
-{vertices#vertex} using an {array} of $n$ {lists} of vertices.  List
+{vertexes} using an {array} of $n$ {lists} of vertexes.  List
 $i$ contains vertex $j$ if there is an {edge} from
 vertex $i$ to vertex $j$.  A {weighted graph} may be
 represented with a list of vertex/weight pairs.  An {undirected graph}
@@ -25,7 +25,7 @@ and vertex $i$ in the list for vertex $j$.
 @XREFS={adjacency-matrix representation}, {sparse graph}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-Suppose we have a directed graph with four vertices.  Here are
+Suppose we have a directed graph with four vertexes.  Here are
 adjacency-matrix and adjacency-list representations.  The arrow (-&gt;)
 means a link in a list.
 <P>
@@ -56,4 +56,4 @@ for a {sparse matrix}.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=BB,PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/adjacencyListRep.trm,v $
