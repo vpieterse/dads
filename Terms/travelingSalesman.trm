@@ -1,5 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Thu May  9 13:07:03 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:14 2004" *by "Paul E. Black"
+
+# $Log: travelingSalesman.trm,v $
+# Revision 1.2  2004/12/17 16:55:15  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=traveling salesman
@@ -13,38 +18,49 @@ ends at the same {vertex}, includes every other vertex exactly
 once, and minimizes the total cost of {edges}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=TSP
 # other cross-listings solely for the web, such as word or spelling variants
 #		British spelling has two l's
 @WEB=travelling salesman problem, traveling salesman problem
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={bottleneck traveling salesman}, {Hamiltonian cycle},
+
 {optimization problem}, {Christofides algorithm},
 similar problems: {all pairs shortest path}, {minimum spanning tree}, 
 {vehicle routing problem}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Less formally, find a path for a salesman to visit every listed
 city at the lowest total cost.
-</P>
+</p>
 
-<P>
+<p>
 The above described path is always a {Hamiltonian cycle}, or
 tour, however a Hamiltonian cycle need not be optimal.  The problem is
 an optimization problem, that is, to find the shortest tour.  The
 corresponding {decision problem} asks if there is a tour with a cost
 less than some given amount.
-See <A href="../terms.html#CLR90">[CLR90, page 969]</A>.
-</P>
+See <a href="../terms.html#CLR90">[CLR90, page 969]</a>.
+</p>
 
-<P>
+<p>
 If the triangle inequality does not hold, that is $d<sub>ik</sub> &gt;
 d<sub>ij</sub> + d<sub>jk</sub>$ for some i, j, k, there is no
 possible polynomial time algorithm which guarantees near-optimal
 result (unless P=NP).
-</P>
+</p>
 
-<P>
+<p>
 If the triangle inequality holds,
 you can quickly get a near-optimal solution by finding the {minimum
 spanning tree}.  Convert the tree to a path by traversing the
@@ -54,25 +70,25 @@ starts with a minimum spanning tree, but is more careful about
 converting the tree to a path with results closer to optimal.
 
 # further explanation (pure HTML)
-@LINKS=Several <A
+@LINKS=Several <a
 href="http://w1.859.telia.com/~u85905224/tsp/TSP.htm">animations of
-different heuristics</A>;
-<A href="http://www.math.princeton.edu/tsp/">links to challenges,
-advances, etc.</A>;
-program to <A
+different heuristics</a>;
+<a href="http://www.math.princeton.edu/tsp/">links to challenges,
+advances, etc.</a>;
+program to <a
 href="http://coyotegulch.com/complex/Traveller.html">find a good
-solution using a genetic algorithm</A>.
+solution using a genetic algorithm</a>.
 # implementation(s) (pure HTML)
-@IMPL=Links to <A
-href="http://www.densis.fee.unicamp.br/~moscato/TSPBIB_home.html">software</A>
+@IMPL=Links to <a
+href="http://www.densis.fee.unicamp.br/~moscato/TSPBIB_home.html">software</a>
 as well as papers, preprints, reports, etc., on-line on this
 and related problems, 
-<A href="http://www.keck.caam.rice.edu/tsp/">solver packages (C)</A>
+<a href="http://www.keck.caam.rice.edu/tsp/">solver packages (C)</a>
 in addition to a pictorial history, papers, and an annotated
 bibliography,
-<A
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/traveling-salesman.shtml">(C,
-Fortran, Pascal, Mathematica, and C++)</A>.
+Fortran, Pascal, Mathematica, and C++)</a>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/travelingSalesman.trm,v $
