@@ -1,0 +1,121 @@
+#!/usr/bin/perl -w
+# $Id: editTerms,v 1.1 2003/10/16 17:13:52 black Exp $
+# *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:13:33 2003" *by "Paul E. Black"
+
+#-----------------------------------------------------------------------------
+# Check out, change, and check in terms
+#	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
+#	http://hissa.nist.gov/~black/
+#
+# Use:
+#    ./editTerms `find Terms -name "*.trm" -exec grep -l vertices {} \;`
+# This will check out and edit the file.  Then it does an rcsdiff, so 
+# you can review the changes, and asks if you want to commit the changes.
+# Your options are
+#    y - Yes; check in the changes, with the "reason" hard-coded below
+#    n - No; unlock the file and revert to the previous version
+#    q - Quit; unlock the file and revert, then quit the program
+# The default is 'n'.
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgment if the software is used.
+#
+# Paul E. Black  paul.black@nist.gov
+#
+#-----------------------------------------------------------------------------
+
+$reason = "Use a more regular plural of vertex";
+$editor = "Paul E. Black"; # for *modified line
+if (`date` !~ /Thu Oct 16/) {
+    print "The (hard coded) check-in reason is:\n";
+    print "$reason\n";
+    print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
+    die;
+}
+
+foreach $term_file_name (@ARGV) {
+    #print "==} $term_file_name\n";
+
+    # make sure the writable file is the same as the latest RCS version
+    system "rcsdiff $term_file_name > /dev/null 2>&1";
+    if ($?) {
+	print "$term_file_name differs from RCS version; skipping!\n";
+	next;
+    }
+
+    # (try to) check it out: lock & get writable file
+    system "echo n | co -l $term_file_name > /dev/null 2>&1";
+    if ($?) {
+	print "Could not check out $term_file_name; skipping!\n";
+	next;
+    }
+
+    # edit the term file in place
+    if (open TERM, "< $term_file_name") {
+	# read whole file
+	@term_contents = <TERM>;
+
+	close TERM || print "Cannot close TERM!?!\n";
+
+	#print `ls -l $term_file_name`;
+
+	# write back an edited version
+	chop($today = `date`);
+	if (open TERM, "> $term_file_name") {
+	    foreach $line (@term_contents) {
+		# clean-up edits
+		$line =~ s/^# end$/# end \$Source\$/;
+		$line =~ s/HREF=/href=/g;
+
+		# change *modified
+		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$today" *by "$editor"/;
+
+		#----------------------------------------------------
+		#
+		#	HERE ARE THE EDITS WE WANT TO DO
+		#
+		# Remember to change the check-in reason
+		#
+		#----------------------------------------------------
+
+		$line =~ s/{vertices#vertex}/{vertexes}/g;
+		$line =~ s/vertices/vertexes/g;
+
+		print TERM $line;
+	    }
+
+	    close TERM || print "Cannot close TERM after writing!?!\n";
+	} else {
+	    print "Cannot open $term_file_name to write!?!\n";
+	}
+    } else {
+	print "Cannot open $term_file_name!?!\n";
+    }
+
+    # review any changes
+    system "rcsdiff $term_file_name";
+
+    print "Commit (check in)? [nyq](n): ";
+    $ans = <STDIN>;
+    if ($ans =~ /[yY]/) {
+	system "echo $reason | ci -u $term_file_name";
+    } else {
+	# (try to) UNLOCK it
+	system "echo n | rcs -u $term_file_name";
+
+	# revert
+	system "co -f $term_file_name";
+    }
+
+    if ($ans =~ /[qQ]/) {
+	exit;
+    }
+}
+
+# end of $Source: /home/black/DADS/dads/RCS/editTerms,v $
