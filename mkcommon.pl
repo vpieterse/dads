@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.23 2004/12/20 20:02:42 black Exp $
+# $Id: mkcommon.pl,v 1.24 2004/12/23 21:32:40 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Mon Dec 20 15:01:13 2004" *by "Paul E. Black"
+# *modified "Thu Dec 23 16:30:48 2004" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -381,6 +381,21 @@ sub addToDictionary (\%) {
 		print "Unknown AUTHOR $initials in $entryFile\n";
 	    }
 	}
+    }
+    if (defined $entry{XREFS} && $entry{XREFS} =~ /[. ]$/) {
+	print "XREFS has a funny trailing character in $entryFile\n";
+    }
+    if (defined $entry{IMA} && $entry{IMA} =~ /[. ]$/) {
+	print "IMA has a funny trailing character in $entryFile\n";
+    }
+    if (defined $entry{VARIANT} && $entry{VARIANT} =~ /[. ]$/) {
+	print "VARIANT has a funny trailing character in $entryFile\n";
+    }
+    if (defined $entry{IMIN} && $entry{IMIN} =~ /[. ]$/) {
+	print "IMIN has a funny trailing character in $entryFile\n";
+    }
+    if (defined $entry{INME} && $entry{INME} =~ /[. ]$/) {
+	print "INME has a funny trailing character in $entryFile\n";
     }
 
     # NAME (ename in other places) is original name, e.g.,
