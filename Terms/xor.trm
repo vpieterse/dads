@@ -1,0 +1,26 @@
+# *created  "Wed Aug  4 10:26:59 1999" *by "Paul E. Black"
+# *modified "Fri Nov 30 12:26:33 2001" *by "Paul E. Black"
+# entry name
+@NAME=xor
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN="Exclusive OR" or "not equal to" function: 
+0 XOR 0 = 0, 0 XOR 1 = 1, 1 XOR 0 = 1, 1
+XOR 1 = 0.
+# comma-separated list of pure names
+@AKA=exclusive or
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={and}, {or}, {not}, {implies}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The name "exclusive or" is in contrast with
+inclusive {or}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
