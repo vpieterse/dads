@@ -1,0 +1,97 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Sep  3 12:11:05 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Fibonacci number
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=numeric
+# the definition
+@DEFN=A member of the sequence of numbers such that each number is 
+the sum of the preceding two.  
+The first seven numbers are 1, 1, 2, 3, 5, 8, and 13.
+$F(n) \approx round(\Phi<sup>n</sup>/\sqrt 5)$, where
+$\Phi=(1+\sqrt 5)/2$.
+# formal definition or {cross reference} to an entry
+@FORML=The $n<sup>th</sup>$ Fibonacci number is 
+<ul>
+<li>$F(n) = F(n-1) + F(n-2)$, where $F(1)=1$ and $F(2)=1$, or
+<li>$F(n) = (\Phi<sup>n</sup> - \phi<sup>n</sup>)/\sqrt 5$,
+where $\Phi=(1+\sqrt 5)/2$ and $\phi=(1-\sqrt 5)/2$.
+</ol>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Fibonacci numbers
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={kth order Fibonacci numbers}, {memoization}, {Fibonacci tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Fibonacci, or more correctly Leonardo of Pisa, discovered the
+series in 1202 when he was studying how fast rabbits could breed in
+ideal circumstances.
+</P>
+
+<P>
+Computing Fibonacci numbers with the recursive formula is an example
+in the notes for {memoization}.  The $N<sup>th</sup>$ Fibonacci number
+can be computed in $\log N$ steps.  The following method is by Bill Gosper
+&amp; Gene Salamin, Hakmem Item 12, M.I.T.
+</P>
+
+<P>
+Let pair-wise multiplication be
+<pre>
+	(A,B)(C,D) = (AC+AD+BC,AC+BD)
+</pre>
+This is just $(AX+B)*(CX+D) \bmod X<sup>2</sup>-X-1$, and so is
+associative and commutative. 
+Note that (A,B)(1,0) = (A+B,A) which is the Fibonacci recurrence.  Thus,
+<pre>
+	(1,0)^N = (F(N),F(N-1))$
+</pre>
+which can be computed in $\log N$ steps by repeated squaring.
+</P>
+
+<P>
+As an example, here is a table of pair-wise Fibonacci numbers:
+<pre>
+		       b^pow   pow	<BR>
+		       (1,0)	1	<BR>
+	 (1,0)(1,0) =  (1,1)	2	<BR>
+	 (1,1)(1,0) =  (2,1)	3	<BR>
+	 (2,1)(1,0) =  (3,2)	4	<BR>
+	 (3,2)(1,0) =  (5,3)	5	<BR>
+	 (5,3)(1,0) =  (8,5)	6	<BR>
+	 (8,5)(1,0) = (13,8)	7	<BR>
+	(13,8)(1,0) = (21,13)	8
+</pre>
+and here are some "Fibonacci" multiplications
+<pre>
+	(1,1)(1,1) = (3,2)			b^2 * b^2 = b^4	<BR>
+	(3,2)(3,2) = (9+6+6,9+4) = (21,13)	b^4 * b^4 = b^8	<BR>
+	(1,1)(5,3) = (5+3+5,5+3) = (13,8)	b^2 * b^5 = b^7	<BR>
+</pre>
+</P>
+
+<P>
+They also note that for general second order recurrences
+	G(N+1) = XG(N) + YG(N-1)
+we have the rule
+	(A,B)(C,D) = (AD+BC+XAC,BD+YAC)
+</P>
+
+<P>
+Inverses and fractional powers are given also.
+# further explanation (pure HTML)
+@LINKS=A wonderful site on <A
+href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/">Fibonacci
+Numbers and the Golden Section</A>.
+# implementation(s) (pure HTML)
+@IMPL=Worst-case behavior to <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/fibnum.html">generate
+nth number, annotated for real time (WOOP/ADA)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/fibonacci.html">(Scheme)</A>.
+# author's initials
+@AUTHOR=PR
+# end
