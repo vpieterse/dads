@@ -1,6 +1,10 @@
 # *created  
-# *modified "Tue Oct 28 09:05:29 2003" *by "Paul E. Black"
+# *modified "Tue Oct 28 09:10:19 2003" *by "Paul E. Black"
+
 # $Log: template.trm,v $
+# Revision 1.4  2003/10/28 14:10:46  black
+# Add blank line after *modified and before Log - I think it looks better
+#
 # Revision 1.3  2003/10/28 14:06:41  black
 # Add Log RCS keyword so change history is evident when editing
 #
