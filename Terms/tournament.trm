@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 13 15:59:00 2001" *by "Paul E. Black"
+# *modified "Thu Sep 25 12:08:06 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=tournament
@@ -9,7 +9,7 @@
 @AREA=para
 # the definition
 @DEFN=Find the maximum of a set of $n$ elements in 
-$\lceil \log n \rceil$ "rounds" (passes) by "playing" (comparing)
+$\lceil\log n\rceil$ "rounds" (passes) by "playing" (comparing)
 pairs of elements and advancing the winner (greater) of each pair to
 the next round.  It takes $n-1$ comparisons, like {linear search}, but
 may be parallelized, extended to also find the second greatest
@@ -37,4 +37,4 @@ Statistics and Tournaments (C)</A>.
 @LINKS=
 # author's initials
 @AUTHOR=GS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/tournament.trm,v $
