@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr  4 10:56:27 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:03:02 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=forest
@@ -14,7 +14,7 @@
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={connected graph}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Different {vertices#vertex} of a forest need not be
+@NOTES=Different {vertexes} of a forest need not be
 connected.
 # further explanation (pure HTML)
 @LINKS=
@@ -22,4 +22,4 @@ connected.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/forest.trm,v $
