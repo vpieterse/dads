@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Wed Dec  8 11:24:56 2004" *by "Paul E. Black"
+# *modified "Thu Dec  9 11:48:21 2004" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.6  2004/12/09 16:48:51  black
+# Fix typo
+#
 # Revision 1.5  2004/12/08 16:25:23  black
 # NOTE who Markov is.
 #
@@ -68,7 +71,7 @@ $o<sub>k</sub>$ given that the current state is $q<sub>i</sub>$.
 # originator, Baum
 <strong>L. E. Baum</strong>, <em>An inequality and associated
 maximization technique in statistical estimation for probabilistic
-functions of Markov processe</em>, Inequalities, 3:1-8, 1972.
+functions of Markov processes</em>, Inequalities, 3:1-8, 1972.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Computing a model given sets of sequences of observed outputs
