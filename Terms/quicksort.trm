@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Mar 15 16:55:59 2004" *by "Paul E. Black"
+# *modified "Tue May 11 12:53:35 2004" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Revision 1.8  2004/05/11 16:54:23  black
+# Add Wikipedia IMPL.  Separate entries with periods (.), not semi-colons.
+#
 # Revision 1.7  2004/03/15 21:58:02  black
 # Qualify "Betley-McIlroy is optimal" a little: it still goes quadratic
 # for files (nearly) in order.
@@ -78,19 +81,21 @@ Sedgewick's</A> talk showing that with Bentley-McIlroy 3-way
 partitioning <A
 href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
 Is Optimal (C)</A> (pdf format) for random files possibly with
-duplicate keys.  Includes discussion and proof.
+duplicate keys; includes discussion and proof.
 <A
-href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
-and code (Java)</A>;
-demos and code for <A
+href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">Animation
+and code (Java)</A>.
+<A href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
+extended discussion and alternatives (C, Python, Haskell, pseudocode)</A>.
+Demos and code for <A
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">enhanced,
-fast, quicksort, and quicksort with bubble sort (Java)</A>;
+fast, quicksort, and quicksort with bubble sort (Java)</A>.
 <A
-href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>; 
+href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>.
 <A
-href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>;
+href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>.
 <A
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">in-line
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
 compare (Rexx)</A>, 
 <A
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
