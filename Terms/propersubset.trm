@@ -1,0 +1,24 @@
+# *created  "Wed Mar 17 09:12:07 1999" *by "Paul E. Black"
+# *modified "Wed Mar 17 10:34:37 1999" *by "Paul E. Black"
+# entry name
+@NAME=proper subset
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=A {set} S<sub>2</sub> is a proper subset of another set
+S<sub>1</sub> if
+every element in S<sub>2</sub> is in S<sub>1</sub> and S<sub>1</sub>
+has some elements which are not in S<sub>2</sub>.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={subset}, {superset}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
