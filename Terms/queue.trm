@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 09:19:57 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:31 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 09:47:54 2005" *by "Paul E. Black"
 
 # $Log: queue.trm,v $
+# Revision 1.7  2005/01/04 14:48:12  black
+# Remove URL for Campbell-no longer found.
+#
 # Revision 1.6  2004/12/17 17:24:31  black
 # Make more XHTML compliant.
 #
@@ -74,10 +77,6 @@ href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkQueueAppl.html">
 implementations.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.octavian.org/cs/Queue.java">(Java)</a>.
-Jonathan G. Campbell's <a
-href="http://www.cs.qub.ac.uk/~J.Campbell/myweb/oop/oophtml/node18.html">Queue
-and Stack Classes (C++)</a> and <a
-href="http://www.cs.qub.ac.uk/~J.Campbell/csc721/noteshtml/ads.html#SECTION001120000000000000000">(Java)</a>.
 Darius Bacon's
 <a
 href="http://www.accesscom.com/~darius/software/scheme-data-structures/queue.scm">functional
