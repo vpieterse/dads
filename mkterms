@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.17 1999/02/17 16:29:24 black Exp $
+# $Id: mkterms,v 1.18 1999/02/17 20:40:48 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Wed Feb 17 11:26:39 1999" *by "Paul E. Black"
+# *modified "Wed Feb 17 15:37:15 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -598,6 +598,8 @@ close TMPPAGE;
 #
 #------------------------------------------------------------------------
 
+print STDERR "Writing entries by area\n" if ($verbose);
+
 # Step VIa: select name and open the page
 
 $pageroot="$WEBPAGE" . "Area";
@@ -614,14 +616,21 @@ open(TMPPAGE, "> $temppage")
 # write processing date and time
 print TMPPAGE "<P>\nRun on $now\n";
 
-# Step VIc: write areas and entries
+# Add links to each area for fast access
+print TMPPAGE "\n<h3>Areas</h3>\n<ul>\n";
+for $area (sort keys %areas) {
+    print TMPPAGE "<li><a href=\"\#$area\">$areas{$area}</a>\n";
+}
+# add link to no area
+print TMPPAGE "<li><a href=\"\#noarea\">Entries with No Area</a>\n";
+print TMPPAGE "</ul>\n";
 
-print STDERR "Writing entries by area\n" if ($verbose);
+# Step VIc: write areas and entries
 
 print TMPPAGE "<hr>\n";
 
 for $area (sort keys %areas) {
-    print TMPPAGE "<h2>$areas{$area}</h2>\n";
+    print TMPPAGE "<h2><a name=\"$area\">$areas{$area}</a></h2>\n";
     print TMPPAGE "<ul>\n";
 
     # go through all the entries and print those in this area
@@ -641,7 +650,7 @@ for $ent (@sortedentries) {
     if (! defined $entries{$ent}{AREA}) {
 	# print headers if necessary
 	if (! defined $headersPrinted) {
-	    print TMPPAGE "<h2>NO AREA</h2>\n";
+	    print TMPPAGE "<h2><a name=\"noarea\">Entries with No Area</a></h2>\n";
 	    print TMPPAGE "<ul>\n";
 	    $headersPrinted = 1;
 	}
@@ -670,6 +679,8 @@ close TMPPAGE;
 #
 #------------------------------------------------------------------------
 
+print STDERR "Writing entries by type\n" if ($verbose);
+
 # Step VIIa: select name and open the page
 
 $pageroot="$WEBPAGE" . "Type";
@@ -686,12 +697,21 @@ open(TMPPAGE, "> $temppage")
 # write processing date and time
 print TMPPAGE "<P>\nRun on $now\n";
 
-print STDERR "Writing entries by type\n" if ($verbose);
+# Add links to each section for fast access
+print TMPPAGE "\n<h3>Types</h3>\n<ul>\n";
+for $tent (keys %types) {
+    print TMPPAGE "<li><a href=\"\#$tent\">$types{$tent}</a>\n";
+}
+# add link to unclassified entries
+print TMPPAGE "<li><a href=\"\#notype\">Entries with No Type</a>\n";
+print TMPPAGE "</ul>\n";
+
+# Step VIIc: write types and entries
 
 print TMPPAGE "<hr>\n";
 
 for $tent (keys %types) {
-    print TMPPAGE "<h2>$types{$tent}</h2>\n";
+    print TMPPAGE "<h2><a name=\"$tent\">$types{$tent}</a></h2>\n";
     print TMPPAGE "<ul>\n";
 
     # go through all the entries and print those of this type
@@ -711,7 +731,7 @@ for $ent (@sortedentries) {
     if (! defined $entries{$ent}{TYPE}) {
 	# print headers if necessary
 	if (! defined $headersPrinted) {
-	    print TMPPAGE "<h2>NO TYPE</h2>\n";
+	    print TMPPAGE "<h2><a name=\"notype\">Entries with No Type</a></h2>\n";
 	    print TMPPAGE "<ul>\n";
 	    $headersPrinted = 1;
 	}
