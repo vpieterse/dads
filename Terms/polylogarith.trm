@@ -1,5 +1,11 @@
 # *created  "Thu Jun 17 09:15:34 1999" *by "Paul E. Black"
-# *modified "Thu Jun 17 09:17:11 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:06:35 2004" *by "Paul E. Black"
+
+# $Log: polylogarith.trm,v $
+# Revision 1.2  2004/12/17 17:06:35  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=polylogarithmic
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -14,8 +20,19 @@ $f(x)=\Sigma<sub>i=0</sub><sup>k</sup>c<sub>i</sub>\log<sup>p<sub>i</sub></sup> 
 execution time or memory space), is bounded by a polylogarithmic
 function of the problem size, $n$.  More
 formally $m(n) = {O(\log<sup>k</sup> n)#big-O notation}$.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={logarithmic}, {polynomial}, {exponential}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -24,4 +41,4 @@ formally $m(n) = {O(\log<sup>k</sup> n)#big-O notation}$.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/polylogarith.trm,v $
