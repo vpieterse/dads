@@ -1,5 +1,11 @@
 # *created  "Fri May 25 08:52:04 2001" *by "Paul E. Black"
-# *modified "Tue May 28 15:41:25 2002" *by "Paul E. Black"
+# *modified "Thu Dec 18 09:56:54 2003" *by "Paul E. Black"
+
+# $Log: vehicleRouting.trm,v $
+# Revision 1.2  2003/12/18 14:57:45  black
+# Add RCS keywords.  Add note that Simicka's page is claimed to have
+# moved (but hasn't, yet) in case it disappears in the future.
+#
 
 # entry name
 @NAME=vehicle routing problem
@@ -34,6 +40,10 @@ through Mayor's neighborhood, small cost for taking freeway), etc.
 href="http://j.simicka.home.att.net/vrp.html">Vehicle
 Routing Problem</A> page has links to papers, sample problems,
 implementations, etc.
+# page says moving to http://jsimicka.home.comcast.net/ on 13 Dec 03,
+# but hadn't moved as of 18 Dec 03
+# the URL may be http://home.comcast.net/~jsimicka/
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/vehicleRouting.trm,v $
