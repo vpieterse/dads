@@ -1,7 +1,11 @@
 # *created  "Mon Sep 27 08:40:01 1999" *by "Paul E. Black"
-# *modified "Tue Oct 28 16:29:22 2003" *by "Paul E. Black"
+# *modified "Fri Oct 29 08:54:31 2004" *by "Paul E. Black"
 
 # $Log: adaptiveHuffman.trm,v $
+# Revision 1.3  2004/10/29 12:55:51  black
+# Refine XREFS into IMA, etc.  Change "algorithm V" to "Vitter's
+# Algorithm", per the author.  Add AKA dynamic Huffman encoding.
+#
 # Revision 1.2  2003/10/28 21:30:29  black
 # Add initial definition.  Other small changes.
 #
@@ -13,18 +17,29 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=A near-minimal variable-length character encoding which changes
+@DEFN=A near-minimal variable-length character encoding that changes
 based on the frequency of characters processed.  As characters are
 processed, frequencies are updated and codes are changed (or, the
 encoding tree is modified).
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=
+@AKA=dynamic Huffman encoding
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=adaptive Hufman coding
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={algorithm FGK}, {algorithm V}, {Huffman encoding}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={Huffman encoding}
+# Specialization: "... is a kind of me."
+@VARIANT={Vitter's Algorithm}, {algorithm FGK}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The total message length can be less than that produced by a
 static Huffman encoding since the encoding can be different at
@@ -32,7 +47,8 @@ different places in the message.
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">Explanation</A>
-of algorithms FGK and V, two different adaptive Huffman encoding
+of algorithm FGK and Vitter's Algorithm (algorithm V), two different
+adaptive Huffman encoding
 algorithms.
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://www.xcf.berkeley.edu/~ali/K0D/Algorithms/huff/">(C)</A>
