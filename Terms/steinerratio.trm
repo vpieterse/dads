@@ -1,5 +1,11 @@
 # *created  "Tue Mar  9 08:31:23 1999" *by "Paul E. Black"
-# *modified "Fri Oct 15 10:02:47 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:49 2004" *by "Paul E. Black"
+
+# $Log: steinerratio.trm,v $
+# Revision 1.2  2004/12/17 16:54:50  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=Steiner ratio
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,16 +17,27 @@
 possible ratio of the length of a {minimum spanning tree} of a
 set of {terminals} to the length of an optimal Steiner tree of
 the same set of terminals.  Usually written $\rho$ (rho).
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In graphs $\rho = 2$.  
 In the {Euclidean#Euclidean distance} metric, $\rho = 2/\sqrt\{3}$. 
 In the {rectilinear} metric, $\rho = 3/2$.
 # further explanation (pure HTML)
-@LINKS=<A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+@LINKS=<a href="http://ganley.org/steiner/">Steiner Tree page</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=JLG
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/steinerratio.trm,v $
