@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Dec 17 11:49:16 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:12:58 2004" *by "Paul E. Black"
 
 # $Log: venndiagram.trm,v $
+# Revision 1.3  2004/12/17 17:12:58  black
+# Refine XREFS into IMA, etc.  Make more XHTML compliant.
+#
 # Revision 1.2  2003/12/17 16:49:35  black
 # Update URLs
 #
@@ -20,32 +23,43 @@ represents, while regions outside it do not have the property.
 Regions are shaded to show combinations of properties (or sets) of
 interest, or elements are placed in regions corresponding to their
 properties (or membership).
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Karnaugh map}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Here is an example of a Venn diagram with three properties:
 male/female, happy/sad, and short/tall.  Some of the combinations,
 such as sad, tall males and happy, short females are labeled.
-<BR>
+<br>
 <img src="../Images/venn.gif" height="247" width="316">
-</P>
+</p>
 
-<P>
+<p>
 John Venn first published these diagrams in 1880,
 although similar diagrams were used much earlier by Leibniz and Euler 
-(<A href="http://cut-the-knot.com/LewisCarroll/dunham.html">Opera
-Omnia</A>, a century earlier).
+(<a href="http://cut-the-knot.com/LewisCarroll/dunham.html">Opera
+Omnia</a>, a century earlier).
 # further explanation (pure HTML)
-@LINKS=<A
+@LINKS=<a
 href="http://infinity.sequoias.cc.ca.us/faculty/woodbury/Stats/Tutorial/Sets_Venn2.htm">Simple
-diagrams, examples, and explanations</A>.
-<A
+diagrams, examples, and explanations</a>.
+<a
 href="http://www.theory.cs.uvic.ca/~cos/venn/VennWhatEJC.html">Formal
-definition and methods to draw diagrams for N variables</A>.
+definition and methods to draw diagrams for N variables</a>.
 # no response from rattler 17 Dec 2003
-A short biography of <A
+A short biography of <a
 href="http://rattler.cameron.edu/EMIS/journals/EJC/Surveys/ds5/VennJohnEJC.html">John
-Venn</A>, with extensive references.
+Venn</a>, with extensive references.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
