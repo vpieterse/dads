@@ -1,0 +1,37 @@
+# *created  "Tue Jun  5 08:43:23 2001" *by "Paul E. Black"
+# *modified "Wed Nov  6 11:18:53 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=combination
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Choose $n$ of $m$ elements, where $n \leq m$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={permutation},{subset}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=A combination is a subset with exactly $n$ elements.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=The Combinatorial Object Server's information on <A
+href="http://www.theory.csc.uvic.ca/~cos/inf/comb/CombinationsInfo.html">Combinations
+(Pascal and C)</A>;
+Michael Gilleland's
+<A href="http://www.merriampark.com/comb.htm">CombinationGenerator
+class (Java)</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
