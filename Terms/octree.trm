@@ -1,5 +1,10 @@
 # *created  "Wed Jan 27 08:46:26 1999" *by "Paul E. Black"
-# *modified "Thu Feb 13 12:21:42 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:26 2004" *by "Paul E. Black"
+
+# $Log: octree.trm,v $
+# Revision 1.2  2004/12/17 16:53:27  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=octree
@@ -12,25 +17,36 @@
 eight {children#child} or no children.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=octtree
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={quadtree}, {BSP-tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-<A
-href="http://www.cg.tuwien.ac.at/research/vr/lodestar/tech/octree/">algorithms</A>,
+<a
+href="http://www.cg.tuwien.ac.at/research/vr/lodestar/tech/octree/">algorithms</a>,
 another
-<A href="http://nilo.stolte.free.fr/octree.html">diagram and
-algorithm</A>, and one more
-<A
-href="http://www.martinb.com/threed/solidmodel/spatialdecomposition/octtree.htm">diagram</A>
+<a href="http://nilo.stolte.free.fr/octree.html">diagram and
+algorithm</a>, and one more
+<a
+href="http://www.martinb.com/threed/solidmodel/spatialdecomposition/octtree.htm">diagram</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/octree.trm,v $
