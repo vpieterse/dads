@@ -1,5 +1,11 @@
 # *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
-# *modified "Tue Apr  4 15:21:23 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:06:07 2004" *by "Paul E. Black"
+
+# $Log: orderedarry.trm,v $
+# Revision 1.2  2004/12/17 17:06:07  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=ordered array
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=An {array} whose items have some order.  Usually, it means a
 {sorted array}, but may mean not fully ordered, for example, all
 values less than the {median} are in the first half.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -20,4 +37,4 @@ values less than the {median} are in the first half.
 @IMPL=
 # author's initials
 @AUTHOR=PR
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/orderedarry.trm,v $
