@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue May  7 10:57:12 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:02:32 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=vertex cover
@@ -8,7 +8,7 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=A set of {vertices#vertex} in an {undirected graph} where
+@DEFN=A set of {vertexes} in an {undirected graph} where
 every {edge} connects at least one vertex.  The vertex cover
 problem is to find a minimum size set and is {NP-complete}.
 # formal definition or {cross reference} to an entry
