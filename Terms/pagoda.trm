@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:59:26 1999" *by "Paul E. Black"
-# *modified "Mon May 24 11:22:28 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:30 2004" *by "Paul E. Black"
 
 # $Log: pagoda.trm,v $
+# Revision 1.3  2004/12/17 17:28:30  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/05/24 15:22:47  black
 # Change pp. to pages.
 #
@@ -36,13 +39,13 @@ Computer Science, Yale Univ.  1988?
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.del.c">delete
-(C and Pascal)</A>, <A
+(C and Pascal)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.ins.c">insert
-(C and Pascal)</A>, and <A
+(C and Pascal)</a>, and <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.merg.c">merge
-(C and Pascal)</A>
+(C and Pascal)</a>
 # author's initials
 @AUTHOR=
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pagoda.trm,v $
