@@ -1,0 +1,36 @@
+# *created  "Tue Feb  2 15:17:31 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:12:22 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=amortized cost
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=The theoretical speed of a given set of operations.  It is
+{O(f(n))#big-O notation} when the execution time of the {worst case} of
+all sequences of <em>n</em> operations never exceeds O(n*f(n)).
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=amortized worst case
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={potential function}, {best-case cost}, {average-case cost},
+{worst-case cost}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>R. E. Tarjan</strong>, <em>Amortized computational
+complexity</em>, SIAM Journal on Algebraic and Discrete Methods,
+6(2):306-318, 1985.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The term "amortized worst case" is sometimes used to emphasize
+that the worst case of a set of operations is averaged.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
