@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 09:40:07 2000" *by "Paul E. Black"
+# *modified "Fri Feb 27 15:11:07 2004" *by "Paul E. Black"
+
+# $Log: sharedmemory.trm,v $
+# Revision 1.2  2004/02/27 20:20:10  black
+# Refine XREFS into IMA, etc.  Refer to parallel random-access machine.
+#
+
 # entry name
 @NAME=shared memory
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,8 +14,19 @@
 @AREA=theory
 # the definition
 @DEFN=All processors have the same global image of (and access to) all of the memory.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={parallel random-access machine}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 46-18,
@@ -22,4 +39,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/sharedmemory.trm,v $
