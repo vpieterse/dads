@@ -1,0 +1,33 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 10:10:14 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=polynomial time
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=When the execution time of a computation, $m(n)$, is no more
+than a {polynomial} function of the problem size, $n$.
+More formally $m(n) = {O(n<sup>k</sup>)#big-O notation}$ where $k$ is
+a constant.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=polynomial-time algorithm
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={NP},{exponential},{logarithmic}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Broadly speaking, polynomial time algorithms are reasonably to
+compute.  The time to run exponential algorithms grows too fast to
+expect to be able to compute exact solutions in all cases.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
