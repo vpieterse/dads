@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 11:20:05 2005" *by "Paul E. Black"
+# *modified "Mon Mar 21 09:25:40 2005" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.6  2005/03/21 14:27:02  black
+# Replace caltech gperf URL (no longer found) with Gnu URL.
+#
 # Revision 1.5  2005/01/10 16:22:00  black
 # Update metalab.unc (mph) URL to ibiblio.org.
 #
@@ -59,16 +62,19 @@ f(k) is $1\ldots |K|$.
 <em><a href="http://doi.acm.org/10.1145/129617.129623">Practical
 minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
+<BR>
+<a href="http://www.cs.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
+Perfect Hash Function Generator</a> PDF document.
 # implementation(s) (pure HTML)
 @IMPL=
 Description and code for <a
 href="http://burtleburtle.net/bob/hash/perfect.html">minimal perfect
 hashing (C)</a>,
 <a href="http://www.ibiblio.org/pub/Linux/devel/lang/c/!INDEX.short.html">
-mph: minimal perfect hash function generator (C)</a>,
-<a
-href="http://www.cco.caltech.edu/cco/texinfo/libgplusplus/gperf_3.html">gperf:
-near minimal perfect hashing (C++)</a>,
+mph: minimal perfect hash function generator (C)</a>.
+<a href="http://www.gnu.org/software/gperf/gperf.html">gperf: a
+near-minimal perfect hashing (C++)</a>, click on GNU mirror, lick on a
+nearby server, then gperf.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/minimalPerfectHash.trm,v $
