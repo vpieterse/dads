@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Feb  4 12:45:16 2000" *by "Paul E. Black"
+# *modified "Mon Dec 13 16:38:38 2004" *by "Paul E. Black"
+
+# $Log: HammingDistance.trm,v $
+# Revision 1.2  2004/12/13 21:44:51  black
+# Refine XREFS into IMA, etc.  IMIN brute force string ...  XREF
+# Levenshtein distance.  Add RCS keywords.  Note that the count may be
+# in terms of number of characters.
+#
+
 # entry name
 @NAME=Hamming distance
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,17 +18,32 @@
 @DEFN=The number of bits which differ between two binary strings.
 More formally, the distance between two strings $A$ and $B$ is
 $\sum \left| A<sub>i</sub> - B<sub>i</sub> \right|$.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={brute force string search with mismatches}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Levenshtein distance}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After Ralf Rabaetje &lt;rrabaetj@advea.com&gt; 4 February 2000.
-<P>
+</p>
+
+<p>
 The Hamming distance can be interpreted as the number of bits which
 need to be changed (corrupted) to turn one string into the other.
+Sometimes the number of characters is used instead of the number of
+bits.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/HammingDistance.trm,v $
