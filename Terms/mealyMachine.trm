@@ -1,0 +1,26 @@
+# *created  "Wed Apr  5 08:58:21 2000" *by "Paul E. Black"
+# *modified "Fri Oct 26 11:47:37 2001" *by "Paul E. Black"
+# entry name
+@NAME=Mealy machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {finite state machine} which produces an output for each
+{transition}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Moore machine}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>George H. Mealy</strong>, <em>A method for synthesizing
+sequential circuits</em>, Bell System Technical Journal,
+34(5):1045-1079, 1955.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
