@@ -1,5 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 12 11:32:22 2003" *by "Paul E. Black"
+# *modified "Thu Jan  8 09:30:45 2004" *by "Paul E. Black"
+
+# $Log: extendibleHashing.trm,v $
+# Revision 1.2  2004/01/08 14:32:50  black
+# Refine XREFS into IMA, etc.  Move expandable hashing and virtual
+# hashing to dynamic hashing since (I think) they are alternate dynamic
+# hashing schemes.  Remove dead link to BYU cs453 lecture.
+#
 
 # entry name
 @NAME=extendible hashing
@@ -14,8 +21,19 @@ same final bits may use the same bucket.  If a bucket overflows, it
 splits, and if only one entry referred to it, the table doubles in
 size.  If a bucket is emptied by deletion, entries using it are
 changed to refer to an adjoining bucket, and the table may be halved.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={dynamic hashing}, {expandable hashing}, {virtual hashing}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={dynamic hashing}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>Ronald Fagin</strong>, <strong>J&uuml;rg
 Nievergelt</strong>, <strong>Nicholas Pippenger</strong>, and
@@ -23,18 +41,15 @@ Nievergelt</strong>, <strong>Nicholas Pippenger</strong>, and
 Access Method for Dynamic Files</em>, ACM Transactions on Database
 Systems, 4(3):315-344, 1979.
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The table may be seen as a {complete binary tree} where the
+@NOTES=The table may be seen as a flattened {complete binary tree}
+where the
 buckets are (possibly) shared {leaf} nodes.
 # further explanation (pure HTML)
-@LINKS=Description illustrating 
-<A href="http://www.cs.byu.edu/courses/cs453/lecture18.html">splitting
-and combining of buckets</A> (note: the index bits are shown in the
-reverse order of the keys bits.  That is, the key is shown most
-significant bits first, and indexes are shown least significant first.)
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=A description including a
 <A href="http://www.istis.unomaha.edu/isqa/haworth/isqa3300/fs009.htm">hash
 function (COBOL)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/extendibleHashing.trm,v $
