@@ -1,0 +1,18 @@
+# *created  "Fri Sep 18 10:11:06 1998" *by "Paul E. Black"
+# *modified "Mon May 15 14:12:26 2000" *by "Paul E. Black"
+# entry name
+@NAME=link
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A reference, pointer, or access handle to another part of the
+data structure.  Often, a memory address.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={linked list}, {threaded tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
