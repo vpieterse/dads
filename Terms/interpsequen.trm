@@ -1,0 +1,26 @@
+# *created  "Tue Feb  2 17:00:47 1999" *by "Paul E. Black"
+# *modified "Tue Apr 17 14:44:55 2001" *by "Paul E. Black"
+# entry name
+@NAME=interpolation-sequential search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An approximate location is interpolated from the first and last
+items of a sorted {array}, then a {linear search} finds the actual
+location.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={interpolation search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p">(Pascal)</A>
+or <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/323.srch.p.html">(Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
