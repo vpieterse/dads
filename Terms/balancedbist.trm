@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Tue Apr 27 14:31:55 2004" *by "Paul E. Black"
+# *modified "Tue Apr 27 14:41:15 2004" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Revision 1.3  2004/04/27 18:43:14  black
+# Refer to article on optimal rebalancing and diagram of it.
+#
 # Revision 1.2  2004/04/27 18:33:41  black
 # Refine XREFS into IMA, etc.  Replace Brown and Tarjan bib ref. with
 # Knuth, since he is earlier (Brown & Tarjan refer to him).  Neither of
@@ -39,8 +42,16 @@ searching, and binary.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Usually "balanced" means "height balanced".
+<BR>
+<strong>Quentin F. Stout</strong> and </strong>Bette L. Warren,</strong>,
+<em>Tree Rebalancing in Optimal Time and Space</em>,
+CACM, 29(9):902-908, September 1986.
+
 # further explanation (pure HTML)
 @LINKS=
+Example of
+<A href="http://www.msu.edu/~pfaffben/avl/libavl.html/Balancing-a-BST.html">blanacing
+a BST</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
