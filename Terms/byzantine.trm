@@ -1,5 +1,10 @@
 # *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
-# *modified "Fri Aug 30 14:14:12 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:49:03 2004" *by "Paul E. Black"
+
+# $Log: byzantine.trm,v $
+# Revision 1.2  2004/12/17 16:49:04  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Byzantine generals
@@ -16,13 +21,24 @@ What percentage of liars can a decision making {algorithm} tolerate
 and still correctly determine a consensus?
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Byzantine Agreement Problem, Byzantine generals problem
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Leslie Lamport, Robert Shostak and Marshall Pease</strong>, 
 <em>The Byzantine Generals Problem</em>,
@@ -36,11 +52,11 @@ captured.  If one decides to
 attack, how can that general be sure that the message has reached the
 other general and the other general will attack, too?
 # further explanation (pure HTML)
-@LINKS=Summary of <A
+@LINKS=Summary of <a
 href="http://www.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">article
-by Lamport, Shostak, and Pease</A>.
+by Lamport, Shostak, and Pease</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/byzantine.trm,v $
