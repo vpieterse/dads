@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Fri May  7 12:38:59 2004" *by "Paul E. Black"
+# *modified "Tue Oct  5 16:21:54 2004" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Revision 1.4  2004/10/05 20:22:44  black
+# Remove LINK to Eric Schank & Michael Baer's comparison page.
+#
 # Revision 1.3  2004/05/07 16:40:23  black
 # link to Moore's page, which has a "page animation" of KMP.  Link to
 # implementation at Syracuse (syr.edu).
@@ -52,9 +55,6 @@ SIAM Journal on Computing, 6(2):323-350, 1977.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-A <A
-href="http://www5.palmnet.net/~eschank/search/search.html">comparison</A>
-of Naive, Knuth-Morris-Pratt, and Boyer-Moore string searches.
 Series of pages explaining
 <A
 href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kmp-example.html">how
