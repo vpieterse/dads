@@ -1,0 +1,31 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri May  3 15:24:44 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=certificate
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=(1) Extra information so the correctness of an answer to a
+{decision problem} can be quickly checked.  (2) For any graph property
+$\{\cal P}$ and {graph} $G$, a
+certificate for $G$ is a graph $G'$ such that $G$ has property $\{\cal
+P}$ if and only if $G'$ has the property.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={witness}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+(1) After comp.theory FAQ.
+(2) From Algorithms and Theory of Computation Handbook, page 8-22,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB,CRC-A
+# end
