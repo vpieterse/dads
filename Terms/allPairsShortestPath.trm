@@ -1,5 +1,5 @@
 # *created  "Mon Dec 14 15:34:21 1998" *by "Paul E. Black"
-# *modified "Tue Jan 22 11:55:46 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 12:51:11 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=all pairs shortest path
@@ -14,22 +14,13 @@ graph}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Floyd-Warshall algorithm}, {Johnson's algorithm}
 {Dijkstra's algorithm}, {Bellman-Ford algorithm},
-similar problems: {minimum spanning tree}, {traveling salesman}
+similar problems: {shortest path}, {minimum spanning tree}, 
+{traveling salesman}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The problem is to find the weights of the shortest paths
 between all pairs of vertices.  For a map, it is to produce the
 (shortest) road distances between all cities, not which roads to take
 to get from one city to another.
-</P>
-
-<P>
-A modification to most algorithms finds the shortest path, too.  In
-<tt>predecessor[i][j]</tt> save the immediate predecessor of the
-shortest path from i to j.  Suppose predecessor[i][j] is k; then the
-shortest path ends with $\ldots \rightarrow k \rightarrow j$.  If
-predecessor[i][k] is p, the shortest path ends with $\ldots
-\rightarrow p \rightarrow k \rightarrow j$.  Continue working
-backwards until you reach i.
 </P>
 
 <P>
@@ -40,4 +31,4 @@ After LK.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/allPairsShortestPath.trm,v $
