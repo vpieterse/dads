@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb  2 15:25:32 2005" *by "Paul E. Black"
+# *modified "Mon Mar  7 09:56:01 2005" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.9  2005/03/07 15:07:06  black
+# Update Vinokur's MathForum URL.
+#
 # Revision 1.8  2005/02/02 20:25:40  black
 # IM not A greedy algorithm; it is an algo. technique used INME.
 #
@@ -75,8 +78,8 @@ The {worst case} for Huffman coding (or, equivalently, the longest
 Huffman coding for a set of characters) is when the distribution
 of frequencies follows the {Fibonacci numbers}.  For this and other
 relations see Alex Vinokur's note on
-<a href="http://mathforum.org/discuss/sci.math/t/207334">Huffman
-codes and Fibonacci numbers</a>.
+<a href="http://mathforum.org/kb/thread.jspa?messageID=3400647">Fibonacci
+numbers, Lucas numbers and Huffman codes</a>.
 </p>
 
 <p>
