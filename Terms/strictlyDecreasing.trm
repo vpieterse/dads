@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Mar 21 13:23:37 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=strictly decreasing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A {function} from a {partially ordered#partial order} {domain} to
+a partially ordered {range} such that $x &gt; y$ implies $f(x) &lt;
+f(y)$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={strictly increasing}, {monotonically decreasing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
