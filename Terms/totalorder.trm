@@ -1,0 +1,26 @@
+# *created  "Tue Dec  1 12:01:16 1998" *by "Paul E. Black"
+# *modified "Thu Oct 25 16:41:51 2001" *by "Paul E. Black"
+# entry name
+@NAME=total order
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An order defined for all pairs of items of a set.  For instance,
+$\leq$ (less than or equal to) is a total order on integers, that is,
+for any two integers, one of them is less than or equal to the other.
+# formal definition or {cross reference} to an entry
+@FORML=A total order is a {relation} that is {reflexive}, {transitive},
+{antisymmetric}, and total.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=linear order
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={partial order}, {chain}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB,PJT
+# end
