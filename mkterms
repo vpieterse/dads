@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.67 2003/12/18 19:29:52 black Exp $
+# $Id: mkterms,v 1.68 2004/01/07 18:08:38 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Dec 18 14:21:24 2003" *by "Paul E. Black"
+# *modified "Wed Jan  7 13:06:27 2004" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -506,7 +506,7 @@ NO_DEFN_MESSAGE
 	&rewriteLatex($eGeneralization);
 	# have exactly one space after a comma
 	$eGeneralization =~ s|,\s*|, |go;
-	print TERMPAGE "<P>\n<strong>Generalization</strong> (\"I am a kind of ...\")<br>\n$eGeneralization.\n</P>\n";
+	print TERMPAGE "<P>\n<strong>Generalization</strong> (I am a kind of ...)<br>\n$eGeneralization.\n</P>\n";
     }
     if (defined $thisEntry{VARIANT}) {
 	my($eSpecialization) = $thisEntry{VARIANT};
@@ -516,17 +516,17 @@ NO_DEFN_MESSAGE
 	&rewriteLatex($eSpecialization);
 	# have exactly one space after a comma
 	$eSpecialization =~ s|,\s*|, |go;
-	print TERMPAGE "<P>\n<strong>Specialization</strong> (\"... is a kind of me.\")<br>\n$eSpecialization.\n</P>\n";
+	print TERMPAGE "<P>\n<strong>Specialization</strong> (... is a kind of me.)<br>\n$eSpecialization.\n</P>\n";
     }
     if (defined $thisEntry{IMIN}) {
 	my($eAggParent) = $thisEntry{IMIN};
 	# change cross references ({...}) to href's
-	&rewritexrefs($eAggParent, $ename);
+	&rewriteXrefs($eAggParent, $ename);
 	# convert LaTeX expressions to HTML
 	&rewriteLatex($eAggParent);
 	# have exactly one space after a comma
 	$eAggParent =~ s|,\s*|, |go;
-	print TERMPAGE "<P>\n<strong>Aggregate parent</strong> (\"I am a part of or used in ...\")<br>\n$eAggParent.\n</P>\n";
+	print TERMPAGE "<P>\n<strong>Aggregate parent</strong> (I am a part of or used in ...)<br>\n$eAggParent.\n</P>\n";
     }
     if (defined $thisEntry{INME}) {
 	my($eAggChild) = $thisEntry{INME};
@@ -536,7 +536,7 @@ NO_DEFN_MESSAGE
 	&rewriteLatex($eAggChild);
 	# have exactly one space after a comma
 	$eAggChild =~ s|,\s*|, |go;
-	print TERMPAGE "<P>\n<strong>Aggregate child</strong> (\"... is a part of or used in me.\")<br>\n$eAggChild.\n</P>\n";
+	print TERMPAGE "<P>\n<strong>Aggregate child</strong> (... is a part of or used in me.)<br>\n$eAggChild.\n</P>\n";
     }
     if (defined $thisEntry{XREFS}) {
 	my($exrefs) = $thisEntry{XREFS};
