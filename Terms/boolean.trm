@@ -1,0 +1,32 @@
+# *created  "Tue Feb 29 08:40:58 2000" *by "Paul E. Black"
+# *modified "Tue Feb 29 09:32:31 2000" *by "Paul E. Black"
+# entry name
+@NAME=boolean
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=(1) In computer science, entities having just two values: 1 or
+0, true or false, on or off, etc. along with the operations {and},
+{or}, and {not}.
+(2) In mathematics, entities from an algebra equivalent to
+{intersection}, {union}, and {complement} over {subsets} of a given {set}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={boolean expression}, {boolean function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A mathematical boolean algebra based on a set of size $n$
+has $2<sup>n</sup>$ values.  The operations, intersection and union
+(or <em>and</em> and <em>or</em>), are {commutative} and
+{associative}, and each distributes over the other.  Each operation
+has an identity, and complement produces the inverse.  Binary logic is
+the boolean algebra which two values.
+# further explanation (pure HTML)
+@LINKS=A fuller explanation of mathematical <A
+HREF="http://www.math.csusb.edu/notes/sets/boole/boole.html">boolean
+algebra</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
