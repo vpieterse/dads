@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 12 11:32:59 2003" *by "Paul E. Black"
+# *modified "Thu Jan  8 08:07:20 2004" *by "Paul E. Black"
+
+# $Log: dynamicHashing.trm,v $
+# Revision 1.2  2004/01/08 13:10:37  black
+# Refine XREFS to IMA, etc.  Add extendible hashing as a VARIANT.
+# Put correction to Enbody and Du on a new line for emphasis.
+#
 
 # entry name
 @NAME=dynamic hashing
@@ -11,11 +17,24 @@
 @DEFN=A {hash table} that grows to handle more items.  The associated
 {hash function} must change as the table grows.  Some schemes may
 shrink the table to save space when items are deleted.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={extendible hashing}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={load factor}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>R. J. Enbody and H. C. Du</strong>, <em>Dynamic Hashing
-Schemes</em>, ACM computing Surveys, 20(2):85-113, June 1998.  Note:
+Schemes</em>, ACM computing Surveys, 20(2):85-113, June 1998.  
+<BR>
+Note:
 Figure 5b has errors: boxes should be labeled (top to bottom) A, D, B,
 and C.  
 </P>
@@ -38,4 +57,4 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dynamicHashing.trm,v $
