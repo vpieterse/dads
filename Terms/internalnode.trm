@@ -1,0 +1,30 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb  6 12:02:29 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=internal node
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=A {node} of a {tree} that has one or more {child} nodes,
+equivalently, one that is not a {leaf}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=nonterminal node
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=interior node
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={parent}, {root}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See <A href="../terms.html#CLR90">[CLR90, page 93]</A>
+or <A href="../terms.html#HS83">[HS83, page 220]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=LJW,PEB
+# end
