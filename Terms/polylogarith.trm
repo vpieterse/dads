@@ -1,0 +1,27 @@
+# *created  "Thu Jun 17 09:15:34 1999" *by "Paul E. Black"
+# *modified "Thu Jun 17 09:17:11 1999" *by "Paul E. Black"
+# entry name
+@NAME=polylogarithmic
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=(1) Any function which is the sum of constants times powers of a
+logarithm of the argument:
+$f(x)=\Sigma<sub>i=0</sub><sup>k</sup>c<sub>i</sub>\log<sup>p<sub>i</sub></sup> x$.
+(2) In complexity theory, the measure of computation, $m(n)$ (usually
+execution time or memory space), is bounded by a polylogarithmic
+function of the problem size, $n$.  More
+formally $m(n) = {O(\log<sup>k</sup> n)#big-O notation}$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={logarithmic}, {polynomial}, {exponential}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
