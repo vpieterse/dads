@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Feb  4 10:45:01 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Kruskal's algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An algorithm for computing a {minimum spanning tree}.  It
+maintains a set of partial minimum spanning trees, and repeatedly adds
+the shortest {edge} in the {graph} whose {vertices#vertex}
+are in different partial minimum spanning trees.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Prim's algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=OR-Notes on graph theory, including <A
+HREF="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">Kruskal's
+algorithm</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# John Morris morris@ee.uwa.edu.au
+<A HREF="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/mst.html">analysis
+and code (C)</A>, 
+<A
+href="http://students.ceid.upatras.gr/~papagel/project/pseukrus.htm">(pseudocode)</A>
+# author's initials
+@AUTHOR=JLG
+# end
