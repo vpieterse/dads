@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.7 2002/01/02 15:27:44 black Exp $
+# $Id: mkcommon.pl,v 1.8 2002/01/09 17:49:14 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Jan  2 10:11:32 2002" *by "Paul E. Black"
+# *modified "Wed Jan  9 11:50:40 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -21,8 +21,8 @@
 # set the following appropriately
 
 # - The file system path of the web pages.
+#$WEB_DIR	="TargetInternal";
 $WEB_DIR	="Target";
-#$WEB_DIR	="TargetExt";
 # - The URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
@@ -32,6 +32,10 @@ $URL_DIR	="http://www.nist.gov/dads";
 # Note: the *name=\value is a Perl 5.0-ism which says name refers to 
 # value, and the reference cannot be changed.  Equivalent to declaring
 # the name to be a constant or immutable.
+
+#------------------------------------------------------------------------
+#	Input files, directories, etc.
+#------------------------------------------------------------------------
 
 # - The path of the directory which has term files.
 *TERMS_DIR=\"Terms";
@@ -48,6 +52,11 @@ $URL_DIR	="http://www.nist.gov/dads";
 # - The (path) name of the file with PERL substitutions to change LaTeX 
 #	to the target language, e.g., HTML
 *LATEXREWRITES = \"latex2html.data";
+
+#------------------------------------------------------------------------
+#	Output files, directories, etc.
+#------------------------------------------------------------------------
+
 # - The path of the directory where term pages go, that is,
 #	$WEB_DIR/$OUT_DIR/termFile.html is the path for termFile.trm
 *OUT_DIR  =\"HTML";
@@ -57,6 +66,11 @@ $URL_DIR	="http://www.nist.gov/dads";
 *WEBPAGE  =\"terms";
 # - Name of the main web page with extension
 *MAINPAGE =\"$WEBPAGE.html";
+# - The path of the directory where index, reference, etc. pages go, 
+#	e.g., $WEB_DIR/$OTHER/$AUTHPAGE.html is the path to authors page.
+*OTHER    =\"Other";
+# - Name of the contributors web page is $AUTHPAGE.html.
+*AUTHPAGE =\"contrib";
 
 #------------------------------------------------------------------------
 #
@@ -80,6 +94,19 @@ $URL_DIR	="http://www.nist.gov/dads";
 	IMPL	=> 1,
 	LINKS	=> 1
 );
+
+# copy the file to the file handle
+# example: append the contents of $TEMP_FILE to $target
+#	open(TARGET, "> $target");
+#	&concatenate($TEMP_FILE, TARGET);
+#	close(TARGET);
+sub concatenate {
+    my($filename, $handle) = @_;
+    open(FHANDLE, "< $filename")
+	|| die("Cannot open $filename\n");
+    while (<FHANDLE>) {print $handle $_};
+    close(FHANDLE);
+}
 
 # rename the existing page (topage) to be a backup, and rename the 
 # new page (frompage) to be the existing page.  For instance, if
@@ -145,9 +172,39 @@ sub rewriteLatex ($) {
     }
 }
 
+# Rewrite external HREFs to use the NIST "exit script" described at
+#	http://webservices.nist.gov/exit_nist.htm
+sub rewriteHrefs {
+    foreach $xref (split /^.*?href="|".*?href="|".*?$|^.*$/i, $_[0]) {
+	next if ($xref eq ""); # above RE starts with a null split
+	next if $xref =~ /nist\.gov/; # don't rewrite internal links
+	#print "\nFound $xref\n"; # for debugging
+
+	# quote special cgi characters
+	my($xrefCGIQ) = $xref;
+	$xrefCGIQ =~ s|%|%25|g;
+	$xrefCGIQ =~ s| |%20|g;
+	$xrefCGIQ =~ s|"|%22|g;
+	$xrefCGIQ =~ s|\#|%23|g;
+	$xrefCGIQ =~ s|&|%26|g;
+	$xrefCGIQ =~ s|\+|%2B|g;
+	#$xrefCGIQ =~ s|/|%2F|g;
+	$xrefCGIQ =~ s|;|%3B|g;
+	$xrefCGIQ =~ s|=|%3D|g;
+	$xrefCGIQ =~ s|~|%7E|g;
+	my($xrefExit) = "\"http://www.nist.gov/cgi-bin/exit_nist.cgi?url=$xrefCGIQ\"";
+
+	# quote special RE characters
+	my $xrefQ = quoteREpatterns("\"$xref\"");
+
+	#print "subs is /$xrefQ/$xrefExit/\n"; # for debugging
+	$_[0] =~ s/$xrefQ/$xrefExit/;
+    }
+}
+
 #------------------------------------------------------------------------
 #
-# Step I: read initialization and config files
+#	Read initialization and config files
 #
 #------------------------------------------------------------------------
 
@@ -279,7 +336,7 @@ sub readConfigFiles {
 
 #------------------------------------------------------------------------
 #
-# Step II: read term entries
+#	Read term entries and add them to internal dictionary
 #
 #------------------------------------------------------------------------
 
