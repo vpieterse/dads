@@ -1,0 +1,38 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 14 08:52:54 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=Post's correspondence problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=Given a {set} of pairs of {strings}, find a sequence of pairs
+such that the concatenation of all first members of the pairs is the
+same string as the concatenation of all second members.
+This is an {undecidable problem}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=PCP
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong><A
+href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Post.html">Emil
+Post</A></strong>, <em>A Variant of a Recursively Unsolvable Problem.</em>
+Bulletin of the American Mathematical Society, 52:264-268, 1946.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=Ling Zhao's
+<A href="http://web.cs.ualberta.ca/~zhao/PCP/intro.htm">page with
+examples, notes on programs to find solutions, etc.</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
