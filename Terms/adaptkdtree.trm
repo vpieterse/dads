@@ -1,0 +1,18 @@
+# *created  "Mon Nov 16 15:29:41 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:39:05 2001" *by "Paul E. Black"
+# entry name
+@NAME=adaptive k-d tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {tree} for multidimensional points where successive
+levels may be split along different dimensions.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={k-d tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
