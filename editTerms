@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: editTerms,v 1.1 2003/10/16 17:13:52 black Exp $
+# $Id: editTerms,v 1.2 2003/10/17 16:54:23 black Exp $
 # *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:13:33 2003" *by "Paul E. Black"
+# *modified "Fri Oct 17 12:53:13 2003" *by "Paul E. Black"
 
 #-----------------------------------------------------------------------------
 # Check out, change, and check in terms
@@ -32,10 +32,12 @@
 
 $reason = "Use a more regular plural of vertex";
 $editor = "Paul E. Black"; # for *modified line
-if (`date` !~ /Thu Oct 16/) {
+# make sure the program is not accidentally rerun without being updated
+if (localtime() !~ /Fri Oct 17/) {
     print "The (hard coded) check-in reason is:\n";
-    print "$reason\n";
+    print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
+    print "\tIt is " . localtime() . "\n";
     die;
 }
 
@@ -66,7 +68,7 @@ foreach $term_file_name (@ARGV) {
 	#print `ls -l $term_file_name`;
 
 	# write back an edited version
-	chop($today = `date`);
+	$runtime = localtime();
 	if (open TERM, "> $term_file_name") {
 	    foreach $line (@term_contents) {
 		# clean-up edits
@@ -74,7 +76,7 @@ foreach $term_file_name (@ARGV) {
 		$line =~ s/HREF=/href=/g;
 
 		# change *modified
-		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$today" *by "$editor"/;
+		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$runtime" *by "$editor"/;
 
 		#----------------------------------------------------
 		#
