@@ -1,22 +1,15 @@
 #!/usr/bin/perl -w
-# $Id: editTerms,v 1.5 2003/10/29 15:03:47 black Exp $
-# *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-# *modified "Wed Oct 29 10:01:40 2003" *by "Paul E. Black"
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.6 2003/11/19 14:08:47 black Exp $';
+#	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
+$versionMod=' *modified "Wed Nov 19 09:05:30 2003" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
-# Check out, change, and check in terms
-#	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
-#	http://hissa.nist.gov/~black/
 #
-# Use:
-#    ./editTerms `find Terms -name "*.trm" -exec grep -l vertices {} \;`
-# This will check out and edit the file.  Then it does an rcsdiff, so 
-# you can review the changes, and asks if you want to commit the changes.
-# Your options are
-#    y - Yes; check in the changes, with the "reason" hard-coded below
-#    n - No; unlock the file and revert to the previous version
-#    q - Quit; unlock the file and revert, then quit the program
-# The default is 'n'.
+# Check out, change, and check in terms
+#
+$useMsg = "use: editTerms [--help] [--version] [--force] *.trm";
+$minOperands = 1;
+$typUse = "./editTerms `grep -l vertices Terms/*.trm`";
 #
 # This software was developed at the National Institute of Standards 
 # and Technology by employees of the Federal Government in the course 
@@ -26,14 +19,73 @@
 # 
 # We would appreciate acknowledgment if the software is used.
 #
-# Paul E. Black  paul.black@nist.gov
+# Paul E. Black  paul.black@nist.gov or p.black@acm.org
+#	http://hissa.nist.gov/~black/
 #
 #-----------------------------------------------------------------------------
 
+#------------------------------------------------------------------------------
+#	Command line handling
+#------------------------------------------------------------------------------
+
 $reason = "Standard clean-up edits";
 $editor = "Paul E. Black"; # for *modified line
+# check that hard-coded date is current to reduce chance of 
+# using old reason and old edits
+$checkDate = 1;
+
+while ($#ARGV >= 0) {
+    if ($ARGV[0] =~ /^--?h(e(lp?)?)?/) {
+	print "$useMsg\n";
+	print "    where\n";
+	print "\t--version Print version and exit\n";
+	print "\t--help    Print this message and exit\n";
+	print "\t--force   Check out, etc. even though date differs\n";
+	print "\t--        End of options (e.g., term begins with -)\n";
+	print "    Check out and edit each file.  Do rcsdiff, so you can review changes, and\n";
+	print "    ask if you want to commit them.  Your options are:\n";
+	print "\ty - Yes; check in changes, with the hard-coded \"reason\"\n";
+	print "\tl - Leave changes, but don't check in\n";
+	print "\tn - No; unlock the file and revert to the previous version\n";
+	print "\tq - Quit; unlock the file and revert, then quit\n";
+	print "    The default is 'n'.\n";
+	print "typical use:\n";
+	print "    $typUse\n";
+	exit 0;
+    } elsif ($ARGV[0] =~ /^--?v(e(r(s(i(on?)?)?)?)?)?$/) {
+	print "$versionRCS\n";
+	print "$versionMod\n";
+	exit 0;
+    } elsif ($ARGV[0] =~ /^--?f(o(r(ce?)?)?)?$/) {
+	$checkDate = 0;
+	print "Check in reason is '$reason'\n";
+	shift;
+    } elsif ($ARGV[0] eq "--") {
+	shift;
+	last;
+    } elsif ($ARGV[0] =~ /^-/) {
+	print "unknown option: $ARGV[0]\n";
+	print "$useMsg\n";
+	exit 1;
+    } else {
+	# end of options
+	last;
+    }
+}
+
+$numberOfOperands = 1 + $#ARGV;
+if ($numberOfOperands < $minOperands) {
+    print "Wrong number of operands\n";
+    print "$useMsg\n";
+    die;
+}
+
+#------------------------------------------------------------------------------
+#	program proper
+#------------------------------------------------------------------------------
+
 # make sure the program is not accidentally rerun without being updated
-if (localtime() !~ /Wed Oct 29/) {
+if ($checkDate && localtime() !~ /Fri Nov 14/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -110,6 +162,10 @@ foreach $term_file_name (@ARGV) {
 		# change *modified
 		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$runtime" *by "$editor"/;
 
+		#----------------------------------------------------
+		#	Standard "clean-up" edits
+		#----------------------------------------------------
+
 		# add RCS Log line (and history) if missing
 		if ($justAfterModified) {
 		    if ($line =~ /^# \$Log/) {
@@ -148,8 +204,8 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s/{vertices#vertex}/{vertexes}/g;
-		$line =~ s/vertices/vertexes/g;
+#		$line =~ s/{vertices#vertex}/{vertexes}/g;
+#		$line =~ s/vertices/vertexes/g;
 
 		print TERM $line;
 	    }
@@ -168,7 +224,7 @@ foreach $term_file_name (@ARGV) {
     while (1) {
 	print "Commit (check in)? [ynhlq](n): ";
 	$ans = <STDIN>;
-	if ($ans =~ /[ynlq]?/i) {
+	if ($ans =~ /[ynlq]/i || $ans =~ /^$/) {
 	    last;
 	} else {
 	    print "Yes: check in; Leave edits but don't check in; Help: show this message\n";
