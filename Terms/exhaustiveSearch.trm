@@ -1,5 +1,10 @@
 # *created  "Wed Feb 17 12:35:33 1999" *by "Paul E. Black"
-# *modified "Mon May 13 16:57:28 2002" *by "Paul E. Black"
+# *modified "Thu Oct 14 14:14:19 2004" *by "Paul E. Black"
+
+# $Log: exhaustiveSearch.trm,v $
+# Revision 1.2  2004/10/14 18:14:26  black
+# Update Citeseer URL.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=exhaustive search
@@ -10,16 +15,27 @@
 # the definition
 @DEFN=An {algorithm} that finds a solution by trying every
 possibility.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={brute force}, {search}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=All the Needles in a Haystack: <A
-href="http://citeseer.nj.nec.com/jurg95all.html">Can
+href="http://citeseer.ist.psu.edu/jurg95all.html">Can
 Exhaustive Search Overcome Combinatorial Chaos?</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=BB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/exhaustiveSearch.trm,v $
