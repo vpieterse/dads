@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed May  5 14:20:56 2004" *by "Paul E. Black"
+# *modified "Mon Dec 13 16:42:11 2004" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.4  2004/12/13 21:43:10  black
+# XREF Hamming distance.  Edit operation is INME.  Make <Anchors>..</A>
+# XHTML compatible.
+#
 # Revision 1.3  2004/05/05 18:24:07  black
 # Change (main) name from edit distance to Levenshtein distance to honor
 # the inventor of an efficient algorithm.  Add a second definition - an
@@ -39,9 +43,9 @@ between strings, where $m$ and $n$ are the lengths of the strings.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={edit operation}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={edit operation}, {double metaphone}, {soundex}
+@XREFS={double metaphone}, {soundex}, {Hamming distance}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
@@ -60,16 +64,16 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=A 33-page paper giving definitions, algorithms, etc. for
-string distances, Levenshtein distance, etc., called <A
+string distances, Levenshtein distance, etc., called <a
 href="http://www.cs.princeton.edu/~ristad/papers/pu-532-96.ps.gz">Learning
-String Edit Distance</A>.
+String Edit Distance</a>.
 March 2003
-<A
+<a
 href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
-of Levenshtein</A> at a reception.
+of Levenshtein</a> at a reception.
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.merriampark.com/ld.htm">Levenshtein distance
-(Java, C++, Visual Basic)</A>, includes a great explanation and links
+@IMPL=<a href="http://www.merriampark.com/ld.htm">Levenshtein distance
+(Java, C++, Visual Basic)</a>, includes a great explanation and links
 to code in Perl, C, JavaScript, Python, and many more languages.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
