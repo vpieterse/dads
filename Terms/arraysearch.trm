@@ -1,5 +1,11 @@
 # *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
-# *modified "Thu Dec 28 11:20:52 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:02:14 2004" *by "Paul E. Black"
+
+# $Log: arraysearch.trm,v $
+# Revision 1.2  2004/12/17 17:02:14  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=array search
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=Find an element in an {array}.  Various algorithms exist which
 require more or less structure in the array elements or
 implementation.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={linear search}, {binary search}, {interpolation search},
+
 {string matching}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=An {external index}, such as a {hash table} or {inverted index} may
@@ -23,4 +40,4 @@ the array is not changed often.
 @IMPL=
 # author's initials
 @AUTHOR=PR
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/arraysearch.trm,v $
