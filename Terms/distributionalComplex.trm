@@ -1,0 +1,26 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Tue Dec  3 12:06:18 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=distributional complexity
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The expected running time of the best possible {deterministic} algorithm over the worst possible probability distribution on the inputs.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={randomized complexity}, {worst case}, {lower bound}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 15-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
