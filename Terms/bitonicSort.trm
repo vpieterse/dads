@@ -1,5 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Wed Jun  4 14:06:51 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:48:32 2004" *by "Paul E. Black"
+
+# $Log: bitonicSort.trm,v $
+# Revision 1.2  2004/12/17 16:48:34  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=bitonic sort
@@ -12,42 +17,53 @@
 Subsets are sorted then merged, similar to a {merge sort}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=Batcher sort
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>K. E. Batcher</strong>, <em>Sorting Networks and their
 Applications</em>, Proc. AFIPS Spring Joint Computer Conference,
 32:307-314, 1968.
 # any notes.  these are not printed in the final dictionary
 @NOTES=This takes {O((log n)<sup>2</sup>/2)#big-O notation} stages
 (or steps) with $n/2$ comparators at each stage.
-</P>
+</p>
 
-<P>
+<p>
 This is Knuth's Algorithm M.
-</P>
+</p>
 
-<P>
-<A
+<p>
+<a
 href="http://www.csam.iit.edu/~sun/note546/node34.html">definitions
-and analysis</A>
+and analysis</a>
 # implementation(s) (pure HTML)
 @IMPL=
-<A
+<a
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
-analysis, bibliography, etc. (Java)</A>,
-<A
+analysis, bibliography, etc. (Java)</a>,
+<a
 href="http://www.people.fas.harvard.edu/~eisenb/sorting/bitonic.html">explanation
-and animation (C)</A>,
-<A
+and animation (C)</a>,
+<a
 href="http://www.cag.lcs.mit.edu/streamit/results/bitonic/code/c/">reference
-source code (C)</A>
+source code (C)</a>
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bitonicSort.trm,v $
