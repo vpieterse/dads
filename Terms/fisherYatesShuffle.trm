@@ -1,0 +1,71 @@
+# *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
+# *modified "Fri Jul 30 12:58:18 2004" *by "Paul E. Black"
+
+# $Log: fisherYatesShuffle.trm,v $
+# Revision 1.1  2004/07/30 17:00:21  black
+# Initial revision
+#
+
+# entry name
+@NAME=Fisher-Yates shuffle
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Randomly permute $N$ elements by exchanging each element
+$e<sub>i</sub>$ with a random element from $i$ to $N$.
+It consumes {$\Theta(N \log N)$#$\Theta$} bits and runs in
+{linear} time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={permutation}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Johnson-Trotter}, {pseudo-random number generator}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>R. A. Fisher</strong> and <strong>F. Yates</strong>,
+Example 12, Statistical Tables, London, 1938.<BR>
+<strong>Richard Durstenfeld</strong>, <em>Algorithm 235: Random
+permutation</em>, CACM 7(7):420, July 1964.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=The algorithm can be viewed as a reverse {selection
+sort}.  It is described as in some detail as algorithm P in 
+<A href="../terms.html#Knuth98">[Knuth98, vol. 2, p 145]</A>.
+
+# I first saw it called the Fisher-Yates shuffle in Perl Cookbook,
+# recipe 4.17.  The bib info came from Knuth.  I verified the CACM
+# ref.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+Ben Pfaff's answer to
+<A href="http://www.msu.edu/~pfaffben/writings/clc/shuffle.html">how
+can I shuffle the contents of an array? (C)</A>.
+Recipe 4.17 in "Perl Cookbook" for
+<A
+href="http://iis1.cps.unizar.es/Oreilly/perl/cookbook/ch04_18.htm">Randomizing
+an Array (Perl)</A>.
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/fisherYatesShuffle.trm,v $
