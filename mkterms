@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.33 1999/06/14 13:30:36 black Exp $
+# $Id: mkterms,v 1.34 1999/06/14 15:10:24 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Fri Jun 11 09:31:41 1999" *by "Paul E. Black"
+# *modified "Mon Jun 14 10:53:49 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -267,11 +267,31 @@ open(REWRTS, "< $LATEXREWRITES")
 
 while (<REWRTS>) {
     my ($pat, $replace);
-    next if (/^ *\#/o);
+    next if /^\s*\#/o || /^\s*$/o; # skip comment and blank lines
     SWITCH: {
+	if (/^(\S*\{.*)\$(\S*\})\s+(.*)\$(.*)/o) {
+	    # replace $...$lpat{$mid$rpat}...$
+	    # with    $...$lrepl$mid$rrepl...$
+	    my ($leftpat, $rightpat, $leftreplace, $rightreplace);
+	    $leftpat  = quoteREpatterns($1);
+	    $rightpat = quoteREpatterns($2);
+	    $pat = "$leftpat(.*?)$rightpat";
+	    $leftreplace  = quoteREpatterns($3);
+	    $rightreplace = quoteREpatterns($4);
+	    $replace = " $leftreplace\$2$rightreplace";
+	    # print "REPLACE $pat\n"; # TEMP
+	    # print "with    $replace\n"; # TEMP
+	    last SWITCH;
+	}
 	if (/^(\S+)\s+(.+)/o) {
 	    $pat = quoteREpatterns($1);
-	    $replace = quoteREpatterns($2);
+	    $replace = $2;
+	    if (!($replace eq '"' || $replace eq ')')) {
+		# pad with space so things like $s\in T$ look right
+		# HTML compresses spaces, so $s \in T$ looks right, too
+		$replace = " $replace";
+	    }
+	    $replace = quoteREpatterns($replace);
 	    last SWITCH;
 	}
 	if (/^(\S+)/o) {
@@ -284,19 +304,12 @@ while (<REWRTS>) {
 	    next;
 	}
     }
-    if (!($replace eq '"' || $replace eq ')')) {
-	# pad with space so things like $s\in T$ look right
-	# HTML compresses spaces, so $s \in T$ looks right, too
-	$space = " ";
-    } else {
-	# don't pad; its a right delimiter
-	$space = "";
-    }
 	
     # rewrite as a substitution within $'s
-    # this means: replace $...$pat...$ with $... $replace...$
+    # this means: replace $...$pat...$ with $...$replace...$
     push @latexRewrites,
-		"s/(\\\$[^\\\$]*)$pat(?=[^\\\$]*\\\$)/\$1$space$replace/g";
+		"s/(\\\$[^\\\$]*)$pat(?=.*?\\\$)/\$1$replace/g";
+    # print "full: $latexRewrites[-1]\n"; # TEMP
 }
 
 close REWRTS;
