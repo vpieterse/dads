@@ -1,0 +1,30 @@
+# *created  "Mon Feb 22 08:42:33 1999" *by "Paul E. Black"
+# *modified "Mon Feb 22 08:53:01 1999" *by "Paul E. Black"
+# entry name
+@NAME=relaxed balance
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=tree
+# the definition
+@DEFN=When {rebalancing#rebalance} a {search tree#binary search
+tree} is independent of updating the tree.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={balanced tree}, {rebalance}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Normally rebalancing is tightly coupled to updating: as soon as
+the tree is updated, rebalancing operations are applied until the
+given balance constraints are again fulfilled.  In search trees with relaxed
+balance, updating and rebalancing are processes which can be controlled
+separately.  Typically, this means that balance constraints must be relaxed
+such that an update can leave the tree in a well-defined state.  Thus,
+the assumptions under which rebalancing is carried out change.  This
+poses the problem of still carrying out the rebalancing efficiently.
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.imada.ou.dk/~kslarsen/RelBal/">Relaxed
+Balance page</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=KSL
+# end
