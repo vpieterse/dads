@@ -1,9 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Feb 26 15:15:38 2004" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:57:06 2004" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.5  2004/04/19 18:57:12  black
+# Use the standard English plural of vertex
+#
 # Revision 1.4  2004/02/26 20:17:55  black
-# Note that strongly connected components (SCC) partition the vertexes.
+# Note that strongly connected components (SCC) partition the vertices.
 # Adapt the formal definition of partition (which notes that SCC are
 # not empty).  Drop the statement that SCC partition the edges.
 #
@@ -30,7 +33,7 @@ subgraph in which every vertex is {reachable} from every other vertex.
 is a strongly connected component if 
 <ul>
 <li> $S$ is strongly connected, and
-<li> for all vertexes $u such that u\in V and u\notin V'$ there is no
+<li> for all vertices $u such that u\in V and u\notin V'$ there is no
 vertex $v\in V'$ for which $(u, v)\in E$.
 </ul>
 
@@ -61,7 +64,7 @@ strongly connected component.
 </P>
 
 <P>
-The strongly connected components {partition} the vertexes in the
+The strongly connected components {partition} the vertices in the
 graph.  That is, every vertex is in exactly one strongly connected
 component.
 </P>
