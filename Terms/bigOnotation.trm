@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 14 09:35:02 2004" *by "Paul E. Black"
+# *modified "Fri Nov 26 16:05:36 2004" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Revision 1.4  2004/11/26 21:07:04  black
+# Note how Knuth, etc. use |f(n)| <= c|g(n)| and why (positive
+# functions).  Remove Lueker link: no access.  Add Wikipedia link.
+#
 # Revision 1.3  2004/06/14 13:37:32  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Add WEB name Landau
 # symbol and link to MathWorld entry.  Refer to Lueker's "Notation".
@@ -95,15 +99,29 @@ disk accesses, memory used, or elapsed ("wall clock") time.
 </P>
 
 <P>
+<A href="../terms.html#Knuth98">[Knuth98, 1:107]</A>, 
+<A href="../terms.html#HS83">[HS83, page 31]</A>, and
+<A href="../terms.html">[Stand98, page 466]</A> use
+$|f(n)| \leq c|g(n)|$.  
+In <A
+href="http://wikipedia.org/wiki/Computational_complexity_theory">computational
+complexity theory</A> "only positive functions are considered, so the
+absolute value bars may be left out." (Wikipedia, "Big O notation").
+This definition after
+<A href="../terms.html#CLR90">[CLR90, page 26]</A>.
+#<A href="../terms.html#GT97">[GT97, page 115]</A> agrees with CLR.
+#<A href="../terms.html#GBY91">[GBY91, page 5]</A> uses $|f(n)| \leq cg(n)$.  
+</P>
+
+<P>
 Strictly, the character is the upper-case Greek letter Omicron, not
 the letter O, but who can tell the difference?
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.cs.strath.ac.uk/~mdd/teaching/alg&comp/big_oh.html">A
 rough guide to big-oh notation</A> by Mark Dunlop.
-George S. Lueker's
-<A href="http://www.ics.uci.edu/~lueker/23/notation.pdf">Notation for
-growth rates</A> (in PDF).
+Wikipedia <A href="http://wikipedia.org/wiki/Big_O_notation">Big O
+notation</A>.
 Big O is a
 <A href="http://mathworld.wolfram.com/LandauSymbols.html">Landau Symbol</A>.
 # implementation(s) (pure HTML)
