@@ -1,5 +1,10 @@
 # *created  "Tue Dec  1 13:01:38 1998" *by "Paul E. Black"
-# *modified "Tue Aug 12 15:24:00 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:42 2004" *by "Paul E. Black"
+
+# $Log: postmansort.trm,v $
+# Revision 1.2  2004/12/17 16:53:43  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=postman's sort
@@ -13,13 +18,24 @@ attributes of the {key} are described so the algorithm can allocate
 buckets efficiently.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=postman sort
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={radix sort}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Robert Ramey</strong>, <em>The Postman's Sort</em>,
 C Users Journal, August 1992.
@@ -32,22 +48,22 @@ size of the key and number of buckets.  You probably used a form
 of this if
 you sorted lots of papers alphabetically: you put each paper in its
 pile (or bucket), A's, B's, C's, D's, etc., then sort each pile.  
-</P>
+</p>
 
-<P>
+<p>
 This is similar to {radix sort}, but works "top down" or "most
 significant digit first" while radix sort works "bottom up" or "least
 significant digit first".
-</P>
+</p>
 
-<P>
+<p>
 After Robert Ramey (ramey@rrsd.com)
 # further information (pure HTML)
 @LINKS=Robert Ramey's 
-<A href="http://www.rrsd.com/psort/cuj/cuj.htm">August 1992
-article</A>.
+<a href="http://www.rrsd.com/psort/cuj/cuj.htm">August 1992
+article</a>.
 # implementation (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/postmansort.trm,v $
