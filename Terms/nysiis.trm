@@ -1,5 +1,5 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Tue Mar 25 12:46:37 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 08:01:11 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=NYSIIS
@@ -29,7 +29,9 @@
 # Intelligence System" from the http://www.samhsa.gov/ search page
 SAMHSA's code <A
 href="http://www.samhsa.gov/centers/csat/content/idbse/idbsas.asp">(SAS)</A> --
-click on nysiis.sas.
+click on nysiis.sas;
+<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</A>;
+<A href="http://www.dropby.com/NYSIIS.html">(pseudocode)</A>.
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.choicemaker.com/MEDD_2001_Imm_Reg_Conference.pdf">slides
