@@ -1,5 +1,11 @@
 # *created  "Thu Sep  2 10:52:05 1999" *by "Paul E. Black"
-# *modified "Fri Dec 10 12:54:58 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:07:59 2004" *by "Paul E. Black"
+
+# $Log: stirlingsFormula.trm,v $
+# Revision 1.2  2004/12/17 17:07:59  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Stirling's formula
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=For large values of $n$,
 $(n/e)<sup>n</sup>\sqrt\{2n\pi} &lt; {n!#factorial} &lt;
 (n/e)<sup>n</sup>(1 + 1/(12n-1))\sqrt\{2n\pi}$.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Stirling's approximation},{factorial},{gamma function}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -20,4 +37,4 @@ $(n/e)<sup>n</sup>\sqrt\{2n\pi} &lt; {n!#factorial} &lt;
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stirlingsFormula.trm,v $
