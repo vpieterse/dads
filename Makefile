@@ -1,6 +1,6 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Thu Oct 17 14:55:51 2013" *by "Paul E. Black"
+# *modified "Fri Oct 18 13:02:32 2013" *by "Paul E. Black"
 #
 # Revision 2.0
 # - Replaced cp --forced and --protected with -f and -p for UNIX compatibility 
@@ -8,20 +8,17 @@
 #
 
 TARFILE=dads.tar
-PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl
+PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl mksiteNIST.pl mksiteFaster.pl
 PAGES=Pages
-DIRS=Images Sources RCS ${PAGES} bin
-FILES=Makefile *Test.trm *.data dads.css dads.spell htmlWarnings
+DIRS=Images Sources ${PAGES} bin
+FILES=Makefile *Test.trm *.data dads.css dads.spell htmlWarnings .gitignore
 OUTDIR=Target
 HTMLDIR=${OUTDIR}/HTML
 OTHERDIR=${OUTDIR}/Other
 IMAGESDIR=${OUTDIR}/Images
 
 default:
-	@echo targets are all, site, spell, tar, chkhtml, chklatex, undefs, configFastar, and configNIST
-
-all:	spell tar site images chkhtml
-	@echo all done
+	@echo targets are site, spell, chkhtml, tar, chklatex, undefs, configFastar, and configNIST
 
 # various rules to update pieces of the Dictionary site
 site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
@@ -32,7 +29,8 @@ site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
 	${PAGES}/termsImpl.intro ${PAGES}/termsImpl.concl \
 	${PAGES}/termsType.intro ${PAGES}/termsType.concl \
 	${PAGES}/ui.intro ${PAGES}/ui.concl \
-	${PAGES}/twolevelExplain.html terms \
+	${PAGES}/twolevelExplain.html \
+	mksite.pl terms \
 	${OUTDIR}/favicon.ico ${OUTDIR}/dads.css \
 	${OUTDIR}/index.html ${OUTDIR}/twolevelExplain.html \
 	${OTHERDIR}/contrib.html ${OTHERDIR}/creditNotice.html \
@@ -199,16 +197,21 @@ ${PAGES}/bitsHostedBy.m4: ${PAGES}/bitsHostedByFastar.m4 ${PAGES}/bitsHostedByNI
 ${PAGES}/bitsHOSTis.m4: ${PAGES}/bitsHOSTisFastar.m4 ${PAGES}/bitsHOSTisNIST.m4
 	$(error YOU SHOULD RUN make configFastar OR make configNIST)
 
+mksite.pl: mksiteFastar.pl mksiteNIST.pl
+	$(error YOU SHOULD RUN make configFastar OR make configNIST)
+
 configFastar:
 	cp ${PAGES}/bitsImageLogosFastar.m4 ${PAGES}/bitsImageLogos.m4
 	cp ${PAGES}/bitsHostedByFastar.m4 ${PAGES}/bitsHostedBy.m4
 	cp ${PAGES}/bitsHOSTisFastar.m4 ${PAGES}/bitsHOSTis.m4
+	cp mksiteFastar.pl mksite.pl
 	@echo done
 
 configNIST:
 	cp ${PAGES}/bitsImageLogosNIST.m4 ${PAGES}/bitsImageLogos.m4
 	cp ${PAGES}/bitsHostedByNIST.m4 ${PAGES}/bitsHostedBy.m4
 	cp ${PAGES}/bitsHOSTisNIST.m4 ${PAGES}/bitsHOSTis.m4
+	cp mksiteNIST.pl mksite.pl
 	@echo done
 
 #=========================================================================
