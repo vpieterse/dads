@@ -1,5 +1,11 @@
 # *created  "Wed Mar  3 16:54:54 1999" *by "Paul E. Black"
-# *modified "Tue Apr  4 15:32:10 2000" *by "Paul E. Black"
+# *modified "Mon Jun 28 14:41:42 2004" *by "Paul E. Black"
+
+# $Log: rangesort.trm,v $
+# Revision 1.2  2004/06/28 18:46:29  black
+# Refine XREFS into IMA, etc.  XREF bucket sort.
+#
+
 # entry name
 @NAME=range sort
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=A {bucket sort} where the function to determine the 
 {bucket} is based on the {range} of possible {keys}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={distribution sort}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={distribution sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={bucket sort}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -19,4 +36,4 @@
 @IMPL=
 # author's initials
 @AUTHOR=ASK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/rangesort.trm,v $
