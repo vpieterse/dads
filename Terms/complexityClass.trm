@@ -1,0 +1,32 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Thu Dec 26 10:39:10 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=complexity class
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=Any of a set of computational problems with the same bounds
+({$\Theta(n)$#\Theta}) on time and space, for deterministic and
+nondeterministic machines.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={canonical complexity class}, {P}, {NP}, {NP-complete},
+{NP-hard}, {coNP}, {NC}, {AP}, {BPP}, {Turing machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 27-2,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+Scott Aaronson's
+<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+Zoo</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
