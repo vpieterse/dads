@@ -1,0 +1,22 @@
+# *created  "Wed Dec 16 08:35:13 1998" *by "Paul E. Black"
+# *modified "Tue May 11 14:53:50 1999" *by "Paul E. Black"
+# entry name
+@NAME=multi suffix tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {suffix tree} extended to multiple {strings} by
+concatenating the strings.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation
+@LINKS=<A
+href="http://www.informatik.uni-freiburg.de/~edelkamp/MultiSuffixTree.html">Multi
+Suffix Trees and Patricia Trees</A>
+# author's initials
+@AUTHOR=SE
+# end
