@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec  3 11:14:40 2002" *by "Paul E. Black"
+# *modified "Thu Dec 18 14:50:52 2003" *by "Paul E. Black"
+
+# $Log: function.trm,v $
+# Revision 1.2  2003/12/18 20:11:51  black
+# Separate XREFS into new, more precise fields.  Correct typo I noticed.
+#
+
 # entry name
 @NAME=function
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -12,11 +18,20 @@ yields an output.  Any particular input yields the same
 output every time.  More formally, a mapping from each element in the
 {domain} to an element in the {range}.  (2) A subroutine which returns
 a value.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={relation}, {total function}, {boolean function}, {constant
-function}, {signature}, {unary function}, {binary function}, {trinary
-function}, 
-{n-ary function}, {procedure}, {predicate}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={relation}
+# Specialization: "... is a kind of me."
+@VARIANT={boolean function}, {constant function}, {unary function},
+{binary function}, {trinary function}, {n-ary function}, {total function}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={signature}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={procedure}, {predicate}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=(1) A relation may map an input to more than one output.  
 Every function is a relation.  The inverse of a function, a mapping
@@ -39,8 +54,8 @@ a constant.  Since a function must return the same value for each
 input and the input cannot change (since it has no arguments), it must
 always return the same value.  For instance, if the function one()
 always returns 1, we can use it instead of the constant 1.  This is
-theoretical convenient because we can write everything as functions,
-rather than functions and constants.
+theoretically convenient because we can always work with functions,
+rather than with functions and constants.
 </P>
 
 <P>
@@ -52,4 +67,4 @@ in some programming languages.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/function.trm,v $
