@@ -1,7 +1,10 @@
 # *created  "Fri Apr  9 15:42:03 2004" *by "Paul E. Black"
-# *modified "Fri Apr  9 15:55:25 2004" *by "Paul E. Black"
+# *modified "Thu Apr 15 19:10:06 2004" *by "Paul E. Black"
 
 # $Log: phoneticCoding.trm,v $
+# Revision 1.2  2004/04/15 23:10:38  black
+# Add "phonetic coding" as a synonym.
+#
 # Revision 1.1  2004/04/09 20:23:38  black
 # Initial revision
 #
@@ -20,7 +23,7 @@ for misspelling.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
-@WEB=phonetic string match
+@WEB=phonetic string match, phonetic coding
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -40,15 +43,18 @@ for misspelling.
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
 # any notes.  these are not printed in the final dictionary
-@NOTES=Because misspelled names or words are common in English,
+@NOTES=
+Because misspelled names or words are common in English,
 algorithms have been developed to match names or words based on how
 they sound.
+Usually a word or name is converted to some phonetic coding,
+and codings are compared.
 If I type "Hansen" into my electronic telephone book, it is useful for
 it to offer "Hanson" as a possible match.
 </P>
 
 <P>
-Spelling correction algorithm may include other errors, like dropping
+Spelling correction algorithms may include other errors, like dropping
 letters or substituting letters that are close on a QWERTY keyboard.
 # any historical notes
 @HISTORY=
