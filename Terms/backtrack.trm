@@ -1,0 +1,38 @@
+# *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
+# *modified "Wed Feb 12 09:04:19 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=backtracking
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An algorithmic technique to find solutions by trying one of
+several choices.  If the choice proves incorrect, computation
+<em>backtracks</em> or restarts at the point of choice and tries
+another choice.  It is often convenient to maintain choice points and
+alternate choices using {recursion}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Conceptually, a backtracking algorithm does a {depth-first
+search} of a {tree} of possible (partial) solutions.  Each choice is a
+{node} in the tree.
+# further explanation (pure HTML)
+@LINKS=Explanation with the <A
+href="http://students.ceid.upatras.gr/~papagel/project/kef5_8.htm">8-queens</A>
+problems and 
+<A
+href="http://www.siteexperts.com/tips/functions/ts20/page2.asp">solving
+a maze</A>;
+<A
+href="http://gaia.ecs.csus.edu/~wang/backtrack/maze/maze1/mazetraversal.html">maze
+solving Java applet</A>;
+FOLDOC's
+<A href="http://wombat.doc.ic.ac.uk/foldoc/foldoc.cgi?backtracking">entry</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
