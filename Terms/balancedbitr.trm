@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan 12 09:07:00 2005" *by "Paul E. Black"
+# *modified "Wed Jan 12 09:50:42 2005" *by "Paul E. Black"
 
 # $Log: balancedbitr.trm,v $
+# Revision 1.7  2005/01/12 14:51:41  black
+# A weight-balanced tree is a BB(alpha) tree.
+#
 # Revision 1.6  2005/01/12 14:07:19  black
 # Separate IMPLs with a period.
 #
@@ -40,7 +43,7 @@ deleting a {node}, the tree may rebalanced with "rotations."
 # Aggregate child: "... is a part of or used in me."
 @INME={left rotation}, {right rotation}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={height-balanced tree}, {weight-balanced tree}
+@XREFS={BB($\alpha$) tree}, {height-balanced tree}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
