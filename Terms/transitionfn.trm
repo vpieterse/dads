@@ -1,0 +1,23 @@
+# *created  "Sat Aug 28 13:30:21 1999" *by "Paul E. Black"
+# *modified "Tue Feb 12 17:16:19 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=transition function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A function of the current {state} and input giving the {next
+state} of a {finite state machine} or {Turing machine}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This defines the set of {transitions}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
