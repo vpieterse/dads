@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jan 10 13:35:59 2002" *by "Paul E. Black"
+# *modified "Mon Jan 12 10:17:32 2004" *by "Paul E. Black"
+
+# $Log: heapproperty.trm,v $
+# Revision 1.2  2004/01/12 15:18:10  black
+# Add RCS Log.  Refine XREFS into IMA, etc.  Be more accurate that a
+# heap is a *complete* tree.
+#
 
 # entry name
 @NAME=heap property
@@ -17,19 +23,30 @@ extreme (greater or less) than or equal to the key of its
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=heap ordered, heap condition
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={max-heap property}, {min-heap property}, {heap}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={max-heap property}, {min-heap property}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={binary heap}, {heap}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The {root} node has the largest or smallest key.
 After LK.
 </P>
 
 <P>
-A tree with the heap property is a {heap}.
+A {complete tree} with the heap property is a {heap}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/heapproperty.trm,v $
