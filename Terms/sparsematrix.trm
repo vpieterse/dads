@@ -1,7 +1,10 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Tue Jan 20 13:14:23 2004" *by "Paul E. Black"
+# *modified "Mon Jan 26 13:20:20 2004" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Revision 1.3  2004/01/26 18:20:49  black
+# Update Sonnack link to picture of sparse matrix.
+#
 # Revision 1.2  2004/01/20 18:43:02  black
 # Add RCS Log and refine XREFS to IMA, etc.  Add link to Saad's methods
 # for sparse systems PDF book.
@@ -44,8 +47,9 @@ indexes and associated entries, as a list of lists of entries (one
 list for each row), coordinate format (the values and their row/column
 positions), or by a {point access method}.
 # further explanation (pure HTML)
-@LINKS=<A
-href="http://www.Sonnack.com/Pub/sparse_array.gif">picture</A> of one
+@LINKS=
+A <A
+href="http://www.Sonnack.com/Pub/sparse_matix.gif">picture</A> of another
 type of sparse matrix.
 Yousef Saad's 
 <A href="ftp://ftp.cs.umn.edu/dept/users/saad/PS/iter1.pdf">Iterative
