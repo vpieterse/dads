@@ -1,0 +1,38 @@
+# *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
+# *modified "Mon Jul  1 11:45:21 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Zeller's congruence
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An algorithm to find the day of the week for any date.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Zeller's algorithm
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Doomsday rule}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Christian Zeller</strong>, <em>Kalender-Formeln</em>,
+Acta Mathematica, 9:131-6, 1886-7.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=Dr J R Stockton's <A
+href="http://www.merlyn.demon.co.uk/weekinfo.htm#Zeller">The Calendar
+Week (Pascal)</A>.  View Page Source and search for text/javascript
+for JavaScript code.
+Comp.lang.c FAQ <A
+href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
+17.28 (C)</A>.
+# further explanation (pure HTML)
+@LINKS=A summary of the International Standard Date and Time Notation <A
+href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
