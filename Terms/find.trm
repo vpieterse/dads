@@ -1,5 +1,11 @@
 # *created  "Mon Apr 12 10:22:28 1999" *by "Paul E. Black"
-# *modified "Fri May  3 15:22:56 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:02 2004" *by "Paul E. Black"
+
+# $Log: find.trm,v $
+# Revision 1.2  2004/12/17 16:52:03  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=Find
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -12,14 +18,25 @@ array and {partition} the array around it.  First, partition
 around the value of the k<sup>th</sup> element.  If the split is not
 at element k, move the upper or lower boundary and partition
 again.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={select and partition}, {MODIFIND}, {Select}
-# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+
+# bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
 @BIB=<strong>C. A. R. Hoare</strong>, <em>Algorithm 65, FIND</em>,
 CACM, 4(7):321, July 1961.
-</P>
+</p>
 
-<P>
+<p>
 <strong>C. A. R. Hoare</strong>, <em>Proof of a Program: FIND</em>,
 CACM, 14(7):39-45, January 1971.
 # any notes.  these will not be printed in the final dictionary
@@ -27,9 +44,9 @@ CACM, 14(7):39-45, January 1971.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.geocities.com/SiliconValley/Garage/3323/3alg.html">analysis
-and comparison (Rexx)</A>
+@IMPL=<a
+href="http://www.geocities.com/SiliconValley/Garage/3323/3alg.html">analysis
+and comparison (Rexx)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/find.trm,v $
