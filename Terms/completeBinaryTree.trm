@@ -1,0 +1,48 @@
+# *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
+# *modified "Thu Sep  4 09:39:25 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=complete binary tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary tree} in which every level, except possibly the
+deepest, is completely filled.  At depth $n$, the {height} of the
+tree, all {nodes} must be as far left as possible.  
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=CBT
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={full binary tree}, {perfect binary tree}, {extendible
+hashing}, {heap}, {complete tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A complete binary tree has $2<sup>k</sup>$ nodes at every
+{depth} $k &lt; n$ and between $2<sup>n</sup>$ and $2<sup>n+1</sup>-1$
+nodes altogether.
+It can be efficiently implemented as an {array}, where a node at index
+$i$ has children at indexes $2i$ and $2i+1$ and a
+parent at index $i/2$.  If child index is greater than the number
+of nodes, the child does not exist.
+After LK.
+</P>
+
+<P>
+Thanks to Adrienne G. Bloss (bloss@roanoke.edu) September 2003.
+</P>
+
+<P>
+This kind of tree is called "complete" by authors that mention it
+(Budd page 332, Ege, Carrano &amp; Prichard page 427, Goodrich &amp;
+Tamassia page 302,
+<A href="../terms.html#HS83">[HS83, page 226]</A>,
+<A href="../terms.html#Knuth98">[Knuth98]</A>,
+<A href="../terms.html#Stand98">[Stand98, page 249]</A>).  Some
+authors call {perfect binary trees} "complete".
+# author's initials
+@AUTHOR=PEB
+# end
