@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Oct  2 09:09:45 2000" *by "Paul E. Black"
+# entry name
+@NAME=single-source shortest-path problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=Find the shortest {paths} from a specific source {vertex} to
+every other vertex in a {weighted, directed graph}.  {Dijkstra's
+algorithm} solves this if all weights are nonnegative.  The
+{Bellman-Ford algorithm} handles any weights.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={graph}, {all pairs shortest path}, {single-destination
+shortest-path problem}, {DAG shortest paths}, {shortest path}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Equivalent to the single-destination shortest-path problem
+with all directions reversed.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=See implementations at graph.
+# author's initials
+@AUTHOR=PEB
+# end
