@@ -1,5 +1,11 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Wed Feb 12 11:33:50 2003" *by "Paul E. Black"
+# *modified "Thu Jun 10 10:44:35 2004" *by "Paul E. Black"
+
+# $Log: bloomFilter.trm,v $
+# Revision 1.2  2004/06/10 14:45:43  black
+# Refine XREFS into IMA, etc.  Note typo in cs.wisc.edu ... node8
+# paper.  Expand on description of links.
+#
 
 # entry name
 @NAME=Bloom filter
@@ -17,8 +23,19 @@ large set using multiple {hash functions} into a single
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>Burton Bloom</strong>, <em>Space/time trade-offs in hash
 coding with allowable errors</em>, CACM, 13(7):422-426, July 1970. 
@@ -28,11 +45,13 @@ coding with allowable errors</em>, CACM, 13(7):422-426, July 1970.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://cap-lore.com/code/BloomTheory.html">tradeoffs and
-engineering techniques</A>,
+<A href="http://cap-lore.com/code/BloomTheory.html">Trade-offs and
+engineering techniques</A> with links to sites with recent papers,
+hash functions, etc.
 <A
-href="http://www.cs.wisc.edu/~cao/papers/summary-cache/node8.html">the
-math</A>.
+href="http://www.cs.wisc.edu/~cao/papers/summary-cache/node8.html">Another
+explanation</A> typo: probability of false positive is missing a
+minus sign; exponent should be ... e<sup>-kn/m</sup>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bloomFilter.trm,v $
