@@ -1,0 +1,21 @@
+# List of areas with a print name and abbreviation for
+# Algorithms, Data Structures, and Classical Problems
+#    Format is
+#	abbrev<tab>+print name
+# *created  "Wed Mar 24 10:18:58 1999" *by "Paul E. Black"
+# *modified "Wed May 17 13:16:53 2000" *by "Paul E. Black"
+autom	Automata and State Machines
+basic	Basic
+theory	Theory
+crypt	Cryptography and Compression
+geom	Computational Geometry
+graph	Graphs
+tree	Trees
+search	Searching
+sort	Sorting
+combin	Combinatorics
+numeric	Numeric Computation
+para	Parallel
+verf	Verification and Formal Methods
+quant	Quantum Computation
+# end of areas list
