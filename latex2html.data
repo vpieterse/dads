@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.16 2003/08/05 13:20:24 black Exp $
+# $Id: latex2html.data,v 1.17 2003/09/25 15:53:50 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Thu Jul 31 11:20:55 2003" *by "Paul E. Black"
+# *modified "Thu Sep 25 11:51:49 2003" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -91,10 +91,10 @@
 \min	min
 \bmod	mod
 #    Table 3.10: Delimiters
-\lceil	ceiling(
-\rceil	)
-\lfloor	floor(
-\rfloor	)
+\lceil	<img src="Images/lceiling.gif" border=0 height=15 width=4 alt="ceiling(">
+\rceil	<img src="Images/rceiling.gif" border=0 height=15 width=4 alt=")">
+\lfloor	<img src="Images/lfloor.gif"   border=0 height=15 width=4 alt="floor(">
+\rfloor	<img src="Images/rfloor.gif"   border=0 height=15 width=4 alt=")">
 # \left and \right are modifiers, Sect. 3.3.4, page 48
 \left
 \right.
