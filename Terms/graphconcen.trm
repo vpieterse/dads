@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 09:56:39 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:02:32 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=graph concentration
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +7,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=para
 # the definition
-@DEFN=Contracting a {graph} by removing a subset of the {vertices#vertex}.
+@DEFN=Contracting a {graph} by removing a subset of the {vertexes}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
@@ -22,4 +22,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/graphconcen.trm,v $
