@@ -1,0 +1,68 @@
+# *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
+# *modified "Tue Aug  5 12:59:33 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=dictionary
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An {abstract data type} storing items, or
+{keys}, associated with values.
+Basic operations are insert, find, and delete.
+# formal definition or {cross reference} to an entry
+@FORML=The operations new(), insert(i, v, D), and find(i, D) may be
+defined as follows.
+<ol>
+<li>new() returns a dictionary
+<li>find(i, insert(i, v, D)) = v
+<li>find(i, insert(j, v, D)) = find(i, D) if $i \neq j$
+</ol>
+where i and j are items or keys, v is a value, and D is a dictionary.
+The operation find(i, new()) is not defined.
+</P>
+
+<P>
+We can define delete in terms of insert using a special value:
+<em>undefined</em>.  With this special value, we can
+also define find on an empty dictionary.
+<ol start="4">
+<li>delete(i, D) = insert(i, undefined, D)
+<li>find(i, new()) = undefined
+</ol>
+</P>
+
+<P>
+Alternately, we can use another special value, which we'll call
+<em>fail</em> this time, to add axioms for delete.  This only changes
+the return type of find.
+<ol start="4">
+<li>find(i, delete(i, D)) = fail
+<li>find(i, delete(j, D)) = find(i, D) if $i \neq j$
+<li>find(i, new()) = fail
+</ol>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=association list, property list
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=assoc list, prop list
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={total order}, {associative array},
+Implementations: {linked list}, {hash table}, {B-tree}, {directed
+acyclic word graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The terms ``association list'' and ``property list'' are used with
+LISP-like languages and in the area of Artificial Intelligence.  These
+suggest a relatively small number of items, whereas a dictionary may
+be quite large.  Professionals in the Data Management area have
+specialized semantics for "dictionary" and related terms.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
+Pascal, and Fortran)</A>, <A
+href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
