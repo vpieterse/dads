@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu May 11 08:46:46 2000" *by "Paul E. Black"
+# entry name
+@NAME=superimposed code
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=crypt
+# the definition
+@DEFN=A set of bit vectors such that no vector is a subset of a
+bitwise {or} of a small number of others.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=From <A
+HREF="http://computer.org/proceedings/focs/8197/81970127abs.htm">Deterministic
+Superimposed Coding with Applications to Pattern Matching</A>, IEEE, 1997.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
