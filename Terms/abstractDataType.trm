@@ -1,0 +1,66 @@
+# *created  "Wed Mar 17 15:39:46 1999" *by "Paul E. Black"
+# *modified "Fri Jan 10 10:01:22 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=abstract data type
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=A set of data values and associated operations that are
+precisely specified independent of any particular implementation.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=ADT
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={dictionary}, {stack}, {queue}, {set}, {data structure}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Since the data values and operations are defined with
+mathematical precision, rather than as
+an implementation in a computer language, we may reason about effects
+of the operations, relations to other abstract data types, whether a
+program implements the data type, etc.
+</P>
+
+<P>
+One of the simplest abstract data types is the {stack}.  
+The operations new(), push(v, S), top(S), and popOff(S) may be
+defined as following.
+<ol>
+<li>new() returns a stack
+<li>popOff(push(v, S)) = S
+<li>top(push(v, S)) = v
+</ol>
+where S is a stack and v is a value.  (The usual pop operation is a
+combination of top, to return the top value, and popOff, to remove the
+top value.)
+Contrast this with the axiomatic definition of a {set}, a
+{dictionary}, or a {queue}.
+</P>
+
+<P>
+From these axioms, one may define
+equality between stacks, define a pop function which returns the top
+value in a non-empty stack, etc.  For instance, the {predicate}
+isEmpty(S) may be 
+added and defined with the following additional axioms.
+<ol start="4">
+<li>isEmpty(new()) = true
+<li>isEmpty(push(v, S)) = false
+</ol>
+</P>
+
+<P>
+After Nell Dale &lt;ndale@cs.utexas.edu&gt; May 2001.
+# see Algorithms and Theory of Computation Handbook, page 4-2.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
