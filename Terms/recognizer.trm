@@ -1,0 +1,24 @@
+# *created  "Wed Apr  5 09:26:05 2000" *by "Paul E. Black"
+# *modified "Wed Apr  5 09:34:19 2000" *by "Paul E. Black"
+# entry name
+@NAME=recognizer
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {finite state machine} with one or more {states} designated as
+{accepting states}.  An input string is <em>accepted</em> if there is
+a {path} from the {start state} to an accepting state.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={deterministic finite state machine}, {nondeterministic finite
+state machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
