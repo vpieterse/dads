@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
-# *modified "Tue Feb  1 15:40:29 2005" *by "Paul E. Black"
+# *modified "Fri Mar  4 13:02:33 2005" *by "Paul E. Black"
 
 # $Log: bellmanford.trm,v $
+# Revision 1.8  2005/03/04 18:03:23  black
+# Add Wikipedia IMPL
+#
 # Revision 1.7  2005/02/01 20:42:03  black
 # Remove IMA APSP algo -- it solves SSSP, and it messes up ontology.
 # Add XREFS to Dijkstra's.  Shorten DEFN with href to SSSP.
@@ -63,6 +66,9 @@ notation}, where E is the number of edges.
 After <a href="../terms.html#CLR90">[CLR90, page 532]</a>
 # implementation(s) (pure HTML)
 @IMPL=
+The entry in
+<a href="http://en.wikipedia.org/wiki/Bellman-Ford_algorithm">Wikipedia
+(C, Assembly, and pseudocode)</a> has a proof, too.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials
