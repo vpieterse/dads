@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkauthors,v 1.1 2002/01/09 17:48:13 black Exp $
+# $Id: mkauthors,v 1.2 2004/09/22 13:34:54 black Exp $
 # *created  "Wed Jan  9 10:35:13 2002" *by "Paul E. Black"
-# *modified "Wed Jan  9 12:24:30 2002" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:11:45 2004" *by "Paul E. Black"
 #
 # Create authors page
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -26,6 +26,12 @@ $maxOperands = 0;
 # Paul E. Black paul.black@nist.gov
 #
 #------------------------------------------------------------------------
+
+# $Log: mkauthors,v $
+# Revision 1.2  2004/09/22 13:34:54  black
+# Quote HTML special characters so authors can have foreign letters in
+# their name (e.g. PHS).
+#
 
 # CONFIGURATION SECTION:
 require 'mkcommon.pl';
@@ -112,10 +118,6 @@ print TMPPAGE "<dl>\n";
 for $akey (sort keys %authors) {
     print TMPPAGE "<dt><a name=\"author$akey\">$akey</a>\n";
     my $aentry = $authors{$akey};
-    # "quote" any HTML special characters
-    $aentry =~ s/&/&amp;/go;
-    $aentry =~ s/</&lt;/go;
-    $aentry =~ s/>/&gt;/go;
     print TMPPAGE "<dd>$aentry\n";
     # print e-mail address(es) or URL(s), if given
     if (defined $authemail{$akey}) {
