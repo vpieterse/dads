@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec  3 12:03:38 2002" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:38:30 2004" *by "Paul E. Black"
+
+# $Log: littleOnotation.trm,v $
+# Revision 1.2  2004/06/14 13:39:20  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Refer to MathWorld
+# entry on Landau Symbol.
+#
 
 # entry name
 @NAME=little-o notation
@@ -26,8 +32,19 @@ The value of $k$ must not depend on $n$, but may depend on $c$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=o notation
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={big-O notation}, {$\omega(n)$#$\omega$}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={big-O notation}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={$\omega(n)$#$\omega$}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 As an example, $3n + 4$ is $o(n<sup>2</sup>)$ 
@@ -42,8 +59,10 @@ Strictly, the character is the lower-case Greek letter
 omicron.
 # further explanation (pure HTML)
 @LINKS=
+Little o is a
+<A href="http://mathworld.wolfram.com/LandauSymbols.html">Landau Symbol</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/littleOnotation.trm,v $
