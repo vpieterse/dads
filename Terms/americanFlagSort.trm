@@ -1,5 +1,13 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Fri Apr 16 10:10:04 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 14:15:15 2004" *by "Paul E. Black"
+
+# $Log: americanFlagSort.trm,v $
+# Revision 1.3  2004/10/14 18:15:26  black
+# Update Citeseer URL.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+# Revision 1.2  2004/04/16 14:18:01  black
+# Update Sinha URL.
+#
 
 # entry name
 @NAME=American flag sort
@@ -25,8 +33,19 @@ Using some efficiency techniques, it is twice as fast as
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={histogram sort}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>Peter M. McIlroy</strong>, <strong>Keith Bostic</strong>,
 and <strong>M. Douglas McIlroy</strong>, <em>Engineering Radix Sort</em>,
@@ -38,7 +57,7 @@ using 256 buckets.
 @IMPL=<A
 href="http://goanna.cs.rmit.edu.au/~rsinha/resources/source/allsorts/mbmradix.c">(C)</A>.
 It is <A
-href="citeseer.nj.nec.com/mcilroy93engineering.html">program C (C)</A>
+href="http://citeseer.ist.psu.edu/mcilroy93engineering.html">program C (C)</A>
 in the paper.
 # further explanation (pure HTML)
 @LINKS=The flag of the 
@@ -48,4 +67,4 @@ of America</A> and
 and more images</A>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/americanFlagSort.trm,v $
