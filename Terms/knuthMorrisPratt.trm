@@ -1,5 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Mon Mar  3 09:05:12 2003" *by "Paul E. Black"
+# *modified "Mon Apr 26 13:03:33 2004" *by "Paul E. Black"
+
+# $Log: knuthMorrisPratt.trm,v $
+# Revision 1.2  2004/04/26 17:04:07  black
+# Refine XREFS into IMA, etc.  Add BIB entry.
+#
 
 # entry name
 @NAME=Knuth-Morris-Pratt algorithm
@@ -8,7 +13,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=A {string matching} algorithm which turns the search string into
+@DEFN=A {string matching} algorithm that turns the search string into
 a {finite state machine}, then runs the machine with the string to be
 searched as the input string.  Execution time is {O(m+n)#big-O
 notation}, where m is the length of the search string, and n is the
@@ -18,9 +23,27 @@ length of the string to be searched.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=KMP
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+@WEB=Knuth-Pratt-Morris algorithm, KPM
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong> Donald E. Knuth</strong>, <strong>James H. Morris</strong>,
+and <strong>Vaughan R. Pratt</strong>, 
+<em>Fast Pattern Matching in Strings</em>,
+SIAM Journal on Computing, 6(2):323-350, 1977.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -39,4 +62,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moor
 preprocessing (C)</A>
 # author's initials
 @AUTHOR=SB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/knuthMorrisPratt.trm,v $
