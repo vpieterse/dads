@@ -1,7 +1,12 @@
 # *created  "Tue Feb  9 08:55:41 1999" *by "Paul E. Black"
-# *modified "Mon Dec 29 12:17:55 2003" *by "Paul E. Black"
+# *modified "Tue Mar  9 11:56:33 2004" *by "Paul E. Black"
 
 # $Log: densegraph.trm,v $
+# Revision 1.5  2004/03/09 16:56:41  black
+# Move the number of edges to NOTE since directed and undirected graphs
+# have different numbers of edges.  Also note there is no strict
+# distinction between sparse and dense graphs.
+#
 # Revision 1.4  2003/12/29 17:19:22  black
 # Move Preiss link and commentary from LINKS to NOTES because LINKS
 # doesn't convert Latex math expressions ($...$)
@@ -23,12 +28,11 @@
 @AREA=graph
 # the definition
 @DEFN=A {graph} in which the number of {edges} is close to
-the possible number of edges, that is, $n(n-1)/2$, where $n$ is the 
-number of {vertexes}.
+the possible number of edges.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={graph}
 # Specialization: "... is a kind of me."
 @VARIANT={complete graph}
 # Aggregate parent: "I am a part of or used in ..."
@@ -40,6 +44,13 @@ number of {vertexes}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+A {directed graph} can have at most $n(n-1)$ edges, where $n$ is the
+number of vertexes.
+An {undirected graph} can have at most $n(n-1)/2$ edges.
+</P>
+
+<P>
+There is no strict distinction between sparse and dense graphs.
 Bruno Preiss' <A
 href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
 of sparse and dense graphs</A> has problems, but may help.  First, for
