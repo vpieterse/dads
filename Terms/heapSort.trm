@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Thu Jun 17 12:26:52 2004" *by "Paul E. Black"
+# *modified "Tue Jul 27 13:49:44 2004" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.5  2004/07/27 17:50:03  black
+# Link to Lang's Heapsort analysis, explanation, and impl. page.
+#
 # Revision 1.4  2004/06/17 16:33:11  black
 # Refine XREFS into IMA, etc.  Refer to article comparing sort routines.
 #
@@ -50,7 +53,11 @@ href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 quicksort, heapsort, and merge sort</A> on modern processors.
 
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=
+Lang's <A
+href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/heap/heapen.htm">definitions,
+explanations, diagrams, Java applet, and pseudo-code (C)</A>,
+<A
 href="http://www.cs.ubc.ca/spider/harrison/Java/HeapSortAlgorithm.java">(Java)</A>,
 <A href="http://www2.hawaii.edu/~copley/665/HSMain.html">(Java)</A>,
 Worst-case behavior <A
