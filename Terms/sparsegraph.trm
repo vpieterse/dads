@@ -8,7 +8,7 @@
 @AREA=graph
 # the definition
 @DEFN=A {graph} in which the number of {edges} is much less than the
-possible number of edges, that is, the number of {vertices#vertex}
+possible number of edges, that is, the number of {vertexes}
 squared.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={dense graph}, {complete graph}, {adjacency-list representation}
@@ -24,4 +24,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/sparsegraph.trm,v $
