@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Thu Nov 18 14:27:04 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:40 2004" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Revision 1.3  2004/12/17 17:24:40  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/11/18 19:45:30  black
 # Update URLs.  Change sieve table to use font color, in addition to
 # strike through and bold.  Refine XREFS into IMA, etc.  Add RCS keywords.
@@ -33,12 +36,12 @@ and mark every multiple of the prime.
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Invented by <A
+@NOTES=Invented by <a
 href="http://www-groups.dcs.st-and.ac.uk/history/Mathematicians/Eratosthenes.html">Eratosthenes
-of Cyrene</A> (276 BC - 194 BC).
-</P>
+of Cyrene</a> (276 BC - 194 BC).
+</p>
 
-<P>
+<p>
 <table border="0" cellpadding="6" cellspacing="0">
 <tr>
 <td colspan="26">
@@ -118,44 +121,44 @@ From here we find the primes 7, 11, 13, 17, 19, and 23.
 </td>
 </tr>
 </table>
-</P>
+</p>
 
 
-<P>
+<p>
 To optimize, when we find the prime $n$, we can begin marking at
 $n<sup>2</sup>$, since any composite less than that is a multiple of
 a lesser prime, and so will have been marked earlier.  As a corollary,
 we can stop marking when $n<sup>2</sup>$ is greater than our range.
 That is, any unmarked numbers greater than the square root of the
 range are primes.
-</P>
+</p>
 
-<P>
+<p>
 The naive implementation is not practical for large $N$ since the
 memory is {$\Theta(N)$#$\Theta$}.  More efficient implementations use
 a segmented sieve.
-</P>
+</p>
 # further explanation (pure HTML)
-@LINKS=<A
+@LINKS=<a
 href="http://primes.utm.edu/glossary/page.php?sort=SieveOfEratosthenes">explanation
-and (pseudocode)</A>
+and (pseudocode)</a>
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://primes.utm.edu/links/programs/sieves/Eratosthenes/">various
-implementations (C, Perl, and Java)</A>,
+implementations (C, Perl, and Java)</a>,
 Luschny's
-<A
+<a
 href="http://www.javajungle.de/math/primes/PrimeNumberSieve.html">(Java
-5)</A> implementation.
-Stockton's Pascal Maths Page gives <A
+5)</a> implementation.
+Stockton's Pascal Maths Page gives <a
 href="http://www.merlyn.demon.co.uk/pas-math.htm#Primes">links to
-three implementations</A>:
-<A href="http://www.merlyn.demon.co.uk/programs/eratost1.pas">bit
-array (Pascal)</A>,
-<A href="http://www.merlyn.demon.co.uk/programs/eratost2.pas">bit
-array for odd numbers (Pascal)</A>,
-<A href="http://www.merlyn.demon.co.uk/programs/eratost3.pas">packed
-bit array for odd numbers (Pascal)</A>
+three implementations</a>:
+<a href="http://www.merlyn.demon.co.uk/programs/eratost1.pas">bit
+array (Pascal)</a>,
+<a href="http://www.merlyn.demon.co.uk/programs/eratost2.pas">bit
+array for odd numbers (Pascal)</a>,
+<a href="http://www.merlyn.demon.co.uk/programs/eratost3.pas">packed
+bit array for odd numbers (Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sieve.trm,v $
