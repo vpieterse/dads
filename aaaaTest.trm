@@ -1,5 +1,5 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Fri Mar 16 14:59:21 2001" *by "Paul E. Black"
+# *modified "Fri Nov 30 10:42:51 2001" *by "Paul E. Black"
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -19,8 +19,9 @@ doublequotes. {P-tree}(2),
 {arg\h?.} 
 {R<sup>+</sup>-tree} {some%D%L%R%Pings} {this is
 not found}
+</p>
 
-<P>
+<p>
 Entering LaTeX commands takes some work.  Anything between dollar
 signs is considered to be a LaTeX expression and subject to
 substitution.  All open curly brackets must be escaped (preceeded by a
@@ -29,8 +30,9 @@ Subscripts (underline) and superscripts (caret) must be replaced by
 the HTML sub...end-sub and sup...end-sup.  Less than and greater than
 must be entered with the HTML &amp;lt; and &amp;gt;, otherwise trying
 to replace them would mess up sup/end-sup.
+</p>
 
-<P>
+<p>
 Here is a sample:
 $\int\sqrt\{5} < \rho \div \left\{ \overline\{S}<sup>T</sup> \right\} \pm \mu$
 but in the limiting case we have
@@ -56,11 +58,15 @@ published in Deep Thoughts, Proceedings of Life, the Universe,
 $\alpha \times \alpha \leq \Omega \ll \Sigma$ and
 $\Gamma \geq \Theta<sub>j</sub>+\alpha \gg \epsilon$
 # further explanation (pure HTML)
-@LINKS=<A HREF="http://www.lds.org/">The Church of Jesus Christ of
-Latter Day Saints</A>
+@LINKS=<a href="http://www.lds.org/">The Church of Jesus Christ of
+Latter Day Saints</a>
 <A HREF="http://nowhere.org/ %&+;=~blackfish">bad link</A>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
+# formal definition or {cross reference} to an entry
+@FORML=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=daisy, hal 9000
 # end
