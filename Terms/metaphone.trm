@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
-# *modified "Tue Jan  4 10:43:27 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 14:44:50 2005" *by "Paul E. Black"
 
 # $Log: metaphone.trm,v $
+# Revision 1.8  2005/02/02 19:44:55  black
+# Add {algorithm} to IMA {phonetic coding} for ontology
+#
 # Revision 1.7  2005/01/04 15:43:51  black
 # Remove IIUG and DDJ URL's - now only paid access.
 #
@@ -34,7 +37,7 @@ to 16 consonant sounds.  A better variant is {double metaphone}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic coding}
+@IMA={phonetic coding} {algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
