@@ -1,0 +1,40 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:32:22 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=extendible hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {hash table} in which the {hash function} is the last few bits
+of the {key} and the table refers to {buckets}.  Table entries with the
+same final bits may use the same bucket.  If a bucket overflows, it
+splits, and if only one entry referred to it, the table doubles in
+size.  If a bucket is emptied by deletion, entries using it are
+changed to refer to an adjoining bucket, and the table may be halved.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={dynamic hashing}, {expandable hashing}, {virtual hashing}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Ronald Fagin</strong>, <strong>J&uuml;rg
+Nievergelt</strong>, <strong>Nicholas Pippenger</strong>, and
+<strong>H. Raymond Strong</strong>, <em>Extendible Hashing - A Fast
+Access Method for Dynamic Files</em>, ACM Transactions on Database
+Systems, 4(3):315-344, 1979.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The table may be seen as a {complete binary tree} where the
+buckets are (possibly) shared {leaf} nodes.
+# further explanation (pure HTML)
+@LINKS=Description illustrating 
+<A href="http://www.cs.byu.edu/courses/cs453/lecture18.html">splitting
+and combining of buckets</A> (note: the index bits are shown in the
+reverse order of the keys bits.  That is, the key is shown most
+significant bits first, and indexes are shown least significant first.)
+# implementation(s) (pure HTML)
+@IMPL=A description including a
+<A href="http://www.istis.unomaha.edu/isqa/haworth/isqa3300/fs009.htm">hash
+function (COBOL)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
