@@ -1,5 +1,10 @@
 # *created  "Fri May 23 12:44:34 2003" *by "Paul E. Black"
-# *modified "Fri May 23 12:50:12 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:47:45 2004" *by "Paul E. Black"
+
+# $Log: arborescence.trm,v $
+# Revision 1.2  2004/12/17 16:47:47  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=arborescence
@@ -11,23 +16,34 @@
 @DEFN=Informally, a {directed#directed graph} {tree}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={minimum spanning tree}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
-<A href="http://mathworld.wolfram.com/Arborescence.html">Arborescence</A>
+<a href="http://mathworld.wolfram.com/Arborescence.html">Arborescence</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/arborescence.trm,v $
