@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:38 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 13:58:07 2004" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Revision 1.4  2004/12/17 19:47:51  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/12/17 17:28:38  black
 # Make more XHTML compliant.
 #
@@ -64,44 +67,44 @@ Start with a "squares" value (s) equal x and an "accumulated" value
 (a) equal 1.  Reading from least significant bit to most significant,
 when there is a 1 in the binary notation, multiply a by s.  Keep
 squaring s.
-<TABLE>
-<TR ALIGN=CENTER>
-    <TH>&nbsp;&nbsp;s&nbsp;&nbsp;</TH><TH>&nbsp;&nbsp;a&nbsp;&nbsp;</TH>
-    <TH></TH>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>1</SUp></td>  <td>1</td>
-    <TD ALIGN=LEFT>Least significant bit of exponent is 1, so multiply a = a * s</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>1</SUp></td>  <td>x<SUp>1</SUp></td>
-    <TD ALIGN=LEFT>Square s</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>2</SUp></td>  <td>x<SUp>1</SUp></td>
-    <TD ALIGN=LEFT>Next bit is 0, so don't multiply</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>2</SUp></td>  <td>x<SUp>1</SUp></td>
-    <TD ALIGN=LEFT>Square s</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>4</SUp></td>  <td>x<SUp>1</SUp></td>
-    <TD ALIGN=LEFT>Next bit is 1, so multiply</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>4</SUp></td>  <td>x<SUp>5</SUp></td>
-    <TD ALIGN=LEFT>Square s</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>8</SUp></td>  <td>x<SUp>5</SUp></td>
-    <TD ALIGN=LEFT>Highest bit is 1, so multiply</td>
-</TR>
-<TR ALIGN=CENTER VALIGN=BOTTOM>
-    <td>x<SUp>8</SUp></td>  <td>x<SUp>13</SUp></td>
+<table>
+<tr align="center">
+    <th>&nbsp;&nbsp;s&nbsp;&nbsp;</th><th>&nbsp;&nbsp;a&nbsp;&nbsp;</th>
+    <th></th>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>1</sup></td>  <td>1</td>
+    <td align="left">Least significant bit of exponent is 1, so multiply a = a * s</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>1</sup></td>  <td>x<sup>1</sup></td>
+    <td align="left">Square s</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>2</sup></td>  <td>x<sup>1</sup></td>
+    <td align="left">Next bit is 0, so don't multiply</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>2</sup></td>  <td>x<sup>1</sup></td>
+    <td align="left">Square s</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>4</sup></td>  <td>x<sup>1</sup></td>
+    <td align="left">Next bit is 1, so multiply</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>4</sup></td>  <td>x<sup>5</sup></td>
+    <td align="left">Square s</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>8</sup></td>  <td>x<sup>5</sup></td>
+    <td align="left">Highest bit is 1, so multiply</td>
+</tr>
+<tr align="center" valign="bottom">
+    <td>x<sup>8</sup></td>  <td>x<sup>13</sup></td>
     <td></td>
-</TR>
-</TABLE>
+</tr>
+</table>
 </p>
 
 <p>
