@@ -1,0 +1,23 @@
+# *created  "Tue May 11 09:10:45 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:12:19 2000" *by "Paul E. Black"
+# entry name
+@NAME=adjacent
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=Two {vertices#vertex} of a {graph} are adjacent if there
+is an {edge} between them.  Two {edges} of a graph are adjacent
+if they connect the same vertex.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
