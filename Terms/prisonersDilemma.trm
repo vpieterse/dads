@@ -1,5 +1,11 @@
 # *created  "Wed Feb 17 12:43:49 1999" *by "Paul E. Black"
-# *modified "Fri Feb 23 10:47:54 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:47 2004" *by "Paul E. Black"
+
+# $Log: prisonersDilemma.trm,v $
+# Revision 1.2  2004/12/17 16:53:48  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=prisoner's dilemma
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -17,20 +23,31 @@ both give evidence, both are severely punished.  The overall
 knowing (or trusting) what the other will do, each prisoner's
 (locally) best strategy is to give evidence, which is the worst
 possible outcome.
-<P>
+<p>
 In general, a situation where {local optimization#local optimum}
 leads to the worst possible outcome globally.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={global optimum}, {optimization problem}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This problem is in the area of game theory.
 # further explanation (pure HTML)
-@LINKS=A thorough treatment from <A
-HREF="http://pespmc1.vub.ac.be/PRISDIL.html">Principia Cybernetica</A>
+@LINKS=A thorough treatment from <a
+href="http://pespmc1.vub.ac.be/PRISDIL.html">Principia Cybernetica</a>
 including links to a web-based game and related entries and
 definitions.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/prisonersDilemma.trm,v $
