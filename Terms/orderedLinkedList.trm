@@ -1,0 +1,21 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Wed Aug 30 12:51:37 2000" *by "Paul E. Black"
+# entry name
+@NAME=ordered linked list
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {linked list} whose items have some order.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={ordered array}, {sorted list}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PR
+# end
