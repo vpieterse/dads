@@ -1,0 +1,24 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Wed Jan  2 09:33:38 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=array index
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=The location of an item in an {array}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In most programming languages, the first array index is 0 or 1,
+and indexes continue through the natural numbers.  The upper bound
+of an array is generally language and possibly system specific.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
