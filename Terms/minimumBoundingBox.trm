@@ -1,0 +1,24 @@
+# *created  "Mon Nov 16 15:16:56 1998" *by "Paul E. Black"
+# *modified "Wed Jan  2 11:09:29 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=minimum bounding box
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=The smallest rectangle completely enclosing a set of points.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=MBB
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
