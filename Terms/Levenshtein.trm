@@ -1,0 +1,39 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Tue Jan 29 12:24:49 2002" *by "Paul E. Black"
+# entry name
+@NAME=edit distance
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=The smallest number of insertions, deletions, and substitutions
+required to change one {string} or {tree} into another.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Levenshtein distance
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={edit operation}, {double metaphone}, {soundex}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 14-35,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS= A 33-page paper giving definitions, algorithms, etc. for
+string distances, Levenshtein distance, etc., called <A
+href="http://www.cs.princeton.edu/~ristad/papers/pu-532-96.ps.gz">Learning
+String Edit Distance</A>.
+<A
+href="http://www.php.net/manual/function.levenshtein.php">definition,
+comments, and references to similar functions</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.merriampark.com/ld.htm">Levenshtein distance
+(Java, C++, Visual Basic)</A>
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
