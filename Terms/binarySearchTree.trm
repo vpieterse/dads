@@ -2,6 +2,9 @@
 # *modified "Wed Apr  7 08:59:38 2004" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.6  2004/09/07 16:27:49  black
+# Update Ben Pfaff's URL (again).
+#
 # Revision 1.5  2004/04/07 13:00:10  black
 # Update Ben Pfaff's URL.
 #
@@ -55,7 +58,7 @@ href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstrat
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<A href="http://www.msu.edu/~pfaffben/avl/libavl.html/Binary-Search-Trees.html">insert,
+<A href="http://www.stanford.edu/~blp/avl/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</A>;
 <A
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
