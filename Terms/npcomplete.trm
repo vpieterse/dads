@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Sep 20 10:13:58 2004" *by "Paul E. Black"
+# *modified "Mon Sep 20 12:22:20 2004" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.3  2004/09/20 16:22:24  black
+# Change Comp.Theory FAQ URL.
+#
 # Revision 1.2  2004/09/20 14:33:15  black
 # Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
 # Add RCS keywords.
@@ -52,7 +55,7 @@ tour of a graph.  So bitwise <strong>AND</strong> is not
 NP-complete (as far as we know).
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <A
-href="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</A>, scroll down to <strong>P vs. NP</strong>.  A
 <A href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">compendium
 of NP optimization problems</A>.  
