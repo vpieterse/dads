@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Fri Dec 17 12:24:09 2004" *by "Paul E. Black"
+# *modified "Mon Jan 24 11:55:00 2005" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Revision 1.6  2005/01/24 16:55:40  black
+# Fix Moore example URL.
+#
 # Revision 1.5  2004/12/17 17:24:09  black
 # Make more XHTML compliant.
 #
@@ -60,8 +63,8 @@ SIAM Journal on Computing, 6(2):323-350, 1977.
 @LINKS=
 Series of pages explaining
 <a
-href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kmp-example.html">how
-Knuth-Pratt-Morris works</a>.
+href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kpm-example.html">how
+Knuth-Morris-Pratt works</a>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
