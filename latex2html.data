@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.3 1999/12/09 14:14:10 black Exp $
+# $Id: latex2html.data,v 1.4 2000/01/07 14:59:11 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Thu Dec  9 09:09:24 1999" *by "Paul E. Black"
+# *modified "Fri Jan  7 09:50:35 2000" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -38,6 +38,8 @@
 \pi	<img src="Images/pi.gif"     border=0 height=7  width=8  alt="pi">
 \rho	<img src="Images/rho2.gif"   border=0 height=14 width=6  alt="rho" align=middle>
 \Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="Capital Sigma">
+\phi	<img src="Images/phi.gif"    border=0 height=10 width=9  alt="phi">
+\Phi	<img src="Images/Phi.gif"    border=0 height=10 width=9  alt="Captial Phi">
 \omega	<img src="Images/omega.gif"  border=0 height=7  width=9  alt="omega">
 \Omega	<img src="Images/Omega.gif"  border=0 height=10 width=9  alt="Capital Omega">
 #    Table 3.4: Binary Operation Symbols
@@ -92,6 +94,7 @@
 ``	"
 ''	"
 \sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">($)
+\sqrt		<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">
 \overline{$}	$
 \mbox{$}	$
 \bar{$}		$
