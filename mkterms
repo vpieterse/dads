@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.6 1998/11/16 20:00:36 black Exp $
+# $Id: mkterms,v 1.7 1998/11/17 16:01:25 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Mon Nov 16 14:51:50 1998" *by "Paul E. Black"
+# *modified "Tue Nov 17 10:59:21 1998" *by "Paul E. Black"
 #
 # Collect all terms and format them for a web page.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -193,6 +193,7 @@ while ($entryFile = shift @entries) {
 
     # add this to an "index" for later sorting and printing
     my $ename = $thisEntry{NAME};
+    print STDERR "$ename, " if ($verbose);
     # index some numbers as words
     $ename =~ s/\b2\b/two/g;
     $ename =~ s/\b3\b/three/g;
@@ -207,12 +208,19 @@ while ($entryFile = shift @entries) {
     for $fld (keys %thisEntry) {
 	$entries{$ename}{$fld} = $thisEntry{$fld};
     }
+
+    # remember this entry to check cross references
+    $entriesForXref{$thisEntry{NAME}} = $ename;
 }
+print STDERR "\n" if ($verbose);
 
 
 #------------------------------------------------------------------------
 #
 # Step III: create the web page in a temporary file
+#	-) create a temporary file
+#	a) copy the introduction
+#	b) sort the entries
 #
 #------------------------------------------------------------------------
 
@@ -237,6 +245,24 @@ print TMPPAGE "</h3>\n<hr>";
 @sortedentries = sort keys %entries;
 #print @sortedentries;
 
+#------------------------------------------------------------------------
+#
+# Step IIIc: write each entry
+#
+#------------------------------------------------------------------------
+
+# check cross references
+sub checkXrefs {
+    foreach $xref (split /^[^\#]*href="\#|"[^\#]*href="\#|"[^\#]*$|^[^\#]*$/,
+								$_[0]) {
+	if ($xref ne "") {
+	    if (! defined $entriesForXref{$xref}) {
+		print "\nUnknown HyperREFerence to \"$xref\" in $_[1]\n";
+	    }
+	}
+    }
+}
+
 sub rewriteXrefs {
     # rewrite complex references ( <=> text#xref> ) first
     $_[0] =~ s|<=> ([^>]+)\#([^>]+)>|<a href="\#$2"><em>$1</em></a>|go;
@@ -244,7 +270,7 @@ sub rewriteXrefs {
     $_[0] =~ s|<=> ([^>]+)>|<a href="\#$1"><em>$1</em></a>|go;
 }
 
-# Step IIIb: write the entries
+# Step IIIc: write the entries
 foreach $letter ("A".."Z") {
     print TMPPAGE "<h2><a name=\"$letter\">$letter</a></h2>\n\n";
     print TMPPAGE "<dl>\n"; # beginning of list
@@ -274,7 +300,7 @@ foreach $letter ("A".."Z") {
 	#}
 
 	local($ename) = $thisEntry{NAME};
-	print STDERR " $ename," if ($verbose);
+	print STDERR "$ename, " if ($verbose);
 	print TMPPAGE "<dt><a name=\"$ename\"><em>$ename</em></a>\n";
 
 	if (defined $thisEntry{TYPE}) {
@@ -286,7 +312,7 @@ foreach $letter ("A".."Z") {
 	    local($edefn) = $thisEntry{DEFN};
 	    # convert cross references (<=> ...>) to href's
 	    &rewriteXrefs($edefn);
-	    # SKIMP check cross references
+	    &checkXrefs($edefn, $ename);
 	    # SKIMP? I'm using some marks, such as <sup> in defn's
 	    # "quote" any HTML special characters
 	    #$edefn =~ s/&/&amp;/go;
@@ -300,6 +326,7 @@ foreach $letter ("A".."Z") {
 	    local($exrefs) = $thisEntry{XREFS};
 	    # change cross references (<...>) to href's
 	    $exrefs =~ s|<([^>]+)>|<a href="\#$1"><em>$1</em></a>|go;
+	    &checkXrefs($exrefs, $ename);
 	    # add spaces after commas
 	    $exrefs =~ s|,([^ ])|, $1|go;
 	    print TMPPAGE "See also $exrefs\n";
@@ -313,6 +340,7 @@ foreach $letter ("A".."Z") {
 	    local($enotes) = $thisEntry{NOTES};
 	    # convert cross references (<=> ...>) to href's
 	    &rewriteXrefs($enotes);
+	    &checkXrefs($enotes, $ename);
 	    print TMPPAGE "<dd>(Note: <em>$enotes</em>)\n";
 	}
 	print TMPPAGE "\n";
@@ -326,7 +354,15 @@ foreach $letter ("A".."Z") {
 
 print STDERR "\n" if ($verbose);
 
-# Step IIIc: write areas and entries
+#------------------------------------------------------------------------
+#
+# Step IIId,e,f,g: write areas, types, authors, and copy closing
+#
+#------------------------------------------------------------------------
+
+@sortedentries = sort keys %entries; # sort them again
+
+# Step IIId: write areas and entries
 
 print STDERR "Writing entries by area\n" if ($verbose);
 
@@ -338,7 +374,7 @@ for $area (sort keys %areas) {
     print TMPPAGE "<ul>\n";
 
     # go through all the entries and print those in this area
-    for $ent (sort keys %entries) {
+    for $ent (@sortedentries) {
 	next if ! defined $entries{$ent}{AREA} ||
 			$entries{$ent}{AREA} ne $area;
 	my $entName = $entries{$ent}{NAME};
@@ -347,7 +383,18 @@ for $area (sort keys %areas) {
     print TMPPAGE "</ul>\n\n";
 }
 
-# Step IIId: write types and entries
+# print any entries without an area
+print TMPPAGE "<h2>NO AREA</h2>\n";
+print TMPPAGE "<ul>\n";
+for $ent (@sortedentries) {
+    if (! defined $entries{$ent}{AREA}) {
+	my $entName = $entries{$ent}{NAME};
+	print TMPPAGE "<li><a href=\"\#$entName\">$entName</a>\n";
+    }
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step IIIe: write types and entries
 
 print STDERR "Writing entries by type\n" if ($verbose);
 
@@ -358,8 +405,8 @@ for $tent (keys %types) {
     print TMPPAGE "<h2>$types{$tent}</h2>\n";
     print TMPPAGE "<ul>\n";
 
-    # go through all the entries and print those in this area
-    for $ent (sort keys %entries) {
+    # go through all the entries and print those of this type
+    for $ent (@sortedentries) {
 	next if ! defined $entries{$ent}{TYPE} ||
 			$entries{$ent}{TYPE} ne $tent;
 	my $entName = $entries{$ent}{NAME};
@@ -368,7 +415,18 @@ for $tent (keys %types) {
     print TMPPAGE "</ul>\n\n";
 }
 
-# Step IIIe: write authors
+# print those with no type
+print TMPPAGE "<h2>NO TYPE</h2>\n";
+print TMPPAGE "<ul>\n";
+for $ent (@sortedentries) {
+    if (! defined $entries{$ent}{TYPE}) {
+	my $entName = $entries{$ent}{NAME};
+	print TMPPAGE "<li><a href=\"\#$entName\">$entName</a>\n";
+    }
+}
+print TMPPAGE "</ul>\n\n";
+
+# Step IIIf: write authors
 
 print STDERR "Writing authors\n" if ($verbose);
 
@@ -400,7 +458,7 @@ for $akey (sort keys %authors) {
 
 print TMPPAGE "</dl>\n\n";
 
-# Step IIIf: copy the closing
+# Step IIIg: copy the closing
 &concatenate("$WEBPAGE.concl", TMPPAGE);
 
 close TMPPAGE;
