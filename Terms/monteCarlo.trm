@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec  9 09:45:04 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:18 2004" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.5  2004/12/17 17:24:18  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/12/09 14:46:55  black
 # Contrast Monte Carlo and Las Vegas algorithms.  This is a Technique,
 # not a Definition.
@@ -45,9 +48,9 @@ From Algorithms and Theory of Computation Handbook, 15-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
-</P>
+</p>
 
-<P>
+<p>
 A Monte Carlo algorithm gives more precise results the longer you run
 it.  A Las Vegas algorithm gives exactly the right answer, but the run
 time is indeterminate.
@@ -55,14 +58,14 @@ time is indeterminate.
 # further explanation (pure HTML)
 @LINKS=
 An excellent
-<A
+<a
 href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
-introduction</A> with history.
-An example of <A
-href="http://www.chem.unl.edu/zeng/joy/mclab/mcintro.html">calculating Pi</A>.
+introduction</a> with history.
+An example of <a
+href="http://www.chem.unl.edu/zeng/joy/mclab/mcintro.html">calculating Pi</a>.
 Brian T. Luke's Learning from the Web pages on
-<A href="http://btluke.members.easyspace.com/montecs.html">Monte Carlo
-Simulation</A>.
+<a href="http://btluke.members.easyspace.com/montecs.html">Monte Carlo
+Simulation</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
