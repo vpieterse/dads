@@ -1,0 +1,24 @@
+# *created  "Wed Dec 23 08:17:54 1998" *by "Paul E. Black"
+# *modified "Tue Dec  3 10:31:55 2002" *by "Paul E. Black"
+# entry name
+@NAME=sorted array
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An {array} whose items are kept sorted, often so searching is
+faster.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary search}, {interpolation search}, {ordered array}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.ins.c">Insert
+(C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
