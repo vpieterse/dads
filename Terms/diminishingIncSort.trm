@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 29 12:11:52 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 12:35:59 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=diminishing increment sort
@@ -27,8 +27,9 @@ $i$, is reduced until it is 1 for the last pass.
 Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Since items may move large distances at first, this method is
-quite efficient.  Donald E. Knuth extensively analyses this algorithm
-in <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.2.1]</A>.  A good set
+quite efficient.  Donald E. Knuth extensively analyzes this algorithm
+in <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.2.1]</A>.
+A good set 
 of increments may be 2<sup>k</sup>+1, . . ., 9, 5, 3, 1 with the first
 increment no more than $N/3$.
 </P>
