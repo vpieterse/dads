@@ -1,0 +1,36 @@
+# *created  "Wed May  5 14:32:21 1999" *by "Paul E. Black"
+# *modified "Wed Jan  9 16:29:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=balance
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=tree
+# the definition
+@DEFN=The (weight) balance of a tree is the number of {leaves#leaf}
+of the left subtree of a tree, denoted |T<sub>l</sub>|, divided
+by the total number of leaves of the tree.  Formally, $\rho(T)$
+ = |T<sub>l</sub>|/|T|.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=root balance
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={weight-balanced tree}, {height-balanced tree}, {right
+rotation}, {left rotation}, {relaxed balance}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The balance of a node is the balance of the (sub)tree rooted at
+that node.
+After <strong>Johann Blieberger</strong>
+&lt;blieb@auto.tuwien.ac.at&gt;, <em>Discrete Loops and Worst Case
+Performance</em>, page 22.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
