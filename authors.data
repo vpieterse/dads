@@ -1,11 +1,12 @@
-# $Id: authors.data,v 1.12 2004/01/15 16:39:44 black Exp $
+# $Id: authors.data,v 1.13 2004/09/22 13:35:04 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
 #	Initials<tab>Name<tab>(comma separated
 #	e-mails [with @] or URLs)
+#    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Thu Jan 15 11:39:19 2004" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:12:04 2004" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -28,6 +29,7 @@ SKS	Sandeep Kumar Shukla
 GS	Gopinath Srinivasan	s.gopinath@in.ibm.com
 PMS	Paul M. Sant	sant@dcs.kcl.ac.uk
 PS	Paul Steffas	Paul_Steffas@amat.com
+PHS	Per H&aring;kan Sundell	phs@cs.chalmers.se
 PJT	Paul J. Tanenbaum	pjt@ARL.MIL, http://ftp.arl.mil/~pjt/
 LJW	Lawrence J. Wobker	ljwobker@pobox.com
 VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com, http://www.geocities.com/SiliconValley/Garage/3323/
