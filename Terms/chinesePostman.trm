@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec 18 11:02:38 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:12:45 2004" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Revision 1.5  2004/12/17 17:12:46  black
+# Refine XREFS into IMA, etc.  Make more XHTML compliant.
+#
 # Revision 1.4  2003/12/18 16:11:35  black
 # Break out the historical note into a new, separate field.
 #
@@ -26,13 +29,24 @@ at least once.  Finding an optimal solution in a graph with both
 {NP-complete}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=CPP
 # comma-separated list of {cross references}.  printed as "See also ..."
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Hamiltonian cycle}, {Euler cycle}, {traveling salesman},
+
 {vehicle routing problem},
 {optimization problem}
 @BIB=
@@ -59,21 +73,21 @@ trucks, school buses, etc.  A good algorithm is given in
 <strong>Jack Edmonds</strong> and <strong>Ellis L. Johnson</strong>, 
 <em>Matching, Euler Tours, and the Chinese Postman</em>,
 Mathematical Programming, 5:88-124, 1973.
-</P>
+</p>
 
-<P>
+<p>
 From Algorithms and Theory of Computation Handbook, page 6-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
-</P>
+</p>
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(C++,
 Mathematica
-and Fortran)</A>
+and Fortran)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/chinesePostman.trm,v $
