@@ -1,0 +1,34 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb 12 12:09:01 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=multiplication method
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=search
+# the definition
+@DEFN=A {hash function} that uses the first $p$ bits of the {key}
+times an irrational number.
+# formal definition or {cross reference} to an entry
+@FORML=$h(k) = \lfloor m(k A (mod 1)) \rfloor$, where $m$ is usually
+an integer $2<sup>p</sup>$ and $A$ is an irrational number (or an
+approximation thereto) $0 &lt; A &lt; 1$.  The modulo 1
+operation removes the integer part of $k \times A$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=multiplicative hashing
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">explanation,
+example, and guide to choosing A</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
