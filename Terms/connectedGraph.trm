@@ -1,0 +1,30 @@
+# *created  "Tue Dec  1 11:37:30 1998" *by "Paul E. Black"
+# *modified "Fri Dec 27 10:11:36 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=connected graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=An {undirected graph} that has a {path} between every pair of
+{vertices#vertex}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={complete graph}, {biconnected graph}, {triconnected graph},
+{strongly connected
+graph}, {forest}, {bridge}, {reachable}, {maximally connected
+component},
+{connected components}, {vertex connectivity}, {edge connectivity}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+After LK.
+# author's initials
+@AUTHOR=PEB
+# end
