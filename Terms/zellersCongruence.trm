@@ -1,5 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Mon Jul  1 11:45:21 2002" *by "Paul E. Black"
+# *modified "Fri Apr 30 09:31:45 2004" *by "Paul E. Black"
+
+# $Log: zellersCongruence.trm,v $
+# Revision 1.2  2004/04/30 13:33:00  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Update Stockton's URL.
+#
 
 # entry name
 @NAME=Zeller's congruence
@@ -15,18 +20,30 @@
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Zeller's algorithm
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Doomsday rule}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>Christian Zeller</strong>, <em>Kalender-Formeln</em>,
-Acta Mathematica, 9:131-6, 1886-7.
+Acta Mathematica, 9:131-6, Nov 1886.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
 @IMPL=Dr J R Stockton's <A
-href="http://www.merlyn.demon.co.uk/weekinfo.htm#Zeller">The Calendar
-Week (Pascal)</A>.  View Page Source and search for text/javascript
-for JavaScript code.
+href="http://www.merlyn.demon.co.uk/zeller-c.htm#ZC">Zeller's
+congruence, for day-of-week (Pascal, JavaScript)</A>.  Includes tests
+and code for Easter, Zeller's original papers (in German and English
+translations), etc.
 Comp.lang.c FAQ <A
 href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 17.28 (C)</A>.
@@ -35,4 +52,4 @@ href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</A>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/zellersCongruence.trm,v $
