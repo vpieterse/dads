@@ -1,5 +1,11 @@
 # *created  "Wed Jul  7 08:37:51 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:03:40 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:00 2004" *by "Paul E. Black"
+
+# $Log: raita.trm,v $
+# Revision 1.2  2004/12/17 16:54:00  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=Raita
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,14 +14,25 @@
 @AREA=search
 # the definition
 @DEFN=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A HREF="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
+@IMPL=Christian Charras' and Thierry Lecroq's <a href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</a>
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/raita.trm,v $
