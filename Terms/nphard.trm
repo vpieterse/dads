@@ -1,0 +1,57 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Thu Dec 26 10:43:36 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=NP-hard
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The {complexity class} of {decision problems} that are
+intrinsically harder
+than those that can be solved by a {nondeterministic Turing machine}
+in {polynomial time}.  When a decision version of a
+combinatorial {optimization problem} is proven to belong to the class
+of {NP-complete} problems, which includes well-known problems such as
+satisfiability, {traveling salesman}, the {bin packing problem}, etc., 
+then the optimization version is NP-hard.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={strongly NP-hard}, {AP}, {unbounded knapsack problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For example, "is there a tour with length less than k" is
+NP-complete: it is easy to determine if a proposed {certificate} has
+length less than k.  The optimization problem, "what is the shortest
+tour?", is NP-hard, since there is no easy way to determine if a
+certificate is the shortest.
+</P>
+
+<P>
+Another example of an NP-complete problem is to decide if there exist
+$k$ {star-shaped polygons} whose union is equal to a given simple
+polygon, for some
+parameter $k$.  The optimization problem, i.e.,
+finding the minimum number (least $k$) of star-shaped polygons whose
+union is equal to a given simple polygon, is NP-hard.
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, page 19-26,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=History, definitions, examples, etc. given in <A
+href="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+FAQ</A>, scroll down to <strong>P vs. NP</strong>.
+</P>
+
+<P>
+Scott Aaronson's
+<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+Zoo</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
