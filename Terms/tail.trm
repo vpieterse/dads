@@ -1,0 +1,21 @@
+# *created  "Fri Sep 18 11:55:24 1998" *by "Paul E. Black"
+# *modified "Fri Apr 25 13:14:18 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=tail
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=(1) The last item of a {list}.
+(2) All but the first item of a list; the list following the head.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={head}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The first definition is common when building lists from
+other language constructs, such as C pointers.  The second definition
+occurs in languages with primitive list types, such as ML or Lisp.
+# author's initials
+@AUTHOR=PEB
+# end
