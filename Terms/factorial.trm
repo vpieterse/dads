@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan  7 10:56:27 2003" *by "Paul E. Black"
+# *modified "Mon Nov 10 12:35:16 2003" *by "Paul E. Black"
+
+# $Log: factorial.trm,v $
+# Revision 1.2  2003/11/10 17:36:32  black
+# Add link to fast factorial algorithm
+#
 
 # entry name
 @NAME=factorial
@@ -24,7 +29,11 @@ e<sup>-x</sup>dx = 1$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</A>
+@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</A>.
+Christer Ericson's
+<A
+href="http://groups.google.com/groups?selm=christer.689772066@berghem">fast
+factorial (C)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/factorial.trm,v $
