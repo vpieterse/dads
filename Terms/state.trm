@@ -1,5 +1,11 @@
 # *created  "Fri Feb 26 16:52:15 1999" *by "Paul E. Black"
-# *modified "Wed Apr  5 09:07:17 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:07:55 2004" *by "Paul E. Black"
+
+# $Log: state.trm,v $
+# Revision 1.2  2004/12/17 17:07:56  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=state
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=The condition of a {finite state machine} or {Turing machine} at
 a certain time.  Informally, the content of memory.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={start state}, {accepting state}, {next state}, {universal
+
 state}, {existential state}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -20,4 +37,4 @@ state}, {existential state}
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/state.trm,v $
