@@ -1,0 +1,35 @@
+# *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
+# *modified "Tue Dec 11 13:37:11 2001" *by "Paul E. Black"
+# entry name
+@NAME=suffix tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A compact representation of a {trie}
+corresponding to the {suffixes} of a given {string} where all
+{nodes} with one {child} are merged with their {parents}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={multi suffix tree},{Patricia tree}, {suffix array}, {directed
+acyclic word graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A suffix tree is a Patricia tree corresponding to the suffixes
+of a given string.  A directed acyclic word graph (DAWG) is a more
+compact form.
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.informatik.uni-freiburg.de/~edelkamp/MultiSuffixTree.html">Multi Suffix Trees</A>,
+<A href="http://www.dna.lth.se/~jesper/research.html">links to papers</A>
+# implementation(s) (pure HTML)
+@IMPL=Strmat - a variety of <A
+href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">string matching
+and pattern discovery algorithms (C)</A>
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/suffix-trees.shtml">(C++
+and Pascal)</A>,
+<A href="http://users.starpower.net/marti1/markov.lisp">generate
+random text (clisp)</A> and in
+<A href="http://www.ddj.com/ftp/2001/2001_04/aa0401.txt">(C)</A>.
+# author's initials
+@AUTHOR=SE
+# end
