@@ -1,0 +1,27 @@
+# *created  "Fri Sep 18 10:01:36 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:02:39 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A collection of items accessible one after another beginning at the
+{head} and ending at the {tail}.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={linked list},{doubly linked list},{circular list},{bag}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=Jonathan G. Campbell's <A
+href="http://www.cs.qub.ac.uk/~J.Campbell/myweb/oop/oophtml/node15.html">List
+Class (C++)</A>
+# further explanation (pure HTML)
+@LINKS=Tutorial, diagrams, and code (C++) of
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Lists_in_Array/lists_in_array.html">array implementation</A>.
+# author's initials
+@AUTHOR=PEB
+# end
