@@ -1,5 +1,14 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:34:52 2003" *by "Paul E. Black"
+# *modified "Mon Aug 16 11:22:13 2004" *by "Paul E. Black"
+
+# $Log: linkedList.trm,v $
+# Revision 1.3  2004/08/16 15:37:08  black
+# Remove XREF to skip list since it is an ordered linked list, not just
+# a linked list.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
 
 # entry name
 @NAME=linked list
@@ -16,15 +25,26 @@ to the next item.
 @AKA=singly linked list
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of cross references, i.e., See also ...
-@XREFS={doubly linked list},{skip list}, {ordered linked list},
-{circular list}, {move-to-front heuristic}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={doubly linked list}, {ordered linked list}, {circular list}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={move-to-front heuristic}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The first item, or {head}, is
 accessed from a fixed location, called a ``head pointer.''
 An ordinary linked list must be searched with a 
 {linear search}.  Average search time may be improved using a 
-{move-to-front heuristic} in some cases.
+{move-to-front heuristic} in some cases or keeping it an
+{ordered linked list}.
 An {external index}, such as a {hash table}, {inverted index}, or
 auxiliary {search tree} may be used as a ``cross index'' to help find
 items quickly.
@@ -47,4 +67,4 @@ examples, iterators, sorting lists, etc. (C++)</A>,
 <A href="http://www.fortunecity.com/skyscraper/false/780/linklist.html">(C++)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/linkedList.trm,v $
