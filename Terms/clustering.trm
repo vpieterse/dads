@@ -1,0 +1,27 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Jan 20 16:43:10 2000" *by "Paul E. Black"
+# entry name
+@NAME=clustering
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The tendency for entries in a {hash table} which uses {open
+addressing} to be stored together, even when the table has ample empty
+space to spread them out.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={primary clustering}, {secondary clustering}, {k-clustering},
+{clustering free}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Clustering leads to inefficiency because the chances are higher
+that the place you want to put an item is already filled.  The effect
+is like having a high {load factor} in the areas with clustering, even
+though the overall load factor may be quite low.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
