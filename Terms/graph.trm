@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:37:53 2004" *by "Paul E. Black"
+# *modified "Thu Nov  4 12:15:23 2004" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.8  2004/11/04 17:31:46  black
+# Add digraph as VARIANT, since it is used so much.  Add new term
+# "dominate" to XREFS and organize them.
+#
 # Revision 1.7  2004/08/13 19:00:47  black
 # Link to Jung and jdsl IMPLs.
 #
@@ -51,6 +55,7 @@ If the graph does not allow {self-loops}, adjacency is {irreflexive}.
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={directed graph}, {undirected graph}, {acyclic graph},
+{directed acyclic graph},
 {planar graph}, {biconnected graph}, {connected graph}, 
 {complete graph}, {dense graph}, {sparse graph},
 {hypergraph}, {multigraph}, {labeled graph},
@@ -61,9 +66,14 @@ If the graph does not allow {self-loops}, adjacency is {irreflexive}.
 # Aggregate child: "... is a part of or used in me."
 @INME={vertex}, {edge}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={self-loop}, {isomorphic},
-{homeomorphic}, {graph drawing}, {diameter}, {degree}, {dual}, 
+@XREFS=Relations between vertices: {adjacent}, {self-loop}, {dominate},
+Relations between graphs: {isomorphic}, {homeomorphic}, {dual},
+{subgraph},
+Properties: {diameter}, {degree},
+Implementations: 
 {adjacency-list representation}, {adjacency-matrix representation}
+Other: {graph drawing}.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Graphs are so general that many other data structures, such as
 {trees}, are just special kinds of graphs.
