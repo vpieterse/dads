@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 14:10:54 1998" *by "Paul E. Black"
-# *modified "Thu Oct 14 14:35:57 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 16:31:02 2004" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Revision 1.5  2004/10/14 20:31:25  black
+# Fix spelling of conversions.
+#
 # Revision 1.4  2004/10/14 18:36:52  black
 # This is a VARIANT of AVL tree.  Add Kaz's Austin IMPL.
 #
@@ -88,7 +91,7 @@ implementing dictionary, dynamic hash table, red-black tree, and
 doubly linked list;
 <A href="http://users.footprints.net/~kaz/austin.html">Austin (C)</A>
 implementing sorted list, binary search tree, AVL, red-black and splay
-trees and convertions from any of these to any other.
+trees and conversions from any of these to any other.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/redblack.trm,v $
