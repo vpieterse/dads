@@ -1,0 +1,95 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Sep 27 10:11:04 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=recursion
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An algorithmic technique where a function, in order to
+accomplish a task, calls itself with some part of the task.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={iteration}, {divide and conquer}, {tail recursion},
+{collective recursion},
+{divide and marriage before conquest}, {recursive}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Recursive solutions involve two major parts, the second part having
+three components.
+<ul>
+<li><strong>base case(s)</strong>, in which the problem is simple enough to be
+solved directly, and 
+<li><strong>recursive case(s)</strong>.  A recursive case has three components: 
+
+<ol>
+<li><strong>divide</strong> the problem into one or more simpler or smaller
+parts of the problem, 
+<li><strong>call</strong> the function (recursively) on each part, and 
+<li><strong>combine</strong> the solutions of the parts into a solution for
+the problem.
+</ol>
+
+</ul>
+Depending on the problem, any of these may be trivial or complex.
+</P>
+
+<P>
+Here are some exercises to help you learn recursion.  Although
+recursion may not be the best way to write some of the functions here,
+it is good practice.  There are more exercises at Erwin's
+<em>Programming with Recursion</em> tutorial.
+<ol>
+<li>Write a function to compute the sum of all numbers from 1 to n.
+
+<li>Write a function to compute 2 to the
+power of a non-negative integer.
+
+<li>Write a function to compute any number 
+to the power of a non-negative integer.
+
+<li>Write a function to compute the nth {Fibonacci number}.
+
+<li>Write a function to compute the greatest common divisor (GCD) of
+two positive integers with {Euclid's algorithm}.
+
+<li>Write a function to compute GCD based on
+the following relations
+<ul>
+<li>GCD(2m, 2n) = 2 * GCD(m, n)
+<li>GCD(2m, 2n+1) = GCD(m, 2n+1)
+<li>GCD(2m+1, 2n+1) = GCD(n-m, 2m+1)  if m < n
+<li>GCD(m, m) = m
+</ul>
+(after "ML for the Working Programmer", page 49).
+
+<li>Write a function to compute any number to the power of a positive
+integer using squaring, that is,
+$x<sup>2n</sup> = (x<sup>n</sup>)<sup>2</sup>$ and
+$x<sup>2n+1</sup> = x \times x<sup>2n</sup>$.
+(after "ML for the Working Programmer", pages 45 and 46).
+
+<li>Write a function to compute the integer square root of a
+non-negative integer using square_root(4x) = 2*square_root(x).
+(after "ML for the Working Programmer", pages 48 and 49).
+
+</ol>
+
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+See <A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/dynamic.html#fibonacci">dynamic
+algorithms</A> for an example of one trade-off between speed and
+clarity for a recursive vs. an iterative implementation.  
+See the notes for the 
+<A href="http://www.nist.gov/dads/HTML/towersOfHanoi.html">towers of
+Hanoi</A> puzzle for another recursive and iterative solution.
+Erwin's <A
+href="http://personal.vsnl.com/erwin/recursion.htm">Programming with
+Recursion tutorial</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB, PR
+# end
