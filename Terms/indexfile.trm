@@ -1,0 +1,27 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Feb 23 10:37:54 2001" *by "Paul E. Black"
+# entry name
+@NAME=index file
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A file which stores {keys} and an index into another file.  The
+index file may have additional structure, e.g., be a {B-tree}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={inverted index}, {forward index}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=An index file is helpful if records are large: the keys and
+indexes can be extracted, sorted, and the original file accessed
+faster than the original file could be rearranged into sorted order.
+Also if the file needs to be accessed by different keys at the same
+time, it cannot be sorted by all of them.  So a index file is
+maintained for each different key.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
