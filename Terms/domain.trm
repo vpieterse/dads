@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Sat Aug 28 10:21:51 1999" *by "Paul E. Black"
+# entry name
+@NAME=domain
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=(1) The inputs for which a {function} or {relation} is defined.
+For instance, 0 is not in the domain of reciprocal ($1/x$).  (2) The
+possible values of a variable.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={range}, {total function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
