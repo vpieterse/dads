@@ -1,5 +1,14 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Tue Oct 14 13:16:53 2003" *by "Paul E. Black"
+# *modified "Fri Mar 19 13:27:01 2004" *by "Paul E. Black"
+
+# $Log: directedGraph.trm,v $
+# Revision 1.3  2004/03/19 18:28:09  black
+# Refine XREFS into IMA, etc.  Add strongly connected graph, source, and
+# sink.  Put Warfield's historical comment in HISTORY.
+#
+# Revision 1.2  2003/10/14 17:17:21  black
+# Use more regular plural of vertex.  Add href for name.
+#
 
 # entry name
 @NAME=directed graph
@@ -10,7 +19,7 @@
 # the definition
 @DEFN=A {graph} whose {edges} are <em>ordered</em> pairs of 
 {vertexes}.  That is, each edge can be followed from one vertex
-to the next.
+to another vertex.
 # formal definition or {cross reference} to an entry
 @FORML=A graph G is a pair (V,E), where V is a set
 of vertexes, and E is a set of edges between the vertexes
@@ -20,10 +29,20 @@ that is
 $E = \{(u,v) | u, v \in V \wedge u \neq v}$. 
 # comma-separated list of pure names
 @AKA=digraph, oriented graph
-# comma-separated list of cross references, i.e., See also ...
-@XREFS={directed acyclic graph},{undirected graph}, {weighted,
-directed graph}, {hypergraph},
-{multigraph}, {in-degree}, {out-degree}, {arborescence}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={graph}
+# Specialization: "... is a kind of me."
+@VARIANT={directed acyclic graph}, {weighted, directed graph},
+{strongly connected graph}, {arborescence}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={source}, {sink}, {in-degree}, {out-degree}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={undirected graph}, {hypergraph}, {multigraph}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 In contrast, undirected graphs merely connect the vertexes, without
@@ -34,8 +53,9 @@ A directed graph may be thought of as a neighborhood of one-way
 streets: your map must show the direction one may travel on each
 street.  A regular two-way street may be thought of as two one-way
 streets.
-</P>
-<P>
+
+# any historical notes
+@HISTORY=
 John N. Warfield &lt;Jnwarfield@aol.com&gt; provides the following
 history of digraphs.
 </P>
@@ -71,8 +91,10 @@ If you find an earlier digraph, please contact me,
 </P>
 <P>
 The best modern reference is the book by Harary, Norman, and
-Cartwright (1966?) titled "Structural Modeling---The Theory of
+Cartwright (John Wiley &amp; Sons, 1965) titled "Structural
+Modeling---The Theory of
 Directed Graphs".
+
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
