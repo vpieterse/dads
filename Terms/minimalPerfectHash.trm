@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:26 2004" *by "Paul E. Black"
+# *modified "Mon Jan 10 11:20:05 2005" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.5  2005/01/10 16:22:00  black
+# Update metalab.unc (mph) URL to ibiblio.org.
+#
 # Revision 1.4  2004/12/17 17:28:26  black
 # Make more XHTML compliant.
 #
@@ -61,7 +64,7 @@ CACM, 35(1):105-121, January 1992.
 Description and code for <a
 href="http://burtleburtle.net/bob/hash/perfect.html">minimal perfect
 hashing (C)</a>,
-<a href="http://metalab.unc.edu/pub/Linux/devel/lang/c/!INDEX.short.html">
+<a href="http://www.ibiblio.org/pub/Linux/devel/lang/c/!INDEX.short.html">
 mph: minimal perfect hash function generator (C)</a>,
 <a
 href="http://www.cco.caltech.edu/cco/texinfo/libgplusplus/gperf_3.html">gperf:
