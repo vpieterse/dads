@@ -1,12 +1,15 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Wed May  5 15:44:17 2004" *by "Paul E. Black"
+# *modified "Mon Nov  1 12:21:21 2004" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.6  2004/11/01 17:21:25  black
+# Change caverphone to Caverphone
+#
 # Revision 1.5  2004/05/05 19:44:19  black
 # Rename edit distance to be Levenshtein distance.
 #
 # Revision 1.4  2004/04/16 12:32:23  black
-# Change phonetic matching to phonetic coding.  Add caverphone and a
+# Change phonetic matching to phonetic coding.  Add Caverphone and a
 # link to a Cobol implementation.
 #
 # Revision 1.3  2004/04/09 20:22:06  black
@@ -38,7 +41,7 @@ different spellings.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={double metaphone}, {Jaro-Winkler}, {caverphone}, {NYSIIS},
+@XREFS={double metaphone}, {Jaro-Winkler}, {Caverphone}, {NYSIIS},
 {Levenshtein distance}
 
 # any notes.  these will not be printed in the final dictionary
