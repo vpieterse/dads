@@ -1,0 +1,44 @@
+# *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
+# *modified "Wed Jan 30 10:40:47 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=towers of Hanoi
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Given three posts (towers) and <em>n</em> disks of decreasing
+sizes, move the disks from one post to another one at a time without
+putting a larger disk on a smaller one.  The minimum is
+2<sup>n</sup>-1 moves.  The "ancient legend" was invented by De
+Parville in 1884.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A solution using {recursion} is: to move <em>n</em> disks
+from post A to post B 1) recursively move the top <em>n-1</em>
+disks from post A to C, 2) move the <em>n<sup>th</sup></em> disk from A to B,
+and 3) recursively move the <em>n-1</em> disks from C to B.  A
+solution using {iteration} is: on odd-numbered moves, move the
+smallest disk clockwise.  On even-numbered moves, make the single
+other move which is possible.
+</P>
+
+<P>
+<A href="../terms.html#GCG92">[GCG92]</A> gives generalizations of the
+puzzle, algorithms, and proofs.
+# further explanation (pure HTML)
+@LINKS=The <A
+href="http://rec-puzzles.org/">Puzzle
+Archive</A> gives 
+<A
+href="http://rec-puzzles.org/induction.html">background
+and a recursive and an iterative solution</A>.
+<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ToHdb.html">demonstration</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://javascript.internet.com/games/hanoi.html">(JavaScript)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
