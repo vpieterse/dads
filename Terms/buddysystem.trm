@@ -1,0 +1,24 @@
+# *created  "Wed Feb 17 12:40:41 1999" *by "Paul E. Black"
+# *modified "Thu Dec 28 11:29:44 2000" *by "Paul E. Black"
+# entry name
+@NAME=buddy system
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=A memory allocation strategy which recursively divides
+allocatable {blocks} of memory into pairs of adjacent equal-sized blocks
+called "buddies."
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is included to minimize confusion with a {buddy tree}.
+After LK.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
