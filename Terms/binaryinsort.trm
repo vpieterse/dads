@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 09:20:29 1999" *by "Paul E. Black"
+# *modified "Thu Mar 21 13:35:43 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=binary insertion sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN={Insertion sort} in which the proper location
+for the next item is found with a {binary search}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/412c.sort.c">(C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
