@@ -1,0 +1,46 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Jul 31 11:00:02 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=connected components
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=The {set} of {maximally connected components} of an {undirected graph}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={connected graph}, {biconnected component}, {undirected graph},
+{subgraph}, {clique}, {strongly connected components}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If a graph is {connected#connected graph}, it has only one
+connected component.
+</P>
+
+<P>
+Let $G=(V, E)$ be a graph and
+$G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
+G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
+be its connected components.  Every vertex is in exactly in one
+connected component.  
+Formally, for all $i \neq j, V<sub>i</sub>\cap V<sub>j</sub>=\emptyset$.
+Further, $V=V<sub>1</sub>\cup\ldots\cup V<sub>m</sub>$ and 
+$E=E<sub>1</sub>\cup\ldots\cup E<sub>m</sub>$.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
+Pascal, Mathematica, and Fortran)</A>
+# author's initials
+@AUTHOR=AL
+# end
+
+
+
