@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Dec  4 09:16:32 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=sink
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {vertex} of a {directed graph} with no outgoing
+{edges}.  More formally, a vertex with with {out-degree} 0.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={source}, {supersink}, {flow network}, {critical path problem},
+{multi-commodity flow}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Conceptually, a final destination of whatever is flowing
+through the graph.  
+In UML, a consumer of data in a design.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
