@@ -1,0 +1,33 @@
+# *created  "Thu Mar  4 11:45:24 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 15:45:32 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=two-way merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN=A {k-way merge sort} that sorts a data stream using repeated
+merges.  It distributes the input into two streams by
+repeatedly reading a
+{block} of input that fits in memory, a <em>run</em>, sorting it, then
+writing it to the next stream.  It merges runs from the two
+streams into an output stream.  It then repeatedly distributes the
+runs in the output stream to the two streams and merges them
+until there is a single sorted output.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={balanced two-way merge sort}, {merge sort}, 
+{simple merge},
+{balanced merge sort}, {nonbalanced merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is an {external sort}.
+# further explanation (pure HTML)
+@LINKS=
+<A HREF="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
