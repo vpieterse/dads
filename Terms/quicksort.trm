@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Fri Sep  5 08:34:45 2003" *by "Paul E. Black"
+# *modified "Mon Sep 29 12:35:06 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=quicksort
@@ -34,8 +34,21 @@ optimal for comparison sorts.
 </P>
 
 <P>
-{Select} can be used to always picks good pivots, thus giving a
+{Select} can be used to always pick good pivots, thus giving a
 variant with {$O(n \log n)$#big-O notation} worst-case running time.
+
+# M. Douglas McIlroy
+# A Killer Adversary for Quicksort
+# Software-Practice and Experience 29 (1999) 341-344
+# http://www.cs.dartmouth.edu/~doug/mdmspe.pdf accessed 29 Sept 2003
+#	A program that "watches" the choices any quicksort-like
+# program makes and chooses the pessimal values, i.e., the values to
+# force quadratic run time.  If the sort program only moves pointers
+# and the adversary only changes values, the original input can be
+# easily recovered.
+#	The algorithm is called "antiquicksort"
+# http://www.cs.dartmouth.edu/~doug/aqsort.c
+
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://www.cs.princeton.edu/~rs/">Robert
 Sedgewick's</A> talk showing that with Bentley-McIlroy 3-way
