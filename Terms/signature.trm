@@ -1,0 +1,25 @@
+# *created  "Wed Mar 22 13:18:44 2000" *by "Patrick Rodgers"
+# *modified "Tue Apr  4 15:57:51 2000" *by "Paul E. Black"
+# entry name
+@NAME=signature
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=The types or {domains}, and order, in some representations, of
+inputs to and outputs from a {function}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, the signature of the C library function
+<tt>strncmp()</tt> (compare up to $n$ characters of two {strings}) is
+<tt>int (char *, char *, int)</tt>.  That is, it takes two C strings
+and an integer, and returns an integer.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
