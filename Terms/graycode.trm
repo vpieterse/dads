@@ -1,0 +1,104 @@
+# *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
+# *modified "Mon Aug 26 11:37:30 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Gray code
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=An ordering of $2<sup>n</sup>$ binary numbers such that only one
+bit changes from one entry to the next.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=grey code
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Karnaugh map}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Gray codes are useful in mechanical encoders since a slight
+change in location only affects one bit.  Using a typical binary code,
+up to $n$ bits could change, and slight misalignments between reading
+elements could cause wildly incorrect readings.
+</P>
+
+<P>
+One Gray code for 3 bits is (000, 010, 011, 001, 101, 111, 110, 100).
+Gray codes are not unique.
+An n-bit Gray code corresponds to a {Hamiltonian cycle} on an
+n-dimensional hypercube.  
+</P>
+
+<P>
+One way to construct a Gray code for $n$ bits is to take a Gray
+code for $n-1$ bits with each code prefixed by 0 (for the first half
+of the code) and append the $n-1$ Gray code reversed with each code
+prefixed by 1 (for the second half).  This is called a
+"binary-reflected Gray code".  Here is an example of creating a
+3-bit Gray code from a 2-bit Gray code.
+<table>
+<tr>
+<td align="right">00</td><td align="right">01</td>
+<td align="right">11</td><td align="right">10</td>
+<td colspan="4"></td>
+<td>A Gray code for 2 bits</td>
+</tr>
+
+<tr>
+<td align="right">000</td><td align="right">001</td>
+<td align="right">011</td><td align="right">010</td>
+<td colspan="4"></td>
+<td>the 2-bit code with "0" prefixes</td>
+</tr>
+
+<tr>
+<td colspan="4"></td>
+<td align="right">10</td><td align="right">11</td>
+<td align="right">01</td><td align="right">00</td>
+<td>the 2-bit code in reverse order</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+<td align="right">110</td><td align="right">111</td>
+<td align="right">101</td><td align="right">100</td>
+<td>the reversed code with "1" prefixes</td>
+</tr>
+
+<tr>
+<td align="right">000</td><td align="right">001</td><td align="right">011</td>
+<td align="right">010</td><td align="right">110</td><td align="right">111</td>
+<td align="right">101</td><td align="right">100</td>
+<td>A Gray code for 3 bits</td>
+</tr>
+</table>
+</P>
+
+<P>
+A Gray code was used in a telegraph demonstrated by French engineer 
+&Eacute;mile Baudot in 1878.  The codes were first patented by Frank Gray, a
+Bell Labs researcher, in 1953.
+# further explanation (pure HTML)
+@LINKS=
+Pictures of a 
+<A href="http://www.ida.net/users/tetonsl/railroad/graycode.htm">Gray
+code rotary railroad control</A>.
+# implementation(s) (pure HTML)
+@IMPL=Glenn Rhoads' <A
+href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (c)</A>.
+<A
+href="http://www.cs.bham.ac.uk/Mirrors/ftp.de.uu.net/EC/clife/www/Q21.htm">binary-to-Gray
+and Gray-to-binary conversion (C)</A> with history, references, and
+application to genetic algorithms.
+<A href="http://lib-www.lanl.gov/numerical/bookcpdf/c20-2.pdf">convert
+between binary and Gray (C)</A>: a PDF document of section 20.2 of
+<em>Numerical recipes in C</em>,
+<A
+href="http://web.usna.navy.mil/~wdj/gray.htm">binary-to-Gray, code
+generation, and plotting (Maple)</A> with applications and references.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
