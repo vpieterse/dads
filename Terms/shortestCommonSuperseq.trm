@@ -1,0 +1,28 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  9 11:28:34 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=shortest common supersequence
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=combin
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=shortest common superstring
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.sunysb.edu/~algorith/files/shortest-common-superstring.shtml">(C)</A>
+# author's initials
+@AUTHOR=
+# end
