@@ -1,0 +1,23 @@
+# *created  "Thu Jul 22 09:18:52 1999" *by "Paul E. Black"
+# *modified "Fri Jul 23 12:33:39 1999" *by "Paul E. Black"
+# entry name
+@NAME=polychotomy
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Division into many distinct classifications.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Compare "dichotomy": a division into two distinct,
+contrasting classes.  The term is used in the area of machine
+learning (artificial intelligence).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
