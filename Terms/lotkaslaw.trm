@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 19 10:13:03 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:00 2004" *by "Paul E. Black"
+
+# $Log: lotkaslaw.trm,v $
+# Revision 1.2  2004/12/17 16:53:00  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Lotka's law
@@ -11,25 +16,36 @@
 @DEFN=The number of authors making $n$ contributions is about
 $1/n<sup>a</sup>$ of those making one contribution, where $a$ is often
 nearly 2.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Zipf's law}, {Benford's law}, {Bradford's law}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Alfred J. Lotka</strong>, <em>The Frequency Distribution
 of Scientific Productivity</em>, Journal of the Washington Academy of
 Sciences, 16(12):317-323, 1926.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A power law; often nearly an inverse square law.
-</P>
+</p>
 
-<P>
+<p>
 Contributed by Christiane Fritze &lt;h0444who@rz.hu-berlin.de&gt; July
 2000.
 # further explanation (pure HTML)
-@LINKS=A short biography of <A
+@LINKS=A short biography of <a
 href="http://users.pandora.be/ronald.rousseau/html/lotka.html">Alfred
-James Lotka</A>.
+James Lotka</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/lotkaslaw.trm,v $
