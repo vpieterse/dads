@@ -1,0 +1,24 @@
+# *created  "Tue Apr 20 09:26:29 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:05:48 2002" *by "Paul E. Black"
+# entry name
+@NAME=efficiency
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=basic
+# the definition
+@DEFN=The resources an {algorithm} used to
+find an answer.  It is usually measured in terms of the theoretical
+computations, such as comparisons or data moves, the memory used, the
+number of messages passed, the number of disk accesses, etc.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={big-O notation}, {best case}, {worst case}, {average case}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
