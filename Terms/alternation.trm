@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Oct  5 10:59:21 2001" *by "Paul E. Black"
+# entry name
+@NAME=alternation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=A {model of computation} proposed by A. K. Chandra,
+L. Stockmeyere, and D. Kozen, which has two kinds of states, AND and
+OR.  The definition of accepting computation is adjusted
+accordingly.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={time/space complexity}, {Turing machine}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>A. K. Chandra and L. J. Stockmeyer</strong>,
+<em>Alternation</em>, pp 98-108, and <strong>D. Kozen</strong>,
+<em>On Parallelism in Turing Machines</em>, pp 89-97, both in 
+Proc. Seventeenth Annual IEEE Symposium on Foundations of 
+Computer Science, 1976.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=First proposed as a model for parallel computation,
+it has been widely used to prove complexity bounds on problems.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
