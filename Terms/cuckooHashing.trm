@@ -1,0 +1,47 @@
+# *created  "Thu Feb 20 11:48:59 2003" *by "Paul E. Black"
+# *modified "Thu Feb 20 12:54:33 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=cuckoo hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {dictionary} implemented with two {hash tables},
+$T<sub>1</sub>$ and $T<sub>2</sub>$, and two different 
+{hash functions}, $h<sub>1</sub>$ and $h<sub>2</sub>$.  Each {key}, $k$, is
+either in $T<sub>1</sub>[h<sub>1</sub>(k)]$ or
+$T<sub>2</sub>[h<sub>2</sub>(k)]$.  A new {key}, $k$, is
+stored in $T<sub>1</sub>[h<sub>1</sub>(k)]$.  If that location is already
+occupied by another key, $l$, the other key is moved to
+$T<sub>2</sub>[h<sub>2</sub>(l)]$.  Key are moved back and forth
+until a key moves to an empty location or a limit has been reached.
+If the limit is reached, new hash functions are chosen, and the tables
+are rehashed.  For tables that are a bit less than half full and
+{universal hashing} functions, performance is good.  A key is deleted
+by removing it from a table.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Rasmus Pagh</strong> and <strong>Flemming Friche
+Rodler</strong>, <em>Cuckoo Hashing</em>, Proceedings of ESA 2001,
+Lecture Notes in Computer Science, vol. 2161, pages 121-?, 2001.
+# any notes.  these are not printed in the final dictionary
+@NOTES=The name comes from the European cuckoo, whose young
+<A
+href="http://www.stanfordalumni.org/birdsite/text/essays/Brood_Parasitism.html">pushes
+other, competing eggs out of the nest</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
