@@ -1,26 +1,35 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May  3 12:16:43 2004" *by "Paul E. Black"
+# *modified "Wed May  5 14:20:56 2004" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.3  2004/05/05 18:24:07  black
+# Change (main) name from edit distance to Levenshtein distance to honor
+# the inventor of an efficient algorithm.  Add a second definition - an
+# algorithm to find the distance.  Add BIB references.  Remove the PHP
+# link - it didn't really help.  Note that the IMPL link has a great
+# explanation and links to code in many programming languages.
+#
 # Revision 1.2  2004/05/03 16:19:36  black
 # Refine XREFS into IMA, etc.  Add IMA string matching with errors.
 #
 
 # entry name
-@NAME=edit distance
+@NAME=Levenshtein distance
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=D
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=The smallest number of insertions, deletions, and substitutions
-required to change one {string} or {tree} into another.
+@DEFN=(1) The smallest number of insertions, deletions, and substitutions
+required to change one {string} or {tree} into another.  (2) A
+{$\Theta(m \times n)$#$\Theta$} algorithm to compute the distance
+between strings, where $m$ and $n$ are the lengths of the strings.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=Levenshtein distance
+@AKA=edit distance
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=Levenshtein string distance
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -34,23 +43,34 @@ required to change one {string} or {tree} into another.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={edit operation}, {double metaphone}, {soundex}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Vladimir I. Levenshtein</strong>, <em>Binary codes capable of
+correcting deletions, insertions, and reversals</em>,
+Doklady Akademii Nauk SSSR, 163(4):845-848, 1965 (Russian).
+English translation in Soviet Physics Doklady, 10(8):707-710, 1966.
+<BR>(Doklady is Russian for "Report".  Sometimes transliterated in
+English as Doclady or Dokladi.)
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-From Algorithms and Theory of Computation Handbook, page 14-35,
+(1) From Algorithms and Theory of Computation Handbook, page 14-35,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS= A 33-page paper giving definitions, algorithms, etc. for
+@LINKS=A 33-page paper giving definitions, algorithms, etc. for
 string distances, Levenshtein distance, etc., called <A
 href="http://www.cs.princeton.edu/~ristad/papers/pu-532-96.ps.gz">Learning
 String Edit Distance</A>.
+March 2003
 <A
-href="http://www.php.net/manual/function.levenshtein.php">definition,
-comments, and references to similar functions</A>.
+href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
+of Levenshtein</A> at a reception.
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://www.merriampark.com/ld.htm">Levenshtein distance
-(Java, C++, Visual Basic)</A>
+(Java, C++, Visual Basic)</A>, includes a great explanation and links
+to code in Perl, C, JavaScript, Python, and many more languages.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/Levenshtein.trm,v $
