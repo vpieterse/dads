@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Fri Apr 16 08:31:18 2004" *by "Paul E. Black"
+# *modified "Wed May  5 15:44:17 2004" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.5  2004/05/05 19:44:19  black
+# Rename edit distance to be Levenshtein distance.
+#
 # Revision 1.4  2004/04/16 12:32:23  black
 # Change phonetic matching to phonetic coding.  Add caverphone and a
 # link to a Cobol implementation.
@@ -36,7 +39,7 @@ different spellings.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={double metaphone}, {Jaro-Winkler}, {caverphone}, {NYSIIS},
-{edit distance}
+{Levenshtein distance}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The algorithm was devised to code names recorded in US census
