@@ -1,5 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Tue Aug 12 14:52:53 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:20 2004" *by "Paul E. Black"
+
+# $Log: hashheap.trm,v $
+# Revision 1.2  2004/12/17 16:52:20  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=hash heap
@@ -11,16 +16,27 @@
 @DEFN=An efficient implementation of a {priority queue}.  The 
 {linear hash} function monotonically maps keys to {buckets}, and
 each bucket is a {heap}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={bucket sort}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This is a bucket sort where the buckets are organized as heaps.
 The linear hash function maps increasing keys into nondecreasing
 values, that is, key1 &gt; key2 implies h(key1) is greater than or
 equal to h(key2).  It is not clear what happens if a bucket gets full.
-</P>
+</p>
 
-<P>
+<p>
 Let R be the ratio between the key range and the
 range of the hash function.  If R is so large there is only one
 bucket, we have a regular heap.  If R is one, it is a direct
@@ -33,4 +49,4 @@ mapped array.  This data structure was proposed by Chris L. Kuszmaul
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hashheap.trm,v $
