@@ -1,7 +1,10 @@
 # *created  "Thu Jan  6 12:27:59 2005" *by "Paul E. Black"
-# *modified "Thu Jan  6 14:15:45 2005" *by "Paul E. Black"
+# *modified "Thu Jan  6 14:24:58 2005" *by "Paul E. Black"
 
 # $Log: combSort.trm,v $
+# Revision 1.2  2005/01/06 19:25:36  black
+# Improve the text for veale's page.
+#
 # Revision 1.1  2005/01/06 19:20:40  black
 # Initial revision
 #
@@ -58,8 +61,9 @@ each set.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Discussion and an improved
-<a href="http://world.std.com/~jdveale/combsort.htm">gap table (C)</a>.
+An
+<a href="http://world.std.com/~jdveale/combsort.htm">improved comb
+sort (C)</a> with discussion.
 Contrast with bubble sort in
 <a href="http://yagni.com/combsort/index.php">(C++ and Ruby)</a>
 including links to versions in bash, Basic, C, Forth, Fortran 77, i386
