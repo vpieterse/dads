@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jan 12 10:24:11 2004" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:40:15 2004" *by "Paul E. Black"
 
 # $Log: malhotraKumr.trm,v $
+# Revision 1.3  2004/04/19 18:40:20  black
+# Use the standard English plural of vertex
+#
 # Revision 1.2  2004/01/12 15:24:31  black
 # Use more regular form of "vertex".  Add RCS Log and Source.
 #
@@ -17,9 +20,20 @@
 {maximum-flow problem}),
 select a {vertex} with the least throughput and
 {greedily#greedy heuristic} push the maximum flow from it to the
-{sink}.  This is repeated until all vertexes are deleted.
-# comma-separated list of {cross references}, i.e., See also ...
+{sink}.  This is repeated until all vertices are deleted.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 7-13,
