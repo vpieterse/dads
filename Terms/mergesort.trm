@@ -1,0 +1,71 @@
+# *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
+# *modified "Tue Aug 12 14:14:51 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm that splits the items to be sorted into two
+groups, {recursively#recursion} sorts each group, and 
+{merges} them into a final, sorted sequence.  
+Run time is {$\Theta$}(n log n).
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=sort merge
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=mergesort
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={divide and conquer}, {balanced k-way merge sort},
+{polyphase merge sort}, {external sort}, {bitonic sort}, {strand sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=There seem to be some references to linear-time
+{in-place#in-place sort} merging; look for papers by Geffert,
+Katajainen &amp; Pasanen.
+# further explanation (pure HTML)
+@LINKS=
+<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/MSort.html">demonstration</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+<A
+href="http://www2.ics.hawaii.edu/~qizhang/ics665/mergesort.html">demonstration
+(Java)</A>; 
+<A
+href="http://www.cs.utoronto.ca/~neto/teaching/238/16/mergesort.html">recurrence
+relation analysis and demonstration (Java)</A>; 
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Mergesort">explanation (C)</A>;
+<A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</A>
+that needs <A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
+merge (C)</A> or <A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
+merge (C)</A>,
+<A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</A> 
+that needs <A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
+merge (Pascal)</A> or <A
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
+merge (Pascal)</A>;
+<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</A>;
+Demo and code of <A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">in-place
+and double merge sort (Java)</A>;
+Worst-case behavior <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
+for real time (WOOP/ADA)</A>, including bibliography.
+Sohail Somani's <A
+href="https://sourceforge.net/snippet/download.php?type=snippet&id=101487">(C++)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</A>.
+Other implementations may be available through the <A
+href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
+Brook Algorithm Repository, Sorting</A>.
+# author's initials
+@AUTHOR=PEB
+# end
