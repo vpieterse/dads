@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jun  5 08:59:35 2001" *by "Paul E. Black"
+# entry name
+@NAME=subset
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A {set} S<sub>2</sub> is a subset of another set
+S<sub>1</sub> if every
+element in S<sub>2</sub> is in S<sub>1</sub>.  S<sub>1</sub> may
+have exactly the same elements as S<sub>2</sub>.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={proper subset}, {superset}, {combination}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If S<sub>2</sub> is a subset of S<sub>1</sub>, S<sub>1</sub> is
+a superset of S<sub>2</sub>.
+<P>
+A combination is a subset with exactly $n$ elements.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=The Combinatorial Object Server's information on <A
+href="http://www.theory.csc.uvic.ca/~cos/inf/comb/SubsetInfo.html">subsets
+(Pascal and C)</A>;
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/generating-subsets.shtml">generating
+subsets (Fortran, Mathematica, and Pascal)</A>
+# author's initials
+@AUTHOR=PR
+# end
