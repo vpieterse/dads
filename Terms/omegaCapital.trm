@@ -1,0 +1,40 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 09:27:56 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=$\Omega$
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A theoretical measure of the execution of an {algorithm},
+usually the time or memory needed, given the problem size $n$,
+which is usually the number of items.  Informally, saying some equation
+$f(n) = \Omega (g(n))$ means it is more than some constant multiple of
+$g(n)$.
+# formal definition or {cross reference} to an entry
+@FORML=
+$f(n) = \Omega (g(n))$
+means there are positive constants
+$c$ and $k$, such that 
+$0 \leq cg(n) \leq f(n)$ for all 
+$n \geq k$.
+The values of $c$ and $k$ must be fixed for the function
+$f$ and must not depend on $n$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={$\omega(n)$#$\omega$}, 
+{big-O notation}, {asymptotic lower bound}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is the upper-case Greek letter Omega.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
