@@ -1,5 +1,10 @@
 # *created  "Wed Apr 25 09:07:19 2001" *by "Paul E. Black"
-# *modified "Thu Jan 23 14:59:24 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:25 2004" *by "Paul E. Black"
+
+# $Log: secantSearch.trm,v $
+# Revision 1.2  2004/12/17 16:54:26  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=secant search
@@ -12,39 +17,50 @@
 based on the values at the two previous positions checked.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={binary search}, {interpolation search}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 # any notes.  these are not printed in the final dictionary
 @NOTES=It is called ``secant search'' because it uses the secant of
 the function at two successive points to approximate the derivative in
 the Newton-Raphson formula.
-</P>
+</p>
 
-<P>
+<p>
 To find a {key} k in an array v with indexes from 0 to $n-1$, begin
 with $x<sub>0</sub> = 0$, $x<sub>1</sub> = n-1$, and $i = 1$.
 Compute the next position with
-<BR>
+<br>
 $x<sub>i+1</sub> = x<sub>i</sub> - (v[x<sub>i</sub>]-k) * 
 (x<sub>i</sub> - x<sub>i-1</sub>)/(v[x<sub>i</sub>] - v[x<sub>i-1</sub>])$.
-<BR>
+<br>
 If this lies outside the range, a different method (e.g., midpoint of
 the range) must be used to get the next position.
-</P>
+</p>
 
-<P>
+<p>
 Although the theoretical execution time is better than {interpolation
 search} or {binary search}, coding is tricky, and the gains from
 faster convergence are offset by higher costs per iteration.
-</P>
+</p>
 
-<P>
+<p>
 Richard Harter &lt;cri@tiac.net&gt; January 2001.
 # further explanation (pure HTML)
 @LINKS=
@@ -52,4 +68,4 @@ Richard Harter &lt;cri@tiac.net&gt; January 2001.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/secantSearch.trm,v $
