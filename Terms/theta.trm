@@ -1,0 +1,44 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Sep  4 14:55:54 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=$\Theta$
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A theoretical measure of the execution of an {algorithm},
+usually the time or memory needed, given the problem size $n$,
+which is usually the number of items.  Informally, saying some equation
+$g(n) = \Theta (f(n))$
+means it is within a constant multiple of f(n).  The equation is read,
+"g of n is theta f of n".
+<BR>
+<IMG src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
+showing relation between a function, f, and the limit function, g">
+# formal definition or {cross reference} to an entry
+@FORML=
+$g(n) = \Theta (f(n))$
+means there are positive constants $c<sub>1</sub>$, $c<sub>2</sub>$,
+and $k$, such that 
+$0 \leq c<sub>1</sub>f(n) \leq g(n) \leq c<sub>2</sub>f(n)$
+for all $n \geq k$.
+The values of $c<sub>1</sub>$, $c<sub>2</sub>$, and
+$k$ must be fixed for the function
+$f$ and must not depend on $n$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=theta
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={big-O notation}, {$\sim$}, {asymptotically tight bound}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is the upper-case Greek letter Theta.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
