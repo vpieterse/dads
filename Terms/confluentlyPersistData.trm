@@ -1,5 +1,10 @@
 # *created  "Thu Mar  6 11:48:05 2003" *by "Paul E. Black"
-# *modified "Fri Mar  7 12:50:15 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:18 2004" *by "Paul E. Black"
+
+# $Log: confluentlyPersistData.trm,v $
+# Revision 1.2  2004/12/17 17:03:19  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=confluently persistent data structure
@@ -12,14 +17,25 @@
 operations to combine two different versions.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=persistent data structure with confluence
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={partially persistent data structure}, 
+
 {fully persistent data structure}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>James R. Driscoll, Daniel D. Sleator</strong>, and
 <strong>Robert E. Tarjan</strong>,
 <em>Fully Persistent Lists with Catenation</em>,
@@ -32,4 +48,4 @@ Journal of the ACM, 41(5):943-949, 1994.
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/confluentlyPersistData.trm,v $
