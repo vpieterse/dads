@@ -1,0 +1,58 @@
+# *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
+# *modified "Fri Nov 30 15:04:59 2001" *by "Paul E. Black"
+# entry name
+@NAME=Bresenham's algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+#	Really, graphics
+@AREA=geom
+# the definition
+@DEFN=An efficient algorithm to render a line with pixels.  The long
+dimension is incremented for each pixel, and the fractional slope is
+accumulated.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Jack E. Bresenham</strong>, <em>Algorithm for Computer Control 
+of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.<br>
+Reprinted in <em>Interactive Computer Graphics</em>, Herbert Freeman ed., 
+IEEE catalog no. EHO 156-0, Library of Congress no. 79-91237, 1980, and
+<em>Seminal Graphics: Pioneering Efforts That Shaped The Field</em>,
+Rosalee Wolfe ed., ACM SIGGRAPH, ACM order no. 435985, 
+ISBN 1-58113-052-X, 1998.
+# any notes.  these are not printed in the final dictionary
+@NOTES=In November 2001 Jack E. Bresenham wrote, "I was working in
+the computation lab at 
+IBM's San Jose development lab.  A Calcomp plotter had been attached to
+an IBM 1401 via the 1407 typewriter console.  [The algorithm] was in 
+production use
+by summer 1962, possibly a month or so earlier.  Programs in those days
+were freely exchanged among corporations so Calcomp (Jim Newland and
+Calvin Hefte) had copies.  When I returned to Stanford in Fall 1962, I
+put a copy in the Stanford comp center library.
+</P>
+
+<P>
+A description of the line drawing routine was accepted for
+presentation at the 1963 ACM national convention in Denver, Colorado.
+It was a year in which no proceedings were published, only the agenda of
+speakers and topics in an issue of Communications of the ACM.  A person
+from the IBM Systems Journal asked me after I made my presentation if
+they could publish the paper.  I happily agreed, and they printed it in
+1965."
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://cba.winthrop.edu/faculty/bresenhamj.htm">Jack E.
+Bresenham</A> is a professor at Winthrop University.
+An <A
+href="http://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</A>.
+A <A href="http://www.cs.rit.edu/~yxy7691/Bookmark.html">java
+applet</A> showing which points are selected.  Dragging the end point
+shows how the selection of points changes.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
