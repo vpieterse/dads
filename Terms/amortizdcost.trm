@@ -1,5 +1,10 @@
 # *created  "Tue Feb  2 15:17:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec  3 12:12:22 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:02:08 2004" *by "Paul E. Black"
+
+# $Log: amortizdcost.trm,v $
+# Revision 1.2  2004/12/17 17:02:08  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=amortized cost
@@ -13,14 +18,25 @@
 all sequences of <em>n</em> operations never exceeds O(n*f(n)).
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=amortized worst case
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={potential function}, {best-case cost}, {average-case cost},
+
 {worst-case cost}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>R. E. Tarjan</strong>, <em>Amortized computational
 complexity</em>, SIAM Journal on Algebraic and Discrete Methods,
 6(2):306-318, 1985.
@@ -33,4 +49,4 @@ that the worst case of a set of operations is averaged.
 @IMPL=
 # author's initials
 @AUTHOR=CLK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/amortizdcost.trm,v $
