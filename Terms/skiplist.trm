@@ -1,0 +1,42 @@
+# *created  "Tue Dec  1 12:55:15 1998" *by "Paul E. Black"
+# *modified "Mon Jun 24 13:36:40 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=skip list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {randomized#randomized algorithm} variant of a {linked list}
+with additional, parallel lists.
+Parallel lists at higher levels skip geometrically more items.
+Searching begins at the highest level, to quickly get to the right
+part of the list, then uses progressively lower level lists.
+A new item is added by randomly selecting a level, then inserting it
+in order in the lists for that and all lower levels.  With enough
+levels, searching is {$O(\log n)$#big-O notation}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=skiplist
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>William Pugh</strong>, <em>Skip Lists: A Probabilistic
+Alternative to Balanced Trees</em>, CACM, 33(6):668-676, June 1990.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A href="http://epaperpress.com/sortsearch/">(click on Skip Lists)
+diagrams, explanation, and code (C)</A>,
+<A
+href="ftp://ftp.lsi.upc.es/pub/users/conrado/skip-lists.bib">bibtex
+references to papers</A>
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://epaperpress.com/sortsearch/txt/skl.txt">(C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
