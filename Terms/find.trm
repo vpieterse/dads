@@ -1,0 +1,35 @@
+# *created  "Mon Apr 12 10:22:28 1999" *by "Paul E. Black"
+# *modified "Fri May  3 15:22:56 2002" *by "Paul E. Black"
+# entry name
+@NAME=Find
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=search
+# the definition
+@DEFN=An algorithm to select the k<sup>th</sup> smallest element of an
+array and {partition} the array around it.  First, partition
+around the value of the k<sup>th</sup> element.  If the split is not
+at element k, move the upper or lower boundary and partition
+again.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={select and partition}, {MODIFIND}, {Select}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>C. A. R. Hoare</strong>, <em>Algorithm 65, FIND</em>,
+CACM, 4(7):321, July 1961.
+</P>
+
+<P>
+<strong>C. A. R. Hoare</strong>, <em>Proof of a Program: FIND</em>,
+CACM, 14(7):39-45, January 1971.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This does more swaps than MODIFIND.  
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.geocities.com/SiliconValley/Garage/3323/3alg.html">analysis
+and comparison (Rexx)</A>
+# author's initials
+@AUTHOR=PEB
+# end
