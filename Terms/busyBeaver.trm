@@ -1,0 +1,35 @@
+# *created  "Tue Mar  6 12:28:25 2001" *by "Paul E. Black"
+# *modified "Tue Mar  6 12:40:33 2001" *by "Paul E. Black"
+# entry name
+@NAME=busy beaver
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=(1) A {Turing machine} with a small number of {states} which
+halts when started with a blank tape, but which writes a huge number
+of non-blanks or takes a huge number of steps.  (2) The problem of
+finding the maximum number of non-blanks written or steps taken for
+any Turing machines with a given number of states and symbols.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=The problem is well-defined but rapidly becomes uncomputable
+for even a small number of states and symbols.
+# further explanation (pure HTML)
+@LINKS=History, explanation, and links about the
+<A href="http://grail.cba.csuohio.edu/~somos/bb.html">Busy Beaver
+Turing Machine</A>.
+Heiner Marxen's 
+<A href="http://www.drb.insel.de/~heiner/BB/">currently known busy
+beaver results</A> page.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
