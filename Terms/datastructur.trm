@@ -1,0 +1,31 @@
+# *created  "Wed Dec 22 09:23:03 1999" *by "Paul E. Black"
+# *modified "Fri Jan 10 10:04:10 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=data structure
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An organization of information, usually in memory, for better
+{algorithm} {efficiency}, such as {queue}, {stack}, {linked list},
+{heap}, {dictionary}, and {tree}, or conceptual unity, such as the
+name and address of a person.  It may include redundant
+information, such as length of the {list} or number of {nodes} in a
+{subtree}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={external memory data structure},
+{passive data structure}, {active data structure}, {persistent data
+structure}, {recursive data structure}, {abstract data type}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Most data structures have associated algorithms to perform
+operations, such as search, insert, or balance, that maintain the
+properties of the data structure.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
