@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jul 31 11:00:02 2003" *by "Paul E. Black"
+# *modified "Wed Sep 29 11:19:25 2004" *by "Paul E. Black"
+
+# $Log: connectedComponents.trm,v $
+# Revision 1.2  2004/09/29 15:20:19  black
+# Remove blank lines at the end.  Refine XREFS into IMA, etc. and add
+# that IMA partition.  Add RCS keywords.
+#
 
 # entry name
 @NAME=connected components
@@ -15,9 +21,20 @@
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={partition}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={connected graph}, {biconnected component}, {undirected graph},
 {subgraph}, {clique}, {strongly connected components}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=If a graph is {connected#connected graph}, it has only one
 connected component.
@@ -40,7 +57,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</A>
 # author's initials
 @AUTHOR=AL
-# end
-
-
-
+# end $Source: /home/black/Workspace/dads/Terms/RCS/connectedComponents.trm,v $
