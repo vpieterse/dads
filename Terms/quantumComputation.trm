@@ -1,7 +1,11 @@
 # *created  "Wed May 17 13:06:36 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:06:55 2004" *by "Paul E. Black"
+# *modified "Wed Feb  9 13:20:03 2005" *by "Paul E. Black"
 
 # $Log: quantumComputation.trm,v $
+# Revision 1.3  2005/02/09 18:20:29  black
+# Make Shor's, Grover's, etc. algorithms variants.  Add LINK to
+# Bernstein and Vazirani.
+#
 # Revision 1.2  2004/12/17 17:06:56  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -21,24 +25,27 @@ manipulations.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={Shor's algorithm}, {Grover's algorithm}, {Simon's algorithm},
+{Deutsch-Jozsa algorithm}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Shor's algorithm}, {Grover's algorithm}, {Simon's algorithm},
+@XREFS={model of computation}
 
-{Deutsch-Jozsa algorithm}, {model of computation}
 # any notes.  these are not printed in the final dictionary
-@NOTES=Quantum computers can, in theory, make computations which
+@NOTES=Quantum computers can, in theory, make computations that
 are impossible to do exactly with classical computers or achieve
-{exponential} speedup.  Since nobody has yet (as of November 2002)
+{exponential} speedup.  Since nobody has yet (as of February 2005)
 implemented more than a few bit operations, problems such as
 decoherence and measurement error may limit quantum computation to a
 few specialized roles.
 # further explanation (pure HTML)
 @LINKS=
+<strong>Ethan Bernstein</strong> and <strong>Umesh Vazirani</strong>,
+<a href="http://epubs.siam.org/sam-bin/dbq/article/30092">Quantum
+Complexity Theory</a>, SIAM Journal on Computing, 26(5):1411-1473, 1997.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
