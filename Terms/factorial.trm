@@ -1,10 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 10 12:35:16 2003" *by "Paul E. Black"
+# *modified "Wed Nov 12 12:23:17 2003" *by "Paul E. Black"
 
 # $Log: factorial.trm,v $
-# Revision 1.2  2003/11/10 17:36:32  black
-# Add link to fast factorial algorithm
+# Revision 1.3  2003/11/12 17:23:45  black
+# Add link to Calum Grant's fast factorial implementation
 #
+# Revision 1.2  2003/11/10 17:36:32  black
+# Add link to Christer Ericson's fast factorial algorithm
 
 # entry name
 @NAME=factorial
@@ -29,11 +31,15 @@ e<sup>-x</sup>dx = 1$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</A>.
+@IMPL=
+Calum Grant's
+<A href="http://visula.org/calum/fact2.cpp">prime sieve fast factorial
+(C++)</A>.
 Christer Ericson's
 <A
 href="http://groups.google.com/groups?selm=christer.689772066@berghem">fast
 factorial (C)</A>.
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</A>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/factorial.trm,v $
