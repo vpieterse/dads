@@ -1,0 +1,61 @@
+# *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
+# *modified "Wed Jun 11 14:26:38 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=binary search tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary tree} where every {node's#node} left 
+{subtree} has values less than the node's value, and every right
+subtree has values greater.  A new node is added as a {leaf}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={AVL tree}, {splay tree}, {threaded tree}, {relaxed balance}, 
+{randomized binary search tree}, {ternary search tree}, 
+{move-to-root heuristic}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A binary search tree is almost always implemented with
+pointers, but may have a variety of constraints on how it is composed.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl3.html#@l13">lecture
+notes</A>, <A
+href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture17/sld006.htm">two
+different deletion algorithms</A>, 
+and more
+<A
+href="http://www.cs.duke.edu/~mlittman/courses/cps130/lectures/lect09/node1.html">lecture
+notes</A>.
+A <A
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Binary_Search_Tree/binary_search_tree.html">insert,
+search, remove max, number of leaves, etc. (C++)</A>;
+Ben Pfaff's 
+<A href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
+delete, search, copy, etc. (literate C)</A>;
+<A
+href="http://al.cs.engr.uky.edu/~lewis/cs2/programs/schtrees.html">insert,
+search, and maximum (Pascal)</A>;
+<A
+href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
+(C)</A>,
+<A
+href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl30.html">insert
+(Lisp)</A>, 
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
+(C and Pascal)</A>,
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
+(C and Pascal)</A>,
+and 
+<A 
+href="http://www.csc.twu.ca/rsbook/index.html?http://www.csc.twu.ca/rsbook/Ch14/Ch14.8.html">insert,
+search, delete, and various traversals (Modula-2)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
