@@ -1,0 +1,22 @@
+# *created  "Sat Aug 28 11:02:04 1999" *by "Paul E. Black"
+# *modified "Thu Jul  6 09:25:28 2000" *by "Paul E. Black"
+# entry name
+@NAME=rectangular matrix
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An $n \times m$ {matrix}, or, one whose size may not be the same
+in both dimensions.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={square matrix}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://gams.nist.gov/serve.cgi/Class/N1">(Fortran)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
