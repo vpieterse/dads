@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jul 23 18:05:13 2004" *by "Paul E. Black"
+# *modified "Fri Jul 23 18:19:02 2004" *by "Paul E. Black"
 
 # $Log: finiteStateTransducer.trm,v $
+# Revision 1.3  2004/07/23 22:19:39  black
+# Credit Buitinck.
+#
 # Revision 1.2  2004/07/23 22:15:19  black
 # The definition of "transducer" is actually a defn of this, so move it
 # here and delete "transducer" as a separate entry.  Add RCS keywords.
@@ -30,7 +33,8 @@ a write-only output.  The input and output cannot be reread or changed.
 @XREFS={Turing transducer}, {pushdown transducer}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=Thanks to L. J. Buitinck for correcting the definition.  28 May
+2004.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
