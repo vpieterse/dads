@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.20 1999/03/03 15:44:53 black Exp $
+# $Id: mkterms,v 1.21 1999/03/08 15:30:36 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Wed Mar  3 10:37:07 1999" *by "Paul E. Black"
+# *modified "Mon Mar  8 10:18:36 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -41,7 +41,7 @@ $AUTHORS  ="authors";
 $WEBPAGE  ="terms";
 $OUT_DIR  ="HTML";
 $URL_DIR  ="http://hissa.ncsl.nist.gov/~black/CRCDict";
-$ownerEmail = "paul.black\@nist.gov";
+#$ownerEmail = "paul.black\@nist.gov";
 
 # defined areas
 %areas = (
@@ -447,9 +447,8 @@ for $ekey (@sortedentries) {
 	print TERMPAGE << "NO_DEFN_MESSAGE";
 (no definition, yet, but
 <A HREF=\"../$pagename\#needHelp\">you can help</A>.
-If you want a definition, please
-<A HREF="mailto:$ownerEmail">send me a request</A>. I will
-try to come up with a definition and send it to you right away.)
+If you want a definition, please send me a request, and 
+I will see what I can do.)
 NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{XREFS}) {
