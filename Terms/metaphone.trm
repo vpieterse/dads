@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 09:02:09 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:17 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 10:43:27 2005" *by "Paul E. Black"
 
 # $Log: metaphone.trm,v $
+# Revision 1.7  2005/01/04 15:43:51  black
+# Remove IIUG and DDJ URL's - now only paid access.
+#
 # Revision 1.6  2004/12/17 17:24:17  black
 # Make more XHTML compliant.
 #
@@ -70,11 +73,7 @@ Apache codec implementations of
 <a href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 <a
-href="http://www.iiug.org/members/memb_software/archive/metaphone">(C,
-Basic)</a>.
-<a
-href="http://www.lanw.com/java/phonetic/">(Java)</a>, <a
-href="http://www.ddj.com/ftp/1997/1997.odbms/DD-3.TXT">(Java)</a>.
+href="http://www.lanw.com/java/phonetic/">(Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/metaphone.trm,v $
