@@ -1,5 +1,5 @@
 # *created  "Wed Dec 23 08:04:52 1998" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:32:43 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:14:56 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=transpose sequential search
@@ -28,9 +28,7 @@ faster, though.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Discussion and <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Self_Organizing_Lists/self_organizing_lists.html">code
-(C)</A>;
+@IMPL=
 <A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/313.srch.c">(C)</A>
 # author's initials
 @AUTHOR=PEB
