@@ -1,0 +1,20 @@
+# *created  "Mon Nov 23 09:47:31 1998" *by "Paul E. Black"
+# *modified "Mon Jul  2 08:52:28 2001" *by "Paul E. Black"
+# entry name
+@NAME=polytope
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A closed, bounded N-dimensional figure whose faces are
+hyperplanes.
+Informally, a multidimensional solid with flat sides.  A
+generalization of polyhedron.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
