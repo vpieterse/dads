@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:17 2004" *by "Paul E. Black"
+# *modified "Wed Jan 12 09:07:52 2005" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Revision 1.9  2005/01/12 14:08:15  black
+# Correct TYPE to S.
+#
 # Revision 1.8  2004/12/17 17:23:18  black
 # Make more XHTML compliant.
 #
@@ -28,7 +31,7 @@
 # entry name
 @NAME=binary tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
