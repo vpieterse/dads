@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Fri Jul 30 12:58:18 2004" *by "Paul E. Black"
+# *modified "Tue Sep  7 12:24:51 2004" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.2  2004/09/07 16:26:01  black
+# Update Pfaff's URL.  Correct typo.
+#
 # Revision 1.1  2004/07/30 17:00:21  black
 # Initial revision
 #
@@ -45,7 +48,7 @@ permutation</em>, CACM 7(7):420, July 1964.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=The algorithm can be viewed as a reverse {selection
-sort}.  It is described as in some detail as algorithm P in 
+sort}.  It is described in some detail as algorithm P in 
 <A href="../terms.html#Knuth98">[Knuth98, vol. 2, p 145]</A>.
 
 # I first saw it called the Fisher-Yates shuffle in Perl Cookbook,
@@ -58,7 +61,7 @@ sort}.  It is described as in some detail as algorithm P in
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's answer to
-<A href="http://www.msu.edu/~pfaffben/writings/clc/shuffle.html">how
+<A href="http://www.stanford.edu/~blp/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</A>.
 Recipe 4.17 in "Perl Cookbook" for
 <A
