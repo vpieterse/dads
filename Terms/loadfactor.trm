@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:06:36 2001" *by "Paul E. Black"
+# entry name
+@NAME=load factor
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The number of elements in a {hash table} divided by the
+number of slots.  Usually written $\alpha$ (alpha).
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The higher the load factor, the slower the retrieval.  With 
+{open addressing}, the load factor cannot exceed 1.  With 
+{chaining}, the load factor often exceeds 1.
+After <A href="../terms.html#CLR90">[CLR90, page 224]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
