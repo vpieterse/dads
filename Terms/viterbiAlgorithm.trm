@@ -1,0 +1,32 @@
+# *created  "Tue Apr 11 11:30:54 2000" *by "Paul E. Black"
+# *modified "Thu Aug  1 16:45:49 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Viterbi algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=An algorithm to compute the optimal (most likely) state sequence in
+a {hidden Markov model} given a sequence of observed outputs.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Viterbi search
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Baum Welch algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also used to decode, i.e. remove noise from, linear error-correcting
+codes.
+# further explanation (pure HTML)
+@LINKS=See this <A
+href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">lesson on
+Hidden Markov Models</A> for more explanation.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
