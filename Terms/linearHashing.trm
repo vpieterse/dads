@@ -1,7 +1,10 @@
 # *created  "Tue Feb  1 17:20:31 2005" *by "Paul E. Black"
-# *modified "Wed Feb  2 16:36:55 2005" *by "Paul E. Black"
+# *modified "Thu Feb  3 09:22:06 2005" *by "Paul E. Black"
 
 # $Log: linearHashing.trm,v $
+# Revision 1.2  2005/02/03 14:22:45  black
+# Add XREF to spiral storage, a similar scheme.
+#
 # Revision 1.1  2005/02/02 21:37:31  black
 # Initial revision
 #
@@ -39,7 +42,7 @@ and $p$ starts over.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={linear hash}
+@XREFS={linear hash}, {spiral storage}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
