@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:59:26 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 16:47:02 2004" *by "Paul E. Black"
+# *modified "Mon Dec 20 09:09:00 2004" *by "Paul E. Black"
 
 # $Log: pagoda.trm,v $
+# Revision 1.5  2004/12/20 14:09:15  black
+# Note that merge is called "meld".
+#
 # Revision 1.4  2004/12/17 21:48:34  black
 # Add inital def'n and IMA, etc. links.  Make bib NOTE a BIB.
 #
@@ -23,7 +26,8 @@
 tree}.  The {root} points to its children, as in a binary tree.  Every
 other {node} points back to its {parent} and down to its leftmost (if
 it is a right {child}) or rightmost (if it is a left child)
-{descendant} {leaf}.  The basic operation is merge, which maintains
+{descendant} {leaf}.  The basic operation is merge or {meld}, which
+maintains 
 the {heap property}.  An element is inserted by merging it as a
 singleton.  The {root} is removed by merging its right and left
 children.  Merging is bottom-up, merging the leftmost edge of one with
@@ -37,7 +41,7 @@ the rightmost edge of the other.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={binary tree}, {heap property}
+@INME={binary tree}, {heap property}, {meld}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
