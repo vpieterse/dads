@@ -1,0 +1,63 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jan 14 14:15:15 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=divide and conquer
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An algorithmic technique.  To solve a problem on an
+instance of size <em>n</em>, a solution is found either directly
+because solving that instance is easy (typically, because the instance
+is small) or the instance is <em>divided</em> into two or more smaller
+instances.  Each of these smaller instances is 
+{recursively#recursion} solved, and the solutions are combined to
+produce a solution for the original instance.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The name <em>divide and conquer</em> is because the
+problem is conquered by dividing it into several smaller problems.
+</P>
+
+<P>
+This technique yields elegant, simple and quite often very efficient
+algorithms.  Well-known examples include {heapify},
+{merge sort}, {quicksort}, Strassen's fast matrix multiplication,
+the Fast Fourier Transform (FFT), and {binary search}.  (Why is binary
+search included?  The dividing part just picks which segment in which
+to search, and "combining the solutions" is trivial: take the answer
+from the segment in which you searched.)  Similar principles are at
+the heart of several important data structures such as 
+{binary search tree}, {multiway search trees}, {tries}, {skip lists},
+multidimensional search trees ({k-d trees}, {quadtrees}),
+etc.
+</P>
+
+<P>
+Here is this term in different languages:
+<table>
+<tr><td>French</td>	<td>diviser pour r&eacute;gner</td></tr>
+<tr><td>German</td>	<td>teile und herrsche</td></tr>
+<tr><td>Latin</td>	<td>divide et impera</td></tr>
+<tr><td>Spanish</td>	<td>divide y vencer&aacute;s</td></tr>
+<tr><td></td>	<td></td></tr>
+</table>
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
+and conquer sorting algorithms</A>, as a means of <A
+HREF="http://www.dcs.gla.ac.uk/~hwloidl/publications/Strategies/strategies_18.html">using
+parallelism</A>, and
+some <A
+HREF="http://www.qucis.queensu.ca/home/cisc365/dc/dc.p01.html">notes
+on divide and conquer algorithms</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.geocities.com/Vienna/7079/src/addodd.txt">how many
+odd numbers in an array? (C)</A>
+# author's initials
+@AUTHOR=CM
+# end
