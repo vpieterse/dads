@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 15:02:31 2004" *by "Paul E. Black"
+# *modified "Mon Apr 19 15:04:15 2004" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Revision 1.4  2004/04/19 19:04:34  black
+# Be more specific that the XREFS are VARIANTs.
+#
 # Revision 1.3  2004/04/19 19:03:43  black
 # Use the standard English plural of vertex
 #
@@ -26,13 +29,13 @@ The tree may include non-terminals, which are called
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={Euclidean Steiner tree}, {rectilinear Steiner tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Euclidean Steiner tree},{rectilinear Steiner tree}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
