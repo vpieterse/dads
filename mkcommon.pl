@@ -1,8 +1,8 @@
-# $Id: mkcommon.pl,v 1.3 2001/07/03 15:21:13 black Exp $
+# $Id: mkcommon.pl,v 1.4 2001/11/15 15:41:10 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Tue Jul  3 11:07:35 2001" *by "Paul E. Black"
+# *modified "Thu Sep 13 09:43:46 2001" *by "Paul E. Black"
 #
-# Common definitions for format and indexing terms for web pages.
+# Common definitions and routines for format and indexing terms.
 #
 # This software was developed at the National Institute of Standards 
 # and Technology by employees of the Federal Government in the course 
@@ -360,6 +360,28 @@ sub readTermEntries {
 		    print "Unknown AUTHOR $initials in $entryFile\n";
 		}
 	    }
+	}
+
+	# add entries for AKA (Also Known As) names and WEB variants
+	if (defined $thisEntry{AKA}) {
+	    my($ealiases) = $thisEntry{AKA};
+	    #print "$thisEntry{NAME} is also known as";
+	    foreach $aka (split /^ *{?|}?, *{?|}? *$/, $ealiases) {
+		next if ($aka eq ""); # above RE may start with a null split
+		#print " '$aka'"; # for debugging
+		# SKIMP create entry in database for this
+	    }
+	    #print "\n";
+	}
+	if (defined $thisEntry{WEB}) {
+	    my($webaliases) = $thisEntry{WEB};
+	    #print "$thisEntry{NAME} has variant(s) for web of";
+	    foreach $webvar (split /^ *{?|}?, *{?|}? *$/, $webaliases) {
+		next if ($webvar eq ""); # above RE may start with a null split
+		#print " '$webvar'"; # for debugging
+		# SKIMP create entry in database for this
+	    }
+	    #print "\n";
 	}
 
 	# NAME (ename in other places) is original name, e.g.,
