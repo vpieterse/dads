@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Wed Aug 25 09:49:40 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:22 2004" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Revision 1.5  2004/12/17 17:23:22  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/08/25 13:50:53  black
 # Refine XREFS into IMA, etc.  Note that IMA stable and in-place sort.
 # XREF gnome sort, which is prob. better even than bidirectional bubble
@@ -41,7 +44,7 @@ list until no swaps are done.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={gnome sort}, {bidirectional bubble sort}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Marvin V. Zelkowitz</strong>, <em>Principles of Software
 Engineering and Design</em>, Prentice-Hall, page 107, 1979.
@@ -53,35 +56,35 @@ the beginning.  Bidirectional bubble sort usually does better since at
 least one item is moved forward or backward to its place in the list
 with each pass.  Gnome sort optimizes the moving forward and backward
 instead of blindly looping through all items.
-</P>
+</p>
 
-<P>
+<p>
 Since at least one item is moved into its final place for each pass,
 an improvement is to decrement the last position checked on each
 pass.
-</P>
+</p>
 
-<P>
+<p>
 The name "sinking sort" comes from elements sinking down to their 
 proper position.
 Contributed by Ken Tata (Ken.Tata@onsemi.com) 22 December 2000.
 After LK.
 # further explanation (pure HTML)
-@LINKS=<A
+@LINKS=<a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">animation
-of many sorting algorithms</A>;
-<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSort.html">demonstration</A>.
+of many sorting algorithms</a>;
+<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSort.html">demonstration</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<A
+<a
 href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
-and code (Java)</A>;
-<A
+and code (Java)</a>;
+<a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
-and source code (Java)</A>
+and source code (Java)</a>
 - but code might not render properly;
-<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</A>;
-<A href="http://www.cs.hope.edu/~alganim/animator/Animator.html">(Java)</A>.
+<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>;
+<a href="http://www.cs.hope.edu/~alganim/animator/Animator.html">(Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bubblesort.trm,v $
