@@ -1,5 +1,10 @@
 # *created  "Wed Dec 23 08:51:37 1998" *by "Paul E. Black"
-# *modified "Wed Feb 12 11:25:53 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:36 2004" *by "Paul E. Black"
+
+# $Log: perfecthash.trm,v $
+# Revision 1.2  2004/12/17 16:53:37  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=perfect hashing
@@ -15,13 +20,24 @@ has no {collisions}.
 # formal definition or {cross reference} to an entry
 @FORML=A function f is perfect for a set of keys K iff
 $\forall j, k \in K f(j) = f(k) \rightarrow j = k$.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=optimal hashing
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={minimal perfect hashing}, {order preserving minimal perfect hashing}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Martin Dietzfelbinger, Anna Karlin, Kurt Melhorn, Friedhelm
 Meyer Auf Der Heide, Hans Rohnert, and Robert E. Tarjan</strong>,
@@ -32,14 +48,14 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=See the implementations at <A
+@IMPL=See the implementations at <a
 href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
-perfect hashing (C++, C)</A>,
-<A
+perfect hashing (C++, C)</a>,
+<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c">insert
-(C)</A>, <A
+(C)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c">search
-(C)</A>.
+(C)</a>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/perfecthash.trm,v $
