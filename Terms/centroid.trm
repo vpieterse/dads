@@ -1,0 +1,28 @@
+# *created  "Mon Nov 23 09:46:17 1998" *by "Paul E. Black"
+# *modified "Thu Apr 17 09:09:28 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=centroid
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=numeric
+# the definition
+@DEFN=The center of gravity or center of mass of an object.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+Clark Kimberling's pictorial <A
+href="http://faculty.evansville.edu/ck6/tcenters/class/centroid.html">example
+and physical method of finding the centroid</A> of an plane object.  A
+more <A
+href="http://www.geocities.com/Paris/Rue/1861/centroid.html">analytical
+description</A> and information about the word's origin.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
