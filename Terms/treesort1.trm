@@ -1,10 +1,13 @@
 # *created  "Mon Nov 29 15:55:48 2004" *by "Paul E. Black"
-# *modified "Tue Nov 30 10:16:34 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:59 2004" *by "Paul E. Black"
 
 # $Log: treesort1.trm,v $
+# Revision 1.3  2004/12/17 17:24:59  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/11/30 15:18:09  black
 # Change name from tree sort to original name, treesort.  Add XREF to
-# heapsort, which is similar.  Remove unneeded HTML break (<BR>).
+# heapsort, which is similar.  Remove unneeded HTML break (<br>).
 #
 # Revision 1.1  2004/11/29 21:07:01  black
 # Initial revision
@@ -22,7 +25,7 @@ the {keys}, then accesses the
 keys with an {in-order traversal}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=tree sort
@@ -40,16 +43,16 @@ keys with an {in-order traversal}.
 @XREFS={treesort (2)}, {heapsort}
 
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<A href="../terms.html#GBY91">[GBY91, page 182]</A>.
+<a href="../terms.html#GBY91">[GBY91, page 182]</a>.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For good performance, use a {balanced binary search tree}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/426.treesort.p">(C)</A>
+@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/426.treesort.p">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/treesort1.trm,v $
