@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  3 12:11:42 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:47 2004" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Revision 1.5  2004/12/17 17:28:47  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/05/03 16:21:21  black
 # Move Ratcliff/Obershelp to string matching with errors.
 #
@@ -22,7 +25,7 @@
 within another
 {string} or body of text.  There are many different {algorithms} for
 efficient searching.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=exact string matching, string searching, text searching
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=string search, text match
@@ -54,19 +57,19 @@ with errors}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Christian Charras' and Thierry Lecroq's <A
+Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
-Matching Algorithms (C)</A>,
-<A
+Matching Algorithms (C)</a>,
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/string-matching.shtml">(C++
-and Pascal)</A>,
-<A href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
-(C)</A> - a collection of string matching and pattern discovery
+and Pascal)</a>,
+<a href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
+(C)</a> - a collection of string matching and pattern discovery
 programs,
-<A
-href="http://gams.nist.gov/serve.cgi/Module/IMSLM/IIDEX/4039">(Fortran)</A>,
-<A
-href="http://gams.nist.gov/serve.cgi/Module/IMSLS/IIDEX/4736">(Fortran)</A>.
+<a
+href="http://gams.nist.gov/serve.cgi/Module/IMSLM/IIDEX/4039">(Fortran)</a>,
+<a
+href="http://gams.nist.gov/serve.cgi/Module/IMSLS/IIDEX/4736">(Fortran)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stringMatching.trm,v $
