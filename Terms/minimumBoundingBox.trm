@@ -1,5 +1,10 @@
 # *created  "Mon Nov 16 15:16:56 1998" *by "Paul E. Black"
-# *modified "Wed Jan  2 11:09:29 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:05:32 2004" *by "Paul E. Black"
+
+# $Log: minimumBoundingBox.trm,v $
+# Revision 1.2  2004/12/17 17:05:32  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=minimum bounding box
@@ -11,14 +16,25 @@
 @DEFN=The smallest rectangle completely enclosing a set of points.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=MBB
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/minimumBoundingBox.trm,v $
