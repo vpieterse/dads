@@ -1,0 +1,44 @@
+# *created  "Tue Dec  1 12:15:04 1998" *by "Paul E. Black"
+# *modified "Mon Nov 26 12:44:22 2001" *by "Paul E. Black"
+# entry name
+@NAME=shortest path
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=The problem of finding the shortest {path} from one 
+{vertex} in a {graph} to another vertex.  "Shortest" may be
+least number of {edges}, least total weight, etc.
+# comma-separated list of pure names
+@AKA=single-pair shortest-path problem
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Dijkstra's algorithm}, {Bellman-Ford algorithm}, {DAG shortest
+paths}, {all pairs shortest path}, {single-source shortest-path
+problem}, {k<sup>th</sup> shortest path}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+The problem is to find the weight of the shortest path.
+For a map, it is to produce the (shortest) road distance from one city
+to another city, not which roads to take.
+</P>
+
+<P>
+A modification to most algorithms finds the shortest path, too.  In
+<tt>predecessor[i][j]</tt> save the immediate predecessor of the
+shortest path from i to j.  Suppose predecessor[i][j] is k; then the
+shortest path ends with $\ldots \rightarrow k \rightarrow j$.  If
+predecessor[i][k] is p, the shortest path ends with $\ldots
+\rightarrow p \rightarrow k \rightarrow j$.  Continue working
+backwards until you reach i.
+# further explanation (pure HTML)
+@LINKS=OR-Notes on network flow, including <A
+href="http://mscmga.ms.ic.ac.uk/jeb/or/netflow.html">shortest
+path</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/shortest-path.shtml">(C,
+C++, Pascal, Fortran, and Mathematica)</A>
+# author's initials
+@AUTHOR=PEB
+# end
