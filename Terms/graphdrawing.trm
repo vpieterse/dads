@@ -1,5 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Wed Dec 12 13:14:48 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:12 2004" *by "Paul E. Black"
+
+# $Log: graphdrawing.trm,v $
+# Revision 1.2  2004/12/17 16:52:12  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=graph drawing
@@ -10,27 +15,38 @@
 # the definition
 @DEFN=The problem of representing a {graph} in a plane "neatly,"
 for instance with a minimum number of {edge crossings}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={grid drawing}, {orthogonal drawing}, {straight-line drawing},
+
 {planar graph}, {planarization}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=Roberto Tamassia's
-<A href="http://www.cs.brown.edu/people/rt/gd.html">Graph Drawing
-links</A> page (conferences, software, etc.)
+<a href="http://www.cs.brown.edu/people/rt/gd.html">Graph Drawing
+links</a> page (conferences, software, etc.)
 # implementation(s) (pure HTML)
-@IMPL=Links to <A
+@IMPL=Links to <a
 href="http://math.ucsd.edu/~rellis/graphdraw/graphdraw.html">graph
-drawing packages (Java, C, etc.)</A>,
-<A
+drawing packages (Java, C, etc.)</a>,
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/drawing-graphs.shtml">draw
-a graph nicely (C and Mathematica)</A>, <A
+a graph nicely (C and Mathematica)</a>, <a
 href="http://www.cs.sunysb.edu/~algorith/files/planar-drawing.shtml">draw
 a graph in the plane such that no edges cross (C, C++, and
-Mathematica)</A>, GraphEd: <A
+Mathematica)</a>, GraphEd: <a
 href="http://www.cs.sunysb.edu/~algorith/implement/graphed/implement.shtml">Graph
-Editor and Layout Program (C)</A>.
+Editor and Layout Program (C)</a>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/graphdrawing.trm,v $
