@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Mar 26 10:30:04 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:02:06 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=isomorphic
@@ -9,10 +9,10 @@
 @AREA=graph
 # the definition
 @DEFN=Two {graphs} are isomorphic if there 
-is a one-to-one correspondence between their {vertices#vertex} and
-there is an {edge} between two vertices of one graph
+is a one-to-one correspondence between their {vertexes} and
+there is an {edge} between two vertexes of one graph
 if and only if there is an edge between
-the two corresponding vertices in the other graph. 
+the two corresponding vertexes in the other graph. 
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={homeomorphic}
 # any notes.  these will not be printed in the final dictionary
@@ -25,4 +25,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/graph-isomorphism.shtml">(C
 and Mathematica)</A>
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/isomorphic.trm,v $
