@@ -1,0 +1,35 @@
+# *created  "Tue Feb  2 15:48:53 1999" *by "Paul E. Black"
+# *modified "Fri Jan 11 16:20:24 2002" *by "Paul E. Black"
+# entry name
+@NAME=potential function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=A measure of a data structure whose change after an operation
+corresponds to the time cost of the operation.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={amortized cost}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>R. E. Tarjan</strong>, <em>Amortized computational
+complexity</em>, SIAM Journal on Algebraic and Discrete Methods,
+6(2):306-318, 1985.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If an inexpensive operation results in an increase of
+the potential function, but the increase of the potential function is
+within a constant factor of the actual cost of the operation, the
+amortized cost of the operation is unchanged.  Meanwhile, if an
+expensive operation results in a decrease of the potential function
+that offsets the cost of the expensive operation, the amortized
+cost of the expensive operation may be small.  For such an analysis to
+remain valid, the potential function must stay nonnegative, and begin
+with a value of zero.  For more on amortized analysis and its origins
+see Tarjan.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
