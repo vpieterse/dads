@@ -1,5 +1,10 @@
 # *created  "Sat Aug 28 10:37:23 1999" *by "Paul E. Black"
-# *modified "Wed Jul 23 11:56:45 2003" *by "Paul E. Black"
+# *modified "Thu Mar 18 09:51:45 2004" *by "Paul E. Black"
+
+# $Log: upperTriangularMatrix.trm,v $
+# Revision 1.2  2004/03/18 16:07:39  black
+# Refine XREFS into IMA, etc.  Reference new term: one-based indexing.
+#
 
 # entry name
 @NAME=upper triangular matrix
@@ -8,10 +13,20 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=A {matrix} which is only defined at $(i,j)$ when $i \leq j$.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={lower triangular matrix}, {strictly upper triangular matrix},
-{ragged matrix}
+@DEFN=A {matrix} that is only defined at $(i,j)$ when $i \leq j$.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={matrix}
+# Specialization: "... is a kind of me."
+@VARIANT={strictly upper triangular matrix},
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={lower triangular matrix}, {ragged matrix}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For example
 <table>
@@ -27,12 +42,12 @@
 <P>
 It may be more compactly represented in an array by storing entry
 $(i,j)$ in location
-$n(i-1)+j-\frac\{i(i-1)}\{2} = \frac\{(2n-i)(i-1)}\{2} + j$
-(one-based indexing).
+$n(i-1) + j - i(i-1)/2 = (2n-i)(i-1)/2 + j$
+{one-based indexing}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://gams.nist.gov/serve.cgi/Class/N1">(Fortran)</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/upperTriangularMatrix.trm,v $
