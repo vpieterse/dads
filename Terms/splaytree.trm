@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:55:14 1999" *by "Paul E. Black"
-# *modified "Tue Feb 17 13:36:40 2004" *by "Paul E. Black"
+# *modified "Thu Oct 14 16:17:14 2004" *by "Paul E. Black"
 
 # $Log: splaytree.trm,v $
+# Revision 1.3  2004/10/14 20:17:18  black
+# Add Kaz's Austin IMPL.
+#
 # Revision 1.2  2004/02/17 18:50:07  black
 # Refine XREFS into IMA, etc.  Add move-to-root heuristic.  Add link to
 # the original paper and full(er) author names.
@@ -21,7 +24,7 @@
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=splaying
+@WEB=splaying, self-adjusting binary search tree
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -46,7 +49,13 @@ Binary Search Trees</A></em>, Journal of the ACM, 32(3):652-686, 1985.
 <A href="http://bobo.link.cs.cmu.edu/cgi-bin/splay/splay-cgi.pl">top-down
 splaying</A>.
 # implementation(s) (pure HTML)
-@IMPL=<A href="ftp://ftp.cs.cmu.edu/user/sleator/splaying/">(C)</A>
+@IMPL=
+Kaz Kylheku's
+<A href="http://users.footprints.net/~kaz/austin.html">Austin (C)</A>
+implementing sorted list, binary search tree, AVL, red-black and splay
+trees and conversions from any of these to any other.
+Danny Sleator's
+<A href="ftp://ftp.cs.cmu.edu/user/sleator/splaying/">(Java and C)</A>.
 # author's initials
 @AUTHOR=CLK
 # end $Source: /home/black/Workspace/dads/Terms/RCS/splaytree.trm,v $
