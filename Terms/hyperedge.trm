@@ -1,5 +1,5 @@
 # *created  "Mon Apr 26 13:12:45 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:29:06 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:02:12 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=hyperedge
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +7,7 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=graph
 # the definition
-@DEFN=A connection between two or more {vertices#vertex} of a 
+@DEFN=A connection between two or more {vertexes} of a 
 {hypergraph}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={edge}, {graph}, {directed graph}, {undirected graph}, 
@@ -20,4 +20,4 @@
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hyperedge.trm,v $
