@@ -1,5 +1,11 @@
 # *created  "Mon Feb 22 08:42:33 1999" *by "Paul E. Black"
-# *modified "Mon Feb 22 08:53:01 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:12 2004" *by "Paul E. Black"
+
+# $Log: relaxedBalance.trm,v $
+# Revision 1.2  2004/12/17 16:54:13  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=relaxed balance
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=When {rebalancing#rebalance} a {search tree#binary search
 tree} is independent of updating the tree.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={balanced tree}, {rebalance}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Normally rebalancing is tightly coupled to updating: as soon as
 the tree is updated, rebalancing operations are applied until the
@@ -21,10 +38,10 @@ such that an update can leave the tree in a well-defined state.  Thus,
 the assumptions under which rebalancing is carried out change.  This
 poses the problem of still carrying out the rebalancing efficiently.
 # further explanation (pure HTML)
-@LINKS=<A HREF="http://www.imada.ou.dk/~kslarsen/RelBal/">Relaxed
-Balance page</A>
+@LINKS=<a href="http://www.imada.ou.dk/~kslarsen/RelBal/">Relaxed
+Balance page</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=KSL
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/relaxedBalance.trm,v $
