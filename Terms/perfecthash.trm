@@ -1,0 +1,45 @@
+# *created  "Wed Dec 23 08:51:37 1998" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:25:53 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=perfect hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {hash function} that maps each different {key} to a distinct
+integer.  Usually all possible keys must be known
+beforehand.  A {hash table} that uses a perfect hash
+has no {collisions}.
+# formal definition or {cross reference} to an entry
+@FORML=A function f is perfect for a set of keys K iff
+$\forall j, k \in K f(j) = f(k) \rightarrow j = k$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=optimal hashing
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={minimal perfect hashing}, {order preserving minimal perfect hashing}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Martin Dietzfelbinger, Anna Karlin, Kurt Melhorn, Friedhelm
+Meyer Auf Der Heide, Hans Rohnert, and Robert E. Tarjan</strong>,
+<em>Dynamic Perfect Hashing: Upper and Lower Bounds</em>,
+SIAM J. Comput., 23(4):738-761, August 1994.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After BJ.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=See the implementations at <A
+href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
+perfect hashing (C++, C)</A>,
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c">insert
+(C)</A>, <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c">search
+(C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
