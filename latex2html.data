@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.11 2002/02/19 20:02:59 black Exp $
+# $Id: latex2html.data,v 1.12 2002/04/05 19:38:31 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Feb 19 15:01:19 2002" *by "Paul E. Black"
+# *modified "Fri Apr  5 14:30:45 2002" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -53,7 +53,7 @@
 \oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
 \otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
 #    Table 3.5: Relation Symbols
-\not	not
+#\not	not		must follow \notin to not mess it up
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
 \ll	&lt;&lt;
 \sim	<img src="Images/sim.gif" border=0 height=5 width=13 alt="similar to">
@@ -64,6 +64,7 @@
 \approx	<img src="Images/approx.gif" border=0 height=6 width=13 alt="approximately equal to">
 \neq	<img src="Images/neq.gif" border=0 height=10 width=10 alt="not equal to">
 \notin	<img src="Images/notin.gif" border=0 height=11 width=9 alt="not in">
+\not	not
 #\in	in		must go at end to not mess up \int and \infty
 \mid	|
 #    Table 3.6 Arrow Symbols
