@@ -1,0 +1,45 @@
+# *created  "Thu Feb  3 16:49:31 2000" *by "Paul E. Black"
+# *modified "Wed Nov 20 11:33:20 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=BDD
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=binary decision diagram, BP, branching programs
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={OBDD}, {reduced ordered binary decision diagram}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Randy E. Bryant</strong>, <em>Graph-Based Algorithms for
+Boolean Function Manipulation</em>, IEEE Transactions on Computers,
+C-35(8):677-691, August, 1986.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+A short bibliography of
+<A href="http://www.informatik.uni-trier.de/~ley/db/bdd/">Binary
+Decision Diagrams</A>.
+<A
+href="http://pecan.srv.cs.cmu.edu/afs/cs.cmu.edu/user/bryant/www/">Randy
+Bryant's homepage</A>
+</P>
+
+<P>
+A BDD is a {full binary tree}.
+# The name "branching program" or BP comes from a review of
+# "Branching programs and binary decision diagrams: theory and
+# application" by Ingo Wegener, SIAM, 2000
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
