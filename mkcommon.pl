@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.2 2001/04/06 19:29:00 black Exp $
+# $Id: mkcommon.pl,v 1.3 2001/07/03 15:21:13 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Apr  6 15:22:06 2001" *by "Paul E. Black"
+# *modified "Tue Jul  3 11:07:35 2001" *by "Paul E. Black"
 #
 # Common definitions for format and indexing terms for web pages.
 #
@@ -26,8 +26,8 @@ $WEB_DIR	="Target";
 # - The URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-$URL_DIR	="http://hissa.nist.gov/dads";
-#$URL_DIR	="http://www.itl.nist.gov/div897/sqg/dads";
+#$URL_DIR	="http://hissa.nist.gov/dads";
+$URL_DIR	="http://www.nist.gov/dads";
 
 # Note: the *name=\value is a Perl 5.0-ism which says name refers to 
 # value, and the reference cannot be changed.  Equivalent to declaring
@@ -370,7 +370,7 @@ sub readTermEntries {
 	#		BB<src img="alpha.gif"><sub>2</sub> tree
 	# TNAME is plain-text name, e.g., without HTML or LaTeX markers.
 	#		BBalpha2 tree
-	# ename HERE is name used to alphabetize, e.g.,
+	# alphname HERE is name used to alphabetize, e.g.,
 	#		BBALPHATWOTREE
 
 	# save a version of the entry name without LaTeX markers for lookup
@@ -386,39 +386,39 @@ sub readTermEntries {
 	($thisEntry{TNAME}) = $tname;
 
 	# add this to an "index" for later sorting and printing
-	my $ename = $thisEntry{NAME};
+	my $alphname = $thisEntry{NAME};
 	print STDERR "." if ($verbose); # progress indicator
 	# index some numbers and symbols as words
-	$ename =~ s/\b0\b/zero/g;
-	$ename =~ s/\b1\b/one/g;
-	$ename =~ s/\b2\b/two/g;
-	$ename =~ s/\b3\b/three/g;
-	$ename =~ s/\b4\b/four/g;
-	$ename =~ s/[*]/star/go;
-	$ename =~ s/[+]/plus/go;
+	$alphname =~ s/\b0\b/zero/g;
+	$alphname =~ s/\b1\b/one/g;
+	$alphname =~ s/\b2\b/two/g;
+	$alphname =~ s/\b3\b/three/g;
+	$alphname =~ s/\b4\b/four/g;
+	$alphname =~ s/[*]/star/go;
+	$alphname =~ s/[+]/plus/go;
 	# remove any embedded html
-	$ename =~ s/<[^>]*>//go;
-	$startsWithSpecial = ($ename =~ /^\$\\/);
+	$alphname =~ s/<[^>]*>//go;
+	$startsWithSpecial = ($alphname =~ /^\$\\/);
 	# make all letters upper case and remove any remaining non-letter
-	$ename =~ tr/A-Za-z\0-\377/A-ZA-Z/d;
+	$alphname =~ tr/A-Za-z\0-\377/A-ZA-Z/d;
 	if ($startsWithSpecial) {
 	    # prepend a space so names with special characters come first
-	    $ename = " $ename";
+	    $alphname = " $alphname";
 	}
 	# make sure entry name is unique
-	while (defined $entries{$ename}) {
-	    $ename .= "Z";
+	while (defined $entries{$alphname}) {
+	    $alphname .= "Z";
 	}
 	# save as a hash-of-hashes
 	for $fld (keys %thisEntry) {
-	    $entries{$ename}{$fld} = $thisEntry{$fld};
+	    $entries{$alphname}{$fld} = $thisEntry{$fld};
 	}
 
 	#print "NAME is $thisEntry{NAME}\nTNAME is $thisEntry{TNAME}\n";
-	#print "DNAME is $thisEntry{DNAME}\nename is $ename\n";
+	#print "DNAME is $thisEntry{DNAME}\nalphname is $alphname\n";
 	#print "XNAME is $thisEntry{XNAME}\n";
 	# remember this entry to check cross references
-	$entriesForXref{$thisEntry{XNAME}} = $ename;
+	$entriesForXref{$thisEntry{XNAME}} = $alphname;
     }
     print STDERR "\n" if ($verbose);
 
