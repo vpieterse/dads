@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.19 1999/03/02 20:52:34 black Exp $
+# $Id: mkterms,v 1.20 1999/03/03 15:44:53 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Tue Mar  2 15:50:28 1999" *by "Paul E. Black"
+# *modified "Wed Mar  3 10:37:07 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -41,6 +41,7 @@ $AUTHORS  ="authors";
 $WEBPAGE  ="terms";
 $OUT_DIR  ="HTML";
 $URL_DIR  ="http://hissa.ncsl.nist.gov/~black/CRCDict";
+$ownerEmail = "paul.black\@nist.gov";
 
 # defined areas
 %areas = (
@@ -194,6 +195,10 @@ while ($entryFile = shift @entries) {
 	|| print STDERR "Cannot open $entryFile\n" && next;
 
     while (<ENTRY>) {
+	if (/modified "([^"]+)"/) {
+	    $thisEntry{MODIFIED} = $1;
+	}
+
 	next if (/^ *\#/o); # skip comments
 
 	# look for property headers
@@ -388,6 +393,11 @@ for $ekey (@sortedentries) {
     my($ename) = $thisEntry{NAME};
     my($tname) = $thisEntry{TNAME};
     print STDERR "$tname, " if ($verbose);
+    if (defined $thisEntry{MODIFIED}) {
+	$moddate = $thisEntry{MODIFIED};
+    } else {
+	$moddate = "sometime";
+    }
 
     $termpage="$OUT_DIR/$thisEntry{BASEFILENM}.html";
     $termurl ="$URL_DIR/$termpage";
@@ -402,10 +412,12 @@ for $ekey (@sortedentries) {
     # copy term page intro, replacing variables as appropriate
     open(FHANDLE, "< $ENTINTRO")
 	|| die("Cannot open $ENTINTRO\n");
+    $runtime = localtime;
     while (<FHANDLE>) {
 	s/\$NAME/$ename/g;
 	s/\$TNAME/$tname/g;
-	s/\$RUNDATE/localtime/ge;
+	s/\$RUNDATE/$runtime/g;
+	s/\$MODDATE/$moddate/g;
 	s/\$URL/$termurl/g;
 	print TERMPAGE $_;
     };
@@ -432,7 +444,13 @@ for $ekey (@sortedentries) {
 	#$edefn =~ s/>/&gt;/go;
 	print TERMPAGE "$edefn\n";
     } else {
-	print TERMPAGE "<A HREF=\"../$pagename\#needHelp\">(no definition, yet)</A>\n";
+	print TERMPAGE << "NO_DEFN_MESSAGE";
+(no definition, yet, but
+<A HREF=\"../$pagename\#needHelp\">you can help</A>.
+If you want a definition, please
+<A HREF="mailto:$ownerEmail">send me a request</A>. I will
+try to come up with a definition and send it to you right away.)
+NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{XREFS}) {
 	my($exrefs) = $thisEntry{XREFS};
@@ -474,7 +492,8 @@ for $ekey (@sortedentries) {
     while (<FHANDLE>) {
 	s/\$NAME/$ename/g;
 	s/\$TNAME/$tname/g;
-	s/\$RUNDATE/localtime/ge;
+	s/\$RUNDATE/$runtime/g;
+	s/\$MODDATE/$moddate/g;
 	s/\$URL/$termurl/g;
 	print TERMPAGE $_;
     };
