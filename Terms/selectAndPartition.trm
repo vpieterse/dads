@@ -1,0 +1,33 @@
+# *created  "Mon Apr 12 14:18:14 1999" *by "Paul E. Black"
+# *modified "Tue Jan  7 10:39:38 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=select and partition
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=search
+# the definition
+@DEFN=Given an {array} A of $n$ elements and a positive
+integer $k \leq n$, find the $k<sup>th</sup>$ smallest element
+of A and {partition} the array such that $A[1], \ldots, A[k-1] \leq A[k]
+\leq A[k+1], \ldots, A[n]$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={select k<sup>th</sup> element}, {MODIFIND}, {Find}, {Select}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Algorithms to solve this problem are often used in {sort}
+algorithms or to find the {median} of a set.
+These can be easily changed to find the k<sup>th</sup> largest
+element.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.geocities.com/SiliconValley/Garage/3323/3alg.html">analysis
+and comparison (Rexx)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/kth-least.html">(Scheme)</A>
+# author's initials
+@AUTHOR=VZ
+# end
