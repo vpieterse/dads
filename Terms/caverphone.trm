@@ -1,7 +1,10 @@
 # *created  "Fri Apr 16 07:59:55 2004" *by "Paul E. Black"
-# *modified "Wed May  5 15:43:53 2004" *by "Paul E. Black"
+# *modified "Thu Aug 19 08:57:01 2004" *by "Paul E. Black"
 
 # $Log: caverphone.trm,v $
+# Revision 1.4  2004/08/19 13:03:06  black
+# Capitialize name.  Change entry to refer to the latest, v 2.0.
+#
 # Revision 1.3  2004/05/05 19:44:02  black
 # Rename edit distance to be Levenshtein distance.
 #
@@ -13,13 +16,13 @@
 #
 
 # entry name
-@NAME=caverphone
+@NAME=Caverphone
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=An algorithm to code surnames phonetically.
+@DEFN=An algorithm to code English words phonetically.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -46,16 +49,23 @@
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
 # any notes.  these are not printed in the final dictionary
-@NOTES=Similar to {metaphone}, but customized for the caversham data
+@NOTES=The first Caverphone algorithm is similar to {metaphone}, but
+customized for the Caversham data
 set (names and accents in the southern part of Dunedin, New Zealand in
 1893-1938).
+The updated algorithm, 2.0, is a "general purpose English phonetic
+matching system."
 # any historical notes
 @HISTORY=
 
 # implementation(s) (pure HTML)
 @IMPL=<A
+href="http://caversham.otago.ac.nz/files/working/ctp150804.pdf">PDF
+document comparing soundex, metaphone, and Caverphone 2.0
+(Python)</A>.
+<A
 href="http://caversham.otago.ac.nz/files/working/ctp060902.pdf">PDF
-document comparing soundex, metaphone, NYSIIS, and caverphone
+document comparing soundex, metaphone, NYSIIS, and Caverphone
 (JavaScript)</A>.
 # further explanation (pure HTML)
 @LINKS=
