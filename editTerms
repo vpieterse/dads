@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.9 2004/12/10 21:39:02 black Exp $';
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.10 2004/12/13 20:34:25 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Fri Dec 10 16:38:21 2004" *by "Paul E. Black"';
+$versionMod=' *modified "Mon Dec 13 15:31:56 2004" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -240,13 +240,13 @@ ___XREFS_REFINEMENTS___
 		# other clean-up edits
 		$line =~ s/^# end$/# end \$Source\$/;
 		$line =~ s/HREF=/href=/g;
-		$line =~ s/<A/<a/g;
-		$line =~ s/</A>/</a>/g;
-		$line =~ s/<BR>/<br>/g;
-		$line =~ s/P>/p>/g;
-		$line =~ s/PRE>/pre>/g;
-		$line =~ s/SUP>/sup>/g;
-		$line =~ s/TD>/td>/g;
+		$line =~ s|<A|<a|g;
+		$line =~ s|</A>|</a>|g;
+		$line =~ s|<BR>|<br>|g;
+		$line =~ s|P>|p>|g;
+		$line =~ s|PRE>|pre>|g;
+		$line =~ s|SUP>|sup>|g;
+		$line =~ s|TD>|td>|g;
 
 		#----------------------------------------------------
 		#
