@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:09:06 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=average case
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=Having to do with the mathematical average of all cases.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={best case}, {worst case}, {mean}, {mode}, {median}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Deciding whether the average is mean, median, or mode, and what
+are all expected or reasonable cases can be difficult.
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.uncg.edu/mat/avg/">Average Case Complexity Forum</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
