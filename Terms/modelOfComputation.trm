@@ -1,5 +1,11 @@
 # *created  "Thu Jun 17 11:32:15 1999" *by "Paul E. Black"
-# *modified "Tue Sep 19 16:09:34 2000" *by "Paul E. Black"
+# *modified "Fri Feb 27 15:17:39 2004" *by "Paul E. Black"
+
+# $Log: modelOfComputation.trm,v $
+# Revision 1.2  2004/02/27 20:19:10  black
+# Refine XREFS into IMA, etc.  Add reference to shared memory.
+#
+
 # entry name
 @NAME=model of computation
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -13,16 +19,28 @@ of an {algorithm} while ignoring many implementation issues.  There
 are many models of computation which differ in computing power (that
 is, some models can perform computations impossible for other models)
 and the cost of various operations.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={Turing machine}, {random access machine}, {big-O notation}, 
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={Turing machine}, {random access machine}, 
 {primitive recursive}, {cellular automaton}, {finite state machine},
 {cell probe model}, {pointer machine},
 {alternation}, {alternating Turing machine},
 {nondeterministic Turing machine}, 
 {oracle Turing machine}, {probabilistic Turing
-machine}, {universal Turing machine}, {multiprocessor model},
+machine}, {universal Turing machine}, {quantum computation}, 
+parallel models: {multiprocessor model},
 {work-depth model}, {parallel random-access machine},
-{quantum computation}
+{shared memory}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={big-O notation}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -31,4 +49,4 @@ machine}, {universal Turing machine}, {multiprocessor model},
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/modelOfComputation.trm,v $
