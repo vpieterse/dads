@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Jul 12 12:59:09 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=B*-tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {B-tree} in which {nodes} are kept 2/3 full by
+redistributing {keys} to fill two {child} nodes, then
+splitting them into three nodes.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=See links at B-tree.
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.data.c">data
+structure definition (C and Pascal)</A>, <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.ins.c">B-tree
+insert (C and Pascal)</A> using <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.iin.c">auxiliary
+functions (C and Pascal)</A>, <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.srch.c">B-tree
+search (C and Pascal)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
