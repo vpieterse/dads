@@ -1,5 +1,5 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Wed Jun 11 14:26:38 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:38:02 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=binary search tree
@@ -31,9 +31,7 @@ notes</A>.
 A <A
 href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</A>.
 # implementation(s) (pure HTML)
-@IMPL=<A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Binary_Search_Tree/binary_search_tree.html">insert,
-search, remove max, number of leaves, etc. (C++)</A>;
+@IMPL=
 Ben Pfaff's 
 <A href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</A>;
