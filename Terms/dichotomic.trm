@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Jul 22 09:47:49 1999" *by "Paul E. Black"
+# entry name
+@NAME=dichotomic search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=Search by selecting between two distinct alternatives
+(dichotomies) at each step.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Division into multiple alternatives is {polychotomy}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
