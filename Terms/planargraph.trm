@@ -1,0 +1,33 @@
+# *created  "Tue Mar  9 08:38:47 1999" *by "Paul E. Black"
+# *modified "Fri May 23 15:03:41 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=planar graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=graph
+# the definition
+@DEFN=A {graph} that can be drawn in the plane with no 
+crossing {edges}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=planarity
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={planar straight-line graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Equivalently, a graph that does not contain any subgraph
+{homeomorphic} to the {complete graph} on 5 {vertices#vertex} or the
+complete {bipartite graph} with 3 vertices in each partition.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.sunysb.edu/~algorith/files/planar-drawing.shtml">draw
+a planar graph such that no edges cross (C, C++, and Mathematica)</A>
+# author's initials
+@AUTHOR=JLG
+# end
