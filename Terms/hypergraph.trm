@@ -1,0 +1,23 @@
+# *created  "Wed Nov 18 10:12:27 1998" *by "Paul E. Black"
+# *modified "Fri Mar 24 07:28:08 2000" *by "Paul E. Black"
+# entry name
+@NAME=hypergraph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {graph} whose {hyperedges} connect two or more 
+{vertices#vertex}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={multigraph},{undirected graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Consider ``family,'' a relation connecting two or more people.
+If each person is a vertex, a family edge connects the father, mother,
+and all of their children.  So G = (people, family) is a hypergraph.
+Contrast this with the {binary relations}
+``married to,'' which connects a man and a woman, or ``child of,''
+which is directed from a child to his or her father or mother.
+# author's initials
+@AUTHOR=PEB
+# end
