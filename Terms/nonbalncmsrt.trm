@@ -1,0 +1,28 @@
+# *created  "Thu Mar  4 12:23:42 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 16:02:46 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=nonbalanced merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN=A {k-way merge sort} in which the number of input and 
+output data streams is different for any particular 
+pass.  Typically $P$ input streams are merged and distributed
+to $T$ output streams on one pass followed by a merge of the
+$T$ inputs and distribution to $P$ outputs.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge sort}, {simple merge}, {balanced merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+<A HREF="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
