@@ -1,0 +1,25 @@
+# *created  "Tue Feb  2 16:52:28 1999" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:12:23 2001" *by "Paul E. Black"
+# entry name
+@NAME=quad trie
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.ins.c">insert
+(C)</A>, <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.srch.c">search
+(C)</A>
+# author's initials
+@AUTHOR=
+# end
