@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Aug  3 12:50:57 2001" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:03:07 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=chromatic number
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,8 +7,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=graph
 # the definition
-@DEFN=The minimum number of colors needed to color the {vertices#vertex} of a
-{graph} such that no two {adjacent} vertices have the same color.
+@DEFN=The minimum number of colors needed to color the {vertexes} of a
+{graph} such that no two {adjacent} vertexes have the same color.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={vertex coloring}, {chromatic index}, {Christofides algorithm}
 # any notes.  these will not be printed in the final dictionary
@@ -23,4 +23,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/chromatcnmbr.trm,v $
