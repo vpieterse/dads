@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Tue Oct 21 08:39:01 2003" *by "Paul E. Black"
+# *modified "Tue Oct 21 10:00:59 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Shell sort
@@ -16,7 +16,7 @@ succeeding increment was half the preceding increment.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Shell-Metzner sort, shell sort
+@WEB=Shell-Metzner sort, shellsort
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
@@ -27,17 +27,145 @@ Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
 # Masters degree in the Mathematics Department of the University of
 # Cincinnati.
 
+# ... one of your web pages mentioned he was "formerly a VP at the
+# General Electric Co." and that you met him once.
+#     http://gecko.gc.maricopa.edu/~rdmciver/CIS159_5593/sorts.htm
+# Would you have any idea where he is now?
+#
+# -paul-
+#
+# Date: Tue, 13 May 2003 15:37:18 -0700
+# From: Don McIver <don.mciver@gcmail.maricopa.edu>
+# To: "Paul E. Black" <p.black@acm.org>
+# Subject: Re: Donald Shell
+# 
+# I worked at GE in Phoenix (Computer Dept.) from 1960 (fresh out of
+# college) until 1970 when Honeywell bought GE's computer business.
+# Shell was working at GE's time sharing business in Bethesda,
+# Maryland in the period 1965-1970 (approx.).  I met him when he
+# came to Phoenix for a demo of our "3D" (batch, remote batch and time
+# sharing) GECOS system ___ which was in competition with GE's time
+# sharing (service bureau) business.
+#
+# Always nice to hear from people interested in GE ___ it was the best
+# company I ever worked for.
+#
+# Don McIver
+
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Based on an "adaptation by Marlene Metzner" this algorithm is
-referred to as the Shell-Metzner sort by <strong>John
+improperly referred to as the Shell-Metzner sort by <strong>John
 P. Grillo</strong>, <em>A Comparison of Sorts</em>, Creative
 Computing, 2:76-80, Nov/Dec 1976.
 # Copy of "A Comparison of Sorts" in Mnemo 5
 Grillo cites <strong>Fredric Stuart</strong>, <em>FORTRAN
 Programming</em>, John Wiley and Sons, New York, 1969, page 294.
 In crediting "one of the fastest" programs for sorting, Stuart says
-in a footnote, "Published by Marlene Metzner, Pratt & Whitney
+in a footnote, "Published by Marlene Metzner, Pratt &amp; Whitney
 Aircraft Company.  From a method described by D. L. Shell."
+</P>
+
+<P>
+On 3 April 2003 Marlene Metzner Norton wrote
+# Marlene Norton <marlene_norton@yahoo.com>
+</P>
+
+<P>
+I had nothing to do with the sort and my name should never have been
+attached to it.
+</P>
+
+<P>
+So, here's the scoop. 
+</P>
+
+<P>
+I graduated from college in 1956 with a degree in Math.  The math I
+took for a college degree in 1956 is pretty
+much all taught in high school now.  I applied for a job at GE in
+Evendale, Cincinnati.  (It was that or teach high school.)  They put
+me to work programming an IBM 704 in an assembly language called CAGE.
+I don't remember what it stood for but the GE was General
+Electric. Probably "Computer Assembler by General Electric".  Don
+Shell worked in the same building, but he was manager of the Systems
+Analysts.  I was one of the many who got several pages of equations
+and turned them into code that would run via punched cards.  This was
+before Basic and Fortran.  The Systems Analysts wrote assemblers, ways
+to create buffers to make printing faster, etc.  I doubt that Don
+Shell even knew I who I was.  About 1959 we started using Fortran --
+just a little.
+</P>
+
+<P>
+I think Don Shell wrote up the theory of his sorting method for the
+Computing Dept. newsletter.  I thought it was interesting and held on
+to a copy.
+</P>
+
+<P>
+In 1960, I bought a convertible and moved to Florida.  Why?  I was
+young, single, the field was wide open and Florida sounded like fun.
+Accepted a job at Pratt &amp; Whitney in West Palm Beach.  Did the same
+kind of programming but Pratt had a brand new IBM 7090.  They
+programmed in SAP.  Don't remember what that stands for, either.  It
+was similar to CAGE.  The logic was the same but the instruction names
+differed just enough to be confusing. 
+</P>
+
+<P>
+Somewhere around 1961 or so, Pratt bought an 
+<A href="http://www.computerhistory.org/old/IBM1620/">IBM 1620</A>. 
+This was a much smaller computer using punched paper tape instead of
+cards.  Did
+it's math by using tables loaded during boot. (CADET -- Can't Add,
+Doesn't Even Try).  Colleges used it for teaching computers.  Pratt
+used it in the Engineering Dept. so engineers could handle smaller
+problems on their own instead of bringing them to the Computer Lab.  
+I was put in charge of co-ordinating the 1620 in Engineering with the
+Computer Dept.  IBM started a 1620 USER's group.  I was sent to the
+first meeting.  Being the only woman there, I was naturally voted in
+as Secretary-Treasurer.  Within the first year, a company in Germany
+bought one so now it was the IBM 1620 INTERNATIONAL USER'S GROUP. 
+</P>
+
+<P>
+The User's Group put out a Newsletter.  People wrote in with
+questions, suggestions, ideas, etc.  To help fill up one of the
+earlier editions, I pulled out Don Shell's sort method and coded it in
+Fortran.  Took about 10 lines of code, give or take five, and an equal
+amount of time.  Gave Don Shell complete credit.
+</P>
+
+<P>
+In 1963 I got married.  In 1964 I left P &amp; W to start a family.
+Taught the 1620 at Palm Beach Junior College (PBJC - Peanut Butter &amp;
+Jelly College) for a couple of years but had no contact with P &amp; W
+or the User's Group.
+</P>
+
+<P>
+ Now I find someone who read it started calling it Shell-Metzner.
+It's a wonder Don Shell didn't hunt me down and sue!
+</P>
+
+#<P>
+#I kept that copy of the newsletter for many years.  I'm searching.
+#We moved to a log cabin in the woods about three years ago and a lot
+#of "memories" had to be dumped.  I don't think I would have thrown
+#that away.  If I find it, I'll e-mail you a copy.  I'll be glad to
+#answer any questions you might have.
+#</P>
+
+<P>
+Marlene 
+</P>
+
+<p>
+PS.  On the up side, I emailed your website to my kids.  The reaction
+to the idea that Mom was once "smart" was worth the potential law
+suit.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
@@ -59,13 +187,13 @@ Windows PFW)</A>,
 <A href="http://www.outer-court.com/basic/echo/T469.HTM">strings (Basic)</A>,
 <A
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0475.html">initial
-increments is about 1/9N and decreases by thirds (Rexx)</A>;
-<A
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0473.html">increments
-are multiples of 3 (Rexx)</A>;
+increment is about 1/9n and decreases by thirds (Rexx)</A>;
 <A
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0474.html">increments
-are 1/2<sup>n</sup> of number of elements (Rexx)</A>.
+are 1/2<sup>n</sup> of number of elements (Rexx)</A>;
+<A
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0473.html">increments
+are multiples of 3 (Rexx)</A>.
 # author's initials
 @AUTHOR=PEB,ASK
 # end
