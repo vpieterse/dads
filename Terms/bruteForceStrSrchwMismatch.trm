@@ -1,5 +1,12 @@
 # *created  "Wed Feb  3 10:28:46 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:09:04 2001" *by "Paul E. Black"
+# *modified "Mon Dec 13 16:32:31 2004" *by "Paul E. Black"
+
+# $Log: bruteForceStrSrchwMismatch.trm,v $
+# Revision 1.2  2004/12/13 21:34:39  black
+# Add initial defn.  Refine XREFS into IMA, etc.  Add RCS keywords.
+# Make <Anchors>..</A> XHTML compatible.
+#
+
 # entry name
 @NAME=brute force string search with mismatches
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,17 +14,33 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
+@DEFN=Beginning with the (leftmost) position in a string and trying
+each position in turn, find the number of characters for which the
+{pattern} and the substring beginning at that position don't match
+(the {Hamming distance}).  Return the first position with $k$ or fewer
+mismatches.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching with mismatches}, 
+{brute force string search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/718.srch.c">(C
-and Pascal)</A>
+@IMPL=Gonnet and Baeza-Yates' <a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/718.srch.c">(C
+and Pascal)</a>
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bruteForceStrSrchwMismatch.trm,v $
