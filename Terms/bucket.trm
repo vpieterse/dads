@@ -1,0 +1,27 @@
+# *created  "Wed Mar  3 13:45:01 1999" *by "Paul E. Black"
+# *modified "Tue Nov 14 10:12:37 2000" *by "Paul E. Black"
+# entry name
+@NAME=bucket
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=An area of storage where items with a common property are stored.
+Typically {tree} data structures and {sort} algorithms use
+many buckets, one for each group of items.  Usually buckets are kept
+on disk.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={radix sort}, {bucket sort}, {hash heap}, {bucket trie},
+{extendible hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A <em>bucket</em> is used when a number of items need to be
+kept together, but the order among them is not important.
+Conceptually it is a {bag} (rather than a {set}).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
