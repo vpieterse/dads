@@ -1,12 +1,9 @@
 # *created  "Fri Sep 18 12:00:00 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:55 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:48:52 2004" *by "Paul E. Black"
 
 # $Log: tree.trm,v $
-# Revision 1.4  2004/12/17 17:28:55  black
-# Make more XHTML compliant.
-#
-# Revision 1.3  2004/12/17 17:24:58  black
-# Make more XHTML compliant.
+# Revision 1.5  2004/12/17 17:49:22  black
+# Make IMG more XHTML compliant.  Move VARIANTS from XREFS.
 #
 # Revision 1.2  2004/12/17 16:55:16  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
@@ -30,7 +27,7 @@ of the structure, and the leaves are depicted at the bottom.
 {undirected#undirected graph}, {acyclic graph}.  It is
 {rooted#rooted tree} and {ordered#ordered tree} unless otherwise specified.
 <br>
-<IMG src="../Images/tree.gif" height="225" width="201">
+<img src="../Images/tree.gif" height="225" width="201">
 # formal definition or {cross reference} to an entry
 @FORML=(1) A tree is either
 <ul>
@@ -47,21 +44,21 @@ The subtrees are ordered.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={heap}, {B-tree}, {binary tree}, {balanced tree},
+{multiway tree}, {complete tree}, {search tree}, {digital tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=kinds of trees: {heap}, {B-tree}, {binary tree}, {balanced tree},
-
-{multiway tree}, {complete tree}, {search tree}, {digital tree},
+@XREFS=
 other vocabulary: 
 {descendant}, {ancestor},
 {tree traversal},
 {height}, {depth} (1),
 technical terms: {ordered tree}, {rooted tree}, {free tree},
 {arborescence}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # Algorithms and Theory of Computation Handbook, pages 13-13 and 13-18
