@@ -1,0 +1,23 @@
+# *created  "Wed Apr  5 08:59:46 2000" *by "Paul E. Black"
+# *modified "Wed Jul 23 09:01:10 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Moore machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {finite state machine} that produces an output for each
+{state}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Mealy machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Named for the originator, Edward F. Moore.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
