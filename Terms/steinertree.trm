@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Oct 14 14:59:46 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 15:02:31 2004" *by "Paul E. Black"
+
+# $Log: steinertree.trm,v $
+# Revision 1.3  2004/04/19 19:03:43  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 18:59:59  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=Steiner tree
@@ -9,12 +17,23 @@
 @AREA=graph
 # the definition
 @DEFN=A minimum-weight {tree} connecting a designated set of 
-{vertexes}, called <em>terminals</em>, in a {weighted graph} or
+{vertices#vertex}, called <em>terminals</em>, in a {weighted graph} or
 points in a space.
 The tree may include non-terminals, which are called
-{Steiner vertexes} or {Steiner points}.
-# comma-separated list of {cross references}, i.e., See also ...
+{Steiner vertices#Steiner vertex} or {Steiner points}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Euclidean Steiner tree},{rectilinear Steiner tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # ck6 is Clark Kimberling
@@ -22,7 +41,7 @@ Named for <A
 href="http://faculty.evansville.edu/ck6/bstud/steiner.html">Jakob
 Steiner</A>.  
 # further explanation (pure HTML)
-@LINKS=The <A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+@LINKS=The <A href="http://ganley.org/steiner/">Steiner Tree page</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.cs.sunysb.edu/~algorith/files/steiner-tree.shtml">(C
