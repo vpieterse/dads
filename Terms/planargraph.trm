@@ -1,7 +1,10 @@
 # *created  "Tue Mar  9 08:38:47 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:55:29 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:35 2004" *by "Paul E. Black"
 
 # $Log: planargraph.trm,v $
+# Revision 1.5  2004/12/17 17:28:35  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/04/19 18:55:40  black
 # Use the standard English plural of vertex
 #
@@ -23,7 +26,7 @@
 crossing {edges}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=planarity
@@ -47,9 +50,9 @@ complete {bipartite graph} with 3 vertices in each partition.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/planar-drawing.shtml">draw
-a planar graph such that no edges cross (C, C++, and Mathematica)</A>
+a planar graph such that no edges cross (C, C++, and Mathematica)</a>
 # author's initials
 @AUTHOR=JLG
 # end $Source: /home/black/Workspace/dads/Terms/RCS/planargraph.trm,v $
