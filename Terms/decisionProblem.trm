@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Jan 29 12:09:05 2002" *by "Paul E. Black"
+# *modified "Mon Sep 20 12:22:02 2004" *by "Paul E. Black"
+
+# $Log: decisionProblem.trm,v $
+# Revision 1.2  2004/09/20 16:22:11  black
+# Change Comp.Theory FAQ URL.
+#
 
 # entry name
 @NAME=decision problem
@@ -10,8 +15,19 @@
 # the definition
 @DEFN=A problem with a ``yes'' or ``no'' answer.  Equivalently, a
 {function} whose {range} is two values, such as $\{0,1\}$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={optimization problem}, {certificate}, {NP}, {NP-complete}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 A decision problem asks, is there a solution with a certain
@@ -29,10 +45,10 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <A
-HREF="http://www.cs.unb.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</A>, scroll down to <strong>P vs. NP</strong>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/decisionProblem.trm,v $
