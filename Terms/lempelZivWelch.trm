@@ -1,0 +1,42 @@
+# *created  "Mon Sep 27 08:55:03 1999" *by "Paul E. Black"
+# *modified "Fri May  3 15:22:41 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Lempel-Ziv-Welch
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=A compression algorithm that encodes strings of characters with
+codes of a fixed number of bits.  Every new string in the input is
+added to a table until it is full.  The codes of existing strings are
+output instead of the strings.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=LZW compression
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Lempel-Ziv, Lempel-Ziv-Welch data compression
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={algorithm BSTW}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>J. Ziv and A. Lempel</strong>, <em>A Universal Algorithm
+for Sequential Data Compression</em>, IEEE Transactions on Information
+Theory, May 1977.
+</P>
+
+<P>
+<strong>Terry Welch</strong>, <em>A Technique for High-Performance
+Data Compression</em>, Computer, June 1984.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.ics.uci.edu/~dan/pubs/DC-Sec5.html">survey
+of data compression</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://dogma.net/markn/articles/lzw/lzw.htm">explanation (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=GS
+# end
