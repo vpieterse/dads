@@ -1,0 +1,43 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 14 12:39:35 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=greedy algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=An algorithm that always takes the best immediate, or local,
+solution while finding an answer.  Greedy algorithms find
+the overall, or globally, {optimal solution} for some {optimization
+problems}, but may
+find less-than-optimal solutions for some instances of other problems.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={greedy heuristic}
+# any notes.  these will not be printed in the final dictionary
+@NOTES={Prim's algorithm} and {Kruskal's algorithm} are greedy
+algorithms that find the globally optimal solution, a {minimum
+spanning tree}.  In contrast, any known greedy algorithm to find an
+{Hamiltonian cycle} might not find the shortest path, that is, a solution
+to the {traveling salesman} problem.
+</P>
+
+<P>
+If there is no greedy algorithm that always finds the optimal
+solution for a problem, one may have to search (exponentially) many
+possible solutions to find the optimum.  Greedy algorithms are usually
+quicker, since they don't consider the details of possible alternatives.
+</P>
+
+<P>
+{Dijkstra's algorithm} for finding {shortest paths}, {Huffman
+encoding} and {optimal merge} are other examples
+of greedy algorithms that find optimal solutions.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
