@@ -1,5 +1,5 @@
 # *created  
-# *modified "Thu Dec 13 10:05:13 2001" *by "Paul E. Black"
+# *modified "Thu Sep 25 12:01:50 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=
@@ -13,7 +13,7 @@
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
-# other cross-listings solely for the web, such as word or spelling variants
+# other cross-listings solely for the web, such as name or spelling variants
 @WEB=
 # comma-separated list of {cross references}.  printed as "See also ..."
 @XREFS=
@@ -29,4 +29,4 @@
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
