@@ -1,5 +1,5 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Tue Aug 12 14:14:14 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:27:36 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=selection sort
@@ -31,8 +31,6 @@ can be {stable}.
 @IMPL=<A
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">animation
 and code (Java)</A>;
-<A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Selection_Sort">explanation (C)</A>;
 <A href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</A>.
 # author's initials
 @AUTHOR=PEB
