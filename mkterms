@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.40 1999/12/16 14:44:55 black Exp $
+# $Id: mkterms,v 1.41 1999/12/30 18:34:31 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Dec 16 09:03:31 1999" *by "Paul E. Black"
+# *modified "Wed Dec 22 08:48:33 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -41,7 +41,7 @@ $justTesting = "";
 # - TYPES is the (path) name of the admissible types of the entries
 # - LATEXREWRITES is the (path) name of PERL substitutions to change LaTeX 
 #	to the target language, e.g., HTML
-# - WEB_DIR is the path of the web pages.
+# - WEB_DIR is the file system path of the web pages.
 # - WEBPAGE is the name of final web page, less extension (.html), for 
 #	instance, the main page is written to $WEB_DIR/$WEBPAGE.html
 # - OUT_DIR is the path of the directory where term pages go, that is,
@@ -497,14 +497,14 @@ print "Read $numEntriesRead terms\n";
 
 #------------------------------------------------------------------------
 #
-# Step III: create the web page in a temporary file
+# Step III: create the main web page in a temporary file
 #	-) create a temporary file
 #	a) copy the introduction
 #	b) sort the entries
 #
 #------------------------------------------------------------------------
 
-$pagename="$WEB_DIR/$WEBPAGE.html";
+$pagename="$WEBPAGE.html";
 $temppage="$WEB_DIR/\#$WEBPAGE.html";
 
 unlink($temppage) if (-e $temppage);
@@ -728,7 +728,7 @@ TABLE_NEXT_COLUMN
     } else {
 	print TERMPAGE << "NO_DEFN_MESSAGE";
 (no definition here, yet, but
-<A HREF=\"../$WEBPAGE.html\#needHelp\">you can help</A>.)
+<A HREF=\"../$pagename\#needHelp\">you can help</A>.)
 NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{XREFS}) {
@@ -861,7 +861,7 @@ close TMPPAGE;
 #------------------------------------------------------------------------
 
 die ("TESTING-INDEX PAGES NOT CHANGED, stopped") if $justTesting;
-&backupMove($temppage, $pagename);
+&backupMove($temppage, "$WEB_DIR/$pagename");
 
 #------------------------------------------------------------------------
 #
@@ -872,7 +872,7 @@ die ("TESTING-INDEX PAGES NOT CHANGED, stopped") if $justTesting;
 # Step Va: select name and open the page
 
 $pageroot="$WEBPAGE" . "Impl";
-$pagename="$WEB_DIR/$pageroot.html";
+$fspagename="$WEB_DIR/$pageroot.html";
 $temppage="$WEB_DIR/\#$pageroot.html";
 
 unlink($temppage) if (-e $temppage);
@@ -910,7 +910,7 @@ close TMPPAGE;
 
 # Step Ve: backup page and relink
 
-&backupMove($temppage, $pagename);
+&backupMove($temppage, $fspagename);
 
 #------------------------------------------------------------------------
 #
@@ -923,7 +923,7 @@ print STDERR "Writing entries by area\n" if ($verbose);
 # Step VIa: select name and open the page
 
 $pageroot="$WEBPAGE" . "Area";
-$pagename="$WEB_DIR/$pageroot.html";
+$fspagename="$WEB_DIR/$pageroot.html";
 $temppage="$WEB_DIR/\#$pageroot.html";
 
 unlink($temppage) if (-e $temppage);
@@ -991,7 +991,7 @@ close TMPPAGE;
 
 # Step VIe: backup page and relink
 
-&backupMove($temppage, $pagename);
+&backupMove($temppage, $fspagename);
 
 #------------------------------------------------------------------------
 #
@@ -1004,7 +1004,7 @@ print STDERR "Writing entries by type\n" if ($verbose);
 # Step VIIa: select name and open the page
 
 $pageroot="$WEBPAGE" . "Type";
-$pagename="$WEB_DIR/$pageroot.html";
+$fspagename="$WEB_DIR/$pageroot.html";
 $temppage="$WEB_DIR/\#$pageroot.html";
 
 unlink($temppage) if (-e $temppage);
@@ -1064,7 +1064,7 @@ close TMPPAGE;
 
 # Step VIIe: backup page and relink
 
-&backupMove($temppage, $pagename);
+&backupMove($temppage, $fspagename);
 
 exit;
 
