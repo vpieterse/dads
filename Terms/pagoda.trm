@@ -1,0 +1,31 @@
+# *created  "Wed Feb  3 09:59:26 1999" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:46:30 2001" *by "Paul E. Black"
+# entry name
+@NAME=pagoda
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Francon, J., Viennot, G., and Vuillemin, J.  Description and
+analysis of an efficient priority queue representation.  Proc. 19th
+Annual Symp. on Foundations of Computer Science.  IEEE, 1978,
+pp. 1-7.  Nix, R.  An Evaluation of Pagodas.  Res. Rep. 164, Dept. of
+Computer Science, Yale Univ.  1988?
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.del.c">delete
+(C and Pascal)</A>, <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.ins.c">insert
+(C and Pascal)</A>, and <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/515.merg.c">merge
+(C and Pascal)</A>
+# author's initials
+@AUTHOR=
+# end
