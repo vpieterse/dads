@@ -1,0 +1,49 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:03:38 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=little-o notation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A theoretical measure of the execution of an {algorithm},
+usually the time or memory needed, given the problem size $n$,
+which is usually the number of items.  Informally, saying some equation
+$f(n) = o(g(n))$ means $f(n)$ becomes insignificant relative to $g(n)$
+as $n$ approaches infinity.  
+The notation is read, "f of n is little oh of g of n".
+# formal definition or {cross reference} to an entry
+@FORML=
+$f(n) = o(g(n))$
+means for all $c &gt; 0$
+there exists some $k &gt; 0$ such that
+$0 \leq f(n) &lt; cg(n)$ for all
+$n \geq k$.
+The value of $k$ must not depend on $n$, but may depend on $c$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=o notation
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={big-O notation}, {$\omega(n)$#$\omega$}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+As an example, $3n + 4$ is $o(n<sup>2</sup>)$ 
+since for any $c$ we can choose 
+$k &gt; (3+\sqrt\{9+16c})/2c$.  $3n + 4$ is not $o(n)$.
+$o(f(n))$ is an upper bound, but is not an
+{asymptotically tight bound}.
+</P>
+
+<P>
+Strictly, the character is the lower-case Greek letter
+omicron.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
