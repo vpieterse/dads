@@ -1,0 +1,19 @@
+# *created  "Fri Sep 18 12:43:45 1998" *by "Paul E. Black"
+# *modified "Fri Sep 18 12:51:45 1998" *by "Paul E. Black"
+# entry name
+@NAME=child
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=An item of a {tree} referred to by a {parent} item.  See
+the figure at {tree}.  Every item, except the {root}, is the
+child of some parent.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
