@@ -1,5 +1,5 @@
 # *created  "Wed Nov 20 10:55:36 2002" *by "Paul E. Black"
-# *modified "Wed Nov 20 11:27:17 2002" *by "Paul E. Black"
+# *modified "Thu Sep 25 12:09:47 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=inverse Ackermann function
@@ -35,4 +35,4 @@ After <A href="../terms.html#CLR90">[CLR90, page 452]</A>.
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/inverseAckermann.trm,v $
