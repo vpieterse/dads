@@ -1,5 +1,11 @@
 # *created  "Fri Jan 28 11:03:02 2000" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:48:41 2003" *by "Paul E. Black"
+# *modified "Mon Mar 22 12:27:20 2004" *by "Paul E. Black"
+
+# $Log: cactusstack.trm,v $
+# Revision 1.2  2004/03/22 17:28:59  black
+# Refine XREFS into IMA, etc.  Reference new entry, axiomatic
+# semantics.  Remove AKA spaghetti stack: it is a different thing.
+#
 
 # entry name
 @NAME=cactus stack
@@ -15,7 +21,7 @@ a branch.  A branch is only accessible through the original reference;
 it is not accessible through the stack.
 # formal definition or {cross reference} to an entry
 @FORML=The operations new to this variant of stack, branch(S, T) and
-notch(v), may be defined with the following.
+notch(v), may be defined with {axiomatic semantics} as follows.
 <ol>
 <li>top(branch(S, T)) = top(S)
 <li>notch(new()) = false
@@ -23,11 +29,22 @@ notch(v), may be defined with the following.
 <li>notch(branch(S, T)) = true
 </ol>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=spaghetti stack, saguaro stack
+@AKA=saguaro stack
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={stack}, {tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 A saguaro is a kind of branching cactus.
@@ -40,4 +57,4 @@ and a description</A> of saguaro cactus.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/cactusstack.trm,v $
