@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 11:56:08 2005" *by "Paul E. Black"
+# *modified "Fri Feb  4 08:55:13 2005" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.11  2005/02/04 13:56:14  black
+# XREF Fisher-Yates shuffle
+#
 # Revision 1.10  2005/01/10 16:58:50  black
 # Update Thomas Baudel's (links) URL.
 #
@@ -52,7 +55,7 @@ is the number of comparisons.  The number of swaps is
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={strand sort}, {heapsort}
+@XREFS={strand sort}, {heapsort}, {Fisher-Yates shuffle}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
