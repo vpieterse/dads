@@ -1,0 +1,41 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  9 16:58:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=layered graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {connected graph} where "layers" $L<sub>0</sub> \ldots
+L<sub>k</sub>$ {partition} the {vertices#vertex}.  Each {edge}, which
+has a nonnegative integral {weight#weighted graph}, connects only
+vertices in successive layers.  The width is the greatest number of
+vertices in any layer, i.e., 
+$MAX<sub>i=0</sub><sup>k</sup> |L<sub>i</sub>|$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=layered digraph
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={bipartite graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A bipartite graph is a layered graph with two layers.
+</P>
+
+<P>
+<strong>A. Fiat, D.P. Foster, H.J. Karloff, Y. Rabani,
+Y. Ravid, and S. Vishwanathan.</strong> <em>Competitive Algorithms for
+Layered Graph Traversal.</em> SIAM J. Comput., to appear.  Preliminary
+version appeared in FOCS '91.  Contributed by Giovanni Fiaschi
+&lt;Giovanni.Fiaschi@marconi.com&gt; June 2000.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
