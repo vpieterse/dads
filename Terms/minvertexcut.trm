@@ -1,5 +1,14 @@
 # *created  "Thu Mar 18 13:25:46 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:03:54 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:40:50 2004" *by "Paul E. Black"
+
+# $Log: minvertexcut.trm,v $
+# Revision 1.3  2004/04/19 18:41:11  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:04:06  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=minimum vertex cut
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,11 +16,22 @@
 # basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
 @AREA=graph
 # the definition
-@DEFN=The smallest set of {vertexes} in an {undirected
-graph} which separate two distinct vertexes.  That is, every {path}
+@DEFN=The smallest set of {vertices#vertex} in an {undirected
+graph} which separate two distinct vertices.  That is, every {path}
 between them passes through some member of the {cut}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={minimum cut}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
