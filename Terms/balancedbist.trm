@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Tue Sep  7 12:29:51 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:07 2004" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Revision 1.6  2004/12/17 17:23:07  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/09/07 16:30:28  black
 # Update Ben Pfaff's URL (again).
 #
@@ -39,16 +42,16 @@
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<A href="../terms.html#Knuth98">[Knuth98, 3:459, Sect. 6.2.3]</A>
-<BR>
+<a href="../terms.html#Knuth98">[Knuth98, 3:459, Sect. 6.2.3]</a>
+<br>
 Knuth refers to "balanced trees", but defines them as ordered, for
 searching, and binary.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Usually "balanced" means "height balanced".
-<BR>
+<br>
 <strong>Quentin F. Stout</strong> and </strong>Bette L. Warren,</strong>,
 <em>Tree Rebalancing in Optimal Time and Space</em>,
 CACM, 29(9):902-908, September 1986.
@@ -56,8 +59,8 @@ CACM, 29(9):902-908, September 1986.
 # further explanation (pure HTML)
 @LINKS=
 Example of
-<A href="http://www.stanford.edu/~blp/avl/libavl.html/Balancing-a-BST.html">balancing
-a BST</A>.
+<a href="http://www.stanford.edu/~blp/avl/libavl.html/Balancing-a-BST.html">balancing
+a BST</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
