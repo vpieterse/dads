@@ -1,5 +1,10 @@
 # *created  "Wed Feb  2 16:37:56 2000" *by "Paul E. Black"
-# *modified "Thu Jan  9 15:15:51 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:08:27 2004" *by "Paul E. Black"
+
+# $Log: uniformhashn.trm,v $
+# Revision 1.2  2004/12/17 17:08:28  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=uniform hashing
@@ -12,8 +17,19 @@
 A {collision} is resolved by putting the item in the next empty
 place given by a {probe sequence} which is independent of sequences
 for all other {key}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={collision resolution scheme}, {clustering free}, {double
+
 hashing}, {quadratic probing}, {linear probing}, {perfect hashing},
 {simple uniform hashing}
 # any notes.  these will not be printed in the final dictionary
@@ -26,4 +42,4 @@ unlikely to be completely independent.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/uniformhashn.trm,v $
