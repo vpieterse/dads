@@ -1,5 +1,12 @@
 # *created  "Mon Jan 25 16:30:30 1999" *by "Paul E. Black"
-# *modified "Fri Aug  8 14:17:34 2003" *by "Paul E. Black"
+# *modified "Thu Feb  5 13:02:02 2004" *by "Paul E. Black"
+
+# $Log: branchNbound.trm,v $
+# Revision 1.2  2004/02/05 18:03:33  black
+# Correct a grammatical error, and improve wording.  Note when the
+# technique is not helpful.  Add RCS Log.  Refine XREFS into IMA, etc.
+# Add crossreference to best-first search.
+#
 
 # entry name
 @NAME=branch and bound
@@ -8,11 +15,22 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=An algorithm technique to find the optimal solution
+@DEFN=An algorithmic technique to find the optimal solution
 by keeping the best solution found so far.  If a partial solution
-cannot do better than the best, work on it is abandoned.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={depth-first search}
+cannot improve on the best, it is abandoned.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={depth-first search}, {best-first search}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, suppose we want to find the shortest route
 from Zarahemla to Manti, and at some time the shortest route found
@@ -30,6 +48,13 @@ This may be implemented as a {backtracking} algorithm, which is a
 modified {depth-first search}, or using a {priority queue}
 ordering partial solutions by lower bounds (current + least possible
 completion), which is a {best-first search}.
+</P>
+
+<P>
+This technique is not helpful if all solutions are about the same or
+the initial solutions are very poor and better solutions are only
+found gradually.  In either case, the cost is similar to exploring the
+entire solution space.
 # further explanation (pure HTML)
 @LINKS=A more formal and complete <A
 href="http://www.cs.sandia.gov/opt/survey/branch-and-bound.html">explanation</A>.
@@ -39,4 +64,4 @@ href="http://solon.cma.univie.ac.at/~neum/glopt/software_g.html#bb_codes">branch
 and bound implementations (C, C++, Matlab, Fortran, executables, etc.)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/branchNbound.trm,v $
