@@ -1,0 +1,29 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jun 11 14:23:57 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=threaded tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=A {binary#binary tree} {search tree} in which each {node} uses
+an otherwise-empty left {child} {link} to refer to the node's
+{in-order#in-order traversal} predecessor and an empty right child
+link to refer to its in-order successor.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={right-threaded tree}, {binary search tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+See <A href="../terms.html#Knuth98">[Knuth98, 1:320, Sect. 2.3.1]</A>.
+Although the definition could refer to a {multiway tree}, Knuth
+defines a threaded tree as a binary tree.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Ben Pfaff's <A href="http://adtinfo.org/">explanations and
+code (C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
