@@ -1,0 +1,26 @@
+# *created  "Mon Nov 27 13:58:44 2000" *by "Paul E. Black"
+# *modified "Mon Nov 27 14:42:31 2000" *by "Paul E. Black"
+# entry name
+@NAME=enfilade
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=Pronounced "En-fill-aid".
+Related concepts are Ent, Granfilade (Grand Enfilade), POOMfilade
+(Permutation Of Order Matrix Enfilade), Spanfilade (Spanning
+Enfilade), Switcheroo, Switcheroonie, and tumbler.
+# further explanation (pure HTML)
+@LINKS=An <A
+HREF="http://www.xanadu.net/TECH/xuTech.html">introduction</A> or <A
+HREF="http://xanadu.com/TECH/xuTech.html">here, too</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://udanax.com/green/download/">Green (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
