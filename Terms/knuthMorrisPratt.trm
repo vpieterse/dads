@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Tue Oct  5 16:21:54 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:09 2004" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Revision 1.5  2004/12/17 17:24:09  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/10/05 20:22:44  black
 # Remove LINK to Eric Schank & Michael Baer's comparison page.
 #
@@ -27,7 +30,7 @@ notation}, where m is the length of the search string, and n is the
 length of the string to be searched.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=KMP
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Knuth-Pratt-Morris algorithm, KPM
@@ -44,7 +47,7 @@ length of the string to be searched.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong> Donald E. Knuth</strong>, <strong>James H. Morris</strong>,
 and <strong>Vaughan R. Pratt</strong>, 
@@ -56,20 +59,20 @@ SIAM Journal on Computing, 6(2):323-350, 1977.
 # further explanation (pure HTML)
 @LINKS=
 Series of pages explaining
-<A
+<a
 href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kmp-example.html">how
-Knuth-Pratt-Morris works</A>.
+Knuth-Pratt-Morris works</a>.
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A
+@IMPL=Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
-Matching Algorithms (C)</A>.
-Unix strstr implemented with <A
-href="http://barnyard.syr.edu/quickies/kmp.c">KMP (C)</A>.
-<A
+Matching Algorithms (C)</a>.
+Unix strstr implemented with <a
+href="http://barnyard.syr.edu/quickies/kmp.c">KMP (C)</a>.
+<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
-and Pascal)</A> which uses <A
+and Pascal)</a> which uses <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
-preprocessing (C)</A>
+preprocessing (C)</a>
 # author's initials
 @AUTHOR=SB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/knuthMorrisPratt.trm,v $
