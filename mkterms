@@ -1,11 +1,11 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.46 2000/10/26 16:50:20 black Exp $
+# $Id: mkterms,v 1.47 2000/10/27 19:24:13 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Oct 26 12:41:18 2000" *by "Paul E. Black"
+# *modified "Fri Oct 27 15:23:22 2000" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
-#	http://hissa.nist.gov/~black/black.html
+#	http://hissa.nist.gov/~black/
 #    Modified By Fabrizio Fioravanti (search for FF)
 #	<fioravan@dsi.unifi.it>, <fioravanti@computer.org>
 #	http://www.dsi.unifi.it/~fioravan/
@@ -34,35 +34,35 @@ $justTesting = "";
 
 # CONFIGURATION SECTION:
 # set the following
-# - TERMS_DIR is the path of the directory with term files.
-# - TERM_EXT is the extension of term files (.trm for now).
-# - AUTHORS is the (path) name of the authors' initials, name, ref., etc. file
-# - AREAS is the (path) name of the areas into which entries are classified
-# - TYPES is the (path) name of the admissible types of the entries
-# - LATEXREWRITES is the (path) name of PERL substitutions to change LaTeX 
+# - The path of the directory which has term files.
+$TERMS_DIR="Terms";
+# - The extension of term files (.trm for now).
+$TERM_EXT ="trm";
+# - The (path) name of file with the authors' initials, name, ref., etc. file
+$AUTHORS  ="authors.data";
+# - The (path) name of file with the areas into which entries are classified
+$AREAS	  ="areas.data";
+# - The (path) name of file with the admissible types of the entries
+$TYPES	  ="types.data";
+# - The (path) name of the file with PERL substitutions to change LaTeX 
 #	to the target language, e.g., HTML
-# - WEB_DIR is the file system path of the web pages.
-# - OUT_DIR is the path of the directory where term pages go, that is,
+$LATEXREWRITES = "latex2html.data";
+# - The file system path of the web pages.
+$WEB_DIR  ="Target";
+# - The path of the directory where term pages go, that is,
 #	$WEB_DIR/$OUT_DIR/termFile.html is the path for termFile.trm
-# - URL_DIR is the URL to the main directory, that is,
+$OUT_DIR  ="HTML";
+# - The URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-# - WEBPAGE is the name of final (combined or main) web page, less extension 
-#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
-# - TWOLEVEL is the name of the two-level index web page, less extension
-#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
-
-$TERMS_DIR="Terms";
-$TERM_EXT ="trm";
-$AUTHORS  ="authors.data";
-$AREAS	  ="areas.data";
-$TYPES	  ="types.data";
-$LATEXREWRITES = "latex2html.data";
-$WEB_DIR  ="Target";
-$OUT_DIR  ="HTML";
 $URL_DIR  ="http://hissa.nist.gov/dads";
+# - The name of final (combined or main) web page, less extension 
+#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
 $WEBPAGE  ="terms";
+# - The name of the two-level index web page, less extension
+#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
 $TWOLEVEL ="terms2";
+
 #$ownerEmail = "paul.black\@nist.gov";
 
 # true prints information as this runs
@@ -74,11 +74,6 @@ $writeAllPages = "";
 # the first and ending parts of each entry page
 $ENTINTRO="entry.intro";
 $ENTCONCL="entry.concl";
-
-# since more letters may end up in one column than the other and since
-# it is hard to compute exactly, just put these many more entries in
-# the left column to get the bottom to line up.
-$headerBalance = 3;
 
 #------------------------------------------------------------------------
 #
@@ -635,16 +630,14 @@ print STDERR "Writing terms\n" if ($verbose);
 
 # find the age of the younger of the entry intro and entry conclusion 
 # files, so we can check whether we need to rewrite the HTML page.
-if (-M $ENTINTRO < -M $ENTCONCL) {
+$ENTNEWESTMOD = -M $ENTCONCL;
+if (-M $ENTINTRO < $ENTNEWESTMOD) {
     $ENTNEWESTMOD = -M $ENTINTRO;
-} else {
-    $ENTNEWESTMOD = -M $ENTCONCL;
 }
 
-# put the entries in two columns
-$numEntries = 0;
-# guess where half way is
-$halfEntries = ($numEntriesRead - ($numEntriesRead%2))/2 + $headerBalance;
+################################################
+# start a two columns table
+################################################
 print TMPPAGE << "TABLE_BEGINNING";
 <TABLE BORDER=0 WIDTH="100%">
 <TR>
@@ -655,11 +648,22 @@ TABLE_BEGINNING
 $letter = " ";
 print TMPPAGE "<dl>\n";
 
+################################################
+# start the two-level index
+################################################
+print TMP2LEV << "TWO_LEVEL_BEGINNING";
+<UL>
+TWO_LEVEL_BEGINNING
+$optimEntriesPerPage = 1.3 * sqrt $numEntriesRead;
+$entriesInPage = 0; # how many entries written in this page?
+$indexPageName = "t00";
+
 $prevdname = ""; # check for repeated entries
 
 # sort the entries
 @sortedentries = sort keys %entries;
 #print @sortedentries;
+$numEntries = 0;
 
 # Step IIIc: write the entries
 for $ekey (@sortedentries) {
@@ -687,22 +691,11 @@ for $ekey (@sortedentries) {
     $termurl ="$URL_DIR/$termpage";
     $termfile="$WEB_DIR/$termpage";
 
-    ###########################################################################
-    # Write an entry in the combined index page
-    ###########################################################################
-
-    # if we are half way, start second of two columns
     $numEntries++;
-    if ($numEntries == $halfEntries) {
-# start new column at M, instead of half way
-#	print TMPPAGE << "TABLE_NEXT_COLUMN";
-#</dl>
-#</td>
-#
-#<td valign=top>
-#<dl>
-#TABLE_NEXT_COLUMN
-    }
+
+    ###########################################################
+    # Write an entry in the combined index page
+    ###########################################################
 
     while (substr($ekey, 0, 1) gt $letter) {
 	# finish previous letter
@@ -729,13 +722,32 @@ TABLE_NEXT_COLUMN
     print TMPPAGE "<dt><a href=\"$termpage\">$dname</a>";
     print TMPPAGE "\n";
 
-    ###########################################################################
+    ###########################################################
     # Write an entry in the two-level index
-    ###########################################################################
+    ###########################################################
 
-    ###########################################################################
+    if ($entriesInPage == 0) {
+	# start a new index page
+	$indexPageName++;
+
+	# SKIMP start new index page
+
+	print TMP2LEV "<li><a href=\"$indexPageName.html\">$dname - ";
+    }
+    $entriesInPage++;
+    if ($entriesInPage > $optimEntriesPerPage) {
+	# finish the current index page
+
+	# SKIMP finish the current index page
+
+	print TMP2LEV "$dname</a>\n";
+
+	$entriesInPage = 0;
+    }
+
+    ###########################################################
     # Write the entry HTML page (if necessary)
-    ###########################################################################
+    ###########################################################
 
     # should we write the HTML page?
     if ((! -e $termfile) || $writeAllPages
@@ -922,6 +934,17 @@ close TMPPAGE;
 # rename temporary file
 #
 #------------------------------------------------------------------------
+
+# if the index page isn't finished, do it now
+if ($entriesInPage > 0) {
+    # finish the current index page
+
+    # SKIMP finish the current index page
+
+    print TMP2LEV "$prevdname</a>\n";
+}
+
+print TMP2LEV "</UL>\n\n";
 
 &concatenate("$TWOLEVEL.concl", TMP2LEV);
 
