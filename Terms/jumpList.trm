@@ -1,0 +1,45 @@
+# *created  "Thu Sep 25 09:53:44 2003" *by "Paul E. Black"
+# *modified "Thu Sep 25 11:55:12 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=jump list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A variant of {doubly linked list} with items in sorted order
+having two levels of additional links spanning geometrically
+increasing distances.  For a 
+list with $n$ items, the next level is a link from item $i$, 
+$1 \leq i \leq n - \lfloor n <sup>1/3</sup>\rfloor$, to 
+item $i + \lfloor i <sup>1/3</sup>\rfloor$.  At the top level, items
+$1<sup>3</sup>, 2<sup>3</sup>, 3<sup>3</sup>, \ldots, 
+\lfloor n <sup>1/3</sup>\rfloor<sup>3</sup>$ have backward links,
+that is, there is a link from item $i<sup>3</sup>$, 
+$1 &lt; i \leq \lfloor n <sup>1/3</sup>\rfloor<sup>3</sup>$, to 
+item $(i-1)<sup>3</sup>$.  
+Search, insert, and delete are {$O(n<sup>1/3</sup>)$#big-O notation}
+worst case.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={skip list}, {dictionary}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Arne Andersson</strong> and <strong>Thomas Ottmann</strong>,
+<em>New Tight Bounds on Uniquely Represented Dictionaries</em>,
+SIAM Journal of Computing, 24(5):1091-1103, 1995.
+# any notes.  these are not printed in the final dictionary
+@NOTES=The data structure can also be seen as a {binary search tree}
+with additional links.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/jumpList.trm,v $
