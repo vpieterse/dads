@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Jun 19 09:03:51 2002" *by "Paul E. Black"
+# *modified "Fri Apr  9 16:11:55 2004" *by "Paul E. Black"
+
+# $Log: stringMatchwError.trm,v $
+# Revision 1.2  2004/04/09 20:18:58  black
+# Refine XREFS into IMA, etc.  Refer to phonetic matching.
+#
 
 # entry name
 @NAME=string matching with errors
@@ -18,8 +23,19 @@ or may not be allowed.
 @AKA=approximate string matching
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={string matching}, {string matching with mismatches}, {inverted index}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching}
+# Specialization: "... is a kind of me."
+@VARIANT={string matching with mismatches}, {phonetic matching}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={inverted index}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 13-18,
@@ -41,4 +57,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtm
 and Pascal)</A>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stringMatchwError.trm,v $
