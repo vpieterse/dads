@@ -1,0 +1,22 @@
+# *created  "Tue Dec  1 11:23:10 1998" *by "Paul E. Black"
+# *modified "Wed May  1 10:30:22 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=bounded queue
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A {queue} limited to a fixed number of items.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={circular queue}, {bounded stack}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
