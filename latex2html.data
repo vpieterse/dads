@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.10 2002/01/02 15:26:24 black Exp $
+# $Id: latex2html.data,v 1.11 2002/02/19 20:02:59 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 10:22:11 2002" *by "Paul E. Black"
+# *modified "Tue Feb 19 15:01:19 2002" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -47,8 +47,8 @@
 \times	&times;
 \div	&divide;
 \cdot	&middot;
-\cap	intersect
-\cup	union
+\cap	<img src="Images/cap.gif"    border=0 height=8  width=7  alt="intersect">
+\cup	<img src="Images/cup.gif"    border=0 height=8  width=7  alt="union">
 \bigtriangleup <img src="Images/Delta.gif"  border=0 height=10 width=11 alt="symmetric difference">
 \oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
 \otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
@@ -57,7 +57,7 @@
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
 \ll	&lt;&lt;
 \sim	<img src="Images/sim.gif" border=0 height=5 width=13 alt="similar to">
-\subseteq	is a subset of
+\subseteq	<img src="Images/subseteq.gif" border=0 height=7 width=14 alt="is a subset of">
 \subset		is a proper subset of
 \geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
 \gg	&gt;&gt;
