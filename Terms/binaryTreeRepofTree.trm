@@ -1,0 +1,116 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jan 28 09:29:13 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=binary tree representation of trees
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=A way to represent a {multiway tree} as a {binary tree}.  The
+leftmost {child}, $c$, of a {node}, $n$, in the multiway tree is the
+left child, $c'$, of the corresponding node, $n'$, in the binary tree.
+The immediately right {sibling} of $c$ is the right child of $c'$.
+# formal definition or {cross reference} to an entry
+@FORML=
+A multiway tree $T$ can be represented by a corresponding binary tree
+$B$.
+Let $\{n<sub>1</sub>,\ldots, n<sub>k</sub>\}$ be nodes of the multiway
+tree, $T$.  Let $\{n'<sub>1</sub>,\ldots, n'<sub>k</sub>\}$ be nodes of
+the corresponding binary tree $B$.  
+Node $n<sub>k</sub>$ corresponds to $n'<sub>k</sub>$.  In particular, 
+nodes $n<sub>k</sub>$ and $n'<sub>k</sub>$ have the same labels and
+if $n<sub>k</sub>$ is the root of $T$, $n'<sub>k</sub>$ is the root of
+$B$.
+Connections correspond as follows:
+</P>
+
+<ul>
+<li>If $n<sub>l</sub>$ is the leftmost child of $n<sub>k</sub>$,
+$n'<sub>l</sub>$ is the left child of $n'<sub>k</sub>$.
+(If $n<sub>k</sub>$ has no children, $n'<sub>k</sub>$ has no left
+child.)
+
+<li>If $n<sub>s</sub>$ is the next (immediately right) sibling of
+$n<sub>k</sub>$, $n'<sub>s</sub>$ is the right child of
+$n'<sub>k</sub>$.
+
+</ul>
+
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See <A href="../terms.html#Knuth98">[Knuth98, 1:333, Sect. 2.3.2]</A>.
+</P>
+
+<P>
+The {binary tree} representation of a {multiway tree} is based on
+first child-next sibling representation of the tree. In this
+representation every node is linked with its leftmost child and its
+next (right nearest) sibling. 
+</P>
+
+<P>
+Let us see one example.  Consider the following multiway tree
+
+<pre>
+                   1                                    <br>
+                  /|\                                   <br>
+                 / | \                                  <br>
+                /  |  \                                 <br>
+               2   3   4                                <br>
+              / \      |                                <br>
+             5   6     7                                <br>
+                      / \                               <br>
+                     8   9                              <br>
+</pre>
+
+This tree can be represented in first child-next-sibling manner
+as follows
+
+<pre>
+                   1                                    <br>
+                  /                                     <br>
+                 /                                      <br>
+                /                                       <br>
+               2---3---4                                <br>
+              /       /                                 <br>
+             5---6   7                                  <br>
+                    /                                   <br>
+                   8---9                                <br>
+</pre>
+
+Now, if we look at the first child-next sibling representation of the
+tree closely, we will see that it forms a binary tree.  To see this better,
+we can rotate every next-sibling edge 45 degrees 
+clockwise.  After that we get the following binary tree:
+
+<pre>
+                 1                                      <br>
+                /                                       <br>
+               2                                        <br>
+              / \                                       <br>
+             5   3                                      <br>
+              \   \                                     <br>
+               6   4                                    <br>
+                  /                                     <br>
+                 7                                      <br>
+                /                                       <br>
+               8                                        <br>
+                \                                       <br>
+                 9                                      <br>
+</pre>
+
+This is binary tree representation of the given (multiway) tree.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=AL, PEB
+# end
