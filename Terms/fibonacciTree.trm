@@ -1,0 +1,28 @@
+# *created  "Mon Jun 21 11:33:11 1999" *by "Paul E. Black"
+# *modified "Fri Dec 14 16:40:30 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=Fibonacci tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A variant of a {binary tree} where a tree of order $n$ ($n>1$)
+has a left subtree of order $n-1$ and a right subtree of order $n-2$.  An
+order 0 Fibonacci tree has no {nodes}, and an order 1 tree has 1 node.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Fibonacci number}, {AVL tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A Fibonacci tree of order $n$ has $F(n+2)-1$ nodes, where
+$F(n)$ is the $n<sup>th</sup>$ {Fibonacci number}.  A Fibonacci tree
+is the most unbalanced {AVL tree} allowed.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cis.ohio-state.edu/~weide/sce/now/321/homeworks/hw02.html">pictures
+of Fibonacci trees of various orders</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
