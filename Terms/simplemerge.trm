@@ -1,5 +1,10 @@
 # *created  "Thu Mar  4 12:39:03 1999" *by "Paul E. Black"
-# *modified "Wed Feb 19 16:20:55 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:07:42 2004" *by "Paul E. Black"
+
+# $Log: simplemerge.trm,v $
+# Revision 1.2  2004/12/17 17:07:42  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=simple merge
@@ -12,8 +17,19 @@
 All the stream heads are compared, and the head with the least {key}
 is removed and written to the output.
 This is repeated until all streams are empty.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={ideal merge}, {optimal merge}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The run time is {$\Theta$}(mn),
 where $m$ is
@@ -24,4 +40,4 @@ the total number of elements and $n$ is the number of streams.
 @IMPL=
 # author's initials
 @AUTHOR=ASK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/simplemerge.trm,v $
