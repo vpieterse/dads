@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Wed May  5 10:28:36 2004" *by "Paul E. Black"
+# *modified "Wed May  5 13:18:45 2004" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Revision 1.6  2004/05/05 17:19:24  black
+# Correct transliteration of Akademii.
+#
 # Revision 1.5  2004/05/05 14:29:24  black
 # Change journal reference: Dokl. to Doklady.
 #
@@ -60,7 +63,7 @@ Formal definition after
 <strong>Georgii M. Adelson-Velskii</strong> and <strong>Evgenii
 M. Landis</strong>,
 <em>An algorithm for the organization of information</em>,
-Doklady Akademia Nauk SSSR, 146:263-266, 1962 (Russian).
+Doklady Akademii Nauk SSSR, 146:263-266, 1962 (Russian).
 English translation by Myron J. Ricci in Soviet Math. Doklady,
 3:1259-1263, 1962.
 <BR>(Doklady is Russian for "Report".  Sometimes transliterated in
