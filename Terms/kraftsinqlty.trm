@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 09:54:39 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:05:02 2004" *by "Paul E. Black"
+
+# $Log: kraftsinqlty.trm,v $
+# Revision 1.2  2004/12/17 17:05:02  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Kraft's inequality
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,8 +16,19 @@
 @DEFN=$\sum<sub>i=1</sub><sup>N</sup> 2<sup>-c(i)</sup> \leq 1$, where
 $N$ is the number of {leaves#leaf} in a {binary tree} and $c(i)$ is
 the depth of leaf $i$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 1-26,
@@ -24,4 +41,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kraftsinqlty.trm,v $
