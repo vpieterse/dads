@@ -1,0 +1,29 @@
+# *created  "Thu Jun 17 09:06:38 1999" *by "Paul E. Black"
+# *modified "Wed Jan 17 11:10:29 2001" *by "Paul E. Black"
+# entry name
+@NAME=exponential
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=(1) Any function which is the sum of constants times other
+constants to the power of
+the argument:
+$f(x)=\Sigma<sub>i=0</sub><sup>k</sup> c<sub>i</sub>b<sub>i</sub><sup>xp<sub>i</sub></sup>$.
+(2) In complexity theory, the measure of computation, $m(n)$ (usually
+execution time or memory space), is bounded by an exponential
+function of the problem size, $n$.  More formally if there exists
+$k &gt; 1$ such that $m(n) = {\Theta(k<sup>n</sup>)#\Theta}$ and
+there exists $c$ such that $m(n) = {O(c<sup>n</sup>)#big-O notation}$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={logarithmic}, {linear}, {polynomial}, {moderately exponential}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
