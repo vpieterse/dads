@@ -1,5 +1,5 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Thu Oct  9 10:33:47 2003" *by "Paul E. Black"
+# *modified "Thu Oct  9 11:05:20 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=selection sort
@@ -24,8 +24,23 @@ is the number of comparisons.  The number of swaps is
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
-filled.  If the least remaining item is inserted, that is, all
-intervening items moved to open a place, this algorithm is {stable}.
+filled.
+</P>
+
+<P>
+If the least remaining item is inserted, that is, all intervening
+items moved to open a place, this algorithm is {stable}.  However,
+this makes the number of moves {$O(n<sup>2</sup>)$#big-O notation},
+and this becomes {bubble sort} with a more complicated control
+structure.
+
+# Careful selection of the least item does NOT work, since it may swap
+# items so they are out of order.  For instance,
+#	{ 3a, 3b, 2 }
+# find 2 and swap it into place
+#	{  2, 3b, 3a }
+# no more swaps will be done
+
 # further explanation (pure HTML)
 @LINKS=
 <A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/SSort.html">demonstration</A>.
