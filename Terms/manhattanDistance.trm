@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep  8 16:02:30 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:14 2004" *by "Paul E. Black"
 
 # $Log: manhattanDistance.trm,v $
+# Revision 1.3  2004/12/17 17:24:14  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/09/08 20:04:40  black
 # Refine XREFS into IMA, etc.  Add city block norm as a WEB name.  Add
 # LINKS to Wikipedia and another site.  Add RCS keywords.
@@ -21,7 +24,7 @@ $p<sub>2</sub>$ at $(x<sub>2</sub>, y<sub>2</sub>)$, it is
 $|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|$.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # comma-separated list of pure names
 @WEB=rectilinear distance, taxi cab metric, city block norm
@@ -43,26 +46,26 @@ $|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|$.
 This is easily generalized to higher dimensions.  Manhattan
 distance is often used in integrated circuits where wires only run
 parallel to the X or Y axis.
-</P>
+</p>
 
-<P>
+<p>
 Also known as {rectilinear} distance, taxi cab metric, or city block
 distance.
-</P>
+</p>
 
-<P>
+<p>
 Wikipedia says this concept was considered by Hermann Minkowski in the
 19th century.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for 
-<A href="http://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab
-geometry</A>.
-Comparison between <A
-href="http://www.predictivepatterns.com/docs/WebSiteDocs/Clustering/Clustering_Parameters/Manhattan_Distance_Metric.htm">Manhattan</A>
+<a href="http://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab
+geometry</a>.
+Comparison between <a
+href="http://www.predictivepatterns.com/docs/WebSiteDocs/Clustering/Clustering_Parameters/Manhattan_Distance_Metric.htm">Manhattan</a>
 and Euclidean distance.
 Weisstein's World of Math calls it
-<A href="http://mathworld.wolfram.com/TaxicabMetric.html">taxicab metric</A>.
+<a href="http://mathworld.wolfram.com/TaxicabMetric.html">taxicab metric</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
