@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Wed Dec  1 16:25:41 2004" *by "Paul E. Black"
+# *modified "Thu Dec  2 08:59:31 2004" *by "Paul E. Black"
 
 # $Log: hashtab.trm,v $
+# Revision 1.5  2004/12/02 14:26:38  black
+# Specify what kind of chaining IMPLs are.
+#
 # Revision 1.4  2004/12/01 21:40:38  black
 # Redo defn to use "collision resolution scheme", leave details for
 # other entries, and mention perfect hashing.  Note that the table may
@@ -82,7 +85,7 @@ and example of hashing and various collision resolution
 techniques</A>.
 # implementation(s) (pure HTML)
 @IMPL=
-chaining: <A href="http://burtleburtle.net/bob/hash/hashtab.html">(C)</A>,
+direct chaining: <A href="http://burtleburtle.net/bob/hash/hashtab.html">(C)</A>.
 # These two implementations are okay - PEB 6 Apr 99
 linear probing hashing: <A
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.ins.c">insert
@@ -90,7 +93,7 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.ins.c">insert
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.srch.c">look
 up (C)</A>, <A
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>,
-chaining: <A href="http://epaperpress.com/vbhash/">explanations,
+direct chaining: <A href="http://epaperpress.com/vbhash/">explanations,
 diagrams, and code (Visual Basic)</A>.
 Explanation and sample problems for <A
 href="http://www.sparknotes.com/cs/searching/hashtables/section1.html">hashing
