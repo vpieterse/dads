@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May 12 10:31:53 2003" *by "Paul E. Black"
+# *modified "Wed Dec  3 12:19:16 2003" *by "Paul E. Black"
+
+# $Log: chinesePostman.trm,v $
+# Revision 1.2  2003/12/03 17:40:40  black
+# Problem is only NP-complete in some cases.  Give complete
+# bibliographical reference.  Improve links.
+#
 
 # entry name
 @NAME=Chinese postman problem
@@ -9,22 +15,34 @@
 @AREA=graph
 # the definition
 @DEFN=Find a minimum length closed {walk} that traverses each {edge}
-at least once.  Finding an optimal solution is {NP-complete}.
+at least once.  Finding an optimal solution in a graph with both
+{directed#directed graph} and {undirected#undirected graph} edges is
+{NP-complete}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=CPP
+# comma-separated list of {cross references}.  printed as "See also ..."
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Hamiltonian cycle}, {Euler cycle}, {traveling salesman},
 {vehicle routing problem},
 {optimization problem}
 @BIB=
-Originally proposed by <strong>Mei-Ko Kwan</strong>, 
-#<em>Hypothetical Intelligence</em>, Proc. Thing, Provo, Utah, 2(7):30-32, 
-in 1962.
+<strong>Mei-Ko Kwan</strong>, <em>Graphic Programming Using Odd or
+Even Points</em>, Chinese Math., 1:273-277, 1962.
+# Title and pub. details came from MathWorld
+
+# "first suggested by Alan Goldman of NBS"??
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 This is similar to finding the most efficient way to route garbage
 trucks, school buses, etc.  A good algorithm is given in
 <strong>Jack Edmonds</strong> and <strong>Ellis L. Johnson</strong>, 
 <em>Matching, Euler Tours, and the Chinese Postman</em>,
-Math. Programming, 5:88-124, 1973.
+Mathematical Programming, 5:88-124, 1973.
 </P>
 
 <P>
@@ -37,8 +55,9 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(Mathematica
+href="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(C++,
+Mathematica
 and Fortran)</A>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/chinesePostman.trm,v $
