@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:32:23 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:38 2004" *by "Paul E. Black"
 
 # $Log: adjacencyMatrixRep.trm,v $
+# Revision 1.4  2004/12/17 17:27:38  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/04/19 18:33:11  black
 # Use the standard English plural of vertex
 #
@@ -25,7 +28,7 @@ may be represented using the same entry in both $(i,j)$ and $(j,i)$ or
 using an {upper triangular matrix}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=adjacency matrix
@@ -47,7 +50,7 @@ using an {upper triangular matrix}.
 Suppose we have a directed graph with four vertices.  Here are
 adjacency-matrix and adjacency-list representations.  The arrow (-&gt;)
 means a link in a list.
-<P>
+<p>
 <pre>
    1 2 3 4<br>
 1  1 1 1 1<br>
@@ -55,17 +58,17 @@ means a link in a list.
 3  0 1 0 1<br>
 4  0 1 1 0<br>
 </pre>
-</P>
-<P>
+</p>
+<p>
 <pre>
 1  -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4<br>
 2  -&gt; 1<br>
 3  -&gt; 2 -&gt; 4<br>
 4  -&gt; 2 -&gt; 3<br>
 </pre>
-</P>
+</p>
 
-<P>
+<p>
 The adjacency-list representation is more compact for a {sparse matrix}.
 # further explanation (pure HTML)
 @LINKS=
