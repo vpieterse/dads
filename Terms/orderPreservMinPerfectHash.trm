@@ -1,5 +1,11 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Mon Dec 27 16:12:17 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:06:09 2004" *by "Paul E. Black"
+
+# $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.2  2004/12/17 17:06:09  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=order preserving minimal perfect hashing
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=A {minimal perfect hashing} function for keys in $S$ such that if
 $k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For example, if the keys are stored in order in an {array}, the
 array offsets are an order preserving minimal perfect hash of the
@@ -21,4 +38,4 @@ keys.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=BJ
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/orderPreservMinPerfectHash.trm,v $
