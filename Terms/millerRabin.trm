@@ -1,5 +1,10 @@
 # *created  "Fri Apr 27 13:00:51 2001" *by "Paul E. Black"
-# *modified "Thu Oct  3 09:49:04 2002" *by "Paul E. Black"
+# *modified "Wed Nov  5 16:10:56 2003" *by "Paul E. Black"
+
+# $Log: millerRabin.trm,v $
+# Revision 1.2  2003/11/05 21:21:55  black
+# Comment out thesis links - the server appears to be inaccessible
+#
 
 # entry name
 @NAME=Miller-Rabin
@@ -37,9 +42,12 @@ After <A href="../terms.html#CLR90">[CLR90, pp 838-844]</A>.
 <A href="http://minimum.inria.fr/~raynal/index.php3?page=5">Miller-Rabin
 Primality test (pseudo-code)</A> pages, with mathematical background,
 implementation, demonstration, etc. 
-<A href="http://jasper.cs.yale.edu/thesis/node5.html">Explanation</A>
-and <A href="http://jasper.cs.yale.edu/thesis/node10.html">code
-(C)</A> in Pete Emerson's thesis.
+
+# no response from server as of 5 Nov 2003
+#<A href="http://jasper.cs.yale.edu/thesis/node5.html">Explanation</A>
+#and <A href="http://jasper.cs.yale.edu/thesis/node10.html">code
+#(C)</A> in Pete Emerson's thesis.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/millerRabin.trm,v $
