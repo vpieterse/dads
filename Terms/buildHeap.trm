@@ -1,0 +1,23 @@
+# *created  "Tue Mar 21 09:34:34 2000" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:09:32 2001" *by "Paul E. Black"
+# entry name
+@NAME=build-heap
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=Convert an {array} into a {heap} by executing {heapify}
+progressively closer to the {root}.  For an array of $n$ nodes, this takes
+{O(n)#big-O notation} time under the comparison model.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#CLR90">[CLR90, page 145]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
