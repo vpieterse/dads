@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Aug 14 15:12:45 2000" *by "Paul E. Black"
+# entry name
+@NAME=tree traversal
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A technique for processing the {nodes} of a {tree} in some
+order.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={preorder traversal}, {in-order traversal}, {postorder
+traversal}, {level-order traversal}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A
+HREF="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">Demonstration</A>
+of each type of traversal on a binary tree.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
