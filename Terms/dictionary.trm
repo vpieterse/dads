@@ -1,5 +1,5 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Thu Sep 25 12:00:08 2003" *by "Paul E. Black"
+# *modified "Wed Oct  1 10:43:28 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=dictionary
@@ -24,22 +24,18 @@ The operation find(i, new()) is not defined.
 </P>
 
 <P>
-We can define delete in terms of insert using a special value:
-<em>undefined</em>.  With this special value, we can
-also define find on an empty dictionary.
+The modifier function delete(i, D) may be defined as follows.
 <ol start="4">
-<li>delete(i, D) = insert(i, <em>undefined</em>, D)
-<li>find(i, new()) = <em>undefined</em>
+<li>$delete(i, new()) = new()$
+<li>$delete(i, insert(i, v, D)) = delete(i, D)$
+<li>$delete(i, insert(j, v, D)) = insert(j, v, delete(i, D)) if i \neq j$
 </ol>
 </P>
 
 <P>
-Alternately, we can use another special value, which we'll call
-<em>fail</em> this time, to add axioms for delete.  This only changes
-the return type of find.
-<ol start="4">
-<li>find(i, delete(i, D)) = <em>fail</em>
-<li>find(i, delete(j, D)) = find(i, D) if $i \neq j$
+We can define find(i, new()) using a special value: <em>fail</em>.
+This only changes the return type of find.
+<ol start="7">
 <li>find(i, new()) = <em>fail</em>
 </ol>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -47,7 +43,7 @@ the return type of find.
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=assoc list, prop list, directory, database, data base
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={total order}, {associative array},
+@XREFS={total order}, {associative array}, {set}
 Some implementations: {linked list}, {hash table}, {B-tree}, 
 {jump list}, {directed acyclic word graph}
 # any notes.  these will not be printed in the final dictionary
@@ -56,6 +52,10 @@ LISP-like languages and in the area of Artificial Intelligence.  These
 suggest a relatively small number of items, whereas a dictionary may
 be quite large.  Professionals in the Data Management area have
 specialized semantics for "dictionary" and related terms.
+</P>
+
+<P>
+The keys of a dictionary are a {set}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
