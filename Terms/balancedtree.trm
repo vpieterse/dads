@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 12:22:20 1998" *by "Paul E. Black"
-# *modified "Wed Jan 12 09:51:59 2005" *by "Paul E. Black"
+# *modified "Mon Jan 24 13:55:57 2005" *by "Paul E. Black"
 
 # $Log: balancedtree.trm,v $
+# Revision 1.6  2005/01/24 18:57:36  black
+# Change TYPE from D to S so it appears in the ontology.
+#
 # Revision 1.5  2005/01/12 14:52:26  black
 # A weight-balanced tree is a balanced tree.
 #
@@ -19,7 +22,7 @@
 # entry name
 @NAME=balanced tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
