@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 28 09:29:13 2002" *by "Paul E. Black"
+# *modified "Wed Oct 29 13:21:21 2003" *by "Paul E. Black"
+
+# $Log: binaryTreeRepofTree.trm,v $
+# Revision 1.2  2003/10/29 18:23:51  black
+# Add other names this is known as (and RCS keywords)
+#
 
 # entry name
 @NAME=binary tree representation of trees
@@ -39,9 +44,9 @@ $n'<sub>k</sub>$.
 </ul>
 
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=
+@AKA=first child-next sibling binary tree
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=LCRS binary tree, left child-right sibling binary tree
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
@@ -70,7 +75,7 @@ Let us see one example.  Consider the following multiway tree
                      8   9                              <br>
 </pre>
 
-This tree can be represented in first child-next-sibling manner
+This tree can be represented in first child-next sibling manner
 as follows
 
 <pre>
@@ -113,4 +118,4 @@ This is binary tree representation of the given (multiway) tree.
 @IMPL=
 # author's initials
 @AUTHOR=AL, PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binaryTreeRepofTree.trm,v $
