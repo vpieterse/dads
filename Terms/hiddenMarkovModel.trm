@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Wed Dec  8 10:54:43 2004" *by "Paul E. Black"
+# *modified "Wed Dec  8 11:24:56 2004" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.5  2004/12/08 16:25:23  black
+# NOTE who Markov is.
+#
 # Revision 1.4  2004/12/08 15:57:17  black
 # Add BIB entry
 #
@@ -84,6 +87,14 @@ algorithm}.
 
 <P>
 Thanks to Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
+</P>
+
+<P>
+Named after
+<A href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Markov.html">Andrei 
+Andreyevich Markov</A> (1856 - 1922), who studied poetry and other
+texts as stochastic sequences of characters.
+
 # further explanation (pure HTML)
 @LINKS=
 # search words: Center for Adaptive Systems, Stationary
