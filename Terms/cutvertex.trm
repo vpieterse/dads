@@ -1,0 +1,37 @@
+# *created  "Mon Apr 26 13:01:51 1999" *by "Paul E. Black"
+# *modified "Tue Sep  3 11:56:40 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=cut vertex
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=A {vertex} whose deletion along with incident {edges}
+results in a {graph} with more components than the original graph.  
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=articulation vertex
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=articulation point
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={connected components}, {biconnected graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+After Algorithms and Theory of Computation Handbook, page 6-6,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+
+<P>
+With input from Paul Tanenbaum &lt;pjt@arl.army.mil&gt; (3 Sept 2002).
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CRC-A
+# end
