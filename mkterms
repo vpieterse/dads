@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.31 1999/06/02 20:50:17 black Exp $
+# $Id: mkterms,v 1.32 1999/06/08 14:20:46 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Wed Jun  2 16:43:27 1999" *by "Paul E. Black"
+# *modified "Tue Jun  8 10:15:45 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -30,6 +30,8 @@ $maxOperands = 0;
 #
 #------------------------------------------------------------------------
 
+$justTesting = "";
+
 # CONFIGURATION SECTION:
 # set the following
 # - TERMS_DIR is the path of the directory with term files.
@@ -37,6 +39,8 @@ $maxOperands = 0;
 # - AUTHORS is the (path) name of the authors' initials, name, ref., etc. file
 # - AREAS is the (path) name of the areas into which entries are classified
 # - TYPES is the (path) name of the admissible types of the entries
+# - LATEXREWRITES is the (path) name of PERL substitutions to change LaTeX 
+#	to the target language, e.g., HTML
 # - WEBPAGE is the name of final web page, less extension (.html).
 # - OUT_DIR is the path of the directory where term pages go.
 # - URL_DIR is the URL to the main directory, that is,
@@ -48,6 +52,7 @@ $TERM_EXT ="trm";
 $AUTHORS  ="authors.data";
 $AREAS	  ="areas.data";
 $TYPES	  ="types.data";
+$LATEXREWRITES = "latex2html.data";
 $WEBPAGE  ="terms";
 $OUT_DIR  ="HTML";
 $URL_DIR  ="http://hissa.ncsl.nist.gov/~black/CRCDict";
@@ -167,6 +172,45 @@ sub backupMove {
     unlink($temppage);
 }
 
+# "quote" characters which are special in regular expression patterns
+sub quoteREpatterns ($) {
+    my $expr = shift;
+
+    $expr =~ s|\\|\\\\|g;
+    $expr =~ s/\|/\\\|/g;
+    $expr =~ s|\(|\\(|g;
+    $expr =~ s|\)|\\)|g;
+    $expr =~ s|\[|\\[|g;
+    $expr =~ s|\{|\\{|g;
+    $expr =~ s|\^|\\^|g;
+    $expr =~ s|\$|\\\$|g;
+    $expr =~ s|\*|\\*|g;
+    $expr =~ s|\+|\\+|g;
+    $expr =~ s|\?|\\?|g;
+    $expr =~ s|\.|\\.|g;
+    # we'll use / as separator, so it is special for us, too
+    $expr =~ s|/|\\/|g;
+
+    $expr;
+}
+
+# Rewrite any LaTeX expressions with those in latexRewrites
+sub rewriteLatex ($) {
+    if ($_[0] =~ /\$/) {
+	# it has a dollar sign, so it is probably a LaTeX expression
+	# print "Start : $_[0]\n"; # TEMP
+	for $onesubs (@latexRewrites) {
+	    #do {print "Before: $_[0]\n";}
+	    1 while eval "\$_[0] =~ $onesubs";
+	    # print "After : $_[0]\n"; # TEMP
+	}
+
+	# remove all $...$ brackets
+	$_[0] =~ s/\$(.*?[^\\])\$/$1/g;
+	# print "Final : $_[0]\n"; # TEMP
+    }
+}
+
 #------------------------------------------------------------------------
 #
 # Step I: read initialization and config files
@@ -216,6 +260,22 @@ while (<AUTHRS>) {
 }
 
 close AUTHRS;
+
+# Step Id: read LaTeX rewrite expressions
+open(REWRTS, "< $LATEXREWRITES")
+	|| die("Cannot open LaTeX rewrites file, $LATEXREWRITES\n");
+
+while (<REWRTS>) {
+    next if (/^ *\#/o);
+    # rewrite as a substitution within $'s
+    /(\S+)\s+(.+)/;
+    my($pat, $replace) = (quoteREpatterns($1), quoteREpatterns($2));
+    # this means: replace $...$pat...$ with $...$replace...$
+    push @latexRewrites,
+		"s/(\\\$[^\\\$]*)$pat(?=[^\\\$]*\\\$)/\$1$replace/g";
+}
+
+close REWRTS;
 
 
 #------------------------------------------------------------------------
@@ -306,8 +366,26 @@ while ($entryFile = shift @entries) {
 	}
     }
 
+    # NAME (ename in other places) is original name, e.g.,
+    #		BB$\alpha<sub>2</sub>$ tree
+    # XNAME is name without LaTeX markers to lookup cross references.
+    #		BB\alpha<sub>2</sub> tree
+    # DNAME is display name, e.g.,
+    #		BB<src img="alpha.gif"><sub>2</sub> tree
+    # TNAME is plain-text name, e.g., without HTML or LaTeX markers.
+    #		BB\alpha2 tree
+    # ename HERE is name used to alphabetize, e.g.,
+    #		BBALPHATWOTREE
+
+    # save a version of the entry name without LaTeX markers for lookup
+    ($thisEntry{XNAME} = $thisEntry{NAME}) =~ s/\$([^\$]*)\$/$1/go;
+
+    # save a rich display version of the entry name
+    rewriteLatex($thisEntry{DNAME} = $thisEntry{NAME});
+
     # save a plain text version of the entry name, i.e., without HTML
     ($tname = $thisEntry{NAME}) =~ s/<[^>]*>//go;
+    $tname =~ s/\$([^\$]*)\$/$1/go;
     ($thisEntry{TNAME}) = $tname;
 
     # add this to an "index" for later sorting and printing
@@ -334,8 +412,11 @@ while ($entryFile = shift @entries) {
 	$entries{$ename}{$fld} = $thisEntry{$fld};
     }
 
+    #print "NAME is $thisEntry{NAME}\nTNAME is $thisEntry{TNAME}\n"; # TEMP
+    #print "DNAME is $thisEntry{DNAME}\nename is $ename\n"; # TEMP
+    #print "XNAME is $thisEntry{XNAME}\n"; # TEMP
     # remember this entry to check cross references
-    $entriesForXref{$thisEntry{NAME}} = $ename;
+    $entriesForXref{$thisEntry{XNAME}} = $ename;
 }
 print STDERR "\n" if ($verbose);
 
@@ -399,33 +480,24 @@ sub rewriteXrefs {
     foreach $xref (split /^.*?href="\#|".*?href="\#|".*?$|^.*$/, $_[0]) {
 	next if ($xref eq ""); # above RE starts with a null split
 	#print "\nFound $xref\n"; # for debugging
-	$trailingS = "";
-	if (! defined $entriesForXref{$xref}) {
+	my $indexXref = $xref;
+	$indexXref =~ s/\$([^\$]*)\$/$1/go; # strip LaTeX markers
+	if (! defined $entriesForXref{$indexXref}) {
 	    # try the singular, i.e., removing a trailing "s"
-	    if ($xref =~ s/s$//) {
-		$trailingS = "s";
-	    }
-	    if (! defined $entriesForXref{$xref}) {
-		print "\n    *****Unknown HyperREFerence to \"$xref$trailingS\" in $_[1]\n";
+	    $indexXref =~ s/s$//;
+	    if (! defined $entriesForXref{$indexXref}) {
+		print "\n    *****Unknown HyperREFerence to \"$xref\" in $_[1]\n";
 		next;
 	    }
 	}
 
-	my($xrefKey) = $entriesForXref{$xref};
+	my $xrefKey = $entriesForXref{$indexXref};
 	#print "\nit is $xrefKey\n";
 	%xrefEntry = %{$entries{$xrefKey}};
 	my($xrefFile) = "$xrefEntry{BASEFILENM}.html";
 
 	# quote special RE characters
-	my($xrefQ) = "\#$xref$trailingS";
-	$xrefQ =~ s|\\|\\\\|;
-	$xrefQ =~ s|\(|\\(|;
-	$xrefQ =~ s|\)|\\)|;
-	$xrefQ =~ s|\$|\\\$|;
-	$xrefQ =~ s|\*|\\*|;
-	$xrefQ =~ s|\+|\\+|;
-	$xrefQ =~ s|\?|\\?|;
-	$xrefQ =~ s|\.|\\.|;
+	my $xrefQ = quoteREpatterns("\#$xref");
 
 	#print "subs is /$xrefQ/$xrefFile/\n"; # for debugging
 	$_[0] =~ s/$xrefQ/$xrefFile/;
@@ -454,15 +526,7 @@ sub rewriteHrefs {
 	my($xrefExit) = "\"http://www.nist.gov/cgi-bin/exit_nist.cgi?url=$xrefCGIQ\"";
 
 	# quote special RE characters
-	my($xrefQ) = "\"$xref\"";
-	$xrefQ =~ s|\\|\\\\|;
-	$xrefQ =~ s|\(|\\(|;
-	$xrefQ =~ s|\)|\\)|;
-	$xrefQ =~ s|\$|\\\$|;
-	$xrefQ =~ s|\*|\\*|;
-	$xrefQ =~ s|\+|\\+|;
-	$xrefQ =~ s|\?|\\?|;
-	$xrefQ =~ s|\.|\\.|;
+	my $xrefQ = quoteREpatterns("\"$xref\"");
 
 	#print "subs is /$xrefQ/$xrefExit/\n"; # for debugging
 	$_[0] =~ s/$xrefQ/$xrefExit/;
@@ -521,6 +585,8 @@ TABLE_NEXT_COLUMN
 
     my($ename) = $thisEntry{NAME};
     my($tname) = $thisEntry{TNAME};
+    my $dname = $thisEntry{DNAME};
+    my $xname = $thisEntry{XNAME};
     if (defined $thisEntry{MODIFIED}) {
 	$moddate = $thisEntry{MODIFIED};
     } else {
@@ -531,7 +597,7 @@ TABLE_NEXT_COLUMN
     $termurl ="$URL_DIR/$termpage";
 
     # write an entry in the main page
-    print TMPPAGE "<dt><a href=\"$termpage\"><em>$ename</em></a>";
+    print TMPPAGE "<dt><a href=\"$termpage\"><em>$dname</em></a>";
     if (defined $thisEntry{TYPE}) {
 	my($etype) = $thisEntry{TYPE};
 	print TMPPAGE " [<strong>$etype</strong>]";
@@ -542,14 +608,13 @@ TABLE_NEXT_COLUMN
     if ((! -e $termpage) || $writeAllPages
 	|| (-C $termpage > -M "$TERMS_DIR/$thisEntry{BASEFILENM}.trm")
 	|| (-C $termpage > $ENTNEWESTMOD)) {
-	# write the page (no code here)
+	# write the page
+	print STDERR "$tname, " if ($verbose);
     } else {
 	# don't need to write the page (except to check crossreferences)
 	print STDERR ", " if ($verbose); # just a "working" mark
 	next;
     }
-
-    print STDERR "$tname, " if ($verbose);
 
     unlink($termpage) if (-e $termpage);
     open(TERMPAGE, "> $termpage")
@@ -561,6 +626,7 @@ TABLE_NEXT_COLUMN
     $runtime = localtime;
     while (<FHANDLE>) {
 	s/\$NAME/$ename/g;
+	s/\$DNAME/$dname/g;
 	s/\$TNAME/$tname/g;
 	s/\$RUNDATE/$runtime/g;
 	s/\$MODDATE/$moddate/g;
@@ -579,8 +645,10 @@ TABLE_NEXT_COLUMN
     print TERMPAGE "<P>\n<strong>Definition:</strong>\n";
     if (defined $thisEntry{DEFN}) {
 	my($edefn) = $thisEntry{DEFN};
-	# convert cross references (<=> ...>) to href's
+	# convert cross references ({...}) to href's
 	&rewriteXrefs($edefn, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($edefn);
 	print TERMPAGE "$edefn\n";
     } else {
 	print TERMPAGE << "NO_DEFN_MESSAGE";
@@ -592,16 +660,20 @@ NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{XREFS}) {
 	my($exrefs) = $thisEntry{XREFS};
-	# change cross references (<=> ...>) to href's
+	# change cross references ({...}) to href's
 	&rewriteXrefs($exrefs, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($exrefs);
 	# have exactly one space after a comma
 	$exrefs =~ s|,\s*|, |go;
 	print TERMPAGE "<P><strong>See also</strong>\n$exrefs.\n";
     }
     if (defined $thisEntry{NOTES}) {
 	my($enotes) = $thisEntry{NOTES};
-	# convert cross references (<=> ...>) to href's
+	# convert cross references ({...}) to href's
 	&rewriteXrefs($enotes, $ename);
+	# convert LaTeX expressions to HTML
+	&rewriteLatex($enotes);
 	print TERMPAGE "<P><em>Note:\n$enotes</em>\n";
     }
     if (defined $thisEntry{AUTHOR}) {
@@ -630,6 +702,7 @@ NO_DEFN_MESSAGE
 	|| die("Cannot open $ENTCONCL\n");
     while (<FHANDLE>) {
 	s/\$NAME/$ename/g;
+	s/\$DNAME/$dname/g;
 	s/\$TNAME/$tname/g;
 	s/\$RUNDATE/$runtime/g;
 	s/\$MODDATE/$moddate/g;
@@ -714,6 +787,7 @@ close TMPPAGE;
 #
 #------------------------------------------------------------------------
 
+die ("TESTING-INDEX PAGES NOT CHANGED, stopped") if $justTesting;
 &backupMove($temppage, $pagename);
 
 #------------------------------------------------------------------------
@@ -749,10 +823,10 @@ print TMPPAGE "<ul>\n";
 # go through all the entries and print those with implementations
 for $ent (@sortedentries) {
     next if ! defined $entries{$ent}{IMPL};
-    my $entName = $entries{$ent}{NAME};
+    my $dname = $entries{$ent}{DNAME};
     my $eimpls = $entries{$ent}{IMPL};
     my $erelurl = "$OUT_DIR/$entries{$ent}{BASEFILENM}.html";
-    print TMPPAGE "<li><a href=\"$erelurl\">$entName</a>: $eimpls\n";
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>: $eimpls\n";
 }
 print TMPPAGE "</ul>\n\n";
 
@@ -804,9 +878,9 @@ print TMPPAGE "<hr>\n";
 
 sub printAreaEntry {
     my %thisEntry = %{$entries{$_[0]}};
-    my $entName = $thisEntry{NAME};
+    my $dname = $thisEntry{DNAME};
     my $erelurl = "$OUT_DIR/$thisEntry{BASEFILENM}.html";
-    print TMPPAGE "<li><a href=\"$erelurl\">$entName</a>";
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>";
     if (defined $thisEntry{TYPE}) {
 	my $etype = $thisEntry{TYPE};
 	print TMPPAGE " [<strong>$etype</strong>]";
@@ -891,9 +965,9 @@ for $tent (keys %types) {
     for $ent (@sortedentries) {
 	next if ! defined $entries{$ent}{TYPE} ||
 			$entries{$ent}{TYPE} ne $tent;
-	my $entName = $entries{$ent}{NAME};
+	my $dname = $entries{$ent}{DNAME};
 	my $erelurl = "$OUT_DIR/$entries{$ent}{BASEFILENM}.html";
-	print TMPPAGE "<li><a href=\"$erelurl\">$entName</a>\n";
+	print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>\n";
     }
     print TMPPAGE "</ul>\n\n";
 }
@@ -903,9 +977,9 @@ print TMPPAGE "<h2><a name=\"notype\">Entries with No Type</a></h2>\n";
 print TMPPAGE "<ul>\n";
 for $ent (@sortedentries) {
     if (! defined $entries{$ent}{TYPE}) {
-	my $entName = $entries{$ent}{NAME};
+	my $dname = $entries{$ent}{DNAME};
 	my $erelurl = "$OUT_DIR/$entries{$ent}{BASEFILENM}.html";
-	print TMPPAGE "<li><a href=\"$erelurl\">$entName</a>\n";
+	print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>\n";
     }
 }
 print TMPPAGE "</ul>\n\n";
