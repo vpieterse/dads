@@ -1,5 +1,5 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:38:02 2003" *by "Paul E. Black"
+# *modified "Thu Sep 25 11:23:13 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=binary search tree
@@ -14,20 +14,17 @@ subtree has values greater.  A new node is added as a {leaf}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={AVL tree}, {splay tree}, {threaded tree}, {relaxed balance}, 
 {randomized binary search tree}, {ternary search tree}, 
-{move-to-root heuristic}
+{move-to-root heuristic}, {jump list}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A binary search tree is almost always implemented with
 pointers, but may have a variety of constraints on how it is composed.
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl3.html#@l13">lecture
-notes</A>, <A
+notes</A>
+and <A 
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture17/sld006.htm">two
-different deletion algorithms</A>, 
-and more
-<A
-href="http://www.cs.duke.edu/~mlittman/courses/cps130/lectures/lect09/node1.html">lecture
-notes</A>.
+different deletion algorithms</A>.
 A <A
 href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</A>.
 # implementation(s) (pure HTML)
@@ -46,14 +43,15 @@ href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl30.html">insert
 (Lisp)</A>, 
 <A
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
-(C and Pascal)</A>,
+(C)</A>,
 <A
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
-(C and Pascal)</A>,
+(C)</A>,
 and 
 <A 
 href="http://www.csc.twu.ca/rsbook/index.html?http://www.csc.twu.ca/rsbook/Ch14/Ch14.8.html">insert,
-search, delete, and various traversals (Modula-2)</A>.
+search, delete, and various traversals (Modula-2)</A> (use must be
+acknowledged).
 # author's initials
 @AUTHOR=PEB
 # end
