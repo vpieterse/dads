@@ -1,0 +1,53 @@
+# *created  "Mon Nov 29 15:25:29 2004" *by "Paul E. Black"
+# *modified "Mon Nov 29 15:34:38 2004" *by "Paul E. Black"
+
+# $Log: tournamentSort.trm,v $
+# Revision 1.1  2004/11/29 20:34:56  black
+# Initial revision
+#
+
+# entry name
+@NAME=tournament sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Kenneth E. Iverson</strong>, <em>A Programming Language</em>,
+John Wiley and Sons, 1962, pages 223-226.
+# PAGE NUMBERS NOT CHECKED
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=
+# end $Source: /home/black/Workspace/dads/Terms/RCS/tournamentSort.trm,v $
