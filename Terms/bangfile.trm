@@ -1,0 +1,21 @@
+# *created  "Tue Nov 17 16:49:01 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:39:00 2001" *by "Paul E. Black"
+# entry name
+@NAME=BANG file
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A balanced and nested grid (BANG) file is a {point access
+method} which divides space into a
+nonperiodic grid.  Each spatial dimension is divided by a 
+{linear hash}.  Cells may intersect, and points may be distributed
+between them.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={twin grid file}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
