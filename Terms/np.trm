@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 16 14:43:00 2004" *by "Paul E. Black"
+# *modified "Thu Dec 16 14:45:07 2004" *by "Paul E. Black"
 
 # $Log: np.trm,v $
+# Revision 1.5  2004/12/16 19:45:21  black
+# NP-hard is not a subset of NP.
+#
 # Revision 1.4  2004/12/16 19:43:54  black
 # Remove coNP - I don't have a definition.  Make NP-complete and NP-hard
 # VARIANTS.  Make more XHTML compliant.
@@ -40,13 +43,13 @@ machine#nondeterministic Turing machine} accepts in
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT={NP-complete}, {NP-hard}
+@VARIANT={NP-complete}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={P}, {RP}, {ZPP},
+@XREFS={P}, {NP-hard}, {RP}, {ZPP},
 {BPP},
 {big-O notation}
 
