@@ -1,0 +1,28 @@
+# *created  "Wed Dec 22 08:58:02 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:13:07 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=worst case
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=(1) The situation or input that forces an {algorithm} or {data
+structure} to take the most time or resources.
+(2) Having to do with this situation or input.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={best case}, {average case}, {worst-case cost}, {amortized cost},
+{complexity}, {randomized algorithm}, {worst-case minimum access},
+{adversary}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See the notes on worst-case behavior at {Huffman encoding} and
+{balanced quicksort} and
+the link at {BB$\alpha$ tree}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
