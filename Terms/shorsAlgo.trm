@@ -1,0 +1,22 @@
+# *created  "Wed May 17 13:00:02 2000" *by "Paul E. Black"
+# *modified "Wed May 17 13:17:08 2000" *by "Paul E. Black"
+# entry name
+@NAME=Shor's algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=quant
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={finite Fourier transform}, {quantum computation}
+# any notes.  these are not printed in the final dictionary
+@NOTES=See Arthur O. Pittenger, "An Introduction to Quantum Computing
+Algorithms," page 54.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
