@@ -1,0 +1,39 @@
+# *created  "Wed Feb  3 09:14:23 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 11:21:23 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=left rotation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) In a {binary search tree}, pushing a {node} N down and to
+the left to {balance} the tree.  N's right {child} replaces N, and the
+right child's left child becomes N's right child.
+(2) In an {array}, moving all items to the next lower location.  The
+first item is moved to the last location, which is now vacant.
+(3) In a {list}, removing the {head} and inserting it at the {tail}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=rotate left
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=left single rotation
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={right rotation}, {double left rotation}, {rotation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also known as left single rotation, in contrast to double left
+rotation.
+# further explanation (pure HTML)
+@LINKS=A great series of <A
+href="http://www.dgp.toronto.edu/people/JamesStewart/applets/bst/bst-rotation.html">animations
+explaining rotations</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3418.lrot.p">(Pascal)</A>,
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.lrot.c">(C)</A>
+# author's initials
+@AUTHOR=BB
+# end
