@@ -1,0 +1,59 @@
+# *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
+# *modified "Tue Aug 12 14:40:09 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=sort
+# the definition
+@DEFN=Arrange items in a predetermined order.  There are dozens of
+algorithms, the choice of which depends on factors such as the number
+of items relative to working memory, knowledge of the orderliness of
+the items or the range of the {keys}, the cost of comparing keys vs. the
+cost of moving items, etc.  Most algorithms can be implemented as an
+{in-place sort}, and many can be implemented so they are {stable}, too.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=sorting algorithm
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=Specific algorithms: {quicksort}, {heapsort}, {Shell sort},
+{radix sort}, {bucket sort}, {insertion sort}, 
+{selection sort}, {merge sort}, {counting sort},
+{histogram sort}, {strand sort}, {J sort}, {shuffle sort}, 
+{American flag sort}, {bubble sort}, {bidirectional bubble sort}, 
+{adaptive heap sort}, {three-way radix quicksort}.
+Related terms: {external sort}, {internal sort}, {comparison sort}, 
+{distribution sort}, {permutation}, {derangement}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any sorting algorithm can be turned into a stable variant by
+appending the original position to the {key}.  When otherwise-equal
+keys are compared, the positions "break the tie" and the original
+order is maintained.
+</P>
+
+<P>
+Knuth notes <A href="../terms.html#Knuth98">[Knuth98, 3:1, Chap. 5]</A>
+that this operation might be called "order".  In standard English, 
+"to sort" means to arrange by kind or to classify.  The term "sort"
+came to be used in Computer Science because the earliest automated
+ordering procedures used punched card machines, which classified cards
+by their holes, to implement {radix sort}.
+# further explanation (pure HTML)
+@LINKS=Demonstrations of <A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">various
+sorting algorithms</A>;
+Links to <A href="http://www.cs.hope.edu/~alganim/ccaa/sorting.html">different sorting algorithms</A>.
+# implementation(s) (pure HTML)
+@IMPL=Specific implementations can be found under the specific sort
+routines or at <A
+href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">(Pascal,
+C++, Fortran, and Mathematica)</A>;
+Explanation, <A href="http://www.cs.brockport.edu/cs/java/apps/sorters/simplesort.html">demo and code (Java)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
