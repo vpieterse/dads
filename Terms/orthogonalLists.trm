@@ -1,0 +1,21 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# entry name
+@NAME=orthogonal lists
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=
+# the definition
+@DEFN=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=lists which share members, but are informationally independent.  The lists are interweaved through items. For instance, we may keep people on three orthogonal lists by hair color, gender, and country of residence.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=
+# end
