@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Nov  8 10:28:52 2002" *by "Paul E. Black"
+# *modified "Mon Nov 29 11:34:32 2004" *by "Paul E. Black"
+
+# $Log: omega.trm,v $
+# Revision 1.2  2004/11/29 16:33:50  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=$\omega$
@@ -26,8 +31,19 @@ The value of $k$ must not depend on $n$, but may depend on $c$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={$\Omega(n)$#$\Omega$}, {little-o notation}, 
+{big-O notation}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This is the Greek letter Omega.
@@ -37,4 +53,4 @@ The value of $k$ must not depend on $n$, but may depend on $c$.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/omega.trm,v $
