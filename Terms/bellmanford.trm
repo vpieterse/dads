@@ -1,7 +1,11 @@
 # *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:44 2004" *by "Paul E. Black"
+# *modified "Tue Feb  1 15:40:29 2005" *by "Paul E. Black"
 
 # $Log: bellmanford.trm,v $
+# Revision 1.7  2005/02/01 20:42:03  black
+# Remove IMA APSP algo -- it solves SSSP, and it messes up ontology.
+# Add XREFS to Dijkstra's.  Shorten DEFN with href to SSSP.
+#
 # Revision 1.6  2004/12/17 17:27:44  black
 # Make more XHTML compliant.
 #
@@ -25,12 +29,11 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=An efficient algorithm to find the {shortest paths}
-from a single {source} {vertex} to all other vertices in a 
-{weighted, directed graph}.
+@DEFN=An efficient algorithm to solve the
+{single-source shortest-path problem}.
 Weights may be negative.  
 The algorithm initializes the distance to
-the source vertex to 0 and all other vertices to $\infty$.  It then
+the {source} vertex to 0 and all other vertices to $\infty$.  It then
 does $V-1$ passes (V is the number of vertices) over all {edges}
 relaxing, or updating, the distance to the destination of each edge.
 Finally it checks each edge again to detect negative weight {cycles},
@@ -45,7 +48,7 @@ notation}, where E is the number of edges.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={all pairs shortest path} algorithm
+@IMA=
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -53,7 +56,7 @@ notation}, where E is the number of edges.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Dijkstra's algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
