@@ -1,0 +1,78 @@
+# *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
+# *modified "Thu May  9 13:07:03 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=traveling salesman
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=graph
+# the definition
+@DEFN=Find a {path} through a {weighted graph} which starts and
+ends at the same {vertex}, includes every other vertex exactly
+once, and minimizes the total cost of {edges}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=TSP
+# other cross-listings solely for the web, such as word or spelling variants
+#		British spelling has two l's
+@WEB=travelling salesman problem, traveling salesman problem
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={bottleneck traveling salesman}, {Hamiltonian cycle},
+{optimization problem}, {Christofides algorithm},
+similar problems: {all pairs shortest path}, {minimum spanning tree}, 
+{vehicle routing problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Less formally, find a path for a salesman to visit every listed
+city at the lowest total cost.
+</P>
+
+<P>
+The above described path is always a {Hamiltonian cycle}, or
+tour, however a Hamiltonian cycle need not be optimal.  The problem is
+an optimization problem, that is, to find the shortest tour.  The
+corresponding {decision problem} asks if there is a tour with a cost
+less than some given amount.
+See <A href="../terms.html#CLR90">[CLR90, page 969]</A>.
+</P>
+
+<P>
+If the triangle inequality does not hold, that is $d<sub>ik</sub> &gt;
+d<sub>ij</sub> + d<sub>jk</sub>$ for some i, j, k, there is no
+possible polynomial time algorithm which guarantees near-optimal
+result (unless P=NP).
+</P>
+
+<P>
+If the triangle inequality holds,
+you can quickly get a near-optimal solution by finding the {minimum
+spanning tree}.  Convert the tree to a path by traversing the
+tree, say by {depth-first search}, but go directly to the next
+unvisited node, rather than repeating nodes.  {Christofides algorithm}
+starts with a minimum spanning tree, but is more careful about
+converting the tree to a path with results closer to optimal.
+
+# further explanation (pure HTML)
+@LINKS=Several <A
+href="http://w1.859.telia.com/~u85905224/tsp/TSP.htm">animations of
+different heuristics</A>;
+<A href="http://www.math.princeton.edu/tsp/">links to challenges,
+advances, etc.</A>;
+program to <A
+href="http://coyotegulch.com/complex/Traveller.html">find a good
+solution using a genetic algorithm</A>.
+# implementation(s) (pure HTML)
+@IMPL=Links to <A
+href="http://www.densis.fee.unicamp.br/~moscato/TSPBIB_home.html">software</A>
+as well as papers, preprints, reports, etc., on-line on this
+and related problems, 
+<A href="http://www.keck.caam.rice.edu/tsp/">solver packages (C)</A>
+in addition to a pictorial history, papers, and an annotated
+bibliography,
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/traveling-salesman.shtml">(C,
+Fortran, Pascal, Mathematica, and C++)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
