@@ -1,0 +1,153 @@
+#!/usr/bin/perl -w
+# $Id: mkauthors,v 1.1 2002/01/09 17:48:13 black Exp $
+# *created  "Wed Jan  9 10:35:13 2002" *by "Paul E. Black"
+# *modified "Wed Jan  9 12:24:30 2002" *by "Paul E. Black"
+#
+# Create authors page
+#	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
+#	http://hissa.nist.gov/~black/
+#
+#------------------------------------------------------------------------
+
+$useMsg="usage: mkauthors.pl [--page path] [--url root] [--help]";
+$minOperands = 0;
+$maxOperands = 0;
+
+#------------------------------------------------------------------------
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgement if the software is used.
+#
+# Paul E. Black paul.black@nist.gov
+#
+#------------------------------------------------------------------------
+
+# CONFIGURATION SECTION:
+require 'mkcommon.pl';
+
+#------------------------------------------------------------------------
+#
+# you should not have to edit anything below this
+#
+#------------------------------------------------------------------------
+
+#------------------------------------------------------------------------------
+#       Command line handling
+#------------------------------------------------------------------------------
+
+while ($#ARGV >= 0) {
+    if ($ARGV[0] =~ /^--?h(e(lp?)?)?/) {
+        print "$useMsg\n";
+        print "    where\n";
+	print "\t--page    File system path to web page directory (default: $WEB_DIR)\n";
+	print "\t--url     URL to web page directory (default: $URL_DIR)\n";
+        print "\t--help    Print this message and exit\n";
+        print "\t--        End of options\n";
+        print "    This creates HTML pages and cross references for terms\n";
+        exit 0;
+    } elsif ($ARGV[0] =~ /^--?p(a(ge?)?)?$/) {
+	shift;
+	$WEB_DIR = shift;
+    } elsif ($ARGV[0] =~ /^--?u(rl?)?$/) {
+	shift;
+	$URL_DIR = shift;
+    } elsif ($ARGV[0] eq "--") {
+        shift;
+    } elsif ($ARGV[0] =~ /^-/) {
+        print "unknown option: $ARGV[0]\n";
+        print "$useMsg\n";
+        exit 1;
+    } else {
+        # end of options
+        last;
+    }
+}
+
+$numberOfOperands = 1 + $#ARGV; # - $optind
+if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
+    print "Wrong number of operands\n";
+    print "$useMsg\n";
+    die;
+}
+
+# get the year (CCYY), month (01-12), day (01-31), etc.  This is Y2K compliant.
+#($sec,$min,$hr,$mday,$mon,$yr,$wday,undef,undef) = localtime;
+# SKIMP - timezone (like MDT or EST) not printed
+#printf("%3s %3s %2d %02d:%02d:%02d %4d\n",
+#        (Sun,Mon,Tue,Wed,Thu,Fri,Sat)[$wday],
+#        (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)[$mon],
+#        $mday, $hr, $min, $sec, 1900+$yr);
+$now = localtime;
+
+# read/write by owner, readable by everyone else
+umask(0022);
+
+#
+# Step I: read initialization and config files
+#
+&readConfigFiles;
+
+#------------------------------------------------------------------------
+#
+# Step II: write contributors into a temporary files 
+#
+#------------------------------------------------------------------------
+
+$authpage="$AUTHPAGE.html";
+$temppage="$WEB_DIR/$OTHER/\#$authpage";
+
+unlink($temppage) if (-e $temppage);
+open(TMPPAGE, "> $temppage")
+    || die ("Cannot create temporary web page $temppage, stopped");
+
+&concatenate("$PAGES/$AUTHPAGE.intro", TMPPAGE);
+
+print TMPPAGE "<dl>\n";
+
+for $akey (sort keys %authors) {
+    print TMPPAGE "<dt><a name=\"author$akey\">$akey</a>\n";
+    my $aentry = $authors{$akey};
+    # "quote" any HTML special characters
+    $aentry =~ s/&/&amp;/go;
+    $aentry =~ s/</&lt;/go;
+    $aentry =~ s/>/&gt;/go;
+    print TMPPAGE "<dd>$aentry\n";
+    # print e-mail address(es) or URL(s), if given
+    if (defined $authemail{$akey}) {
+	for $fld (split(/, */, $authemail{$akey})) {
+	    if ($fld =~ /@/) {
+		# e-mail
+		print TMPPAGE "<A href=\"mailto:$fld\">$fld</A>\n";
+	    } else {
+		# URL
+		my($exitURL) = "<A href=\"$fld\">$fld</A>";
+		# rewrite href with exit_nist script
+		&rewriteHrefs($exitURL);
+		print TMPPAGE "$exitURL\n";
+	    }
+	}
+    }
+}
+
+print TMPPAGE "</dl>\n\n";
+
+# write processing date and time
+print TMPPAGE "<P>\nUpdated $now\n</P>\n";
+
+# copy the closing
+&concatenate("$PAGES/$AUTHPAGE.concl", TMPPAGE);
+
+close TMPPAGE;
+
+# backup old page and rename the temporary file
+
+&backupMove($temppage, "$WEB_DIR/$OTHER/$authpage");
+
+exit;
+
+# end of $Source: /home/black/DADS/dads/RCS/mkauthors,v $
