@@ -1,0 +1,22 @@
+# *created  "Tue Nov 17 11:02:22 1998" *by "Paul E. Black"
+# *modified "Tue Jun 25 15:31:38 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=probabilistic algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=Any {algorithm} that works for all practical purposes but has a
+theoretical chance of being wrong.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=Example: {Bloom filter}, related
+terms: {Monte Carlo algorithm}, {Las Vegas algorithm}, {randomized
+algorithm}, {heuristic},
+{deterministic algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
