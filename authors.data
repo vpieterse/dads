@@ -1,0 +1,30 @@
+#    Tables of contributors and definition authors and their
+#	initials, and optionally e-mail addresses and URLs
+#    Format is
+#	Initials<tab>Name (and affiliation)<tab>(comma separated
+#	e-mails [with @] or URLs)
+# *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
+# *modified "Tue Mar 27 16:57:32 2001" *by "Paul E. Black"
+SB	Sterling Bates	SterlingB@bdt.net
+PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
+BB	Bob Bockholt	bbockholt@yahoo.com
+AB	Andrew Boniface	bonifaceaw@yahoo.com
+SE	Stefan Edelkamp	edelkamp@informatik.uni-freiburg.de, http://www.informatik.uni-freiburg.de/~edelkamp/
+ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
+JLG	Joseph L. Ganley	joe@ganley.org, http://ganley.org/
+BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
+ASK	Art S. Kagel	kagel@bloomberg.net
+#LK	Lee Killough	http://members.xoom.com/killough/heaps.html
+CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
+KSL	Kim Skak Larsen	kslarsen@imada.ou.dk, http://www.imada.ou.dk/~kslarsen/
+CM	Conrado Martinez	Conrado.Martinez@lsi.upc.es, http://www.lsi.upc.es/~conrado/
+JM	Jason McCabe	Jason.McCabe@wcom.com
+DM	David Monniaux	David.Monniaux@ens.fr.cuckoo-to-be-removed
+PR	Patrick Rodgers	rodgerpk@jmu.edu
+PMS	Paul M. Sant	pauls@csc.liv.ac.uk
+SKS	Sandeep Kumar Shukla	skshukla@mipos2.intel.com
+PJT	Paul J. Tanenbaum	pjt@ARL.MIL, http://ftp.arl.mil/~pjt/
+VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com, http://www.geocities.com/SiliconValley/Garage/3323/
+YZ	Yuming Zou	zou@fas.harvard.edu
+CRC-A	Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999
+# end of authors list
