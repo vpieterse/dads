@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Sep 22 15:15:25 2003" *by "Paul E. Black"
+# *modified "Mon Sep 22 15:18:03 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=knapsack problem
@@ -28,11 +28,12 @@ is maximized.
 @XREFS={fractional knapsack problem}, {unbounded knapsack problem}, 
 {bin packing problem}, {cutting stock problem}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Also called 0-1 knapsack (each item may be taken (1) or not
-(0)), in contrast to the {fractional
+@NOTES=Also called 0-1 or binary knapsack (each item may be taken (1)
+or not (0)), in contrast to the {fractional
 knapsack problem}.  Also called unbounded knapsack because they are an
-unbounded number of copies items of each The {decision problem} form is, given items of
-different values and volumes and a knapsack, is there a subset which
+unbounded number of copies items of each.
+The {decision problem} form is, given items of
+different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
 # further explanation (pure HTML)
 @LINKS=How to <A
