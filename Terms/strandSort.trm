@@ -1,0 +1,39 @@
+# *created  "Tue Aug 12 10:52:34 2003" *by "Paul E. Black"
+# *modified "Tue Aug 12 11:38:46 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=strand sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm works well if many items are in order.  Begin
+by moving the first remaining item to a sublist.  For each remaining
+item, if it is greater than the last item of the sublist, append it.
+{Merge} the sublist into a final, sorted list.  Repeatedly find
+sublists until all items are sorted.  Handle two or fewer items as
+special cases.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={selection sort}, {merge sort}, {J sort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=This works especially well with {linked lists}.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=Explained in
+<A href="http://groups.google.com/groups?selm=880578663%40p7.f108.n461.z2.ftn">a
+1997 message about J sort</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
