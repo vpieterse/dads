@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Apr 12 11:22:17 2001" *by "Paul E. Black"
+# entry name
+@NAME=Floyd-Warshall algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An algorithm to solve the {all pairs shortest path} problem in a
+{weighted, directed graph} by multiplying an {adjacency-matrix
+representation} of the graph multiple times.  The edges may have
+negative weights, but no negative weight {cycles}.
+The time complexity is {$\Theta (V<sup>3</sup>)$#\Theta}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Johnson's algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
