@@ -1,0 +1,30 @@
+# *created  "Fri Sep 18 13:25:44 1998" *by "Paul E. Black"
+# *modified "Wed Dec  4 10:33:40 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=edge
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A connection between two {vertices#vertex} of a {graph}.  In
+a {weighted graph}, each edge has an number, called a "weight."  In
+a {directed graph}, an edge goes from one vertex, the {source}, to
+another, the {target}, and hence
+makes connection in only one direction.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=arc
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={directed graph}, {undirected graph}, 
+{weighted graph}, {hyperedge}, {in-degree}, {out-degree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=That is, in a directed graph, an edge goes from the source to
+the target.
+# author's initials
+@AUTHOR=PEB
+# end
