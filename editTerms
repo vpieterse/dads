@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: editTerms,v 1.2 2003/10/17 16:54:23 black Exp $
+# $Id: editTerms,v 1.3 2003/10/28 16:11:30 black Exp $
 # *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-# *modified "Fri Oct 17 12:53:13 2003" *by "Paul E. Black"
+# *modified "Tue Oct 28 11:08:36 2003" *by "Paul E. Black"
 
 #-----------------------------------------------------------------------------
 # Check out, change, and check in terms
@@ -30,15 +30,48 @@
 #
 #-----------------------------------------------------------------------------
 
-$reason = "Use a more regular plural of vertex";
+$reason = "Testing clean-up edit that adds Log RCS keyword";
 $editor = "Paul E. Black"; # for *modified line
 # make sure the program is not accidentally rerun without being updated
-if (localtime() !~ /Fri Oct 17/) {
+if (localtime() !~ /Tue Oct 28/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
     print "\tIt is " . localtime() . "\n";
     die;
+}
+
+# convert log history from rlog into $Log (co) format
+sub formatLogHistory {
+    my $file = shift(@_);
+    my $logHistory = "";
+    if (! open RLOGO, "rlog $file |") {
+	print "rlog error for $file\n";
+	return "";
+    }
+
+    my $inLogMessage = 0;
+    while (<RLOGO>) {
+	if (/^-----/ || /^=====/) {
+	    $logHistory .= "#\n" if $inLogMessage;
+	    $inLogMessage=0;
+	}
+	$logHistory .= "# $_" if $inLogMessage;
+
+	# handle revision and date lines
+	if (/^revision ([0-9.]+)/) {
+	    $rev=$1;
+	}
+
+	if (/^date: ([^;]+);  author: ([^;]+)/) {
+	    $logHistory .= "# Revision $rev  $1  $2\n";
+	    $inLogMessage=1;
+	}
+    }
+
+    close RLOGO;
+
+    return $logHistory
 }
 
 foreach $term_file_name (@ARGV) {
@@ -70,13 +103,41 @@ foreach $term_file_name (@ARGV) {
 	# write back an edited version
 	$runtime = localtime();
 	if (open TERM, "> $term_file_name") {
+	    my $justAfterModified = 0;
+	    my $blankLineFound = 0;
 	    foreach $line (@term_contents) {
-		# clean-up edits
-		$line =~ s/^# end$/# end \$Source\$/;
-		$line =~ s/HREF=/href=/g;
-
 		# change *modified
 		$line =~ s/[*]modified "[^"]*" [*]by "[^"]*"/*modified "$runtime" *by "$editor"/;
+
+		# add RCS Log line (and history) if missing
+		if ($justAfterModified) {
+		    if ($line =~ /^# \$Log/) {
+			# this term already has an RCS Log keyword
+			$justAfterModified = 0;
+		    } elsif ($line =~ /^$/) {
+			# blank line, be patient
+			$blankLineFound = 1;
+		    } else {
+			# no RCS Log line found, but other stuff found
+			print TERM "\n" if (! $blankLineFound);
+			print TERM "# \$Log\$\n";
+
+			# add Log history
+			print TERM &formatLogHistory($term_file_name);
+
+			print TERM "\n";
+
+			$justAfterModified = 0;
+		    }
+		}
+		if ($line =~ /[*]modified "[^"]*" [*]by/) {
+		    $justAfterModified = 1;
+		    $blankLineFound = 0;
+		}
+
+		# other clean-up edits
+		$line =~ s/^# end$/# end \$Source\$/;
+		$line =~ s/HREF=/href=/g;
 
 		#----------------------------------------------------
 		#
