@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Fri May 23 12:49:54 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:06 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=minimum spanning tree
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=A minimum-weight {tree} in a {weighted graph} which
-contains all of the graph's {vertices#vertex}.
+contains all of the graph's {vertexes}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -30,12 +30,12 @@ The term "shortest spanning tree" may be more common in the field of
 operations research.
 # further explanation (pure HTML)
 @LINKS=OR-Notes on graph theory, including <A
-HREF="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">minimum spanning
+href="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">minimum spanning
 trees</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A
-HREF="http://www.cs.sunysb.edu/~algorith/files/minimum-spanning-tree.shtml">(C++,
+href="http://www.cs.sunysb.edu/~algorith/files/minimum-spanning-tree.shtml">(C++,
 Pascal, Fortran, C, and Mathematica)</A>
 # author's initials
 @AUTHOR=JLG
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/minimumSpanningTree.trm,v $
