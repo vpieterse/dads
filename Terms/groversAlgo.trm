@@ -1,0 +1,25 @@
+# *created  "Wed May 17 12:57:37 2000" *by "Paul E. Black"
+# *modified "Tue Dec 11 13:46:08 2001" *by "Paul E. Black"
+# entry name
+@NAME=Grover's algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=quant
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Las Vegas algorithm}, {quantum computation}
+# any notes.  these are not printed in the final dictionary
+@NOTES=Named for the inventor, Lov K. Grover.
+See Arthur O. Pittenger, "An Introduction to Quantum Computing
+Algorithms," page 46.
+# further explanation (pure HTML)
+@LINKS=Grover's article in
+<A href="http://www.ddj.com/documents/s=868/ddj0104b/0104b.htm">Dr.
+Dobb's Journal, April 2001</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.ddj.com/documents/s=868/ddj0104b/0104bf3.htm">(C-like)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
