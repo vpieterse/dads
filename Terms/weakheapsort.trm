@@ -1,0 +1,24 @@
+# *created  "Tue Dec 15 12:07:49 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 12:31:15 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=weak-heap sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm that builds a {weak-heap}, then
+repeatedly extracts the maximum item.  In the {worst case}, the run
+time is {O(n log n + 0.1 n)#big-O notation}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={heapsort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.informatik.uni-freiburg.de/~edelkamp/WeakHeapsort/">(C)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
