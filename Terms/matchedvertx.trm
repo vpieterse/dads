@@ -1,0 +1,22 @@
+# *created  "Fri Jul 23 12:11:58 1999" *by "Paul E. Black"
+# *modified "Fri Jul 23 12:15:48 1999" *by "Paul E. Black"
+# entry name
+@NAME=matched vertex
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {vertex} on an {matched edge} in a {matching}, or, one which
+has been matched.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={free vertex}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
