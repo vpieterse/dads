@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May 12 11:03:54 2003" *by "Paul E. Black"
+# *modified "Mon Sep 20 10:13:58 2004" *by "Paul E. Black"
+
+# $Log: npcomplete.trm,v $
+# Revision 1.2  2004/09/20 14:33:15  black
+# Update Aaronson's Complexity Zoo URL.  Refine XREFS into IMA, etc.
+# Add RCS keywords.
+#
 
 # entry name
 @NAME=NP-complete
@@ -22,8 +28,19 @@ solve all other NP problems quickly.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=NPC
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={NP-hard}, {P}, {AP}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A trivial example of NP, but (presumably) not NP-complete is
 finding the bitwise <strong>AND</strong> of two strings of $N$
@@ -43,7 +60,7 @@ of NP optimization problems</A>.
 
 <P>
 Scott Aaronson's
-<A href="http://www.cs.berkeley.edu/~aaronson/zoo.html">Complexity
+<A href="http://www.complexityzoo.com/">Complexity
 Zoo</A>
 # implementation(s) (pure HTML)
 @IMPL=Stas Busygin's <A
@@ -51,4 +68,4 @@ href="http://www.busygin.dp.ua/npc.html">NP-Completeness Page with
 QUALEX and SAT01 (C++)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/npcomplete.trm,v $
