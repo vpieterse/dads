@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Feb  9 12:59:19 2001" *by "Paul E. Black"
+# entry name
+@NAME=Stirling's approximation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=numeric
+# the definition
+@DEFN=For large values of $n$,
+${n!#factorial} \approx (n/e)<sup>n</sup>\sqrt\{2n\pi}$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={factorial},{gamma function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This approximation is taken directly from {Stirling's formula}.
+# further explanation (pure HTML)
+@LINKS=A slightly different <A
+href="http://schof.colorado.edu/~bart/book/stirling.htm">approximation
+and relative errors</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
