@@ -1,0 +1,23 @@
+# *created  "Tue Nov 14 09:33:09 2000" *by "Paul E. Black"
+# *modified "Tue Nov 14 09:38:31 2000" *by "Paul E. Black"
+# entry name
+@NAME=expandable hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=Source: Knott, G. D., "Expandable open addressing hash table storage
+and retrieval."  Proc. ACM SIGFIDET Workshop on Data Description,
+Access, and Control, 1971, pp. 186-206.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
