@@ -1,5 +1,11 @@
 # *created  "Tue Apr  6 08:12:37 1999" *by "Paul E. Black"
-# *modified "Wed Jul 30 11:31:07 2003" *by "Paul E. Black"
+# *modified "Wed Dec  1 16:28:00 2004" *by "Paul E. Black"
+
+# $Log: chaining.trm,v $
+# Revision 1.2  2004/12/01 21:33:37  black
+# Change defn: chaining may be in the table.  Refine XREFS into IMA,
+# etc.  Add xrefs.  Add RCS keywords.
+#
 
 # entry name
 @NAME=chaining
@@ -8,12 +14,24 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=search
 # the definition
-@DEFN=The use of an external data structure to store 
-{collisions} of a {hash table}.  A {linked list} is
-often used.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={open addressing}, {load factor}, {separate chaining hashing},
-{direct chaining hashing}
+@DEFN=A scheme in which {linked lists} handle {collisions} in a {hash
+table}.  The two main classes of chaining are {separate chaining}, 
+where lists are outside the table, and {coalesced chaining}, where the
+lists are within the table.
+
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={collision resolution scheme}
+# Specialization: "... is a kind of me."
+@VARIANT={coalesced chaining}, {separate chaining}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={load factor}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={open addressing}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Any searchable data structure may be used instead of a linked
 list, but it is usually better to expand the hash table, thus lowering
@@ -26,4 +44,4 @@ the linked list.
 <A href="http://burtleburtle.net/bob/hash/hashtab.html">(C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/chaining.trm,v $
