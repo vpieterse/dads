@@ -1,5 +1,11 @@
 # *created  "Thu Aug  1 16:42:06 2002" *by "Paul E. Black"
-# *modified "Fri Aug  2 10:21:30 2002" *by "Paul E. Black"
+# *modified "Tue Jul  6 08:56:59 2004" *by "Paul E. Black"
+
+# $Log: baumWelch.trm,v $
+# Revision 1.2  2004/07/06 13:10:05  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Remove HMM link;
+# pages now renders only in Microsoft Internet Explorer.
+#
 
 # entry name
 @NAME=Baum Welch algorithm
@@ -17,8 +23,19 @@ sequence in the observation vector.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Viterbi algorithm}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 # any notes.  these are not printed in the final dictionary
@@ -26,9 +43,7 @@ sequence in the observation vector.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
-@LINKS=See this <A
-href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">lesson on
-Hidden Markov Models</A> for more explanation.
+@LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/baumWelch.trm,v $
