@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri May  3 15:24:44 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:02:55 2004" *by "Paul E. Black"
+
+# $Log: certificate.trm,v $
+# Revision 1.2  2004/12/17 17:02:56  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=certificate
@@ -13,8 +18,19 @@
 $\{\cal P}$ and {graph} $G$, a
 certificate for $G$ is a graph $G'$ such that $G$ has property $\{\cal
 P}$ if and only if $G'$ has the property.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={witness}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 (1) After comp.theory FAQ.
@@ -28,4 +44,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB,CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/certificate.trm,v $
