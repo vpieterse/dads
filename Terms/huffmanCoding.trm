@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 11:48:58 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:25:32 2005" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.8  2005/02/02 20:25:40  black
+# IM not A greedy algorithm; it is an algo. technique used INME.
+#
 # Revision 1.7  2005/01/10 16:49:56  black
 # Fix typo in Vinokur's URL in NOTES.
 #
@@ -49,13 +52,13 @@ and are coded with many bits.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={greedy algorithm}
+@IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={adaptive Huffman coding}, {k-ary Huffman coding}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={full binary tree}, {priority queue}
+@INME={full binary tree}, {priority queue}, {greedy algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={arithmetic coding}, 
 {optimal merge}, {Shannon-Fano coding}
