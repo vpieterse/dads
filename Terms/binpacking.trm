@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Oct  8 13:04:41 2002" *by "Paul E. Black"
+# *modified "Tue Sep 30 15:20:09 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=bin packing problem
@@ -26,13 +26,21 @@ need a number of pipes of different, specific lengths to plumb a
 house and we can buy pipe stock in 5 meter lengths.  How can we cut
 the 5 meter pipes to waste as little as possible (minimize the cost of
 pipe)?
+</P>
 
 <P>
 Thanks to Frank A. Adrian &lt;fadrian@symantec.com&gt;, 28 January 2000.
 # further explanation (pure HTML)
 @LINKS=
+<A href="http://mathworld.wolfram.com/Bin-PackingProblem.html">Limits
+and references</A>.
+Suggestions on
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/bin-packing.shtml">books
+and related topics</A>.
 # implementation(s) (pure HTML)
-@IMPL=<A HREF="http://www.cs.sunysb.edu/~algorith/files/bin-packing.shtml">(C++)</A>
+@IMPL=
+<A href="http://www.cs.arizona.edu/icon/oddsends/bpack/bpack.htm">(Icon)</A>.
 # author's initials
 @AUTHOR=PEB
 # end
