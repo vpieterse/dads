@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jan 12 12:37:00 2004" *by "Paul E. Black"
+# *modified "Tue Aug 17 09:07:59 2004" *by "Paul E. Black"
 
 # $Log: randomizedAlgo.trm,v $
+# Revision 1.4  2004/08/17 13:15:44  black
+# Strictly it is skip list *insert* that is a randomized algorithm.
+#
 # Revision 1.3  2004/01/12 17:38:10  black
 # A probabilistic algorithm may be deterministic, e.g., Knuth's trie for
 # counting words (?).
@@ -25,7 +28,7 @@
 @IMA={algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT={Monte Carlo algorithm}, {Las Vegas algorithm}, 
-{skip list}, {randomized binary search tree}
+{skip list} insert, {randomized binary search tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
