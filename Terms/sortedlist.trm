@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 09:51:55 1999" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:07:25 2001" *by "Paul E. Black"
+# entry name
+@NAME=sorted list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {list} whose items are kept sorted.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={sorted array}, {ordered linked list}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/511.ins.c">insert
+(C and Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
