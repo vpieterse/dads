@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Aug 14 16:06:39 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 15:01:49 2003" *by "Paul E. Black"
 # entry name
 @NAME=sparsification
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,7 +9,7 @@
 # the definition
 @DEFN=Technique for designing dynamic {graph} {algorithms}, which when
 applicable transform a time bound of $T(n,m)$ onto $O(T(n,n))$, where
-$m$ is the number of {edges} and $n$ is the number of {vertices#vertex} of
+$m$ is the number of {edges} and $n$ is the number of {vertexes} of
 the given graph.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
@@ -25,4 +25,4 @@ Appearing in the Dictionary of Computer Science, Engineering and Technology, Cop
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/sparsificatn.trm,v $
