@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Tue Nov 30 10:13:50 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:36 2004" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.9  2004/12/17 17:24:37  black
+# Make more XHTML compliant.
+#
 # Revision 1.8  2004/11/30 15:14:23  black
 # Note similarity between selection sort and heap sort.  Improve some wording.
 #
@@ -31,7 +34,7 @@ is the number of comparisons.  The number of swaps is
 {$O(n)$#big-O notation}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -52,9 +55,9 @@ is the number of comparisons.  The number of swaps is
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
 filled.  However, the algorithm is not stable.
-</P>
+</p>
 
-<P>
+<p>
 If the (first) least remaining item is inserted, that is, all
 intervening items moved down (instead of swapping), this algorithm is
 {stable}.
@@ -62,7 +65,7 @@ However, if the items are in an array, rather than, say a {linked
 list}, the number of moves is {$O(n<sup>2</sup>)$#big-O notation}.
 The algorithm is then like {bubble sort} with a more complicated control
 structure.
-</P>
+</p>
 
 # Careful selection of the least item does NOT work, since it may swap
 # items so they are out of order.  For instance,
@@ -71,24 +74,24 @@ structure.
 #	{  2, 3b, 3a }
 # no more swaps will be done
 
-<P>
+<p>
 {Heapsort} can be seen as a variant of selection sort in which 
 sorted items are arranged (in a {heap}) to quickly find the next item.
 
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/SSort.html">demonstration</A>.
+<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/SSort.html">demonstration</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">animation
-and code (Java)</A>;
-<A
+and code (Java)</a>;
+<a
 href="http://www-ihm.lri.fr/~thomas/VisuTri/selectionsort.html">links
-to animation (Java)</A>;
-<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</A>;
-<A
+to animation (Java)</a>;
+<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>;
+<a
 href="http://www.sci.csuhayward.edu/~billard/cs3240/node29.html">questions
-and example (C)</A>.
+and example (C)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/selectionSort.trm,v $
