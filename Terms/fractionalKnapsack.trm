@@ -1,0 +1,35 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Apr 24 09:06:52 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=fractional knapsack problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=Given materials of different values per unit volume and maximum
+amounts, find the most valuable mix of materials which fit in a
+knapsack of fixed volume.  Since we may take pieces (fractions) of
+materials, a {greedy algorithm} finds the optimum.  Take as much as
+possible of
+the material that is most valuable per unit volume.  If there is
+still room, take as much as possible of the
+next most valuable material.  Continue until the knapsack is full.
+# comma-separated list of pure names
+@AKA=continuous knapsack problem
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={knapsack problem}, {unbounded knapsack problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+The problem may
+equivalently be expressed in terms of weight instead of volume.
+This is also known as the continuous knapsack problem since amounts
+have continuous, rather than discrete, values.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
