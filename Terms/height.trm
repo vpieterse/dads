@@ -1,5 +1,5 @@
 # *created  "Tue Dec 15 10:57:05 1998" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:46:49 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:35:20 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=height
@@ -21,9 +21,7 @@ If a tree has only one node (the root), the height is zero.
 <P>
 The height of a tree is also known as the {order}.
 # implementation(s) (pure HTML)
-@IMPL=For <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Binary_Tree/binary_tree.html#Height">binary
-trees (C)</A>.
+@IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials
