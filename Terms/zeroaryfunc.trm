@@ -1,0 +1,30 @@
+# *created  "Wed Aug  4 11:00:33 1999" *by "Paul E. Black"
+# *modified "Wed Feb  6 14:59:54 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=0-ary function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {function} that takes no arguments.
+# comma-separated list of pure names
+@AKA=nullary function
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={constant function}, {unary function}, 
+{binary function}, {n-ary function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Pronounced "zero-airy".  By analogy to unary, binary, etc.
+</P>
+
+<P>
+A 0-ary or nullary function that is pure (no state or
+interactions with external variables) must be a constant function.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
