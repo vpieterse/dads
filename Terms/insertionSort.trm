@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:02 2004" *by "Paul E. Black"
+# *modified "Tue Mar 22 11:15:42 2005" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Revision 1.7  2005/03/22 16:16:00  black
+# Add Sedgewick & Wayne IMPL.
+#
 # Revision 1.6  2004/12/17 17:24:03  black
 # Make more XHTML compliant.
 #
@@ -74,6 +77,9 @@ a
 of insertion sort.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.cs.ubc.ca/spider/harrison/Java/InsertionSortAlgorithm.java">(Java)</a>.
+An 
+<a href="http://www.cs.princeton.edu/introcs/25array/">implementation
+(Java)</a> due to Sedgewick and Wayne (search for Insertion sort).
 Other implementations may be available through the <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>;
