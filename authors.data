@@ -1,10 +1,11 @@
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
-#	Initials<tab>Name (and affiliation)<tab>(comma separated
+#	Initials<tab>Name<tab>(comma separated
 #	e-mails [with @] or URLs)
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Fri Nov  9 09:22:10 2001" *by "Paul E. Black"
+# *modified "Wed Dec 12 13:25:47 2001" *by "Paul E. Black"
+AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
 BB	Bob Bockholt	bbockholt@yahoo.com
