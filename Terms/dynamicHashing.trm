@@ -1,7 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jan  8 08:07:20 2004" *by "Paul E. Black"
+# *modified "Thu Jan  8 09:27:48 2004" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.3  2004/01/08 14:29:23  black
+# Move load factor to INME.  Add XREFS to expandable hashing and virtual
+# hashing.  Although they should prob. be VARIANTS, until they're
+# defined, I'll leave them as XREFS.
+#
 # Revision 1.2  2004/01/08 13:10:37  black
 # Refine XREFS to IMA, etc.  Add extendible hashing as a VARIANT.
 # Put correction to Enbody and Du on a new line for emphasis.
@@ -26,9 +31,9 @@ shrink the table to save space when items are deleted.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={load factor}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={load factor}
+@XREFS={expandable hashing}, {virtual hashing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>R. J. Enbody and H. C. Du</strong>, <em>Dynamic Hashing
