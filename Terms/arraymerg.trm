@@ -1,0 +1,21 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Tue Apr  4 15:19:29 2000" *by "Paul E. Black"
+# entry name
+@NAME=array merging
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=Joining two arrays into one.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={merge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
