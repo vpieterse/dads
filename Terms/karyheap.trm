@@ -1,0 +1,23 @@
+# *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
+# *modified "Thu Nov 30 17:44:17 2000" *by "Paul E. Black"
+# entry name
+@NAME=k-ary heap
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {complete tree} where every {node} has a {key} more extreme
+(greater or less) than the key of its {parent}.  Each node has
+<strong>k</strong> or fewer {children#child}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={k-ary tree},{binary heap},{heap}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
