@@ -1,0 +1,30 @@
+# *created  "Wed Sep  6 12:22:08 2000" *by "Paul E. Black"
+# *modified "Tue Jan  7 09:58:17 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=triconnected graph
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {connected graph} such that deleting any two
+{vertices#vertex} (and incident {edges}) results in a graph that is
+still connected.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={biconnected graph}, {k-connected graph}, {cut vertex}
+# any notes.  these are not printed in the final dictionary
+@NOTES=After Tomas Rokicki &lt;rokicki@instantis.com&gt;, 24 December
+2002.
+</P>
+
+<P>
+Informally, there are at least three independent {paths} from any
+vertex to any other vertex.  After Paul M. Sant, 6 Sep 2000.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
