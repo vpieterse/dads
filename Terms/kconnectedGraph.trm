@@ -1,5 +1,5 @@
 # *created  "Tue Jan  7 09:47:21 2003" *by "Paul E. Black"
-# *modified "Tue Jan  7 10:00:47 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:05:03 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=k-connected graph
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=A {connected graph} such that deleting any $k-1$
-{vertices#vertex} (and incident {edges}) results in a graph that is
+{vertexes} (and incident {edges}) results in a graph that is
 still connected.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -30,4 +30,4 @@ vertex to any other vertex.
 @LINKS=
 # author's initials (see authors.data)
 @AUTHOR=PMS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/kconnectedGraph.trm,v $
