@@ -2,6 +2,9 @@
 # *modified "Mon Apr 19 14:37:27 2004" *by "Paul E. Black"
 
 # $Log: dijkstraalgo.trm,v $
+# Revision 1.5  2004/09/01 11:09:00  black
+# Remove duplicate "all paris shortest path" XREF.
+#
 # Revision 1.4  2004/04/19 18:37:32  black
 # Use the standard English plural of vertex
 #
@@ -39,7 +42,6 @@ number of vertices and $E$ is the number of {edges}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Bellman-Ford algorithm}, {all pairs shortest path}
 
-{all pairs shortest path}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 After <A href="../terms.html#CLR90">[CLR90, page 527]</A>.
