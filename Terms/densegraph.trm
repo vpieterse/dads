@@ -1,0 +1,23 @@
+# *created  "Tue Feb  9 08:55:41 1999" *by "Paul E. Black"
+# *modified "Thu Oct 18 16:40:59 2001" *by "Paul E. Black"
+# entry name
+@NAME=dense graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An {undirected graph} in which the number of {edges} is close to
+the possible number of edges, that is, $n(n-1)/2$, where $n$ is the 
+number of {vertices#vertex}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={sparse graph}, {complete graph}, {adjacency-matrix representation}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
