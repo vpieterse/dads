@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Wed Sep  6 12:08:26 2000" *by "Paul E. Black"
+# entry name
+@NAME=universal Turing machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {Turing machine} that is capable of simulating any other Turing machine by encoding the latter.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={alternating Turing machine}, {nondeterministic Turing machine}, {oracle Turing machine}, {probabilistic Turing machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, pages 24-19 and 26-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
