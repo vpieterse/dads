@@ -1,0 +1,44 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon May 12 10:31:53 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Chinese postman problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Find a minimum length closed {walk} that traverses each {edge}
+at least once.  Finding an optimal solution is {NP-complete}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Hamiltonian cycle}, {Euler cycle}, {traveling salesman},
+{vehicle routing problem},
+{optimization problem}
+@BIB=
+Originally proposed by <strong>Mei-Ko Kwan</strong>, 
+#<em>Hypothetical Intelligence</em>, Proc. Thing, Provo, Utah, 2(7):30-32, 
+in 1962.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+This is similar to finding the most efficient way to route garbage
+trucks, school buses, etc.  A good algorithm is given in
+<strong>Jack Edmonds</strong> and <strong>Ellis L. Johnson</strong>, 
+<em>Matching, Euler Tours, and the Chinese Postman</em>,
+Math. Programming, 5:88-124, 1973.
+</P>
+
+<P>
+From Algorithms and Theory of Computation Handbook, page 6-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/eulerian-cycle.shtml">(Mathematica
+and Fortran)</A>
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
