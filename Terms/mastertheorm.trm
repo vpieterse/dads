@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:24:08 2001" *by "Paul E. Black"
+# entry name
+@NAME=Master theorem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=A theorem giving a solution in asymptotic terms for {recurrence
+relations} of the form $T(n) = aT(n/b) + f(n)$ where $a \geq 1$ and $b
+&gt; 1$ are constants and $n/b$ means either $\lfloor n/b \rfloor$ or
+$\lceil n/b \rceil$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.uiowa.edu/~cremer/courses/cs44/Etc/exam1-review/node22.html">Details</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
