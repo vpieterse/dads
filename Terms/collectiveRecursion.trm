@@ -1,0 +1,42 @@
+# *created  "Thu Sep  2 09:04:49 1999" *by "Paul E. Black"
+# *modified "Mon Feb 28 11:31:18 2000" *by "Paul E. Black"
+# entry name
+@NAME=collective recursion
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A special form of {tail recursion}, where the results are produced
+during the recursive calls and nothing is returned.  The recursion may
+be optimized away by executing the call in the current stack frame,
+rather than creating a new stack frame, or by deallocating the entire
+recursion stack at once rather than a little at each return.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The following program prints the values greater than limit
+in a list.
+<pre>
+int overlimit(list l, int limit)<br>
+\{<br>
+    if (null == l) \{<br>
+        return;<br>
+    }<br>
+<br>
+    if (limit < head(l)) \{<br>
+        printf("%d\n", head(l));<br>
+    }<br>
+    overlimit(tail(l), limit);<br>
+}
+</pre>
+At the return, the compiler can deallocate all the
+memory for the recursion stack at once.
+
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
