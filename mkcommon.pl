@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.1 2001/04/04 16:54:46 black Exp $
+# $Id: mkcommon.pl,v 1.2 2001/04/06 19:29:00 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Apr  4 12:49:02 2001" *by "Paul E. Black"
+# *modified "Fri Apr  6 15:22:06 2001" *by "Paul E. Black"
 #
 # Common definitions for format and indexing terms for web pages.
 #
@@ -20,6 +20,15 @@
 # CONFIGURATION SECTION:
 # set the following appropriately
 
+# - The file system path of the web pages.
+$WEB_DIR	="Target";
+#$WEB_DIR	="TargetExt";
+# - The URL to the main directory, that is,
+#	$URL_DIR/$WEBPAGE.html is the URL for the main page and
+#	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
+$URL_DIR	="http://hissa.nist.gov/dads";
+#$URL_DIR	="http://www.itl.nist.gov/div897/sqg/dads";
+
 # Note: the *name=\value is a Perl 5.0-ism which says name refers to 
 # value, and the reference cannot be changed.  Equivalent to declaring
 # the name to be a constant or immutable.
@@ -37,17 +46,11 @@
 # - The (path) name of the file with PERL substitutions to change LaTeX 
 #	to the target language, e.g., HTML
 *LATEXREWRITES = \"latex2html.data";
-# - The file system path of the web pages.
-*WEB_DIR  =\"Target";
 # - The path of the directory where term pages go, that is,
 #	$WEB_DIR/$OUT_DIR/termFile.html is the path for termFile.trm
 *OUT_DIR  =\"HTML";
-# - The URL to the main directory, that is,
-#	$URL_DIR/$WEBPAGE.html is the URL for the main page and
-#	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-*URL_DIR  =\"http://hissa.nist.gov/dads";
 # - The name of final (combined or main) web page, less extension 
-#	(.html), it is written to $WEB_DIR/$WEBPAGE.html
+#	(.html).  The page is written to $WEB_DIR/$WEBPAGE.html
 *WEBPAGE  =\"terms";
 # - Name of the main web page with extension
 *MAINPAGE =\"$WEBPAGE.html";
