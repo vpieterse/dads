@@ -1,0 +1,24 @@
+# *created  "Wed Aug  4 11:06:21 1999" *by "Paul E. Black"
+# *modified "Thu Dec 16 09:20:46 1999" *by "Paul E. Black"
+# entry name
+@NAME=n-ary function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=(1) A {function} with exactly $n$ arguments.  (2) A function
+which takes
+any number of arguments, or a variable number of arguments.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={constant function}, {unary function}, {binary function},
+{trinary function}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=By analogy with unary, binary, etc.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
