@@ -1,5 +1,5 @@
 # *created  "Wed Mar 17 15:39:46 1999" *by "Paul E. Black"
-# *modified "Wed Oct  1 10:16:49 2003" *by "Paul E. Black"
+# *modified "Mon Mar 22 11:51:22 2004" *by "Paul E. Black"
 
 # entry name
 @NAME=abstract data type
@@ -38,7 +38,7 @@ defined as following.
 where S is a stack and v is a value.  (The usual pop operation is a
 combination of top, to return the top value, and popOff, to remove the
 top value.)
-Contrast this with the axiomatic definition of a {set}, a
+Contrast this with the {axiomatic semantics} definition of a {set}, a
 {dictionary}, or a {queue}.
 </P>
 
