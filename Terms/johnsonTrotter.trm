@@ -1,5 +1,11 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Thu Sep 13 09:04:37 2001" *by "Paul E. Black"
+# *modified "Fri Jul 30 12:31:56 2004" *by "Paul E. Black"
+
+# $Log: johnsonTrotter.trm,v $
+# Revision 1.2  2004/07/30 16:32:47  black
+# XREF Fisher-Yates shuffle.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Johnson-Trotter
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +13,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=An algorithm to generate {permutations} by transposing
+@DEFN=Generate {permutations} by transposing
 elements.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -15,8 +21,19 @@ elements.
 @AKA=Steinhaus-Johnson-Trotter
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Fisher-Yates shuffle}
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -27,4 +44,4 @@ href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Information on
 Permutations (Pascal and C)</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/johnsonTrotter.trm,v $
