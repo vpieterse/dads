@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 08:52:13 2003" *by "Paul E. Black"
+# *modified "Fri Apr  9 16:17:14 2004" *by "Paul E. Black"
+
+# $Log: stringMatching.trm,v $
+# Revision 1.2  2004/04/09 20:19:27  black
+# Refine XREFS into IMA, etc.  Refer to phonetic matching.
+#
 
 # entry name
 @NAME=string matching
@@ -16,15 +21,26 @@ efficient searching.
 @AKA=exact string matching, string searching, text searching
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=string search, text match
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={string matching with errors}, {brute force string search},
-{Knuth-Morris-Pratt algorithm}, 
-{Boyer-Moore}, {Zhu-Takaoka}, {quick search}, {optimal mismatch},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={brute force string search}, {Knuth-Morris-Pratt algorithm}, 
+{Boyer-Moore}, {Zhu-Takaoka}, {quick search}, 
 {deterministic finite automata string search}, 
 {Karp-Rabin}, {Shift-Or}, {Smith algorithm},
-{Ratcliff/Obershelp pattern recognition},
-{string similarity search}, {string matching on ordered alphabets},
-{inverted index}
+{Ratcliff/Obershelp pattern recognition}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={string matching with errors}, 
+{optimal mismatch}, {phonetic matching},
+{string matching on ordered alphabets},
+{suffix tree}, {inverted index}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For large collections which are searched often, it may be far
 faster, though more complicated, to start with an {inverted index}.
@@ -49,4 +65,4 @@ href="http://gams.nist.gov/serve.cgi/Module/IMSLM/IIDEX/4039">(Fortran)</A>,
 href="http://gams.nist.gov/serve.cgi/Module/IMSLS/IIDEX/4736">(Fortran)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stringMatching.trm,v $
