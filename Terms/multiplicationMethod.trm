@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 12 12:09:01 2003" *by "Paul E. Black"
+# *modified "Thu Sep 25 12:05:54 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=multiplication method
@@ -11,7 +11,7 @@
 @DEFN=A {hash function} that uses the first $p$ bits of the {key}
 times an irrational number.
 # formal definition or {cross reference} to an entry
-@FORML=$h(k) = \lfloor m(k A (mod 1)) \rfloor$, where $m$ is usually
+@FORML=$h(k) = \lfloor m(k A (mod 1))\rfloor$, where $m$ is usually
 an integer $2<sup>p</sup>$ and $A$ is an irrational number (or an
 approximation thereto) $0 &lt; A &lt; 1$.  The modulo 1
 operation removes the integer part of $k \times A$.
@@ -31,4 +31,4 @@ example, and guide to choosing A</A>
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/multiplicationMethod.trm,v $
