@@ -1,0 +1,30 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu May  9 16:57:17 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=heapify
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=Rearrange a {heap} to maintain the {heap property}, that is,
+the {key} of the {root} {node} is more extreme (greater or less) than
+or equal to the keys of its {children#child}.  If the root node's key
+is not more extreme, swap it with the most extreme child key,
+then {recursively#recursion} heapify that child's subtree.  The child
+subtrees must be heaps to start.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary heap}, {build-heap}, {heapsort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For an array implementation, heapify takes
+{O($\log<sub>2</sub> n$)#big-O notation} or O($h$) time under the
+comparison model,
+where $n$ is the number of nodes and $h$ is the {height}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
