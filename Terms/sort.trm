@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Tue Nov 30 10:06:52 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:41 2004" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.7  2004/12/17 17:24:42  black
+# Make more XHTML compliant.
+#
 # Revision 1.6  2004/11/30 15:15:19  black
 # Add treesort (1).
 #
@@ -39,7 +42,7 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 <br> (the items are in order) and
 <li>$S\prime$ is a {permutation} of $S$.
 </ol>
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=sorting algorithm
@@ -68,30 +71,30 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 appending the original position to the {key}.  When otherwise-equal
 keys are compared, the positions "break the tie" and the original
 order is maintained.
-</P>
+</p>
 
-<P>
-Knuth notes <A href="../terms.html#Knuth98">[Knuth98, 3:1, Chap. 5]</A>
+<p>
+Knuth notes <a href="../terms.html#Knuth98">[Knuth98, 3:1, Chap. 5]</a>
 that this operation might be called "order".  In standard English, 
 "to sort" means to arrange by kind or to classify.  The term "sort"
 came to be used in Computer Science because the earliest automated
 ordering procedures used punched card machines, which classified cards
 by their holes, to implement {radix sort}.
 # further explanation (pure HTML)
-@LINKS=Demonstrations of <A
+@LINKS=Demonstrations of <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">various
-sorting algorithms</A>;
-Links to <A href="http://www.cs.hope.edu/~alganim/ccaa/sorting.html">different sorting algorithms</A>.
+sorting algorithms</a>;
+Links to <a href="http://www.cs.hope.edu/~alganim/ccaa/sorting.html">different sorting algorithms</a>.
 Jim Gray's latest records of
-<A href="http://research.microsoft.com/barc/SortBenchmark/">items
+<a href="http://research.microsoft.com/barc/SortBenchmark/">items
 sorted per penny, items sorted in a minute, and time to sort a
-terabyte</A>.
+terabyte</a>.
 # implementation(s) (pure HTML)
 @IMPL=Specific implementations can be found under the specific sort
-routines or at <A
+routines or at <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">(Pascal,
-C++, Fortran, and Mathematica)</A>;
-Explanation, <A href="http://www.cs.brockport.edu/cs/java/apps/sorters/simplesort.html">demo and code (Java)</A>.
+C++, Fortran, and Mathematica)</a>;
+Explanation, <a href="http://www.cs.brockport.edu/cs/java/apps/sorters/simplesort.html">demo and code (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sort.trm,v $
