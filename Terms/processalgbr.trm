@@ -1,0 +1,22 @@
+# *created  "Fri May 14 14:06:20 1999" *by "Paul E. Black"
+# *modified "Sat Sep  4 16:36:03 1999" *by "Paul E. Black"
+# entry name
+@NAME=process algebra
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=An algebraic theory to formalize the notion of concurrent
+computation, best exemplified in {CSP} and {CCS}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={formal verification}, {formal methods}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=SKS
+# end
