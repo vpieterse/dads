@@ -1,5 +1,12 @@
 # *created  "Wed Feb 17 12:42:53 1999" *by "Paul E. Black"
-# *modified "Thu Sep  6 03:45:58 2001" *by "Paul E. Black"
+# *modified "Mon Nov 22 11:30:53 2004" *by "Paul E. Black"
+
+# $Log: diningphilos.trm,v $
+# Revision 1.2  2004/11/22 16:33:04  black
+# Remove dead link and update Siefast link.  Refine XREFS into IMA,
+# etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=dining philosophers
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -13,10 +20,21 @@ They spend time thinking or trying to eat.
 A philosopher must have both the fork on the left and
 the fork on the right to eat.  Clearly adjacent philosophers cannot
 eat at the same
-time.  The problem is to find an algorithm for taking forks which
+time.  The problem is to find an algorithm for taking forks that
 prevents deadlock, starvation, etc.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -26,9 +44,12 @@ prevents deadlock, starvation, etc.
 <A
 href="http://www.math-cs.gordon.edu/courses/cs322/projects/p2/dp/">code
 Shared Memory and Semaphores (C and C++)</A>,
+One <A
+href="http://www.cis.ohio-state.edu/siefast/simulator/examples/siefast_example_dining_philosophers.html">example
+(Siefast)</A> for the
 <A
-href="http://www.informatik.hu-berlin.de/~mueller/java/philo.html">(Java)</A>,
-<A href="http://www.cis.ohio-state.edu/siefast/siefast/examples/siefast_example_dining_philosophers.html">(Siefast)</A>
+href="http://www.cis.ohio-state.edu/siefast/simulator/">Siefast
+simulator</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/diningphilos.trm,v $
