@@ -1,5 +1,12 @@
 # *created  "Wed Mar  3 13:45:01 1999" *by "Paul E. Black"
-# *modified "Tue Nov 14 10:12:37 2000" *by "Paul E. Black"
+# *modified "Wed Jan  7 17:02:06 2004" *by "Paul E. Black"
+
+# $Log: bucket.trm,v $
+# Revision 1.2  2004/01/08 14:35:13  black
+# Refine XREFS into IMA, etc.  Add IMA bag.  Change "bucket trie" to
+# "elastic bucket tree".
+#
+
 # entry name
 @NAME=bucket
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,9 +18,20 @@
 Typically {tree} data structures and {sort} algorithms use
 many buckets, one for each group of items.  Usually buckets are kept
 on disk.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={radix sort}, {bucket sort}, {hash heap}, {bucket trie},
-{extendible hashing}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={bag}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={radix sort}, {bucket sort}, {elastic bucket trie},
+{hash heap}, {extendible hashing}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A <em>bucket</em> is used when a number of items need to be
 kept together, but the order among them is not important.
@@ -24,4 +42,4 @@ Conceptually it is a {bag} (rather than a {set}).
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bucket.trm,v $
