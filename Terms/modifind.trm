@@ -1,5 +1,11 @@
 # *created  "Mon Apr 12 15:50:30 1999" *by "Paul E. Black"
-# *modified "Wed Apr 25 14:43:24 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:11 2004" *by "Paul E. Black"
+
+# $Log: modifind.trm,v $
+# Revision 1.2  2004/12/17 16:53:11  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=MODIFIND
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -12,9 +18,20 @@ array and {partition} the array around it.  It partitions around
 the value of the k<sup>th</sup> element until one boundary passes
 element k.  If either boundary does not pass element k, that boundary is
 moved and it partitions again.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={select and partition}, {Find}, {Select}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Vladimir Zabrodsky</strong>, <em>MODIFIND</em>, Elektronika,
 No. 6, pp 33-34, 1992
@@ -23,9 +40,9 @@ No. 6, pp 33-34, 1992
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.geocities.com/SiliconValley/Garage/3323/3alg.html">analysis
-and comparison (Rexx)</A>
+and comparison (Rexx)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/modifind.trm,v $
