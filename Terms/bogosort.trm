@@ -1,0 +1,36 @@
+# *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
+# *modified "Wed Apr 16 13:24:39 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=bogosort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A terribly inefficient {sort} algorithm that repeatedly
+generates a random {permutation} of the items until the items are in
+order.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=bogus sort, bogo-sort, stupid sort
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={bozo sort}, {stooge sort}, {lucky sort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
+anybody would be so thoughtless to write/do/say/believe that, and I
+just can't let it pass without objecting."
+See the FOLDOC entry for
+<A href="http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?bogo-sort">bogo-sort</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
