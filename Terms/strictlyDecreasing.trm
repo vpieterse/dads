@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Mar 21 13:23:37 2002" *by "Paul E. Black"
+# *modified "Thu Mar 18 09:49:19 2004" *by "Paul E. Black"
+
+# $Log: strictlyDecreasing.trm,v $
+# Revision 1.2  2004/03/18 14:57:23  black
+# Refine XREFS into IMA, etc.
+#
 
 # entry name
 @NAME=strictly decreasing
@@ -11,8 +16,19 @@
 @DEFN=A {function} from a {partially ordered#partial order} {domain} to
 a partially ordered {range} such that $x &gt; y$ implies $f(x) &lt;
 f(y)$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={strictly increasing}, {monotonically decreasing}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -21,4 +37,4 @@ f(y)$.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/strictlyDecreasing.trm,v $
