@@ -1,5 +1,5 @@
 # *created  "Wed Nov 18 10:12:27 1998" *by "Paul E. Black"
-# *modified "Fri Mar 24 07:28:08 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:02:17 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=hypergraph
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,7 +8,7 @@
 @AREA=graph
 # the definition
 @DEFN=A {graph} whose {hyperedges} connect two or more 
-{vertices#vertex}.
+{vertexes}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={multigraph},{undirected graph}
 # any notes.  these will not be printed in the final dictionary
@@ -20,4 +20,4 @@ Contrast this with the {binary relations}
 which is directed from a child to his or her father or mother.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hypergraph.trm,v $
