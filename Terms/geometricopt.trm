@@ -1,0 +1,24 @@
+# *created  "Fri Jun 18 08:47:05 1999" *by "Paul E. Black"
+# *modified "Tue Sep 11 10:11:10 2001" *by "Paul E. Black"
+# entry name
+@NAME=geometric optimization problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=geom
+# the definition
+@DEFN=An {optimization problem} induced by a collection of geometric
+objects.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={prune and search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Since the variables and constraints come from physical
+situations, faster algorithms can often be developed.
+Adapted from <A href="../terms.html#AS98">[AS98, page 413]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
