@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Jan  2 11:08:01 2002" *by "Paul E. Black"
+# *modified "Wed Nov 19 09:41:30 2003" *by "Paul E. Black"
+
+# $Log: longestCommonSubsequence.trm,v $
+# Revision 1.2  2003/11/19 14:47:50  black
+# Differentiate between longest common substring and longest common
+# subsequence.  Add new line.
+#
 
 # entry name
 @NAME=longest common subsequence
@@ -13,23 +19,34 @@
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=LCS, longest common substring, heaviest common subsequence
+@AKA=heaviest common subsequence
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={Ratcliff/Obershelp pattern recognition}
+@XREFS={Ratcliff/Obershelp pattern recognition},
+{longest common substring}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+The longest common substring is contiguous, while the longest common
+subsequence need not be.
+</P>
+
+<P>
 From Algorithms and Theory of Computation Handbook, page 13-17,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+Dan Hirschberg's <A
+href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</A>
+as an example of <A
+href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
+programming</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A
 href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
 and Mathematica)</A>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/longestCommonSubsequence.trm,v $
