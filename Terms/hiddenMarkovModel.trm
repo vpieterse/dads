@@ -1,0 +1,68 @@
+# *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
+# *modified "Fri Aug  2 10:12:39 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=hidden Markov model
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A variant of a {finite state machine} having a set of {states},
+Q, an output {alphabet}, O, transition probabilities, A, output
+probabilities, B, and initial state probabilities, $\Pi$.  The current
+state is not observable.  Instead, each state produces an output
+with a certain probability, B.  Usually the states, Q, and
+outputs, O, are understood, so an HMM is said to be a triple, 
+$(A, B, \Pi)$.
+# formal definition or {cross reference} to an entry
+@FORML=
+After <A
+href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">Michael
+Cohen</A>.
+<ul>
+<li> $A = \{a<sub>ij</sub> = P(q<sub>j</sub> at t+1 | q<sub>i</sub> at
+t)}$, where $P(a | b)$ is the conditional probability of a given b, 
+$t \geq 1$ is time, and $q<sub>i</sub> \in Q$.
+<br>Informally, A is the probability that the next state is $q<sub>j</sub>$
+given that the current state is $q<sub>i</sub>$.
+<li> $B = \{b<sub>ik</sub> = P(o<sub>k</sub> | q<sub>i</sub>)}$, 
+where $o<sub>k</sub> \in O$.
+<br>Informally, B is the probability that the output is
+$o<sub>k</sub>$ given that the current state is $q<sub>i</sub>$.
+<li> $\Pi = \{p<sub>i</sub> = P(q<sub>i</sub> at t=1)}$.
+</ul>
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=HMM
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Markov chain}, {Baum Welch algorithm}, {Viterbi algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Computing a model given sets of sequences of observed outputs
+is very difficult, since the states are not directly observable and
+transitions are probabilistic.  One method is the {Baum Welch
+algorithm}.
+</P>
+
+<P>
+Although the states cannot, by definition, be directly observed,
+the most likely sequence of sets for a given sequence of observed
+outputs can be computed in O(nt), where n is the number of states and
+t is the length of the sequence.  One method is the {Viterbi
+algorithm}.
+</P>
+
+<P>
+Thanks to Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
+# further explanation (pure HTML)
+@LINKS=See Michael Cohen's <A
+href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">Hidden
+Markov Models</A> for definitions, examples, algorithms, proofs, etc.
+# search words: Center for Adaptive Systems, Stationary
+# Markov Chains, Weather Model, Hidden Markov Model, Markov Chain, Urn Model
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
