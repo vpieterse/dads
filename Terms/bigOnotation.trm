@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:51:27 2004" *by "Paul E. Black"
+# *modified "Mon Jan  3 12:27:55 2005" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Revision 1.8  2005/01/03 17:28:42  black
+# Remove Dunlop's URL - redirect to cis.strath, but no longer accessible.
+#
 # Revision 1.7  2004/12/17 17:52:02  black
 # Make IMG XHTML compliant.
 #
@@ -123,9 +126,7 @@ This definition after
 Strictly, the character is the upper-case Greek letter Omicron, not
 the letter O, but who can tell the difference?
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cs.strath.ac.uk/~mdd/teaching/alg&comp/big_oh.html">A
-rough guide to big-oh notation</a> by Mark Dunlop.
+@LINKS=
 Wikipedia <a href="http://wikipedia.org/wiki/Big_O_notation">Big O
 notation</a>.
 Big O is a
