@@ -1,0 +1,27 @@
+# *created  "Thu Oct 12 08:52:19 2000" *by "Paul E. Black"
+# *modified "Thu Oct 12 09:22:04 2000" *by "Paul E. Black"
+# entry name
+@NAME=transitive
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {binary relation} R for which $a R b$ and $b R c$ implies $a R
+c$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={reflexive}, {symmetric}
+# any notes.  these are not printed in the final dictionary
+@NOTES=The relation ``less than'' is transitive: if $a &lt; b$ and $b
+&lt; c$, then $a &lt; c$.  The relation ``is an ancestor of'' is also
+transitive: if Reuben is an ancestor of Bill and Bill is an ancestor
+of Patrick, Reuben is an ancestor of Patrick.  However ``likes'' is
+not transitive since someone I like may like someone that I don't
+like.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
