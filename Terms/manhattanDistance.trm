@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May 19 11:07:33 2003" *by "Paul E. Black"
+# *modified "Wed Sep  8 16:02:30 2004" *by "Paul E. Black"
+
+# $Log: manhattanDistance.trm,v $
+# Revision 1.2  2004/09/08 20:04:40  black
+# Refine XREFS into IMA, etc.  Add city block norm as a WEB name.  Add
+# LINKS to Wikipedia and another site.  Add RCS keywords.
+#
 
 # entry name
 @NAME=Manhattan distance
@@ -13,10 +19,25 @@ angles.
 In a plane with $p<sub>1</sub>$ at $(x<sub>1</sub>, y<sub>1</sub>)$ and
 $p<sub>2</sub>$ at $(x<sub>2</sub>, y<sub>2</sub>)$, it is 
 $|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
 # comma-separated list of pure names
-@WEB=rectilinear distance, taxi cab metric
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={Euclidean distance}, {$L<sub>m</sub>$ distance}
+@WEB=rectilinear distance, taxi cab metric, city block norm
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={$L<sub>m</sub>$ distance}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Euclidean distance}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 This is easily generalized to higher dimensions.  Manhattan
@@ -25,12 +46,25 @@ parallel to the X or Y axis.
 </P>
 
 <P>
-Also known as {rectilinear} distance.
+Also known as {rectilinear} distance, taxi cab metric, or city block
+distance.
+</P>
+
+<P>
+Wikipedia says this concept was considered by Hermann Minkowski in the
+19th century.
 # further explanation (pure HTML)
-@LINKS=Weisstein's World of Math calls it
-<A href="http://mathworld.wolfram.com/TaxicabMetric.html">taxicab metric</A>
+@LINKS=
+Wikipedia entry for 
+<A href="http://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab
+geometry</A>.
+Comparison between <A
+href="http://www.predictivepatterns.com/docs/WebSiteDocs/Clustering/Clustering_Parameters/Manhattan_Distance_Metric.htm">Manhattan</A>
+and Euclidean distance.
+Weisstein's World of Math calls it
+<A href="http://mathworld.wolfram.com/TaxicabMetric.html">taxicab metric</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/manhattanDistance.trm,v $
