@@ -1,0 +1,39 @@
+# *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
+# *modified "Mon Apr  7 17:12:51 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=bidirectional bubble sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A variant of {bubble sort} which compares each adjacent pairs of
+items in a {list} in turn, swapping them if necessary, and alternately
+passes through the list from the beginning to the end then from the end
+to the beginning until no swaps are done.
+# comma-separated list of pure names or {cross references}
+@AKA=cocktail shaker sort, shaker sort, double-direction bubble sort
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Complexity is {O(n<sup>2</sup>)#big-O notation} for
+arbitrary data, but approaches O(n) if the list is nearly in order at
+the beginning.  Bidirectional bubble sort usually does better than
+bubble sort since at least one item is moved forward or backward to
+its place in the list with each pass.  Bubble sort moves items forward
+into place, but can only move items backward one location each pass.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
+and code (Java)</A>;
+<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
+and source code (Java)</A>;
+<A href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">animation and
+code, see cocktail sort (Java)</A>.
+# author's initials (see authors.data)
+@AUTHOR=PEB,BB
+# end
