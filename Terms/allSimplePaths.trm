@@ -1,7 +1,10 @@
 # *created  "Thu Jul 29 08:37:57 2004" *by "Paul E. Black"
-# *modified "Thu Jul 29 09:33:23 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:41 2004" *by "Paul E. Black"
 
 # $Log: allSimplePaths.trm,v $
+# Revision 1.2  2004/12/17 17:27:41  black
+# Make more XHTML compliant.
+#
 # Revision 1.1  2004/07/29 14:04:25  black
 # Initial revision
 #
@@ -19,7 +22,7 @@ graph}, find all simple paths between two vertices.
 
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=all paths
@@ -36,7 +39,7 @@ graph}, find all simple paths between two vertices.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={all pairs shortest path}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
@@ -54,9 +57,9 @@ from the recursive call.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=
-A <A
+A <a
 href="http://www2.toki.or.id/book/AlgDesignManual/BOOK/BOOK2/NODE84.HTM">general
-solution</A>.
+solution</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/allSimplePaths.trm,v $
