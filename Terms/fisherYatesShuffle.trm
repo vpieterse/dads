@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Fri Feb  4 08:56:46 2005" *by "Paul E. Black"
+# *modified "Tue Mar 22 11:13:17 2005" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.6  2005/03/22 22:00:16  black
+# Add Sedgewick and Wayne IMPL.
+#
 # Revision 1.5  2005/02/04 13:57:51  black
 # Add IMA perfect shuffle.
 #
@@ -72,6 +75,10 @@ sort}.  It is described in some detail as algorithm P in
 Ben Pfaff's answer to
 <a href="http://www.stanford.edu/~blp/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
+An 
+<a href="http://www.cs.princeton.edu/introcs/25array/">implementation
+(Java)</a> due to Sedgewick and Wayne, including an explanation of
+unfair shuffle algorithms (search for Shuffling).
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
