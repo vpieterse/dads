@@ -1,5 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 13:47:21 2000" *by "Paul E. Black"
+# *modified "Fri Nov 14 13:26:21 2003" *by "Paul E. Black"
+
+# $Log: assignment.trm,v $
+# Revision 1.2  2003/11/14 18:27:37  black
+# Add that it is also known as the marriage problem.  Cross-reference a
+# polynomial-time solution.  Misc. updates.
+#
+
 # entry name
 @NAME=assignment problem
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,8 +15,14 @@
 @AREA=graph
 # the definition
 @DEFN=The problem of finding a maximum (or minimum) weight {matching} in a {weighted#weighted graph}, {bipartite graph}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=marriage problem
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+@XREFS={Munkres' assignment algorithm}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 7-21,
@@ -18,9 +31,9 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=OR-Notes on network flow, including <A
-HREF="http://mscmga.ms.ic.ac.uk/jeb/or/netflow.html">assignment problem</A>.
+href="http://mscmga.ms.ic.ac.uk/jeb/or/netflow.html">assignment problem</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/assignment.trm,v $
