@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.21 2004/11/18 19:43:33 black Exp $
+# $Id: mkcommon.pl,v 1.22 2004/12/01 16:38:57 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Nov 18 14:37:39 2004" *by "Paul E. Black"
+# *modified "Wed Dec  1 11:35:28 2004" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -563,7 +563,11 @@ sub readTermEntries {
 		print "\nAKA <<$ealiases>> has a funny trailing character in $entryFile\n";
 	    }
 
-	    foreach $aka (split /^ *{?|}?, *{?|}? *$/, $ealiases) {
+	    if ($ealiases =~ /[{}]/) {
+		print "\nAKA <<$ealiases>> has a funny character in $entryFile\n";
+	    }
+
+	    foreach $aka (split /^ +| *, */, $ealiases) {
 		next if ($aka eq ""); # above RE may start with a null split
 
 		#
