@@ -1,5 +1,12 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Mon Apr 23 13:11:31 2001" *by "Paul E. Black"
+# *modified "Thu Jan  8 13:13:27 2004" *by "Paul E. Black"
+
+# $Log: trie.trm,v $
+# Revision 1.2  2004/01/08 18:14:51  black
+# Refine XREFS into IMA, etc.  Add BIB entries.  Make the "trie" stand
+# out more in retrieval.
+#
+
 # entry name
 @NAME=trie
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,17 +16,38 @@
 # the definition
 @DEFN=A {tree} for storing {strings} in which there is one {node} for
 every common {prefix}.  The strings are stored in extra {leaf} nodes.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={tree}
+# Specialization: "... is a kind of me."
+@VARIANT={bucket trie}, {Patricia tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={digital tree}, {digital search tree}, {directed acyclic word
-graph}, {compact DAWG}, {Patricia
-tree}, {suffix tree}
+graph}, {compact DAWG}, {suffix tree}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Renee de la Briandais</strong>, <em>File Searching Using
+Variable Length Keys</em>, Proc. AFIPS Western Joint Computer
+Conference, San Francisco, California, USA, 15:295-298, March 1959.
+</P>
+
+<P>
+<strong>Edward Fredkin</strong>, <em>Trie Memory</em>,
+CACM, 3(9):490-499, September 1960.
+
 # any notes.  these will not be printed in the final dictionary
 #	Algorithms & Theory of Computation Handbook, page 14-3
 #	Fundamentals of Data Structures, Horowitz and Sahni, pp 517-525
-@NOTES=The name comes from re<strong>trie</strong>val and is
+@NOTES=The name comes from re<strong>TRIE</strong>val and is
 pronounced, "tree."
 # implementation(s): pure HTML
 @IMPL=<A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.ins.c">insert (C)</A>, <A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.srch.c">search (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/trie.trm,v $
