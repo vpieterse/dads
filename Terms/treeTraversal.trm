@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 14 15:12:45 2000" *by "Paul E. Black"
+# *modified "Wed Aug 25 09:00:22 2004" *by "Paul E. Black"
+
+# $Log: treeTraversal.trm,v $
+# Revision 1.2  2004/08/25 13:02:16  black
+# Refine XREF into IMA, etc. and make refs to specific traversals
+# VARIANTs.  Add RCS keywords.  Note that demo doesn't cover level-order
+# traversal.
+#
+
 # entry name
 @NAME=tree traversal
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,17 +17,28 @@
 # the definition
 @DEFN=A technique for processing the {nodes} of a {tree} in some
 order.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={preorder traversal}, {in-order traversal}, {postorder
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={preorder traversal}, {in-order traversal}, {postorder
 traversal}, {level-order traversal}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=<A
-HREF="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">Demonstration</A>
-of each type of traversal on a binary tree.
+href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BTree.html">Demonstration</A>
+of preorder, in-order, and postorder traversal on a binary tree.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/treeTraversal.trm,v $
