@@ -1,0 +1,21 @@
+# *created  "Fri Apr  7 16:51:35 2000" *by "Paul E. Black"
+# *modified "Fri Apr  7 16:56:43 2000" *by "Paul E. Black"
+# entry name
+@NAME=saturated edge
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=An {edge} in a {flow network} which has the maximum possible flow.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={blocking flow}, {flow function}, {capacity}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
