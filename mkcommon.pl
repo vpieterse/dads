@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.11 2002/01/17 18:07:39 black Exp $
+# $Id: mkcommon.pl,v 1.12 2002/02/19 21:24:27 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Jan 17 13:06:42 2002" *by "Paul E. Black"
+# *modified "Wed Feb 13 08:36:07 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -416,6 +416,7 @@ sub addToDictionary (\%) {
     $alphaName =~ s/\b2\b/two/g;
     $alphaName =~ s/\b3\b/three/g;
     $alphaName =~ s/\b4\b/four/g;
+    $alphaName =~ s/\b8\b/eight/g;
     $alphaName =~ s/[*]/star/go;
     $alphaName =~ s/[+]/plus/go;
     # remove any embedded html
