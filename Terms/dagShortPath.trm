@@ -1,0 +1,30 @@
+# *created  "Thu Sep 30 10:19:08 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:16:52 2000" *by "Paul E. Black"
+# entry name
+@NAME=DAG shortest paths
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Solve the {single-source shortest-path problem} in a
+{weighted#weighted graph}
+{directed acyclic graph} by 1) doing a {topological sort} on the
+{vertices#vertex} by {edge} so vertices with no incoming {edges} are
+first and vertices with only incoming {edges} are last, 2) assign an
+infinite distance to every vertex ($dist(v)=\infty$) and a zero
+distance to the source,
+and 3) for each vertex $v$ in sorted order, for each outgoing edge
+$e(v,u)$, if $dist(v) + weight(e) &lt; dist(u)$, set $dist(u)=dist(v)
++ weight(e)$ and the predecessor of $u$ to $v$.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Dijkstra's algorithm}, {Bellman-Ford algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
