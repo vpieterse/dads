@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 23 16:31:44 2004" *by "Paul E. Black"
+# *modified "Tue Jan 11 15:11:23 2005" *by "Paul E. Black"
 
 # $Log: bbalphatree.trm,v $
+# Revision 1.5  2005/01/11 20:11:36  black
+# Correct TYPE to be S
+#
 # Revision 1.4  2004/12/23 21:31:58  black
 # Remove trailing blank in XREFS.
 #
@@ -15,7 +18,7 @@
 # entry name
 @NAME=BB($\alpha$) tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
