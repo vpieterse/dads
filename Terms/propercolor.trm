@@ -1,0 +1,24 @@
+# *created  "Tue May 11 09:15:38 1999" *by "Paul E. Black"
+# *modified "Thu Apr  4 12:19:16 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=proper coloring
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=A {vertex coloring} or {edge coloring} of a graph in which
+no two {adjacent} {vertices#vertex} or {edges} have the same
+color.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Generally "coloring" is understood to mean "proper coloring".
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ME
+# end
