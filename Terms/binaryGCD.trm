@@ -1,0 +1,83 @@
+# *created  
+# *modified "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=binary GCD algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=numeric
+# the definition
+@DEFN=Compute the {greatest common divisor} of two
+integers expressed in binary.  The run time complexity is
+{$O((\log<sub>2</sub> uv)<sup>2</sup>)$#big-O notation} bit
+operations.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=algorithm B
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Euclid's algorithm}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Discovered by J. Stein in 1967.  Another source says discovered
+by R. Silver and J. Tersian in 1962 and published by G. Stein in 1967.
+<P>
+The algorithm uses the following observations.
+<ul>
+<li>If u and v are both even, gcd(u,v) = 2 gcd(u/2, v/2).
+<li>If u is even and v is odd, gcd(u,v) = gcd(u/2, v).
+<li>Otherwise both are odd, and gcd(u,v) = gcd(|u-v|/2, v).  (Euclid's
+algorithm with a division by 2 since the difference of two odd numbers
+is even.)
+</ul>
+</P>
+
+<P>
+Here is the algorithm.  It is especially efficient for operations on
+binary representations.
+<ol>
+<li> g = 1
+
+<li> while u is even and v is even
+<ul>
+<li> u = u/2 (right shift)
+<li> v = v/2
+<li> g = 2*g (left shift)
+</ul>
+now u or v (or both) are odd
+
+<li> while u &gt; 0
+<ul>
+<li> if u is even, u = u/2
+<li> else if v is even, v = v/2
+<li> else
+<ul>
+<li> t = |u-v|/2
+<li> if u < v, then v = t else u = t
+</ul>
+</ul>
+
+<li> return g*v
+</ol>
+</P>
+
+<P>
+Called Algorithm B in
+<A href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</A>.
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.cut-the-knot.com/blue/binary.html">Binary
+Euclid's Algorithm</A> including examples and references.  Shallit's
+slides giving
+<A href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/slides/01.html">explanation
+and proofs</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
