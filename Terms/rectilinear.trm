@@ -1,0 +1,25 @@
+# *created  "Fri Oct 15 10:21:19 1999" *by "Paul E. Black"
+# *modified "Fri Nov 30 12:35:18 2001" *by "Paul E. Black"
+# entry name
+@NAME=rectilinear
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Distance, paths, lines, etc. which are always parallel to axes at
+right angles.  For example, a path along the streets of Salt Lake City
+or the moves of a rook in chess.
+# comma-separated list of pure names or {cross references}
+@AKA=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Manhattan distance}, {Euclidean distance}, {$L<sub>m</sub>$ distance}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
