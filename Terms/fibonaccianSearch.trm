@@ -1,17 +1,55 @@
 # *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
-# *modified "Thu Nov  8 10:41:05 2001" *by "Paul E. Black"
+# *modified "Fri Aug 27 13:54:52 2004" *by "Paul E. Black"
+
+# $Log: fibonaccianSearch.trm,v $
+# Revision 1.2  2004/08/27 17:51:08  black
+# Change name to the original author's: Fibonacian.  Add definition, BIB
+# entry, cross references, etc.
+#
+
 # entry name
-@NAME=Fibonacci search
+@NAME=Fibonaccian search
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=search
 # the definition
-@DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+@DEFN=Search a {sorted array} by narrowing possible locations to
+progressively smaller intervals.  Begin with two {Fibonacci numbers},
+p (F(n)) and q (F(n+1)), such that $p &lt; n \le q$, where $n$ is the
+size of the array.  Check location p.  The size of the next interval
+is p or q-p.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=Fibonacci search
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={Fibonacci number}, search locations are a {Fibonacci tree}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={linear search}, {interpolation search}, {binary search}, 
+{jump search}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>David E. Ferguson</strong>, <em>Fibonaccian Searching</em>,
+CACM, 3(12):648, December 1960.
+<BR>
+Also <A href="../terms.html#Knuth98">[Knuth98, 3:417, Sect. 6.2.1]</A>.
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=This is similar to a {binary search}, but only needs addition
+and subtraction, instead of divide by two or shift right, to compute
+the next position.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
@@ -19,5 +57,5 @@
 href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
 for real time (WOOP/ADA)</A>, including bibliography.
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/fibonaccianSearch.trm,v $
