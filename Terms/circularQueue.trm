@@ -1,0 +1,21 @@
+# *created  "Tue Nov 21 10:40:51 2000" *by "Paul E. Black"
+# *modified "Wed Nov 14 12:02:36 2001" *by "Paul E. Black"
+# entry name
+@NAME=circular queue
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An implementation of a {bounded queue} using an {array}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={queue}
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
