@@ -1,5 +1,10 @@
 # *created  "Tue Dec  1 11:40:25 1998" *by "Paul E. Black"
-# *modified "Fri Jan  4 10:11:12 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:01 2004" *by "Paul E. Black"
+
+# $Log: markovchain.trm,v $
+# Revision 1.2  2004/12/17 16:53:01  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Markov chain
@@ -11,28 +16,39 @@
 @DEFN=A {finite state machine} with probabilities for each transition,
 that is, a probability that the next state is $s<sub>j</sub>$ given
 that the current state is $s<sub>i</sub>$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={hidden Markov model}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Equivalently, a {weighted, directed graph} in which the weights
 correspond to the probability of that transition.  In other words,
 the weights are nonnegative and the total weight of outgoing {edges} is
 positive.  If the weights are normalized, the total weight, including
 {self-loops}, is 1.
-After <A href="../terms.html#Leda98">[Leda98]</A>.
+After <a href="../terms.html#Leda98">[Leda98]</a>.
 # further explanation (pure HTML)
 @LINKS=Named after
-<A href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Markov.html">Andrei 
-Andreyevich Markov</A> (1856 - 1922), who studied poetry and other
+<a href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Markov.html">Andrei 
+Andreyevich Markov</a> (1856 - 1922), who studied poetry and other
 texts as stochastic sequences of characters.
 Implementations come from Jon Bentley's "Programming Pearls" and 
-<A href="http://www.ddj.com/articles/2001/0104/">Dr. Dobb's Journal,
-April 2001</A>.
+<a href="http://www.ddj.com/articles/2001/0104/">Dr. Dobb's Journal,
+April 2001</a>.
 # implementation(s) (pure HTML)
 @IMPL=Use Markov chains to
-<A href="http://users.starpower.net/marti1/markov.lisp">generate
-random text (clisp)</A> and in
-<A href="http://www.ddj.com/ftp/2001/2001_04/aa0401.txt">(C)</A>.
+<a href="http://users.starpower.net/marti1/markov.lisp">generate
+random text (clisp)</a> and in
+<a href="http://www.ddj.com/ftp/2001/2001_04/aa0401.txt">(C)</a>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/markovchain.trm,v $
