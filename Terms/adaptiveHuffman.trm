@@ -1,0 +1,24 @@
+# *created  "Mon Sep 27 08:40:01 1999" *by "Paul E. Black"
+# *modified "Mon Jun 30 16:25:10 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=adaptive Huffman encoding
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Huffman encoding}, {algorithm FGK}, {algorithm V}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">Explanation</A>
+of algorithms FGK and V.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.xcf.berkeley.edu/~ali/K0D/Algorithms/huff/">(C)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
