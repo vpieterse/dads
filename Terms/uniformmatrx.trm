@@ -1,0 +1,21 @@
+# *created  "Thu Sep  2 14:28:00 1999" *by "Paul E. Black"
+# *modified "Thu Sep  2 14:29:23 1999" *by "Paul E. Black"
+# entry name
+@NAME=uniform matrix
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A {matrix} having the same number of items in each row.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={ragged matrix}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
