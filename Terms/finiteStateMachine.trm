@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Jul 23 18:08:09 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:06 2004" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Revision 1.4  2004/12/17 17:28:07  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/07/23 22:16:20  black
 # Add links to implementations.  Change (xref to) transducer to the more
 # precise finite state transducer.
@@ -64,18 +67,18 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # implementation(s) (pure HTML)
 @IMPL=
 Jan Daciuk's
-<A href="http://juggernaut.eti.pg.gda.pl/~jandac/fsa.html">Finite
-state utilities (C++)</A> including many links to other code, papers,
+<a href="http://juggernaut.eti.pg.gda.pl/~jandac/fsa.html">Finite
+state utilities (C++)</a> including many links to other code, papers,
 etc.
-<A href="http://odur.let.rug.nl/~vannoord/Fsa/">Finite State Automata
-Utilities (Prolog)</A>, which generate C code, minimize, visualize,
+<a href="http://odur.let.rug.nl/~vannoord/Fsa/">Finite State Automata
+Utilities (Prolog)</a>, which generate C code, minimize, visualize,
 etc.  Page has binaries, too.
-For regular expressions <A
+For regular expressions <a
 href="http://www.cs.kent.ac.uk/people/staff/sjt/craft2e/regExp.html">generate
-NFSM, make deterministic, and optimize (Haskell)</A>.
-Oleg Kiselyov's program to <A
+NFSM, make deterministic, and optimize (Haskell)</a>.
+Oleg Kiselyov's program to <a
 href="http://pobox.com/~oleg/ftp/Prolog/minimizer.prl">minimize a
-finite state machine (Prolog)</A>.
+finite state machine (Prolog)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/finiteStateMachine.trm,v $
