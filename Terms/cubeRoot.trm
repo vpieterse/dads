@@ -1,7 +1,10 @@
 # *created  "Fri Oct 15 08:54:48 2004" *by "Paul E. Black"
-# *modified "Fri Oct 15 10:12:28 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:30 2004" *by "Paul E. Black"
 
 # $Log: cubeRoot.trm,v $
+# Revision 1.2  2004/12/17 17:23:30  black
+# Make more XHTML compliant.
+#
 # Revision 1.1  2004/10/15 14:19:22  black
 # Initial revision
 #
@@ -16,9 +19,9 @@
 @DEFN=This describes a "long hand" or manual method of calculating or
 extracting cube roots.  Calculation of a cube root by hand is a little
 like long-hand division or manual {square root}.
-</P>
+</p>
 
-<P>
+<p>
 Suppose you need to find the cube root of 55,742,968.
 Set up a "division" with the number under the radical.
 Mark off triples of digits, starting from the decimal
@@ -192,33 +195,33 @@ subtract.
             -------	<br>
                   0	<br>
 </pre>
-</P>
+</p>
 
-<P>
+<p>
 So the cube root of 55742968 is 382.  You can continue
 for as many decimal places as you need: just bring
 down more triples of zeros.
-</P>
+</p>
 
-<P>
+<p>
 <strong>Why does this work?</strong>
-</P>
+</p>
 
-<P>
+<p>
 Consider $(10A + B)<sup>3</sup> = 1000A<sup>3</sup> +
 3 \times 100A<sup>2</sup>B + 3 \times 10AB<sup>2</sup> +
 B<sup>3</sup>$ and think about finding the volume of a cube.
-</P>
+</p>
 
-<P>
+<p>
 The volume of the three thin plates is $3 \times 100A<sup>2</sup>B$.
 The volume of the three skinny sticks is $3 \times 10AB<sup>2</sup>$.
 The tiny cube is $B<sup>3</sup>$.
 If we know A and the volume of the cube, S, what B should we
 choose?  
-</P>
+</p>
 
-<P>
+<p>
 We previously subtracted $A<sup>3</sup>$ from S.  To scale to
 $1000A<sup>3</sup>$, we bring down three more digits 
 (a factor of 1000) of the length of S.  We write down 3 times A
@@ -232,15 +235,15 @@ When we subtract that from the remainder (remember we
 already subtracted $A<sup>3</sup>$), we have subtracted exactly
 $(10A + B)<sup>3</sup>$.  That is, we have improved our knowledge
 of the square root by one digit, B.
-</P>
-<P>
+</p>
+<p>
 We take whatever remains, scale again by 1000, by bringing down three
 more digits, and repeat the process.
-</P>
+</p>
 
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -257,7 +260,7 @@ more digits, and repeat the process.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={square root}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
@@ -267,21 +270,21 @@ more digits, and repeat the process.
 cosine, and other transcendental functions are calculated with
 sophisticated functions based on the
 # by Mohamed A. Khamsi and Helmut Knaust 
-<A href="http://www.sosmath.com/calculus/diff/der07/der07.html">Newton-Raphson
-method</A>, sometimes called Newton's method.  
+<a href="http://www.sosmath.com/calculus/diff/der07/der07.html">Newton-Raphson
+method</a>, sometimes called Newton's method.  
 Here is a more detailed lesson that explains, for instance, 
 # Newton-Raphson Method multi-dimensional systems and nonlinear equations
 # by Amarantidis Kostas and Makris Lambros
-<A href="http://uranus.ee.auth.gr/lessons/1/">possible difficulties in
-convergence</A>.
+<a href="http://uranus.ee.auth.gr/lessons/1/">possible difficulties in
+convergence</a>.
 # any historical notes
 @HISTORY=
 
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://gams.nist.gov/">GAMS</A> Class C2 has many
+@IMPL=<a href="http://gams.nist.gov/">GAMS</a> Class C2 has many
 implementations of
-<A href="http://gams.nist.gov/serve.cgi/Class/C2/">powers, roots, and
-reciprocals (C and Fortran)</A>.
+<a href="http://gams.nist.gov/serve.cgi/Class/C2/">powers, roots, and
+reciprocals (C and Fortran)</a>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
