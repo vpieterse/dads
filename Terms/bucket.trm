@@ -1,7 +1,10 @@
 # *created  "Wed Mar  3 13:45:01 1999" *by "Paul E. Black"
-# *modified "Wed Jan  7 17:02:06 2004" *by "Paul E. Black"
+# *modified "Thu Jan  8 11:12:42 2004" *by "Paul E. Black"
 
 # $Log: bucket.trm,v $
+# Revision 1.3  2004/01/08 16:13:22  black
+# Change elastic bucket trie to elastic-bucket tree.
+#
 # Revision 1.2  2004/01/08 14:35:13  black
 # Refine XREFS into IMA, etc.  Add IMA bag.  Change "bucket trie" to
 # "elastic bucket tree".
@@ -25,7 +28,7 @@ on disk.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={radix sort}, {bucket sort}, {elastic bucket trie},
+@IMIN={radix sort}, {bucket sort}, {elastic-bucket trie},
 {hash heap}, {extendible hashing}
 # Aggregate child: "... is a part of or used in me."
 @INME=
