@@ -1,0 +1,28 @@
+# *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
+# *modified "Thu Dec 19 08:25:32 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Post machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Post, E. L.</strong>, <em>Finite Combinatory Processes -
+Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Similar to a {Turing machine}, but uses a {queue} instead of an
+infinite tape.
+# further explanation (pure HTML)
+@LINKS=Biography of <A
+href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Post.html">Emil
+Leon Post</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end
