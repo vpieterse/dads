@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:54 2004" *by "Paul E. Black"
+# *modified "Thu Dec 23 16:21:42 2004" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.11  2004/12/23 21:21:59  black
+# Remove unneeded period from end of XREFS.
+#
 # Revision 1.10  2004/12/17 17:23:54  black
 # Make more XHTML compliant.
 #
@@ -78,7 +81,7 @@ Relations between graphs: {isomorphic}, {homeomorphic}, {dual},
 Properties: {diameter}, {degree},
 Implementations: 
 {adjacency-list representation}, {adjacency-matrix representation}
-Other: {graph drawing}.
+Other: {graph drawing}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Graphs are so general that many other data structures, such as
