@@ -1,0 +1,24 @@
+# *created  "Wed Aug  4 10:38:37 1999" *by "Paul E. Black"
+# *modified "Sat Aug 28 14:59:11 1999" *by "Paul E. Black"
+# entry name
+@NAME=nand
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=Negated conjunction: 0 AND 0 = 1, 0 AND 1 = 1, 1 AND 0 = 1, 1 AND
+1 = 0.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={and}, {not}, {or}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=NAND is equivalent to AND followed by NOT.  It is of particular
+interest because all possible {boolean functions} can be built with
+combinations of NANDs, and a NAND gate is easily built.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
