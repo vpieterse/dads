@@ -1,0 +1,44 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Wed Jun 19 09:03:51 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=string matching with errors
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Searching for approximate (e.g., up to a predefined number of
+symbol mismatches, insertions, and deletions) occurrences of a pattern
+string in a text string.  Preprocessing, e.g., building an index, may
+or may not be allowed.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=approximate string matching
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={string matching}, {string matching with mismatches}, {inverted index}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 13-18,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+
+<P>
+For large collections that are searched often, it is far
+faster, though more complicated, to start with an {inverted index}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=See implementations at <A
+href="http://www.nist.gov/dads/HTML/stringMatching.html">string
+matching</A>.  <A
+href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtml">(C
+and Pascal)</A>
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
