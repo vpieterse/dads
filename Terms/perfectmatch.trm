@@ -1,7 +1,10 @@
 # *created  "Tue Dec 22 15:12:16 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 15:06:29 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:34 2004" *by "Paul E. Black"
 
 # $Log: perfectmatch.trm,v $
+# Revision 1.5  2004/12/17 17:28:34  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/04/19 19:07:18  black
 # Use the standard English plural of vertex.  Correct grammar.
 #
@@ -26,7 +29,7 @@ all vertices exactly once.  A graph with an odd number of vertices is
 allowed one unmatched vertex.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=perfect match
@@ -46,13 +49,13 @@ allowed one unmatched vertex.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The term comes from matching each vertex with exactly one
 other vertex.
-</P>
+</p>
 
-<P>
+<p>
 Any perfect matching of a graph with $n$ vertices has n/2 edges.
-</P>
+</p>
 
-<P>
+<p>
 If a graph has a {Hamiltonian cycle}, it has two different perfect
 matchings, since the edges in the cycle could be alternately colored.
 After Douglas Bass (dbass@stthomas.edu) 5 Sep 1999.
