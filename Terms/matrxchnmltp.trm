@@ -1,5 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jul 11 11:51:03 2000" *by "Paul E. Black"
+# *modified "Wed Nov 19 16:12:37 2003" *by "Paul E. Black"
+
+# $Log: matrxchnmltp.trm,v $
+# Revision 1.2  2003/11/19 21:13:10  black
+# Improve the definition.  Add a reference to a new site that uses
+# dynamic programming for exactly this problem.
+#
+
 # entry name
 @NAME=matrix-chain multiplication problem
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,19 +15,23 @@
 @AREA=combin
 # the definition
 @DEFN=Given a sequence of matrices such that any {matrix} may be
-multiplied by the result of multiplying all the matrices before it,
-find the best parenthesizing
+multiplied by the previous matrix, find the best association
 such that the result is obtained with the minimum 
 number of arithmetic operations.  One may use {dynamic programming}
-to find the best parenthesizing.
+to find the best association.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
+Dan Hirschberg's example of using dynamic programming for
+<A
+href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">matrix
+multiplication</A>,
+including pseudocode.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/matrxchnmltp.trm,v $
