@@ -1,0 +1,38 @@
+# *created  "Thu Feb  4 14:05:52 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:20:23 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=tree automaton
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=autom
+# the definition
+@DEFN=A tree automaton is an extension of a 
+{finite state machine}, but 
+operates on n-ary constructors.  Where a finite state automaton reaches
+a new state with a single state and character, a tree automaton
+takes <em>n</em> states and constructors.  Tree automata may be
+top-down (starting from the {root}) or bottom-up (starting from the
+{leaves#leaf}), and {deterministic} or {nondeterministic}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={deterministic finite tree automaton}, {nondeterministic finite
+tree automaton}, {deterministic tree automaton}, {nondeterministic
+tree automaton}, {bottom-up tree automaton}, {top-down tree automaton}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Words for finite state automata can be seen as composed of
+unary constructors, the {alphabet}, and a 0-ary constructor, the
+end of the word.
+</P>
+<P>
+Nondeterministic top-down and bottom-up automata, and
+deterministic bottom-up automata are equivalent, but top-down automata
+are weaker.
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.grappa.univ-lille3.fr/tata/">Tree Automata
+Techniques and Applications</A> page.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.loria.fr/equipes/protheo/PROJECTS/ELAN/elan-automata.html">(ELAN)</A>
+# author's initials
+@AUTHOR=DM
+# end
