@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Aug 14 16:02:58 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:13:44 2003" *by "Paul E. Black"
 # entry name
 @NAME=topological order
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,7 +7,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
-@DEFN=A numbering of the {vertices#vertex} of a {directed acyclic graph} such
+@DEFN=A numbering of the {vertexes} of a {directed acyclic graph} such
 that every {edge} from a vertex numbered $i$ to a vertex numbered $j$
 satisfies $i&lt;j$.
 # comma-separated list of {cross references}, i.e., See also ...
@@ -24,4 +24,4 @@ Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/topologicalOrder.trm,v $
