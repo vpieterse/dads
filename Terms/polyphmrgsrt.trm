@@ -1,0 +1,29 @@
+# *created  "Wed Feb  3 09:34:58 1999" *by "Paul E. Black"
+# *modified "Fri Aug 10 14:35:38 2001" *by "Paul E. Black"
+# entry name
+@NAME=polyphase merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {merge sort} algorithm which reduces the number of
+intermediate files needed by reusing emptied files.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={polyphase merge},{sort},
+{distribution sort}, {merge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+<A HREF="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.sort.c">(C)</A>
+using an auxiliary function to <A
+HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/444.next.c">select
+next file (C)</A>
+# author's initials
+@AUTHOR=ASK
+# end
