@@ -1,0 +1,21 @@
+# *created  "Tue Jul  6 16:53:29 1999" *by "Paul E. Black"
+# *modified "Mon Mar  3 09:10:28 2003" *by "Paul E. Black"
+# entry name
+@NAME=Alpha Skip Search algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Christian Charras' and Thierry Lecroq's <A HREF="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
