@@ -1,0 +1,71 @@
+# *created  "Fri Sep 18 12:00:00 1998" *by "Paul E. Black"
+# *modified "Thu Sep  4 14:51:54 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=tree
+# the definition
+@DEFN=(1) A data structure accessed beginning at the {root} node.  Each
+{node} is either a {leaf} or an {internal node}.  An internal node
+has one or more {child} nodes and is called
+the {parent} of its child nodes.  All children of the same node are
+{siblings}.
+Contrary to a physical tree, the root is usually depicted at the top
+of the structure, and the leaves are depicted at the bottom.
+(2) A {connected#connected graph},
+{undirected#undirected graph}, {acyclic graph}.  It is
+{rooted#rooted tree} and {ordered#ordered tree} unless otherwise specified.
+<BR>
+<IMG src="../Images/tree.gif" height="225" width="201">
+# formal definition or {cross reference} to an entry
+@FORML=(1) A tree is either
+<ul>
+<li>empty (no nodes), or
+<li>a root and zero or more subtrees.
+</ul>
+The subtrees are ordered.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=kinds of trees: {heap}, {B-tree}, {binary tree}, {balanced tree},
+{multiway tree}, {complete tree}, {search tree}, {digital tree},
+other vocabulary: 
+{descendant}, {ancestor},
+{tree traversal},
+{height}, {depth} (1),
+technical terms: {ordered tree}, {rooted tree}, {free tree},
+{arborescence}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# Algorithms and Theory of Computation Handbook, pages 13-13 and 13-18
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+
+<P>
+A tree in the data structure sense (1) is not the same as a
+tree in the graph sense (2).  Consider possible {binary trees} with
+two nodes.  There are two possible data structures: a root and a left
+subtree or a root and a right subtree.  However there is only one
+possible graph: a root and a subtree.  The graph definition doesn't
+allow for "the subtree is the right subtree and the left subtree is
+empty".  Also there is no "empty" graph tree.
+# One way an empty graph tree causes problems is because |E| = |V| - 1.
+</P>
+
+<P>
+Thanks to Sharat Chandran (sharat@cs.umd.edu) for clarifying the
+difference between these two senses.
+</P>
+
+<P>
+The formal definition is after 
+<A href="../terms.html#CLR90">[CLR90, page 94]</A>.
+# author's initials
+@AUTHOR=PEB, CRC-A
+# end
