@@ -1,0 +1,40 @@
+# *created  "Tue Nov 17 14:51:26 1998" *by "Paul E. Black"
+# *modified "Mon Aug 25 09:55:06 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=full binary tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary tree} in which each {node} has exactly zero or two
+{children#child}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=proper binary tree
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={complete binary tree}, {perfect binary tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In other words, every node is either a {leaf} or has two
+children.  For efficiency, any {Huffman encoding} is a full binary
+tree.  A {BDD} is a full binary tree.
+</P>
+
+<P>
+After Mustafa Ege (ege@eti.cc.hun.edu.tr) Hacettepe University,
+comp.theory, 17 November 1998.  
+Also Carrano &amp; Prichard page 427,
+<A href="../terms.html#CLR90">[CLR90, page 95]</A>, and
+<A href="../terms.html#Stand98">[Stand98, page 248]</A>.
+</P>
+
+<P>
+This kind of tree is called "proper" by Goodrich &amp; Tamassia page
+231.
+# author's initials
+@AUTHOR=PEB
+# end
