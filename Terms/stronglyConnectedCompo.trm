@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri May  3 13:24:48 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 14:58:37 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=strongly connected component
@@ -15,7 +15,7 @@ $S$ and it still be strongly connected.
 is a strongly connected component if 
 <ul>
 <li> $S$ is strongly connected, and
-<li> for all vertices $u such that u\in V and u\notin V'$ there is no
+<li> for all vertexes $u such that u\in V and u\notin V'$ there is no
 vertex $v\in V'$ for which $(u, v)\in E$.
 </ul>
 # comma-separated list of {cross references}, i.e., See also ...
@@ -47,4 +47,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stronglyConnectedCompo.trm,v $
