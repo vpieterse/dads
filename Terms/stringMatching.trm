@@ -1,0 +1,52 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Mar  3 08:52:13 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=string matching
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The problem of finding occurrence(s) of a {pattern} string 
+within another
+{string} or body of text.  There are many different {algorithms} for
+efficient searching.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=exact string matching, string searching, text searching
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=string search, text match
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={string matching with errors}, {brute force string search},
+{Knuth-Morris-Pratt algorithm}, 
+{Boyer-Moore}, {Zhu-Takaoka}, {quick search}, {optimal mismatch},
+{deterministic finite automata string search}, 
+{Karp-Rabin}, {Shift-Or}, {Smith algorithm},
+{Ratcliff/Obershelp pattern recognition},
+{string similarity search}, {string matching on ordered alphabets},
+{inverted index}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For large collections which are searched often, it may be far
+faster, though more complicated, to start with an {inverted index}.
+The name ``exact string matching'' is in contrast to {string matching
+with errors}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+Christian Charras' and Thierry Lecroq's <A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
+Matching Algorithms (C)</A>,
+<A
+href="http://www.cs.sunysb.edu/~algorith/files/string-matching.shtml">(C++
+and Pascal)</A>,
+<A href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
+(C)</A> - a collection of string matching and pattern discovery
+programs,
+<A
+href="http://gams.nist.gov/serve.cgi/Module/IMSLM/IIDEX/4039">(Fortran)</A>,
+<A
+href="http://gams.nist.gov/serve.cgi/Module/IMSLS/IIDEX/4736">(Fortran)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
