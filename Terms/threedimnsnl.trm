@@ -1,0 +1,24 @@
+# *created  "Wed Jun  2 09:56:05 1999" *by "Paul E. Black"
+# *modified "Tue Apr  4 15:24:17 2000" *by "Paul E. Black"
+# entry name
+@NAME=three-dimensional
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=Dealing with or restricted to a space in which
+location can be completely described with exactly three orthogonal
+axes.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={one-dimensional}, {two-dimensional}, 
+{k-dimensional}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
