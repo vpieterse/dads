@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jan 10 09:28:29 2005" *by "Paul E. Black"
+# *modified "Tue Jan 11 15:50:21 2005" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Revision 1.6  2005/01/11 20:52:23  black
+# Remove leading redundant phrase in DEFN.  IMIN Smith-Waterman.
+#
 # Revision 1.5  2005/01/10 14:28:40  black
 # Update Oleg Kiselyov's URL
 #
@@ -23,8 +26,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=An algorithmic technique in which an {optimization problem} is
-solved by caching subproblem solutions ({memoization}) rather than
+@DEFN=Solve an {optimization problem}
+by caching subproblem solutions ({memoization}) rather than
 recomputing them.
 
 #    These are all comma-separated lists of {cross references}
@@ -33,15 +36,15 @@ recomputing them.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={Smith-Waterman algorithm}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={greedy algorithm}, {principle of optimality}, 
-
-{Smith-Waterman algorithm}.  Solves these problems:
+@XREFS={greedy algorithm}, {principle of optimality}.
+Solves these problems:
 {matrix-chain multiplication problem}, 
 {longest common substring}, {longest common subsequence}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 1-26,
