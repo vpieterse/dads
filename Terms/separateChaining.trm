@@ -1,0 +1,30 @@
+# *created  "Wed Dec 23 08:38:55 1998" *by "Paul E. Black"
+# *modified "Wed Feb 12 11:20:11 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=separate chaining hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An {array} that is indexed by a {hash function}.  All
+subsequent items with the same hash value as an existing one (a 
+{collision}) are put in a single external {list}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={hash table}, {linear search}, {direct chaining hashing},
+{coalesced hashing}, {collision resolution scheme}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The items in the list may be searched and maintained with any
+of the list search algorithms.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.ins.c">insert
+(C)</A>, <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.srch.c">search
+(C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
