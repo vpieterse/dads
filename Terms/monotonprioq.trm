@@ -1,0 +1,25 @@
+# *created  "Wed Feb 17 11:48:25 1999" *by "Paul E. Black"
+# *modified "Tue May 11 16:22:55 1999" *by "Paul E. Black"
+# entry name
+@NAME=monotone priority queue
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=tree
+# the definition
+@DEFN=A {priority queue} in which a {key} being inserted
+is never higher in priority than a previously deleted node.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The keys deleted from a monotone priority queue form a 
+{monotonically increasing} or {monotonically decreasing} sequence --
+hence the name.
+After LK.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
