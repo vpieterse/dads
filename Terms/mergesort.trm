@@ -1,7 +1,12 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:16 2004" *by "Paul E. Black"
+# *modified "Mon Jan  3 11:56:22 2005" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Revision 1.8  2005/01/03 16:58:11  black
+# Remove Somani's C++ snippet code.  It is only available from
+# https://sourceforge.net/projects/snippets/ as one piece of a huge file
+# and is no longer maintained (as of Sept 2004).
+#
 # Revision 1.7  2004/12/17 17:24:16  black
 # Make more XHTML compliant.
 #
@@ -90,8 +95,7 @@ and double merge sort (Java)</a>;
 Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/merge.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
-Sohail Somani's <a
-href="https://sourceforge.net/snippet/download.php?type=snippet&id=101487">(C++)</a>,
+John David Stone's
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</a>.
 Siegfried Sielaff's description and code of an <a
 href="http://www.siegfried.sielaff.at/">in-place, stable variant he
