@@ -1,5 +1,5 @@
 # *created  "Tue May 11 09:15:38 1999" *by "Paul E. Black"
-# *modified "Thu Apr  4 12:19:16 2002" *by "Paul E. Black"
+# *modified "Wed Oct 15 10:32:20 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=proper coloring
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=A {vertex coloring} or {edge coloring} of a graph in which
-no two {adjacent} {vertices#vertex} or {edges} have the same
+no two {adjacent} {vertexes} or {edges} have the same
 color.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
@@ -21,4 +21,4 @@ color.
 @IMPL=
 # author's initials
 @AUTHOR=ME
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/propercolor.trm,v $
