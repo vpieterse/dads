@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 11:52:46 2004" *by "Paul E. Black"
+# *modified "Mon Feb  7 10:21:37 2005" *by "Paul E. Black"
 
 # $Log: kolmogorov.trm,v $
+# Revision 1.3  2005/02/07 15:22:15  black
+# Add LINK to Kolmogorov tribute page.
+#
 # Revision 1.2  2004/12/17 16:52:47  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -40,6 +43,9 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=Special issue of the <a
 href="http://www3.oup.co.uk/computer_journal/hdb/Volume_42/Issue_04/">Computer
 Journal on Kolmogorov Complexity (1999)</a>.
+Tributes to, pictures of, bibliography of, etc. 
+<a href="http://www.kolmogorov.com/Kolmogorov.html">Andrei Nikolaevich
+Kolmogorov</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
