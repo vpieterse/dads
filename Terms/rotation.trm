@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Nov 24 10:06:25 2000" *by "Paul E. Black"
+# entry name
+@NAME=rotation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=To switch {children#child} and {parents} among two or three
+adjacent {nodes} to restore {balance} to a {tree}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={left rotation}, {right rotation}, {balanced tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A rotation may change the {depth} of some nodes, but does not
+change their relative ordering.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PMS
+# end
