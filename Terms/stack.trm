@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:15:21 2003" *by "Paul E. Black"
+# *modified "Tue Apr  6 14:11:19 2004" *by "Paul E. Black"
 
 # entry name
 @NAME=stack
@@ -14,7 +14,7 @@ push and pop.  Often top and isEmpty are available, too.
 Also known as "last-in, first-out" or LIFO.
 # formal definition or {cross reference} to an entry
 @FORML=The operations new(), push(v, S), top(S), and popoff(S) may be
-defined as follows.
+defined with {axiomatic semantics} as follows.
 <ol>
 <li>new() returns a stack
 <li>popoff(push(v, S)) = S
