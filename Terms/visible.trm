@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Oct 12 09:20:31 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:28 2004" *by "Paul E. Black"
+
+# $Log: visible.trm,v $
+# Revision 1.2  2004/12/17 16:55:29  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=visible
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,12 +14,23 @@
 @AREA=geom
 # the definition
 @DEFN=Two points $p$ and $q$ are visible if the straight line segment between them does not intersect any other object, edge, etc.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={horizontal visibility map}, {vertical visibility map}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Visibility is {symmetric}, that is, if $p$ is visible from
 $q$, $q$ is visible from $p$.
-<P>
+<p>
 From Algorithms and Theory of Computation Handbook, page 19-27,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
@@ -24,4 +41,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/visible.trm,v $
