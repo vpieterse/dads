@@ -1,7 +1,11 @@
 # *created  "Fri May 25 08:52:04 2001" *by "Paul E. Black"
-# *modified "Thu Dec 18 09:56:54 2003" *by "Paul E. Black"
+# *modified "Wed Apr 21 15:37:09 2004" *by "Paul E. Black"
 
 # $Log: vehicleRouting.trm,v $
+# Revision 1.3  2004/04/21 19:38:15  black
+# Refine XREFS into IMA, etc.  Remove Simicka's URL: its been gone a
+# long time.  Refer to a link site in Norway.
+#
 # Revision 1.2  2003/12/18 14:57:45  black
 # Add RCS keywords.  Add note that Simicka's page is claimed to have
 # moved (but hasn't, yet) in case it disappears in the future.
@@ -21,9 +25,19 @@
 @AKA=VRP
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={traveling salesman}, {Hamiltonian cycle}, 
-{Chinese postman problem}, {optimization problem}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={optimization problem}
+# Specialization: "... is a kind of me."
+@VARIANT={traveling salesman}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Hamiltonian cycle}, {Chinese postman problem}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
@@ -33,16 +47,19 @@
 vans, etc.  The optimal may be fastest routes, least variation (all
 get nearly equal assignments), least "cost" (big cost for going
 through Mayor's neighborhood, small cost for taking freeway), etc.
+</P>
+
+<P>
+With one vehicle, this is the traveling salesman problem.
 # further explanation (pure HTML)
 @LINKS=
+Description of
+<A
+href="http://www.sintef.no/static/am/opti/projects/top/vrp/">related
+problems</A> and links to research groups and papers.
 # implementation(s) (pure HTML)
-@IMPL=Jano Simicka's <A
-href="http://j.simicka.home.att.net/vrp.html">Vehicle
-Routing Problem</A> page has links to papers, sample problems,
-implementations, etc.
-# page says moving to http://jsimicka.home.comcast.net/ on 13 Dec 03,
-# but hadn't moved as of 18 Dec 03
-# the URL may be http://home.comcast.net/~jsimicka/
+@IMPL=
+
 
 # author's initials (see authors.data)
 @AUTHOR=PEB
