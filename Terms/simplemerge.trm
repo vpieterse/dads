@@ -1,0 +1,27 @@
+# *created  "Thu Mar  4 12:39:03 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 16:20:55 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=simple merge
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=sort
+# the definition
+@DEFN={Merge} $n$ sorted streams into one output stream.
+All the stream heads are compared, and the head with the least {key}
+is removed and written to the output.
+This is repeated until all streams are empty.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={ideal merge}, {optimal merge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The run time is {$\Theta$}(mn),
+where $m$ is
+the total number of elements and $n$ is the number of streams.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ASK
+# end
