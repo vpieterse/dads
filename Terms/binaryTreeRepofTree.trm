@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Oct 29 13:21:21 2003" *by "Paul E. Black"
+# *modified "Thu Jan  8 12:44:34 2004" *by "Paul E. Black"
 
 # $Log: binaryTreeRepofTree.trm,v $
+# Revision 1.3  2004/01/08 17:45:34  black
+# Add doubly-chained tree, filial-heir chain as AKA.  Remove some of the
+# extra spaces in the diagrams to shorten the file.
+#
 # Revision 1.2  2003/10/29 18:23:51  black
 # Add other names this is known as (and RCS keywords)
 #
@@ -44,11 +48,26 @@ $n'<sub>k</sub>$.
 </ul>
 
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=first child-next sibling binary tree
+@AKA=first child-next sibling binary tree,
+doubly-chained tree, filial-heir chain
+# doubly- and filial- ... page 275 in Edward H. Sussenguth, Jr., Use of
+# Tree Structures for Processing Files, CACM, 6(5):272-279, May 1963.
+
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=LCRS binary tree, left child-right sibling binary tree
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=See <A href="../terms.html#Knuth98">[Knuth98, 1:333, Sect. 2.3.2]</A>.
 </P>
@@ -64,30 +83,30 @@ next (right nearest) sibling.
 Let us see one example.  Consider the following multiway tree
 
 <pre>
-                   1                                    <br>
-                  /|\                                   <br>
-                 / | \                                  <br>
-                /  |  \                                 <br>
-               2   3   4                                <br>
-              / \      |                                <br>
-             5   6     7                                <br>
-                      / \                               <br>
-                     8   9                              <br>
+                 1           <br>
+                /|\          <br>
+               / | \         <br>
+              /  |  \        <br>
+             2   3   4       <br>
+            / \      |       <br>
+           5   6     7       <br>
+                    / \      <br>
+                   8   9     <br>
 </pre>
 
 This tree can be represented in first child-next sibling manner
 as follows
 
 <pre>
-                   1                                    <br>
-                  /                                     <br>
-                 /                                      <br>
-                /                                       <br>
-               2---3---4                                <br>
-              /       /                                 <br>
-             5---6   7                                  <br>
-                    /                                   <br>
-                   8---9                                <br>
+                 1           <br>
+                /            <br>
+               /             <br>
+              /              <br>
+             2---3---4       <br>
+            /       /        <br>
+           5---6   7         <br>
+                  /          <br>
+                 8---9       <br>
 </pre>
 
 Now, if we look at the first child-next sibling representation of the
@@ -96,19 +115,19 @@ we can rotate every next-sibling edge 45 degrees
 clockwise.  After that we get the following binary tree:
 
 <pre>
-                 1                                      <br>
-                /                                       <br>
-               2                                        <br>
-              / \                                       <br>
-             5   3                                      <br>
-              \   \                                     <br>
-               6   4                                    <br>
-                  /                                     <br>
-                 7                                      <br>
-                /                                       <br>
-               8                                        <br>
-                \                                       <br>
-                 9                                      <br>
+               1             <br>
+              /              <br>
+             2               <br>
+            / \              <br>
+           5   3             <br>
+            \   \            <br>
+             6   4           <br>
+                /            <br>
+               7             <br>
+              /              <br>
+             8               <br>
+              \              <br>
+               9             <br>
 </pre>
 
 This is binary tree representation of the given (multiway) tree.
