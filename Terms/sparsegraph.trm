@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 19 14:56:13 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:42 2004" *by "Paul E. Black"
 
 # $Log: sparsegraph.trm,v $
+# Revision 1.7  2004/12/17 17:28:42  black
+# Make more XHTML compliant.
+#
 # Revision 1.6  2004/04/19 18:56:16  black
 # Use the standard English plural of vertex
 #
@@ -49,17 +52,17 @@ possible number of edges.
 A {directed graph} can have at most $n(n-1)$ edges, where $n$ is the
 number of {vertices#vertex}.
 An {undirected graph} can have at most $n(n-1)/2$ edges.
-</P>
+</p>
 
-<P>
+<p>
 There is no strict distinction between sparse and dense graphs.
-Bruno Preiss' <A
+Bruno Preiss' <a
 href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
-of sparse and dense graphs</A> has problems, but may help.  First, for
+of sparse and dense graphs</a> has problems, but may help.  First, for
 one graph, one can always choose a k.  Second a class of graphs might
 be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $1 &lt; k &lt; 2$.
 $|E|$ is the number of edges, and $|V|$ is the number of vertices.
-<BR>
+<br>
 Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
 22 December 2003
 # further explanation (pure HTML)
