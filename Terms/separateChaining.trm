@@ -1,22 +1,55 @@
 # *created  "Wed Dec 23 08:38:55 1998" *by "Paul E. Black"
-# *modified "Wed Feb 12 11:20:11 2003" *by "Paul E. Black"
+# *modified "Wed Dec  1 15:47:56 2004" *by "Paul E. Black"
+
+# $Log: separateChaining.trm,v $
+# Revision 1.2  2004/12/01 21:50:49  black
+# Change name and defn so this is a collision res. scheme.  Fix defn: it
+# uses (several) chains outside the table.  Add BIB entry.  Refine XREFS
+# into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
-@NAME=separate chaining hashing
+@NAME=separate chaining
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=An {array} that is indexed by a {hash function}.  All
-subsequent items with the same hash value as an existing one (a 
-{collision}) are put in a single external {list}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={hash table}, {linear search}, {direct chaining hashing},
-{coalesced hashing}, {collision resolution scheme}
+@DEFN=A scheme in which each position in the {hash table} has a
+{list} to handle {collisions}.  Each position may have just the {head}
+of the list ({direct chaining}) or space for an item and a list head.
+In the latter, one item is in the table, and other colliding items
+are in the list.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=external chaining
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={chaining}, {collision resolution scheme}
+# Specialization: "... is a kind of me."
+@VARIANT={direct chaining}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={hash table}
+# Aggregate child: "... is a part of or used in me."
+@INME={linked list}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={coalesced chaining}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Francis A. Williams</strong>, <em>Handling Identifiers as
+Internal Symbols in Language Processors</em>,
+CACM, 2(6):21-24, June 1959.  Each location in Williams' table an item
+and a list head.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The items in the list may be searched and maintained with any
 of the list search algorithms.
+Any searchable data structure may be used instead of a list.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
@@ -27,4 +60,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.srch.c">search
 (C)</A>.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/separateChaining.trm,v $
