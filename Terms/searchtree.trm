@@ -1,5 +1,11 @@
 # *created  "Tue Feb  2 15:38:33 1999" *by "Paul E. Black"
-# *modified "Fri Jan 11 12:59:18 2002" *by "Paul E. Black"
+# *modified "Wed Oct  6 11:00:52 2004" *by "Paul E. Black"
+
+# $Log: searchtree.trm,v $
+# Revision 1.2  2004/10/06 15:03:43  black
+# Use "key" instead of "value".  Refine XREFS into IMA, etc.  Add RCS
+# keywords.
+#
 
 # entry name
 @NAME=search tree
@@ -8,20 +14,30 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {tree} where every {subtree} of a {node} has values less than
-any other subtree of the node to its right.  The values in a {node}
-are conceptually between subtrees and are greater than any values in
+@DEFN=A {tree} where every {subtree} of a {node} has {keys} less than
+any other subtree of the node to its right.  The keys in a {node}
+are conceptually between subtrees and are greater than any keys in
 subtrees to
-its left and less than any values in subtrees to its right.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={search tree property}, {binary search tree}, {B-tree},
-{($a,b$)-tree}, {k-d tree}, {move-to-root heuristic}
+its left and less than any keys in subtrees to its right.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={binary search tree}, {B-tree}, {($a,b$)-tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={search tree property}, {move-to-root heuristic}, {k-d tree}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A search tree which is also a {binary tree} is a binary search tree.
+@NOTES=A search tree that is also a {binary tree} is a binary search tree.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/searchtree.trm,v $
