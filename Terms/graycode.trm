@@ -1,5 +1,12 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Aug 26 11:37:30 2002" *by "Paul E. Black"
+# *modified "Wed Dec 17 08:50:06 2003" *by "Paul E. Black"
+
+# $Log: graycode.trm,v $
+# Revision 1.2  2003/12/17 13:52:16  black
+# Move note about uniqueness to defintion proper and add that they are
+# unique even after permutation (from Houston Travis
+# 03bbnurq@newsboysmail.com 16 Dec 2003).  Rearrange note entries.
+#
 
 # entry name
 @NAME=Gray code
@@ -9,7 +16,8 @@
 @AREA=crypt
 # the definition
 @DEFN=An ordering of $2<sup>n</sup>$ binary numbers such that only one
-bit changes from one entry to the next.
+bit changes from one entry to the next.  Gray codes are not unique,
+even allowing for {permutation} of the bits.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -26,10 +34,14 @@ elements could cause wildly incorrect readings.
 </P>
 
 <P>
-One Gray code for 3 bits is (000, 010, 011, 001, 101, 111, 110, 100).
-Gray codes are not unique.
 An n-bit Gray code corresponds to a {Hamiltonian cycle} on an
 n-dimensional hypercube.  
+</P>
+
+<P>
+A Gray code was used in a telegraph demonstrated by French engineer 
+&Eacute;mile Baudot in 1878.  The codes were first patented by Frank Gray, a
+Bell Labs researcher, in 1953.
 </P>
 
 <P>
@@ -75,12 +87,7 @@ prefixed by 1 (for the second half).  This is called a
 <td>A Gray code for 3 bits</td>
 </tr>
 </table>
-</P>
-
-<P>
-A Gray code was used in a telegraph demonstrated by French engineer 
-&Eacute;mile Baudot in 1878.  The codes were first patented by Frank Gray, a
-Bell Labs researcher, in 1953.
+Another Gray code for 3 bits is (000, 010, 011, 001, 101, 111, 110, 100).
 # further explanation (pure HTML)
 @LINKS=
 Pictures of a 
@@ -101,4 +108,4 @@ href="http://web.usna.navy.mil/~wdj/gray.htm">binary-to-Gray, code
 generation, and plotting (Maple)</A> with applications and references.
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/graycode.trm,v $
