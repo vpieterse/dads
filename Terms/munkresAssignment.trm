@@ -1,7 +1,10 @@
 # *created  "Fri Nov 14 12:59:28 2003" *by "Paul E. Black"
-# *modified "Fri Nov 14 13:21:35 2003" *by "Paul E. Black"
+# *modified "Tue Jun  8 12:10:34 2004" *by "Paul E. Black"
 
 # $Log: munkresAssignment.trm,v $
+# Revision 1.2  2004/06/08 16:11:51  black
+# Refine XREFS in IMA, etc.  Link to CLLIB implementation.
+#
 # Revision 1.1  2003/11/14 18:29:30  black
 # Initial revision
 #
@@ -21,8 +24,19 @@ and unmarking entries and covering and uncovering rows and columns.
 @AKA=Hungarian algorithm
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>James Munkres</strong>, 
 #<em>Hypothetical Intelligence</em>, 
@@ -42,6 +56,10 @@ and unmarking entries and covering and uncovering rows and columns.
 Example of step-wise coding of the
 <A href="http://www.public.iastate.edu/~ddoty/HungarianAlgorithm.html">algorithm
 (Pascal)</A> from a description.
+The Common Lisp library (CLLIB)
+<A
+href="http://cvs.sourceforge.net/viewcvs.py/*checkout*/clocc/clocc/src/cllib/munkres.lisp?rev=HEAD">implementation
+(Common Lisp)</A>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
