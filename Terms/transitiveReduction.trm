@@ -1,0 +1,32 @@
+# *created  "Mon Feb  8 09:35:24 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 11:15:20 2000" *by "Paul E. Black"
+# entry name
+@NAME=transitive reduction
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=The transitive reduction of a {directed graph} G is the
+directed graph G' with the smallest number of {edges} such
+for every {path} between {vertices#vertex} in G, G' has a path
+between those vertices.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={reduced digraph}, {transitive closure}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Informally G' is the minimal graph with the connectivity as G.
+After abstract of 
+<A
+HREF="http://www.cma.ensmp.fr/Alexandre.Frey/biblio/Aho+72.html"><strong>A.
+V. Aho, M. R. Garey</strong>, and
+<strong>J. D. Ullman</strong>. <em>The transitive reduction of a
+directed graph</em>.</A> SIAM Journal on Computing, 1:131--137, 1972.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/transitive-closure.shtml">on
+a graph (C++ and Mathematica)</A>
+# author's initials
+@AUTHOR=PEB
+# end
