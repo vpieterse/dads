@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Jul 31 13:48:31 2000" *by "Paul E. Black"
+# entry name
+@NAME=($a,b$)-tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {search tree} with the restrictions that all {leaves#leaf} are at the same {depth} and all {internal nodes} have between $a$ and $b$ {children#child}.  More formally $a$ and $b$ are integers such that $2 \leq a \leq (b+1)/2$.  If $\mu$ is an internal node with $d$ children, the {root} has $d \geq 2$, otherwise $a \leq d \leq b$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={B-tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 4-18,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
