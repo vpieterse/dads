@@ -1,0 +1,22 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Tue Apr  4 15:18:27 2000" *by "Paul E. Black"
+# entry name
+@NAME=unsorted list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {list} whose order of items, if any, is not known.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The list need not be out of order, simply that it is not known
+to be in order.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=
+# end
