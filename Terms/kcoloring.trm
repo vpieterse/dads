@@ -1,0 +1,27 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Feb 28 14:56:07 2000" *by "Paul E. Black"
+# entry name
+@NAME=k-coloring
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=1) The assignment of <em>k</em> colors (or any distinct marks)
+to the {vertices#vertex} of a {graph}.
+2) The assignment of <em>k</em> colors to the {edges} of a {graph}.
+
+<P>
+A coloring is a {proper coloring} if no two {adjacent} vertices
+or edges have the same color.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={edge coloring}, {vertex coloring}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=ME
+# end
