@@ -1,0 +1,25 @@
+# *created  "Wed Apr  5 09:00:55 2000" *by "Paul E. Black"
+# *modified "Fri Feb 15 09:49:26 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=transition
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=The change from one {state} to another in a {finite state
+machine}.  Analogously, an {edge} in a {directed graph}.
+# comma-separated list of pure names that this is Also Known As.
+@AKA=state transition, move
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={transition function}, {next state}, {Mealy machine}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
