@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Jan 10 13:45:00 2002" *by "Paul E. Black"
+# *modified "Fri Jan 23 09:17:58 2004" *by "Paul E. Black"
+
+# $Log: substring.trm,v $
+# Revision 1.2  2004/01/23 14:24:40  black
+# Use \prime and \Prime instead of ' and ''.  Add a note on the
+# difference between substring and subsequence.
+#
 
 # entry name
 @NAME=substring
@@ -8,18 +14,33 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=A {string} $v$ is a substring of a string $u$ if $u=u'vu''$ for
-some {prefix} $u'$ and {suffix} $u''$.
+@DEFN=A {string} $v$ is a substring of a string $u$ if $u=u\prime vu\Prime$ 
+for some {prefix} $u\prime$ and {suffix} $u\Prime$.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=factor
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=subword
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={subsequence}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+A substring is contiguous.  A subsequence need not be.
+</P>
+
+<P>
 From Algorithms and Theory of Computation Handbook, pages 11-26 and 12-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and Technology, Copyright &copy; 2000 CRC
@@ -30,4 +51,4 @@ Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/substring.trm,v $
