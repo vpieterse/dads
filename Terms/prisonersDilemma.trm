@@ -1,0 +1,36 @@
+# *created  "Wed Feb 17 12:43:49 1999" *by "Paul E. Black"
+# *modified "Fri Feb 23 10:47:54 2001" *by "Paul E. Black"
+# entry name
+@NAME=prisoner's dilemma
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=theory
+# the definition
+@DEFN=Two prisoners are questioned separately about a crime they
+committed.  Each may give evidence against the other or may say
+nothing.  If both say nothing, they get a minor reprimand and go free
+because of lack of evidence.  If one gives evidence and the other says
+nothing, the first goes free and the second is severely punished.  If
+both give evidence, both are severely punished.  The overall
+(globally) best strategy is for both to say nothing.  However not
+knowing (or trusting) what the other will do, each prisoner's
+(locally) best strategy is to give evidence, which is the worst
+possible outcome.
+<P>
+In general, a situation where {local optimization#local optimum}
+leads to the worst possible outcome globally.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={global optimum}, {optimization problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This problem is in the area of game theory.
+# further explanation (pure HTML)
+@LINKS=A thorough treatment from <A
+HREF="http://pespmc1.vub.ac.be/PRISDIL.html">Principia Cybernetica</A>
+including links to a web-based game and related entries and
+definitions.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
