@@ -1,28 +1,36 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  9 11:28:34 2002" *by "Paul E. Black"
+# *modified "Wed Nov 19 10:08:54 2003" *by "Paul E. Black"
+
+# $Log: shortestCommonSuperseq.trm,v $
+# Revision 1.2  2003/11/19 15:10:26  black
+# Define and differentiate between this and shortest common subSTRING.
+# Remove implementation link since it is for the substring problem.
+# Change type and area to be the same as related problems.
+#
 
 # entry name
 @NAME=shortest common supersequence
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=P
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
-@AREA=combin
+@AREA=search
 # the definition
-@DEFN=
+@DEFN=Find the shortest string that contains two or more {strings} as
+{subsequences}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=shortest common superstring
+@WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+@XREFS={shortest common superstring}, {longest common subsequence}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.cs.sunysb.edu/~algorith/files/shortest-common-superstring.shtml">(C)</A>
+@IMPL=
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/shortestCommonSuperseq.trm,v $
