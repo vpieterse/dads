@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Tue Jul 27 13:49:44 2004" *by "Paul E. Black"
+# *modified "Wed Sep 29 11:10:18 2004" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.6  2004/09/29 15:10:29  black
+# Remove blank line at the end.
+#
 # Revision 1.5  2004/07/27 17:50:03  black
 # Link to Lang's Heapsort analysis, explanation, and impl. page.
 #
@@ -67,4 +70,3 @@ for real time (WOOP/ADA)</A>, including bibliography,
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/heapSort.trm,v $
-
