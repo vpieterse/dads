@@ -1,5 +1,16 @@
 # *created  "Tue Feb  9 08:55:41 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:02:15 EDT 2003" *by "Paul E. Black"
+# *modified "Sat Dec 27 11:46:11 2003" *by "Paul E. Black"
+
+# $Log: densegraph.trm,v $
+# Revision 1.3  2003/12/27 16:51:55  black
+# Refer to Preiss' definition of sparse and dense graphs.
+# Drop the requirement in the definition that a dense graph is undirected.
+# Refine XREF to IMA, VARIANT, IMIN, etc.
+#
+# Revision 1.2  2003/10/16 17:02:17  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=dense graph
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,15 +18,35 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=An {undirected graph} in which the number of {edges} is close to
+@DEFN=A {graph} in which the number of {edges} is close to
 the possible number of edges, that is, $n(n-1)/2$, where $n$ is the 
 number of {vertexes}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={sparse graph}, {complete graph}, {adjacency-matrix representation}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={complete graph}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={sparse graph}, {adjacency-matrix representation}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
+Bruno Preiss' <A
+href="http://www.brpreiss.com/books/opus4/html/page534.html">definition
+of sparse and dense graphs</A> has problems, but may help.  First, for
+one graph, one can always choose a k.  Second a class of graphs might
+be considered sparse if $|E| = O(|V|<sup>k</sup>)$ and $2 &gt; k &gt; 1$.
+$|E|$ is the number of edges, and $|V|$ is the number of vertexes.
+<BR>
+Preiss reference from Andreas Leiser &lt;andreas.leiser@bluewin.ch&gt;
+22 December 2003
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
