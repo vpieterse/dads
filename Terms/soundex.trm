@@ -1,7 +1,11 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Fri Apr  9 16:21:41 2004" *by "Paul E. Black"
+# *modified "Fri Apr 16 08:31:18 2004" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.4  2004/04/16 12:32:23  black
+# Change phonetic matching to phonetic coding.  Add caverphone and a
+# link to a Cobol implementation.
+#
 # Revision 1.3  2004/04/09 20:22:06  black
 # Refine XREFS into IMA, etc.  Link to implementations at codec (Apache).
 #
@@ -23,7 +27,7 @@ different spellings.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic matching}
+@IMA={phonetic coding}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -31,7 +35,8 @@ different spellings.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={double metaphone}, {Jaro-Winkler}, {NYSIIS}, {edit distance}
+@XREFS={double metaphone}, {Jaro-Winkler}, {caverphone}, {NYSIIS},
+{edit distance}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The algorithm was devised to code names recorded in US census
@@ -49,6 +54,7 @@ Apache codec implementations of
 <A href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</A>. 
 <A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</A>.
+<A href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</A>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/soundex.trm,v $
