@@ -1,5 +1,10 @@
 # *created  "Tue Mar  9 09:31:10 1999" *by "Paul E. Black"
-# *modified "Thu Apr 17 09:09:32 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:48 2004" *by "Paul E. Black"
+
+# $Log: steinerpoint.trm,v $
+# Revision 1.2  2004/12/17 16:54:48  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Steiner point
@@ -11,22 +16,33 @@
 @DEFN=(1) A point that is not part of the input set of points, for
 instance, a point computed to construct a {Steiner tree}.  (2) A point
 with a particular geometric relation to a triangle.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 Also called a {Steiner vertex}.
-</P>
+</p>
 
-<P>
+<p>
 Consider the three points of a triangle.  The shortest tree connecting
 all three, called the {Steiner tree}, branches out from a fourth point
 in the middle.  That middle point, which was not given initially and
 must be computed in order to build
 the shortest tree, is a Steiner point.
-</P>
+</p>
 
-<P>
+<p>
 From Algorithms and Theory of Computation Handbook, page 19-27,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
@@ -34,15 +50,15 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 # ck6 is Clark Kimberling
-Named for <A
+Named for <a
 href="http://faculty.evansville.edu/ck6/bstud/steiner.html">Jakob
-Steiner</A>.  See the following for the geometric (classical)
+Steiner</a>.  See the following for the geometric (classical)
 definition of a
-<A
+<a
 href="http://faculty.evansville.edu/ck6/tcenters/class/steiner.html">Steiner
-Point</A>.
+Point</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/steinerpoint.trm,v $
