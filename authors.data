@@ -1,11 +1,11 @@
-# $Id: authors.data,v 1.11 2003/11/03 13:39:21 black Exp $
+# $Id: authors.data,v 1.12 2004/01/15 16:39:44 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
 #	Initials<tab>Name<tab>(comma separated
 #	e-mails [with @] or URLs)
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Mon Nov  3 08:38:37 2003" *by "Paul E. Black"
+# *modified "Thu Jan 15 11:39:19 2004" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -14,7 +14,7 @@ AB	Andrew Boniface	bonifaceaw@yahoo.com
 SE	Stefan Edelkamp	edelkamp@informatik.uni-freiburg.de, http://www.informatik.uni-freiburg.de/~edelkamp/
 ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
 JLG	Joseph L. Ganley	http://ganley.org/
-LH	Leslie Hastings	prof_math@yahoo.com, http://www.geocities.com/leslie_hastings/
+LH	Leslie Hastings	leslie@kodiak-web-design.com, http://www.kodiak-web-design.com/
 BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
 ASK	Art S. Kagel	kagel@bloomberg.net
 CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
