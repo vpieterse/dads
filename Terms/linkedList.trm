@@ -1,0 +1,53 @@
+# *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
+# *modified "Tue May 20 08:56:35 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=linked list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A {list} implemented by each item having a {link}
+to the next item.  
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=singly linked list
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={doubly linked list},{skip list}, {ordered linked list},
+{circular list}, {move-to-front heuristic}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The first item, or {head}, is
+accessed from a fixed location, called a ``head pointer.''
+An ordinary linked list must be searched with a 
+{linear search}.  Average search time may be improved using a 
+{move-to-front heuristic} in some cases.
+An {external index}, such as a {hash table}, {inverted index}, or
+auxiliary {search tree} may be used as a ``cross index'' to help find
+items quickly.
+</P>
+
+<P>
+A linked list can be used to implement other data structures,
+such as a {queue} or a {stack}.
+# further explanation (pure HTML)
+@LINKS=
+Tutorial, diagrams, and code (C++) of a
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Singly_Linked_Lists/singly_linked_lists.html">linked list</A>,
+# John Morris morris@ee.uwa.edu.au
+an <A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/lists.html">introduction</A>,
+a Java applet <A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkListAppl.html">demonstration</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+<A href="http://www.cs.rpi.edu/~musser/gp/lists.html">explanations,
+examples, iterators, sorting lists, etc. (C++)</A>,
+<A href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>,
+<A href="http://www.fortunecity.com/skyscraper/false/780/linklist.html">(C++)</A>
+# author's initials
+@AUTHOR=PEB
+# end
