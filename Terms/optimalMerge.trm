@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 19 16:20:17 2003" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:58:08 2004" *by "Paul E. Black"
+
+# $Log: optimalMerge.trm,v $
+# Revision 1.2  2004/11/01 16:58:21  black
+# Change encoding to coding
+#
 
 # entry name
 @NAME=optimal merge
@@ -23,12 +28,23 @@ Repeat until there is only one sequence.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={simple merge}, {ideal merge}, {Huffman encoding}, {greedy algorithm}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={simple merge}, {ideal merge}, {Huffman coding}, {greedy algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 Merging sequences by length is the same as joining trees by frequency in
-{Huffman encoding}.
+{Huffman coding}.
 For example, let there be a set of sorted sequences of the following 
 lengths: $D=\{3,5,7,9,12,14,15,17\}$.  Building the optimal merge tree goes
 as follows.  Note that merged sequences are replaced by the sum of their
@@ -119,4 +135,4 @@ and the sequence of length 5 to get a sequence of length 8.
 @IMPL=
 # author's initials
 @AUTHOR=AL
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/optimalMerge.trm,v $
