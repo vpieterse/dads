@@ -1,0 +1,37 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Feb 28 11:35:57 2000" *by "Paul E. Black"
+# entry name
+@NAME=parallel prefix computation
+# _A_lgorithm, _D_ef'n, _P_roblem, data _S_tructure, or algo. _T_echnique
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=para
+# the definition
+@DEFN=Calculate a function, f, on all prefixes of an $n$-element
+array, that is, $s[0], f(s[0], s[1]), f(s[0], f(s[1], s[2])),
+\ldots, f(s[0], \ldots f(s[n-2], s[n-1])\ldots)$, 
+using {$\Theta(n)$#$\Theta$} processors in $\Theta(\log n)$ time.
+The algorithm is
+<pre>
+for j := 0 to lg(n-1) do <br>
+    for i := $2<sup>j</sup>$ to n-1 parallel-do<br>
+        s[i] := f(s[i-$2<sup>j</sup>$], s[i])
+</pre>
+where lg is the logarithm base 2, and parallel-do does the innermost
+computations in parallel.  The function must be {associative}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In particular, this calculates any associative function, such
+as sum, maximum, or concatenate, over a list of values in
+{logarithmic} time.  Since this overwrites the initial values, the $n$
+processors can copy input values to a working array in parallel in
+one additional step.<br>
+From Yair Tuaff (r56409@email.sps.mot.com), 29 December 1999.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
