@@ -1,5 +1,13 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Wed Aug 25 13:04:07 1999" *by "Paul E. Black"
+# *modified "Wed Jan  7 13:05:38 2004" *by "Paul E. Black"
+
+# $Log: binaryheap.trm,v $
+# Revision 1.2  2004/01/07 18:11:06  black
+# Refine cross references into IMA, IMIN, etc.  Move much of the xrefs,
+# notes, implementations, etc. at "heap" here since they really refers
+# to binary heaps.
+#
+
 # entry name
 @NAME=binary heap
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,12 +18,27 @@
 @DEFN=A {complete binary tree} where every {node} has a {key}
 more extreme (greater or less) than or equal to the key of its 
 {parent}.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={heapify},{k-ary heap},{heap},{binomial heap}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={complete binary tree}, {heap}, {k-ary heap} with k=2
+# Specialization: "... is a kind of me."
+@VARIANT={treap}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={build-heap}, {heapify}, {heapsort}, {priority queue}
+# Aggregate child: "... is a part of or used in me."
+@INME={array}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={binomial heap}
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=An {array} implementation stores the keys in an array.
-The parent of a node is the node's index in the array,
-divided by two, rounded down.
+@NOTES=Insertion is {O($\log<sub>2</sub> n$)#big-O notation} where $n$ is
+the number of nodes.
+A binary heap can be efficiently implemented as an {array}, where a
+node at index $i$ has children at indexes $2i$ and $2i+1$ and a
+parent at index $i/2$.  If a child index is greater than the number
+of nodes, the child does not exist.
+</P>
 
 <P>
 Merging two binary heaps is {O(n)#big-O notation}: the best you can do
@@ -24,7 +47,18 @@ Two {binomial heaps} can be merged in O(ln n).
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=
+@IMPL=<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
+(C)</A> and <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
+(C and Pascal)</A> both of which use the auxiliary function <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
+(C and Pascal)</A>,
+# John Morris morris@ee.uwa.edu.au
+<A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/heaps.html">explanation,
+examples, and C code</A>,
+<A href="http://gams.nist.gov/serve.cgi/ModuleComponent/8600/Fullsource/NETLIB/561">(Fortran)</A>
 # author's initials
 @AUTHOR=CLK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binaryheap.trm,v $
