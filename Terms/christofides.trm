@@ -1,5 +1,15 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:04:32 EDT 2003" *by "Paul E. Black"
+# *modified "Fri Feb 27 11:28:57 2004" *by "Paul E. Black"
+
+# $Log: christofides.trm,v $
+# Revision 1.3  2004/02/27 16:50:19  black
+# Refine XREFS to IMA, etc.  Add link to perfect matching in
+# definition.  Correct URL for "algorithm with proof".
+#
+# Revision 1.2  2003/10/16 17:04:37  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=Christofides algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,7 +19,7 @@
 # the definition
 @DEFN=(1) A {heuristic} {algorithm} to find a near-optimal solution to
 the {traveling salesman} problem.  Step 1: find a {minimum spanning
-tree} T.  Step 2: find a perfect matching M among vertexes with odd
+tree} T.  Step 2: find a {perfect matching} M among vertexes with odd
 {degree}.  Step 3: combine the {edges} of M and T to make a
 {multigraph} G.  Step 4: find an {Euler cycle} in G by skipping
 vertexes already seen.  (2) An algorithm to find the {chromatic
@@ -20,8 +30,19 @@ number} of a graph.
 @AKA=Christofides heuristic
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={heuristic}, {algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={minimum spanning tree}, {perfect matching}, {multigraph}, {Euler cycle}
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=(1) <strong>Nicos Christofides</strong>, <em>Worst-case analysis
 of a new heuristic for the travelling salesman problem</em>,
@@ -44,7 +65,7 @@ chromatic number of a graph</em>, Computer J., 14(1):38-39, February
 @LINKS=A <A
 href="http://www.msci.memphis.edu/~giri/7713/f00/HuiChen/HuiChen2.htm#chris">graphical
 example and algorithm outline</A>, a PDF document explaining the <A
-href="http:// troy.troy.org/cs170/week13.pdf">algorithm with proof of
+href="http://troy.troy.org/cs170/week13.pdf">algorithm with proof of
 guarantee</A>.
 # implementation(s) (pure HTML)
 @IMPL=
