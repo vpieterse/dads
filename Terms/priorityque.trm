@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:52:42 1998" *by "Paul E. Black"
-# *modified "Thu Feb 19 13:07:11 2004" *by "Paul E. Black"
+# *modified "Tue Apr  6 14:03:50 2004" *by "Paul E. Black"
 
 # $Log: priorityque.trm,v $
+# Revision 1.5  2004/04/06 18:47:26  black
+# Add formal definition, adapted from queue.
+#
 # Revision 1.4  2004/02/19 18:08:00  black
 # Add IMIN Dijkstra's algo and move heap and Fib heap to INME.
 #
@@ -26,6 +29,23 @@ maximum), and delete-minimum (or maximum).  Some implementations also
 efficiently
 support join two priority queues ({meld}), delete an arbitrary item,
 and increase the priority of a item (decrease-key).
+# formal definition or {cross reference} to an entry
+@FORML=The operations new(), insert(v, PQ), find-minimum or min(PQ),
+and delete-minimum or dm(PQ)
+may be defined with {axiomatic semantics} as follows.
+<ol>
+<li>new() returns a priority queue
+<li>min(insert(v, new())) = v
+<li>dm(insert(v, new())) = new()
+<li>min(insert(v, insert(w, PQ))) = if priority(v) &lt;
+	priority(min(insert(w, PQ))) then v else 
+	min(insert(w, PQ))
+<li>dm(insert(v, insert(w, PQ))) = if priority(v) &lt;
+	priority(min(insert(w, PQ))) then insert(w, PQ)
+	else insert(v, dm(insert(w, PQ)))
+</ol>
+where PQ is a priority queue, v and w are items, and priority(v) is
+the priority of item v.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
