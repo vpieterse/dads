@@ -1,5 +1,12 @@
 # *created  "Fri Feb 26 16:53:39 1999" *by "Paul E. Black"
-# *modified "Thu Nov 18 14:26:28 1999" *by "Paul E. Black"
+# *modified "Fri Jul 23 18:11:03 2004" *by "Paul E. Black"
+
+# $Log: turingTransducer.trm,v $
+# Revision 1.2  2004/07/23 22:13:43  black
+# Add RCS keywords.  Change {transducer} to the more precise {finite
+# state transducer}.
+#
+
 # entry name
 @NAME=Turing transducer
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,14 +15,25 @@
 @AREA=theory
 # the definition
 @DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=like {transducer}, but has <em>m</em> work tapes
+@NOTES=like {finite state transducer}, but has <em>m</em> work tapes
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/turingTransducer.trm,v $
