@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jul 11 11:51:03 2000" *by "Paul E. Black"
+# entry name
+@NAME=matrix-chain multiplication problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=Given a sequence of matrices such that any {matrix} may be
+multiplied by the result of multiplying all the matrices before it,
+find the best parenthesizing
+such that the result is obtained with the minimum 
+number of arithmetic operations.  One may use {dynamic programming}
+to find the best parenthesizing.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
