@@ -1,0 +1,29 @@
+# *created  "Thu Feb 11 09:38:13 1999" *by "Paul E. Black"
+# *modified "Fri Jan  4 09:50:30 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=difference
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=The difference of {set} A minus set B is a set having all the
+members which are in A, but not in B.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=set difference
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={complement}, {union}, {intersection}, {symmetric set difference}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For example, \{2, 3, 5} - \{7, 5} = \{2, 3}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
