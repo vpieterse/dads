@@ -1,7 +1,10 @@
 # *created  "Mon Oct 19 15:06:57 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:37:27 2004" *by "Paul E. Black"
+# *modified "Wed Sep 22 08:56:23 2004" *by "Paul E. Black"
 
 # $Log: dijkstraalgo.trm,v $
+# Revision 1.6  2004/09/22 12:56:32  black
+# Correct spelling of Fibonacci
+#
 # Revision 1.5  2004/09/01 11:09:00  black
 # Remove duplicate "all paris shortest path" XREF.
 #
@@ -26,7 +29,7 @@
 {vertex} to all other vertices in a
 {weighted, directed graph}.  All
 weights must be nonnegative.
-Implementing the {priority queue} with a {Fibonnaci heap} makes the
+Implementing the {priority queue} with a {Fibonacci heap} makes the
 time complexity {$O(E + V \log V)$#big-O notation}, where $V$ is the
 number of vertices and $E$ is the number of {edges}.
 
@@ -38,7 +41,7 @@ number of vertices and $E$ is the number of {edges}.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={Johnson's algorithm}
 # Aggregate child: "... is a part of or used in me."
-@INME={priority queue}, {Fibonnaci heap}
+@INME={priority queue}, {Fibonacci heap}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Bellman-Ford algorithm}, {all pairs shortest path}
 
