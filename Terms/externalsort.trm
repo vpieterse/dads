@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
-# *modified "Thu Feb 27 11:00:58 2003" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:22:44 2004" *by "Paul E. Black"
+
+# $Log: externalsort.trm,v $
+# Revision 1.2  2004/10/04 18:23:51  black
+# Refer to Geeta's thesis on external sort algorithms.  Refine XREFS
+# into IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=external sort
@@ -12,11 +18,22 @@
 or disk, during the sort.  Since most common sort algorithms assume
 high-speed random access to all intermediate memory, they are
 unsuitable if the values to be sorted don't fit in main memory.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={internal sort}, {balanced multiway merge}, {cascade merge sort},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={balanced multiway merge}, {cascade merge sort},
 {external merge sort}, {optimal polyphase merge sort},
 {oscillating merge sort}, {polyphase merge sort},
-{external radix sort}, {external merge}, {external memory algorithm}
+{external radix sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={internal sort}, {external merge}, {external memory algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Algorithms may read the initial values from magnetic tape or
 write sorted values to disk, but this is not using external memory
@@ -30,8 +47,12 @@ See <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.4]</A>
 for an extensive treatment.
 # further explanation (pure HTML)
 @LINKS=
+<A href="http://www.cs.dartmouth.edu/reports/abstracts/TR2004-517/">Geeta
+Chaudhry's PhD thesis</A> which includes new external sort algorithms
+and comparisons with other external sort algorithms.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/externalsort.trm,v $
