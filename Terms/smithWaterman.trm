@@ -1,0 +1,22 @@
+# *created  "Mon Aug 14 15:42:09 2000" *by "Paul E. Black"
+# *modified "Mon Apr 22 08:59:23 2002" *by "Paul E. Black"
+# entry name
+@NAME=Smith-Waterman algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A means of searching protein databases to find those with the
+best alignment using {dynamic programming}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
