@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 09:32:31 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=asymptotic upper bound
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=An {asymptotic bound}, as function of the size of the input, on
+the worst (slowest, most amount of space used, etc.) an {algorithm}
+will do to solve a problem.  That is, no input will cause the
+algorithm to use more resources than the bound.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={big-O notation}, {asymptotic lower bound}, {asymptotically
+tight bound}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
