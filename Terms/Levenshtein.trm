@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Jan 29 12:24:49 2002" *by "Paul E. Black"
+# *modified "Mon May  3 12:16:43 2004" *by "Paul E. Black"
+
+# $Log: Levenshtein.trm,v $
+# Revision 1.2  2004/05/03 16:19:36  black
+# Refine XREFS into IMA, etc.  Add IMA string matching with errors.
+#
+
 # entry name
 @NAME=edit distance
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -15,8 +21,19 @@ required to change one {string} or {tree} into another.
 @AKA=Levenshtein distance
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching with errors}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={edit operation}, {double metaphone}, {soundex}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 14-35,
@@ -36,4 +53,4 @@ comments, and references to similar functions</A>.
 (Java, C++, Visual Basic)</A>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/Levenshtein.trm,v $
