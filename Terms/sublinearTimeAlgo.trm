@@ -1,7 +1,10 @@
 # *created  "Tue Jan 27 08:55:09 2004" *by "Paul E. Black"
-# *modified "Tue Jan 27 09:43:17 2004" *by "Paul E. Black"
+# *modified "Thu Dec 23 16:20:54 2004" *by "Paul E. Black"
 
 # $Log: sublinearTimeAlgo.trm,v $
+# Revision 1.2  2004/12/23 21:21:17  black
+# Remove unneeded period at end of INME
+#
 # Revision 1.1  2004/01/27 14:48:59  black
 # Initial revision
 #
@@ -30,7 +33,7 @@ probably correct answer.
 @VARIANT={logarithmic} time algorithm
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={quicksort}: finding the pivot is a sublinear time algorithm for
-finding the {median}.
+finding the {median}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
