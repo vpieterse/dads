@@ -1,0 +1,26 @@
+# *created  "Fri Nov 24 10:25:19 2000" *by "Paul E. Black"
+# *modified "Thu Feb 27 11:05:11 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=scapegoat tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} that needs no {balance} information.
+Search time is {logarithmic}, and the {amortized cost} of update is
+{logarithmic}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these are not printed in the final dictionary
+@NOTES=<strong>I. Galperin and R. L. Rivest</strong>, <em>Scapegoat
+trees</em>, Proc. 4th ACM-SIAM Symp. on Discrete Algorithms (SODA),
+1993, pp. 165-174.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
