@@ -1,0 +1,22 @@
+# *created  "Mon Dec 14 12:22:20 1998" *by "Paul E. Black"
+# *modified "Thu Apr 27 08:44:22 2000" *by "Paul E. Black"
+# entry name
+@NAME=balanced tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {tree} where no {leaf} is much farther away from the 
+{root} than any other leaf.  Different balancing schemes allow
+different definitions of "much farther" and different amounts of work
+to keep them balanced.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={balance}, {weight-balanced tree}, {height-balanced tree},
+{B-tree}, {AVL tree}, {full binary tree}, {red-black tree}, {relaxed
+balance}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
