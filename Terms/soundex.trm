@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Jan 24 09:14:58 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 14:45:03 2005" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.9  2005/02/02 19:45:06  black
+# Add {algorithm} to IMA {phonetic coding} for ontology
+#
 # Revision 1.8  2005/01/24 14:15:46  black
 # Add Visual Basic IMPL.
 #
@@ -39,7 +42,7 @@ different spellings.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic coding}
+@IMA={phonetic coding} {algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
