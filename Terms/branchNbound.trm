@@ -1,0 +1,42 @@
+# *created  "Mon Jan 25 16:30:30 1999" *by "Paul E. Black"
+# *modified "Fri Aug  8 14:17:34 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=branch and bound
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An algorithm technique to find the optimal solution
+by keeping the best solution found so far.  If a partial solution
+cannot do better than the best, work on it is abandoned.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={depth-first search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, suppose we want to find the shortest route
+from Zarahemla to Manti, and at some time the shortest route found
+until that time is
+387 kilometers.  Suppose we are to next consider routes through
+Cumeni.  If the shortest distance from Zarahemla to Cumeni is
+350 km and Cumeni is 46 km from Manti in a straight line, there is no
+reason to explore possible roads from Cumeni: they will be at least
+396 km (350 + 46), which is worse than the shortest known route.  So
+we need not explore paths from Cumeni.  
+</P>
+
+<P>
+This may be implemented as a {backtracking} algorithm, which is a
+modified {depth-first search}, or using a {priority queue}
+ordering partial solutions by lower bounds (current + least possible
+completion), which is a {best-first search}.
+# further explanation (pure HTML)
+@LINKS=A more formal and complete <A
+href="http://www.cs.sandia.gov/opt/survey/branch-and-bound.html">explanation</A>.
+# implementation(s) (pure HTML)
+@IMPL=A page of <A
+href="http://solon.cma.univie.ac.at/~neum/glopt/software_g.html#bb_codes">branch
+and bound implementations (C, C++, Matlab, Fortran, executables, etc.)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
