@@ -1,0 +1,23 @@
+# *created  "Tue Feb  2 15:40:57 1999" *by "Paul E. Black"
+# *modified "Wed Jun 16 14:29:42 1999" *by "Paul E. Black"
+# entry name
+@NAME=search tree property
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=When the key of every {node} of a {binary tree} is larger
+than the key of its left {child} and smaller than its right child.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A {binary tree} which has this property is a {binary search
+tree}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
