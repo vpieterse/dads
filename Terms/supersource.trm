@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Oct 29 09:20:06 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=supersource
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A {vertex} of a {directed graph} from which all other
+vertices are {reachable}.  
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={supersink}, {source}, {flow network}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Usually added to convert a graph with multiple
+sources into a graph with a single source.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=JM
+# end
