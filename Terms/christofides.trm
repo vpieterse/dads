@@ -1,0 +1,53 @@
+# *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
+# *modified "Mon Aug 13 09:12:38 2001" *by "Paul E. Black"
+# entry name
+@NAME=Christofides algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=(1) A {heuristic} {algorithm} to find a near-optimal solution to
+the {traveling salesman} problem.  Step 1: find a {minimum spanning
+tree} T.  Step 2: find a perfect matching M among vertices with odd
+{degree}.  Step 3: combine the {edges} of M and T to make a
+{multigraph} G.  Step 4: find an {Euler cycle} in G by skipping
+vertices already seen.  (2) An algorithm to find the {chromatic
+number} of a graph.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Christofides heuristic
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=(1) <strong>Nicos Christofides</strong>, <em>Worst-case analysis
+of a new heuristic for the travelling salesman problem</em>,
+Report 388, Graduate School of Industrial Administration, CMU,
+1976.
+</P>
+<P>
+Also CMU Tech. Report CS-93-13, 1976.
+Also Sympos. on New Directions and Recent Results in Algorithms and
+Complexity, J. F. Traub ed., page 441, Academic Press, New York, NY,
+1976.
+</P>
+<P>
+(2) <strong>Nicos Christofides</strong>, <em>An algorithm for the
+chromatic number of a graph</em>, Computer J., 14(1):38-39, February
+1971.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=A <A
+href="http://www.msci.memphis.edu/~giri/7713/f00/HuiChen/HuiChen2.htm#chris">graphical
+example and algorithm outline</A>, a PDF document explaining the <A
+href="http:// troy.troy.org/cs170/week13.pdf">algorithm with proof of
+guarantee</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
