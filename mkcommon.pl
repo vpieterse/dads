@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.8 2002/01/09 17:49:14 black Exp $
+# $Id: mkcommon.pl,v 1.9 2002/01/17 17:08:37 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Jan  9 11:50:40 2002" *by "Paul E. Black"
+# *modified "Thu Jan 17 12:03:35 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -78,7 +78,7 @@ $URL_DIR	="http://www.nist.gov/dads";
 #
 #------------------------------------------------------------------------
 
-# defined entry properties
+# properties accepted in entries
 %properties = (
 	NAME	=> 1,
 	TYPE	=> 1,
@@ -346,9 +346,14 @@ sub addToDictionary (\%) {
     $entryRef = shift;
     %entry = %$entryRef;
 
-    #for $fld (keys %entry) {
-    #	print "\$entry\{$fld} = $entry{$fld}\n";
-    #}
+    if (! defined $entry{NAME}) {
+	# something is very wrong
+	for $fld (keys %entry) {
+	    print "\$entry\{$fld} = $entry{$fld}\n";
+	}
+
+	exit;
+    }
 
     # audit the entry
     if ($entry{NAME} =~ / $/) {
@@ -376,6 +381,7 @@ sub addToDictionary (\%) {
 
     # NAME (ename in other places) is original name, e.g.,
     #		BB$\alpha<sub>2</sub>$ tree
+    #		K&ouml;nigsberg bridges
     # XNAME is name without LaTeX markers to lookup cross references.
     #		BB\alpha<sub>2</sub> tree
     # DNAME is display name, e.g.,
@@ -385,6 +391,7 @@ sub addToDictionary (\%) {
     # alphname HERE is name used to alphabetize, e.g.,
     #		BBALPHATWOTREE
     #		bTHETA (where b is a blank)
+    #		KOENIGSBERGBRIDGES
 
     # save a version of the entry name without LaTeX markers for lookup
     ($entry{XNAME} = $entry{NAME}) =~ s/\$([^\$]*)\$/$1/go;
@@ -412,6 +419,9 @@ sub addToDictionary (\%) {
     $alphaName =~ s/[+]/plus/go;
     # remove any embedded html
     $alphaName =~ s/<[^>]*>//go;
+    # replace special characters, e.g., &ouml; with oe
+    $alphaName =~ s/&(.)uml;/$1e/g;
+    # remember if this starts with a special character
     $startsWithSpecial = ($alphaName =~ /^\$\\/);
     # make all letters upper case and remove any remaining non-letter
     $alphaName =~ tr/A-Za-z\0-\377/A-ZA-Z/d;
@@ -432,7 +442,7 @@ sub addToDictionary (\%) {
     #print "TNAME is $entry{TNAME}\n";
     #print "alphaName is $alphaName\n";
 
-    # assign a file name if necessary (for AKA and WEB)
+    # assign an HTML file name if necessary (for AKA and WEB)
     if (! defined $entry{FILENM}) {
 	$entry{FILENM} = $tname;
 
@@ -451,8 +461,8 @@ sub addToDictionary (\%) {
 	    #print "$entry{FILENM}\n";		# after
 	}
 
-	# remove dashes and remaining spaces
-	$entry{FILENM} =~ s/[- ]//go;
+	# remove dashes, character markers, and remaining spaces
+	$entry{FILENM} =~ s/[^a-zA-Z0-9]//go;
     }
 
     # remember this entry to find cross references
@@ -463,7 +473,7 @@ sub addToDictionary (\%) {
 	$entries{$alphaName}{$fld} = $entry{$fld};
     }
 
-    $numEntriesInIndex++;
+    $totalEntries++;
 }
 
 sub readTermEntries {
@@ -474,15 +484,18 @@ sub readTermEntries {
 
     #print @entries;
 
-    # count the number of entries read
+    # the number of entries read
     my $numEntriesRead = 0;
-    # count the entries in the index.  This adds AKA's
+    # the number of entries in the index.  This adds AKA's, but not WEB's.
     $numEntriesInIndex = 0;
+    # total entries in the dictionary.  This adds WEB's.
+    $totalEntries = 0;
 
     # Step IIb: read each entry file and save the properties
     while ($entryFile = shift @entries) {
 	undef %thisEntry; # make sure nothing is left over
 	my($thisEntry) = {};
+	$thisEntry{ENTCLASS} = "FILE";
 
 	chop $entryFile;
 
@@ -520,18 +533,15 @@ sub readTermEntries {
 	($thisEntry{FILENM}) = ($entryFile =~ m|.*/([^.]*)|o);
 	$thisEntry{SRCFILE} = $thisEntry{FILENM};
 
-	# if no NAME given, make one from the file name
-	if (! defined $thisEntry{NAME}) {
-	    print "No entry NAME given in $entryFile\n";
-	    # assign a default
-	    ($thisEntry{NAME}) = ($thisEntry{FILENM});
-	}
-
 	# add entries for AKA (Also Known As) names
 	if (defined $thisEntry{AKA}) {
-
 	    my($ealiases) = $thisEntry{AKA};
 	    #print "$thisEntry{NAME} is also known as";
+
+	    if ($ealiases =~ /[., ]$/) {
+		print "\nAKA <<$ealiases>> has a funny trailing character in $entryFile\n";
+	    }
+
 	    foreach $aka (split /^ *{?|}?, *{?|}? *$/, $ealiases) {
 		next if ($aka eq ""); # above RE may start with a null split
 
@@ -543,6 +553,7 @@ sub readTermEntries {
 		$akaEntry{NAME} = $aka;
 		$akaEntry{DEFN} = "See \{$thisEntry{NAME}}.";
 		$akaEntry{SRCFILE} = $thisEntry{SRCFILE};
+		$akaEntry{ENTCLASS} = "AKA";
 		if (defined $thisEntry{TYPE}) {
 		    $akaEntry{TYPE} = $thisEntry{TYPE};
 		}
@@ -559,6 +570,7 @@ sub readTermEntries {
 		    $akaEntry{AUTHOR} = $thisEntry{AUTHOR};
 		}
 
+		$numEntriesInIndex++;
 		addToDictionary %akaEntry;
 	    }
 	    #print "\n";
@@ -568,19 +580,52 @@ sub readTermEntries {
 	if (defined $thisEntry{WEB}) {
 	    my($webaliases) = $thisEntry{WEB};
 	    #print "$thisEntry{NAME} has variant(s) for web of";
+
+	    if ($webaliases =~ /[., ]$/) {
+		print "\nAKA <<$webaliases>> has a funny trailing character in $entryFile\n";
+	    }
+
 	    foreach $webvar (split /^ *{?|}?, *{?|}? *$/, $webaliases) {
 		next if ($webvar eq ""); # above RE may start with a null split
 		#print " '$webvar'"; # for debugging
-		# SKIMP create entry in database for this
+
+		#
+		# create entry in database for this
+		#
+
+		my $webEntry = {};
+		$webEntry{NAME} = $webvar;
+		$webEntry{DEFN} = "See \{$thisEntry{NAME}}.";
+		$webEntry{SRCFILE} = $thisEntry{SRCFILE};
+		$webEntry{ENTCLASS} = "WEB";
+		if (defined $thisEntry{TYPE}) {
+		    $webEntry{TYPE} = $thisEntry{TYPE};
+		}
+		if (defined $thisEntry{AREA}) {
+		    $webEntry{AREA} = $thisEntry{AREA};
+		}
+		# the web-only pages are very sparse
+		#if (defined $thisEntry{IMPL}) {
+		#    $webEntry{IMPL} = $thisEntry{IMPL};
+		#}
+		if (defined $thisEntry{MODIFIED}) {
+		    $webEntry{MODIFIED} = $thisEntry{MODIFIED};
+		}
+		if (defined $thisEntry{AUTHOR}) {
+		    $webEntry{AUTHOR} = $thisEntry{AUTHOR};
+		}
+
+		addToDictionary %webEntry;
 	    }
 	    #print "\n";
 	}
 
+	$numEntriesInIndex++;
 	addToDictionary %thisEntry;
     }
     print STDERR "\n" if ($verbose);
 
-    print "Read $numEntriesRead terms.  $numEntriesInIndex terms in index.\n";
+    print "$numEntriesRead terms read.  $numEntriesInIndex in main indices.  $totalEntries terms total.\n";
 }
 
 # end of $Source: /home/black/DADS/dads/RCS/mkcommon.pl,v $
