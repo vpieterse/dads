@@ -1,0 +1,38 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Aug 17 14:22:43 2001" *by "Paul E. Black"
+# entry name
+@NAME=optimal triangulation problem
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=geom
+# the definition
+@DEFN=Find the triangulation with the greatest overall minimum angle.
+There is an incremental algorithm that takes {$O(n \log n)$#big-O
+notation} time.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={optimal polygon triangulation problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Triangulation is breaking up an area into triangles.  The goal
+is to make all the triangles as close to equilateral as possible.
+Equivalently, have as few "slivers" as possible.
+
+<P>
+This is the best triangulation if you want to interpolate
+a height field (topographic map) between given points, or to divide a
+surface to triangles and research the heat conduction, etc. between
+them.  Contributed by Motty Porat (vn16908@netvision.net.il) 10 July
+2000.
+</P>
+
+<P>
+See <A HREF="http://www.cs.uu.nl/geobook/">Computational Geometry</A>
+by De Berg, Van Kreveld, Overmars and Schwarzkopf.
+</P>
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
