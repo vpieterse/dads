@@ -8,7 +8,7 @@
 @AREA=graph
 # the definition
 @DEFN=The dual of a {planar graph}, G, is a {graph} with a
-{vertex} for each region in G and an {edge} between vertices for
+{vertex} for each region in G and an {edge} between vertexes for
 each pair of adjacent regions.  The new edge crosses the edge in G
 which is the boundary between the adjacent regions.
 # comma-separated list of {cross references}.  printed as "See also ..."
@@ -33,4 +33,4 @@ that is, planar graphs which are duals of themselves.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dual.trm,v $
