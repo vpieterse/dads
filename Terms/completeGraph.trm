@@ -1,0 +1,25 @@
+# *created  "Wed Nov 18 10:05:53 1998" *by "Paul E. Black"
+# *modified "Tue Jan 22 11:44:40 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=complete graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=An {undirected graph} with an {edge} between every pair of
+{vertices#vertex}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={connected graph},{sparse graph},{dense graph},{complete tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
