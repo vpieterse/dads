@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Tue Apr 27 14:44:35 2004" *by "Paul E. Black"
+# *modified "Tue Sep  7 12:29:51 2004" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Revision 1.5  2004/09/07 16:30:28  black
+# Update Ben Pfaff's URL (again).
+#
 # Revision 1.4  2004/04/27 18:44:59  black
 # Fix misspelling.
 #
@@ -53,7 +56,7 @@ CACM, 29(9):902-908, September 1986.
 # further explanation (pure HTML)
 @LINKS=
 Example of
-<A href="http://www.msu.edu/~pfaffben/avl/libavl.html/Balancing-a-BST.html">balancing
+<A href="http://www.stanford.edu/~blp/avl/libavl.html/Balancing-a-BST.html">balancing
 a BST</A>.
 # implementation(s) (pure HTML)
 @IMPL=
