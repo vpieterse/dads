@@ -1,0 +1,62 @@
+# *created  "Tue Feb 10 12:51:49 2004" *by "Paul E. Black"
+# *modified "Tue Feb 10 12:55:41 2004" *by "Paul E. Black"
+
+# $Log: compactTrie.trm,v $
+# Revision 1.1  2004/02/10 18:15:57  black
+# Initial revision
+#
+
+# entry name
+@NAME=compact trie
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {trie} in which nonbranching subtrees leading to {leaf} nodes
+are cut off.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={trie}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Patricia tree}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=The name comes from re<strong>TRIE</strong>val and is
+pronounced, "tree."
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+
+# further explanation (pure HTML)
+@LINKS=
+# Winter 1997 Class Notes for 308-251
+# DATA STRUCTURES AND ALGORITHMS
+# Topic #7: TRIES AND SUFFIX TREES
+Explanations of and comparisons between
+<A href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
+and suffix trees</A>.
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/compactTrie.trm,v $
