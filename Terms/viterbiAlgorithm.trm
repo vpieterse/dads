@@ -1,5 +1,11 @@
 # *created  "Tue Apr 11 11:30:54 2000" *by "Paul E. Black"
-# *modified "Thu Aug  1 16:45:49 2002" *by "Paul E. Black"
+# *modified "Tue Jul  6 09:10:31 2004" *by "Paul E. Black"
+
+# $Log: viterbiAlgorithm.trm,v $
+# Revision 1.2  2004/07/06 13:11:12  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Remove HMM URL:
+# pages no longer render in Mozilla, etc.
+#
 
 # entry name
 @NAME=Viterbi algorithm
@@ -16,17 +22,26 @@ a {hidden Markov model} given a sequence of observed outputs.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Viterbi search
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={hidden Markov model}
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Baum Welch algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Also used to decode, i.e. remove noise from, linear error-correcting
 codes.
 # further explanation (pure HTML)
-@LINKS=See this <A
-href="http://screwdriver.bu.edu/cn760-lectures/l9n/l9.htm">lesson on
-Hidden Markov Models</A> for more explanation.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/viterbiAlgorithm.trm,v $
