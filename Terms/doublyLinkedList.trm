@@ -1,0 +1,35 @@
+# *created  "Fri Sep 18 10:05:14 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:04:41 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=doubly linked list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A variant of a {linked list} in which each item has a {link} to
+the previous item as well as the next.  This allows easily accessing
+list items backwards as well as forwards and deleting any item
+in constant time.
+# comma-separated list of pure names
+@AKA=two-way linked list, symmetrically linked list
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=two-way list
+# comma-separated list of cross references, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See <A href="../terms.html">[Stand98, p. 91]</A>.
+# further explanation (pure HTML)
+@LINKS=Tutorial, diagrams, and code (C++) of a
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Doubly_Linked_List/doubly_linked_list.html">doubly
+linked list</A>.
+
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Doubly_Linked_List/doubly_linked_list.html">Illustrations,
+too (C++)</A>
+# author's initials
+@AUTHOR=PEB
+# end
