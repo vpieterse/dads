@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 11:37:30 1998" *by "Paul E. Black"
-# *modified "Fri Dec 27 10:11:36 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:30 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=connected graph
@@ -9,7 +9,7 @@
 @AREA=graph
 # the definition
 @DEFN=An {undirected graph} that has a {path} between every pair of
-{vertices#vertex}.
+{vertexes}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -27,4 +27,4 @@ component},
 After LK.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/connectedGraph.trm,v $
