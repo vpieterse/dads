@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 11:15:58 2000" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:05 EDT 2003" *by "Paul E. Black"
 # entry name
 @NAME=maximal independent set
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,9 +7,9 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=A set of {vertices#vertex} in a {graph} such that for any pair
-of vertices, there is no {edge} between them and such that no more
-vertices can be added and it still be an {independent set}.
+@DEFN=A set of {vertexes} in a {graph} such that for any pair
+of vertexes, there is no {edge} between them and such that no more
+vertexes can be added and it still be an {independent set}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
 # any notes.  these will not be printed in the final dictionary
@@ -21,4 +21,4 @@ set of size $k$ in a graph.
 @IMPL=
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/maximalIndependentSet.trm,v $
