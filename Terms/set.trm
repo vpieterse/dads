@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jan 10 10:08:44 2003" *by "Paul E. Black"
+# *modified "Wed Oct  1 10:16:02 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=set
@@ -15,18 +15,27 @@ belong to a {universe}, (2) either each element is a <em>member</em> of
 the set or it is not, and (3) the elements are unordered.
 # formal definition or {cross reference} to an entry
 @FORML=As an {abstract data type}, a set has a single query function,
-isIn(v, S), which tells whether an element is in the set or not, and
-two modifier functions, add(v, S) and remove(v, S).
+isIn(v, S), which tells whether an element is a member of the set or
+not, and two modifier functions, add(v, S) and remove(v, S).
 These may be defined as follows.
 <ol>
 <li>$new()$ returns a set
 <li>$isIn(v, new()) = false$
 <li>$isIn(v, add(v, S)) = true$
 <li>$isIn(v, add(u, S)) = isIn(v , S) if v \neq u$
-<li>$isIn(v, remove(v, S)) = false$
-<li>$isIn(v, remove(u, S)) = isIn(v , S) if v \neq u$
+<li>$remove(v, new()) = new()$
+<li>$remove(v, add(v, S)) = remove(v, S)$
+<li>$remove(v, add(u, S)) = add(u, remove(v, S)) if v \neq u$
 </ol>
 where S is a set and $u$ and $v$ are elements.
+</P>
+
+<P>
+The {predicate} isEmpty(S) may be defined with the following additional axioms.
+<ol start="8">
+<li>isEmpty(new()) = true
+<li>isEmpty(add(v, S)) = false
+</ol>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
