@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Dec 17 16:46:35 2003" *by "Paul E. Black"
+# *modified "Thu Dec 18 11:02:38 2003" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Revision 1.4  2003/12/18 16:11:35  black
+# Break out the historical note into a new, separate field.
+#
 # Revision 1.3  2003/12/18 13:57:29  black
 # Add historical note from Alan Goldman.
 #
@@ -37,16 +40,8 @@ at least once.  Finding an optimal solution in a graph with both
 Even Points</em>, Chinese Math., 1:273-277, 1962.
 # as given as K. Mei-Ko - Mei-Ko is the family name
 
-# any notes.  these will not be printed in the final dictionary
-@NOTES=
-This is similar to finding the most efficient way to route garbage
-trucks, school buses, etc.  A good algorithm is given in
-<strong>Jack Edmonds</strong> and <strong>Ellis L. Johnson</strong>, 
-<em>Matching, Euler Tours, and the Chinese Postman</em>,
-Mathematical Programming, 5:88-124, 1973.
-</P>
-
-<P>
+# Historical note 
+@HISTORY=
 K. Mei-Ko's article referred to optimizing a postman's route, was
 written by a Chinese author and appeared in a Chinese math journal.  
 Based on this Alan Goldman suggested the name "Chinese Postman
@@ -56,6 +51,14 @@ Edmonds appreciated its "catchiness" and adopted it.
 Goldman was also indirectly influenced by recalling an Ellery
 Queen mystery called "The Chinese Orange Mystery".
 (Alan Goldman, personal communication, 14 December 2003)
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+This is similar to finding the most efficient way to route garbage
+trucks, school buses, etc.  A good algorithm is given in
+<strong>Jack Edmonds</strong> and <strong>Ellis L. Johnson</strong>, 
+<em>Matching, Euler Tours, and the Chinese Postman</em>,
+Mathematical Programming, 5:88-124, 1973.
 </P>
 
 <P>
