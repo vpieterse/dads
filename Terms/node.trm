@@ -1,0 +1,20 @@
+# *created  "Mon Nov 16 14:53:05 1998" *by "Paul E. Black"
+# *modified "Wed Mar 29 14:16:10 2000" *by "Paul E. Black"
+# entry name
+@NAME=node
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=(1) A unit of reference in a data structure.  Also called a
+{vertex} in {graphs} and {trees}.
+(2) A collection of
+information which must be kept at a single memory location. 
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
