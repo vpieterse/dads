@@ -1,7 +1,11 @@
 # *created  "Tue Nov 17 13:35:17 1998" *by "Paul E. Black"
-# *modified "Tue Oct  5 16:24:34 2004" *by "Paul E. Black"
+# *modified "Mon Dec 13 16:05:14 2004" *by "Paul E. Black"
 
 # $Log: boyermoore.trm,v $
+# Revision 1.4  2004/12/13 21:07:53  black
+# Refine definition.  XREF Boyer-Moore-Horspool.  Update HTML to be
+# XHTML compatible.
+#
 # Revision 1.3  2004/10/05 20:24:41  black
 # Remove LINK to Eric Schank & Michael Baer's comparison page.
 #
@@ -18,8 +22,10 @@
 @AREA=search
 # the definition
 @DEFN=A {string matching} algorithm that compares characters from
-the end of the search string to its beginning.  When characters don't
-match, searching jumps to the next possible match.
+the end of the {pattern} to its beginning.  When characters don't
+match, searching jumps to the next possible match: the farthest of a
+table like that used in the {Knuth-Morris-Pratt algorithm} and the
+next matching position in the {pattern}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -31,7 +37,7 @@ match, searching jumps to the next possible match.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Boyer-Moore-Horspool}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
@@ -41,22 +47,23 @@ Moore</strong>,
 CACM, 20(10):762-772, October 1977.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=After <A href="../terms.html#Sund98">[Sund98]</A>.
+@NOTES=After <a href="../terms.html#Sund98">[Sund98]</a>.
+# and GBY pp 256-258
 # further explanation (pure HTML)
 @LINKS=
 Series of pages explaining
-<A
+<a
 href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/fstrpos-example.html">how
-Boyer-Moore works</A>.
+Boyer-Moore works</a>.
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A
-href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
-Matching Algorithms (C)</A>,
-<A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713a.srch.c">(C)</A>
-which uses <A
+@IMPL=Christian Charras' and Thierry Lecroq's <a
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node14">Boyer-Moore
+algorithm (C)</a>.
+<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713a.srch.c">(C)</a>
+which uses <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
-preprocessing (C)</A>
+preprocessing (C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/boyermoore.trm,v $
