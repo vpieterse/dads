@@ -1,0 +1,28 @@
+# *created  "Thu Dec 28 11:21:34 2000" *by "Paul E. Black"
+# *modified "Fri Feb 23 10:42:59 2001" *by "Paul E. Black"
+# entry name
+@NAME=block addressing index
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=An {inverted index} which includes the {block}, or general
+location, within texts, in addition to the text in which the word
+appears.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={full inverted index}, {inverted file index}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Nivio Ziviani, Edleno Silva de Moura, Gonzalo Navarro,
+Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
+Next-Generation Text Retrieval Systems</em>, IEEE Computer,
+33(11):37-44, November 2000, (page 42).
+# any notes.  these are not printed in the final dictionary
+@NOTES=See the example at {inverted index}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
