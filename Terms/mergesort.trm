@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Thu Oct 28 08:37:10 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:16 2004" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Revision 1.7  2004/12/17 17:24:16  black
+# Make more XHTML compliant.
+#
 # Revision 1.6  2004/10/28 12:38:03  black
 # Fix spelling of Sielaff's name.
 #
@@ -32,7 +35,7 @@ groups, {recursively#recursion} sorts each group, and
 Run time is {$\Theta$}(n log n).
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=mergesort
@@ -56,47 +59,47 @@ Run time is {$\Theta$}(n log n).
 Katajainen &amp; Pasanen.
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/MSort.html">demonstration</A>.
-<A href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
-quicksort, heapsort, and merge sort</A> on modern processors.
+<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/MSort.html">demonstration</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<A
+<a
 href="http://www.cs.utoronto.ca/~neto/teaching/238/16/mergesort.html">recurrence
-relation analysis and demonstration (Java)</A>; 
-<A
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</A>
-that needs <A
+relation analysis and demonstration (Java)</a>; 
+<a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
+that needs <a
 href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
-merge (C)</A> or <A
+merge (C)</a> or <a
 href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
-merge (C)</A>,
-<A
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</A> 
-that needs <A
+merge (C)</a>,
+<a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
+that needs <a
 href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
-merge (Pascal)</A> or <A
+merge (Pascal)</a> or <a
 href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
-merge (Pascal)</A>;
-<A
-href="http://www.cs.ubc.ca/spider/harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</A>;
-Demo and code of <A
+merge (Pascal)</a>;
+<a
+href="http://www.cs.ubc.ca/spider/harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</a>;
+Demo and code of <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">in-place
-and double merge sort (Java)</A>;
-Worst-case behavior <A
+and double merge sort (Java)</a>;
+Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/merge.html">annotated
-for real time (WOOP/ADA)</A>, including bibliography.
-Sohail Somani's <A
-href="https://sourceforge.net/snippet/download.php?type=snippet&id=101487">(C++)</A>,
-<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</A>.
-Siegfried Sielaff's description and code of an <A
+for real time (WOOP/ADA)</a>, including bibliography.
+Sohail Somani's <a
+href="https://sourceforge.net/snippet/download.php?type=snippet&id=101487">(C++)</a>,
+<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</a>.
+Siegfried Sielaff's description and code of an <a
 href="http://www.siegfried.sielaff.at/">in-place, stable variant he
-calls Swap Sort (C)</A> (click the British flag for an English
+calls Swap Sort (C)</a> (click the British flag for an English
 translation).
-Other implementations may be available through the <A
+Other implementations may be available through the <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
-Brook Algorithm Repository, Sorting</A>.
+Brook Algorithm Repository, Sorting</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/mergesort.trm,v $
