@@ -1,0 +1,46 @@
+# *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
+# *modified "Mon Nov 25 11:05:57 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Jaro-Winkler
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={double metaphone}, {soundex}, {NYSIIS}, {edit distance}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>William E. Winkler</strong> and <strong>Yves
+Thibaudeau</strong>, <em>An Application of the Fellegi-Sunter Model of
+Record Linkage to the 1990 U.S. Decennial Census</em>, Statistical
+Research Report Series RR91/09, U.S. Census Bureau, Washington, D.C.,
+1991.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Accepts two names and returns a number between 1, perfect
+match, and 0, completely different.  Used at the U.S. Census.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.census.gov/srd/www/byname.html#winklerwilliame">Winkler</A>
+and <A
+href="http://www.census.gov/srd/www/byname.html#thibaudeauyves">Thibaudeau</A>
+paper <A
+href="http://www.census.gov/srd/www/abstract/rr91-9.html">abstract</A>
+(HTML) and <A
+href="http://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</A>
+(PDF).  <A
+href="http://www.choicemaker.com/MEDD_2001_Imm_Reg_Conference.pdf">slide
+summary of algorithm and comparison of Soundex, edit distance, NYSIIS,
+and Jaro-Winkler</A>
+# author's initials (see authors.data)
+@AUTHOR=
+# end
