@@ -1,0 +1,60 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 10:49:29 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=directed acyclic word graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) A {directed acyclic graph} representing the {suffixes} of a
+given {string} in which each {edge} is labeled with a character.  The
+characters along a {path} from the {root} to a {node} are the
+{substring} which the {node} represents.
+(2) A {finite state machine} that recognizes a set of words.
+# comma-separated list of pure names
+@AKA=DAWG
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={compact DAWG}, {suffix tree}, {trie}, {Patricia tree},
+{suffix automaton}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=(1) <strong>Andrew W. Appel and Guy J. Jacobson</strong>, <em>The
+World's Fastest Scrabble Program</em>, CACM, 31(5):572-578, May 1988.
+Good description and comparison with a trie.
+#			copy in Mnemo 5.
+</P>
+<P>
+<strong>M. Crochemore and R. Verin</strong>,
+<em>Direct Construction of Compact Directed Acyclic Word Graphs</em>,
+8th Annual Symposium, CPM 97, Aarhus, Denmark, 116-129, 1997.
+</P>
+<P>
+(2) <strong>J. Aoe, K. Morimoto, M. Shishibori and K-H. Park</strong>,
+<em>A Trie Compaction Algorithm for a Large Set of Keys</em>,
+IEEE Trans. Knowledge and Data Engineering, 8(3):476-491, 1996. 
+</P>
+<P>
+<strong>D. Perrin</strong>,
+<em>Finite Automata</em>, in: J. van Leeuwen, ed., Handbook of
+Theoretical Computer Science, Elsevier, Amsterdam, Vol. A, 3-57, 1990.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+A variant, the compact DAWG, labels the edges with strings, not just
+single characters.  In the compact DAWG, any {node} with one {child}
+is merged with its {parent} and the edge labels are concatenated.
+Another variant is the morphic DAWG, where some substrings are
+encoded with new characters, like a simplified {Huffman encoding}.
+#
+# See "Word Graphs" by Robert W. P. Luk (copy in Mnemo 5), a review
+# paper for the Computer Journal I received in March 2000.  It
+# explains DAWG, directed acyclic word graph, compact DAWG, morphic
+# DAWG, and compact morphic DAWG.  Compares space and time tradeoffs
+# and comments on implementations.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
