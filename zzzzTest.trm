@@ -1,0 +1,42 @@
+# *created  "Tue Sep 15 16:48:57 1998" *by "Paul E. Black"
+# *modified "Wed Nov  3 11:53:00 2010" *by "Paul E. Black"
+
+# $Log: zzzzTest.trm,v $
+# Revision 1.7  2010/11/03 15:53:40  black
+# add test for unmatched HTML close-anchor and some RCS key words.
+#
+
+# entry name
+@NMAE=this tests audit functions
+@NAME=   
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=Q
+# basic, search, sort, graph, combin(atorial)
+@AREA=metaphysics
+# the definition
+#@DEFN=
+@IMA={this}.
+# Specialization: "... is a kind of me."
+@VARIANT=ends in blank 
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={piggy}.
+# Aggregate child: "... is a part of or used in me."
+@INME={one}.
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={template},   {example},{sample}.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Cross references are given like {this here}.  If the href is
+different from the text, for instance, the text must be capitalized or
+made plural, use the dual form like {these#this}.  The word "these"
+appears in the text, but the link is to "this".
+This has an unmatched open paren { at the end.
+This has an unmatched HTML close-anchor: </a>.
+@WEB=ends in period.
+@AKA=embedded {curly bracket},ends in blank 
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=NOBODY, BYU, PEB
+# end of $Source: /home/black/DADS/RCS/zzzzTest.trm,v $

@@ -1,0 +1,66 @@
+# *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
+# *modified "Fri Mar 16 14:59:21 2001" *by "Paul E. Black"
+# entry name
+@NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) This is a test term to check processing.  It should not be
+in the final release.  It has all the strangest, hardest examples and
+test cases I've found.
+(2) This is definition two.  A {node} \{this should not cause problems}
+some {B-trees} are big.  Surrounding phrases with ``LaTeX-style doubled
+quotes'' shouldn't matter, and surrounding them with "doublequotes" 
+shouldn't matter either.  But putting $``LaTeX-style doubled quotes''$
+in math mode markers (paired dollar signs) should make them
+doublequotes. {P-tree}(2),
+{arg\h?.} 
+{R<sup>+</sup>-tree} {some%D%L%R%Pings} {this is
+not found}
+
+<P>
+Entering LaTeX commands takes some work.  Anything between dollar
+signs is considered to be a LaTeX expression and subject to
+substitution.  All open curly brackets must be escaped (preceeded by a
+backslash) so they aren't misinterpreted as cross references.
+Subscripts (underline) and superscripts (caret) must be replaced by
+the HTML sub...end-sub and sup...end-sup.  Less than and greater than
+must be entered with the HTML &amp;lt; and &amp;gt;, otherwise trying
+to replace them would mess up sup/end-sup.
+
+<P>
+Here is a sample:
+$\int\sqrt\{5} < \rho \div \left\{ \overline\{S}<sup>T</sup> \right\} \pm \mu$
+but in the limiting case we have
+$42\lambda \cdot \infty \in \{\cal Q}\cup\{\bf P}\mbox\{and}\log\Re$.
+Here is an example of the crude math array handling.  This is supposed
+to be combination (n over 2): 
+$\delta\bigtriangleup\Delta\left(\begin\{array}\{c}n\\2\end\{array}\right)$
+# comma-separated list of pure names or {cross references}
+@AKA={test entry}, exercises all facilities
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=Both ${\omega}(n)$ and {$\omega$}(n) should be found,
+{B-tree},   {P-tree(1)},{P-tree(2)},
+{R<sup>+</sup>-tree},{R<sup>*</sup>-tree}, 
+{Merge sort} should be found--mkterms changes initial upper case to
+lower case
+# bibliographical references, e.g., to original defining article (pure HTML)
+@BIB=<strong>Paul E. Black</strong>, <em>Hypothetical Intelligent
+Plants, or, What Kind of Terminal Could a Tulip Use?</em>, to be
+published in Deep Thoughts, Proceedings of Life, the Universe,
+&amp; Everything XV, Provo, Utah, USA, February 1997.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+$\alpha \times \alpha \leq \Omega \ll \Sigma$ and
+$\Gamma \geq \Theta<sub>j</sub>+\alpha \gg \epsilon$
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.lds.org/">The Church of Jesus Christ of
+Latter Day Saints</A>
+<A HREF="http://nowhere.org/ %&+;=~blackfish">bad link</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end

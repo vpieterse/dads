@@ -1,0 +1,23 @@
+# *created  "Thu Aug 19 13:03:30 2010" *by "Paul E. Black"
+# *modified "Fri Jan  6 10:48:28 2012" *by "Paul E. Black"
+
+# check that aaaaTest is handled the way it was before.
+
+# diff the latest produced files with files produced some time ago.
+
+# (1) cp aaaaTest.trm Terms
+# (2) make site
+# (3) run this script:
+#    $ ./aaaaTestScript
+# The output should a few empty diff lines - date differences were
+# removed, but the diff headers remain
+
+cd aaaaTestDir/
+
+for f in *.html */*.html
+do
+    echo $f
+    diff $f ../Target/$f
+done | egrep -v " 20(03|09|10|11|12)" # remove date stamps
+
+# end of $Source$
