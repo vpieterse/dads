@@ -1,0 +1,24 @@
+# *created  "Tue Jan 26 08:45:51 1999" *by "Paul E. Black"
+# *modified "Mon Jan  6 10:12:11 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=best-first search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A search algorithm that considers the estimated best partial
+solution next.  This is typically implemented with a {priority
+queue}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={breadth-first search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This can be seen as an improved breadth-first search.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
