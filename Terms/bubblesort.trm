@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:19:11 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:37:53 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=bubble sort
@@ -59,8 +59,6 @@ sort explanation and animation (Java)</A>;
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 and source code (Java)</A>
 - but code might not render properly;
-<A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Bubble_Sort">explanation (C)</A>;
 <A href="http://www.cs.hope.edu/~alganim/animator/Animator.html">(Java)</A>.
 # author's initials
 @AUTHOR=PEB
