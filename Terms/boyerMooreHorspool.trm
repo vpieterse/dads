@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 10:18:33 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:10:08 2003" *by "Paul E. Black"
+# *modified "Mon Dec 13 16:05:43 2004" *by "Paul E. Black"
+
+# $Log: boyerMooreHorspool.trm,v $
+# Revision 1.2  2004/12/13 21:07:01  black
+# Initial definition.  Refine XREFS into IMA, etc.  Add BIB.  Add RCS
+# keywords.  Update HTML to be XHTML compatible.
+#
 
 # entry name
 @NAME=Boyer-Moore-Horspool
@@ -8,27 +14,46 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=
+@DEFN=A {string matching} algorithm that compares characters from
+the end of the {pattern} to its beginning.  When characters don't
+match, searching jumps to the next matching position in the {pattern}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=Horspool
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Boyer-Moore}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>R. Nigel Horspool</strong>,
+<em> Practical Fast Searching in Strings</em>, 
+Software - Practice and Experience, 10:501-506, 1980.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A
-href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
-Matching Algorithms (C)</A> entry for Horspool,
-<A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(C)</A> or
-<A
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</A>
+@IMPL=Christian Charras' and Thierry Lecroq's <a
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node18.html">Horspool
+algorithm (C)</a>.
+<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(C)</a> or
+<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</a>
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/boyerMooreHorspool.trm,v $
