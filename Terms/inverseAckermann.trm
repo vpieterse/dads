@@ -1,0 +1,38 @@
+# *created  "Wed Nov 20 10:55:36 2002" *by "Paul E. Black"
+# *modified "Wed Nov 20 11:27:17 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=inverse Ackermann function
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A function of two parameters whose value grows very, very slowly.
+# formal definition or {cross reference} to an entry
+@FORML=$\alpha(m,n) = \min\{i\geq 1: A(i, \lfloor m/n\rfloor) &gt;
+\log<sub>2</sub> n}$ where $A(i,j)$ is {Ackermann's function}.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=$\alpha$
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=inverse Ackerman's function
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Ackermann's function}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=This is not strictly the inverse of Ackermann's function.
+Rather, this grows as slowly as Ackermann's function grows quickly.
+</P>
+
+<P>
+After <A href="../terms.html#CLR90">[CLR90, page 452]</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
