@@ -1,12 +1,15 @@
-# $Id: latex2html.data,v 1.18 2004/01/20 18:49:47 black Exp $
+# $Id: latex2html.data,v 1.19 2004/01/23 14:09:58 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Jan 20 13:47:37 2004" *by "Paul E. Black"
+# *modified "Fri Jan 23 09:03:43 2004" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
 #
 
 # $Log: latex2html.data,v $
+# Revision 1.19  2004/01/23 14:09:58  black
+# Change emptyset to &oslash; and add \prime and \Prime.
+#
 # Revision 1.18  2004/01/20 18:49:47  black
 # Use (new) HTML ampersand-symbols, like &alpha;, instead of gifs.
 #
@@ -85,7 +88,9 @@
 \mapsto		|&rarr;
 #    Table 3.7: Miscellaneous Symbols
 \Re	<em>R</em>
-\emptyset	{}
+\prime		&prime;
+\Prime		&Prime;
+\emptyset	&oslash;
 \forall		&forall;
 \infty	&infin;
 #    Table 3.8: Variable-sized Symbols
