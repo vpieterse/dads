@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 15:34:21 1998" *by "Paul E. Black"
-# *modified "Thu Jul 29 09:20:40 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:40 2004" *by "Paul E. Black"
 
 # $Log: allPairsShortestPath.trm,v $
+# Revision 1.6  2004/12/17 17:27:40  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/07/29 13:56:24  black
 # Refer to a new, similar problem: all simple paths.
 #
@@ -47,9 +50,9 @@ similar problems: {shortest path}, {minimum spanning tree},
 between all pairs of vertices.  For a map, it is to produce the
 (shortest) road distances between all cities, not which roads to take
 to get from one city to another.
-</P>
+</p>
 
-<P>
+<p>
 After LK.
 # further explanation (pure HTML)
 @LINKS=
