@@ -1,5 +1,13 @@
 # *created  "Tue Dec  1 11:32:19 1998" *by "Paul E. Black"
-# *modified "Wed Dec  4 10:17:01 2002" *by "Paul E. Black"
+# *modified "Mon Apr 19 15:29:53 2004" *by "Paul E. Black"
+
+# $Log: acyclicgraph.trm,v $
+# Revision 1.2  2004/04/19 19:32:08  black
+# Clarify definition: "repeats no other vertex" is unnecessary (I
+# think).  Refine XREFS into IMA, etc.  Refer to feedback vertex/edge
+# sets.  Remove ref. to simple path: its not that relevant (and one can
+# find it via "path").
+#
 
 # entry name
 @NAME=acyclic graph
@@ -8,12 +16,23 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=A {graph} with no {path} which starts and
-ends at the same {vertex} and repeats no other vertex.
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={cycle}, {directed acyclic graph}, {simple path}
+@DEFN=A {graph} with no {path} that starts and
+ends at the same {vertex}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={graph}
+# Specialization: "... is a kind of me."
+@VARIANT={directed acyclic graph}, {tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={cycle}, {feedback edge set}, {feedback vertex set}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=An acyclic undirected graphic is like a {tree}.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/acyclicgraph.trm,v $
