@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  2 09:33:06 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 12:42:39 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=asymptotically tight bound
@@ -9,7 +9,7 @@
 @AREA=theory
 # the definition
 @DEFN=When the {asymptotic complexity#$\sim$} of an {algorithm} exactly
-matches the theoretically proven asymptotic complexity of the
+matches the theoretically proved asymptotic complexity of the
 corresponding problem.  Informally, when an algorithm solves a problem
 at the theoretical minimum.
 # comma-separated list of {cross references}, i.e., See also ...
