@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.9 2001/08/21 12:47:53 black Exp $
+# $Id: latex2html.data,v 1.10 2002/01/02 15:26:24 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Aug 21 08:38:09 2001" *by "Paul E. Black"
+# *modified "Wed Jan  2 10:22:11 2002" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -28,20 +28,20 @@
 
 #    Table 3.3: Greek Letters
 \alpha	<img src="Images/alpha.gif"  border=0 height=7  width=8  alt="alpha">
-\Gamma	<img src="Images/Gamma.gif"  border=0 height=10 width=7  alt="Capital Gamma">
+\Gamma	<img src="Images/Gamma.gif"  border=0 height=10 width=7  alt="upper-case Gamma">
 \delta	<img src="Images/delta.gif"  border=0 height=11 width=5  alt="delta">
-\Delta	<img src="Images/Delta.gif"  border=0 height=10 width=11 alt="Capital Delta">
+\Delta	<img src="Images/Delta.gif"  border=0 height=10 width=11 alt="upper-case Delta">
 \epsilon <img src="Images/epsilon.gif" border=0 height=7 width=5 alt="epsilon">
-\Theta	<img src="Images/Theta.gif"  border=0 height=10 width=8  alt="Capital Theta">
-\lambda	<img src="Images/lambda.gif" border=0 height=10 width=8  alt="Capital lambda">
+\Theta	<img src="Images/Theta.gif"  border=0 height=10 width=8  alt="upper-case Theta">
+\lambda	<img src="Images/lambda.gif" border=0 height=10 width=8  alt="upper-case lambda">
 \mu	&micro;
 \pi	<img src="Images/pi.gif"     border=0 height=7  width=8  alt="pi">
 \rho	<img src="Images/rho2.gif"   border=0 height=14 width=6  alt="rho" align=middle>
-\Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="Capital Sigma">
+\Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="upper-case Sigma">
 \phi	<img src="Images/phi.gif"    border=0 height=10 width=9  alt="phi">
-\Phi	<img src="Images/Phi.gif"    border=0 height=10 width=9  alt="Capital Phi">
+\Phi	<img src="Images/Phi.gif"    border=0 height=10 width=9  alt="upper-case Phi">
 \omega	<img src="Images/omega.gif"  border=0 height=7  width=9  alt="omega">
-\Omega	<img src="Images/Omega.gif"  border=0 height=10 width=9  alt="Capital Omega">
+\Omega	<img src="Images/Omega.gif"  border=0 height=10 width=9  alt="upper-case Omega">
 #    Table 3.4: Binary Operation Symbols
 \pm	&plusmn;
 \times	&times;
@@ -53,16 +53,19 @@
 \oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
 \otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
 #    Table 3.5: Relation Symbols
+\not	not
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
 \ll	&lt;&lt;
 \sim	<img src="Images/sim.gif" border=0 height=5 width=13 alt="similar to">
-\subset		is a proper subset of
 \subseteq	is a subset of
+\subset		is a proper subset of
 \geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
 \gg	&gt;&gt;
 \approx	<img src="Images/approx.gif" border=0 height=6 width=13 alt="approximately equal to">
 \neq	<img src="Images/neq.gif" border=0 height=10 width=10 alt="not equal to">
+\notin	<img src="Images/notin.gif" border=0 height=11 width=9 alt="not in">
 #\in	in		must go at end to not mess up \int and \infty
+\mid	|
 #    Table 3.6 Arrow Symbols
 \rightarrow	-&gt;
 \mapsto		|-&gt;
@@ -96,7 +99,7 @@
 ``	"
 ''	"
 ---	-
-\sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">($)
+\sqrt{$}	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root">($)
 \sqrt		<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">
 \overline{$}	$
 \mbox{$}	$
@@ -113,5 +116,5 @@
 \\		OVER&nbsp;
 \end{array}	
 # this must go after \int and \infty to not mess them up
-\in	in
+\in	<img src="Images/member.gif" border=0 height=11 width=9 alt="in">
 # end $Source: /home/black/DADS/dads/RCS/latex2html.data,v $
