@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:37:32 2004" *by "Paul E. Black"
+# *modified "Tue Oct 19 08:30:10 2004" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Revision 1.5  2004/10/19 12:44:24  black
+# Remove citation of "best modern reference".  Make NOTE more neutral.
+#
 # Revision 1.4  2004/04/19 18:37:38  black
 # Use the standard English plural of vertex
 #
@@ -53,7 +56,7 @@ any consideration for direction.  For example, a map of streets in a
 neighborhood is an undirected graph, but a map that shows the
 postman's route through that neighborhood is a directed graph.
 A directed graph may be thought of as a neighborhood of one-way
-streets: your map must show the direction one may travel on each
+streets: the map must show the allowed direction of travel on each
 street.  A regular two-way street may be thought of as two one-way
 streets.
 
@@ -91,12 +94,6 @@ Bertrand Russell titled  "Introduction to Mathematical Philosophy".
 <P>
 If you find an earlier digraph, please contact me, 
 <A href="mailto:Jnwarfield@aol.com">John N. Warfield</A>.
-</P>
-<P>
-The best modern reference is the book by Harary, Norman, and
-Cartwright (John Wiley &amp; Sons, 1965) titled "Structural
-Modeling---The Theory of
-Directed Graphs".
 
 # implementation(s) (pure HTML)
 @IMPL=<A
