@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:02:06 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:39:50 2004" *by "Paul E. Black"
+
+# $Log: isomorphic.trm,v $
+# Revision 1.3  2004/04/19 18:39:54  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:02:12  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=isomorphic
@@ -9,12 +17,23 @@
 @AREA=graph
 # the definition
 @DEFN=Two {graphs} are isomorphic if there 
-is a one-to-one correspondence between their {vertexes} and
-there is an {edge} between two vertexes of one graph
+is a one-to-one correspondence between their {vertices#vertex} and
+there is an {edge} between two vertices of one graph
 if and only if there is an edge between
-the two corresponding vertexes in the other graph. 
-# comma-separated list of {cross references}, i.e., See also ...
+the two corresponding vertices in the other graph. 
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={homeomorphic}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
