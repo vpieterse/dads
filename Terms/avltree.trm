@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:05 2004" *by "Paul E. Black"
+# *modified "Mon Jan 24 09:41:28 2005" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.10  2005/01/24 14:42:09  black
+# Remove John Kloss' IMPL.  Probably moved somewhere.
+#
 # Revision 1.9  2004/12/17 17:23:05  black
 # Make more XHTML compliant.
 #
@@ -98,11 +101,6 @@ Kaz Kylheku's
 <a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
 implementing sorted list, binary search tree, AVL, red-black and splay
 trees and conversions from any of these to any other.
-<a
-href="http://pentagon.cs.jhu.edu/~jkloss/htmls/structures/src/kloss/structures/AVLTree.java">(Java)</a>
-needs insert, delete, search, etc. from the <a
-href="http://pentagon.cs.jhu.edu/~jkloss/htmls/structures/src/kloss/structures/functions/">functions
-directory</a>,
 Worst-case behavior of <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/avl.html">traversal,
 annotated for real time (WOOP/ADA)</a>.
