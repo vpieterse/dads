@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Thu Jun 17 12:31:36 2004" *by "Paul E. Black"
+# *modified "Thu Oct 21 16:19:19 2004" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Revision 1.5  2004/10/21 20:19:43  black
+# Add Sielaff's IMPL.
+#
 # Revision 1.4  2004/06/17 16:32:43  black
 # Remove AKA sort merge - I don't think its really used.  Refine XREFS
 # into IMA, etc.  Refer to article comparing sort routines.
@@ -84,6 +87,10 @@ for real time (WOOP/ADA)</A>, including bibliography.
 Sohail Somani's <A
 href="https://sourceforge.net/snippet/download.php?type=snippet&id=101487">(C++)</A>,
 <A href="http://www.math.grin.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</A>.
+Siegfreid Sielaff's description and code of an <A
+href="http://www.siegfried.sielaff.at/">in-place, stable variant he
+calls Swap Sort (C)</A> (click the British flag to have the site
+translated into English).
 Other implementations may be available through the <A
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</A>.
