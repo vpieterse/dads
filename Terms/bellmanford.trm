@@ -1,5 +1,5 @@
 # *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
-# *modified "Fri May  9 10:11:57 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:21 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Bellman-Ford algorithm
@@ -9,12 +9,12 @@
 @AREA=graph
 # the definition
 @DEFN=An efficient algorithm to find the {shortest paths}
-from a single {source} {vertex} to all other vertices in a 
+from a single {source} {vertex} to all other vertexes in a 
 {weighted, directed graph}.
 Weights may be negative.  
 The algorithm initializes the distance to
-the source vertex to 0 and all other vertices to $\infty$.  It then
-does $V-1$ passes (V is the number of vertices) over all {edges}
+the source vertex to 0 and all other vertexes to $\infty$.  It then
+does $V-1$ passes (V is the number of vertexes) over all {edges}
 relaxing, or updating, the distance to the destination of each edge.
 Finally it checks each edge again to detect negative weight {cycles},
 in which case it returns false.  The time complexity is {O(VE)#big-O
@@ -42,4 +42,4 @@ and example (C-like pseudocode)</A>
 @LINKS=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/bellmanford.trm,v $
