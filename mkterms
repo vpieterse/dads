@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.63 2002/11/20 16:47:34 black Exp $
+# $Id: mkterms,v 1.64 2003/01/07 17:09:50 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Wed Nov 20 11:12:30 2002" *by "Paul E. Black"
+# *modified "Tue Jan  7 12:09:31 2003" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -449,10 +449,10 @@ TABLE_NEXT_COLUMN
     close(FHANDLE);
 
     if (defined $thisEntry{TYPE}) {
-	print TERMPAGE "<p>\n($elongtype)\n</p>\n\n";
+	print TERMPAGE "<P>\n($elongtype)\n</P>\n\n";
     }
 
-    print TERMPAGE "<p>\n<strong>Definition:</strong>\n";
+    print TERMPAGE "<P>\n<strong>Definition:</strong>\n";
     if (defined $thisEntry{DEFN}) {
 	my($edefn) = $thisEntry{DEFN};
 	# convert cross references ({...}) to href's
@@ -466,7 +466,7 @@ TABLE_NEXT_COLUMN
 <A href=\"../$MAINPAGE\#needHelp\">you can help</A>.)
 NO_DEFN_MESSAGE
     }
-    print TERMPAGE "</p>\n\n";
+    print TERMPAGE "</P>\n\n";
 
     if (defined $thisEntry{FORML}) {
 	my($eformlDef) = $thisEntry{FORML};
@@ -474,7 +474,7 @@ NO_DEFN_MESSAGE
 	&rewriteXrefs($eformlDef, $ename);
 	# convert LaTeX expressions to HTML
 	&rewriteLatex($eformlDef);
-	print TERMPAGE "<p>\n<strong>Formal Definition:</strong> $eformlDef\n</p>\n";
+	print TERMPAGE "<P>\n<strong>Formal Definition:</strong> $eformlDef\n</P>\n";
     }
 
     if (defined $thisEntry{AKA}) {
@@ -485,7 +485,7 @@ NO_DEFN_MESSAGE
 	&rewriteXrefs($ealiases, $ename);
 	# convert LaTeX expressions to HTML
 	&rewriteLatex($ealiases);
-	print TERMPAGE "<p>\n<strong>Also known as</strong> $ealiases.\n</p>\n\n";
+	print TERMPAGE "<P>\n<strong>Also known as</strong> $ealiases.\n</P>\n\n";
     }
     if (defined $thisEntry{XREFS}) {
 	my($exrefs) = $thisEntry{XREFS};
@@ -495,7 +495,7 @@ NO_DEFN_MESSAGE
 	&rewriteLatex($exrefs);
 	# have exactly one space after a comma
 	$exrefs =~ s|,\s*|, |go;
-	print TERMPAGE "<p>\n<strong>See also</strong>\n$exrefs.\n</p>\n\n";
+	print TERMPAGE "<P>\n<strong>See also</strong>\n$exrefs.\n</P>\n\n";
     }
     if (defined $thisEntry{NOTES}) {
 	my($enotes) = $thisEntry{NOTES};
@@ -505,13 +505,17 @@ NO_DEFN_MESSAGE
 	&rewriteXrefs($enotes, $ename);
 	# convert LaTeX expressions to HTML
 	&rewriteLatex($enotes);
-	print TERMPAGE "<p>\n<em>Note:\n$enotes</em>\n</p>\n\n";
+	print TERMPAGE "<P>\n<em>Note:\n$enotes</em>\n</P>\n\n";
     }
     if (defined $thisEntry{AUTHOR}) {
 	my($eauth) = $thisEntry{AUTHOR};
 	$eauth =~ s| *([^,]+)|<A href="../$OTHER/$AUTHPAGE.html\#author$1">$1</A>|go;
-	# SKIMP write plural if more than one
-	print TERMPAGE "<p>Author: $eauth</p>\n";
+	# use plural if more than one
+	$plural = "";
+	if ($eauth =~ /,/o) {
+	    $plural = "s";
+	}
+	print TERMPAGE "<P>Author$plural: $eauth</P>\n";
     }
     if (defined $thisEntry{IMPL}) {
 	my($eimpls) = $thisEntry{IMPL};
@@ -527,13 +531,13 @@ NO_DEFN_MESSAGE
 	my($elinks) = $thisEntry{LINKS};
 	# rewrite HREFs with exit_nist script
 	&rewriteHrefs($elinks);
-	print TERMPAGE "$elinks\n";
+	print TERMPAGE "<P>\n$elinks\n</P>\n";
     }
     if (defined $thisEntry{BIB}) {
 	my($ebiblio) = $thisEntry{BIB};
 	# rewrite HREFs with exit_nist script
 	&rewriteHrefs($ebiblio);
-	print TERMPAGE "<p>\n$ebiblio\n</p>\n";
+	print TERMPAGE "<P>\n$ebiblio\n</P>\n";
     }
     print TERMPAGE "\n";
 
