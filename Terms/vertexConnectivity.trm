@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:58:32 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:29:00 2004" *by "Paul E. Black"
 
 # $Log: vertexConnectivity.trm,v $
+# Revision 1.4  2004/12/17 17:29:00  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/04/19 18:58:43  black
 # Use the standard English plural of vertex
 #
@@ -38,9 +41,9 @@ deletion will separate $s$ from $t$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/edge-vertex-connectivity.shtml">(Mathematica,
-C, and Pascal)</A>
+C, and Pascal)</a>
 # author's initials
 @AUTHOR=GS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/vertexConnectivity.trm,v $
