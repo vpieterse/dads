@@ -1,5 +1,11 @@
 # *created  "Tue Nov 17 17:01:18 1998" *by "Paul E. Black"
-# *modified "Tue May  7 10:58:08 2002" *by "Paul E. Black"
+# *modified "Mon Jun 28 11:10:31 2004" *by "Paul E. Black"
+
+# $Log: ptree.trm,v $
+# Revision 1.2  2004/06/28 16:19:57  black
+# Improve some grammar.  Refine XREFS into IMA, etc., add RCS keywords,
+# and other clean-ups.
+#
 
 # entry name
 @NAME=P-tree
@@ -12,14 +18,25 @@
 addition to the orthogonal dimensions, which node boundaries may
 parallel.  Space is split by hierarchically nested 
 {polytopes} (multidimensional boxes
-with nonrectangular sides).  The {R-tree} is a special case which
+with nonrectangular sides).  The {R-tree} is a special case that
 has no additional hyperplanes.
-(2) A {spatial access method} which splits space by
+(2) A {spatial access method} that splits space by
 hierarchically nested polytopes.
 The {R-tree} is a special case in which all polytopes are boxes.
 #(3) pointer tree? (see implementation)
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={tree}, {spatial access method}
+# Specialization: "... is a kind of me."
+@VARIANT={R-tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={polytope}
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=(2) by Jagadish after <A href="../terms.html#GG98">[GG98]</A>.
 #  (3) by Schiwietz after <A href="../terms.html#GG98">[GG98]</A>.
@@ -27,12 +44,12 @@ The {R-tree} is a special case in which all polytopes are boxes.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Implementations of P-tree (1) <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.ins.c">insert
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.ins.c">insert
 (C and Pascal)</A>, <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.del.c">delete
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.del.c">delete
 max (C and Pascal)</A>, and <A
-HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.insp.c">head
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/512.insp.c">head
 (C and Pascal)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/ptree.trm,v $
