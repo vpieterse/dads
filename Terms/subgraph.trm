@@ -1,5 +1,13 @@
 # *created  "Thu Jun 17 12:54:59 1999" *by "Paul E. Black"
-# *modified "Tue Oct 14 14:57:09 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:57:15 2004" *by "Paul E. Black"
+
+# $Log: subgraph.trm,v $
+# Revision 1.3  2004/04/19 18:57:21  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 18:57:26  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=subgraph
@@ -8,7 +16,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=graph
 # the definition
-@DEFN=A {graph} whose {vertexes} and {edges} are {subsets} of
+@DEFN=A {graph} whose {vertices#vertex} and {edges} are {subsets} of
 another {graph}.
 # formal definition or {cross reference} to an entry
 @FORML=Given a {graph} $G=(V, E)$, another graph $G'=(V', E')$ is a
@@ -22,8 +30,19 @@ subgraph iff
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
