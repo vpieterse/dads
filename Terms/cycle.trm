@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Wed Sep 29 16:03:10 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:31 2004" *by "Paul E. Black"
 
 # $Log: cycle.trm,v $
+# Revision 1.8  2004/12/17 17:23:32  black
+# Make more XHTML compliant.
+#
 # Revision 1.7  2004/09/29 20:04:02  black
 # Remove WEB def'n of circuit, since circuit already has an entry.
 # Instead add a NOTE that a cycle is also known as a circuit.
@@ -37,7 +40,7 @@ To find a cycle, use {depth-first search}.  One step in finding all
 cycles is to look for {strongly connected components}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -57,16 +60,16 @@ cycles is to look for {strongly connected components}.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Ignoring the start (or end) vertex, the constraint that it
 include vertices at most once makes a cycle a {simple path}.
-</P>
+</p>
 
-<P>
+<p>
 Also known as "circuit".
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.geocities.com/Vienna/7079/src/graph.txt">graph cycle
-detector (C)</A>
+detector (C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/cycle.trm,v $
