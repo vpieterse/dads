@@ -1,0 +1,37 @@
+# *created  "Tue Nov  2 13:00:29 1999" *by "Paul E. Black"
+# *modified "Mon Jan  6 10:10:34 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=British Museum algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A general approach to find a solution by checking all
+possibilities one by one, beginning with the smallest.  The term
+refers to a conceptual, not a practical, technique where the number of
+possibilities are enormous.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={breadth-first search}, {brute force}, {exhaustive search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance, one may, in theory, find the smallest program
+that solves a particular problem in the following way:
+Generate all possible source codes of length one character.  Check
+each one to see if it solves the problems.  (Note: the {halting
+problem} makes this check troublesome.)  If not, generate and check
+all programs of two characters, three characters, etc.
+Conceptually this finds the smallest program, but in practice it takes
+far more time than the age of the universe.
+</P>
+
+<P>
+Similar arguments can be made to show that optimizations, theorem
+proving, language recognition, etc. is possible or impossible.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
