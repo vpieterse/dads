@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 25 09:55:59 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 09:12:35 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=perfect binary tree
@@ -23,13 +23,9 @@ After LK.
 
 <P>
 Every perfect binary tree is both a complete binary tree and a full
-binary tree.
-</P>
-
-<P>
-A heap may be seen as a perfect binary tree with some extra leaf
-nodes at {depth} $n+1$, all toward the left.  
-(After <A href="../terms.html#CLR90">[CLR90, page 140]</A>).
+binary tree.  A complete binary tree may be seen as a perfect binary
+tree with some extra leaf nodes at {depth} $n+1$, all toward the
+left.  (After <A href="../terms.html#CLR90">[CLR90, page 140]</A>).
 </P>
 
 <P>
