@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  6 09:11:34 2002" *by "Paul E. Black"
+# *modified "Wed Dec 17 11:49:16 2003" *by "Paul E. Black"
+
+# $Log: venndiagram.trm,v $
+# Revision 1.2  2003/12/17 16:49:35  black
+# Update URLs
+#
+
 # entry name
 @NAME=Venn diagram
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -34,8 +40,9 @@ Omnia</A>, a century earlier).
 href="http://infinity.sequoias.cc.ca.us/faculty/woodbury/Stats/Tutorial/Sets_Venn2.htm">Simple
 diagrams, examples, and explanations</A>.
 <A
-href="http://sue.csc.uvic.ca/~cos/venn/VennWhatEJC.html">Formal
+href="http://www.theory.cs.uvic.ca/~cos/venn/VennWhatEJC.html">Formal
 definition and methods to draw diagrams for N variables</A>.
+# no response from rattler 17 Dec 2003
 A short biography of <A
 href="http://rattler.cameron.edu/EMIS/journals/EJC/Surveys/ds5/VennJohnEJC.html">John
 Venn</A>, with extensive references.
@@ -43,4 +50,4 @@ Venn</A>, with extensive references.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/venndiagram.trm,v $
