@@ -1,5 +1,14 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:01:42 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:39:55 2004" *by "Paul E. Black"
+
+# $Log: kcoloring.trm,v $
+# Revision 1.3  2004/04/19 18:39:59  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:01:46  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=k-coloring
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,14 +17,25 @@
 @AREA=graph
 # the definition
 @DEFN=1) The assignment of <em>k</em> colors (or any distinct marks)
-to the {vertexes} of a {graph}.
+to the {vertices#vertex} of a {graph}.
 2) The assignment of <em>k</em> colors to the {edges} of a {graph}.
 
 <P>
-A coloring is a {proper coloring} if no two {adjacent} vertexes
+A coloring is a {proper coloring} if no two {adjacent} vertices
 or edges have the same color.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={edge coloring}, {vertex coloring}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
