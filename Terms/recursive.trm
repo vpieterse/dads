@@ -1,0 +1,31 @@
+# *created  "Mon Jun 21 10:06:32 1999" *by "Paul E. Black"
+# *modified "Fri Sep 27 09:55:41 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=recursive
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=(1) A data structure that is partially composed of other
+instances of the data structure.  For instance, a {tree} is composed
+of smaller trees ({subtrees}) and {leaf} {nodes}, and a
+{list} may 
+have other lists as elements.  (2) An {algorithm} in which
+functions might call themselves.  For instance, {quicksort} or {heapify}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={recursion}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Infinite data structures may be represented by having a tree
+include (point back to) itself recursively, a list include itself,
+etc.  Recursive data structures are often best handled with a
+recursive algorithm, or an algorithm using {recursion}.
+# further explanation (pure HTML)
+@LINKS=See the entry at recursion for links, explanations, exercises,
+cross references, etc.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
