@@ -1,0 +1,25 @@
+# *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:11:31 2001" *by "Paul E. Black"
+# entry name
+@NAME=trie
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {tree} for storing {strings} in which there is one {node} for
+every common {prefix}.  The strings are stored in extra {leaf} nodes.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={digital tree}, {digital search tree}, {directed acyclic word
+graph}, {compact DAWG}, {Patricia
+tree}, {suffix tree}
+# any notes.  these will not be printed in the final dictionary
+#	Algorithms & Theory of Computation Handbook, page 14-3
+#	Fundamentals of Data Structures, Horowitz and Sahni, pp 517-525
+@NOTES=The name comes from re<strong>trie</strong>val and is
+pronounced, "tree."
+# implementation(s): pure HTML
+@IMPL=<A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.ins.c">insert (C)</A>, <A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.srch.c">search (C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
