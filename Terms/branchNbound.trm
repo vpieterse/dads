@@ -1,7 +1,10 @@
 # *created  "Mon Jan 25 16:30:30 1999" *by "Paul E. Black"
-# *modified "Thu Feb  5 13:02:02 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:49 2004" *by "Paul E. Black"
 
 # $Log: branchNbound.trm,v $
+# Revision 1.3  2004/12/17 17:27:49  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/02/05 18:03:33  black
 # Correct a grammatical error, and improve wording.  Note when the
 # technique is not helpful.  Add RCS Log.  Refine XREFS into IMA, etc.
@@ -41,27 +44,27 @@ Cumeni.  If the shortest distance from Zarahemla to Cumeni is
 reason to explore possible roads from Cumeni: they will be at least
 396 km (350 + 46), which is worse than the shortest known route.  So
 we need not explore paths from Cumeni.  
-</P>
+</p>
 
-<P>
+<p>
 This may be implemented as a {backtracking} algorithm, which is a
 modified {depth-first search}, or using a {priority queue}
 ordering partial solutions by lower bounds (current + least possible
 completion), which is a {best-first search}.
-</P>
+</p>
 
-<P>
+<p>
 This technique is not helpful if all solutions are about the same or
 the initial solutions are very poor and better solutions are only
 found gradually.  In either case, the cost is similar to exploring the
 entire solution space.
 # further explanation (pure HTML)
-@LINKS=A more formal and complete <A
-href="http://www.cs.sandia.gov/opt/survey/branch-and-bound.html">explanation</A>.
+@LINKS=A more formal and complete <a
+href="http://www.cs.sandia.gov/opt/survey/branch-and-bound.html">explanation</a>.
 # implementation(s) (pure HTML)
-@IMPL=A page of <A
+@IMPL=A page of <a
 href="http://solon.cma.univie.ac.at/~neum/glopt/software_g.html#bb_codes">branch
-and bound implementations (C, C++, Matlab, Fortran, executables, etc.)</A>.
+and bound implementations (C, C++, Matlab, Fortran, executables, etc.)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/branchNbound.trm,v $
