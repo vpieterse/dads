@@ -1,0 +1,42 @@
+# *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
+# *modified "Mon Mar  3 09:05:12 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=Knuth-Morris-Pratt algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm which turns the search string into
+a {finite state machine}, then runs the machine with the string to be
+searched as the input string.  Execution time is {O(m+n)#big-O
+notation}, where m is the length of the search string, and n is the
+length of the string to be searched.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=KMP
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+a <A
+href="http://www5.palmnet.net/~eschank/search/search.html">comparison</A>
+of Naive, Knuth-Morris-Pratt, and Boyer-Moore string searches.
+# implementation(s) (pure HTML)
+@IMPL=Christian Charras' and Thierry Lecroq's <A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
+Matching Algorithms (C)</A>,
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
+and Pascal)</A> which uses <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
+preprocessing (C)</A>
+# author's initials
+@AUTHOR=SB
+# end
