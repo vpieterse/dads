@@ -1,0 +1,35 @@
+# *created  "Tue Jan 28 13:25:37 2003" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:37:47 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=self-organizing list
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {list} that reorders the elements based on some
+{self-organizing heuristic} to improve average access time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# implementation(s) (pure HTML)
+@IMPL=Discussion of <A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Self_Organizing_Lists/self_organizing_lists.html">several
+techniques with code (C)</A>
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
