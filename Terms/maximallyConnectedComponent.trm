@@ -1,5 +1,5 @@
 # *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
-# *modified "Fri May  3 13:24:40 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:04:55 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=maximally connected component
@@ -15,7 +15,7 @@ no {vertex} can be added and it still be connected.
 maximally connected component if 
 <ul>
 <li> $S$ is {connected#connected graph}, and
-<li> for all vertices $u such that u\in V and u\notin V'$ there is no
+<li> for all vertexes $u such that u\in V and u\notin V'$ there is no
 vertex $v\in V'$ for which $(u, v)\in E$.
 </ul>
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -41,4 +41,4 @@ Pascal, Mathematica, and Fortran)</A>
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=AL
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/maximallyConnectedComponent.trm,v $
