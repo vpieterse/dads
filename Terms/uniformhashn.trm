@@ -1,0 +1,29 @@
+# *created  "Wed Feb  2 16:37:56 2000" *by "Paul E. Black"
+# *modified "Thu Jan  9 15:15:51 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=uniform hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A conceptual method of {open addressing} for a {hash table}.
+A {collision} is resolved by putting the item in the next empty
+place given by a {probe sequence} which is independent of sequences
+for all other {key}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={collision resolution scheme}, {clustering free}, {double
+hashing}, {quadratic probing}, {linear probing}, {perfect hashing},
+{simple uniform hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Since the probe sequences are independent, this is free of
+clustering.  This is conceptual because real probe sequences are
+unlikely to be completely independent.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
