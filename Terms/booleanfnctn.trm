@@ -1,0 +1,22 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Feb 29 09:22:44 2000" *by "Paul E. Black"
+# entry name
+@NAME=boolean function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A {function} whose {range} is $\{0, 1}$.  It can be understood to
+evaluate the truth or falsity of each element of its {domain}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binary function}, {predicate}, {boolean}, {boolean expression}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=SKS
+# end
