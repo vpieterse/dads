@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 14:10:54 1998" *by "Paul E. Black"
-# *modified "Thu Oct 14 16:31:02 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:35 2004" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Revision 1.6  2004/12/17 17:24:35  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/10/14 20:31:25  black
 # Fix spelling of conversions.
 #
@@ -30,7 +33,7 @@ from the {root} as any other.
 @FORML=
 A red-black tree with $n$ internal nodes has {height}
 at most $2\log<sub>2</sub>(n+1)$.  
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=symmetric binary B-tree
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -48,12 +51,12 @@ at most $2\log<sub>2</sub>(n+1)$.
 @XREFS=
 {height-balanced tree}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Rudolf Bayer</strong>, <em>Symmetric Binary B-Trees: Data
 Structures and Maintenance Algorithms</em>,
 Acta Informatica, 1:290-306, 1972.
-<BR>
+<br>
 <strong>Leo J. Guibas</strong> and <strong>Robert Sedgewick</strong>,
 <em>A Dichromatic Framework for Balanced Trees</em>, Proceedings of
 the 19th Annual Symposium on Foundations of Computer Science,
@@ -63,33 +66,33 @@ pages 8-21. IEEE Computer Society, 1978.
 @NOTES=The extra bit "colors" the node red or black, hence the name.
 These were called "symmetric binary B-trees" when first invented.  The
 red/black naming and explanation was given by Guibas and Sedgewick.
-</P>
+</p>
 
-<P>
+<p>
 An AVL tree is at least as balanced than a red-black tree.
 # Kaz Kylheku <kaz@ashi.footprints.net>
 # comp.theory 12 Oct 2004
 
 # further explanation (pure HTML)
 @LINKS=
-<A
+<a
 href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic18/">explanations,
-examples, and links</A> to more material.
+examples, and links</a> to more material.
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au
-<A
+<a
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/red_black.html">analysis,
-explanation, examples, and code (C)</A>.
+explanation, examples, and code (C)</a>.
 Ben Pfaff's 
-<A href="http://www.stanford.edu/~blp/avl/">libavl (C)</A> including
+<a href="http://www.stanford.edu/~blp/avl/">libavl (C)</a> including
 pointers to other implementations.
 Kaz Kylheku's
-<A
-href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+<a
+href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>
 implementing dictionary, dynamic hash table, red-black tree, and
 doubly linked list;
-<A href="http://users.footprints.net/~kaz/austin.html">Austin (C)</A>
+<a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
 implementing sorted list, binary search tree, AVL, red-black and splay
 trees and conversions from any of these to any other.
 # author's initials
