@@ -1,0 +1,30 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Feb 19 15:08:50 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=set cover
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=A {set} of sets whose {union} has all members of the union of
+all sets.  The set cover problem is to find a minimum size set.
+# formal definition or {cross reference} to an entry
+@FORML=Given a set $S$ of sets, choose $c \subseteq S$ such that 
+$\bigcup<sub>i=1</sub> c<sub>i</sub> = \bigcup<sub>i=1</sub> S<sub>i</sub>$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=set covering problem
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={covering}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.sunysb.edu/~algorith/files/set-cover.shtml">(Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
