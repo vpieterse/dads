@@ -1,5 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Nov 30 11:50:47 2001" *by "Paul E. Black"
+# *modified "Mon Mar  8 09:59:13 2004" *by "Paul E. Black"
+
+# $Log: jumpsearch.trm,v $
+# Revision 1.2  2004/03/08 15:26:42  black
+# Refine XREFS into IMA, etc.  Improve wording of definition.  Remove
+# "doing smaller jumps"-that's alluded to in the note.  Add author (me,
+# since I can't find a trace that anyone else did it).
+#
+
 # entry name
 @NAME=jump search
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,15 +15,26 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=An algorithm to search sorted items by checking jth item until
-the right area is found, then doing smaller jumps or a {linear
+@DEFN=Search a {sorted array} by checking every $j<sup>th</sup>$ item
+until the right area is found, then doing a {linear
 search}.  The optimum for $n$ items is when $j=\sqrt n$.
 # comma-sep of pure names or {cross references} that this is Also Known As.
 @AKA=block search
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=block searching
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={interpolation search}, {binary search}, {linear search}
+
 # bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
 @BIB=<strong>Ben Shneiderman</strong>, <em>Jump Searching: A Fast
 Sequential Search Technique</em>, CACM, 21(10):831-834, October 1978.
@@ -28,5 +47,5 @@ the second level of jumps.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/jumpsearch.trm,v $
