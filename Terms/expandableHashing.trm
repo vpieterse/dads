@@ -1,5 +1,11 @@
 # *created  "Tue Nov 14 09:33:09 2000" *by "Paul E. Black"
-# *modified "Tue Nov 14 09:38:31 2000" *by "Paul E. Black"
+# *modified "Mon May 24 11:21:40 2004" *by "Paul E. Black"
+
+# $Log: expandableHashing.trm,v $
+# Revision 1.2  2004/05/24 15:22:06  black
+# Change pp. to pages.
+#
+
 # entry name
 @NAME=expandable hashing
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,16 +14,27 @@
 @AREA=
 # the definition
 @DEFN=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=Source: Knott, G. D., "Expandable open addressing hash table storage
 and retrieval."  Proc. ACM SIGFIDET Workshop on Data Description,
-Access, and Control, 1971, pp. 186-206.
+Access, and Control, 1971, pages 186-206.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/expandableHashing.trm,v $
