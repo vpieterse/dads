@@ -1,5 +1,11 @@
 # *created  "Sat Sep  4 16:34:13 1999" *by "Paul E. Black"
-# *modified "Sat Sep  4 16:35:02 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:02:47 2004" *by "Paul E. Black"
+
+# $Log: calcucommsys.trm,v $
+# Revision 1.2  2004/12/17 17:02:48  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Calculus of Communicating Systems
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -9,8 +15,19 @@
 # the definition
 @DEFN=Robin Milner's algebraic theory to formalize the notion of
 concurrent computation.  Commonly known as CCS.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={CSP}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -19,4 +36,4 @@ concurrent computation.  Commonly known as CCS.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/calcucommsys.trm,v $
