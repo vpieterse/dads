@@ -1,7 +1,11 @@
 # *created  "Mon Dec 14 15:34:21 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:40 2004" *by "Paul E. Black"
+# *modified "Tue Feb  1 15:43:04 2005" *by "Paul E. Black"
 
 # $Log: allPairsShortestPath.trm,v $
+# Revision 1.7  2005/02/01 20:44:59  black
+# Add XREF to SSSP.  Remove XREFS to Dijkstra and Bellman-Ford (they
+# solve SSSP).
+#
 # Revision 1.6  2004/12/17 17:27:40  black
 # Make more XHTML compliant.
 #
@@ -41,8 +45,8 @@ graph}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Floyd-Warshall algorithm}, {Johnson's algorithm}
-{Dijkstra's algorithm}, {Bellman-Ford algorithm},
-similar problems: {shortest path}, {minimum spanning tree}, 
+similar problems: {single-source shortest-path problem},
+{shortest path}, {minimum spanning tree}, 
 {traveling salesman}, {all simple paths}
 
 # any notes.  these will not be printed in the final dictionary
