@@ -1,0 +1,29 @@
+# *created  "Thu Feb 11 09:37:09 1999" *by "Paul E. Black"
+# *modified "Wed Jan  9 11:33:37 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=union
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=The union of two {sets} is a set having all members
+in either set.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=set union
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={intersection}, {difference}, {complement}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The union of \{2, 3, 5} and \{7, 5, 8} is \{2, 3, 5, 7, 8}.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
