@@ -1,0 +1,42 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Aug  2 10:35:06 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Zipf's law
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=crypt
+# the definition
+@DEFN=The probability of occurrence of words or other items starts
+high and tapers off.  Thus, a few occur very often while many others
+occur rarely.
+# formal definition or {cross reference} to an entry
+@FORML=$P<sub>n</sub> \sim 1/n<sup>a</sup>$, where
+$P<sub>n</sub>$ is the frequency of occurrence of the $n<sup>th</sup>$
+ranked item and $a$ is close to 1.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Zipfian distribution}, {Lotka's law}, {Benford's law},
+{Bradford's law}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In the English language words like "and," "the," "to," and "of"
+occur often while words like "undeniable" are rare.  This law applies
+to words in human or computer languages, operating system calls,
+colors in images, etc., and is the basis of many (if not, all!)
+compression approaches.
+</P>
+
+<P>
+Named for George Kingsley Zipf.
+# further explanation (pure HTML)
+@LINKS=A <A href="http://linkage.rockefeller.edu/wli/zipf/">brief
+explanation of the law with links to dozens of papers</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
