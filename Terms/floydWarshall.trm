@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr 12 11:22:17 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:04:17 2004" *by "Paul E. Black"
+
+# $Log: floydWarshall.trm,v $
+# Revision 1.2  2004/12/17 17:04:17  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=Floyd-Warshall algorithm
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -12,8 +18,19 @@
 representation} of the graph multiple times.  The edges may have
 negative weights, but no negative weight {cycles}.
 The time complexity is {$\Theta (V<sup>3</sup>)$#\Theta}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Johnson's algorithm}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -22,4 +39,4 @@ The time complexity is {$\Theta (V<sup>3</sup>)$#\Theta}.
 @IMPL=
 # author's initials
 @AUTHOR=SKS
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/floydWarshall.trm,v $
