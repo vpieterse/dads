@@ -1,0 +1,33 @@
+# *created  "Wed Feb  3 10:21:26 1999" *by "Paul E. Black"
+# *modified "Fri Dec 14 15:39:56 2001" *by "Paul E. Black"
+
+# entry name
+@NAME=deterministic finite automata string search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm which builds a {deterministic
+finite state machine} to recognize the search string.  The machine is
+then run at
+each location in turn.  If the machine accepts, that is a match.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node4.html">description
+and animation (C)</A>, <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.srch.c">(C)</A>
+which uses a <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.def.c">finite
+automaton structure (C)</A> and <A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.straut.c">builds
+a recognizer (C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
