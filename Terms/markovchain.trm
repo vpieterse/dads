@@ -1,0 +1,38 @@
+# *created  "Tue Dec  1 11:40:25 1998" *by "Paul E. Black"
+# *modified "Fri Jan  4 10:11:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=Markov chain
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {finite state machine} with probabilities for each transition,
+that is, a probability that the next state is $s<sub>j</sub>$ given
+that the current state is $s<sub>i</sub>$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={hidden Markov model}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Equivalently, a {weighted, directed graph} in which the weights
+correspond to the probability of that transition.  In other words,
+the weights are nonnegative and the total weight of outgoing {edges} is
+positive.  If the weights are normalized, the total weight, including
+{self-loops}, is 1.
+After <A href="../terms.html#Leda98">[Leda98]</A>.
+# further explanation (pure HTML)
+@LINKS=Named after
+<A href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Markov.html">Andrei 
+Andreyevich Markov</A> (1856 - 1922), who studied poetry and other
+texts as stochastic sequences of characters.
+Implementations come from Jon Bentley's "Programming Pearls" and 
+<A href="http://www.ddj.com/articles/2001/0104/">Dr. Dobb's Journal,
+April 2001</A>.
+# implementation(s) (pure HTML)
+@IMPL=Use Markov chains to
+<A href="http://users.starpower.net/marti1/markov.lisp">generate
+random text (clisp)</A> and in
+<A href="http://www.ddj.com/ftp/2001/2001_04/aa0401.txt">(C)</A>.
+# author's initials
+@AUTHOR=PEB
+# end
