@@ -1,0 +1,31 @@
+# *created  "Thu May 27 10:58:50 1999" *by "Paul E. Black"
+# *modified "Wed Feb 19 15:56:50 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=balanced k-way merge sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A {merge sort} that sorts a data stream using repeated
+merges.  It distributes the input into $k$ streams by
+repeatedly reading a
+{block} of input that fits in memory, called a <em>run</em>, sorting it, then
+writing it to the next stream.  It then repeatedly merges
+the $k$ streams and puts each merged run into one of $j$
+output streams until there is a single sorted output.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={simple merge},
+{balanced merge sort}, {nonbalanced merge sort}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is an {external sort}.
+# further explanation (pure HTML)
+@LINKS=
+<A href="http://csc208.csudh.edu/makinde/csc353/ch6.html">2-way,
+balanced, <em>k</em>-way, and polyphase merge sorts</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=ASK
+# end
