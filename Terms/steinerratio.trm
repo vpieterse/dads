@@ -1,0 +1,26 @@
+# *created  "Tue Mar  9 08:31:23 1999" *by "Paul E. Black"
+# *modified "Fri Oct 15 10:02:47 1999" *by "Paul E. Black"
+# entry name
+@NAME=Steiner ratio
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=graph
+# the definition
+@DEFN=For a given variant of the {Steiner tree} problem, the maximum
+possible ratio of the length of a {minimum spanning tree} of a
+set of {terminals} to the length of an optimal Steiner tree of
+the same set of terminals.  Usually written $\rho$ (rho).
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In graphs $\rho = 2$.  
+In the {Euclidean#Euclidean distance} metric, $\rho = 2/\sqrt\{3}$. 
+In the {rectilinear} metric, $\rho = 3/2$.
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://ganley.org/steiner/">Steiner Tree page</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=JLG
+# end
