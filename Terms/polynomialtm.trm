@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec  3 10:10:14 2002" *by "Paul E. Black"
+# *modified "Tue Jan 27 09:37:18 2004" *by "Paul E. Black"
+
+# $Log: polynomialtm.trm,v $
+# Revision 1.2  2004/01/27 14:49:33  black
+# Refine XREFS into IMA, etc.  Add sublinear time algorithm as a VARIANT.
+#
 
 # entry name
 @NAME=polynomial time
@@ -18,8 +23,19 @@ a constant.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=polynomial-time algorithm
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={sublinear time algorithm}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={NP},{exponential},{logarithmic}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Broadly speaking, polynomial time algorithms are reasonably to
 compute.  The time to run exponential algorithms grows too fast to
@@ -30,4 +46,4 @@ expect to be able to compute exact solutions in all cases.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/polynomialtm.trm,v $
