@@ -1,5 +1,10 @@
 # *created  "Wed Oct 13 12:13:50 1999" *by "Paul E. Black"
-# *modified "Fri May 23 09:30:45 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:38 2004" *by "Paul E. Black"
+
+# $Log: simulatedAnnealing.trm,v $
+# Revision 1.2  2004/12/17 16:54:38  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=simulated annealing
@@ -14,16 +19,27 @@ variation is accepted as the new solution with a probability that
 decreases as the computation proceeds.  The slower the <em>cooling
 schedule</em>, or rate of decrease, the more likely the algorithm is
 to find an optimal or near-{optimal solution}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={metaheuristic}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 This technique stems from thermal annealing which aims to obtain
 perfect crystallizations by a slow enough temperature reduction to
 give atoms the time to attain the lowest energy state.
-</P>
+</p>
 
-<P>
+<p>
 This search tries to avoid local minima by jumping out of them early
 in the computation.  Toward the end of the computation, when the
 <em>temperature</em>, or probability of accepting a worse solution, is
@@ -34,17 +50,17 @@ the higher the chance of finding the optimum solution, but the longer
 the run time.  Thus effective use of this technique depends on finding
 a cooling schedule that gets good enough solutions without taking
 too much time.
-</P>
+</p>
 
-<P>
+<p>
 After Daniel Thiel &lt;mouttaqu@enitiaa-nantes.fr&gt;, 31 January 2000.
 # further explanation (pure HTML)
 @LINKS=
 The Metaheuristic Network project's
-<A href="http://iridia.ulb.ac.be/~meta/newsite/index.php?main=3&sub=34">simulated
-annealing</A> page.
+<a href="http://iridia.ulb.ac.be/~meta/newsite/index.php?main=3&sub=34">simulated
+annealing</a> page.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/simulatedAnnealing.trm,v $
