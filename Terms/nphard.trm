@@ -1,7 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 20 12:22:24 2004" *by "Paul E. Black"
+# *modified "Thu Dec 16 14:51:23 2004" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Revision 1.5  2004/12/16 19:53:12  black
+# Move examples of NP-complete problems to "NP-complete".  Remove AP -
+# no definition.  Unbounded Knapsack is a VARIANT.  Improve wording.
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/09/20 16:22:26  black
 # Change Comp.Theory FAQ URL.
 #
@@ -25,54 +30,54 @@ intrinsically harder
 than those that can be solved by a {nondeterministic Turing machine}
 in {polynomial time}.  When a decision version of a
 combinatorial {optimization problem} is proved to belong to the class
-of {NP-complete} problems, which includes well-known problems such as
-satisfiability, {traveling salesman}, the {bin packing problem}, etc., 
+of {NP-complete} problems, 
 then the optimization version is NP-hard.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={unbounded knapsack problem}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={strongly NP-hard}, {AP}, {unbounded knapsack problem}
+@XREFS={strongly NP-hard}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=For example, "is there a tour with length less than k" is
+@NOTES=For example, "is there a {Hamiltonian cycle} with length less
+than k" is
 NP-complete: it is easy to determine if a proposed {certificate} has
 length less than k.  The optimization problem, "what is the shortest
 tour?", is NP-hard, since there is no easy way to determine if a
 certificate is the shortest.
-</P>
+</p>
 
-<P>
-Another example of an NP-complete problem is to decide if there exist
+<p>
+Another NP-complete problem is to decide if there exist
 $k$ {star-shaped polygons} whose union is equal to a given simple
 polygon, for some
 parameter $k$.  The optimization problem, i.e.,
 finding the minimum number (least $k$) of star-shaped polygons whose
 union is equal to a given simple polygon, is NP-hard.
-</P>
+</p>
 
-<P>
+<p>
 From Algorithms and Theory of Computation Handbook, page 19-26,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS=History, definitions, examples, etc. given in <A
+@LINKS=History, definitions, examples, etc. given in <a
 href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
-FAQ</A>, scroll down to <strong>P vs. NP</strong>.
-</P>
+FAQ</a>, scroll down to <strong>P vs. NP</strong>.
+</p>
 
-<P>
+<p>
 Scott Aaronson's
-<A href="http://www.complexityzoo.com/">Complexity
-Zoo</A>
+<a href="http://www.complexityzoo.com/">Complexity
+Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
