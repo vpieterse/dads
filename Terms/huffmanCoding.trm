@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 23 16:34:08 2004" *by "Paul E. Black"
+# *modified "Tue Jan  4 10:26:18 2005" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.6  2005/01/04 15:28:17  black
+# Remove Vermeer's URL - gone.  Fix typo.  Show John Morris' name.
+#
 # Revision 1.5  2004/12/23 21:34:36  black
 # Remove bad trailing space in VARIANT.
 #
@@ -87,16 +90,15 @@ compression algorithms</a>.
 Shannon-Fano is a minimal prefix code. Huffman is optimal for
 character coding (one character-one code word) and simple to
 program.  Arithmetic coding is a little better still, since it can
-allocate fractional bits, but more complicated and has patents.
+allocate fractional bits, but is more complicated and has patents.
 # further explanation (pure HTML)
 @LINKS=
-Dr. Pam J. Vermeer's <a
-href="http://home.wlu.edu/~vermeerp/Classes/211w99/Lectures/Ch5_2/tsld001.htm">step
-by step discovery of the algorithm</a>, 
+A
 <a
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey on data
 compression</a>,
-# John Morris morris@ee.uwa.edu.au
+John Morris'
+# morris@ee.uwa.edu.au
 <a
 href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/huffman.html">explanation,
 example, and analysis</a>.
