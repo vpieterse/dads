@@ -1,5 +1,11 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Fri May  3 15:18:21 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:55:04 2004" *by "Paul E. Black"
+
+# $Log: ternarySearchTree.trm,v $
+# Revision 1.2  2004/12/17 16:55:04  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=ternary search tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,19 +16,30 @@
 @DEFN=
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=TST
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={trie},{binary search tree},{three-way radix quicksort}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
 for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
 Symposium on Discrete Algorithms (SODA), January 1997.
-</P>
+</p>
 
-<P>
+<p>
 <strong>Jon Bentley and Robert Sedgewick</strong>, <em>Ternary
 Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 # any notes.  these will not be printed in the final dictionary
@@ -30,9 +47,9 @@ Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.cs.princeton.edu/~rs/strings/">papers,
-demos, and code (C)</A>,
-<A href="http://www.octavian.org/cs/software.html">(C)</A>.
+@IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
+demos, and code (C)</a>,
+<a href="http://www.octavian.org/cs/software.html">(C)</a>.
 # author's initials
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/ternarySearchTree.trm,v $
