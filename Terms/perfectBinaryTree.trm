@@ -1,0 +1,48 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Aug 25 09:55:59 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=perfect binary tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {binary tree} with all {leaf} {nodes} at the same {depth}.
+All {internal nodes} have {degree} 2.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={full binary tree}, {complete binary tree}, {perfect
+<strong>k</strong>-ary tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A perfect binary tree has $2<sup>n</sup>-1$ nodes.
+It can be efficiently implemented as an {array}, where a node at index
+$i$ has children at indexes $2i$ and $2i+1$ and a
+parent at index $i/2$.
+After LK.
+</P>
+
+<P>
+Every perfect binary tree is both a complete binary tree and a full
+binary tree.
+</P>
+
+<P>
+A heap may be seen as a perfect binary tree with some extra leaf
+nodes at {depth} $n+1$, all toward the left.  
+(After <A href="../terms.html#CLR90">[CLR90, page 140]</A>).
+</P>
+
+<P>
+This kind of tree is called "complete" by some authors
+(<A href="../terms.html#CLR90">[CLR90, page 95]</A>, Leighton)
+and "full" by others (Budd page 331, Ege, 
+<A href="../terms.html#HS83">[HS83, page 225]</A>).
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.pads.uwaterloo.ca/Bruno.Preiss/books/opus4/html/page305.html">example
+and formal definition</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=YZ, PEB
+# end
