@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Apr  4 12:21:01 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=vertex coloring
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An assignment of colors (or any distinct marks) to the 
+{vertices#vertex} of a {graph}.  Strictly speaking, a coloring is 
+{proper#proper coloring} if no two {adjacent} vertices have the same
+color.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={edge coloring}, {k-coloring}, {vertex cover},
+{chromatic number}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation
+Handbook, Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/vertex-coloring.shtml">(Fortran,
+C, Pascal, C++, and Mathematica)</A>
+# author's initials
+@AUTHOR=PEB, CRC-A
+# end
