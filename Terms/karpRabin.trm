@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 10:19:28 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:05:32 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:38 2004" *by "Paul E. Black"
+
+# $Log: karpRabin.trm,v $
+# Revision 1.2  2004/12/17 16:52:38  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Karp-Rabin
@@ -15,26 +20,37 @@ the text is easily computed from the hash value of the current
 position.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=Rabin-Karp
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A
+@IMPL=Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
-Matching Algorithms (C)</A>,
-<A
+Matching Algorithms (C)</a>,
+<a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node5.html">description
-and animation (C)</A>, <A
+and animation (C)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/715.srch.c">(C
-and Pascal)</A>, <A
-href="http://www.delphifaq.de/fq/q1029.shtml">(Pascal)</A>
+and Pascal)</a>, <a
+href="http://www.delphifaq.de/fq/q1029.shtml">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/karpRabin.trm,v $
