@@ -1,0 +1,25 @@
+# *created  "Wed Feb 17 12:35:33 1999" *by "Paul E. Black"
+# *modified "Mon May 13 16:57:28 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=exhaustive search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=search
+# the definition
+@DEFN=An {algorithm} that finds a solution by trying every
+possibility.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={brute force}, {search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=All the Needles in a Haystack: <A
+href="http://citeseer.nj.nec.com/jurg95all.html">Can
+Exhaustive Search Overcome Combinatorial Chaos?</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=BB
+# end
