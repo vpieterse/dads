@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:40:55 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:58:29 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:38 2004" *by "Paul E. Black"
 
 # $Log: shannonFano.trm,v $
+# Revision 1.3  2004/12/17 17:24:39  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/11/01 16:58:45  black
 # Change encoding to coding
 #
@@ -37,9 +40,9 @@ character coding (one character-one code word) and simple to
 program.  Arithmetic coding is better still, since it can allocate
 fractional bits, but more complicated.
 # further explanation (pure HTML)
-@LINKS=Debra A. Lelewer's and Daniel S. Hirschberg's <A
+@LINKS=Debra A. Lelewer's and Daniel S. Hirschberg's <a
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey of data
-compression</A>.
+compression</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
