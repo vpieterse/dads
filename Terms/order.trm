@@ -1,0 +1,24 @@
+# *created  "Wed Jun  9 10:36:22 1999" *by "Paul E. Black"
+# *modified "Thu Apr 27 08:38:24 2000" *by "Paul E. Black"
+# entry name
+@NAME=order
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=(1) The {height} of a {tree}.  
+(2) The number of {children#child} of the {root} of a {binomial tree}.
+(3) The number of data streams, usually denoted $\omega$, in a
+{multiway merge}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={total order}, {partial order}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
