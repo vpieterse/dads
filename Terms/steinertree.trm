@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr 17 09:20:49 2003" *by "Paul E. Black"
+# *modified "Tue Oct 14 14:59:46 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=Steiner tree
@@ -9,10 +9,10 @@
 @AREA=graph
 # the definition
 @DEFN=A minimum-weight {tree} connecting a designated set of 
-{vertices#vertex}, called <em>terminals</em>, in a {weighted graph} or
+{vertexes}, called <em>terminals</em>, in a {weighted graph} or
 points in a space.
 The tree may include non-terminals, which are called
-{Steiner vertices#Steiner vertex} or {Steiner points}.
+{Steiner vertexes} or {Steiner points}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={Euclidean Steiner tree},{rectilinear Steiner tree}
 # any notes.  these will not be printed in the final dictionary
@@ -31,4 +31,4 @@ and Pascal)</A>,
 software for computing steiner trees.
 # author's initials
 @AUTHOR=JLG
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/steinertree.trm,v $
