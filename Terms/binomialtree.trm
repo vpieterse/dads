@@ -1,5 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 23 14:09:50 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:48:26 2004" *by "Paul E. Black"
+
+# $Log: binomialtree.trm,v $
+# Revision 1.2  2004/12/17 16:48:27  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=binomial tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -10,19 +16,30 @@
 @DEFN=An {ordered tree} of {order} $k \geq 0$, that is $B<sub>k</sub>$,
 has a {root} with $k$ {children#child} where the $i<sup>th</sup>$
 child is binomial tree of order $k-i$.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={binomial heap}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A $B<sub>k</sub>$ tree has $2<sup>k</sup>$ nodes, the {height} is
 $k$, and there are $k choose i$ nodes at depth $i$.
-</P>
+</p>
 
-<P>
-Adapted from <A href="../terms.html#CLR90">[CLR90, page 401]</A>.
+<p>
+Adapted from <a href="../terms.html#CLR90">[CLR90, page 401]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binomialtree.trm,v $
