@@ -1,0 +1,18 @@
+# *created  "Tue Dec  1 12:43:12 1998" *by "Paul E. Black"
+# *modified "Mon Apr 17 11:53:01 2000" *by "Paul E. Black"
+# entry name
+@NAME=flow
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A measure of the maximum weight along {paths} in a 
+{weighted, directed graph}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={flow network}, {maximum-flow problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end
