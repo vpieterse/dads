@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:28:47 2004" *by "Paul E. Black"
+# *modified "Wed Feb  2 11:33:09 2005" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Revision 1.7  2005/02/02 16:33:52  black
+# Correct: XREF string matching, not IMA string matching.  Note that a
+# suffix tree may help.
+#
 # Revision 1.6  2004/12/17 17:28:47  black
 # Make more XHTML compliant.
 #
@@ -39,7 +43,7 @@ or may not be allowed.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={string matching}
+@IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={Ratcliff/Obershelp pattern recognition},
 {phonetic coding}, {Levenshtein distance}, {string matching with mismatches}
@@ -48,7 +52,7 @@ or may not be allowed.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={inverted index}
+@XREFS={string matching}, {inverted index}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -60,7 +64,8 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 
 <p>
 For large collections that are searched often, it is far
-faster, though more complicated, to start with an {inverted index}.
+faster, though more complicated, to start with an {inverted index} or
+a {suffix tree}.
 # further explanation (pure HTML)
 @LINKS=
 <a href="http://arxiv.org/abs/cs.DS/0112022">Faster Algorithm of
