@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Fri Jan 23 09:22:34 2004" *by "Paul E. Black"
+# *modified "Mon Mar 15 13:41:24 2004" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.3  2004/03/15 18:41:53  black
+# Add reference to a sort I just found: gnome sort.
+#
 # Revision 1.2  2004/01/23 14:23:22  black
 # Give a formal definition.  Refine XREFS in VARIANT, etc.
 #
@@ -40,7 +43,8 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 {radix sort}, {bucket sort}, {insertion sort}, 
 {selection sort}, {merge sort}, {counting sort},
 {histogram sort}, {strand sort}, {J sort}, {shuffle sort}, 
-{American flag sort}, {bubble sort}, {bidirectional bubble sort}, 
+{American flag sort}, {bubble sort}, {gnome sort},
+{bidirectional bubble sort}, 
 {adaptive heap sort}, {three-way radix quicksort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
@@ -51,7 +55,7 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 {distribution sort}, {permutation}, {derangement}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Any sorting algorithm can be turned into a stable variant by
+@NOTES=Any sorting algorithm can be made stable by
 appending the original position to the {key}.  When otherwise-equal
 keys are compared, the positions "break the tie" and the original
 order is maintained.
