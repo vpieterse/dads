@@ -1,7 +1,11 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Fri Apr 16 08:42:14 2004" *by "Paul E. Black"
+# *modified "Wed May  5 16:13:04 2004" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Revision 1.5  2004/05/05 20:14:53  black
+# Add definition.  Change "edit distance" to "Levenshtein distance".
+# Add BIB refs for Jaro.
+#
 # Revision 1.4  2004/04/16 12:42:33  black
 # Change phonetic matching to phonetic coding.  Add caverphone.
 #
@@ -20,7 +24,12 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=
+@DEFN=A measure of similarity between two {strings}.  The Jaro measure
+is the weighted sum of percentage of matched characters from each file
+and transposed characters.  Winkler increased this measure for matching
+initial characters, then rescaled it by a piecewise function, whose
+intervals and weights depend on the type of string (first name, last
+name, street, etc.).
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -30,7 +39,7 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic coding}
+@IMA={string matching with errors}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -38,17 +47,34 @@
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={double metaphone}, {caverphone}, {soundex}, {NYSIIS}, {edit distance}
+@XREFS={Levenshtein distance}, {phonetic coding}
+
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>William E. Winkler</strong> and <strong>Yves
 Thibaudeau</strong>, <em>An Application of the Fellegi-Sunter Model of
 Record Linkage to the 1990 U.S. Decennial Census</em>, Statistical
-Research Report Series RR91/09, U.S. Census Bureau, Washington, D.C.,
-1991.
+Research Report Series RR91/09, U.S. Bureau of the Census, Washington,
+D.C., 1991.
+<BR>
+
+<strong>Matthew A. Jaro</strong>, <em>UNIMATCH: A Record Linkage
+System: User's Manual</em>, Technical Report, U.S. Bureau of the
+Census, Washington, D.C., 1976.
+<BR>
+<strong>Matthew A. Jaro</strong>, <em>Advances in Record-linkage
+Methodology a Applied to Matching the 1985 Census of Tampa,
+Florida</em>, Journal of the American Statistical Association,
+89:414-420. 
+
 # any notes.  these are not printed in the final dictionary
-@NOTES=Accepts two names and returns a number between 1, perfect
-match, and 0, completely different.  Used at the U.S. Census.
+@NOTES=For "piecewise function", see the
+<A
+href="http://mathworld.wolfram.com/PiecewiseFunction.html">definition
+in MathWorld</A> or
+<A
+href="http://mathforum.org/library/drmath/sets/select/dm_piecewise.html">answers
+from Dr. Math</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
