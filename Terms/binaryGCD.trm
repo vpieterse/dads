@@ -1,7 +1,10 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Wed Jul  7 12:14:08 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:46 2004" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.4  2004/12/17 17:27:46  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/07/07 16:14:55  black
 # Change AKA algorithm B to WEB Knuth's algorithm B.
 #
@@ -23,7 +26,7 @@ integers, $u$ and $v$, expressed in binary.  The run time complexity is
 operations.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Knuth's algorithm B
@@ -40,14 +43,14 @@ operations.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Euclid's algorithm}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=Discovered by J. Stein in 1967.  Another source says discovered
 by R. Silver and J. Tersian in 1962 and published by G. Stein in 1967.
-<P>
+<p>
 The algorithm uses the following observations.
 <ul>
 <li>If u and v are both even, gcd(u,v) = 2 gcd(u/2, v/2).
@@ -56,9 +59,9 @@ The algorithm uses the following observations.
 algorithm with a division by 2 since the difference of two odd numbers
 is even.)
 </ul>
-</P>
+</p>
 
-<P>
+<p>
 Here is the algorithm.  It is especially efficient for operations on
 binary representations.
 <ol>
@@ -85,17 +88,17 @@ now u or v (or both) are odd
 
 <li> return g*v
 </ol>
-</P>
+</p>
 
-<P>
+<p>
 Called Algorithm B in
-<A href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</A>.
+<a href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</a>.
 # further explanation (pure HTML)
-@LINKS=<A href="http://www.cut-the-knot.com/blue/binary.html">Binary
-Euclid's Algorithm</A> including examples and references.  Shallit's
+@LINKS=<a href="http://www.cut-the-knot.com/blue/binary.html">Binary
+Euclid's Algorithm</a> including examples and references.  Shallit's
 slides giving
-<A href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/">explanation
-and proofs</A>.
+<a href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/">explanation
+and proofs</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
