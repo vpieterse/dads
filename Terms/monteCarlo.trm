@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Apr 27 09:20:37 2004" *by "Paul E. Black"
+# *modified "Thu Dec  9 09:29:18 2004" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.3  2004/12/09 14:33:22  black
+# Add LINKs to RiskGlossary and UNL (calculating pi).
+#
 # Revision 1.2  2004/04/27 13:26:48  black
 # Refine XREFS into IMA, etc.  Link to pages on Monte Carlo simulation.
 #
@@ -36,6 +39,12 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+An excellent
+<A
+href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
+introduction</A> with history.
+An example of <A
+href="http://www.chem.unl.edu/zeng/joy/mclab/mcintro.html">calculating Pi</A>.
 Brian T. Luke's Learning from the Web pages on
 <A href="http://btluke.members.easyspace.com/montecs.html">Monte Carlo
 Simulation</A>.
