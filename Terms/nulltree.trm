@@ -1,0 +1,22 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Tue Apr  4 15:20:25 2000" *by "Paul E. Black"
+# entry name
+@NAME=null tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=(1) A {tree} which is empty.  (2) A tree whose {leaf} nodes all
+have a null value.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end
