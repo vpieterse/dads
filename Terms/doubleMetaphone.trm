@@ -1,12 +1,15 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Wed May  5 15:44:02 2004" *by "Paul E. Black"
+# *modified "Mon Nov  1 12:22:35 2004" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.5  2004/11/01 17:22:43  black
+# Change caverphone to Caverphone
+#
 # Revision 1.4  2004/05/05 19:44:08  black
 # Rename edit distance to be Levenshtein distance.
 #
 # Revision 1.3  2004/04/16 12:43:32  black
-# Change phonetic matching to phonetic coding.  Add caverphone.
+# Change phonetic matching to phonetic coding.  Add Caverphone.
 #
 # Revision 1.2  2004/04/09 20:35:30  black
 # Refine XREFS to IMA, etc.  Refer to new umbrella term phonetic
@@ -38,7 +41,7 @@ spelling.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Jaro-Winkler}, {caverphone}, {NYSIIS}, {soundex}, {metaphone}, {Levenshtein distance}
+@XREFS={Jaro-Winkler}, {Caverphone}, {NYSIIS}, {soundex}, {metaphone}, {Levenshtein distance}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
