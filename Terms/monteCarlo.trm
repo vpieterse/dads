@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec  9 09:29:18 2004" *by "Paul E. Black"
+# *modified "Thu Dec  9 09:45:04 2004" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.4  2004/12/09 14:46:55  black
+# Contrast Monte Carlo and Las Vegas algorithms.  This is a Technique,
+# not a Definition.
+#
 # Revision 1.3  2004/12/09 14:33:22  black
 # Add LINKs to RiskGlossary and UNL (calculating pi).
 #
@@ -12,7 +16,7 @@
 # entry name
 @NAME=Monte Carlo algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=D
+@TYPE=T
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
@@ -37,6 +41,17 @@ From Algorithms and Theory of Computation Handbook, 15-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
+From Algorithms and Theory of Computation Handbook, 15-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+</P>
+
+<P>
+A Monte Carlo algorithm gives more precise results the longer you run
+it.  A Las Vegas algorithm gives exactly the right answer, but the run
+time is indeterminate.
+
 # further explanation (pure HTML)
 @LINKS=
 An excellent
