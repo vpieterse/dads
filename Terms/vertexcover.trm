@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue May  7 10:57:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=vertex cover
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A set of {vertices#vertex} in an {undirected graph} where
+every {edge} connects at least one vertex.  The vertex cover
+problem is to find a minimum size set and is {NP-complete}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=vertex covering problem
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={vertex coloring}, {covering}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/vertex-cover.shtml">(C,
+Fortran, and Mathematica)</A>
+# author's initials
+@AUTHOR=PEB
+# end
