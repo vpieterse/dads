@@ -1,5 +1,10 @@
 # *created  "Thu Nov 16 16:51:48 2000" *by "Paul E. Black"
-# *modified "Wed Jan  9 16:33:59 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:02 2004" *by "Paul E. Black"
+
+# $Log: randomizedSearchTree.trm,v $
+# Revision 1.2  2004/12/17 16:54:03  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=randomized search tree
@@ -9,11 +14,22 @@
 @AREA=tree
 # the definition
 @DEFN=See {randomized binary search tree}.
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={treap}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Raimund G. Seidel and Cecilia R. Aragon</strong>, 
-<em>Randomized Search Trees</em>, Algorithmica, 16(4/5):464-497 (1996).<BR>
+<em>Randomized Search Trees</em>, Algorithmica, 16(4/5):464-497 (1996).<br>
 # copy in Mnemo 5
 Also in 30th Annual
 Symposium on Foundations of Computer Science, pages 540-545, Research
@@ -26,4 +42,4 @@ Triangle Park, North Carolina, 30 October-1 November 1989. IEEE.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/randomizedSearchTree.trm,v $
