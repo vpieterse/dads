@@ -1,0 +1,31 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri Jan  4 10:54:36 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=probabilistically checkable proof
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=An {interactive proof system} in which provers follow a fixed
+strategy, that is, one not affected by any messages from the
+verifier.  The prover's strategy for a given instance $x$ of a {decision
+problem} can be represented by a finite oracle language
+$B<sub>x</sub>$, which constitutes a proof of the correct answer for
+$x$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 29-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
