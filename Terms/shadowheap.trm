@@ -1,0 +1,25 @@
+# *created  "Thu Jan 21 16:38:20 1999" *by "Paul E. Black"
+# *modified "Tue Jan 26 12:33:48 1999" *by "Paul E. Black"
+# entry name
+@NAME=shadow heap
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {heap}, implemented in an {array}, adjacent to an
+unordered table.  The <em>shadow</em> is the table {nodes}
+and all their (recursive) {parents}, by array index, in the
+heap.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={shadow merge insert}, {shadow merge}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Personal communication from Chris L. Kuszmaul
+&lt;fyodor@nas.nasa.gov&gt;, January 1999.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end
