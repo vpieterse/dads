@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:09 2004" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:38:28 2005" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.6  2005/02/02 20:38:35  black
+# Fix typo in IMPL language.
+#
 # Revision 1.5  2004/12/17 17:28:09  black
 # Make more XHTML compliant.
 #
@@ -124,7 +127,7 @@ Pictures of a
 code rotary railroad control</a>.
 # implementation(s) (pure HTML)
 @IMPL=Glenn Rhoads' <a
-href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (c)</a>.
+href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 # The following is HTML an version part 6 of the comp.ai.genetic FAQ at,
 # e.g., ftp://rtfm.mit.edu/pub/usenet/news.answers/ai-faq/genetic/
 <a
