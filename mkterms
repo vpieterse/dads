@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.57 2002/01/04 16:03:36 black Exp $
+# $Id: mkterms,v 1.58 2002/01/09 17:45:44 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Fri Jan  4 10:48:26 2002" *by "Paul E. Black"
+# *modified "Wed Jan  9 12:38:10 2002" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -98,6 +98,8 @@ if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
 # so -w doesn't complain about these being used only once
 $dummy = $numEntriesInIndex;	# set in mkcommon.pl
 $dummy = $OUT_DIR;		# set in mkcommon.pl
+$dummy = $AUTHPAGE;		# set in mkcommon.pl
+$dummy = $OTHER;		# set in mkcommon.pl
 $dummy = $TERMS_DIR;		# set and used in mkcommon.pl
 undef $dummy;
 
@@ -109,19 +111,6 @@ undef $dummy;
 #        (Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec)[$mon],
 #        $mday, $hr, $min, $sec, 1900+$yr);
 $now = localtime;
-
-# copy the file to the file handle
-# example: append the contents of $TEMP_FILE to $target
-#	open(TARGET, "> $target");
-#	&concatenate($TEMP_FILE, TARGET);
-#	close(TARGET);
-sub concatenate {
-    my($filename, $handle) = @_;
-    open(FHANDLE, "< $filename")
-	|| die("Cannot open $filename\n");
-    while (<FHANDLE>) {print $handle $_};
-    close(FHANDLE);
-}
 
 # read/write by owner, readable by everyone else
 umask(0022);
@@ -195,36 +184,6 @@ sub rewriteXrefs {
 
 	#print "subs is /$xrefQ/$xrefFile/\n"; # for debugging
 	$_[0] =~ s/$xrefQ/$xrefFile/;
-    }
-}
-
-# Rewrite external HREFs to use the NIST "exit script" described at
-#	http://webservices.nist.gov/exit_nist.htm
-sub rewriteHrefs {
-    foreach $xref (split /^.*?href="|".*?href="|".*?$|^.*$/i, $_[0]) {
-	next if ($xref eq ""); # above RE starts with a null split
-	next if $xref =~ /nist\.gov/; # don't rewrite internal links
-	#print "\nFound $xref\n"; # for debugging
-
-	# quote special cgi characters
-	my($xrefCGIQ) = $xref;
-	$xrefCGIQ =~ s|%|%25|g;
-	$xrefCGIQ =~ s| |%20|g;
-	$xrefCGIQ =~ s|"|%22|g;
-	$xrefCGIQ =~ s|\#|%23|g;
-	$xrefCGIQ =~ s|&|%26|g;
-	$xrefCGIQ =~ s|\+|%2B|g;
-	#$xrefCGIQ =~ s|/|%2F|g;
-	$xrefCGIQ =~ s|;|%3B|g;
-	$xrefCGIQ =~ s|=|%3D|g;
-	$xrefCGIQ =~ s|~|%7E|g;
-	my($xrefExit) = "\"http://www.nist.gov/cgi-bin/exit_nist.cgi?url=$xrefCGIQ\"";
-
-	# quote special RE characters
-	my $xrefQ = quoteREpatterns("\"$xref\"");
-
-	#print "subs is /$xrefQ/$xrefExit/\n"; # for debugging
-	$_[0] =~ s/$xrefQ/$xrefExit/;
     }
 }
 
@@ -515,7 +474,7 @@ NO_DEFN_MESSAGE
     }
     if (defined $thisEntry{AUTHOR}) {
 	my($eauth) = $thisEntry{AUTHOR};
-	$eauth =~ s| *([^,]+)|<a href="../$MAINPAGE\#author$1">$1</a>|go;
+	$eauth =~ s| *([^,]+)|<a href="../$OTHER/$AUTHPAGE.html\#author$1">$1</a>|go;
 	# SKIMP write plural if more than one
 	print TERMPAGE "<p>Author: $eauth</p>\n";
     }
@@ -566,7 +525,7 @@ print "Wrote $numEntries terms\n";
 #
 # Step IV: Finish main index and two-level index, backup old page, and
 #	rename temporary page
-#    a) Finish the main index, write authors and copy closing
+#    a) Finish the main index and copy closing
 #    b) Copy closing of two-level index
 #
 #------------------------------------------------------------------------
@@ -596,38 +555,6 @@ print TMPPAGE << "TABLE_ENDING";
 TABLE_ENDING
 
 print STDERR "\n" if ($verbose);
-
-# write authors
-
-print STDERR "Writing authors\n" if ($verbose);
-
-print TMPPAGE "<hr>\n";
-print TMPPAGE "<h1>Contributors Index</h1>\n";
-print TMPPAGE "<dl>\n";
-
-for $akey (sort keys %authors) {
-    print TMPPAGE "<dt><a name=\"author$akey\">$akey</a>\n";
-    my $aentry = $authors{$akey};
-    # "quote" any HTML special characters
-    $aentry =~ s/&/&amp;/go;
-    $aentry =~ s/</&lt;/go;
-    $aentry =~ s/>/&gt;/go;
-    print TMPPAGE "<dd>$aentry\n";
-    # print e-mail address(es) or URL(s), if given
-    if (defined $authemail{$akey}) {
-	for $fld (split(/, */, $authemail{$akey})) {
-	    if ($fld =~ /@/) {
-		# e-mail
-		print TMPPAGE "<a href=\"mailto:$fld\">$fld</a>\n";
-	    } else {
-		# URL
-		print TMPPAGE "<a href=\"$fld\">$fld</a>\n";
-	    }
-	}
-    }
-}
-
-print TMPPAGE "</dl>\n\n";
 
 # copy the closing
 &concatenate("$PAGES/$WEBPAGE.concl", TMPPAGE);
