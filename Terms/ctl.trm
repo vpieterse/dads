@@ -1,0 +1,26 @@
+# *created  "Wed Sep 22 16:38:12 1999" *by "Paul E. Black"
+# *modified "Wed Jan  2 10:40:16 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=CTL
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=verf
+# the definition
+@DEFN=A propositional, branching-time temporal logic for which
+formulas can be checked in {linear} time.  An acronym for Computation 
+Tree Logic.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=CTL differs from CTL* in that in CTL path quantifiers (E and A)
+always appear with temporal operators (F, G, X, U, etc.).  Therefore
+CTL formulas are <em>state</em> formulas.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
