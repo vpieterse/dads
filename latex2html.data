@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.12 2002/04/05 19:38:31 black Exp $
+# $Id: latex2html.data,v 1.13 2002/08/02 13:47:18 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Fri Apr  5 14:30:45 2002" *by "Paul E. Black"
+# *modified "Fri Aug  2 09:09:14 2002" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -36,6 +36,7 @@
 \lambda	<img src="Images/lambda.gif" border=0 height=10 width=8  alt="upper-case lambda">
 \mu	&micro;
 \pi	<img src="Images/pi.gif"     border=0 height=7  width=8  alt="pi">
+\Pi	<img src="Images/Pi.gif"     border=0 height=10 width=9  alt="upper-case Pi">
 \rho	<img src="Images/rho2.gif"   border=0 height=14 width=6  alt="rho" align=middle>
 \Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="upper-case Sigma">
 \phi	<img src="Images/phi.gif"    border=0 height=10 width=9  alt="phi">
@@ -55,11 +56,13 @@
 #    Table 3.5: Relation Symbols
 #\not	not		must follow \notin to not mess it up
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
+# <	use &lt; for less than
 \ll	&lt;&lt;
 \sim	<img src="Images/sim.gif" border=0 height=5 width=13 alt="similar to">
 \subseteq	<img src="Images/subseteq.gif" border=0 height=7 width=14 alt="is a subset of">
 \subset		is a proper subset of
 \geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
+# >	use &gt; for greater than
 \gg	&gt;&gt;
 \approx	<img src="Images/approx.gif" border=0 height=6 width=13 alt="approximately equal to">
 \neq	<img src="Images/neq.gif" border=0 height=10 width=10 alt="not equal to">
