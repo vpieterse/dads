@@ -1,0 +1,53 @@
+# *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
+# *modified "Wed Jun  4 14:06:51 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=bitonic sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=para
+# the definition
+@DEFN=Compare, and swap if necessary, pairs of elements in parallel.
+Subsets are sorted then merged, similar to a {merge sort}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=Batcher sort
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>K. E. Batcher</strong>, <em>Sorting Networks and their
+Applications</em>, Proc. AFIPS Spring Joint Computer Conference,
+32:307-314, 1968.
+# any notes.  these are not printed in the final dictionary
+@NOTES=This takes {O((log n)<sup>2</sup>/2)#big-O notation} stages
+(or steps) with $n/2$ comparators at each stage.
+</P>
+
+<P>
+This is Knuth's Algorithm M.
+</P>
+
+<P>
+<A
+href="http://www.csam.iit.edu/~sun/note546/node34.html">definitions
+and analysis</A>
+# implementation(s) (pure HTML)
+@IMPL=
+<A
+href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
+analysis, bibliography, etc. (Java)</A>,
+<A
+href="http://www.people.fas.harvard.edu/~eisenb/sorting/bitonic.html">explanation
+and animation (C)</A>,
+<A
+href="http://www.cag.lcs.mit.edu/streamit/results/bitonic/code/c/">reference
+source code (C)</A>
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
