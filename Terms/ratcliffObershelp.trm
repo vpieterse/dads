@@ -1,5 +1,12 @@
 # *created  "Thu Oct  4 08:55:27 2001" *by "Paul E. Black"
-# *modified "Fri Oct  5 10:17:31 2001" *by "Paul E. Black"
+# *modified "Mon May  3 12:10:44 2004" *by "Paul E. Black"
+
+# $Log: ratcliffObershelp.trm,v $
+# Revision 1.2  2004/05/03 16:22:01  black
+# Refine XREFS into IMA, etc.  Add that IMA string matching with errors
+# (not just string matching).
+#
+
 # entry name
 @NAME=Ratcliff/Obershelp pattern recognition
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -18,8 +25,19 @@ unmatched region on either side of the longest common subsequence.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={string matching}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching with errors}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=<strong>John W. Ratcliff and David Metzener</strong>, <em>Pattern
 Matching: The Gestalt Approach</em>, Dr. Dobb's Journal, page 46, July 1988.
@@ -31,4 +49,4 @@ Matching: The Gestalt Approach</em>, Dr. Dobb's Journal, page 46, July 1988.
 @IMPL=<A href="http://www.gate.net/%7eddata/utilities/simil.c">(C)</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/ratcliffObershelp.trm,v $
