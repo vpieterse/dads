@@ -1,5 +1,11 @@
 # *created  "Tue Nov 17 13:35:17 1998" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:18:40 2003" *by "Paul E. Black"
+# *modified "Mon Apr 26 12:53:24 2004" *by "Paul E. Black"
+
+# $Log: boyermoore.trm,v $
+# Revision 1.2  2004/04/26 17:05:17  black
+# Refine XREFS into IMA, etc.  Link to good algorithm illustration pages
+# (by Moore!).  Add BIB.
+#
 
 # entry name
 @NAME=Boyer-Moore
@@ -11,15 +17,37 @@
 @DEFN=A {string matching} algorithm that compares characters from
 the end of the search string to its beginning.  When characters don't
 match, searching jumps to the next possible match.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Robert S. Boyer</strong> and <strong>J Strother
+Moore</strong>,
+<em>A Fast String Search Algorithm</em>, 
+CACM, 20(10):762-772, October 1977.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <A href="../terms.html#Sund98">[Sund98]</A>.
 # further explanation (pure HTML)
 @LINKS=
 A <A
 href="http://www5.palmnet.net/~eschank/search/search.html">comparison</A>
-of Naive, Knuth-Morris-Pratt, and Boyer-Moore string searches
+of Naive, Knuth-Morris-Pratt, and Boyer-Moore string searches.
+Series of pages explaining
+<A
+href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/fstrpos-example.html">how
+Boyer-Moore works</A>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <A
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
@@ -31,4 +59,4 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moor
 preprocessing (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/boyermoore.trm,v $
