@@ -1,0 +1,35 @@
+# *created  "Wed Nov 10 12:41:47 1999" *by "Paul E. Black"
+# *modified "Wed Apr 24 08:44:07 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=introspective sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A variant of {quicksort} which switches to {heapsort} for
+pathological inputs, that is, when execution time is becoming
+quadratic.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=introsort
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=introspection sort, intro sort
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS=
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>David R. Musser</strong>, <em>Introspective Sorting and
+Selection Algorithms</em>, Software-Practice and Experience,
+8:983-993, 1997.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.cs.rpi.edu/~musser/gp/index_1.html">abstract
+and link to Musser's paper</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
