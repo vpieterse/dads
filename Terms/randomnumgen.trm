@@ -1,5 +1,11 @@
 # *created  "Wed Mar 17 14:06:47 1999" *by "Paul E. Black"
-# *modified "Wed Jun  5 15:14:00 2002" *by "Paul E. Black"
+# *modified "Wed Dec 15 14:31:14 2004" *by "Paul E. Black"
+
+# $Log: randomnumgen.trm,v $
+# Revision 1.2  2004/12/15 19:31:57  black
+# Remove XREF to deleted term, spectral test.  Refine XREFS into IMA,
+# etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=random number generator
@@ -9,12 +15,23 @@
 @AREA=numeric
 # the definition
 @DEFN=See {pseudo-random number generator}.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=RNG
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={spectral test}
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Any computer program is likely to generate pseudo-random
 numbers, not actually random numbers.  This is important when, say,
@@ -26,4 +43,4 @@ used.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/randomnumgen.trm,v $
