@@ -1,7 +1,11 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Jan 12 10:21:52 2004" *by "Paul E. Black"
+# *modified "Fri Apr  2 15:37:17 2004" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.6  2004/04/02 20:38:24  black
+# Refer to bingo sort, a variant of selection sort.  Note that the
+# algorithm is not stable.
+#
 # Revision 1.5  2004/01/12 15:22:57  black
 # Add RCS Log and Source.  Make the note about stable sorting more accurate.
 #
@@ -14,7 +18,7 @@
 @AREA=sort
 # the definition
 @DEFN=A {sort} algorithm that repeatedly looks through
-remaining items to find the least one and moving it to its final
+remaining items to find the least one and moves it to its final
 location.  The run time is {$\Theta(n<sup>2</sup>)$#\Theta}, where $n$
 is the number of comparisons.  The number of swaps is 
 {$O(n)$#big-O notation}.
@@ -25,11 +29,11 @@ is the number of comparisons.  The number of swaps is
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={strand sort}
+@XREFS={bingo sort}, {strand sort}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
-filled.
+filled.  However, the algorithm is not stable.
 </P>
 
 <P>
