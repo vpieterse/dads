@@ -1,7 +1,10 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:37:38 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:02 2004" *by "Paul E. Black"
 
 # $Log: dual.trm,v $
+# Revision 1.6  2004/12/17 17:28:02  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/04/19 18:37:40  black
 # Use the standard English plural of vertex
 #
@@ -43,25 +46,25 @@ which is the boundary between the adjacent regions.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=<IMG src="Images/dual.gif" height=266 width=303 align=right>
-An <A
+An <a
 href="http://bkocay.cs.umanitoba.ca/G&G/articles/Torus.pdf">algorithm
-for finding the dual</A> (PDF format) is in Fig. 2.1, page 4.
-</P>
+for finding the dual</a> (PDF format) is in Fig. 2.1, page 4.
+</p>
 
-<P>
+<p>
 The dual of a planar graph is also planar.  The original graph
 is the dual of the dual.  That is, they are duals of each other.
-</P>
+</p>
 
-<P>
+<p>
 In the accompanying figure, the black circles and solid lines are one
 planar graph.  The white squares and dotted lines are another planar
 graph.  Each is the dual of the other.
 # further explanation (pure HTML)
-@LINKS=The <A
+@LINKS=The <a
 href="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
-Venn diagram</A>.
-<A href="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</A>,
+Venn diagram</a>.
+<a href="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</a>,
 that is, planar graphs that are duals of themselves.
 # implementation(s) (pure HTML)
 @IMPL=
