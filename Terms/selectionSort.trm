@@ -1,5 +1,5 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 15:27:36 2003" *by "Paul E. Black"
+# *modified "Thu Oct  9 10:33:47 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=selection sort
@@ -8,9 +8,11 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=sort
 # the definition
-@DEFN=A {sort} algorithm that orders items by repeatedly looking through
-remaining items to find the least one and moving it to a final
-location.
+@DEFN=A {sort} algorithm that repeatedly looks through
+remaining items to find the least one and moving it to its final
+location.  The run time is {$\Theta(n<sup>2</sup>)$#\Theta}, where $n$
+is the number of comparisons.  The number of swaps is 
+{$O(n)$#big-O notation}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -20,10 +22,10 @@ location.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS={strand sort}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Sorting can be done {in place#in-place sort} by switching
+@NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
-filled.  By careful coding of the test to find the least item, this
-can be {stable}.
+filled.  If the least remaining item is inserted, that is, all
+intervening items moved to open a place, this algorithm is {stable}.
 # further explanation (pure HTML)
 @LINKS=
 <A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/SSort.html">demonstration</A>.
@@ -31,7 +33,13 @@ can be {stable}.
 @IMPL=<A
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">animation
 and code (Java)</A>;
-<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</A>.
+<A
+href="http://www-ihm.lri.fr/~thomas/VisuTri/selectionsort.html">links
+to animation (Java)</A>;
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</A>;
+<A
+href="http://www.sci.csuhayward.edu/~billard/cs3240/node29.html">questions
+and example (C)</A>.
 # author's initials
 @AUTHOR=PEB
 # end
