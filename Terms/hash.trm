@@ -1,0 +1,55 @@
+# *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
+# *modified "Thu Feb 20 12:23:21 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=hash function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A function that maps {keys} to integers, usually to
+get an even distribution on a smaller set of values.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=hash
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={hash table}, {linear hash}, {multiplication method},
+{perfect hashing}, {minimal perfect hashing}, 
+{order preserving minimal perfect hashing},
+{uniform hashing}, {universal hashing}, {simple uniform hashing}, {Pearson's hash}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The range of integers is typically $[0\ldots m-1]$ where $m$ is
+a prime number or a power of 2.
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+<A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/hash_func.html">Hashing
+Functions</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+See the implementations at <A
+href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
+perfect hashing (C++ and C)</A> and <A
+href="http://www.nist.gov/dads/HTML/pearsonshash.html">Pearson's hash
+(C)</A>.
+A review and comparison of many
+<A href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</A>.
+Overview of
+<A
+href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">different
+kinds of hash functions</A>.
+Hash functions for
+# This implementation is okay - PEB 6 April 1999
+<A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c">strings
+(C)</A>,
+<A href="http://www.octavian.org/cs/software.html">strings (C and
+Perl)</A>, <A
+href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</A>
+# author's initials
+@AUTHOR=PEB
+# end
