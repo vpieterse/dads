@@ -1,0 +1,35 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Jun 13 16:34:03 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=linear congruential generator
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=numeric
+# the definition
+@DEFN=A class of {algorithms} that are {pseudo-random number
+generators}.  The next number is generated from the current one by 
+$r<sub>n+1</sub> = (A \times r<sub>n</sub> + B)\bmod M$, where A and B are
+relatively prime numbers.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=When implemented in software, A and B may be chosen so as to
+have integer overflow on nearly every step, and therefore have a less predictable
+sequence and avoid the $\bmod$ operation.  The low-order bits tend to
+be less random 
+than high-order bits.  This is improved by discarding some of the
+low-order bits.  Therefore, the range of random numbers is less than
+the range of the integer used in the computation. 
+</P>
+
+<P>
+Better algorithms are available, but they are more complex.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=BB
+# end
