@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 20 12:22:26 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:24:23 2004" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Revision 1.5  2004/12/17 17:24:23  black
+# Make more XHTML compliant.
+#
 # Revision 1.4  2004/09/20 16:22:27  black
 # Change Comp.Theory FAQ URL.
 #
@@ -42,18 +45,18 @@ Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
-@LINKS=History, definitions, examples, etc. given in <A
+@LINKS=History, definitions, examples, etc. given in <a
 href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
-FAQ</A>, scroll down to <strong>P vs. NP</strong>.
-Wikipedia entry on <A
+FAQ</a>, scroll down to <strong>P vs. NP</strong>.
+Wikipedia entry on <a
 href="http://www.wikipedia.com/wiki/Complexity_classes_P_and_NP">Complexity
-classes P and NP</A>.
-</P>
+classes P and NP</a>.
+</p>
 
-<P>
+<p>
 Scott Aaronson's
-<A href="http://www.complexityzoo.com/">Complexity
-Zoo</A>
+<a href="http://www.complexityzoo.com/">Complexity
+Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
