@@ -1,5 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Nov 18 14:31:04 1999" *by "Paul E. Black"
+# *modified "Fri Jul 23 18:05:13 2004" *by "Paul E. Black"
+
+# $Log: finiteStateTransducer.trm,v $
+# Revision 1.2  2004/07/23 22:15:19  black
+# The definition of "transducer" is actually a defn of this, so move it
+# here and delete "transducer" as a separate entry.  Add RCS keywords.
+#
+
 # entry name
 @NAME=finite state transducer
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,9 +14,21 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=autom
 # the definition
-@DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS=
+@DEFN=A {finite state machine} specifically with a read-only input and
+a write-only output.  The input and output cannot be reread or changed.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Turing transducer}, {pushdown transducer}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -17,5 +36,5 @@
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/finiteStateTransducer.trm,v $
