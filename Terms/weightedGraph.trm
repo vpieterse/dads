@@ -1,5 +1,11 @@
 # *created  "Mon Oct 19 15:12:32 1998" *by "Paul E. Black"
-# *modified "Tue May 14 12:22:16 2002" *by "Paul E. Black"
+# *modified "Sat Dec 27 11:54:35 2003" *by "Paul E. Black"
+
+# $Log: weightedGraph.trm,v $
+# Revision 1.2  2003/12/27 16:55:44  black
+# Add AKA edge-weighted graph.
+# Refince XREF into IMA and VARIANT.
+#
 
 # entry name
 @NAME=weighted graph
@@ -11,8 +17,28 @@
 @DEFN=A {graph} having a weight, or number, associated
 with each {edge}.  Some algorithms require all weights to be
 nonnegative, integral, positive, etc.
-# comma-separated list of cross references, i.e., See also ...
-@XREFS={weighted, directed graph}, {labeled graph}
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# edge-directed graph from Bruno Preiss "Data Structures and
+# Algorithms with Object-Oriented Design Patterns in C++", page 546
+# http://www.brpreiss.com/books/opus4/html/page546.html
+@AKA=edge-weighted graph
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={labeled graph}
+# Specialization: "... is a kind of me."
+@VARIANT={weighted, directed graph}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
@@ -21,4 +47,4 @@ nonnegative, integral, positive, etc.
 @LINKS=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/weightedGraph.trm,v $
