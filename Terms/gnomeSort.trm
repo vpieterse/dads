@@ -1,7 +1,10 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Mon Mar 15 13:44:41 2004" *by "Paul E. Black"
+# *modified "Wed Aug 25 09:52:19 2004" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.2  2004/08/25 14:04:10  black
+# Note that IMA stable sort.  Improve wording slightly.
+#
 # Revision 1.1  2004/03/15 18:45:02  black
 # Initial revision
 #
@@ -13,7 +16,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=sort
 # the definition
-@DEFN=Put item in order by comparing the current item with the
+@DEFN=Put items in order by comparing the current item with the
 previous item.  If they are in order, move to the next item (or stop
 if the end is reached).  If they are out of order, swap them and move
 to the previous item.  If there is no previous item, move to the next
@@ -27,7 +30,7 @@ item.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={sort}, {in-place sort}
+@IMA={stable} {sort}, {in-place sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -43,12 +46,9 @@ item.
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
 # any notes.  these are not printed in the final dictionary
-@NOTES=Gnome sort is {stable}.
-</P>
-
-<P>
+@NOTES=
 This can be seen as an {insertion sort} with only one current item.
-After having moved an item backward, orders are rechecked while moving
+After having moved an item backward, orders are checked while moving
 forward to where progress left off.
 </P>
 
