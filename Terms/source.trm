@@ -1,0 +1,36 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Dec  4 10:33:12 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=source
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=(1) A {vertex} of a {directed graph} with no incoming
+{edges}.  More formally, a vertex with {in-degree} 0.
+(2) The vertex from which an {edge} of a {directed graph} leaves.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={sink}, {supersource}, {flow network}, {critical path problem},
+{multi-commodity flow}, (2) {target}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Conceptually, an origin of whatever is directed in the graph.
+In UML, a producer of data in a design.
+</P>
+
+<P>
+(2) That is, an edge goes from the source to the target.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
