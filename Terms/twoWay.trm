@@ -1,5 +1,11 @@
 # *created  "Wed Jul  7 08:45:41 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 08:55:30 2003" *by "Paul E. Black"
+# *modified "Fri Oct 29 10:31:29 2004" *by "Paul E. Black"
+
+# $Log: twoWay.trm,v $
+# Revision 1.2  2004/10/29 14:34:10  black
+# Define algorithm.  Refine XREFS into IMA, etc., and add RCS keywords.
+#
+
 # entry name
 @NAME=Two Way algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -7,15 +13,43 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS=
+@DEFN={Partition} ("factor") the {pattern}, $x$, into left,
+$x<sub>l</sub>$, and right, $x<sub>r</sub>$, parts in such a way to
+optimize searching.  Compare $x<sub>r</sub>$ left to right then, if it
+matches, compare $x<sub>l</sub>$ right to left.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=Crochemore-Perrin string matching
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching} algorithm
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Knuth-Morris-Pratt algorithm}, {Boyer-Moore}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Maxime Crochemore</strong> and <strong>Dominique Perrin</strong>,
+<em>Two-way string-matching</em>, Journal of the ACM, 38(3):651-675,
+July 1991.
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=[It] "can be viewed as an intermediate between the classical
+algorithms of Knuth, Morris, and Pratt on the one hand and Boyer and
+Moore, on the other hand."
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <A href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
 # author's initials (see authors.data)
-@AUTHOR=
-# end
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/twoWay.trm,v $
