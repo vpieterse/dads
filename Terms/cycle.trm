@@ -1,5 +1,5 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Mon Jul 14 16:51:06 2003" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:53 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=cycle
@@ -9,12 +9,12 @@
 @AREA=graph
 # the definition
 @DEFN=A {path} in a {graph} that starts and ends at the
-same {vertex} and includes other vertices at most once.
+same {vertex} and includes other vertexes at most once.
 # comma-separated list of cross references, i.e., See also ...
 @XREFS={Hamiltonian cycle}, {Euler cycle}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Ignoring the start (or end) vertex, the constraint that it
-include vertices at most once makes a cycle a {simple path}.
+include vertexes at most once makes a cycle a {simple path}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
@@ -23,4 +23,4 @@ href="http://www.geocities.com/Vienna/7079/src/graph.txt">graph cycle
 detector (C)</A>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/cycle.trm,v $
