@@ -1,5 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Mon Jul 14 17:06:08 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:19 2004" *by "Paul E. Black"
+
+# $Log: hamiltonianCycle.trm,v $
+# Revision 1.2  2004/12/17 16:52:19  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=Hamiltonian cycle
@@ -12,34 +17,45 @@
 same {vertex} and includes every other vertex exactly once.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=tour
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=Hamiltonian circuit
-# comma-separated list of cross references, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={cycle}, {traveling salesman}, {Euler cycle}, {simple path},
+
 {vehicle routing problem}, {perfect matching}
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Named for <A
+@NOTES=Named for <a
 href="http://www.engr.iupui.edu/~orr/webpages/cpt120/mathbios/hamil.htm">Sir
-William Rowan Hamilton (1805-1865)</A> (a <A
+William Rowan Hamilton (1805-1865)</a> (a <a
 href="http://www-groups.dcs.st-and.ac.uk/history/Mathematicians/Hamilton.html">longer
-biography</A>).
+biography</a>).
 A Hamiltonian cycle includes each vertex once; an Euler cycle includes
 each edge once.
-</P>
+</p>
 
-<P>
+<p>
 Also known as a Hamiltonian circuit.  Ignoring the start (or end)
 vertex, a Hamiltonian cycle is a {simple path}.
 # further explanation (pure HTML)
-@LINKS=Links to <A
+@LINKS=Links to <a
 href="http://www.densis.fee.unicamp.br/~moscato/Hamilton.html">papers
-on every aspect of Hamiltonian cycles and paths</A>.
+on every aspect of Hamiltonian cycles and paths</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/hamiltonian-cycle.shtml">(Fortran,
-C, Mathematica, and C++)</A>
+C, Mathematica, and C++)</a>
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/hamiltonianCycle.trm,v $
