@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  9 16:58:12 2002" *by "Paul E. Black"
+# *modified "Thu Oct 16 13:01:47 EDT 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=layered graph
@@ -9,10 +9,10 @@
 @AREA=graph
 # the definition
 @DEFN=A {connected graph} where "layers" $L<sub>0</sub> \ldots
-L<sub>k</sub>$ {partition} the {vertices#vertex}.  Each {edge}, which
+L<sub>k</sub>$ {partition} the {vertexes}.  Each {edge}, which
 has a nonnegative integral {weight#weighted graph}, connects only
-vertices in successive layers.  The width is the greatest number of
-vertices in any layer, i.e., 
+vertexes in successive layers.  The width is the greatest number of
+vertexes in any layer, i.e., 
 $MAX<sub>i=0</sub><sup>k</sup> |L<sub>i</sub>|$.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -38,4 +38,4 @@ version appeared in FOCS '91.  Contributed by Giovanni Fiaschi
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/layeredgraph.trm,v $
