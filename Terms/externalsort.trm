@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:36:23 1999" *by "Paul E. Black"
-# *modified "Mon Oct  4 14:22:44 2004" *by "Paul E. Black"
+# *modified "Wed Dec 15 13:14:41 2004" *by "Paul E. Black"
 
 # $Log: externalsort.trm,v $
+# Revision 1.3  2004/12/15 18:16:31  black
+# Add external quicksort as a VARIANT.  Make more compatible with XHTML.
+#
 # Revision 1.2  2004/10/04 18:23:51  black
 # Refer to Geeta's thesis on external sort algorithms.  Refine XREFS
 # into IMA, etc.  Add RCS keywords.
@@ -26,7 +29,7 @@ unsuitable if the values to be sorted don't fit in main memory.
 @VARIANT={balanced multiway merge}, {cascade merge sort},
 {external merge sort}, {optimal polyphase merge sort},
 {oscillating merge sort}, {polyphase merge sort},
-{external radix sort}
+{external radix sort}, {external quicksort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
@@ -40,15 +43,15 @@ write sorted values to disk, but this is not using external memory
 during the sort.  Note that even though virtual memory may mask the
 use of disk, sorting sets of data much larger than main memory may be
 much faster using an explicit external sort.
-</P>
+</p>
 
-<P>
-See <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.4]</A>
+<p>
+See <a href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.4]</a>
 for an extensive treatment.
 # further explanation (pure HTML)
 @LINKS=
-<A href="http://www.cs.dartmouth.edu/reports/abstracts/TR2004-517/">Geeta
-Chaudhry's PhD thesis</A> which includes new external sort algorithms
+<a href="http://www.cs.dartmouth.edu/reports/abstracts/TR2004-517/">Geeta
+Chaudhry's PhD thesis</a> which includes new external sort algorithms
 and comparisons with other external sort algorithms.
 
 # implementation(s) (pure HTML)
