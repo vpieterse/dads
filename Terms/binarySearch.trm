@@ -1,0 +1,45 @@
+# *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:42:00 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=binary search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=search
+# the definition
+@DEFN=Search a {sorted array} by repeatedly dividing the search
+interval in half.  Begin with an interval covering the whole array.
+If the value of the search {key} is less than
+the item in the middle of the interval, narrow the interval to the
+lower half.  Otherwise narrow it to the upper half.  Repeatedly check
+until the value is found or the interval is empty.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=bsearch
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={interpolation search}, {Fibonacci search}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Run time is {O(ln n)#big-O notation}.
+# further explanation (pure HTML)
+@LINKS=<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSearch.html">demonstration</A>.
+# John Morris morris@ee.uwa.edu.au
+<A
+href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/searching.html#binary-search">explanation</A>
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Binary_Search/binary_search.html">recursive
+and iterative code (C)</A>;
+<A
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
+(C)</A>,
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/binary-search.html">(Scheme)</A>,
+Worst-case behavior <A
+href="http://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated
+for real time (WOOP/ADA)</A>, including bibliography.
+# author's initials
+@AUTHOR=PEB
+# end
