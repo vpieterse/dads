@@ -1,5 +1,14 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Oct 14 15:02:57 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:56:08 2004" *by "Paul E. Black"
+
+# $Log: spanningtree.trm,v $
+# Revision 1.3  2004/04/19 18:56:13  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 19:03:24  black
+# Use a more regular plural of vertex
+#
+
 # entry name
 @NAME=spanning tree
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,9 +17,20 @@
 @AREA=tree
 # the definition
 @DEFN=A {connected#connected graph}, {acyclic#acyclic graph} subgraph
-containing all the {vertexes} of a {graph}.
-# comma-separated list of {cross references}, i.e., See also ...
+containing all the {vertices#vertex} of a {graph}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={minimum spanning tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 1-26,
