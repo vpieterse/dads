@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jun 16 12:51:55 2004" *by "Paul E. Black"
+# *modified "Wed Dec 15 14:29:56 2004" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.4  2004/12/15 19:31:03  black
+# Remove XREF to deleted term, spectral test.  Make more XHTML compliant.
+#
 # Revision 1.3  2004/06/16 16:52:27  black
 # Link to Entacher's review and comparison.
 #
@@ -20,7 +23,7 @@
 @DEFN=A {deterministic algorithm} to generate a sequence of numbers
 with little or no discernible pattern in the numbers, except for broad
 statistical properties.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=PRNG
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=pseudorandom number
@@ -35,7 +38,7 @@ statistical properties.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={spectral test}, {randomized algorithm}, {linear congruential
+@XREFS={randomized algorithm}, {linear congruential
 generator}
 
 # any notes.  these will not be printed in the final dictionary
@@ -44,32 +47,32 @@ numbers, not actually random numbers.  This is important when, say,
 simulations are sensitive to subtle patterns in the ``random'' numbers
 used.  Hardware-based random number generators are built from parts
 with naturally random events, such as noise in a diode.
-</P>
+</p>
 
-<P>
+<p>
 A generator may be ``seeded'', or initialized, with a random event,
 such as the current time in milliseconds, to give different sequences
 every time it is used.
 # further explanation (pure HTML)
-@LINKS=<A href="http://csrc.nist.gov/rng/">Random Number Generation
-and Testing</A> with links to reports, standard tests, and on-going
+@LINKS=<a href="http://csrc.nist.gov/rng/">Random Number Generation
+and Testing</a> with links to reports, standard tests, and on-going
 research.
-<A href="http://www.fourmilab.ch/random/">ent</A>: a program to
+<a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
 Karl Entacher's thorough review and comparison of
-<A href="http://random.mat.sbg.ac.at/~charly/server/server.html">A
+<a href="http://random.mat.sbg.ac.at/~charly/server/server.html">A
 collection of selected pseudorandom number generators with linear
-structures</A>.
+structures</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A
+@IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
-C, and Fortran)</A>,
-Glenn Rhoads' <A
-href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</A>.
-GAMS <A href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</A>.
-Using C libraries to get <A
+C, and Fortran)</a>,
+Glenn Rhoads' <a
+href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
+GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
+Using C libraries to get <a
 href="http://www.eskimo.com/~scs/C-faq/q13.16.html">random numbers in
-a certain range (C)</A>.
+a certain range (C)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pseudorandomNumberGen.trm,v $
