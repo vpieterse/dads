@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec 20 15:04:55 2004" *by "Paul E. Black"
+# *modified "Thu Dec 23 16:31:44 2004" *by "Paul E. Black"
 
 # $Log: bbalphatree.trm,v $
+# Revision 1.4  2004/12/23 21:31:58  black
+# Remove trailing blank in XREFS.
+#
 # Revision 1.3  2004/12/20 20:06:35  black
 # This is AKA as weight-balanced tree.  Add IMPL from that entry.
 #
@@ -36,7 +39,7 @@ by $\alpha \leq \rho(T') \leq 1-\alpha$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={height-balanced tree} 
+@XREFS={height-balanced tree}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <strong>Johann Blieberger</strong>
