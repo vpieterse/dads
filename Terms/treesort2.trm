@@ -1,21 +1,38 @@
 # *created  "Wed Feb  3 09:39:25 1999" *by "Paul E. Black"
-# *modified "Tue Apr  6 14:44:33 2004" *by "Paul E. Black"
+# *modified "Mon Nov 29 16:04:39 2004" *by "Paul E. Black"
 
 # $Log: treesort2.trm,v $
+# Revision 1.3  2004/11/29 21:06:28  black
+# Rename tree sort (2) since GBY uses tree sort to mean something quite
+# different (and more resonable, I think).  Refine XREFS into IMA,
+# etc. and fill in.  Note that these are evolutionary ancestors of the
+# modern heapsort.
+#
 # Revision 1.2  2004/04/06 18:45:04  black
 # Add bib info.  Add RCS keywords.
 #
 
 # entry name
-@NAME=tree sort
+@NAME=tree sort (2)
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=sort
 # the definition
-@DEFN=
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={binary search tree}
+@DEFN=Variants of {heapsort}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={heapsort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={balanced binary search tree}, {heap}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={tree sort (1)}
+
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
@@ -25,11 +42,12 @@ CACM, 7(12):701, December 1964.<BR>
 CACM, 5(8):434, August 1962.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=The algorithms Floyd named treesort can be seen as
+developments leading to what we now call heapsort.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A HREF="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/426.treesort.p">(C)</A>
+@IMPL=
 # author's initials
-@AUTHOR=
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/treesort2.trm,v $
