@@ -1,0 +1,23 @@
+# *created  "Wed Jun 23 15:27:26 1999" *by "Paul E. Black"
+# *modified "Tue Apr  4 15:42:05 2000" *by "Paul E. Black"
+# entry name
+@NAME=run time
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=(1) The amount of time needed to execute an {algorithm}.
+(2) The time when a compiled program is executing, versus
+compile time.  
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={big-O notation}, {polynomial time}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PR
+# end
