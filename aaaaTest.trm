@@ -1,5 +1,6 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Fri May  3 14:37:08 2002" *by "Paul E. Black"
+# *modified "Tue Jan  7 12:06:40 2003" *by "Paul E. Black"
+
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,17 +12,13 @@
 in the final release.  It has all the strangest, hardest examples and
 test cases I've found.
 (2) This is definition two.  A {node} \{this should not cause problems}
-some {B-trees} are big.  Surrounding phrases with ``LaTeX-style doubled
-quotes'' shouldn't matter, and surrounding them with "doublequotes" 
-shouldn't matter either.  But putting $``LaTeX-style doubled quotes''$
-in math mode markers (paired dollar signs) should make them
-doublequotes. {P-tree}(2),
+some {B-trees} are big.  {P-tree}(2),
 {arg\h?.} 
 {R<sup>+</sup>-tree} {some%D%L%R%Pings} {this is
 not found}
-</p>
+</P>
 
-<p>
+<P>
 Entering LaTeX commands takes some work.  Anything between dollar
 signs is considered to be a LaTeX expression and subject to
 substitution.  All open curly brackets must be escaped (preceeded by a
@@ -30,9 +27,17 @@ Subscripts (underline) and superscripts (caret) must be replaced by
 the HTML sub...end-sub and sup...end-sup.  Less than and greater than
 must be entered with the HTML &amp;lt; and &amp;gt;, otherwise trying
 to replace them would mess up sup/end-sup.
-</p>
+</P>
 
-<p>
+<P>
+You can surround phrases with ``LaTeX-style doubled quotes'' or
+"doublequotes" it doesn't matter: there is a hard-wired conversion
+from LaTeX-style doubled quotes into doublequotes. 
+Putting $``LaTeX-style doubled quotes''$ in math mode markers (paired
+dollar signs) should make them doublequotes, too. 
+</P>
+
+<P>
 Here is a sample:
 $\int\sqrt\{5} < \rho \div \left\{ \overline\{S}<sup>T</sup> \right\} \pm \mu$
 but in the limiting case we have
@@ -64,8 +69,8 @@ Symposium on Discrete Algorithms (SODA), January 1997.
 $\alpha \times \alpha \leq \Omega \ll \Sigma$ and
 $\Gamma \geq \Theta<sub>j</sub>+\alpha \gg \epsilon$
 # further explanation (pure HTML)
-@LINKS=<a href="http://www.lds.org/">The Church of Jesus Christ of
-Latter Day Saints</a>
+@LINKS=<A href="http://www.lds.org/">The Church of Jesus Christ of
+Latter Day Saints</A>
 <A HREF="http://nowhere.org/ %&+;=~blackfish">bad link</A>
 # implementation(s) (pure HTML)
 @IMPL=
