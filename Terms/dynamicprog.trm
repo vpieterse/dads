@@ -1,5 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Nov 19 09:33:22 2001" *by "Paul E. Black"
+# *modified "Wed Nov 19 09:44:36 2003" *by "Paul E. Black"
+
+# $Log: dynamicprog.trm,v $
+# Revision 1.2  2003/11/19 14:46:57  black
+# Add new link and cross references.  Separate xrefs to problems which
+# can be solved with dyn. prog. from related techniques.
+#
+
 # entry name
 @NAME=dynamic programming
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -11,8 +18,10 @@
 solved by caching subproblem solutions ({memoization}) rather than
 recomputing them.
 # comma-separated list of {cross references}, i.e., See also ...
-@XREFS={greedy algorithm}, {principle of optimality}, {matrix-chain
-multiplication problem}, {Smith-Waterman algorithm}
+@XREFS={greedy algorithm}, {principle of optimality}, 
+{Smith-Waterman algorithm}.  Solves these problems:
+{matrix-chain multiplication problem}, 
+{longest common substring}, {longest common subsequence}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 1-26,
@@ -21,10 +30,16 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+Dan Hirschberg's example of using dynamic programming for
+<A
+href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">matrix
+multiplication and longest common substring and subsequence</A>,
+including pseudocode.
+as an example of <A
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's program to <A
 href="http://pobox.com/~oleg/ftp/packages/word_layout.cc">optimally
 lay out a page (C++)</A> using dynamic programming.
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/dynamicprog.trm,v $
