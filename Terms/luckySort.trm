@@ -1,0 +1,33 @@
+# *created  "Wed Apr 24 13:06:59 2002" *by "Paul E. Black"
+# *modified "Wed Apr 16 13:14:02 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=lucky sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=The best possible {sort} algorithm: it is so lucky that the
+input is already sorted, and it need do nothing!
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=lucksort, luckysort
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={bogosort}, {bozo sort}, {stooge sort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Defined more for humorous, rather than serious, purposes.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
