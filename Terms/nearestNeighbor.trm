@@ -1,0 +1,25 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Mar  5 13:00:23 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=nearest neighbor
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=geom
+# the definition
+@DEFN=Find the point (rectangle, line, etc.) that is closest to
+another point.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={spatial access method}, {point access method}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/nearest-neighbor.shtml">(C,
+C++, and Pascal)</A>
+# author's initials
+@AUTHOR=PEB
+# end
