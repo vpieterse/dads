@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 12 10:17:32 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 12:24:40 2004" *by "Paul E. Black"
 
 # $Log: heapproperty.trm,v $
+# Revision 1.3  2004/10/06 16:25:28  black
+# Add that IMIN binary priority queue.
+#
 # Revision 1.2  2004/01/12 15:18:10  black
 # Add RCS Log.  Refine XREFS into IMA, etc.  Be more accurate that a
 # heap is a *complete* tree.
@@ -30,7 +33,7 @@ extreme (greater or less) than or equal to the key of its
 # Specialization: "... is a kind of me."
 @VARIANT={max-heap property}, {min-heap property}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={binary heap}, {heap}
+@IMIN={binary heap}, {heap}, {binary priority queue}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
