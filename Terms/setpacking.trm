@@ -1,0 +1,23 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Oct  8 12:54:03 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=set packing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=An {optimization problem} to find	the largest number of mutually
+{disjoint#disjoint set} {subsets} that cover a given set of {sets}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={partition}, {vertex cover}, {bin packing problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.sunysb.edu/~algorith/files/set-packing.shtml">(Pascal)</A>
+# author's initials
+@AUTHOR=BB
+# end
