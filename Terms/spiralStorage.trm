@@ -1,0 +1,63 @@
+# *created  "Thu Feb  3 08:50:53 2005" *by "Paul E. Black"
+# *modified "Thu Feb  3 09:58:49 2005" *by "Paul E. Black"
+
+# $Log: spiralStorage.trm,v $
+# Revision 1.1  2005/02/03 15:01:53  black
+# Initial revision
+#
+
+# entry name
+@NAME=spiral storage
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {dynamic hashing} table that grows a few slots at a time.  It
+uses a {hash function}, $h$, with a {range} of $[0,1)$.  For a key,
+$k$, an intermediate value, $x=\lceil S-h(k)\rceil +h(k)$, is computed
+to find the final slot, $\lfloor d<sup>x</sup>\rfloor$, where $d&gt;1$
+is called the growth factor.  To increase the number of slots,
+increase $S$ to $S'$ and rehash any keys from 
+$\lfloor d<sup>S</sup>\rfloor$ to $\lfloor d<sup>S'</sup>\rfloor-1$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={dynamic hashing}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={linear hashing}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>G. N. N. Martin</strong>, <em>Spiral storage: Incrementally
+augmentable hash addressed storage</em>,
+Theory of Computation Rep. 27, Univ. of Warwick, England, 1979.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Choosing $d=2$ and $S=\log<sub>2</sub>N$, the number of slots,
+every expansion retires one slot and creates two new slots.  Since
+slots in use go from $\lfloor d<sup>S</sup>\rfloor$ to 
+$\lfloor d<sup>S+1</sup>\rfloor-1$, they are usually remapped to
+physical storage.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/spiralStorage.trm,v $
