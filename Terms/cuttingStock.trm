@@ -1,0 +1,32 @@
+# *created  "Fri Mar 31 08:58:00 2000" *by "Paul E. Black"
+# *modified "Tue Oct  8 13:03:44 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=cutting stock problem
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Find the best arrangement of shapes on rectangles to minimize
+waste or the number of rectangles.  This is a {two-dimensional}
+variant of the {bin packing problem}.  It is {NP-complete}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={knapsack problem}, a one-dimensional variant is the {strip
+packing} problem, {optimization problem}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This problem arises often in manufacturing.  For instance,
+deciding how to cut pieces for pants from cloth or shapes from sheet
+metal.  
+# further explanation (pure HTML)
+@LINKS=The <A
+href="http://www-fp.mcs.anl.gov/otc/Guide/CaseStudies/cutting/">Cutting
+Stock Problem</A>: An Application of Integer Linear Programming at the
+<A href="http://www.ece.nwu.edu/OTC/">Optimization Technology
+Center</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.ece.nwu.edu/OTC/OTCsoftware.htm">linear and
+nonlinear programming and algebra packages (C and Fortran)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
