@@ -7,7 +7,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=A list of {vertices#vertex} of a {graph} where each vertex
+@DEFN=A list of {vertexes} of a {graph} where each vertex
 has an {edge} from it to the next vertex.
 # comma-separated list of cross references, i.e., See also ...
 @XREFS={cycle},{Hamiltonian cycle}, {Euler cycle}, {shortest path},
@@ -17,4 +17,4 @@ has an {edge} from it to the next vertex.
 otherwise defined.
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/path.trm,v $
