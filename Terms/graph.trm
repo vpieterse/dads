@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Wed Feb  4 16:35:39 2004" *by "Paul E. Black"
+# *modified "Tue Mar  9 09:27:01 2004" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.5  2004/03/09 14:28:27  black
+# Add implementation: GEF.
+#
 # Revision 1.4  2004/02/04 21:38:48  black
 # Refine XREFS into VARIANT, etc. and add missing terms.  Add RCS Log.
 # Use a more regular plural of vertex.
@@ -103,6 +106,8 @@ href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
 traverse, top sort, etc. weighted, directed graphs (Java)</A>,
 <A href="http://jgrapht.sourceforge.net/">JGraphT (Java)</A> build, traverse,
 and display directed and undirected graphs,
+<A href="http://gef.tigris.org/">GEF - Graph Editing Framework
+(Java)</A> a library to edit and display graphs.
 <A
 href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">graph
 generating (C, Mathematica, Pascal, C++, and Fortran)</A>,
