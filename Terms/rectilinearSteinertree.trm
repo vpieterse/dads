@@ -1,5 +1,10 @@
 # *created  "Tue Mar  9 08:28:45 1999" *by "Paul E. Black"
-# *modified "Thu Apr 17 09:20:56 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:07 2004" *by "Paul E. Black"
+
+# $Log: rectilinearSteinertree.trm,v $
+# Revision 1.2  2004/12/17 16:54:07  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=rectilinear Steiner tree
@@ -12,15 +17,26 @@
 called <em>terminals</em>, in the plane.  This tree may include
 points other than the terminals, which are called
 {Steiner points}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Steiner tree}, {Euclidean Steiner tree}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<A href="http://ganley.org/steiner/">Steiner Tree page</A>.
+@LINKS=<a href="http://ganley.org/steiner/">Steiner Tree page</a>.
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.diku.dk/geosteiner/">GeoSteiner (C)</A> -
+@IMPL=<a href="http://www.diku.dk/geosteiner/">GeoSteiner (C)</a> -
 software for computing steiner trees.
 # author's initials
 @AUTHOR=JLG
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/rectilinearSteinertree.trm,v $
