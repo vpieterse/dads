@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:39 2004" *by "Paul E. Black"
+# *modified "Mon Jan  3 12:06:45 2005" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.11  2005/01/03 17:08:18  black
+# Fix IBM 1620 URL.  Break out note from Marlene.
+#
 # Revision 1.10  2004/12/17 17:28:39  black
 # Make more XHTML compliant.
 #
@@ -116,6 +119,9 @@ Programming</em>, John Wiley and Sons, New York, 1969, page 294.
 In crediting "one of the fastest" programs for sorting, Stuart says
 in a footnote, "Published by Marlene Metzner, Pratt &amp; Whitney
 Aircraft Company.  From a method described by D. L. Shell."
+</p>
+
+<p>
 On 3 April 2003 Marlene Metzner Norton wrote
 # Marlene Norton <marlene_norton@yahoo.com>
 </p>
@@ -164,7 +170,7 @@ differed just enough to be confusing.
 
 <p>
 Somewhere around 1961 or so, Pratt got an 
-<a href="http://www.computerhistory.org/old/IBM1620/">IBM 1620</a>. 
+<a href="http://www.computerhistory.org/projects/ibm_1620/">IBM 1620</a>. 
 This was a much smaller computer using punched paper tape instead of
 cards.  
 # Did it's math by using tables loaded during boot. (CADET -- Can't
