@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Fri Apr  9 16:32:39 2004" *by "Paul E. Black"
+# *modified "Fri Apr 16 08:43:03 2004" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.3  2004/04/16 12:43:32  black
+# Change phonetic matching to phonetic coding.  Add caverphone.
+#
 # Revision 1.2  2004/04/09 20:35:30  black
 # Refine XREFS to IMA, etc.  Refer to new umbrella term phonetic
 # matching.  Update "A Better Phonetic Lookup" link: it is now an applet
@@ -24,7 +27,7 @@ spelling.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={phonetic matching}
+@IMA={phonetic coding}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -32,7 +35,7 @@ spelling.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Jaro-Winkler}, {NYSIIS}, {soundex}, {metaphone}, {edit distance}
+@XREFS={Jaro-Winkler}, {caverphone}, {NYSIIS}, {soundex}, {metaphone}, {edit distance}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
