@@ -1,0 +1,33 @@
+# *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
+# *modified "Fri May  3 15:36:35 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=double metaphone
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An algorithm to code English words (and foreign words often
+heard in the United States) phonetically by reducing them
+to 12 consonant sounds.  This reduces matching problems from wrong
+spelling.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={Jaro-Winkler}, {NYSIIS}, {soundex}, {metaphone}, {edit distance}
+# any notes.  these are not printed in the final dictionary
+@NOTES=This is an improved version of {metaphone}.  It returns two
+keys if a word has two feasible pronunciations, such as a foreign
+word.
+# further explanation (pure HTML)
+@LINKS=<A HREF="http://www.lanw.com/java/phonetic/">A Better Phonetic
+Lookup</A>
+# "The Double Metaphone Search Algorithm", C/C++ Users Journal, June 2000
+# by Lawrence Philips <lphilips@verity.com>
+# http://www.cuj.com/current/feature.html (as of May 2000)
+# implementation(s) (pure HTML)
+@IMPL=<A HREF="http://aspell.sourceforge.net/metaphone/">Metaphone and
+double metaphone (Basic, C, Perl, and C++)</A>,
+<A HREF="ftp://ftp.cuj.com/pub/2000/1806/philips.zip">zip'd (C++)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
