@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 25 14:55:12 2005" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:24:04 2005" *by "Paul E. Black"
 
 # $Log: primJarnik.trm,v $
+# Revision 1.4  2005/02/02 20:25:06  black
+# IM not A greedy algorithm; it is an algo. technique used INME.
+#
 # Revision 1.3  2005/01/25 19:56:01  black
 # Change name to Prim-Jarnik since Jarnik first published the
 # algorithm.  Add BIB info.  Improve the definition.
@@ -30,13 +33,13 @@ all vertices have been added.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={greedy algorithm}
+@IMA=
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={greedy algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Kruskal's algorithm}
 
