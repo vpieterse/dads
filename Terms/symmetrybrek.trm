@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Sep  6 12:10:01 2000" *by "Paul E. Black"
+# *modified "Tue Oct 14 13:20:54 2003" *by "Paul E. Black"
 # entry name
 @NAME=symmetry breaking
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,7 +8,7 @@
 @AREA=para
 # the definition
 @DEFN=To differentiate parts of a structure, such as a {graph}, which
-locally look the same to all {vertices#vertex}.  Usually implemented
+locally look the same to all {vertexes}.  Usually implemented
 with {randomization}.
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=
@@ -24,4 +24,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/symmetrybrek.trm,v $
