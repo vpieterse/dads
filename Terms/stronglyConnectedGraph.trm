@@ -1,5 +1,5 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri May  3 13:13:21 2002" *by "Paul E. Black"
+# *modified "Tue Oct 14 14:57:52 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=strongly connected graph
@@ -12,7 +12,7 @@
 to every other vertex.
 # formal definition or {cross reference} to an entry
 @FORML=A {directed graph} $D=(V, E)$ such that for all pairs of
-{vertices#vertex} $u, v \in V$, there is a {path} from
+{vertexes} $u, v \in V$, there is a {path} from
 $u$ to $v$ and from $v$ to $u$.
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
@@ -33,4 +33,4 @@ href="http://www.cs.sunysb.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</A>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/stronglyConnectedGraph.trm,v $
