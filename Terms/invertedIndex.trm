@@ -1,5 +1,11 @@
 # *created  "Tue Mar 16 16:31:33 1999" *by "Paul E. Black"
-# *modified "Thu Jan 10 15:39:17 2002" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:32 2004" *by "Paul E. Black"
+
+# $Log: invertedIndex.trm,v $
+# Revision 1.2  2004/12/17 16:52:33  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
 # entry name
 @NAME=inverted index
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -14,14 +20,25 @@ word and a list of texts, possibly with locations
 within the text, where the word occurs.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=inverted file
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={full inverted index}, {inverted file index}, {block addressing
+
 index}, {index file}, {external index}, {forward index}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Nivio Ziviani, Edleno Silva de Moura, Gonzalo Navarro,
 Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
 Next-Generation Text Retrieval Systems</em>, IEEE Computer,
@@ -31,7 +48,7 @@ Next-Generation Text Retrieval Systems</em>, IEEE Computer,
 love," "love is blind," and "blind justice." (The words of the text
 are all lower case for simplicity.)  If we index by (text, character
 within the text), the index with location in text is:
-<PRE>
+<pre>
 blind   (3,8);(4,0)<br>
 god     (2,0)<br>
 i       (1,0)<br>
@@ -39,7 +56,7 @@ is      (2,4);(3,5)<br>
 justice (4,6)<br>
 love    (1,2);(2,7);(3,0)<br>
 you     (1,7)
-</PRE>
+</pre>
 The word "blind" is in document 3 ("love is blind") starting at
 character 8, so has an entry <code>(3,8)</code>.
 To find, for instance, documents with both "is" and "love," first
@@ -54,4 +71,4 @@ text.
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/invertedIndex.trm,v $
