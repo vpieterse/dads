@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Tue Nov 30 10:12:37 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:23:57 2004" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.9  2004/12/17 17:23:57  black
+# Make more XHTML compliant.
+#
 # Revision 1.8  2004/11/30 15:14:44  black
 # Note similarity between heapsort and selection sort.
 #
@@ -33,7 +36,7 @@ repeatedly extracts the maximum item.  Run time is
 {O(n log n)#big-O notation}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=heap sort
@@ -50,12 +53,12 @@ repeatedly extracts the maximum item.  Run time is
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={selection sort}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Robert W. Floyd</strong>, <em>Algorithm 245 Treesort 3</em>,
-CACM, 7(12):701, December 1964.<BR>
+CACM, 7(12):701, December 1964.<br>
 <strong>J. W. J. Williams</strong>, <em>Algorithm 232 Heapsort</em>,
-CACM, 7(6):378-348, June 1964.<BR>
+CACM, 7(6):378-348, June 1964.<br>
 Although Williams clearly stated the idea of heapsort, Floyd gave a
 complete, efficient implementation nearly identical to what we use
 today.
@@ -65,23 +68,23 @@ today.
 sorted items are arranged (in a {heap}) to quickly find the next item.
 
 # further explanation (pure HTML)
-@LINKS=<A
-href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration</A>.
-<A href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
-quicksort, heapsort, and merge sort</A> on modern processors.
+@LINKS=<a
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Lang's <A
+Lang's <a
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/heap/heapen.htm">definitions,
-explanations, diagrams, Java applet, and pseudo-code (C)</A>,
-<A
-href="http://www.cs.ubc.ca/spider/harrison/Java/HeapSortAlgorithm.java">(Java)</A>,
-<A href="http://www2.hawaii.edu/~copley/665/HSMain.html">(Java)</A>,
-Worst-case behavior <A
+explanations, diagrams, Java applet, and pseudo-code (C)</a>,
+<a
+href="http://www.cs.ubc.ca/spider/harrison/Java/HeapSortAlgorithm.java">(Java)</a>,
+<a href="http://www2.hawaii.edu/~copley/665/HSMain.html">(Java)</a>,
+Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/heapsort.html">annotated
-for real time (WOOP/ADA)</A>, including bibliography,
-<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0472.html">(Rexx)</A>.
+for real time (WOOP/ADA)</a>, including bibliography,
+<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0472.html">(Rexx)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/heapSort.trm,v $
