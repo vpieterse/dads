@@ -1,0 +1,50 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Tue Feb 12 17:22:31 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=finite state machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {model of computation} consisting of a set of {states}, a {start
+state}, an input {alphabet}, and a {transition function} that maps
+input symbols and current states to a {next state}.
+Computation begins in the start state with an input string.  It
+changes to new states depending on the transition function.
+There are many variants, for
+instance, machines having actions (outputs)
+associated with transitions ({Mealy machine}) or states ({Moore machine}),
+multiple start states,
+transitions conditioned on no input symbol (a null) or more than one
+transition for a given symbol and state ({nondeterministic finite
+state machine}),
+one or more states designated as {accepting states} ({recognizer}), etc.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-separated list of pure names
+@AKA=finite state automaton
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=finite automaton
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={deterministic finite state machine}, {Turing machine},
+{Kripke structure},
+{transducer}, {Markov chain}, {hidden Markov model}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Equivalent to a restricted {Turing machine} where the head is
+read-only and shifts only from left to right.
+After Algorithms and Theory of Computation Handbook, page 24-19,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Oleg Kiselyov's program to <A
+href="http://pobox.com/~oleg/ftp/Prolog/minimizer.prl">minimize a
+finite state machine (Prolog)</A>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
