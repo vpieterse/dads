@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 10 14:32:19 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:26 2004" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.4  2004/12/17 17:28:26  black
+# Make more XHTML compliant.
+#
 # Revision 1.3  2004/02/10 19:35:30  black
 # Correct the formal definition.
 #
@@ -24,7 +27,7 @@ keys.
 keys K iff
 $\forall j, k \in K f(j) = f(k) \rightarrow j = k$ and the {range} of
 f(k) is $1\ldots |K|$.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -41,7 +44,7 @@ f(k) is $1\ldots |K|$.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 
 # any notes.  these will not be printed in the final dictionary
@@ -50,19 +53,19 @@ f(k) is $1\ldots |K|$.
 @LINKS=
 <strong>Edward A. Fox, Lenwood S. Heath, Qi Fan Chen</strong> and
 <strong>Amjad M. Daoud</strong>,
-<em><A href="http://doi.acm.org/10.1145/129617.129623">Practical
-minimal perfect hash functions for large databases</A></em>, 
+<em><a href="http://doi.acm.org/10.1145/129617.129623">Practical
+minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
 # implementation(s) (pure HTML)
 @IMPL=
-Description and code for <A
+Description and code for <a
 href="http://burtleburtle.net/bob/hash/perfect.html">minimal perfect
-hashing (C)</A>,
-<A href="http://metalab.unc.edu/pub/Linux/devel/lang/c/!INDEX.short.html">
-mph: minimal perfect hash function generator (C)</A>,
-<A
+hashing (C)</a>,
+<a href="http://metalab.unc.edu/pub/Linux/devel/lang/c/!INDEX.short.html">
+mph: minimal perfect hash function generator (C)</a>,
+<a
 href="http://www.cco.caltech.edu/cco/texinfo/libgplusplus/gperf_3.html">gperf:
-near minimal perfect hashing (C++)</A>,
+near minimal perfect hashing (C++)</a>,
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/minimalPerfectHash.trm,v $
