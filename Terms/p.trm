@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:24:23 2004" *by "Paul E. Black"
+# *modified "Fri Mar 11 11:42:26 2005" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Revision 1.6  2005/03/11 16:42:52  black
+# Update Wikipedia URL
+#
 # Revision 1.5  2004/12/17 17:24:23  black
 # Make more XHTML compliant.
 #
@@ -49,7 +52,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 Wikipedia entry on <a
-href="http://www.wikipedia.com/wiki/Complexity_classes_P_and_NP">Complexity
+href="http://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
 classes P and NP</a>.
 </p>
 
