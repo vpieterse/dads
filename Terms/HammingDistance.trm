@@ -1,0 +1,26 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Feb  4 12:45:16 2000" *by "Paul E. Black"
+# entry name
+@NAME=Hamming distance
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=crypt
+# the definition
+@DEFN=The number of bits which differ between two binary strings.
+More formally, the distance between two strings $A$ and $B$ is
+$\sum \left| A<sub>i</sub> - B<sub>i</sub> \right|$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After Ralf Rabaetje &lt;rrabaetj@advea.com&gt; 4 February 2000.
+<P>
+The Hamming distance can be interpreted as the number of bits which
+need to be changed (corrupted) to turn one string into the other.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
