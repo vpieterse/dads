@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.35 1999/06/17 20:19:02 black Exp $
+# $Id: mkterms,v 1.36 1999/06/18 13:51:26 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Jun 17 16:16:55 1999" *by "Paul E. Black"
+# *modified "Fri Jun 18 09:45:13 1999" *by "Paul E. Black"
 #
 # Collect all terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -203,16 +203,16 @@ sub quoteREpatterns ($) {
 sub rewriteLatex ($) {
     if ($_[0] =~ /\$/) {
 	# it has a dollar sign, so it is probably a LaTeX expression
-	# print "Start : $_[0]\n"; # TEMP
+	# print "Start : $_[0]\n";
 	for $onesubs (@latexRewrites) {
 	    #do {print "Before: $_[0]\n";}
 	    1 while eval "\$_[0] =~ $onesubs";
-	    # print "After : $_[0]\n"; # TEMP
+	    # print "After : $_[0]\n";
 	}
 
 	# remove all $...$ brackets
 	$_[0] =~ s/\$(.*?[^\\])\$/$1/g;
-	# print "Final : $_[0]\n"; # TEMP
+	# print "Final : $_[0]\n";
     }
 }
 
@@ -284,24 +284,33 @@ while (<REWRTS>) {
 	    $leftreplace  = quoteREpatterns($3);
 	    $rightreplace = quoteREpatterns($4);
 	    $replace = " $leftreplace\$2$rightreplace";
-	    # print "REPLACE $pat\n"; # TEMP
-	    # print "with    $replace\n"; # TEMP
+	    # print "REPLACE $pat\n";
+	    # print "with    $replace\n";
 	    last SWITCH;
 	}
-	if (/^(\S+)\s+(.+)/o) {
+	if (/^(\S*\{.*)\$(\S*\})\s+(.*)/o) {
+	    # replace $...$lpat{$mid$rpat}...$
+	    # with    $...$replace...$
+	    my ($leftpat, $rightpat);
+	    $leftpat  = quoteREpatterns($1);
+	    $rightpat = quoteREpatterns($2);
+	    $pat = "$leftpat(.*?)$rightpat";
+	    $replace  = quoteREpatterns($3);
+	    $replace = " $replace";
+	    # print "REPLACE $pat\n";
+	    # print "with    $replace\n";
+	    last SWITCH;
+	}
+	if (/^(\S+)\s*(.*)/o) {
 	    $pat = quoteREpatterns($1);
 	    $replace = $2;
 	    if (!($replace eq '"' || $replace eq ')' || $replace eq '}')) {
-		# pad everything but left-closers with a space so things like $s\in T$ look right
+		# pad everything but left-closers with a space so things
+		# like $s\in T$ look right
 		# HTML compresses spaces, so $s \in T$ looks right, too
 		$replace = " $replace";
 	    }
 	    $replace = quoteREpatterns($replace);
-	    last SWITCH;
-	}
-	if (/^(\S+)/o) {
-	    $pat = quoteREpatterns($1);
-	    $replace = "";
 	    last SWITCH;
 	}
 	{
@@ -314,7 +323,7 @@ while (<REWRTS>) {
     # this means: replace $...$pat...$ with $...$replace...$
     push @latexRewrites,
 		"s/(\\\$[^\\\$]*)$pat(?=.*?\\\$)/\$1$replace/g";
-    # print "full: $latexRewrites[-1]\n"; # TEMP
+    # print "full: $latexRewrites[-1]\n";
 }
 
 close REWRTS;
@@ -455,9 +464,9 @@ while ($entryFile = shift @entries) {
 	$entries{$ename}{$fld} = $thisEntry{$fld};
     }
 
-    #print "NAME is $thisEntry{NAME}\nTNAME is $thisEntry{TNAME}\n"; # TEMP
-    #print "DNAME is $thisEntry{DNAME}\nename is $ename\n"; # TEMP
-    #print "XNAME is $thisEntry{XNAME}\n"; # TEMP
+    #print "NAME is $thisEntry{NAME}\nTNAME is $thisEntry{TNAME}\n";
+    #print "DNAME is $thisEntry{DNAME}\nename is $ename\n";
+    #print "XNAME is $thisEntry{XNAME}\n";
     # remember this entry to check cross references
     $entriesForXref{$thisEntry{XNAME}} = $ename;
 }
