@@ -1,36 +1,39 @@
 # *created  "Mon Sep 27 08:40:01 1999" *by "Paul E. Black"
-# *modified "Fri Oct 29 08:54:31 2004" *by "Paul E. Black"
+# *modified "Mon Nov  1 11:52:44 2004" *by "Paul E. Black"
 
 # $Log: adaptiveHuffman.trm,v $
+# Revision 1.4  2004/11/01 16:53:30  black
+# Change encoding to coding
+#
 # Revision 1.3  2004/10/29 12:55:51  black
 # Refine XREFS into IMA, etc.  Change "algorithm V" to "Vitter's
-# Algorithm", per the author.  Add AKA dynamic Huffman encoding.
+# Algorithm", per the author.  Add AKA dynamic Huffman coding.
 #
 # Revision 1.2  2003/10/28 21:30:29  black
 # Add initial definition.  Other small changes.
 #
 
 # entry name
-@NAME=adaptive Huffman encoding
+@NAME=adaptive Huffman coding
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=A near-minimal variable-length character encoding that changes
+@DEFN=A near-minimal variable-length character coding that changes
 based on the frequency of characters processed.  As characters are
 processed, frequencies are updated and codes are changed (or, the
-encoding tree is modified).
+coding tree is modified).
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
-@AKA=dynamic Huffman encoding
+@AKA=dynamic Huffman coding
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=adaptive Hufman coding
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={Huffman encoding}
+@IMA={Huffman coding}
 # Specialization: "... is a kind of me."
 @VARIANT={Vitter's Algorithm}, {algorithm FGK}
 # Aggregate parent: "I am a part of or used in ..."
@@ -42,13 +45,13 @@ encoding tree is modified).
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The total message length can be less than that produced by a
-static Huffman encoding since the encoding can be different at
+static Huffman coding since the coding can be different at
 different places in the message.
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html">Explanation</A>
 of algorithm FGK and Vitter's Algorithm (algorithm V), two different
-adaptive Huffman encoding
+adaptive Huffman coding
 algorithms.
 # implementation(s) (pure HTML)
 @IMPL=<A href="http://www.xcf.berkeley.edu/~ali/K0D/Algorithms/huff/">(C)</A>
