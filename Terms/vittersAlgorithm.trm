@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
-# *modified "Fri Oct 29 08:49:19 2004" *by "Paul E. Black"
+# *modified "Fri Oct 29 09:26:17 2004" *by "Paul E. Black"
 
 # $Log: vittersAlgorithm.trm,v $
+# Revision 1.3  2004/10/29 13:27:40  black
+# Add: at worse 1 more bit per code word.
+#
 # Revision 1.2  2004/10/29 12:45:29  black
 # Change name to Vitter's Algorithm, per the author, Jeffrey Vitter.
 # Refine XREFS into IMA, etc.  Add BIB entries and IMPLs.  Add RCS
@@ -15,7 +18,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=An {adaptive Huffman encoding} scheme.
+@DEFN=An {adaptive Huffman encoding} scheme.  This may use one more
+bit per codeword than the static {Huffman encoding}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
