@@ -1,5 +1,5 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Wed Jun 18 14:45:22 2003" *by "Paul E. Black"
+# *modified "Fri Sep  5 08:01:46 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=soundex
@@ -25,7 +25,8 @@ Indexing System</A> with links to encoders and more information, and
 of Soundex</A>.
 # implementation(s) (pure HTML)
 @IMPL=<A
-href="http://physics.nist.gov/cuu/Reference/soundex.html">(C)</A>
+href="http://physics.nist.gov/cuu/Reference/soundex.html">(C)</A>;
+<A href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</A>.
 # author's initials
 @AUTHOR=PEB
 # end
