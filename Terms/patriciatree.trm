@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Tue Feb 10 13:09:22 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:32 2004" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.3  2004/12/17 17:28:33  black
+# Make more XHTML compliant.
+#
 # Revision 1.2  2004/02/10 18:15:08  black
 # Refine XREFS into IMA, etc.  Add RCS Log, etc.  Remove dead link, and
 # add link to McGill's tries and suffix trees.
@@ -39,14 +42,14 @@ suffix trees to save additional space.
 # DATA STRUCTURES AND ALGORITHMS
 # Topic #7: TRIES AND SUFFIX TREES
 Explanations of and comparisons between
-<A href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
-and suffix trees</A>.
-<A
+<a href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
+and suffix trees</a>.
+<a
 href="http://www.informatik.uni-freiburg.de/tr/1999/Report129/">Dictionary
-Automaton in Optimal Space</A>.
+Automaton in Optimal Space</a>.
 
 # implementation(s): pure HTML
-@IMPL=<A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</A>, <A href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</A>. 
+@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
 # author's initials
 @AUTHOR=SE
 # end $Source: /home/black/Workspace/dads/Terms/RCS/patriciatree.trm,v $
