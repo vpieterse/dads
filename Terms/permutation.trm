@@ -1,7 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Mar 30 12:17:59 2004" *by "Paul E. Black"
+# *modified "Fri Jul 30 12:53:00 2004" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.3  2004/07/30 16:56:31  black
+# Move the good algorithm to randomly permute elements to its own (new)
+# entry: it is called the Fisher-Yates shuffle.  Move Ben Pfaff's
+# shuffle implementation there.
+#
 # Revision 1.2  2004/03/30 17:19:19  black
 # Refine XREFS into IMA, etc.  Refer to Ben Pfaff's shuffle impl.
 #
@@ -14,9 +19,7 @@
 @AREA=combin
 # the definition
 @DEFN=A rearrangement of elements, where none are lost, added, or
-changed.  A good algorithm to randomly permute $N$
-elements is to exchange each element $e<sub>i</sub>$ with a random
-element from $i$ to $N$.
+changed.  The {Fisher-Yates shuffle} randomly permutes elements.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
@@ -28,7 +31,7 @@ element from $i$ to $N$.
 # Generalization: "I am a kind of ..."
 @IMA={combination}
 # Specialization: "... is a kind of me."
-@VARIANT={perfect shuffle}, {sort}, {derangement}
+@VARIANT={perfect shuffle}, {Fisher-Yates shuffle}, {sort}, {derangement}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={American flag sort}
 # Aggregate child: "... is a part of or used in me."
@@ -38,11 +41,7 @@ element from $i$ to $N$.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A {sort} is a permutation where the items are arranged in some
-order.  The algorithm above can be viewed as a reverse {selection
-sort}, and is described in detail in 
-<A href="../terms.html#Knuth98">[Knuth98, vol. 2]</A>.
-It consumes {$\Theta(N \log N)$#$\Theta$} bits and runs in
-{linear} time.
+order.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
@@ -58,9 +57,6 @@ Glenn Rhoads'
 href="http://www.cs.sunysb.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</A>;
 <A href="http://gams.nist.gov/serve.cgi/Class/N8">(Fortran)</A>.
-Ben Pfaff's answer to
-<A href="http://www.msu.edu/~pfaffben/writings/clc/shuffle.html">how
-can I shuffle the contents of an array? (C)</A>.
 <A
 href="http://pobox.com/~oleg/ftp/Haskell/perfect-shuffle.txt">Perfect
 shuffle (Haskell)</A>.
