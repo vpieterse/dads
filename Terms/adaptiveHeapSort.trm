@@ -1,0 +1,35 @@
+# *created  "Fri Oct 15 13:01:56 1999" *by "Paul E. Black"
+# *modified "Fri Jan 11 16:25:25 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=adaptive heap sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A variant of {heapsort} that uses a 
+{randomized binary search tree} (RBST) to structure the input according
+to any preexisting order.  The RBST is used to select
+candidates that are put into the {heap} so the heap doesn't need to 
+keep track of all elements.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=adaptive heapsort
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={adaptive sort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>C. Levcopoulos and O. Petersson</strong>, 
+<em>Adaptive Heapsort</em>, J. of Algorithms 14:395-413, 1993.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=IR
+# end
