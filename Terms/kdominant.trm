@@ -1,0 +1,25 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Jul 31 09:54:52 2000" *by "Paul E. Black"
+# entry name
+@NAME=K-dominant match
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=A match $[i,j]$ having rank $k$ and such that for any other pair $[i',j']$ of rank $k$ either $i'&gt;i$ and $j'\leq j$ or $i' \leq i$ and $j'&gt;j$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS=
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 13-18,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
