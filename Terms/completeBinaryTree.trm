@@ -1,5 +1,11 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Thu Sep  4 09:39:25 2003" *by "Paul E. Black"
+# *modified "Wed Apr  7 12:30:59 2004" *by "Paul E. Black"
+
+# $Log: completeBinaryTree.trm,v $
+# Revision 1.2  2004/04/07 16:33:41  black
+# Refine XREFS into IMA, etc.  Add references to binary tree and binary
+# heap.  Add that the indexing note is 1-based.
+#
 
 # entry name
 @NAME=complete binary tree
@@ -17,17 +23,32 @@ tree, all {nodes} must be as far left as possible.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=CBT
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={complete tree}, {binary tree}
+# Specialization: "... is a kind of me."
+@VARIANT={binary heap}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={full binary tree}, {perfect binary tree}, {extendible
-hashing}, {heap}, {complete tree}
+hashing}, {heap}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A complete binary tree has $2<sup>k</sup>$ nodes at every
 {depth} $k &lt; n$ and between $2<sup>n</sup>$ and $2<sup>n+1</sup>-1$
 nodes altogether.
 It can be efficiently implemented as an {array}, where a node at index
 $i$ has children at indexes $2i$ and $2i+1$ and a
-parent at index $i/2$.  If child index is greater than the number
+parent at index $i/2$, with {one-based indexing}.  
+If child index is greater than the number
 of nodes, the child does not exist.
+</P>
+
+<P>
 After LK.
 </P>
 
@@ -45,4 +66,4 @@ Tamassia page 302,
 authors call {perfect binary trees} "complete".
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/completeBinaryTree.trm,v $
