@@ -1,0 +1,24 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Feb  6 16:49:21 2001" *by "Paul E. Black"
+# entry name
+@NAME=circular list
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A variant of a {linked list} in which the nominal {tail} is
+linked to the {head}.  The entire list may be accessed starting at any
+item and following {links} until one comes to the starting item
+again.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={list}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=BB
+# end
