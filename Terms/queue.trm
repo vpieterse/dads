@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 09:19:57 1998" *by "Paul E. Black"
-# *modified "Mon Mar 22 12:19:48 2004" *by "Paul E. Black"
+# *modified "Tue Jun 22 11:45:36 2004" *by "Paul E. Black"
 
 # $Log: queue.trm,v $
+# Revision 1.5  2004/06/22 15:47:47  black
+# Use "collection" instead of "set" to minimize chance of confusion and
+# to follow def'n of stack.
+#
 # Revision 1.4  2004/03/22 17:34:45  black
 # Reference the new entry axiomatic semantics.
 #
@@ -19,7 +23,7 @@
 # basic, search, sort, graph, combin(atorial)
 @AREA=basic
 # the definition
-@DEFN=A set of items in which only the earliest added item may be
+@DEFN=A collection of items in which only the earliest added item may be
 accessed.  Basic operations are add (to the {tail}) or enqueue and
 delete (from the {head}) or dequeue.  Delete returns the item
 removed.  Also known as "first-in, first-out" or FIFO.
