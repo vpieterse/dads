@@ -1,5 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Feb 12 17:22:31 2002" *by "Paul E. Black"
+# *modified "Tue Jul  6 09:07:48 2004" *by "Paul E. Black"
+
+# $Log: finiteStateMachine.trm,v $
+# Revision 1.2  2004/07/06 13:08:24  black
+# Refine XREFS into IMA, etc. and add RCS keywords.
+#
 
 # entry name
 @NAME=finite state machine
@@ -27,10 +32,21 @@ one or more states designated as {accepting states} ({recognizer}), etc.
 @AKA=finite state automaton
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=finite automaton
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={deterministic finite state machine}, {Turing machine},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={model of computation}, {Turing machine}
+# Specialization: "... is a kind of me."
+@VARIANT={deterministic finite state machine}, 
 {Kripke structure},
 {transducer}, {Markov chain}, {hidden Markov model}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 Equivalent to a restricted {Turing machine} where the head is
@@ -47,4 +63,4 @@ href="http://pobox.com/~oleg/ftp/Prolog/minimizer.prl">minimize a
 finite state machine (Prolog)</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/finiteStateMachine.trm,v $
