@@ -1,5 +1,11 @@
-# *created  
-# *modified "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
+# *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
+# *modified "Tue Jul  6 08:41:58 2004" *by "Paul E. Black"
+
+# $Log: binaryGCD.trm,v $
+# Revision 1.2  2004/07/06 12:43:54  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Explain the meaning
+# of u and v in the definition.  Improve Shallit link.
+#
 
 # entry name
 @NAME=binary GCD algorithm
@@ -9,8 +15,8 @@
 @AREA=numeric
 # the definition
 @DEFN=Compute the {greatest common divisor} of two
-integers expressed in binary.  The run time complexity is
-{$O((\log<sub>2</sub> uv)<sup>2</sup>)$#big-O notation} bit
+integers, $u$ and $v$, expressed in binary.  The run time complexity is
+{$O((\log<sub>2</sub> u v)<sup>2</sup>)$#big-O notation} bit
 operations.
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -18,8 +24,19 @@ operations.
 @AKA=algorithm B
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Euclid's algorithm}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
 #<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
@@ -74,10 +91,10 @@ Called Algorithm B in
 @LINKS=<A href="http://www.cut-the-knot.com/blue/binary.html">Binary
 Euclid's Algorithm</A> including examples and references.  Shallit's
 slides giving
-<A href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/slides/01.html">explanation
+<A href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/">explanation
 and proofs</A>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/binaryGCD.trm,v $
