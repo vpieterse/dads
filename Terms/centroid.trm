@@ -1,5 +1,10 @@
 # *created  "Mon Nov 23 09:46:17 1998" *by "Paul E. Black"
-# *modified "Thu Apr 17 09:09:28 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:49:14 2004" *by "Paul E. Black"
+
+# $Log: centroid.trm,v $
+# Revision 1.2  2004/12/17 16:49:15  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=centroid
@@ -9,20 +14,31 @@
 @AREA=numeric
 # the definition
 @DEFN=The center of gravity or center of mass of an object.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-Clark Kimberling's pictorial <A
+Clark Kimberling's pictorial <a
 href="http://faculty.evansville.edu/ck6/tcenters/class/centroid.html">example
-and physical method of finding the centroid</A> of an plane object.  A
-more <A
+and physical method of finding the centroid</a> of an plane object.  A
+more <a
 href="http://www.geocities.com/Paris/Rue/1861/centroid.html">analytical
-description</A> and information about the word's origin.
+description</a> and information about the word's origin.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/centroid.trm,v $
