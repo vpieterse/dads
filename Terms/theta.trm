@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Sep  4 14:55:54 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:09:45 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=$\Theta$
@@ -11,22 +11,22 @@
 @DEFN=A theoretical measure of the execution of an {algorithm},
 usually the time or memory needed, given the problem size $n$,
 which is usually the number of items.  Informally, saying some equation
-$g(n) = \Theta (f(n))$
-means it is within a constant multiple of f(n).  The equation is read,
-"g of n is theta f of n".
-<BR>
-<IMG src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
-showing relation between a function, f, and the limit function, g">
+$f(n) = \Theta (g(n))$
+means it is within a constant multiple of g(n).  The equation is read,
+"f of n is theta g of n".
 # formal definition or {cross reference} to an entry
 @FORML=
-$g(n) = \Theta (f(n))$
+$f(n) = \Theta (g(n))$
 means there are positive constants $c<sub>1</sub>$, $c<sub>2</sub>$,
 and $k$, such that 
-$0 \leq c<sub>1</sub>f(n) \leq g(n) \leq c<sub>2</sub>f(n)$
+$0 \leq c<sub>1</sub>g(n) \leq f(n) \leq c<sub>2</sub>g(n)$
 for all $n \geq k$.
 The values of $c<sub>1</sub>$, $c<sub>2</sub>$, and
 $k$ must be fixed for the function
 $f$ and must not depend on $n$.
+<BR>
+<IMG src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
+showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=theta
 # other cross-listings solely for the web, such as word or spelling variants
