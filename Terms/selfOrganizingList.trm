@@ -1,5 +1,5 @@
 # *created  "Tue Jan 28 13:25:37 2003" *by "Paul E. Black"
-# *modified "Tue Jan 28 13:37:47 2003" *by "Paul E. Black"
+# *modified "Thu Sep  4 15:27:15 2003" *by "Paul E. Black"
 
 # entry name
 @NAME=self-organizing list
@@ -25,9 +25,7 @@
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
-@IMPL=Discussion of <A
-href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Self_Organizing_Lists/self_organizing_lists.html">several
-techniques with code (C)</A>
+@IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
