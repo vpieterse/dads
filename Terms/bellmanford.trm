@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
-# *modified "Tue Jul  6 09:44:37 2004" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:27:44 2004" *by "Paul E. Black"
 
 # $Log: bellmanford.trm,v $
+# Revision 1.6  2004/12/17 17:27:44  black
+# Make more XHTML compliant.
+#
 # Revision 1.5  2004/07/06 13:45:00  black
 # Remove dead IMPL link.
 #
@@ -35,7 +38,7 @@ in which case it returns false.  The time complexity is {O(VE)#big-O
 notation}, where E is the number of edges.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=Ford-Bellman
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -54,7 +57,7 @@ notation}, where E is the number of edges.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-After <A href="../terms.html#CLR90">[CLR90, page 532]</A>
+After <a href="../terms.html#CLR90">[CLR90, page 532]</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
