@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:19 2004" *by "Paul E. Black"
+# *modified "Tue Jan 25 14:36:43 2005" *by "Paul E. Black"
 
 # $Log: kruskalsalgo.trm,v $
+# Revision 1.5  2005/01/25 19:43:20  black
+# Change Prim's to Prim-Jarnik.
+#
 # Revision 1.4  2004/12/17 17:28:19  black
 # Make more XHTML compliant.
 #
@@ -34,7 +37,7 @@ are in different partial minimum spanning trees.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Prim's algorithm}
+@XREFS={Prim-Jarnik algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
