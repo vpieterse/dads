@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan  3 12:27:55 2005" *by "Paul E. Black"
+# *modified "Fri Mar 11 11:44:52 2005" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Revision 1.9  2005/03/11 16:45:10  black
+# Update wikipedia URL
+#
 # Revision 1.8  2005/01/03 17:28:42  black
 # Remove Dunlop's URL - redirect to cis.strath, but no longer accessible.
 #
@@ -113,7 +116,7 @@ disk accesses, memory used, or elapsed ("wall clock") time.
 <a href="../terms.html">[Stand98, page 466]</a> use
 $|f(n)| \leq c|g(n)|$.  
 In <a
-href="http://wikipedia.org/wiki/Computational_complexity_theory">computational
+href="http://en.wikipedia.org/wiki/Computational_complexity_theory">computational
 complexity theory</a> "only positive functions are considered, so the
 absolute value bars may be left out." (Wikipedia, "Big O notation").
 This definition after
@@ -127,7 +130,7 @@ Strictly, the character is the upper-case Greek letter Omicron, not
 the letter O, but who can tell the difference?
 # further explanation (pure HTML)
 @LINKS=
-Wikipedia <a href="http://wikipedia.org/wiki/Big_O_notation">Big O
+Wikipedia <a href="http://en.wikipedia.org/wiki/Big_O_notation">Big O
 notation</a>.
 Big O is a
 <a href="http://mathworld.wolfram.com/LandauSymbols.html">Landau Symbol</a>.
