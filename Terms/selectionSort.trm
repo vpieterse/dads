@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Wed Aug 25 09:13:38 2004" *by "Paul E. Black"
+# *modified "Tue Nov 30 10:13:50 2004" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.8  2004/11/30 15:14:23  black
+# Note similarity between selection sort and heap sort.  Improve some wording.
+#
 # Revision 1.7  2004/08/25 13:15:35  black
 # Refine XREFS into IMA, etc. and classify xrefs.  Clarify wording for
 # the stable version of the algorithm a little.
@@ -43,7 +46,7 @@ is the number of comparisons.  The number of swaps is
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={strand sort}
+@XREFS={strand sort}, {heapsort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
@@ -56,9 +59,10 @@ If the (first) least remaining item is inserted, that is, all
 intervening items moved down (instead of swapping), this algorithm is
 {stable}.
 However, if the items are in an array, rather than, say a {linked
-list}, the number of moves is {$O(n<sup>2</sup>)$#big-O notation}, and
-this algorithm is like {bubble sort} with a more complicated control
+list}, the number of moves is {$O(n<sup>2</sup>)$#big-O notation}.
+The algorithm is then like {bubble sort} with a more complicated control
 structure.
+</P>
 
 # Careful selection of the least item does NOT work, since it may swap
 # items so they are out of order.  For instance,
@@ -66,6 +70,10 @@ structure.
 # find 2 and swap it into place
 #	{  2, 3b, 3a }
 # no more swaps will be done
+
+<P>
+{Heapsort} can be seen as a variant of selection sort in which 
+sorted items are arranged (in a {heap}) to quickly find the next item.
 
 # further explanation (pure HTML)
 @LINKS=
