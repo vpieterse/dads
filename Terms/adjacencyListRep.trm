@@ -1,5 +1,13 @@
 # *created  "Thu May 13 10:18:15 1999" *by "Paul E. Black"
-# *modified "Thu Oct 16 13:03:28 EDT 2003" *by "Paul E. Black"
+# *modified "Mon Apr 19 14:31:35 2004" *by "Paul E. Black"
+
+# $Log: adjacencyListRep.trm,v $
+# Revision 1.3  2004/04/19 18:32:23  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:03:35  black
+# Use a more regular plural of vertex
+#
 
 # entry name
 @NAME=adjacency-list representation
@@ -9,7 +17,7 @@
 @AREA=graph
 # the definition
 @DEFN=A representation of a {directed graph} with $n$
-{vertexes} using an {array} of $n$ {lists} of vertexes.  List
+{vertices#vertex} using an {array} of $n$ {lists} of vertices.  List
 $i$ contains vertex $j$ if there is an {edge} from
 vertex $i$ to vertex $j$.  A {weighted graph} may be
 represented with a list of vertex/weight pairs.  An {undirected graph}
@@ -21,11 +29,22 @@ and vertex $i$ in the list for vertex $j$.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=adjacency list
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={adjacency-matrix representation}, {sparse graph}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-Suppose we have a directed graph with four vertexes.  Here are
+Suppose we have a directed graph with four vertices.  Here are
 adjacency-matrix and adjacency-list representations.  The arrow (-&gt;)
 means a link in a list.
 <P>
