@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:43 2004" *by "Paul E. Black"
+# *modified "Mon Jan 24 09:14:58 2005" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.8  2005/01/24 14:15:46  black
+# Add Visual Basic IMPL.
+#
 # Revision 1.7  2004/12/17 17:24:43  black
 # Make more XHTML compliant.
 #
@@ -62,6 +65,7 @@ href="http://physics.nist.gov/cuu/Reference/soundex.html">(C)</a>.
 Apache codec implementations of 
 <a href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
+<a href="http://www.source-code.biz/snippets/vbasic/4.htm">(Visual Basic)</a>.
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
 <a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</a>.
 # author's initials
