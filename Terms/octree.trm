@@ -1,0 +1,36 @@
+# *created  "Wed Jan 27 08:46:26 1999" *by "Paul E. Black"
+# *modified "Thu Feb 13 12:21:42 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=octree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {tree} to index three dimensions.  Each node has either
+eight {children#child} or no children.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=octtree
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={quadtree}, {BSP-tree}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+<A
+href="http://www.cg.tuwien.ac.at/research/vr/lodestar/tech/octree/">algorithms</A>,
+another
+<A href="http://nilo.stolte.free.fr/octree.html">diagram and
+algorithm</A>, and one more
+<A
+href="http://www.martinb.com/threed/solidmodel/spatialdecomposition/octtree.htm">diagram</A>
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
