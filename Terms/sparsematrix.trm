@@ -1,5 +1,11 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Thu Oct  3 14:04:50 2002" *by "Paul E. Black"
+# *modified "Tue Jan 20 13:14:23 2004" *by "Paul E. Black"
+
+# $Log: sparsematrix.trm,v $
+# Revision 1.2  2004/01/20 18:43:02  black
+# Add RCS Log and refine XREFS to IMA, etc.  Add link to Saad's methods
+# for sparse systems PDF book.
+#
 
 # entry name
 @NAME=sparse matrix
@@ -17,22 +23,39 @@ represented in much less than $n \times m$ space.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=sparse array
-# comma-separated list of {cross references}.  printed as "See also ..."
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={ragged matrix}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A matrix which is $n \times m$ with $k$ non-zero
 entries is sparse if $k \ll n \times m$.  It may be
 faster to represent the matrix compactly as a {list} of the non-zero
 indexes and associated entries, as a list of lists of entries (one
-list for each row), or by a {point access method}.
+list for each row), coordinate format (the values and their row/column
+positions), or by a {point access method}.
 # further explanation (pure HTML)
 @LINKS=<A
 href="http://www.Sonnack.com/Pub/sparse_array.gif">picture</A> of one
 type of sparse matrix.
+Yousef Saad's 
+<A href="ftp://ftp.cs.umn.edu/dept/users/saad/PS/iter1.pdf">Iterative
+methods for sparse linear systems (PDF)</A>, a textbook reviewing
+linear algebra and types of matrices.  Sparse matrix implementations,
+including the coordinate format, begin on page 85 (PDF page 97).
 # implementation(s) (pure HTML)
 @IMPL=Input/output for sparse matrices stored in <A
 href="http://gams.nist.gov/serve.cgi/Module/HBIO/HBIO/13020">Harwell-Boeing
 Format (C)</A>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/sparsematrix.trm,v $
