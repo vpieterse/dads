@@ -1,0 +1,34 @@
+# *created  "Fri Feb 26 16:46:20 1999" *by "Paul E. Black"
+# *modified "Wed Jun  5 16:08:15 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=deterministic algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=An {algorithm} whose behavior can be completely predicted from
+the input.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={nondeterministic algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=That is, each time a certain set of input is presented, the
+algorithm gives the same results as any other time the set of input is
+presented.  For algorithms with state, or that maintain information
+between inputs, "the input" means everything since the algorithm was
+started from an initial state.
+</P>
+
+<P>
+There can be degrees of deterministic behavior.  For instance, an
+algorithm that uses random numbers might not be considered
+deterministic.  However if the "random numbers" come from a
+{pseudo-random number generator}, the behavior may be deterministic.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
