@@ -1,0 +1,19 @@
+# *created  "Tue Nov 17 09:15:46 1998" *by "Paul E. Black"
+# *modified "Tue Aug 21 13:30:16 2001" *by "Paul E. Black"
+# entry name
+@NAME=twin grid file
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {point access method} which is two simultaneous 
+{grid files}.  Points are shuffled between the primary
+and secondary file to minimize the total size.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={multilayer grid file}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <A href="../terms.html#GG98">[GG98]</A>.
+# author's initials
+@AUTHOR=PEB
+# end
