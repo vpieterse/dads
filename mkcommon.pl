@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.15 2002/10/03 18:06:00 black Exp $
+# $Id: mkcommon.pl,v 1.16 2002/10/28 16:45:22 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Mon Sep 16 10:25:44 2002" *by "Paul E. Black"
+# *modified "Mon Oct 28 11:37:55 2002" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -560,6 +560,7 @@ sub readTermEntries {
 		# create entry in database for this
 		#
 
+		undef %akaEntry; # make sure nothing is left over
 		my $akaEntry = {};
 		$akaEntry{NAME} = $aka;
 		$akaEntry{DEFN} = "See \{$thisEntry{NAME}}.";
@@ -604,6 +605,7 @@ sub readTermEntries {
 		# create entry in database for this
 		#
 
+		undef %webEntry; # make sure nothing is left over
 		my $webEntry = {};
 		$webEntry{NAME} = $webvar;
 		$webEntry{DEFN} = "See \{$thisEntry{NAME}}.";
