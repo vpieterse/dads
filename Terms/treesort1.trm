@@ -1,24 +1,35 @@
 # *created  "Mon Nov 29 15:55:48 2004" *by "Paul E. Black"
-# *modified "Mon Nov 29 15:56:36 2004" *by "Paul E. Black"
+# *modified "Tue Nov 30 10:16:34 2004" *by "Paul E. Black"
 
 # $Log: treesort1.trm,v $
+# Revision 1.2  2004/11/30 15:18:09  black
+# Change name from tree sort to original name, treesort.  Add XREF to
+# heapsort, which is similar.  Remove unneeded HTML break (<BR>).
+#
 # Revision 1.1  2004/11/29 21:07:01  black
 # Initial revision
 #
 
 # entry name
-@NAME=tree sort (1)
+@NAME=treesort (1)
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=sort
 # the definition
-@DEFN=Insert {keys} into a {binary search tree}, then access the
+@DEFN=A {sort} algorithm that first builds a {binary search tree} of
+the {keys}, then accesses the
 keys with an {in-order traversal}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=tree sort
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -26,12 +37,12 @@ keys with an {in-order traversal}.
 # Aggregate child: "... is a part of or used in me."
 @INME={binary search tree}, {in-order traversal}.
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={tree sort (2)}
+@XREFS={treesort (2)}, {heapsort}
 
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
-<A href="../terms.html#GBY91">[GBY91, page 182]</A>.<BR>
+<A href="../terms.html#GBY91">[GBY91, page 182]</A>.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For good performance, use a {balanced binary search tree}.
