@@ -1,5 +1,11 @@
 # *created  "Tue Jul  6 16:53:29 1999" *by "Paul E. Black"
-# *modified "Mon Mar  3 09:10:28 2003" *by "Paul E. Black"
+# *modified "Wed Oct 29 10:00:29 2003" *by "Paul E. Black"
+
+# $Log: alphaskipsr.trm,v $
+# Revision 1.2  2003/10/29 15:04:53  black
+# Internal clean-up edits
+#
+
 # entry name
 @NAME=Alpha Skip Search algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -15,7 +21,7 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Christian Charras' and Thierry Lecroq's <A HREF="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
+@IMPL=Christian Charras' and Thierry Lecroq's <A href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String Matching Algorithms (C)</A>
 # author's initials (see authors.data)
 @AUTHOR=
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/alphaskipsr.trm,v $
