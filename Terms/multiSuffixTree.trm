@@ -1,5 +1,12 @@
 # *created  "Wed Dec 16 08:35:13 1998" *by "Paul E. Black"
-# *modified "Tue May 11 14:53:50 1999" *by "Paul E. Black"
+# *modified "Mon May 24 08:41:34 2004" *by "Paul E. Black"
+
+# $Log: multiSuffixTree.trm,v $
+# Revision 1.2  2004/05/24 12:44:52  black
+# Refine XREFS into IMA, etc.  Update edelmap link.  Change file name to
+# multiSuffixTree.
+#
+
 # entry name
 @NAME=multi suffix tree
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,15 +15,26 @@
 @AREA=tree
 # the definition
 @DEFN=A {suffix tree} extended to multiple {strings} by
-concatenating the strings.
-# comma-separated list of {cross references}, i.e., See also ...
+concatenating the {strings}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={suffix tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation
 @LINKS=<A
-href="http://www.informatik.uni-freiburg.de/~edelkamp/MultiSuffixTree.html">Multi
+href="http://www.informatik.uni-freiburg.de/~edelkamp/MultiSuffixTree/">Multi
 Suffix Trees and Patricia Trees</A>
 # author's initials
 @AUTHOR=SE
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/multiSuffixTree.trm,v $
