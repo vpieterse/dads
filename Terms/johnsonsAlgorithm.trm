@@ -1,0 +1,32 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:06:47 2001" *by "Paul E. Black"
+# entry name
+@NAME=Johnson's algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=An algorithm to solve the {all pairs shortest path} problem in a
+{sparse#sparse graph} {weighted, directed graph}.  First, it adds a
+new {node} with zero weight
+edges from it to all other nodes, and runs the {Bellman-Ford
+algorithm} to check for negative weight {cycles} and find $h(v)$, the
+least weight of a path from the new node to node $v$.  Next it
+reweights the edges using the nodes' $h(v)$ values.  Finally for each
+node, it runs {Dijkstra's algorithm} and stores the computed least
+weight to other nodes, reweighted using the nodes' $h(v)$ values, as
+the final weight.
+The time complexity is {$O(V<sup>2</sup>\log V + VE)$#big-O notation}.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Floyd-Warshall algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+After <A href="../terms.html#CLR90">[CLR90, page 569]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
