@@ -1,0 +1,61 @@
+# *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
+# *modified "Tue Aug 12 11:18:55 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=quicksort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=sort
+# the definition
+@DEFN=An {in-place sort} algorithm that uses the {divide and
+conquer} paradigm.  It picks an element from the array (the pivot),
+{partitions} the remaining elements into those greater than and less
+than this pivot, and {recursively#recursion} sorts the partitions.
+There are many variants of the basic scheme above: to select the pivot,
+to partition the array, to stop the recursion on small partitions, etc.
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=quick sort
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={balanced quicksort}, {three-way radix quicksort}, 
+{introspective sort}, {Select}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Quicksort has running time 
+{$\Theta(n<sup>2</sup>)$#\Theta} in the {worst case}, but it is typically 
+{$O(n \log n)$#big-O notation}.  In practical situations, a finely
+tuned implementation of quicksort beats most sort algorithms,
+including sort algorithms whose theoretical complexity is 
+$O(n \log n)$ in the worst case.
+</P>
+
+<P>
+Quicksort with Bentley-McIlroy 3-way partitioning is within a constant of
+optimal for comparison sorts.
+</P>
+
+<P>
+{Select} can be used to always picks good pivots, thus giving a
+variant with {$O(n \log n)$#big-O notation} worst-case running time.
+# implementation(s) (pure HTML)
+@IMPL=<A href="http://www.cs.princeton.edu/~rs/">Robert
+Sedgewick's</A> talk showing that with Bentley-McIlroy 3-way
+partitioning <A
+href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
+Is Optimal (C)</A> (pdf format) with discussion and proof.
+<A
+href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
+and code (Java)</A>;
+demos and code for <A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">enhanced,
+fast, quicksort, and quicksort with bubble sort (Java)</A>;
+<A
+href="http://www.autoobjects.com/Home/Teaching/CmpE_126/CmpE_126_Lectures/Sortings/sortings.html#Quick_Sort">explanation (C)</A>;
+<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>, 
+<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>.
+# further explanation (pure HTML)
+@LINKS=
+<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/QSort.html">demonstration</A>.
+# author's initials
+@AUTHOR=CM
+# end
