@@ -1,0 +1,40 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Aug 11 11:31:06 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=smoothsort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A variant of {heapsort} that takes advantage of a partially
+ordered table.  Performance is O(n) when input is sorted and O(n log n) 
+performance for {worst case}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={heapsort}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>Edsger W. Dijkstra</strong>, <em>An alternative to
+Heapsort for sorting in situ</em>, manuscript, June 1981.
+<A
+href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD795.PDF">PDF</A>.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=From Lynn Milnes &lt;trjudo@hotmail.com&gt; August 2003
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+Smoothsort,
+an alternative for sorting in situ
+<A
+href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD796a.PDF">typescript
+(guarded command language)</A>
+# author's initials
+@AUTHOR=PEB
+# end
