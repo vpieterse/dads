@@ -1,0 +1,43 @@
+# *created  "Fri Apr  5 15:03:14 2002" *by "Paul E. Black"
+# *modified "Fri Apr  5 15:28:15 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=ZPP
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The class of {languages} for which a membership computation
+by a {probabilistic Turing machine} halts in {polynomial time} with no
+false acceptances or rejections, but randomly some "I don't know" answers.
+"ZPP" means "<strong>Z</strong>ero error <strong>P</strong>robability
+in <strong>P</strong>olynomial" time.
+# formal definition or {cross reference} to an entry
+@FORML=For a language, S, there exists a {probabilistic Turing
+machine}, M, that halts in {polynomial time}.  M (correctly) accepts
+or rejects the string or, randomly, halts in an "I don't know" state.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=zero error probability in polynomial time
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={RP}, {NP}, {BPP}, {Las Vegas algorithm}
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=By repeating the run, the correct answer will always be found,
+albeit with polynomial expected run time.
+</P>
+
+<P>
+After <A href="../terms.html#Hirv01">[Hirv01, page 19]</A>.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
