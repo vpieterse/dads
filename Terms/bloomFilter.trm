@@ -1,7 +1,11 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Thu Jun 10 10:44:35 2004" *by "Paul E. Black"
+# *modified "Mon Jun 28 16:13:29 2004" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Revision 1.3  2004/06/28 20:15:04  black
+# Note that Bloom filters are good for sharing secrets.  Link to Using
+# Bloom filters (in Perl).
+#
 # Revision 1.2  2004/06/10 14:45:43  black
 # Refine XREFS into IMA, etc.  Note typo in cs.wisc.edu ... node8
 # paper.  Expand on description of links.
@@ -41,6 +45,9 @@ large set using multiple {hash functions} into a single
 coding with allowable errors</em>, CACM, 13(7):422-426, July 1970. 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This involves a particular data structure, the bit array, too.
+A Bloom filter is good for secret sharing: giving a Bloom filter lets
+someone see if you have an item (it is found in the Bloom filter), but
+it is impractical to recreate the whole collection.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
@@ -52,6 +59,9 @@ hash functions, etc.
 href="http://www.cs.wisc.edu/~cao/papers/summary-cache/node8.html">Another
 explanation</A> typo: probability of false positive is missing a
 minus sign; exponent should be ... e<sup>-kn/m</sup>.
+<A
+href="http://www.perl.com/pub/a/2004/04/08/bloom_filters.html">Using
+Bloom filters</A>.  Language is Perl.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bloomFilter.trm,v $
