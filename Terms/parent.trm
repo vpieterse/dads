@@ -1,0 +1,19 @@
+# *created  "Fri Sep 18 12:35:43 1998" *by "Paul E. Black"
+# *modified "Wed Feb  6 10:20:49 2002" *by "Paul E. Black"
+# entry name
+@NAME=parent
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=Of a {node}: the {tree} node conceptually above or closer to the
+{root} than the node and which has a {link} to the node.  See the
+figure at {tree}.
+# comma-separated list of cross references, i.e., See also ...
+@XREFS={child}, {ancestor}, {internal node}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=By definition, a parent node is an interior node.
+# author's initials
+@AUTHOR=PEB
+# end
