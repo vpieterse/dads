@@ -1,0 +1,49 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Jan 29 12:11:52 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=diminishing increment sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=An {in-place sort} algorithm which repeatedly reorders
+different, small subsets
+of the input until the entire array is ordered.
+On each pass it
+sorts $i$ sets of $n/i$ items, where $n$ is the
+total number of items to sort.  Each set is every
+$i<sup>th</sup>$ item, e.g. set 1 is item 1, 1+i, 1+2i, etc.,
+set 2 is item 2, 2+i, etc.  Typically each set is sorted with an 
+{insertion sort}.  On each succeeding pass, the increment,
+$i$, is reduced until it is 1 for the last pass.
+# comma-separated list of pure names
+@AKA=comb sort
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Shell sort}
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=Invented by <strong>Donald Lewis Shell</strong>, <em>A High-Speed
+Sorting Procedure</em>, CACM, 2(7):30-32, July 1959.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Since items may move large distances at first, this method is
+quite efficient.  Donald E. Knuth extensively analyses this algorithm
+in <A href="../terms.html#Knuth98">[Knuth98, vol. 3, Sect. 5.2.1]</A>.  A good set
+of increments may be 2<sup>k</sup>+1, . . ., 9, 5, 3, 1 with the first
+increment no more than $N/3$.
+</P>
+
+<P>
+Since one of the sets can be visualized as those items where
+the teeth of a comb touch, this is also known as a comb sort.  Using
+this analogy, the teeth get closer on each pass.
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration</A>.
+# implementation(s) (pure HTML)
+@IMPL=<A
+href="http://www.cs.ubc.ca/spider/harrison/Java/ShellSortAlgorithm.java">comb
+sort parallel (Java)</A>.
+# author's initials
+@AUTHOR=PEB,ASK
+# end
