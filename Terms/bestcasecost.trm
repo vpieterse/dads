@@ -1,0 +1,33 @@
+# *created  "Wed Dec 22 09:15:52 1999" *by "Paul E. Black"
+# *modified "Tue Dec  3 12:08:18 2002" *by "Paul E. Black"
+
+# entry name
+@NAME=best-case cost
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The minimum cost to process an input sequence.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=optimal cost
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={worst-case cost}, {average-case cost}, {amortized cost},
+{adversary}, {off-line algorithm}, {on-line algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 10-17,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end
