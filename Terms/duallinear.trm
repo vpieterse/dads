@@ -1,5 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 31 13:27:33 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:47 2004" *by "Paul E. Black"
+
+# $Log: duallinear.trm,v $
+# Revision 1.2  2004/12/17 17:03:47  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
 # entry name
 @NAME=dual linear program
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,8 +14,19 @@
 @AREA=combin
 # the definition
 @DEFN=Every {linear program} has a corresponding linear program called the dual.  It is $\max<sub>y</sub>\left\{b\cdot y | A<sup>T</sup>y \leq c \mbox\{and} y \geq \bar\{0}\right\}$.  For any solution $x$ to the original linear program and any solution $y$ to the dual we have $c \cdot x \geq (A<sup>T</sup> y)<sup>T</sup> x = y<sup>T</sup>(Ax) \geq y \cdot b$.  For optimal $x$ and $y$, equality holds.  For a problem formulated as an {integer linear program}, a solution to the dual of a {relaxation} of the program can serve as {witness}.
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 From Algorithms and Theory of Computation Handbook, page 34-17,
@@ -22,4 +39,4 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/duallinear.trm,v $
