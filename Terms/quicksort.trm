@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Thu Jun 17 12:25:25 2004" *by "Paul E. Black"
+# *modified "Wed Dec 15 13:11:10 2004" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Revision 1.10  2004/12/15 18:57:36  black
+# Improve wording of def'n.  XREF external quicksort.  Make more XHTML
+# compliant.
+#
 # Revision 1.9  2004/06/17 16:33:54  black
 # Refer to article comparing sort routines.
 #
@@ -30,10 +34,9 @@
 # basic, search, sort, graph, combin(atorial), etc.
 @AREA=sort
 # the definition
-@DEFN=An {in-place sort} algorithm that uses the {divide and
-conquer} paradigm.  It picks an element from the array (the pivot),
-{partitions} the remaining elements into those greater than and less
-than this pivot, and {recursively#recursion} sorts the partitions.
+@DEFN=Pick an element from the array (the pivot), {partition} the
+remaining elements into those greater than and less
+than this pivot, and {recursively#recursion} sort the partitions.
 There are many variants of the basic scheme above: to select the pivot,
 to partition the array, to stop the recursion on small partitions, etc.
 # other cross-listings solely for the web, such as word or spelling variants
@@ -51,7 +54,7 @@ to partition the array, to stop the recursion on small partitions, etc.
 @INME={partition}, {divide and conquer}, {recursion}, {Select},
 {sublinear time algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={external quicksort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Quicksort has running time 
@@ -60,9 +63,9 @@ to partition the array, to stop the recursion on small partitions, etc.
 tuned implementation of quicksort beats most sort algorithms,
 including sort algorithms whose theoretical complexity is 
 $O(n \log n)$ in the worst case.
-</P>
+</p>
 
-<P>
+<p>
 {Select} can be used to always pick good pivots, thus giving a
 variant with {$O(n \log n)$#big-O notation} worst-case running time.
 
@@ -79,36 +82,36 @@ variant with {$O(n \log n)$#big-O notation} worst-case running time.
 # http://www.cs.dartmouth.edu/~doug/aqsort.c
 
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.cs.princeton.edu/~rs/">Robert
-Sedgewick's</A> talk showing that with Bentley-McIlroy 3-way
-partitioning <A
+@IMPL=<a href="http://www.cs.princeton.edu/~rs/">Robert
+Sedgewick's</a> talk showing that with Bentley-McIlroy 3-way
+partitioning <a
 href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
-Is Optimal (C)</A> (pdf format) for random files possibly with
+Is Optimal (C)</a> (pdf format) for random files possibly with
 duplicate keys; includes discussion and proof.
-<A
+<a
 href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">Animation
-and code (Java)</A>.
-<A href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
-extended discussion and alternatives (C, Python, Haskell, pseudocode)</A>.
-Demos and code for <A
+and code (Java)</a>.
+<a href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
+extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
+Demos and code for <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">enhanced,
-fast, quicksort, and quicksort with bubble sort (Java)</A>.
-<A
-href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</A>.
-<A
-href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</A>.
-<A
+fast, quicksort, and quicksort with bubble sort (Java)</a>.
+<a
+href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</a>.
+<a
+href="http://www.math.grin.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</a>.
+<a
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
-compare (Rexx)</A>, 
-<A
+compare (Rexx)</a>, 
+<a
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
-function (Rexx)</A>.
+function (Rexx)</a>.
 # further explanation (pure HTML)
 @LINKS=
 Java applet 
-<A href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/QSort.html">demonstration</A>.
-<A href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
-quicksort, heapsort, and merge sort</A> on modern processors.
+<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/QSort.html">demonstration</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
 # author's initials
 @AUTHOR=CM
 # end $Source: /home/black/Workspace/dads/Terms/RCS/quicksort.trm,v $
