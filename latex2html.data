@@ -1,6 +1,6 @@
-# $Id: latex2html.data,v 1.1 1999/08/31 15:36:49 black Exp $
+# $Id: latex2html.data,v 1.2 1999/10/05 18:10:40 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Tue Aug 31 11:34:51 1999" *by "Paul E. Black"
+# *modified "Tue Oct  5 14:02:50 1999" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -35,6 +35,7 @@
 \Theta	<img src="Images/Theta.gif"  border=0 height=10 width=8  alt="Capital Theta">
 \lambda	<img src="Images/lambda.gif" border=0 height=10 width=8  alt="Capital lambda">
 \mu	&micro;
+\pi	<img src="Images/pi.gif"     border=0 height=7  width=8  alt="pi">
 \rho	<img src="Images/rho2.gif"   border=0 height=14 width=6  alt="rho" align=middle>
 \Sigma	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="Capital Sigma">
 \omega	<img src="Images/omega.gif"  border=0 height=7  width=9  alt="omega">
@@ -52,20 +53,26 @@
 #    Table 3.5: Relation Symbols
 \leq	<img src="Images/leq.gif" border=0 height=7  width=14 alt="less than or equal to">
 \ll	&lt;&lt;
+\subset		proper subset of
 \subseteq	subset of
 \geq	<img src="Images/geq.gif" border=0 height=7  width=14 alt="greater than or equal to">
 \gg	&gt;&gt;
+\approx	<img src="Images/approx.gif" border=0 height=6 width=13 alt="approximately equal to">
+\neq	<img src="Images/neq.gif" border=0 height=10 width=10 alt="not equal to">
 #\in	in		must go at end to not mess up \int and \infty
 #    Table 3.6 Arrow Symbols
 \rightarrow	-&gt;
 \mapsto		|-&gt;
 #    Table 3.7: Miscellaneous Symbols
 \Re	<em>R</em>
+\emptyset	{}
 \surd	<img src="Images/sqrt.gif"   border=0 height=15 width=12 alt="square root of">
+\forall		for all
 \infty	<img src="Images/infty.gif"  border=0 height=6  width=13 alt="infinity">
 #    Table 3.8: Variable-sized Symbols
-\int	<img src="Images/integ.gif"  border=0 height=20 width=9 alt="integral of" align=middle>
 \sum	<img src="Images/Sigma.gif"  border=0 height=10 width=8  alt="summation">
+\int	<img src="Images/integ.gif"  border=0 height=20 width=9 alt="integral of" align=middle>
+\bigcup	<strong>U</strong>
 #    Table 3.9: Log-like Functions
 \cos	cos
 \log	log
