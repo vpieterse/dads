@@ -1,0 +1,28 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 23 14:09:50 2001" *by "Paul E. Black"
+# entry name
+@NAME=binomial tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=An {ordered tree} of {order} $k \geq 0$, that is $B<sub>k</sub>$,
+has a {root} with $k$ {children#child} where the $i<sup>th</sup>$
+child is binomial tree of order $k-i$.
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={binomial heap}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A $B<sub>k</sub>$ tree has $2<sup>k</sup>$ nodes, the {height} is
+$k$, and there are $k choose i$ nodes at depth $i$.
+</P>
+
+<P>
+Adapted from <A href="../terms.html#CLR90">[CLR90, page 401]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
