@@ -1,0 +1,46 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon May  6 09:11:34 2002" *by "Paul E. Black"
+# entry name
+@NAME=Venn diagram
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=theory
+# the definition
+@DEFN=A visual depiction of membership in {sets} according to binary
+properties, using overlapping ovals to divide the plane
+into regions.  Regions inside an oval have the property the oval
+represents, while regions outside it do not have the property.
+Regions are shaded to show combinations of properties (or sets) of
+interest, or elements are placed in regions corresponding to their
+properties (or membership).
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={Karnaugh map}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Here is an example of a Venn diagram with three properties:
+male/female, happy/sad, and short/tall.  Some of the combinations,
+such as sad, tall males and happy, short females are labeled.
+<BR>
+<img src="../Images/venn.gif" height="247" width="316">
+</P>
+
+<P>
+John Venn first published these diagrams in 1880,
+although similar diagrams were used much earlier by Leibniz and Euler 
+(<A href="http://cut-the-knot.com/LewisCarroll/dunham.html">Opera
+Omnia</A>, a century earlier).
+# further explanation (pure HTML)
+@LINKS=<A
+href="http://infinity.sequoias.cc.ca.us/faculty/woodbury/Stats/Tutorial/Sets_Venn2.htm">Simple
+diagrams, examples, and explanations</A>.
+<A
+href="http://sue.csc.uvic.ca/~cos/venn/VennWhatEJC.html">Formal
+definition and methods to draw diagrams for N variables</A>.
+A short biography of <A
+href="http://rattler.cameron.edu/EMIS/journals/EJC/Surveys/ds5/VennJohnEJC.html">John
+Venn</A>, with extensive references.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
