@@ -1,0 +1,36 @@
+# *created  "Wed Sep  9 09:11:15 1998" *by "Paul E. Black"
+# *modified "Tue Jan 28 13:39:17 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=A computable set of steps to achieve a desired result.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=aglorithm, algarhythm, algarithm, algolrythm, algorhythm, algoritham, algorithim, algorithum, algorythm,
+algorithms
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={probabilistic algorithm}, {randomized algorithm},
+{deterministic algorithm}, {nondeterministic algorithm},
+{on-line algorithm}, {off-line algorithm},
+{external memory algorithm}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The word comes from the Persian author Abu Ja'far Mohammed ibn
+M&ucirc;s&acirc; <strong>al-Khow&acirc;rizm&icirc;</strong> who wrote a
+book with arithmetic rules dating from about 825 A.D.
+# further explanation (pure HTML)
+@LINKS=The <A
+href="http://algo.inria.fr/AofA/">Analysis of
+Algorithms</A> web site.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end
