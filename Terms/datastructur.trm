@@ -1,10 +1,15 @@
 # *created  "Wed Dec 22 09:23:03 1999" *by "Paul E. Black"
-# *modified "Fri Jan 10 10:04:10 2003" *by "Paul E. Black"
+# *modified "Wed Dec 15 17:00:15 2004" *by "Paul E. Black"
+
+# $Log: datastructur.trm,v $
+# Revision 1.2  2004/12/15 22:01:05  black
+# TYPE is Defn.  Refine XREFS to IMA, etc.  Add RCS keywords.
+#
 
 # entry name
 @NAME=data structure
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=S
+@TYPE=D
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=basic
 # the definition
@@ -14,10 +19,21 @@
 name and address of a person.  It may include redundant
 information, such as length of the {list} or number of {nodes} in a
 {subtree}.
-# comma-separated list of {cross references}.  printed as "See also ..."
-@XREFS={external memory data structure},
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={external memory data structure},
 {passive data structure}, {active data structure}, {persistent data
-structure}, {recursive data structure}, {abstract data type}
+structure}, {recursive data structure}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={abstract data type}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Most data structures have associated algorithms to perform
 operations, such as search, insert, or balance, that maintain the
@@ -28,4 +44,4 @@ properties of the data structure.
 @IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/datastructur.trm,v $
