@@ -1,0 +1,22 @@
+# *created  "Fri Jun 18 10:38:26 1999" *by "Paul E. Black"
+# *modified "Tue Sep 11 09:59:20 2001" *by "Paul E. Black"
+# entry name
+@NAME=labeled graph
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A {graph} which has labels associated with each {edge} or each
+{vertex}.
+# comma-separated list of {cross references}.  printed as "See also ..."
+@XREFS={weighted graph}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Adapted from <A href="../terms.html#Wier98">[Wier98, page 466]</A>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end
