@@ -1,5 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 19 16:18:33 2003" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:07 2004" *by "Paul E. Black"
+
+# $Log: merge.trm,v $
+# Revision 1.2  2004/12/17 16:53:08  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
 
 # entry name
 @NAME=merge
@@ -17,9 +22,9 @@ a<sub>n</sub>}$ and B=$\{b<sub>1</sub>, \ldots, b<sub>m</sub>}$, each sorted
 according to some {total order}, $\leq$.  The output is a single
 sequence, merge(A,B), which is a sorted permutation of $\{a<sub>1</sub>,
 \ldots, a<sub>n</sub>, b<sub>1</sub>, \ldots, b<sub>m</sub>}$.
-</P>
+</p>
 
-<P>
+<p>
 merge(A, B) is
 <ol>
 <li> A, if B is empty, 
@@ -33,16 +38,27 @@ The symbol "." stands for concatenation, for example, $\{a<sub>1</sub>, \ldots,
 a<sub>n</sub>}.\{b<sub>1</sub>, \ldots, b<sub>m</sub>} =
 \{a<sub>1</sub>, \ldots, a<sub>n</sub>, b<sub>1</sub>, \ldots,
 b<sub>m</sub>}$.
-</P>
+</p>
 
-<P>
+<p>
 Formalization by Mustafa Ege &lt;ege@eti.cc.hun.edu.tr&gt;.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
-# comma-separated list of {cross references}, i.e., See also ...
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={simple merge}, {ideal merge}, {optimal merge},
+
 {two-way merge sort}, {three-way merge sort}, 
 {k-way merge sort}, 
 {balanced merge sort}, {nonbalanced merge sort}
@@ -51,7 +67,7 @@ Formalization by Mustafa Ege &lt;ege@eti.cc.hun.edu.tr&gt;.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<A href="http://www.math.grin.edu/~stone/events/scheme-workshop/merge.html">(Scheme)</A>
+@IMPL=<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/merge.html">(Scheme)</a>
 # author's initials
 @AUTHOR=ASK
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/merge.trm,v $
