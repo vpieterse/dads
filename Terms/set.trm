@@ -1,0 +1,47 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Jan 10 10:08:44 2003" *by "Paul E. Black"
+
+# entry name
+@NAME=set
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=An unordered collection of values where each value occurs at
+most once.
+A group of elements with three properties: (1) all elements
+belong to a {universe}, (2) either each element is a <em>member</em> of
+the set or it is not, and (3) the elements are unordered.
+# formal definition or {cross reference} to an entry
+@FORML=As an {abstract data type}, a set has a single query function,
+isIn(v, S), which tells whether an element is in the set or not, and
+two modifier functions, add(v, S) and remove(v, S).
+These may be defined as follows.
+<ol>
+<li>$new()$ returns a set
+<li>$isIn(v, new()) = false$
+<li>$isIn(v, add(v, S)) = true$
+<li>$isIn(v, add(u, S)) = isIn(v , S) if v \neq u$
+<li>$isIn(v, remove(v, S)) = false$
+<li>$isIn(v, remove(u, S)) = isIn(v , S) if v \neq u$
+</ol>
+where S is a set and $u$ and $v$ are elements.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+# comma-separated list of {cross references}, i.e., See also ...
+@XREFS={bag}, {intersection}, {union}, {complement},
+{difference}, {list}, {set cover}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<A
+HREF="http://www.cs.sunysb.edu/~algorith/files/set-data-structures.shtml">(C++
+and Pascal)</A>
+# author's initials
+@AUTHOR=PR, PEB
+# end
