@@ -1,5 +1,10 @@
 # *created  "Fri Jan 29 09:01:44 1999" *by "Paul E. Black"
-# *modified "Tue Aug 12 13:50:57 2003" *by "Paul E. Black"
+# *modified "Thu Dec 18 14:09:02 2003" *by "Paul E. Black"
+
+# $Log: inplacesort.trm,v $
+# Revision 1.2  2003/12/18 20:10:41  black
+# Separate XREFS into new, more precise fieds.
+#
 
 # entry name
 @NAME=in-place sort
@@ -18,9 +23,20 @@ a constant number of items are kept in auxiliary memory at any time.
 @AKA=sort in place
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=sort in-place
-# comma-separated list of {cross references}, i.e., See also ...
-@XREFS={American flag sort}, {quicksort}, {insertion sort}, 
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={sort}
+# Specialization: "... is a kind of me."
+@VARIANT={American flag sort}, {quicksort}, {insertion sort}, 
 {selection sort}, {Shell sort}, {diminishing increment sort}, {J sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
@@ -29,4 +45,4 @@ a constant number of items are kept in auxiliary memory at any time.
 @IMPL=
 # author's initials
 @AUTHOR=PEB, CM
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/inplacesort.trm,v $
