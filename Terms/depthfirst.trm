@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:34 2004" *by "Paul E. Black"
+# *modified "Mon Apr 11 11:32:23 2005" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.6  2005/04/11 15:34:19  black
+# Remove Resources on Search and Game Playing LINK: time out for two weeks.
+#
 # Revision 1.5  2004/12/17 17:23:34  black
 # Make more XHTML compliant.
 #
@@ -50,9 +53,7 @@ discovered and finished, partitioning the graph into a {forest}.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=<a href="../terms.html#CLR90">[CLR90, pages 477-485]</a>
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://yoda.cis.temple.edu:8080/UGAIWWW/resources/search-resources.html">Laboratory
-Resources on Search and Game Playing</a>,
+@LINKS=
 Lecture notes on <a
 href="http://www.cs.utoronto.ca/~mitchell/ai-course/s1.html">Uninformed
 Search</a>,
