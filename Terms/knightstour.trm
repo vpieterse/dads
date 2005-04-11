@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 09:28:48 2005" *by "Paul E. Black"
+# *modified "Mon Apr 11 09:31:29 2005" *by "Paul E. Black"
 
 # $Log: knightstour.trm,v $
+# Revision 1.4  2005/04/11 13:32:12  black
+# Link to Thomasson's page.
+#
 # Revision 1.3  2005/01/10 14:28:54  black
 # Update Oleg Kiselyov's URL
 #
@@ -43,6 +46,10 @@ href="http://www.markkeen.com/knight.html">Knight's Tour</a>
 page, a thorough discussion of the origin of and ways of
 finding solutions to the Knight's Tour.  It treats rectangular boards
 of arbitrary size.  
+# page author is Dan Thomasson <dthomasson@carolina.rr.com> Apr 2005
+Dan Thomasson's
+<a href="http://www.borderschess.org/KnightTour.htm">Knight's Tour</a>
+page, with application to prime numbers, tour on a cube's face, etc.
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's <a
 href="http://okmij.org/ftp/Prolog/Knight.prl">derivation (Prolog)</a>
