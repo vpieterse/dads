@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:21 2004" *by "Paul E. Black"
+# *modified "Mon Apr 11 09:12:14 2005" *by "Paul E. Black"
 
 # $Log: layeredgraph.trm,v $
+# Revision 1.5  2005/04/11 13:12:53  black
+# Add IMA connected graph.  Make bipartite graph a VARIANT, not an XREF.
+#
 # Revision 1.4  2004/12/17 17:28:21  black
 # Make more XHTML compliant.
 #
@@ -34,15 +37,15 @@ $MAX<sub>i=0</sub><sup>k</sup> |L<sub>i</sub>|$.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={connected graph}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={bipartite graph}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bipartite graph}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A bipartite graph is a layered graph with two layers.
