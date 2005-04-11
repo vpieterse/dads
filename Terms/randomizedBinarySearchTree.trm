@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 09:29:02 2005" *by "Paul E. Black"
+# *modified "Mon Apr 11 11:57:45 2005" *by "Paul E. Black"
 
 # $Log: randomizedBinarySearchTree.trm,v $
+# Revision 1.4  2005/04/11 15:59:16  black
+# Update URLs for LINKS to Randomized papers.
+#
 # Revision 1.3  2005/01/10 14:29:04  black
 # Update Oleg Kiselyov's URL
 #
@@ -59,9 +62,9 @@ The expected {worst case} is {O(log n)#big-O notation} for any update or
 search in a RBST of size $n$.
 # further explanation (pure HTML)
 @LINKS=Abstract of papers about <a
-href="http://www.lsi.upc.es/~techreps/html/R97-8.html">Randomized
+href="http://www.lsi.upc.es/dept/techreps/listado_concreto.php?id=74">Randomized
 Binary Search Trees</a> and
-<a href="http://www.lsi.upc.es/~techreps/html/R98-48.html">Randomized
+<a href="http://www.lsi.upc.es/dept/techreps/listado_concreto.php?id=178">Randomized
 K-Dimensional Binary Search Trees</a>
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's
