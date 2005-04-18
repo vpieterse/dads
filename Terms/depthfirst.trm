@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Mon Apr 11 11:36:26 2005" *by "Paul E. Black"
+# *modified "Mon Apr 18 09:02:40 2005" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.8  2005/04/18 13:03:34  black
+# Remove LINK to Mitchell's (1998) lecture notes - account gone.
+#
 # Revision 1.7  2005/04/11 15:36:54  black
 # Remove Resources on Search and Game Playing IMPLs: time out for two weeks.
 #
@@ -57,9 +60,6 @@ discovered and finished, partitioning the graph into a {forest}.
 @NOTES=<a href="../terms.html#CLR90">[CLR90, pages 477-485]</a>
 # further explanation (pure HTML)
 @LINKS=
-Lecture notes on <a
-href="http://www.cs.utoronto.ca/~mitchell/ai-course/s1.html">Uninformed
-Search</a>,
 Lecture notes from Design and Analysis of Algorithms on <a
 href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
 search and depth-first search</a>.
