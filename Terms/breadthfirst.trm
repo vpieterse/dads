@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:55 1998" *by "Paul E. Black"
-# *modified "Mon Apr 11 11:35:24 2005" *by "Paul E. Black"
+# *modified "Mon Apr 18 09:03:52 2005" *by "Paul E. Black"
 
 # $Log: breadthfirst.trm,v $
+# Revision 1.7  2005/04/18 13:04:01  black
+# Remove LINK to Mitchell's (1998) lecture notes - account gone.
+#
 # Revision 1.6  2005/04/11 15:35:57  black
 # Remove Search and Game Playing LINK & IMPL: time out for two weeks.
 #
@@ -46,9 +49,6 @@ searched last.  This is typically implemented with a {queue}.
 @NOTES=In a tree, called a {level-order traversal}.
 # further explanation (pure HTML)
 @LINKS=
-Lecture notes on <a
-href="http://www.cs.utoronto.ca/~mitchell/ai-course/s1.html">Uninformed
-Search</a>,
 Lecture notes from Design and Analysis of Algorithms on <a
 href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
 search and depth-first search</a>.
