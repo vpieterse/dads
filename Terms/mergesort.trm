@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Jan  3 11:56:22 2005" *by "Paul E. Black"
+# *modified "Mon Apr 18 09:17:33 2005" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Revision 1.9  2005/04/18 13:18:37  black
+# Remove link to David Neto's recurrence relation analysis and IMPL -
+# account gone.
+#
 # Revision 1.8  2005/01/03 16:58:11  black
 # Remove Somani's C++ snippet code.  It is only available from
 # https://sourceforge.net/projects/snippets/ as one piece of a huge file
@@ -70,9 +74,6 @@ quicksort, heapsort, and merge sort</a> on modern processors.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://www.cs.utoronto.ca/~neto/teaching/238/16/mergesort.html">recurrence
-relation analysis and demonstration (Java)</a>; 
 <a
 href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
 that needs <a
