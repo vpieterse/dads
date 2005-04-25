@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Wed Jan 12 09:45:53 2005" *by "Paul E. Black"
+# *modified "Mon Apr 25 10:09:28 2005" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Revision 1.6  2005/04/25 14:13:59  black
+# XREF Fibonacci heap, too.  NOTE that they can be merged in constant time.
+#
 # Revision 1.5  2005/01/12 14:46:14  black
 # Put IMPL language in parens and separate with a period.
 #
@@ -38,7 +41,7 @@ more extreme (greater or less) than or equal to the key of its
 # Aggregate child: "... is a part of or used in me."
 @INME={array}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={binomial heap}
+@XREFS={Fibonacci heap}, {binomial heap}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Insertion is {O($\log<sub>2</sub> n$)#big-O notation} where $n$ is
@@ -53,7 +56,8 @@ of nodes, the child does not exist.
 <p>
 Merging two binary heaps is {O(n)#big-O notation}: the best you can do
 is just concatenate two heap arrays and make a heap of the result.
-Two {binomial heaps} can be merged in O(ln n).
+Two {binomial heaps} can be merged in O(ln n).  
+Two {Fibonacci heaps} can be merged in $\Theta(1)$.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
