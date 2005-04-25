@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
-# *modified "Tue Jan  4 10:53:40 2005" *by "Paul E. Black"
+# *modified "Mon Apr 25 09:56:57 2005" *by "Paul E. Black"
 
 # $Log: fibonacciHeap.trm,v $
+# Revision 1.7  2005/04/25 13:57:56  black
+# Improve(?) URL (elaborate host name) for Boyer's explanation.
+#
 # Revision 1.6  2005/01/04 16:02:54  black
 # Remove DDJ URL - requires registration.
 #
@@ -63,7 +66,7 @@ notation}.
 # implementation(s) (pure HTML)
 @IMPL=
 An <a
-href="http://algorithm.myrice.com/resources/technical_artile/fibonacci_heap/fibonacci.htm">explanation
+href="http://algorithm.diy.myrice.com/resources/technical_artile/fibonacci_heap/fibonacci.htm">explanation
 and code for ExtractMin and DecreaseKey (C++)</a> by
 <strong>John Boyer</strong>, <em>Algorithm Alley</em>, Dr. Dobb's
 Journal, January 1997.
