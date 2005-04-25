@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep 22 08:55:58 2004" *by "Paul E. Black"
+# *modified "Mon Apr 25 10:11:18 2005" *by "Paul E. Black"
 
 # $Log: binomialheap.trm,v $
+# Revision 1.3  2005/04/25 14:13:05  black
+# Add IMA heap and IMIN priority queue and Dijkstra's algorithm.  Change
+# DEFN: this is a heap, not a priority queue (although it may be used as one).
+#
 # Revision 1.2  2004/09/22 12:56:23  black
 # Correct spelling of Fibonacci
 #
@@ -13,7 +17,7 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=tree
 # the definition
-@DEFN=A {priority queue} made of a {forest} of {binomial trees}
+@DEFN=A {heap} made of a {forest} of {binomial trees}
 with the {heap property} numbered $k=0, 1, 2, \ldots,
 n$, each containing either 0 or $2<sup>k</sup>$ {nodes}.
 Each tree is formed by linking two of its predecessors, by
@@ -30,13 +34,13 @@ operation is a constant {$\Theta(1)$#$\Theta$}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={heap}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={priority queue}, {Dijkstra's algorithm}
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={binomial tree}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Fibonacci heap}
 
