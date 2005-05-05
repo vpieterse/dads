@@ -1,4 +1,4 @@
-# $Id: authors.data,v 1.14 2005/01/04 14:28:59 black Exp $
+# $Id: authors.data,v 1.15 2005/05/05 13:38:31 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
@@ -6,7 +6,7 @@
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Tue Jan  4 09:28:25 2005" *by "Paul E. Black"
+# *modified "Thu May  5 09:38:19 2005" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -23,6 +23,7 @@ KSL	Kim Skak Larsen	kslarsen@imada.sdu.dk, http://www.imada.sdu.dk/~kslarsen/
 CM	Conrado Martinez	Conrado.Martinez@lsi.upc.es, http://www.lsi.upc.es/~conrado/
 JM	Jason McCabe	Jason.McCabe@wcom.com
 DM	David Monniaux	David.Monniaux@ens.fr.cuckoo-to-be-removed
+VO	Vadim Okun	vokun1@umbc.edu
 PR	Patrick Rodgers	rodgerpk@jmu.edu
 IR	Ingo Rohloff	rohloff@in.tum.de
 SKS	Sandeep Kumar Shukla
