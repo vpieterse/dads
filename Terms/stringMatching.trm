@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:47 2004" *by "Paul E. Black"
+# *modified "Thu May  5 09:34:33 2005" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Revision 1.6  2005/05/05 13:35:12  black
+# Add Aho-Corasick.
+#
 # Revision 1.5  2004/12/17 17:28:47  black
 # Make more XHTML compliant.
 #
@@ -37,7 +40,7 @@ efficient searching.
 @VARIANT={brute force string search}, {Knuth-Morris-Pratt algorithm}, 
 {Boyer-Moore}, {Zhu-Takaoka}, {quick search}, 
 {deterministic finite automata string search}, 
-{Karp-Rabin}, {Shift-Or}, {Smith algorithm}
+{Karp-Rabin}, {Shift-Or}, {Aho-Corasick}, {Smith algorithm}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
