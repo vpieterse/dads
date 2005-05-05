@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu May  5 09:34:33 2005" *by "Paul E. Black"
+# *modified "Thu May  5 09:35:30 2005" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Revision 1.7  2005/05/05 13:35:49  black
+# grammatical improvement
+#
 # Revision 1.6  2005/05/05 13:35:12  black
 # Add Aho-Corasick.
 #
@@ -52,7 +55,7 @@ efficient searching.
 {suffix tree}, {inverted index}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=For large collections which are searched often, it may be far
+@NOTES=For large collections that are searched often, it may be far
 faster, though more complicated, to start with an {inverted index}.
 The name ``exact string matching'' is in contrast to {string matching
 with errors}.
