@@ -1,7 +1,10 @@
 # *created  "Tue Feb  8 09:46:46 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:58 2004" *by "Paul E. Black"
+# *modified "Fri May  6 10:22:12 2005" *by "Paul E. Black"
 
 # $Log: strippacking.trm,v $
+# Revision 1.3  2005/05/09 12:48:19  black
+# Fix DEFN-remove wrong example in NOTE.  IMA optimization problem.
+#
 # Revision 1.2  2004/12/17 16:54:58  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -13,15 +16,14 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=A variant of the {bin packing problem} in which one must
-determine how to 
-get the most objects from the least number of fixed length strips.
-More formally, find a {partition} and assignment of a {set} of objects
-of certain lengths such that they fit on a minimum number of strips.
+@DEFN=Pack a {set} of rectangles into a strip of width 1 to minimize
+the height used.  Rectangles may not overlap or be rotated.  Without
+loss of generality, the height of rectangles is at most 1.  This is
+{NP-hard}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={optimization problem}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -29,24 +31,14 @@ of certain lengths such that they fit on a minimum number of strips.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={knapsack problem}, a two-dimensional variant is the {cutting
+@XREFS={bin packing problem}, {knapsack problem}, {cutting stock problem}
 
-stock problem}, {optimization problem}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-For instance, suppose we
-need a number of pipes of different, specific lengths to plumb a
-house and we can buy pipe stock in 5 meter lengths.  How can we cut
-the 5 meter pipes to waste as little as possible (minimize the cost of
-pipe)?
-</p>
+Rectangles must have widths at most 1, otherwise they wouldn't fit in
+the strip.  If any height is greater than 1, all heights can be scaled
+to no more than 1.
 
-<p>
-The classic method comes
-from Gilmore and Gomory, who published in <em>Operations Research</em>
-in the 1960's.  The method "iterates between solving a potentially
-large LP (using column generation) and a knapsack problem (to
-construct new columns)." (Paul Rubin, rubin@msu.edu, 20 June 1996)
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
