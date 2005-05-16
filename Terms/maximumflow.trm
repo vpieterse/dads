@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:33:55 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:25 2004" *by "Paul E. Black"
+# *modified "Mon May 16 10:47:50 2005" *by "Paul E. Black"
 
 # $Log: maximumflow.trm,v $
+# Revision 1.5  2005/05/16 14:47:53  black
+# Drop mscmga URL -- timeout since March.
+#
 # Revision 1.4  2004/12/17 17:28:25  black
 # Make more XHTML compliant.
 #
@@ -40,9 +43,7 @@
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <a href="../terms.html#CLR90">[CLR90, page 580]</a>.
 # further explanation (pure HTML)
-@LINKS=OR-Notes on network flow, including <a
-href="http://mscmga.ms.ic.ac.uk/jeb/or/netflow.html">maximum-flow
-problem</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/network-flow.shtml">description
