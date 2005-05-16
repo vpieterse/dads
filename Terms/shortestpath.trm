@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:15:04 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:34 2004" *by "Paul E. Black"
+# *modified "Mon May 16 10:46:53 2005" *by "Paul E. Black"
 
 # $Log: shortestpath.trm,v $
+# Revision 1.4  2005/05/16 14:47:09  black
+# Drop mscmga URL -- timeout since March.
+#
 # Revision 1.3  2004/12/17 16:54:34  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -52,9 +55,7 @@ predecessor[i][k] is p, the shortest path ends with $\ldots
 \rightarrow p \rightarrow k \rightarrow j$.  Continue working
 backward until you reach i.
 # further explanation (pure HTML)
-@LINKS=OR-Notes on network flow, including <a
-href="http://mscmga.ms.ic.ac.uk/jeb/or/netflow.html">shortest
-path</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/shortest-path.shtml">(C,
