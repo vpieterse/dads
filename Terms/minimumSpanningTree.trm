@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Fri Feb  4 09:39:40 2005" *by "Paul E. Black"
+# *modified "Mon May 16 10:47:28 2005" *by "Paul E. Black"
 
 # $Log: minimumSpanningTree.trm,v $
+# Revision 1.8  2005/05/16 14:47:31  black
+# Drop mscmga URL -- timeout since March.
+#
 # Revision 1.7  2005/02/04 14:40:21  black
 # Add Fortran IMPL.  Change a WEB entry from minimum to minimal.
 #
@@ -59,9 +62,7 @@ near-optimal solution to the {traveling salesman} problem.
 The term "shortest spanning tree" may be more common in the field of
 operations research.
 # further explanation (pure HTML)
-@LINKS=OR-Notes on graph theory, including <a
-href="http://mscmga.ms.ic.ac.uk/jeb/or/graph.html">minimum spanning
-trees</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/minimum-spanning-tree.shtml">(C++,
