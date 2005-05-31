@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 14:03:30 2004" *by "Paul E. Black"
+# *modified "Tue May 31 14:17:41 2005" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.13  2005/05/31 18:18:43  black
+# Remove LINKS to Oberlin - pages seem to be gone.
+#
 # Revision 1.12  2004/12/17 19:04:06  black
 # Fix ref to tree sort which IMIN.
 #
@@ -66,12 +69,7 @@ subtree has keys greater than the node's key.
 @NOTES=A binary search tree is almost always implemented with
 pointers, but may have a variety of constraints on how it is composed.
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl3.html#@l13">lecture
-notes</a>
-and <a 
-href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture17/sld006.htm">two
-different deletion algorithms</a>.
+@LINKS=
 A <a
 href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</a>.
 # implementation(s) (pure HTML)
