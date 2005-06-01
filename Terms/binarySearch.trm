@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:13 2004" *by "Paul E. Black"
+# *modified "Wed Jun  1 11:18:01 2005" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.8  2005/06/01 15:19:09  black
+# NOTE how to find mid without overflow.
+#
 # Revision 1.7  2004/12/17 17:23:14  black
 # Make more XHTML compliant.
 #
@@ -57,8 +60,24 @@ until the value is found or the interval is empty.
 {jump search}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Run time is {O(ln n)#big-O notation}.  The search
-implementation in C uses {0-based indexing}.
+@NOTES=Run time is {O(ln n)#big-O notation}.
+</p>
+
+<p>
+Finding the middle is often coded as
+<pre>
+    mid = (high + low)/2;
+</pre>
+This overflows if high and low are close to the largest expressible
+integer.  The following gives the same result and never overflows, if
+high and low are non-negative.
+<pre>
+    mid = low + (high - low)/2;
+</pre>
+</p>
+
+<p>
+The implementation of search in C uses {0-based indexing}.
 # further explanation (pure HTML)
 @LINKS=<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSearch.html">demonstration</a>.
 # John Morris morris@ee.uwa.edu.au
