@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Wed Jun  1 11:18:01 2005" *by "Paul E. Black"
+# *modified "Wed Jun  1 11:58:57 2005" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.9  2005/06/02 16:24:43  black
+# Acknowledge Colin Wright.
+#
 # Revision 1.8  2005/06/01 15:19:09  black
 # NOTE how to find mid without overflow.
 #
@@ -74,6 +77,7 @@ high and low are non-negative.
 <pre>
     mid = low + (high - low)/2;
 </pre>
+Thanks to Colin D. Wright, 1 June 2005.
 </p>
 
 <p>
