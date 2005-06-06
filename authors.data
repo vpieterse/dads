@@ -1,4 +1,4 @@
-# $Id: authors.data,v 1.15 2005/05/05 13:38:31 black Exp $
+# $Id: authors.data,v 1.16 2005/06/06 13:06:17 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
@@ -6,13 +6,13 @@
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Thu May  5 09:38:19 2005" *by "Paul E. Black"
+# *modified "Mon Jun  6 09:05:54 2005" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
 BB	Bob Bockholt	bbockholt@yahoo.com
 AB	Andrew Boniface	bonifaceaw@yahoo.com
-SE	Stefan Edelkamp	edelkamp@informatik.uni-freiburg.de, http://www.informatik.uni-freiburg.de/~edelkamp/
+SE	Stefan Edelkamp	edelkamp@informatik.uni-freiburg.de
 ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
 JLG	Joseph L. Ganley	http://ganley.org/
 LH	Leslie Hastings	leslie@kodiak-web-design.com, http://www.kodiak-web-design.com/
