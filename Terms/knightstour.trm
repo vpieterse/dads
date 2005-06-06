@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 11 09:31:29 2005" *by "Paul E. Black"
+# *modified "Mon Jun  6 08:59:29 2005" *by "Paul E. Black"
 
 # $Log: knightstour.trm,v $
+# Revision 1.5  2005/06/06 12:59:57  black
+# Remove LINK to Mark Keen's page - its gone.
+#
 # Revision 1.4  2005/04/11 13:32:12  black
 # Link to Thomasson's page.
 #
@@ -40,12 +43,6 @@ problem can be generalized to an $n \times m$ rectangular chess board.
 Solutions may be found using {backtracking}.
 # further explanation (pure HTML)
 @LINKS=
-# page author is Mark R. Keen <mark@markkeen.com> Nov 2001
-Mark R. Keen's <a
-href="http://www.markkeen.com/knight.html">Knight's Tour</a>
-page, a thorough discussion of the origin of and ways of
-finding solutions to the Knight's Tour.  It treats rectangular boards
-of arbitrary size.  
 # page author is Dan Thomasson <dthomasson@carolina.rr.com> Apr 2005
 Dan Thomasson's
 <a href="http://www.borderschess.org/KnightTour.htm">Knight's Tour</a>
