@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Mar 21 08:44:55 2005" *by "Paul E. Black"
+# *modified "Mon Jun 20 09:10:31 2005" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.8  2005/06/20 13:11:22  black
+# Fix Rhoads' URL.  Remove another, invalid URL in a comment.
+#
 # Revision 1.7  2005/03/21 13:46:45  black
 # Update URL of PDF to convert between binary and Gray
 #
@@ -130,9 +133,8 @@ Pictures of a
 code rotary railroad control</a>.
 # implementation(s) (pure HTML)
 @IMPL=Glenn Rhoads' <a
-href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
-# The following is HTML an version part 6 of the comp.ai.genetic FAQ at,
-# e.g., ftp://rtfm.mit.edu/pub/usenet/news.answers/ai-faq/genetic/
+href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
+# The following is an HTML version of part 6 of the comp.ai.genetic FAQ
 <a
 href="http://www.cs.bham.ac.uk/Mirrors/ftp.de.uu.net/EC/clife/www/Q21.htm">binary-to-Gray
 and Gray-to-binary conversion (C)</a> with history, references, and
