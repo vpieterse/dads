@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Dec 15 14:29:56 2004" *by "Paul E. Black"
+# *modified "Mon Jun 20 09:01:19 2005" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.5  2005/06/20 13:01:40  black
+# Update Rhoad's URL
+#
 # Revision 1.4  2004/12/15 19:31:03  black
 # Remove XREF to deleted term, spectral test.  Make more XHTML compliant.
 #
@@ -68,7 +71,7 @@ structures</a>.
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>,
 Glenn Rhoads' <a
-href="http://remus.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
+href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 Using C libraries to get <a
 href="http://www.eskimo.com/~scs/C-faq/q13.16.html">random numbers in
