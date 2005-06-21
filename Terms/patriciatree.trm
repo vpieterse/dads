@@ -1,7 +1,11 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:32 2004" *by "Paul E. Black"
+# *modified "Tue Jun 21 10:22:23 2005" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.4  2005/06/21 14:22:37  black
+# Fix DEFN: single-child nodes are merged with their child, not parent.
+# AKA radix tree.  Add BIB, new IMPLs, and LINK.
+#
 # Revision 1.3  2004/12/17 17:28:33  black
 # Make more XHTML compliant.
 #
@@ -19,7 +23,13 @@
 # the definition
 @DEFN=A compact representation of a {trie}
 where all {nodes} with one {child} are merged with their 
-{parent}.
+child.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=radix tree
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -33,23 +43,44 @@ where all {nodes} with one {child} are merged with their
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={compact DAWG}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Donald R. Morrison</strong>, <em>PATRICIA - Practical
+Algorithm to Retrieve Information Coded in Alphanumeric</em>, 
+Journal of the ACM, 15(4):514-534, October 1968.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A compact {directed acyclic word graph} (DAWG) merges common
 suffix trees to save additional space.
+</p>
+
+<p>
+A radix tree is taken to be a binary Patricia tree.
+
+# Knuth, Vol 3, pp 498-507
+
 # further explanation
 @LINKS=
 # Winter 1997 Class Notes for 308-251
 # DATA STRUCTURES AND ALGORITHMS
 # Topic #7: TRIES AND SUFFIX TREES
-Explanations of and comparisons between
+A McGill class note has explanations of and comparisons between
 <a href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
 and suffix trees</a>.
+An
+<a
+href="http://www.doc.ic.ac.uk/~ajf/Teaching/Haskell/drivingtest2000.ps">illustration
+of a radix tree</a> (Postscript).
 <a
 href="http://www.informatik.uni-freiburg.de/tr/1999/Report129/">Dictionary
 Automaton in Optimal Space</a>.
 
 # implementation(s): pure HTML
-@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
+@IMPL=
+<a href="http://search.cpan.org/dist/Net-Patricia/">Net-Patricia (Perl
+and C)</a> is a C implementation with a Perl API.
+<a href="http://www.mindrot.org/py-radix.html"><em>py-radix</em> (Python)</a>.
+<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
 # author's initials
 @AUTHOR=SE
 # end $Source: /home/black/Workspace/dads/Terms/RCS/patriciatree.trm,v $
