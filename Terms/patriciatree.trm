@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Tue Jun 21 10:22:23 2005" *by "Paul E. Black"
+# *modified "Tue Jun 21 10:33:49 2005" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.5  2005/06/21 14:35:23  black
+# Improve wording of DEFN.
+#
 # Revision 1.4  2005/06/21 14:22:37  black
 # Fix DEFN: single-child nodes are merged with their child, not parent.
 # AKA radix tree.  Add BIB, new IMPLs, and LINK.
@@ -22,8 +25,8 @@
 @AREA=tree
 # the definition
 @DEFN=A compact representation of a {trie}
-where all {nodes} with one {child} are merged with their 
-child.
+where any {node} which is an only {child} is merged with its
+{parent}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
