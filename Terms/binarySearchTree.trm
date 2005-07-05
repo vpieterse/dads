@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Tue May 31 14:17:41 2005" *by "Paul E. Black"
+# *modified "Tue Jul  5 10:28:41 2005" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.14  2005/07/05 14:29:02  black
+# Remove another Oberlin IMPL - its gone, too.
+#
 # Revision 1.13  2005/05/31 18:18:43  black
 # Remove LINKS to Oberlin - pages seem to be gone.
 #
@@ -84,9 +87,6 @@ trees and conversions from any of these to any other.
 <a
 href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
-<a
-href="http://www.cs.oberlin.edu/classes/dragn/labs/avl/avl30.html">insert
-(Lisp)</a>, 
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,
