@@ -1,7 +1,11 @@
 # *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
-# *modified "Mon Apr 11 11:57:45 2005" *by "Paul E. Black"
+# *modified "Mon Jul 11 09:37:04 2005" *by "Paul E. Black"
 
 # $Log: randomizedBinarySearchTree.trm,v $
+# Revision 1.5  2005/07/11 13:38:50  black
+# Remove LINKS to papers at UPC - searching the tech reports didn't find
+# them, either.
+#
 # Revision 1.4  2005/04/11 15:59:16  black
 # Update URLs for LINKS to Randomized papers.
 #
@@ -61,11 +65,7 @@ nearly balanced, regardless of the number, kind and order of updates made.
 The expected {worst case} is {O(log n)#big-O notation} for any update or
 search in a RBST of size $n$.
 # further explanation (pure HTML)
-@LINKS=Abstract of papers about <a
-href="http://www.lsi.upc.es/dept/techreps/listado_concreto.php?id=74">Randomized
-Binary Search Trees</a> and
-<a href="http://www.lsi.upc.es/dept/techreps/listado_concreto.php?id=178">Randomized
-K-Dimensional Binary Search Trees</a>
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's
 <a href="http://okmij.org/ftp/Scheme/treap.scm">(Scheme)</a>
