@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Fri Jan  7 09:23:57 2005" *by "Paul E. Black"
+# *modified "Mon Jul 11 09:42:50 2005" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.13  2005/07/11 13:44:16  black
+# Remove Pascal IMPL from NMT - gone or inaccessible.
+#
 # Revision 1.12  2005/01/07 14:37:58  black
 # Make shell sort a diminishing increment sort.  Make the DEFN stand
 # alone better.  Contrast with comb sort.  Move NOTE of Knuth's analysis
@@ -251,7 +254,6 @@ Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography;
 <a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>;
-<a href="http://www.nmt.edu/~es421/pascal/sort.htm">(Pascal)</a>,
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</a>,
 <a href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</a>,
 <a href="http://www.ahml.lib.il.us/pfw/ProcessSaveFile.txt">(Passport for
