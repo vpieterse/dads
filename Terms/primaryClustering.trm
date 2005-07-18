@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 18 12:58:14 2005" *by "Paul E. Black"
+# *modified "Mon Jul 18 13:11:29 2005" *by "Paul E. Black"
 
 # $Log: primaryClustering.trm,v $
+# Revision 1.4  2005/07/18 17:12:56  black
+# NOTE that double hashing may help.
+#
 # Revision 1.3  2005/07/18 17:03:41  black
 # Refine def'n to better distinguish from secondary clustering.  Change
 # file name.
@@ -36,7 +39,9 @@ addressing}, {clustering}, {linear probing}, {quadratic probing},
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Primary clustering increases average search time.
-Linear probing is especially susceptible to primary clustering.  
+Linear probing is especially susceptible to primary clustering.
+{Clustering} may be minimized with {double hashing}.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
