@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:06:45 2004" *by "Paul E. Black"
+# *modified "Mon Jul 18 12:58:14 2005" *by "Paul E. Black"
 
 # $Log: primaryClustering.trm,v $
+# Revision 1.3  2005/07/18 17:03:41  black
+# Refine def'n to better distinguish from secondary clustering.  Change
+# file name.
+#
 # Revision 1.2  2004/12/17 17:06:45  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -14,7 +18,7 @@
 @AREA=search
 # the definition
 @DEFN=The tendency for some {collision resolution schemes} to create
-long runs of filled slots at the {hash function} position.  
+long runs of filled slots near the {hash function} position of {keys}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -27,9 +31,9 @@ long runs of filled slots at the {hash function} position.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={secondary clustering}, {clustering free}, {hash table}, {open
-
 addressing}, {clustering}, {linear probing}, {quadratic probing},
 {double hashing}, {uniform hashing}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Primary clustering increases average search time.
 Linear probing is especially susceptible to primary clustering.  
