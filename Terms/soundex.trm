@@ -1,7 +1,11 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Jul 18 14:53:18 2005" *by "Paul E. Black"
+# *modified "Mon Jul 25 11:05:07 2005" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.11  2005/07/25 15:06:53  black
+# Update NARA URL and add an alternate NARA URL with the same info in a
+# different format.
+#
 # Revision 1.10  2005/07/18 18:53:56  black
 # Use redirection URL for NARA Soundex LINK.
 #
@@ -62,8 +66,10 @@ records.  The standard algorithm works best on European names.
 Variants have been devised for names from other cultures.
 # further explanation (pure HTML)
 @LINKS=
-NARA <a href="http://www.archives.gov/research_room/genealogy/census/soundex.html">Soundex
-Indexing System</a> with links to encoders and more information, and
+NARA <a href="http://www.archives.gov/genealogy/census/soundex.html">Soundex
+Indexing System</a> (or <a
+href="http://www.archives.gov/publications/general-info-leaflets/55.html">GIL
+55</a>) with links to encoders and more information, and
 <a href="http://www.bradandkathy.com/genealogy/overviewofsoundex.html">Overview
 of Soundex</a>.
 # implementation(s) (pure HTML)
