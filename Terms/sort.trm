@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Thu Jan  6 14:13:30 2005" *by "Paul E. Black"
+# *modified "Tue Aug  9 08:28:17 2005" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.9  2005/08/09 12:28:56  black
+# Access problems with brockport.edu IMPL - remove it.
+#
 # Revision 1.8  2005/01/06 19:14:18  black
 # Add comb sort, which is a distinct and efficient algorithm.
 #
@@ -96,8 +99,7 @@ terabyte</a>.
 @IMPL=Specific implementations can be found under the specific sort
 routines or at <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">(Pascal,
-C++, Fortran, and Mathematica)</a>;
-Explanation, <a href="http://www.cs.brockport.edu/cs/java/apps/sorters/simplesort.html">demo and code (Java)</a>.
+C++, Fortran, and Mathematica)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sort.trm,v $
