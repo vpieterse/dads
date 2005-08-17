@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Wed Jun  1 11:58:57 2005" *by "Paul E. Black"
+# *modified "Tue Aug 16 16:41:35 2005" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.10  2005/08/16 20:42:19  black
+# Clarify that valid indexes run from 0 to n (not n-1 as a C programmer
+# might assume).
+#
 # Revision 1.9  2005/06/02 16:24:43  black
 # Acknowledge Colin Wright.
 #
@@ -91,7 +95,8 @@ href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/searching.html#binary-sea
 @IMPL=
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
-(C)</a> n is the highest index of the 0-based array; 
+(C)</a> where indexes are 0 to n, inclusive. That is, n is the highest
+index of the 0-based array, and 
 possible key indexes, k, are <em>low &lt; k &lt;= high</em> in the loop.
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/binary-search.html">(Scheme)</a>,
 Worst-case behavior <a
