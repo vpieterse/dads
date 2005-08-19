@@ -1,7 +1,12 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Mon May 16 10:47:28 2005" *by "Paul E. Black"
+# *modified "Fri Aug 19 11:25:07 2005" *by "Paul E. Black"
 
 # $Log: minimumSpanningTree.trm,v $
+# Revision 1.9  2005/08/19 15:25:17  black
+# use Steiner tree instead of Steiner minimum tree, since Steiner trees
+# are (almost) always required to be minimum.  Note that Steiner trees
+# have additional points.
+#
 # Revision 1.8  2005/05/16 14:47:31  black
 # Drop mscmga URL -- timeout since March.
 #
@@ -51,7 +56,7 @@ contains all of the graph's {vertices#vertex}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Kruskal's algorithm}, {Prim-Jarnik algorithm}, 
-{Baruvka's algorithm}, {Steiner minimum tree}, {arborescence},
+{Baruvka's algorithm}, {Steiner tree}, {arborescence},
 similar problems: {all pairs shortest path}, {traveling salesman}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A minimum spanning tree can be used to quickly find a
@@ -61,6 +66,11 @@ near-optimal solution to the {traveling salesman} problem.
 <p>
 The term "shortest spanning tree" may be more common in the field of
 operations research.
+</p>
+
+<p>
+A Steiner tree is allowed added connection points to reduce the
+total length even more.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
