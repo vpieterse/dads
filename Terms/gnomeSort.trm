@@ -1,7 +1,12 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:53 2004" *by "Paul E. Black"
+# *modified "Wed Aug 24 10:21:21 2005" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.4  2005/08/24 14:23:56  black
+# XREF bidirectional bubble sort, instead of bubble sort, and NOTE why
+# it is similar.  Also NOTE compexity.  Clarify NOTE on similarity to
+# insertion sort.
+#
 # Revision 1.3  2004/12/17 17:23:53  black
 # Make more XHTML compliant.
 #
@@ -41,7 +46,7 @@ item.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={insertion sort}, {bubble sort}
+@XREFS={insertion sort}, {bidirectional bubble sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -50,13 +55,26 @@ item.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
-This can be seen as an {insertion sort} with only one current item.
-After having moved an item backward, orders are checked while moving
-forward to where progress left off.
+Complexity is {O(n<sup>2</sup>)#big-O notation} for
+arbitrary data, but approaches O(n) if the list is nearly in order at
+the beginning.
 </p>
 
 <p>
-Dick Grune calls this "the simplest sort algorithm."
+This can be seen as an {insertion sort} which only keeps track of the
+current item.  After having moved an item backward into place, it
+"walks" forward, checking the order of items as it goes, until it
+reaches the next item is out of place, which is at beyond where
+progress left off.
+</p>
+
+<p>
+This can be seen as a {bidirectional bubble sort} that intelligently
+reverses direction, instead of making complete passes.
+</p>
+
+<p>
+Dick Grune, the inventor, calls this "the simplest sort algorithm."
 # any historical notes
 @HISTORY=
 
