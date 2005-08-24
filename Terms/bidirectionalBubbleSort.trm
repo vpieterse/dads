@@ -1,7 +1,10 @@
 # *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
-# *modified "Mon May 23 09:07:37 2005" *by "Paul E. Black"
+# *modified "Wed Aug 24 10:22:12 2005" *by "Paul E. Black"
 
 # $Log: bidirectionalBubbleSort.trm,v $
+# Revision 1.4  2005/08/24 14:22:28  black
+# XREF gnome sort
+#
 # Revision 1.3  2005/05/23 13:08:42  black
 # Clarify wording in definition.  Add IMA sort.
 #
@@ -33,7 +36,7 @@ to the beginning. It stops when a pass does no swaps.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bubble sort}
+@XREFS={bubble sort}, {gnome sort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Complexity is {O(n<sup>2</sup>)#big-O notation} for
