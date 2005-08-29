@@ -1,7 +1,10 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:46 2004" *by "Paul E. Black"
+# *modified "Mon Aug 29 08:46:02 2005" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.5  2005/08/29 12:50:04  black
+# drop Shallit URL from INFO - gone.  drop "algorithm" from NAME
+#
 # Revision 1.4  2004/12/17 17:27:46  black
 # Make more XHTML compliant.
 #
@@ -14,7 +17,7 @@
 #
 
 # entry name
-@NAME=binary GCD algorithm
+@NAME=binary GCD
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
@@ -95,10 +98,7 @@ Called Algorithm B in
 <a href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</a>.
 # further explanation (pure HTML)
 @LINKS=<a href="http://www.cut-the-knot.com/blue/binary.html">Binary
-Euclid's Algorithm</a> including examples and references.  Shallit's
-slides giving
-<a href="http://www.msri.org/publications/ln/msri/2000/introant/shallit/1/">explanation
-and proofs</a>.
+Euclid's Algorithm</a> including examples and references.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
