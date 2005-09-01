@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 16 14:56:42 2004" *by "Paul E. Black"
+# *modified "Thu Sep  1 13:10:37 2005" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.5  2005/09/01 17:11:13  black
+# NOTE Eppstein's intro to NP-Completeness.
+#
 # Revision 1.4  2004/12/16 19:58:06  black
 # Move examples of NP-complete problems here (from NP-hard).  NOTE the
 # source of the term "NP".  Remove AP - no definition.  Make more XHTML
@@ -73,7 +76,13 @@ Turing machine#nondeterministic Turing machine} accepts in
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
 href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
-FAQ</a>, scroll down to <strong>P vs. NP</strong>.  A
+FAQ</a>, scroll down to <strong>P vs. NP</strong>.  
+Eppstein's longer, but very good introduction to
+<a
+href="http://www.ics.uci.edu/~eppstein/161/960312.html">NP-completeness</a>,
+with sections like Why should we care?, Examples of problems in
+different classes, and how to prove a problem is NP-complete.
+A
 <a href="http://www.nada.kth.se/~viggo/problemlist/compendium.html">compendium
 of NP optimization problems</a>.  
 </p>
