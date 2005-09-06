@@ -1,7 +1,10 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:50:38 2004" *by "Paul E. Black"
+# *modified "Tue Sep  6 12:30:05 2005" *by "Paul E. Black"
 
 # $Log: dual.trm,v $
+# Revision 1.8  2005/09/06 16:30:57  black
+# update hservat's LINK on self-dual maps.
+#
 # Revision 1.7  2004/12/17 17:50:49  black
 # Make IMG XHTML compliant.
 #
@@ -67,7 +70,8 @@ graph.  Each is the dual of the other.
 @LINKS=The <a
 href="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
 Venn diagram</a>.
-<a href="http://www.wpi.edu/~hservat/self1.html">Self-dual maps</a>,
+Herman Servatius'
+<a href="http://users.wpi.edu/~hservat/self1.html">Self-dual maps</a>,
 that is, planar graphs that are duals of themselves.
 # implementation(s) (pure HTML)
 @IMPL=
