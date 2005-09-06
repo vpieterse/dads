@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Wed Jan 26 16:52:11 2005" *by "Paul E. Black"
+# *modified "Tue Sep  6 12:25:13 2005" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.5  2005/09/06 16:27:54  black
+# Remove csam.iit.edu/~sun/ link from NOTE - not authorized to access directory
+#
 # Revision 1.4  2005/01/26 21:56:37  black
 # Improve definition.  Add reference for Knuth's Algo M.  Add WEB name
 # of merge exchange sort.  NOTE that this is an oblivious sort, and give
@@ -68,12 +71,6 @@ Batcher sort for four elements:
     compareAndSwap(1, 2);
 </pre>
 where compareAndSwap(i,j) is if (a[i] &lt; a[j]) Swap(a[i], a[j]).
-</p>
-
-<p>
-<a
-href="http://www.csam.iit.edu/~sun/note546/node34.html">definitions
-and analysis</a>
 </p>
 
 <p>
