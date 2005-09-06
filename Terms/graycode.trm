@@ -1,7 +1,11 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Jun 20 09:10:31 2005" *by "Paul E. Black"
+# *modified "Tue Sep  6 12:42:26 2005" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.9  2005/09/06 16:43:34  black
+# Update comp.genetics.ai binary-to-Gray IMPL link - prev URL is gone.
+# Remove alternate 3-bit Gray code since it just switches bits.
+#
 # Revision 1.8  2005/06/20 13:11:22  black
 # Fix Rhoads' URL.  Remove another, invalid URL in a comment.
 #
@@ -119,7 +123,6 @@ prefixed by 1 (for the second half).  This is called a
 <td>A Gray code for 3 bits</td>
 </tr>
 </table>
-Another Gray code for 3 bits is (000, 010, 011, 001, 101, 111, 110, 100).
 </p>
 
 <p>
@@ -136,7 +139,7 @@ code rotary railroad control</a>.
 href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 # The following is an HTML version of part 6 of the comp.ai.genetic FAQ
 <a
-href="http://www.cs.bham.ac.uk/Mirrors/ftp.de.uu.net/EC/clife/www/Q21.htm">binary-to-Gray
+href="http://www.faqs.org/faqs/ai-faq/genetic/part6/section-1.html">binary-to-Gray
 and Gray-to-binary conversion (C)</a> with history, references, and
 application to genetic algorithms.
 <a href="http://library.lanl.gov/numerical/bookcpdf/c20-2.pdf">convert
