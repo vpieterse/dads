@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:49:03 2004" *by "Paul E. Black"
+# *modified "Thu Sep  8 12:40:39 2005" *by "Paul E. Black"
 
 # $Log: byzantine.trm,v $
+# Revision 1.3  2005/09/08 16:42:51  black
+# Correct the definition, from the naming paper.  Add the paper that
+# first described the problem (without naming it).
+#
 # Revision 1.2  2004/12/17 16:49:04  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -14,10 +18,13 @@
 @AREA=basic
 # the definition
 @DEFN=The problem of reaching a consensus among distributed units if
-some of them give misleading answers.  The original problem concerns
-generals plotting a coup.  Some generals lie about whether they
+some of them give misleading answers.  To be memorable, the problem is
+couched in terms of generals deciding on a common plan of attack.
+Some traitorous generals may lie about whether they
 will support a particular plan and what other generals told them.
-What percentage of liars can a decision making {algorithm} tolerate
+Exchanging only messages, what decision making {algorithm} should the
+generals use to reach a consensus?
+What percentage of liars can the algorithm tolerate
 and still correctly determine a consensus?
 # formal definition or {cross reference} to an entry
 @FORML=
@@ -40,20 +47,33 @@ and still correctly determine a consensus?
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
+<strong>Marshall Pease, Robert Shostak, and Leslie Lamport</strong>, 
+<em>Reaching Agreement in the Presence of Faults</em>, Journal of the
+ACM 27(2): 228-234, 1980.
+<br>
 <strong>Leslie Lamport, Robert Shostak and Marshall Pease</strong>, 
 <em>The Byzantine Generals Problem</em>,
 ACM Transactions on Programming Languages and Systems, 4(3):382-401,
-July 1982.
+July 1982. 
+<br>Both available in
+<a
+href="http://research.microsoft.com/users/lamport/pubs/pubs.html">PDF</a>.
+
 # any notes.  these will not be printed in the final dictionary
-@NOTES=One
+@NOTES=The problem of consensus in the presence of faults was
+investigated earlier, but the 1982 paper names the problem.
+</p>
+
+<p>
+One
 variant is: suppose two separated generals will win if both attack at
 the same time and lose if either attacks alone, but messengers may be
 captured.  If one decides to 
 attack, how can that general be sure that the message has reached the
 other general and the other general will attack, too?
 # further explanation (pure HTML)
-@LINKS=Summary of <a
-href="http://www.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">article
+@LINKS=Summary of the 1982 <a
+href="http://www.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">paper
 by Lamport, Shostak, and Pease</a>.
 # implementation(s) (pure HTML)
 @IMPL=
