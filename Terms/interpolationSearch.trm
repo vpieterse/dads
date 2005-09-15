@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:03 2004" *by "Paul E. Black"
+# *modified "Thu Sep 15 11:31:00 2005" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Revision 1.5  2005/09/15 15:33:31  black
+# Correct URL for WOOP IMPL
+#
 # Revision 1.4  2004/12/17 17:24:03  black
 # Make more XHTML compliant.
 #
@@ -58,7 +61,7 @@ binary search only takes log(n) comparisons anyway.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Worst-case behavior <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
+href="http://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography,
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
 # author's initials
