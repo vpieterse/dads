@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Thu Sep 15 11:31:00 2005" *by "Paul E. Black"
+# *modified "Thu Sep 15 11:53:11 2005" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Revision 1.6  2005/09/15 15:53:29  black
+# Add BIB entry and additional IMPL.
+#
 # Revision 1.5  2005/09/15 15:33:31  black
 # Correct URL for WOOP IMPL
 #
@@ -45,6 +48,12 @@ the ends of the search interval.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={jump search}, {secant search}, {binary search}, {Fibonaccian search}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong> Yehoshua Perl, Alon Itai, and Haim Avni</strong>, 
+<em>Interpolation search-a log logN search</em>,
+CACM 21(7):550-553, July 1978.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=You probably use this when looking something up in the
 telephone book or dictionary.  For instance, "cold fusion" is probably
@@ -52,15 +61,31 @@ near the front, so you open maybe 1/4 of the way in.  What you find there
 helps you decide whether to turn many pages or just a few.  Compare
 this with a {linear search}, where you check each entry in order
 from the beginning, or a {binary search}, where you always divide
-the search interval exactly in half.  Unless the data is very uniform,
+the search interval exactly in half.
+</p>
+
+<p>
+Average run time is {O(log log n)#big-O notation} assuming the keys
+are uniformly distributed.
+Worst case for any distribution is O(n).
+</p>
+
+<p> 
+Perl, Itai, and Avni note that "When the difference between the
+indices of two successive iterations is small, it may be advantageous
+to switch to sequential search ..."
+Unless the data is very uniform,
 there are millions of records, or comparisons are very
-time-consuming, a binary search is probably no slower since
+time-consuming, a binary search may be no slower since
 interpolation is usually time-consuming on a computer and a  
 binary search only takes log(n) comparisons anyway.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Worst-case behavior <a
+@IMPL=
+<a
+href="http://www.ics.uci.edu/~dan/class/161/notes/2/Interpolation.html">C-like pseudo-code</a>.
+<a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography,
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
