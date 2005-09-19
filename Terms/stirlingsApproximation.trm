@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Feb 25 12:34:49 2005" *by "Paul E. Black"
+# *modified "Mon Sep 19 10:22:04 2005" *by "Paul E. Black"
 
 # $Log: stirlingsApproximation.trm,v $
+# Revision 1.4  2005/09/19 14:22:59  black
+# update approx & rel. errors LINK
+#
 # Revision 1.3  2005/02/25 17:36:34  black
 # Add MathWorld LINK
 #
@@ -35,7 +38,7 @@ ${n!#factorial} \approx (n/e)<sup>n</sup>\sqrt\{2n\pi}$.
 @NOTES=This approximation is taken directly from {Stirling's formula}.
 # further explanation (pure HTML)
 @LINKS=A slightly different <a
-href="http://schof.colorado.edu/~bart/book/stirling.htm">approximation
+href="http://ece.colorado.edu/~bart/book/stirling.htm">approximation
 and relative errors</a>.
 See Eric W. Weisstein,
 <a
