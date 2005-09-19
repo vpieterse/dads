@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Tue May  3 15:54:45 2005" *by "Paul E. Black"
+# *modified "Mon Sep 19 10:05:38 2005" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Revision 1.6  2005/09/19 14:06:02  black
+# Remove Graph Vis Software IMPL - gone
+#
 # Revision 1.5  2005/05/03 19:56:05  black
 # Add URL for Graph Visualization Software References page.
 #
@@ -46,8 +49,6 @@ for instance with a minimum number of {edge crossings}.
 links</a> page (conferences, software, etc.)
 # implementation(s) (pure HTML)
 @IMPL=
-A host of <a href="http://hulk.performance.fr/GVSR/index.jsp">Graph
-Visualization Software</a> packages.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/drawing-graphs.shtml">draw
 a graph nicely (C and Mathematica)</a>, <a
