@@ -2,6 +2,9 @@
 # *modified "Mon Feb  7 10:21:37 2005" *by "Paul E. Black"
 
 # $Log: kolmogorov.trm,v $
+# Revision 1.4  2005/09/19 13:57:37  black
+# update Computer Journal LINK
+#
 # Revision 1.3  2005/02/07 15:22:15  black
 # Add LINK to Kolmogorov tribute page.
 #
@@ -41,7 +44,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=Special issue of the <a
-href="http://www3.oup.co.uk/computer_journal/hdb/Volume_42/Issue_04/">Computer
+href="http://comjnl.oxfordjournals.org/content/vol42/issue4/">Computer
 Journal on Kolmogorov Complexity (1999)</a>.
 Tributes to, pictures of, bibliography of, etc. 
 <a href="http://www.kolmogorov.com/Kolmogorov.html">Andrei Nikolaevich
