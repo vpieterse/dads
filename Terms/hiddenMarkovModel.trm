@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:59 2004" *by "Paul E. Black"
+# *modified "Mon Sep 19 10:10:39 2005" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.8  2005/09/19 14:12:17  black
+# Remove link for CN760 attribution: time out for at least a month
+#
 # Revision 1.7  2004/12/17 17:23:59  black
 # Make more XHTML compliant.
 #
@@ -38,7 +41,7 @@ $(A, B, \Pi)$.
 # formal definition or {cross reference} to an entry
 @FORML=
 After Michael Cohen's lectures for 
-<a href="http://screwdriver.bu.edu/">CN760</a>.
+CN760.
 <ul>
 <li> $A = \{a<sub>ij</sub> = P(q<sub>j</sub> at t+1 | q<sub>i</sub> at
 t)}$, where $P(a | b)$ is the conditional probability of a given b, 
