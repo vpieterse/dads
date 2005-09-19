@@ -1,7 +1,11 @@
 # *created  "Mon Nov 26 12:25:38 2001" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:20 2004" *by "Paul E. Black"
+# *modified "Mon Sep 19 10:17:42 2005" *by "Paul E. Black"
 
 # $Log: kthShortestPath.trm,v $
+# Revision 1.5  2005/09/19 14:19:05  black
+# Remove Jimenez and Marzal IMPL - site gets timeout.  Add that shortest
+# path is a VARIANT of this.
+#
 # Revision 1.4  2004/12/17 17:28:20  black
 # Make more XHTML compliant.
 #
@@ -35,7 +39,7 @@ weight, etc.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={shortest path}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
@@ -54,10 +58,7 @@ weight, etc.
 href="http://www.mat.uc.pt/~eqvm/OPP/KSPP/KSPP.html">definitions,
 links to basic concepts, variants, and algorithms</a>.
 # implementation(s) (pure HTML)
-@IMPL=V&iacute;ctor Jim&eacute;nez and 
-Andr&eacute;s Marzal keep links to
-<a href="http://terra.act.uji.es/REA/">algorithms and
-code (C)</a>.
+@IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/kthShortestPath.trm,v $
