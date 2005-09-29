@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
-# *modified "Wed Sep 28 16:16:52 2005" *by "Paul E. Black"
+# *modified "Thu Sep 29 11:02:40 2005" *by "Paul E. Black"
 
 # $Log: karnaughmap.trm,v $
+# Revision 1.6  2005/09/29 15:04:26  black
+# LINK directly to Dillon's Karnaugh map page.
+#
 # Revision 1.5  2005/09/28 20:17:15  black
 # Dillon's flash is more a practice aid than a minimizer.
 #
@@ -79,8 +82,8 @@ An <a
 href="http://homepages.wmich.edu/~johnson/ece250/Quiz5/quiz.html">interactive
 quiz</a>.
 Jack Dillon's 
-<a href="http://members.cox.net/cyclone1980/">interactive
-practicer (Flash)</a> click on Karnaugh Map Simulator.
+<a href="http://members.cox.net/cyclone1980/KMapSimulation10Embedded.htm">interactive
+practicer</a> (Flash).
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://tech-www.informatik.uni-hamburg.de/applets/kvd/">(Java)</a>
 # author's initials
