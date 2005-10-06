@@ -1,13 +1,16 @@
 # *created  "Tue Jan 25 14:27:37 2005" *by "Paul E. Black"
-# *modified "Tue Jan 25 14:45:58 2005" *by "Paul E. Black"
+# *modified "Wed Oct  5 16:05:40 2005" *by "Paul E. Black"
 
 # $Log: boruvkasAlgorithm.trm,v $
+# Revision 1.2  2005/10/05 20:05:52  black
+# Fix spelling.
+#
 # Revision 1.1  2005/01/25 19:46:48  black
 # Initial revision
 #
 
 # entry name
-@NAME=Baruvka's algorithm
+@NAME=Boruvka's algorithm
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
@@ -35,10 +38,11 @@
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<strong>O. Baruvka</strong>, <em>O jistem problemu minimalnim</em>,
+<strong>O. Boruvka</strong>, <em>O jistem problemu minimalnim</em>,
 Praca Moravske Prirodovedecke Spolecnosti, 3:37-58, 1926. (in Czech)
-(The u in Baruvka has a small o above it.)
-# bib copied from Goodrich & Tamassia, page 625
+(The u in Boruvka has a small o above it.)
+# bib in Goodrich & Tamassia, page 625, has typo (bAruvka, not bOruvka)
+# web citations in Google Scholar agree spelling is Boruvka
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
