@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:00:00 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:48:52 2004" *by "Paul E. Black"
+# *modified "Fri Oct  7 09:15:21 2005" *by "Paul E. Black"
 
 # $Log: tree.trm,v $
+# Revision 1.6  2005/10/07 13:15:48  black
+# Use Joshua O'Madadhain's tree figure.
+#
 # Revision 1.5  2004/12/17 17:49:22  black
 # Make IMG more XHTML compliant.  Move VARIANTS from XREFS.
 #
@@ -27,7 +30,10 @@ of the structure, and the leaves are depicted at the bottom.
 {undirected#undirected graph}, {acyclic graph}.  It is
 {rooted#rooted tree} and {ordered#ordered tree} unless otherwise specified.
 <br>
-<img src="../Images/tree.gif" height="225" width="201">
+<img src="../Images/tree.png" height="219" width="318">
+<br>
+Thanks to Joshua O'Madadhain (jmadden@ics.uci.edu) for the figure 6
+October 2005.
 # formal definition or {cross reference} to an entry
 @FORML=(1) A tree is either
 <ul>
