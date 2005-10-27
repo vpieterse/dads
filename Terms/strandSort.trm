@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 10:52:34 2003" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:55 2004" *by "Paul E. Black"
+# *modified "Wed Oct 26 11:48:15 2005" *by "Paul E. Black"
 
 # $Log: strandSort.trm,v $
+# Revision 1.4  2005/10/27 13:20:36  black
+# Improve DEFN.  IMIN J sort.
+#
 # Revision 1.3  2004/12/17 16:54:56  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -17,8 +20,10 @@
 @AREA=sort
 # the definition
 @DEFN=A {sort} algorithm that works well if many items are in order.
-Extract a sublist by moving the first remaining item to it.  For each remaining
-item, if it is greater than the last item of the sublist, append it.
+First, begin a sublist by moving the first item from the original list
+to the sublist.  For each subsequent item in the original list, if it
+is greater than the last item of the sublist, remove it
+from the original list and append it to the sublist.
 {Merge} the sublist into a final, sorted list.  Repeatedly extract and
 merge 
 sublists until all items are sorted.  Handle two or fewer items as
@@ -36,11 +41,11 @@ special cases.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={J sort}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={selection sort}, {merge sort}, {J sort}
+@XREFS={selection sort}, {merge sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
