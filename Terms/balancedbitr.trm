@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan 12 09:50:42 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 09:59:18 2005" *by "Paul E. Black"
 
 # $Log: balancedbitr.trm,v $
+# Revision 1.8  2005/10/27 13:59:33  black
+# Update John Morris' URL
+#
 # Revision 1.7  2005/01/12 14:51:41  black
 # A weight-balanced tree is a BB(alpha) tree.
 #
@@ -50,13 +53,13 @@ deleting a {node}, the tree may rebalanced with "rotations."
 # further explanation (pure HTML)
 @LINKS=
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/AVL.html">AVL tree
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/AVL.html">AVL tree
 explanation and example</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/red_black.html">red-black
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/red_black.html">red-black
 tree analysis, explanation, examples, and code (C)</a>.
 Ben Pfaff's <a href="http://www.stanford.edu/~blp/avl/">AVL tree
 explanation (C)</a>.
