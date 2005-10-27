@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Mon Apr 25 10:09:28 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 09:59:50 2005" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Revision 1.7  2005/10/27 13:59:55  black
+# Update John Morris' URL
+#
 # Revision 1.6  2005/04/25 14:13:59  black
 # XREF Fibonacci heap, too.  NOTE that they can be merged in constant time.
 #
@@ -70,7 +73,7 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
 (C and Pascal)</a>,
 # John Morris morris@ee.uwa.edu.au
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/heaps.html">explanation,
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/heaps.html">explanation,
 examples, and code (C)</a>.
 <a href="http://gams.nist.gov/serve.cgi/ModuleComponent/8600/Fullsource/NETLIB/561">(Fortran)</a>
 # author's initials
