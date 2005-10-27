@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:13 2004" *by "Paul E. Black"
+# *modified "Thu Oct 27 09:16:45 2005" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.5  2005/10/27 13:17:43  black
+# Add particularly good sort algorithms: radix and strand
+#
 # Revision 1.4  2004/12/17 17:24:13  black
 # Make more XHTML compliant.
 #
@@ -39,14 +42,15 @@ to the next item.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={move-to-front heuristic}
+@XREFS={move-to-front heuristic}, 
+sort algorithms: {radix sort}, {strand sort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The first item, or {head}, is
 accessed from a fixed location, called a ``head pointer.''
 An ordinary linked list must be searched with a 
 {linear search}.  Average search time may be improved using a 
-{move-to-front heuristic} in some cases or keeping it an
+{move-to-front heuristic} or keeping it an
 {ordered linked list}.
 An {external index}, such as a {hash table}, {inverted index}, or
 auxiliary {search tree} may be used as a ``cross index'' to help find
