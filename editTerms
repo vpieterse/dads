@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.11 2004/12/17 19:09:49 black Exp $';
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.12 2005/10/27 14:09:37 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Fri Dec 17 13:54:20 2004" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Oct 27 09:55:32 2005" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -28,7 +28,7 @@ $typUse = "./editTerms `grep -l vertices Terms/*.trm`";
 #	Command line handling
 #------------------------------------------------------------------------------
 
-$reason = "Make more XHTML compliant.";
+$reason = "Update John Morris' URL";
 $editor = "Paul E. Black"; # for *modified line
 # check that hard-coded date is current to reduce chance of 
 # using old reason and old edits
@@ -85,7 +85,7 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Fri Dec 17/) {
+if ($checkDate && localtime() !~ /Thu Oct 27/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -156,7 +156,7 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s|caverphone|Caverphone|g;
+		$line =~ s|http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/|http://www.cs.auckland.ac.nz/software/AlgAnim/|g;
 
 		print TERM $line;
 	    }
