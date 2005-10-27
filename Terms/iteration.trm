@@ -1,7 +1,10 @@
 # *created  "Fri Feb 26 16:56:28 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 15:40:25 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 10:00:37 2005" *by "Paul E. Black"
 
 # $Log: iteration.trm,v $
+# Revision 1.4  2005/10/27 14:00:46  black
+# Update John Morris' URL
+#
 # Revision 1.3  2005/01/11 20:41:02  black
 # Remove leading redundant phrase in DEFN.
 #
@@ -37,7 +40,7 @@ repeatedly working on successive parts of the problem.
 @LINKS=See 
 # John Morris morris@ee.uwa.edu.au
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/dynamic.html#fibonacci">dynamic
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/dynamic.html#fibonacci">dynamic
 algorithms</a> for an example of one trade-off between speed and
 clarity for a recursive vs. an iterative implementation.
 # implementation(s) (pure HTML)
