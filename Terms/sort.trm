@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Tue Aug  9 08:28:17 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 09:25:08 2005" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.10  2005/10/27 13:26:07  black
+# XREF easy/hard split/merge.
+#
 # Revision 1.9  2005/08/09 12:28:56  black
 # Access problems with brockport.edu IMPL - remove it.
 #
@@ -61,7 +64,7 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 {radix sort}, {bucket sort}, {insertion sort}, 
 {selection sort}, {merge sort}, {counting sort},
 {histogram sort}, {strand sort}, {J sort}, {shuffle sort}, 
-{American flag sort}, {bubble sort}, {gnome sort},
+{American flag sort}, {gnome sort}, {bubble sort}, 
 {bidirectional bubble sort}, {treesort (1)},
 {adaptive heap sort}, {three-way radix quicksort}
 # Aggregate parent: "I am a part of or used in ..."
@@ -70,7 +73,8 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={external sort}, {internal sort}, {comparison sort}, 
-{distribution sort}, {derangement}
+{distribution sort}, {easy split, hard merge}, 
+{hard split, easy merge}, {derangement}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Any sorting algorithm can be made stable by
