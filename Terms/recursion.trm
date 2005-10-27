@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:34 2004" *by "Paul E. Black"
+# *modified "Wed Oct 26 09:53:42 2005" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.5  2005/10/26 20:45:19  black
+# improve tutorials a little
+#
 # Revision 1.4  2004/12/17 17:24:34  black
 # Make more XHTML compliant.
 #
@@ -60,7 +63,7 @@ Depending on the problem, any of these may be trivial or complex.
 
 <p>
 Here are some exercises to help you learn recursion.  Although
-recursion may not be the best way to write some of the functions here,
+recursion may not be the best way to write some of these functions,
 it is good practice.  There are more exercises at Erwin's
 <em>Programming with Recursion</em> tutorial.
 <ol>
@@ -87,7 +90,7 @@ the following relations
 </ul>
 (after "ML for the Working Programmer", page 49).
 
-<li>Write a function to compute any number to the power of a positive
+<li>Write a function to compute any number to the power of a non-negative
 integer using {repeated squaring}, that is,
 $x<sup>2n</sup> = (x<sup>n</sup>)<sup>2</sup>$ and
 $x<sup>2n+1</sup> = x \times x<sup>2n</sup>$.
