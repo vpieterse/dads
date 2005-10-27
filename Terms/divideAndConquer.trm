@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  7 09:03:53 2005" *by "Paul E. Black"
+# *modified "Wed Oct 26 16:41:23 2005" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.6  2005/10/26 20:42:01  black
+# Add easy/hard split/merge as VARIANT.  XREF recursion and greedy algorithm.
+#
 # Revision 1.5  2005/03/07 14:04:23  black
 # Improve wording of definition and explanation of why binary search is
 # divide-and-conquer.
@@ -35,13 +38,13 @@ produce a solution for the original instance.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={easy split, hard merge}, {hard split, easy merge}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={heapify}, {merge sort}, {quicksort}, {binary search}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={recursion}, {greedy algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The technique is named "divide and conquer" because a
