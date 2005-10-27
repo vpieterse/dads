@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Fri Jan 28 17:27:10 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 10:00:29 2005" *by "Paul E. Black"
 
 # $Log: hashtab.trm,v $
+# Revision 1.8  2005/10/27 14:00:33  black
+# Update John Morris' URL
+#
 # Revision 1.7  2005/01/28 22:45:18  black
 # Change DEFN to include hashing 2 or more functions.  Add 2-left and
 # 2-choice hashing.  Add IMIN dictionary.
@@ -88,7 +91,7 @@ continues with more than a page of history.
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/hash_tables.html">explanation
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/hash_tables.html">explanation
 and example of hashing and various collision resolution
 techniques</a>.
 # implementation(s) (pure HTML)
