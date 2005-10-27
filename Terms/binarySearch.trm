@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Tue Aug 16 16:41:35 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 09:59:37 2005" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.11  2005/10/27 13:59:46  black
+# Update John Morris' URL
+#
 # Revision 1.10  2005/08/16 20:42:19  black
 # Clarify that valid indexes run from 0 to n (not n-1 as a C programmer
 # might assume).
@@ -90,7 +93,7 @@ The implementation of search in C uses {0-based indexing}.
 @LINKS=<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSearch.html">demonstration</a>.
 # John Morris morris@ee.uwa.edu.au
 <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/searching.html#binary-search">explanation</a>
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html#binary-search">explanation</a>
 # implementation(s) (pure HTML)
 @IMPL=
 <a
