@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Oct 26 09:53:42 2005" *by "Paul E. Black"
+# *modified "Thu Oct 27 10:02:00 2005" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.6  2005/10/27 14:02:04  black
+# Update John Morris' URL
+#
 # Revision 1.5  2005/10/26 20:45:19  black
 # improve tutorials a little
 #
@@ -106,7 +109,7 @@ non-negative integer using square_root(4x) = 2*square_root(x).
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
 See <a
-href="http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/dynamic.html#fibonacci">dynamic
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/dynamic.html#fibonacci">dynamic
 algorithms</a> for an example of one trade-off between speed and
 clarity for a recursive vs. an iterative implementation.  
 See the notes for the 
