@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 20 09:01:19 2005" *by "Paul E. Black"
+# *modified "Fri Oct 28 09:16:24 2005" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.6  2005/10/28 13:17:16  black
+# NOTE not to use PRNG for security.  Link to Wheeler's page on random numbers.
+#
 # Revision 1.5  2005/06/20 13:01:40  black
 # Update Rhoad's URL
 #
@@ -56,6 +59,15 @@ with naturally random events, such as noise in a diode.
 A generator may be ``seeded'', or initialized, with a random event,
 such as the current time in milliseconds, to give different sequences
 every time it is used.
+</p>
+
+<p>
+Do <strong>NOT</strong> use typical "random" number generators for
+security or cryptographic purposes.
+<a
+href="http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
+Numbers</a> from David Wheeler's <em>Secure Programming for Linux and
+Unix HOWTO</em>, Section 11.3, gives suggestions and guidelines.
 # further explanation (pure HTML)
 @LINKS=<a href="http://csrc.nist.gov/rng/">Random Number Generation
 and Testing</a> with links to reports, standard tests, and on-going
