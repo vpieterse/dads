@@ -1,7 +1,11 @@
 # *created  "Mon Apr 26 13:12:45 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:39:07 2004" *by "Paul E. Black"
+# *modified "Thu Nov  3 08:32:59 2005" *by "Paul E. Black"
 
 # $Log: hyperedge.trm,v $
+# Revision 1.5  2005/11/03 13:35:12  black
+# Change from "2 or more" to "any number" per Joshua O'Madadhain,
+# jmadden@ics.uci.edu, 2 Nov 2005 and CLR pg 90.
+#
 # Revision 1.4  2004/04/19 18:39:12  black
 # Use the standard English plural of vertex
 #
@@ -20,8 +24,13 @@
 # basic theory numeric search sort tree graph combin para (see areas.data)
 @AREA=graph
 # the definition
-@DEFN=A connection between two or more {vertices#vertex} of a 
+@DEFN=A connection between any number of {vertices#vertex} of a 
 {hypergraph}.
+@FORML=A hyperedge is a {set} of vertices of a hypergraph.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -37,7 +46,7 @@
 {weighted graph}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A hyperedge is a {set} of vertices of a hypergraph.
+@NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
