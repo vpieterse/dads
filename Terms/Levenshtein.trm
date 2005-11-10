@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Jan  4 10:39:14 2005" *by "Paul E. Black"
+# *modified "Thu Nov 10 09:09:52 2005" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.7  2005/11/10 14:32:52  black
+# LINK to Wikipedia entry and Wikisource IMPL
+#
 # Revision 1.6  2005/01/04 15:39:51  black
 # Remove ristad LINK - gone.
 #
@@ -70,6 +73,8 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+<a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
+entry</a>.
 March 2003
 <a
 href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
@@ -78,6 +83,11 @@ of Levenshtein</a> at a reception.
 @IMPL=<a href="http://www.merriampark.com/ld.htm">Levenshtein distance
 (Java, C++, Visual Basic)</a>, includes a great explanation and links
 to code in Perl, C, JavaScript, Python, and many more languages.
+Many implementations
+<a href="http://en.wikisource.org/wiki/Levenshtein_distance">(Lisp,
+Haskell, Java, Python, Ruby, Scheme, Visual Basic, Visual
+FoxPro)</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
 # end $Source: /home/black/Workspace/dads/Terms/RCS/Levenshtein.trm,v $
