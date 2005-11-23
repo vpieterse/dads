@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:01:46 2005" *by "Paul E. Black"
+# *modified "Tue Nov 22 16:37:21 2005" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Revision 1.6  2005/11/22 21:42:16  black
+# Improve the wording of the example in the NOTE.
+#
 # Revision 1.5  2005/10/27 14:01:56  black
 # Update John Morris' URL
 #
@@ -47,17 +50,24 @@ significant part of the key.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 Here is a simple example of the sort.  Suppose the input keys are
-34, 12, 42, 32, 44, 41, 34, 11, 32, and 23.  Four buckets are appropriate.
-The first pass distributes them by the least significant digit.  After
-the first pass we have the following, where each line is a bucket.<br>
+34, 12, 42, 32, 44, 41, 34, 11, 32, and 23.  Four buckets are
+appropriate, since there are four different digits.
+The first pass distributes the keys into buckets by the least
+significant digit.  Half way through the first pass, the buckets
+contain the following, where each line is a bucket.<br>
+<br>
+12 42 32<br>
+<br>
+34 44<br>
+When the first pass is done, we have the following.<br>
 41 11<br>
 12 42 32 32<br>
 23<br>
 34 44 34<br>
 We collect these, keeping their relative order: 
 41 11 12 42 32 32 23 34 44 34.
-Now we distribute by the next most significant digit, in
-this case, the highest digit, and we get the following.<br>
+Now we distribute by the next most significant digit, which is the
+highest digit, and we get the following.<br>
 11 12<br>
 23<br>
 32 32 34 34<br>
