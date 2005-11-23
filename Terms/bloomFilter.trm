@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:48 2004" *by "Paul E. Black"
+# *modified "Wed Nov 23 11:50:35 2005" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Revision 1.5  2005/11/23 16:54:41  black
+# Add Partow's IMPL.
+#
 # Revision 1.4  2004/12/17 17:27:48  black
 # Make more XHTML compliant.
 #
@@ -53,6 +56,9 @@ someone see if you have an item (it is found in the Bloom filter), but
 it is impractical to recreate the whole collection.
 # implementation(s) (pure HTML)
 @IMPL=
+Arash Partow's
+<a href="www.partow.net/programming/hashfunctions/#Download">implementations
+(C++, Object Pascal)</a>.
 # further explanation (pure HTML)
 @LINKS=
 <a href="http://cap-lore.com/code/BloomTheory.html">Trade-offs and
