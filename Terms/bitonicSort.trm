@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Tue Sep  6 12:25:13 2005" *by "Paul E. Black"
+# *modified "Mon Nov 28 07:09:31 2005" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.6  2005/11/28 12:16:35  black
+# Add pC++ IMPL.
+#
 # Revision 1.5  2005/09/06 16:27:54  black
 # Remove csam.iit.edu/~sun/ link from NOTE - not authorized to access directory
 #
@@ -75,7 +78,7 @@ where compareAndSwap(i,j) is if (a[i] &lt; a[j]) Swap(a[i], a[j]).
 
 <p>
 This is Knuth's <a href="../terms.html#Knuth98">Algorithm M [Knuth98,
-3:111, Sect. 5.2.2]</a> .
+3:111, Sect. 5.2.2]</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
@@ -83,7 +86,10 @@ href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonice
 analysis, bibliography, etc. (Java)</a>.
 <a
 href="http://www.cag.lcs.mit.edu/streamit/results/bitonic/code/c/">reference
-source code (C)</a>
+source code (C)</a>.
+Section from 1994 User Manual for <a
+href="http://www.extreme.indiana.edu/sage/pcxx_ug/subsection3_6_2.html">Portable
+Parallel C++ (pC++)</a>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
