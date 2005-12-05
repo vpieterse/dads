@@ -1,7 +1,10 @@
 # *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:50 2004" *by "Paul E. Black"
+# *modified "Mon Dec  5 09:42:33 2005" *by "Paul E. Black"
 
 # $Log: fibonaccianSearch.trm,v $
+# Revision 1.5  2005/12/05 14:43:14  black
+# Add Lourakis' C IMPL.
+#
 # Revision 1.4  2004/12/17 17:23:50  black
 # Make more XHTML compliant.
 #
@@ -61,7 +64,10 @@ the next position.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=Worst-case behavior <a
+@IMPL=
+Manolis Lourakis'
+<a href="http://www.ics.forth.gr/~lourakis/fibsrch/">fibsrch (C)</a>.
+Worst-case behavior <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.  (Interpolation
 and secant search "guess more precisely where the key being sought
