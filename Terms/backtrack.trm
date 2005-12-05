@@ -1,7 +1,10 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Tue Jan 11 15:57:38 2005" *by "Paul E. Black"
+# *modified "Mon Dec  5 10:54:23 2005" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.5  2005/12/05 15:54:36  black
+# Update FOLDOC URL
+#
 # Revision 1.4  2005/01/11 20:58:11  black
 # Remove leading redundant phrase in DEFN.
 #
@@ -55,7 +58,7 @@ solving Java applet</a>;
 href="http://freepages.genealogy.rootsweb.com/~jamesdow/Tech/lesson9.htm#p91">short
 explanation, examples in C</a>;
 FOLDOC's
-<a href="http://wombat.doc.ic.ac.uk/foldoc/foldoc.cgi?backtracking">entry</a>.
+<a href="http://foldoc.org/?backtracking">entry</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
