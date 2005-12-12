@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jan 10 09:28:40 2005" *by "Paul E. Black"
+# *modified "Mon Dec 12 09:16:58 2005" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Revision 1.6  2005/12/12 14:18:40  black
+# IMA state machine.  Add variants.  LINK to FASTAR.
+#
 # Revision 1.5  2005/01/10 14:28:48  black
 # Update Oleg Kiselyov's URL
 #
@@ -45,11 +48,13 @@ one or more states designated as {accepting states} ({recognizer}), etc.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={model of computation}, {Turing machine}
+@IMA={model of computation}, {Turing machine}, {state machine}
 # Specialization: "... is a kind of me."
 @VARIANT={deterministic finite state machine}, 
+{nondeterministic finite state machine}, 
 {Kripke structure},
-{finite state transducer}, {Markov chain}, {hidden Markov model}
+{finite state transducer}, {Markov chain}, {hidden Markov model},
+{Mealy machine}, {Moore machine}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
@@ -67,6 +72,9 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
+The <a href="http://www.fastar.org/">FASTAR</a> (Finite Automata
+Systems - Theoretical and Applied Research) group site links to
+some papers, conferences, and projects.
 # implementation(s) (pure HTML)
 @IMPL=
 Jan Daciuk's
