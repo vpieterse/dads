@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Mar 11 11:43:08 2005" *by "Paul E. Black"
+# *modified "Mon Dec 12 08:09:53 2005" *by "Paul E. Black"
 
 # $Log: np.trm,v $
+# Revision 1.7  2005/12/12 13:09:59  black
+# Update U Waterloo comp.theory FAQ URL
+#
 # Revision 1.6  2005/03/11 16:43:26  black
 # Update Wikipedia URL
 #
@@ -73,7 +76,7 @@ Being in NP doesn't require that a negative answer, e.g. "there is no
 tour", can be quickly checked.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
-href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://www.cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 Wikipedia entry on <a
 href="http://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
