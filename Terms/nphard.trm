@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec 16 14:51:23 2004" *by "Paul E. Black"
+# *modified "Mon Dec 12 08:10:02 2005" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Revision 1.6  2005/12/12 13:10:04  black
+# Update U Waterloo comp.theory FAQ URL
+#
 # Revision 1.5  2004/12/16 19:53:12  black
 # Move examples of NP-complete problems to "NP-complete".  Remove AP -
 # no definition.  Unbounded Knapsack is a VARIANT.  Improve wording.
@@ -70,7 +73,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
-href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://www.cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 </p>
 
