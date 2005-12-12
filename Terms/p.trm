@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Mar 11 11:42:26 2005" *by "Paul E. Black"
+# *modified "Mon Dec 12 08:10:04 2005" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Revision 1.7  2005/12/12 13:10:06  black
+# Update U Waterloo comp.theory FAQ URL
+#
 # Revision 1.6  2005/03/11 16:42:52  black
 # Update Wikipedia URL
 #
@@ -49,7 +52,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
-href="http://db.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="http://www.cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 Wikipedia entry on <a
 href="http://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
