@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Wed Dec 15 13:11:10 2004" *by "Paul E. Black"
+# *modified "Wed Dec 14 09:59:03 2005" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Revision 1.11  2005/12/14 14:59:54  black
+# rename 3-way radix quicksort to multikey Quicksort, the authors' term
+#
 # Revision 1.10  2004/12/15 18:57:36  black
 # Improve wording of def'n.  XREF external quicksort.  Make more XHTML
 # compliant.
@@ -46,7 +49,7 @@ to partition the array, to stop the recursion on small partitions, etc.
 # Generalization: "I am a kind of ..."
 @IMA={in-place sort}
 # Specialization: "... is a kind of me."
-@VARIANT={balanced quicksort}, {three-way radix quicksort}, 
+@VARIANT={balanced quicksort}, {multikey Quicksort}, 
 {introspective sort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
