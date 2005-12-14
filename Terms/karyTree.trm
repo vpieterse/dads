@@ -1,7 +1,11 @@
 # *created  "Thu Jan 14 13:58:29 1999" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:00:59 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 12:36:23 2005" *by "Paul E. Black"
 
 # $Log: karyTree.trm,v $
+# Revision 1.5  2005/12/14 17:37:04  black
+# IMA tree and multiway tree.  VARIANTs are binary tree and ternary
+# search tree.
+#
 # Revision 1.4  2005/10/27 14:01:04  black
 # Update John Morris' URL
 #
@@ -30,15 +34,15 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={tree}, {multiway tree}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={binary tree}, {ternary search tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={multiway tree}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A k-ary tree may be thought of as a multiway trees limited to
