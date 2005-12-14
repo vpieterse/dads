@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:05:33 1999" *by "Paul E. Black"
-# *modified "Mon Dec 20 11:08:20 2004" *by "Paul E. Black"
+# *modified "Wed Dec 14 09:00:44 2005" *by "Paul E. Black"
 
 # $Log: vanemdeboas.trm,v $
+# Revision 1.4  2005/12/14 14:00:45  black
+# Change pp to pages
+#
 # Revision 1.3  2004/12/20 16:10:05  black
 # Add initial def'n, BIB, NOTES, etc.  Remove IMPL since it is pseudo-code.
 #
@@ -48,7 +51,7 @@ Less than Logarithmic Time and Linear Space</em>,
 Inf. Proc. Letters, 6(3):80-82, June 1977.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=After <a href="../terms.html#GBY91">[GBY91, pp 216-217]</a>.
+@NOTES=After <a href="../terms.html#GBY91">[GBY91, pages 216-217]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
