@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 15:11:23 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 09:00:37 2005" *by "Paul E. Black"
 
 # $Log: bbalphatree.trm,v $
+# Revision 1.6  2005/12/14 14:00:41  black
+# Change pp to pages
+#
 # Revision 1.5  2005/01/11 20:11:36  black
 # Correct TYPE to be S
 #
@@ -51,7 +54,7 @@ Performance</em>, page 22.
 </p>
 
 <p>
-See <a href="../terms.html#GBY91">[GBY91, pp 100-102]</a>.
+See <a href="../terms.html#GBY91">[GBY91, pages 100-102]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
