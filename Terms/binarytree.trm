@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 09:59:57 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 12:37:58 2005" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Revision 1.12  2005/12/14 17:38:22  black
+# Remove IMA multiway tree: k-ary tree refers to it, and its not very useful.
+#
 # Revision 1.11  2005/10/27 14:00:04  black
 # Update John Morris' URL
 #
@@ -56,7 +59,7 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={tree}, {multiway tree}, {k-ary tree} with k=2
+@IMA={tree}, {k-ary tree} with k=2
 # Specialization: "... is a kind of me."
 @VARIANT={complete binary tree}, {full binary tree}, 
 {binary search tree}, {binary heap}, {balanced binary tree},
