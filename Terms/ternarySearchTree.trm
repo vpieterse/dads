@@ -1,7 +1,12 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:55:04 2004" *by "Paul E. Black"
+# *modified "Wed Dec 14 12:32:32 2005" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.3  2005/12/14 17:34:25  black
+# IMA k-ary and search tree.  Rename 3-way radix quicksort to multikey
+# Quicksort, the authors' term.  Fix SIAM BIB title, and comment that
+# TST predats it by 20 years.  Add C# IMPL.
+#
 # Revision 1.2  2004/12/17 16:55:04  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -23,7 +28,7 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={k-ary tree} with k=3, {search tree}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -31,16 +36,21 @@
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={trie},{binary search tree},{three-way radix quicksort}
+@XREFS={trie}, {binary search tree}, {multikey Quicksort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
-@BIB=<strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
-for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
-Symposium on Discrete Algorithms (SODA), January 1997.
+@BIB=
+Ternary search trees are discussed in<br>
+<strong>Jon L. Bentley</strong> and <strong>Robert Sedgewick</strong>,
+<em>Fast Algorithms
+for Sorting and Searching Strings</em>, In Proc. 8th Annual ACM-SIAM
+Symposium on Discrete Algorithms (SODA), pages 360-369, January 1997,<br>
+but predate this by 20 years.
 </p>
 
 <p>
-<strong>Jon Bentley and Robert Sedgewick</strong>, <em>Ternary
+<strong>Jon Bentley</strong> and <strong>Robert Sedgewick</strong>,
+<em>Ternary 
 Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -50,6 +60,9 @@ Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 @IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
 demos, and code (C)</a>,
 <a href="http://www.octavian.org/cs/software.html">(C)</a>.
+<a href="http://www.codeproject.com/csharp/tst.asp">Ternary Search
+Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
+Halleux.
 # author's initials
 @AUTHOR=
 # end $Source: /home/black/Workspace/dads/Terms/RCS/ternarySearchTree.trm,v $
