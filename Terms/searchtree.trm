@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:38:33 1999" *by "Paul E. Black"
-# *modified "Wed Oct  6 11:00:52 2004" *by "Paul E. Black"
+# *modified "Wed Dec 14 11:15:46 2005" *by "Paul E. Black"
 
 # $Log: searchtree.trm,v $
+# Revision 1.3  2005/12/14 16:16:13  black
+# Add VARIANT ternary search tree.
+#
 # Revision 1.2  2004/10/06 15:03:43  black
 # Use "key" instead of "value".  Refine XREFS into IMA, etc.  Add RCS
 # keywords.
@@ -24,7 +27,8 @@ its left and less than any keys in subtrees to its right.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT={binary search tree}, {B-tree}, {($a,b$)-tree}
+@VARIANT={binary search tree}, {B-tree}, {($a,b$)-tree}, 
+{ternary search tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
