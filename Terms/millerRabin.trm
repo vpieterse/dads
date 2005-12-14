@@ -1,7 +1,10 @@
 # *created  "Fri Apr 27 13:00:51 2001" *by "Paul E. Black"
-# *modified "Mon Jan 24 09:28:55 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 09:00:41 2005" *by "Paul E. Black"
 
 # $Log: millerRabin.trm,v $
+# Revision 1.5  2005/12/14 14:00:42  black
+# Change pp to pages
+#
 # Revision 1.4  2005/01/24 14:29:30  black
 # Remove Raynal's IMPL, which is now missing.  Remove commented-out IMPL.
 #
@@ -51,7 +54,7 @@ composites may be incorrectly judged to be prime.
 integer greater than 2 to be prime is $2<sup>-k</sup>$.  For randomly
 chosen large integers, a small number of repetitions, say 3, is
 enough.
-After <a href="../terms.html#CLR90">[CLR90, pp 838-844]</a>.
+After <a href="../terms.html#CLR90">[CLR90, pages 838-844]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
