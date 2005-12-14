@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:50:40 1998" *by "Paul E. Black"
-# *modified "Mon Apr 25 09:11:59 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 12:46:41 2005" *by "Paul E. Black"
 
 # $Log: DutchNationalFlag.trm,v $
+# Revision 1.5  2005/12/14 17:47:56  black
+# Separate the Problem from Hoare's algorithm.  Add IMIN multikey Quicksort.
+#
 # Revision 1.4  2005/04/25 13:13:07  black
 # Remove LINK to image at shef.ac.uk - page is gone.
 #
@@ -15,14 +18,18 @@
 # entry name
 @NAME=Dutch national flag
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=A
+@TYPE=P
 # basic, search, sort, graph, combin(atorial), etc.
 @AREA=sort
 # the definition
 @DEFN=Rearrange elements in an {array} into three groups: bottom,
-middle, and top.  During execution, the top group grows down from the
-top of the array, the bottom group grows up from the bottom, and the
-middle group is kept just above the bottom.  The algorithm stores the
+middle, and top.
+</p>
+
+<p>
+One algorithm is to have the top group grow down from the top of the
+array, the bottom group grow up from the bottom, and keep the
+middle group just above the bottom.  The algorithm stores the
 locations just below
 the top group, just above the bottom, and just above the middle in three
 indexes.  At each step, examine the element just above the middle.
@@ -38,7 +45,7 @@ Complexity is {O(n)#big-O notation} moves and examinations.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={multikey Quicksort}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
