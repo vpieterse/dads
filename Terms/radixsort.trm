@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Tue Nov 22 16:37:21 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 08:58:37 2005" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Revision 1.7  2005/12/14 13:58:45  black
+# Change pp to pages
+#
 # Revision 1.6  2005/11/22 21:42:16  black
 # Improve the wording of the example in the NOTE.
 #
@@ -88,7 +91,7 @@ than buckets, put items in linked lists.  At the end of a pass collect
 the items  by "sewing" the lists together: make the {tail} of each
 list point to the {head} of the next list.  (After <strong>Steven
 Pigeon</strong>, <em>QuickSort and Radix Sorts on Lists</em>,
-Dr. Dobb's Journal, May 2002, pp 89-94.)
+Dr. Dobb's Journal, May 2002, pages 89-94.)
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.math.grin.edu/~stone/courses/fundamentals/radix-sorting.html">Explanation
