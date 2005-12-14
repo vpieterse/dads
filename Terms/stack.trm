@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:02:19 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 08:58:45 2005" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Revision 1.9  2005/12/14 13:58:52  black
+# Change pp to pages
+#
 # Revision 1.8  2005/10/27 14:02:25  black
 # Update John Morris' URL
 #
@@ -79,7 +82,7 @@ parenthesis-free notation</em>, Mathematical Tables and Other Aids to
 Computation, 8(46):53-57, April 1954, and
 <strong>A. Newell</strong> and <strong>J. C. Shaw</strong>,
 <em>Programming the logic theory machine</em>, In Proceedings of the
-1957 Western Joint Computer Conference, pp 230-240, Institute of Radio
+1957 Western Joint Computer Conference, pages 230-240, Institute of Radio
 Engineers, New York, February 1957.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Other operations may
