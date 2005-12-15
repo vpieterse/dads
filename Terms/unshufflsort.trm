@@ -1,7 +1,11 @@
 # *created  "Thu Mar  4 16:37:49 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:08:33 2004" *by "Paul E. Black"
+# *modified "Wed Dec 14 16:44:35 2005" *by "Paul E. Black"
 
 # $Log: unshufflsort.trm,v $
+# Revision 1.3  2005/12/14 21:45:21  black
+# IMA distribution sort.  Ideal merge, pile, and priority queue are
+# INME.  XREF strand sort.
+#
 # Revision 1.2  2004/12/17 17:08:33  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -22,17 +26,16 @@ the queues in a {priority queue}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={distribution sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={ideal merge}, {pile}, {priority queue}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={merge sort}, {distribution sort}, {ideal merge}, 
+@XREFS={strand sort}, {merge sort}
 
-{pile}
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Art S. Kagel</strong>, <em>Unshuffle Algorithm, Not Quite a
