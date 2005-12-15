@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 10:52:34 2003" *by "Paul E. Black"
-# *modified "Wed Oct 26 11:48:15 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 16:47:52 2005" *by "Paul E. Black"
 
 # $Log: strandSort.trm,v $
+# Revision 1.5  2005/12/14 21:48:48  black
+# IMA distribution sort.  XREF UnShuffle sort.
+#
 # Revision 1.4  2005/10/27 13:20:36  black
 # Improve DEFN.  IMIN J sort.
 #
@@ -37,7 +40,7 @@ special cases.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={distribution sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -45,7 +48,7 @@ special cases.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={selection sort}, {merge sort}
+@XREFS={selection sort}, {merge sort}, {UnShuffle sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
