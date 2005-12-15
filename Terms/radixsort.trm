@@ -1,7 +1,11 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Wed Dec 14 09:46:06 2005" *by "Paul E. Black"
+# *modified "Wed Dec 14 14:00:16 2005" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Revision 1.9  2005/12/14 19:02:48  black
+# Remove XREF to multikey Quicksort, which is more like postman's sort.
+# XREF postman's sort.
+#
 # Revision 1.8  2005/12/14 14:47:04  black
 # rename 3-way radix quicksort to multikey Quicksort, the authors' term
 #
@@ -50,7 +54,7 @@ significant part of the key.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bucket sort}, {multikey Quicksort},
+@XREFS={postman's sort}, {bucket sort},
 {American flag sort}, {top-down radix sort}
 
 # any notes.  these will not be printed in the final dictionary
