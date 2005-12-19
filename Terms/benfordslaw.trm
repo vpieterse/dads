@@ -1,7 +1,10 @@
 # *created  "Thu Dec  9 16:04:45 1999" *by "Paul E. Black"
-# *modified "Tue Mar 22 17:02:01 2005" *by "Paul E. Black"
+# *modified "Mon Dec 19 11:09:22 2005" *by "Paul E. Black"
 
 # $Log: benfordslaw.trm,v $
+# Revision 1.5  2005/12/19 16:10:19  black
+# Update Princeton URL.
+#
 # Revision 1.4  2005/03/22 22:03:03  black
 # Fix typo in wording of Sedgewick & Wayne IMPL.
 #
@@ -47,7 +50,7 @@ amounts of data.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=An 
-<a href="http://www.cs.princeton.edu/introcs/25array/">implementation 
+<a href="http://www.cs.princeton.edu/introcs/14array/">implementation 
 (Java)</a> due to Sedgewick and Wayne (search for Benford's law).
 # author's initials (see authors.data)
 @AUTHOR=PEB
