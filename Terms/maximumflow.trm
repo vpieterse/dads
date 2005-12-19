@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:33:55 1998" *by "Paul E. Black"
-# *modified "Mon May 16 10:47:50 2005" *by "Paul E. Black"
+# *modified "Mon Dec 19 10:27:50 2005" *by "Paul E. Black"
 
 # $Log: maximumflow.trm,v $
+# Revision 1.6  2005/12/19 15:38:06  black
+# Improve DEFN: it is a DIRECTED graph.  Add topcoder IMPL.
+#
 # Revision 1.5  2005/05/16 14:47:53  black
 # Drop mscmga URL -- timeout since March.
 #
@@ -23,7 +26,7 @@
 @AREA=graph
 # the definition
 @DEFN=The problem of finding the maximum {flow} between any two 
-{vertices#vertex} of a {graph}.
+{vertices#vertex} of a {directed graph}.
 # comma-separated list of pure names
 @AKA=network flow problem
 
@@ -38,16 +41,22 @@
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={flow network}, {Malhotra-Kumar-Maheshwari blocking flow},
-
 {Ford-Fulkerson method}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <a href="../terms.html#CLR90">[CLR90, page 580]</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
+@IMPL=
+Problem <a
+href="http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=maxFlow">explanation
+and development of Ford-Fulkerson (pseudocode)</a>; including solving
+related problems, like multi-source, vertex capacity, bipartite
+matching, etc.
+<a
 href="http://www.cs.sunysb.edu/~algorith/files/network-flow.shtml">description
-and links to implementations (C, Fortran, C++, Pascal, and Mathematica)</a>
+and links to implementations (C, Fortran, C++, Pascal, and Mathematica)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/maximumflow.trm,v $
