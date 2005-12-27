@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Oct 28 09:16:24 2005" *by "Paul E. Black"
+# *modified "Tue Dec 27 09:52:17 2005" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.7  2005/12/27 14:53:12  black
+# Update URL for C FAQ IMPL.
+#
 # Revision 1.6  2005/10/28 13:17:16  black
 # NOTE not to use PRNG for security.  Link to Wheeler's page on random numbers.
 #
@@ -86,7 +89,7 @@ Glenn Rhoads' <a
 href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 Using C libraries to get <a
-href="http://www.eskimo.com/~scs/C-faq/q13.16.html">random numbers in
+href="http://c-faq.com/q13.16.html">random numbers in
 a certain range (C)</a>.
 # author's initials
 @AUTHOR=PEB
