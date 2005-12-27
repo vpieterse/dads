@@ -1,7 +1,10 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Tue Feb  1 14:50:40 2005" *by "Paul E. Black"
+# *modified "Tue Dec 27 09:46:41 2005" *by "Paul E. Black"
 
 # $Log: christofides.trm,v $
+# Revision 1.7  2005/12/27 14:48:54  black
+# Remove LINK to msci.memphis: ~giri not found.
+#
 # Revision 1.6  2005/02/01 19:51:31  black
 # Remove IMA algorithm (for ontology): they're ALL algorithms.
 #
@@ -72,9 +75,8 @@ chromatic number of a graph</em>, Computer J., 14(1):38-39, February
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=A <a
-href="http://www.msci.memphis.edu/~giri/7713/f00/HuiChen/HuiChen2.htm#chris">graphical
-example and algorithm outline</a>, a PDF document explaining the <a
+@LINKS=
+A PDF document explaining the <a
 href="http://troy.troy.org/cs170/week13.pdf">algorithm with proof of
 guarantee</a>.
 # implementation(s) (pure HTML)
