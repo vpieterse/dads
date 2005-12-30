@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Oct 26 16:41:23 2005" *by "Paul E. Black"
+# *modified "Fri Dec 30 11:30:41 2005" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.7  2005/12/30 16:31:08  black
+# NOTE Karatsuba's Fast Algorithms page.
+#
 # Revision 1.6  2005/10/26 20:42:01  black
 # Add easy/hard split/merge as VARIANT.  XREF recursion and greedy algorithm.
 #
@@ -55,6 +58,9 @@ problem is conquered by dividing it into several smaller problems.
 This technique yields elegant, simple and quite often very efficient
 algorithms.  Well-known examples include {heapify},
 {merge sort}, {quicksort}, Strassen's fast matrix multiplication,
+fast multiplication (in O(n log n log log n), see E. A. Karatsuba's
+<a href="http://www.ccas.ru/personal/karatsuba/algen.htm">Fast
+Algorithms</a>),
 the Fast Fourier Transform (FFT), and {binary search}.  (Why is binary
 search included?  The dividing part picks which segment
 to search, and "the solutions are combined" trivially: take the answer
@@ -68,7 +74,7 @@ etc.
 </p>
 
 <p>
-Here is this term in different languages:
+Here is the translation of "divide and conquer" in different languages:
 <table>
 <tr><td>French</td>	<td>diviser pour r&eacute;gner</td></tr>
 <tr><td>German</td>	<td>teile und herrsche</td></tr>
