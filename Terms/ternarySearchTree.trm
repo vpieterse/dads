@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Wed Dec 14 12:32:32 2005" *by "Paul E. Black"
+# *modified "Fri Dec 30 15:32:01 2005" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.4  2005/12/30 20:33:50  black
+# Add 1st DEFN and use much older BIB reference.
+#
 # Revision 1.3  2005/12/14 17:34:25  black
 # IMA k-ary and search tree.  Rename 3-way radix quicksort to multikey
 # Quicksort, the authors' term.  Fix SIAM BIB title, and comment that
@@ -18,7 +21,13 @@
 # basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
 @AREA=search
 # the definition
-@DEFN=
+@DEFN=A 3-way {tree} where every {node's#node} left 
+{subtree} has {keys} less than the node's key, every middle subtree
+has keys equal to the node's key, and every right subtree has keys
+greater than the node's key.  If the key is a multikey ({string},
+array, list, etc.), the middle subtree organizes by the next subkey
+(character, array or list item, etc.)
+
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -40,12 +49,9 @@
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-Ternary search trees are discussed in<br>
-<strong>Jon L. Bentley</strong> and <strong>Robert Sedgewick</strong>,
-<em>Fast Algorithms
-for Sorting and Searching Strings</em>, In Proc. 8th Annual ACM-SIAM
-Symposium on Discrete Algorithms (SODA), pages 360-369, January 1997,<br>
-but predate this by 20 years.
+Although not named, ternary search trees are described in<br>
+<strong>Jon Louis Bentley</strong> and <strong>James B. Saxe</strong>,
+<em>Algorithms on Vector Sets</em>, SIGACT News, pages 36-39, Fall 1979.
 </p>
 
 <p>
@@ -64,5 +70,5 @@ demos, and code (C)</a>,
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
 # author's initials
-@AUTHOR=
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/ternarySearchTree.trm,v $
