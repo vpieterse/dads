@@ -1,0 +1,54 @@
+# *created  "Fri Dec 30 15:50:31 2005" *by "Paul E. Black"
+# *modified "Fri Dec 30 15:58:23 2005" *by "Paul E. Black"
+
+# $Log: DTree.trm,v $
+# Revision 1.1  2005/12/30 21:01:15  black
+# Initial revision
+#
+
+# entry name
+@NAME=D-tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {BB($\alpha$) tree} where the weights are the number of
+searches down that path.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={BB($\alpha$) tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Kurt Mehlhorn</strong>, <em>Dynamic Binary Search</em>,
+SIAM Journal on Computing, 8(2):175-198, May 1979.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Short for "dynamic tree".
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/DTree.trm,v $
