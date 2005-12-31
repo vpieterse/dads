@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Dec 14 09:00:37 2005" *by "Paul E. Black"
+# *modified "Fri Dec 30 16:00:23 2005" *by "Paul E. Black"
 
 # $Log: bbalphatree.trm,v $
+# Revision 1.7  2005/12/30 21:00:52  black
+# IMA binary and a balanced tree.  D-tree is a VARIANT.
+#
 # Revision 1.6  2005/12/14 14:00:41  black
 # Change pp to pages
 #
@@ -37,9 +40,9 @@ by $\alpha \leq \rho(T') \leq 1-\alpha$.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={binary tree}, {balanced tree}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={D-tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
