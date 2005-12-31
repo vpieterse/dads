@@ -1,7 +1,10 @@
 # *created  "Mon Dec  4 14:01:57 2000" *by "Paul E. Black"
-# *modified "Wed Dec 14 13:59:28 2005" *by "Paul E. Black"
+# *modified "Fri Dec 30 15:16:28 2005" *by "Paul E. Black"
 
 # $Log: multikeyQuicksort.trm,v $
+# Revision 1.5  2005/12/30 20:16:38  black
+# fix typo in BIB entry
+#
 # Revision 1.4  2005/12/14 19:01:00  black
 # This uses a kind of postman's sort, not a radix sort.
 #
@@ -53,7 +56,7 @@ Recursively sort the "equal to" partition by the next character
 @BIB=
 <strong>Jon L. Bentley</strong> and <strong>Robert Sedgewick</strong>,
 <em>Fast Algorithms
-for Sorting and Searching Strings</em>, In Proc. 8th Annual ACM-SIAM
+for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
 Symposium on Discrete Algorithms (SODA), pages 360-369, January 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=Especially good for strings.  <em>Fast Algorithms ...</em>
