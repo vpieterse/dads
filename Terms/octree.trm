@@ -1,7 +1,10 @@
 # *created  "Wed Jan 27 08:46:26 1999" *by "Paul E. Black"
-# *modified "Mon Sep 26 09:11:07 2005" *by "Paul E. Black"
+# *modified "Tue Jan  3 10:39:09 2006" *by "Paul E. Black"
 
 # $Log: octree.trm,v $
+# Revision 1.5  2006/01/03 15:50:39  black
+# Update Martin Baker's solid model diagram LINK.
+#
 # Revision 1.4  2005/09/26 13:12:01  black
 # LINK to another diagram of an octree.  NOTE the analog between octree,
 # quadtree, and binary tree.
@@ -53,7 +56,7 @@ another
 <a href="http://nilo.stolte.free.fr/octree.html">diagram and
 algorithm</a>, and one more
 <a
-href="http://www.martinb.com/threed/solidmodel/spatialdecomposition/octtree/">diagram</a>
+href="http://www.euclideanspace.com/threed/solidmodel/spatialdecomposition/octtree/">diagram</a>
 from Martin John Baker.
 Another <a href="http://nilo.stolte.free.fr/octree.html">diagram</a>
 from Nilo Stolte.
