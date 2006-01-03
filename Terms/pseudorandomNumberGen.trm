@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec 27 09:52:17 2005" *by "Paul E. Black"
+# *modified "Tue Jan  3 10:46:11 2006" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.8  2006/01/03 15:49:45  black
+# Update URL for C FAQ IMPL.
+#
 # Revision 1.7  2005/12/27 14:53:12  black
 # Update URL for C FAQ IMPL.
 #
@@ -89,8 +92,8 @@ Glenn Rhoads' <a
 href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 Using C libraries to get <a
-href="http://c-faq.com/q13.16.html">random numbers in
-a certain range (C)</a>.
+href="http://c-faq.com/lib/randrange.html">random numbers in
+a certain range (C)</a> is C FAQ question 13.16.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pseudorandomNumberGen.trm,v $
