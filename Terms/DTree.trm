@@ -2,6 +2,9 @@
 # *modified "Fri Dec 30 15:58:23 2005" *by "Paul E. Black"
 
 # $Log: DTree.trm,v $
+# Revision 1.2  2006/01/09 15:31:04  black
+# link to on-line Mehlhorn article.
+#
 # Revision 1.1  2005/12/30 21:01:15  black
 # Initial revision
 #
@@ -38,6 +41,9 @@ searches down that path.
 @BIB=
 <strong>Kurt Mehlhorn</strong>, <em>Dynamic Binary Search</em>,
 SIAM Journal on Computing, 8(2):175-198, May 1979.
+<a
+href="http://locus.siam.org/SICOMP/volume-08/art_0208014.html">Abstract,
+article, and references</a>.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Short for "dynamic tree".
