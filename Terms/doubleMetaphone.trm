@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon Jul 25 10:43:28 2005" *by "Paul E. Black"
+# *modified "Mon Jan  9 10:24:01 2006" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.9  2006/01/09 15:24:34  black
+# Add SAS IMPL.
+#
 # Revision 1.8  2005/07/25 14:44:57  black
 # Update URL for Philips' C++ code.
 #
@@ -75,6 +78,8 @@ Apache codec implementations of
 and Double Metaphone (Java)</a>. 
 <a href="http://www.wbrogden.com/phonetic/index.html">applet
 for name lookup (Java)</a>.
+<a href="http://www.the-link-king.com/download.html">(SAS)</a> zip
+archive.
 <a href="ftp://ftp.cuj.com/pub/2000/cujjun2000.zip">(C++)</a> zip
 archive; look in philips.zip for Dmetaph.cpp and Dmetaph.h.
 # author's initials (see authors.data)
