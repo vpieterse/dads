@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:57 2004" *by "Paul E. Black"
+# *modified "Mon Jan  9 11:06:47 2006" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Revision 1.4  2006/01/09 16:07:18  black
+# Update LINK for background and solution
+#
 # Revision 1.3  2004/12/17 17:24:57  black
 # Make more XHTML compliant.
 #
@@ -52,7 +55,7 @@ puzzle, algorithms, and proofs.
 href="http://rec-puzzles.org/">Puzzle
 Archive</a> gives 
 <a
-href="http://rec-puzzles.org/induction.html">background
+href="http://brainyplanet.com/index.php/Hanoi%20Solution">background
 and a recursive and an iterative solution</a>.
 <a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ToHdb.html">demonstration</a>
 # implementation(s) (pure HTML)
