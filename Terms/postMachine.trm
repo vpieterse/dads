@@ -1,7 +1,10 @@
 # *created  "Mon May  8 12:57:30 2000" *by "Paul E. Black"
-# *modified "Mon Nov 21 09:42:36 2005" *by "Paul E. Black"
+# *modified "Mon Jan 23 11:04:06 2006" *by "Paul E. Black"
 
 # $Log: postMachine.trm,v $
+# Revision 1.5  2006/01/23 16:04:27  black
+# Update St. Andrews' mathematician biography URL
+#
 # Revision 1.4  2005/11/21 14:49:49  black
 # Update URL for Vinokur's simulator.
 #
@@ -41,7 +44,7 @@ Formulation 1</em>, Journal of Symbolic Logic, 1, 103-105, 1936.
 infinite tape.
 # further explanation (pure HTML)
 @LINKS=Biography of <a
-href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Post.html">Emil
+href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Post.html">Emil
 Leon Post</a>.
 # implementation(s) (pure HTML)
 @IMPL=
