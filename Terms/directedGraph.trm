@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:40 2004" *by "Paul E. Black"
+# *modified "Mon Jan 23 11:03:39 2006" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Revision 1.7  2006/01/23 16:04:05  black
+# Update St. Andrews' mathematician biography URL
+#
 # Revision 1.6  2004/12/17 17:23:40  black
 # Make more XHTML compliant.
 #
@@ -84,7 +87,7 @@ Since the Theory of Relations offers essentially the algebraic form of the
 digraph, it is unlikely that there was any formal use before 1847.
 </p>
 <p>
-<a href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Peirce_Charles.html">Charles
+<a href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Peirce_Charles.html">Charles
 Sanders Peirce</a> made clear the use of structural patterns in doing
 basic work, but his own graphics were not very useful in extended form, 
 though some modern enthusiasts have extolled his "existential graphs".
