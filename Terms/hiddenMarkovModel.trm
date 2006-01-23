@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Mon Sep 19 10:10:39 2005" *by "Paul E. Black"
+# *modified "Mon Jan 23 11:09:33 2006" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.9  2006/01/23 16:09:53  black
+# Update St. Andrews' mathematician biography URL
+#
 # Revision 1.8  2005/09/19 14:12:17  black
 # Remove link for CN760 attribution: time out for at least a month
 #
@@ -100,7 +103,7 @@ Thanks to Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
 
 <p>
 Named after
-<a href="http://www-history.mcs.st-andrews.ac.uk/history/Mathematicians/Markov.html">Andrei 
+<a href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Markov.html">Andrei 
 Andreyevich Markov</a> (1856 - 1922), who studied poetry and other
 texts as stochastic sequences of characters.
 
