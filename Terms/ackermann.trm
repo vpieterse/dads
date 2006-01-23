@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Wed Jan 12 09:20:30 2005" *by "Paul E. Black"
+# *modified "Mon Jan 23 11:03:17 2006" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.5  2006/01/23 16:03:38  black
+# Update St. Andrews' mathematician biography URL
+#
 # Revision 1.4  2005/01/12 14:20:42  black
 # Separate IMPLs with a period.
 #
@@ -58,7 +61,7 @@
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In 1928, 
 <a
-href="http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Ackermann.html">Wilhelm
+href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Ackermann.html">Wilhelm
 Ackermann</a> observed that
 A(x,y,z), the z-fold iterated exponentiation of x with y, is an
 example of a recursive function which is not primitive recursive.
