@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 19 09:51:38 2005" *by "Paul E. Black"
+# *modified "Wed Feb  8 07:46:41 2006" *by "Paul E. Black"
 
 # $Log: degree.trm,v $
+# Revision 1.4  2006/02/08 12:47:17  black
+# Add DEFN of degree of a tree node.
+#
 # Revision 1.3  2005/09/19 13:52:35  black
 # Remove mmania's tutorial and glossary LINK - gone.
 #
@@ -18,6 +21,7 @@
 # the definition
 @DEFN=(1) Of a {vertex}, the number of {edges} connected to it.  (2) Of
 a {graph}, the maximum degree of any vertex.
+(3) Of a {tree} {node}, the number of {child} nodes it has.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
