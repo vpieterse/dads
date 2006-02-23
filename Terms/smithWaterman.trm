@@ -1,7 +1,10 @@
 # *created  "Mon Aug 14 15:42:09 2000" *by "Paul E. Black"
-# *modified "Fri Mar 11 09:05:13 2005" *by "Paul E. Black"
+# *modified "Wed Feb 22 16:54:29 2006" *by "Paul E. Black"
 
 # $Log: smithWaterman.trm,v $
+# Revision 1.5  2006/02/22 21:56:10  black
+# Add Moustafa's IMPL
+#
 # Revision 1.4  2005/03/11 14:08:40  black
 # Add BIB and LINK entries.
 #
@@ -52,6 +55,8 @@ and <a href="http://www.maths.tcd.ie/~lily/pres2/sld009.htm">a few
 explanatory slides</a>.
 # implementation(s) (pure HTML)
 @IMPL=
+Ahmed Moustafa's implementation in
+<a href="http://jaligner.sourceforge.net/">JAligner (Java)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/smithWaterman.trm,v $
