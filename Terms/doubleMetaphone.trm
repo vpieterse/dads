@@ -2,6 +2,9 @@
 # *modified "Mon Jan  9 10:24:01 2006" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.10  2006/03/13 13:19:17  black
+# Remove CUJ IMPL - no longer on-line.
+#
 # Revision 1.9  2006/01/09 15:24:34  black
 # Add SAS IMPL.
 #
@@ -80,8 +83,6 @@ and Double Metaphone (Java)</a>.
 for name lookup (Java)</a>.
 <a href="http://www.the-link-king.com/download.html">(SAS)</a> zip
 archive.
-<a href="ftp://ftp.cuj.com/pub/2000/cujjun2000.zip">(C++)</a> zip
-archive; look in philips.zip for Dmetaph.cpp and Dmetaph.h.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/doubleMetaphone.trm,v $
