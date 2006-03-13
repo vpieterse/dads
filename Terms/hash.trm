@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Wed Nov 23 11:51:54 2005" *by "Paul E. Black"
+# *modified "Mon Mar 13 09:01:41 2006" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.8  2006/03/13 14:02:14  black
+# Add http:// to Partow's IMPL
+#
 # Revision 1.7  2005/11/23 16:54:30  black
 # Add IMIN Bloom filter.  Add Partow's IMPL.
 #
@@ -78,7 +81,7 @@ Overview of
 href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">different
 kinds of hash functions</a>.
 Arash Partow's
-<a href="www.partow.net/programming/hashfunctions/">hash functions (C,
+<a href="http://www.partow.net/programming/hashfunctions/">hash functions (C,
 C++, Pascal, Java)</a>.
 <a href="http://www.isthe.com/chongo/tech/comp/fnv/">Fowler/Noll/Vo or
 FNV hash function (C)</a>.
