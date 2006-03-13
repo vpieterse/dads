@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Fri Feb  4 08:55:13 2005" *by "Paul E. Black"
+# *modified "Mon Mar 13 09:11:35 2006" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.12  2006/03/13 14:13:10  black
+# Update Thomas Baudel's LINK
+#
 # Revision 1.11  2005/02/04 13:56:14  black
 # XREF Fisher-Yates shuffle
 #
@@ -60,7 +63,7 @@ is the number of comparisons.  The number of swaps is
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Sorting can be done {in place#in-place sort} by swapping
 the least remaining item with the item in the next position to be
-filled.  However, the algorithm is not stable.
+filled.  However, this implementation of the algorithm is not stable.
 </p>
 
 <p>
@@ -91,8 +94,8 @@ sorted items are arranged (in a {heap}) to quickly find the next item.
 @IMPL=<a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">animation
 and code (Java)</a>;
-<a
-href="http://thomas.baudel.name/VisuTri/selectionsort.html">links
+Thomas Baudel's <a
+href="http://thomas.baudel.name/Visualisation/VisuTri/selectionsort.html">links
 to animation (Java)</a>;
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>;
 <a
