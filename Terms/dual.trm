@@ -1,7 +1,10 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Tue Sep  6 12:30:05 2005" *by "Paul E. Black"
+# *modified "Mon Mar 13 08:56:42 2006" *by "Paul E. Black"
 
 # $Log: dual.trm,v $
+# Revision 1.9  2006/03/13 13:57:32  black
+# Remove LINK to dual of a Venn diagram - connection timeout since Aug 2005.
+#
 # Revision 1.8  2005/09/06 16:30:57  black
 # update hservat's LINK on self-dual maps.
 #
@@ -67,9 +70,7 @@ In the accompanying figure, the black circles and solid lines are one
 planar graph.  The white squares and dotted lines are another planar
 graph.  Each is the dual of the other.
 # further explanation (pure HTML)
-@LINKS=The <a
-href="http://csr.csc.uvic.ca/~cos/venn/VennGraphEJC.html">dual of a
-Venn diagram</a>.
+@LINKS=
 Herman Servatius'
 <a href="http://users.wpi.edu/~hservat/self1.html">Self-dual maps</a>,
 that is, planar graphs that are duals of themselves.
