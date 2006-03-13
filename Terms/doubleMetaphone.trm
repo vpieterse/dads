@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon Jan  9 10:24:01 2006" *by "Paul E. Black"
+# *modified "Mon Mar 13 08:28:51 2006" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.11  2006/03/13 13:29:13  black
+# Update [star]modified field
+#
 # Revision 1.10  2006/03/13 13:19:17  black
 # Remove CUJ IMPL - no longer on-line.
 #
