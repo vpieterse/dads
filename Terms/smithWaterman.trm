@@ -1,7 +1,10 @@
 # *created  "Mon Aug 14 15:42:09 2000" *by "Paul E. Black"
-# *modified "Wed Feb 22 16:54:29 2006" *by "Paul E. Black"
+# *modified "Mon Mar 13 09:15:44 2006" *by "Paul E. Black"
 
 # $Log: smithWaterman.trm,v $
+# Revision 1.6  2006/03/13 14:16:19  black
+# Remove amclysag LINK - it is gone.
+#
 # Revision 1.5  2006/02/22 21:56:10  black
 # Add Moustafa's IMPL
 #
@@ -50,9 +53,9 @@ J. Mol. Biol., 147:195-197, 1981.
 Some
 <a href="http://www.med.nyu.edu/rcr/rcr/course/sim-sw.html">notes and
 diagrams</a> about how it works.
-An <a href="http://acer.gen.tcd.ie/~amclysag/nwswat.html">overview</a>
-and <a href="http://www.maths.tcd.ie/~lily/pres2/sld009.htm">a few
-explanatory slides</a>.
+A few <a
+href="http://www.maths.tcd.ie/~lily/pres2/sld009.htm">explanatory
+slides</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Ahmed Moustafa's implementation in
