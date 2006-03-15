@@ -1,6 +1,6 @@
-# $Id: makeDownloadTar,v 1.2 2006/03/15 13:07:58 black Exp $
+# $Id: makeDownloadTar,v 1.3 2006/03/15 13:16:55 black Exp $
 # *created  "Wed Sep 29 11:33:32 2004" *by "Paul E. Black"
-# *modified "Wed Mar 15 08:07:07 2006" *by "Paul E. Black"
+# *modified "Wed Mar 15 08:16:05 2006" *by "Paul E. Black"
 
 ScratchDir=DADSDownload
 TarFile=dads.tar
@@ -10,12 +10,12 @@ rm -rf $ScratchDir
 cp -pr ~/DADS/Target/ $ScratchDir
 
 echo cleaning ...
-rm $ScratchDir/*~ $ScratchDir/Target/*~ $ScratchDir/Target/*/*~
+rm $ScratchDir/*~ $ScratchDir/*/*~
 
 echo deleting copyrighted entries ...
 find $ScratchDir/HTML -exec grep --quiet CRC-A {} \; -print -exec rm {} \;
 # Dragon Tails comics
-rm $ScratchDir/Images/dt*
+rm -f $ScratchDir/Images/dt*
 
 tar -cvf $TarFile $ScratchDir/
 zip $TarFile.zip $TarFile
