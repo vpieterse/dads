@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Mar 13 09:11:35 2006" *by "Paul E. Black"
+# *modified "Wed Mar 15 17:10:16 2006" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.13  2006/03/15 22:11:54  black
+# Correct DEFN: n is number of elements, not comparisons.
+#
 # Revision 1.12  2006/03/13 14:13:10  black
 # Update Thomas Baudel's LINK
 #
@@ -39,7 +42,7 @@
 @DEFN=A {sort} algorithm that repeatedly looks through
 remaining items to find the least one and moves it to its final
 location.  The run time is {$\Theta(n<sup>2</sup>)$#\Theta}, where $n$
-is the number of comparisons.  The number of swaps is 
+is the number of elements.  The number of swaps is 
 {$O(n)$#big-O notation}.
 # formal definition or {cross reference} to an entry
 @FORML=
