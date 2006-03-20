@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:55:15 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:41 2004" *by "Paul E. Black"
+# *modified "Mon Mar 20 08:37:22 2006" *by "Paul E. Black"
 
 # $Log: skiplist.trm,v $
+# Revision 1.6  2006/03/20 13:37:37  black
+# Add Walker's IMPL
+#
 # Revision 1.5  2004/12/17 17:24:41  black
 # Make more XHTML compliant.
 #
@@ -62,6 +65,9 @@ Dictionaries, then Skip Lists)
 diagrams and explanation</a> (and code) at ePaperPress.
 # implementation(s) (pure HTML)
 @IMPL=
+Julienne Walker's
+<a href="http://eternallyconfuzzled.com/libs/jsw_slib1.html">tutorial
+and library (C)</a>.
 <a href="http://epaperpress.com/sortsearch/txt/skl.txt">Code (C)</a>
 at ePaperPress.
 # author's initials
