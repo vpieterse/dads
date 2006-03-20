@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:43:34 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:27 2004" *by "Paul E. Black"
+# *modified "Mon Mar 20 08:21:29 2006" *by "Paul E. Black"
 
 # $Log: coalescedChaining.trm,v $
+# Revision 1.5  2006/03/20 13:31:29  black
+# Add coalesced hashing as WEB alias.  Add Wikipedia IMPL.
+#
 # Revision 1.4  2004/12/17 17:23:27  black
 # Make more XHTML compliant.
 #
@@ -31,7 +34,7 @@ possible new positions may be used to find the "next" empty place.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=coalesced hashing
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -48,11 +51,14 @@ possible new positions may be used to find the "next" empty place.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Deletion may be hard because finding collisions again relies on
 not creating empty spots.  One solution is to mark an entry as deleted
-so it can be reused for insertion, but leave the search list intact.
+so it can be reused for insertion, but leaves the search list intact.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
+@IMPL=
+<a href="http://en.wikipedia.org/wiki/Coalesced_hashing">Wikipedia
+article (C)</a>.
+<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.ins.c">insert
 (C)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.srch.c">search
