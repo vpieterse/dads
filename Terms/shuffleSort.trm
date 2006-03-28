@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 11:48:10 2003" *by "Paul E. Black"
-# *modified "Wed Oct 26 11:49:12 2005" *by "Paul E. Black"
+# *modified "Mon Mar 27 15:38:25 2006" *by "Paul E. Black"
 
 # $Log: shuffleSort.trm,v $
+# Revision 1.4  2006/03/27 20:38:49  black
+# XREF distributive partitioning sort
+#
 # Revision 1.3  2005/10/27 13:18:38  black
 # IMIN J sort
 #
@@ -38,7 +41,7 @@ sorted, and the buckets are concatenated.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={American flag sort}, {B-tree}
+@XREFS={American flag sort}, {distributive partitioning sort}, {B-tree}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
