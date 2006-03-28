@@ -1,7 +1,10 @@
 # *created  "Mon Oct 19 14:50:33 1998" *by "Paul E. Black"
-# *modified "Mon Nov 14 09:21:06 2005" *by "Paul E. Black"
+# *modified "Mon Mar 27 15:35:40 2006" *by "Paul E. Black"
 
 # $Log: bucketsort.trm,v $
+# Revision 1.7  2006/03/27 20:36:14  black
+# add VARIANT distributive partitioning sort
+#
 # Revision 1.6  2005/11/14 14:22:07  black
 # add VARIANT postman's sort.
 #
@@ -40,7 +43,7 @@ are concatenated.
 @IMA={distribution sort}
 # Specialization: "... is a kind of me."
 @VARIANT={histogram sort}, {counting sort}, {top-down radix sort},
-{postman's sort}
+{postman's sort}, {distributive partitioning sort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
