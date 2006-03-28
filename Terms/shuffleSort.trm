@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 11:48:10 2003" *by "Paul E. Black"
-# *modified "Mon Mar 27 15:38:25 2006" *by "Paul E. Black"
+# *modified "Mon Mar 27 15:47:39 2006" *by "Paul E. Black"
 
 # $Log: shuffleSort.trm,v $
+# Revision 1.5  2006/03/27 20:48:39  black
+# IMA distribution sort
+#
 # Revision 1.4  2006/03/27 20:38:49  black
 # XREF distributive partitioning sort
 #
@@ -33,7 +36,7 @@ sorted, and the buckets are concatenated.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={distribution sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
