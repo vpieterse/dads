@@ -1,7 +1,11 @@
 # *created  "Tue Aug 12 11:48:10 2003" *by "Paul E. Black"
-# *modified "Mon Mar 27 15:47:39 2006" *by "Paul E. Black"
+# *modified "Tue Mar 28 07:44:12 2006" *by "Paul E. Black"
 
 # $Log: shuffleSort.trm,v $
+# Revision 1.6  2006/03/28 13:07:16  black
+# Clarify DEFN slightly.  Add NOTE contrasting shuffle and
+# distributive partitioning sorts.
+#
 # Revision 1.5  2006/03/27 20:48:39  black
 # IMA distribution sort
 #
@@ -23,7 +27,7 @@
 @AREA=sort
 # the definition
 @DEFN=A {distribution sort} algorithm that begins by removing the
-first $1/8$ of the items, sorting them (recursively), and putting them
+first $1/8$ of the $n$ items, sorting them (recursively), and putting them
 in an array.  This creates $n/8$ {buckets} to which the
 remaining $7/8$ of the items are distributed.  Each bucket is then
 sorted, and the buckets are concatenated.
@@ -53,6 +57,14 @@ sorted, and the buckets are concatenated.
 # any notes.  these are not printed in the final dictionary
 @NOTES=Shuffle sort can be thought of as forming very wide {trees},
 like B-tree with $m=n/8$, to sort efficiently in many cases.
+</p>
+
+<p>
+Shuffle sort estimates the distribution of the items to be sorted by
+examining the first $n/8$ items.  Distributive partitioning sort
+estimates the distribution by approximating the median and linearly
+interpolating from the minimum to the median and from the median to
+the maximum.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
