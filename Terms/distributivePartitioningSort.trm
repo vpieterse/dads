@@ -1,7 +1,13 @@
 # *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
-# *modified "Mon Mar 27 15:52:08 2006" *by "Paul E. Black"
+# *modified "Tue Mar 28 10:58:31 2006" *by "Paul E. Black"
 
 # $Log: distributivePartitioningSort.trm,v $
+# Revision 1.2  2006/03/28 18:01:49  black
+# Remove preparatory median-and-partition from DEFN.  Find median (not
+# median of medians).  Add select kth and linked list INME.  XREF
+# histogram sort.  NOTE constrast between shuffle, DP, and histogram
+# sorts.
+#
 # Revision 1.1  2006/03/27 20:55:32  black
 # Initial revision
 #
@@ -13,9 +19,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=sort
 # the definition
-@DEFN=First, find the {median} and {partition} around it.  
-Then sort the lower and upper halves with the following algorithm.  
-Step 1: find the median-of-k-medians {key}.
+@DEFN=
+Step 1: find the {median} {key}.
 Step 2: distribute items into $k$ {buckets} linearly covering the
 intervals from the minimum to the median and from the median to the
 maximum.  Step 3: recursively start again at step 1 for any bucket
@@ -36,9 +41,9 @@ moving items until a final phase and to avoid bucket overflows.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={select k<sup>th</sup> element}, {linked list}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={shuffle sort}
+@XREFS={shuffle sort}, {histogram sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -47,6 +52,18 @@ Partitioning</em>, Information Processing Letters, 7(1):1-7, January 1978.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
+Shuffle sort estimates the distribution of the items to be sorted by
+examining the first $n/8$ items.  Distributive partitioning sort
+estimates the distribution by approximating the median and linearly
+interpolating from the minimum to the median and from the median to
+the maximum.  Histogram sort counts the number of items in each
+(fixed) interval.
+</p>
+
+<p>
+The implementation outline in the paper has a preparation step.  The
+step finds the {median} and {partitions} around it, then sorts
+the lower half and the upper half with the defined algorithm.
 # any historical notes
 @HISTORY=
 
