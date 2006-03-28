@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 14:18:14 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:29 2004" *by "Paul E. Black"
+# *modified "Tue Mar 28 09:58:39 2006" *by "Paul E. Black"
 
 # $Log: selectAndPartition.trm,v $
+# Revision 1.3  2006/03/28 15:07:52  black
+# XREF Select before MODIFIND and Find, because its faster (I think)
+#
 # Revision 1.2  2004/12/17 16:54:29  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -28,7 +31,7 @@ of A and {partition} the array such that $A[1], \ldots, A[k-1] \leq A[k]
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={select k<sup>th</sup> element}, {MODIFIND}, {Find}, {Select}
+@XREFS={select k<sup>th</sup> element}, {Select}, {MODIFIND}, {Find}
 
 # bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
 @BIB=
