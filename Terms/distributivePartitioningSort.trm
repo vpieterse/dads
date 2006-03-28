@@ -1,0 +1,59 @@
+# *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
+# *modified "Mon Mar 27 15:52:08 2006" *by "Paul E. Black"
+
+# $Log: distributivePartitioningSort.trm,v $
+# Revision 1.1  2006/03/27 20:55:32  black
+# Initial revision
+#
+
+# entry name
+@NAME=distributive partitioning sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=First, find the {median} and {partition} around it.  
+Then sort the lower and upper halves with the following algorithm.  
+Step 1: find the median-of-k-medians {key}.
+Step 2: distribute items into $k$ {buckets} linearly covering the
+intervals from the minimum to the median and from the median to the
+maximum.  Step 3: recursively start again at step 1 for any bucket
+with multiple items.  {Linked lists#linked list} are used to avoid
+moving items until a final phase and to avoid bucket overflows.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={bucket sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={shuffle sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Wlodzimierz Dobosiewicz</strong>, <em>Sorting by Distributive
+Partitioning</em>, Information Processing Letters, 7(1):1-7, January 1978.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/distributivePartitioningSort.trm,v $
