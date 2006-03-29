@@ -1,7 +1,12 @@
 # *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
-# *modified "Tue Mar 28 10:58:31 2006" *by "Paul E. Black"
+# *modified "Tue Mar 28 15:04:24 2006" *by "Paul E. Black"
 
 # $Log: distributivePartitioningSort.trm,v $
+# Revision 1.3  2006/03/28 20:05:56  black
+# Clarify DEFN that there are n buckets and that buckets are compacted.
+# XREF linear probling sort.  NOTE that histogram sort talks about a
+# rank function R.
+#
 # Revision 1.2  2006/03/28 18:01:49  black
 # Remove preparatory median-and-partition from DEFN.  Find median (not
 # median of medians).  Add select kth and linked list INME.  XREF
@@ -21,9 +26,11 @@
 # the definition
 @DEFN=
 Step 1: find the {median} {key}.
-Step 2: distribute items into $k$ {buckets} linearly covering the
-intervals from the minimum to the median and from the median to the
-maximum.  Step 3: recursively start again at step 1 for any bucket
+Step 2: distribute the $n$ items into $n/2$ {buckets} linearly
+covering the interval from the minimum to the median and $n/2$ buckets
+linearly covering the interval from the median to the maximum.  
+Step 3: compact the buckets, removing empty buckets.  Recursively
+start again at step 1 for any bucket
 with multiple items.  {Linked lists#linked list} are used to avoid
 moving items until a final phase and to avoid bucket overflows.
 # formal definition or {cross reference} to an entry
@@ -43,7 +50,7 @@ moving items until a final phase and to avoid bucket overflows.
 # Aggregate child: "... is a part of or used in me."
 @INME={select k<sup>th</sup> element}, {linked list}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={shuffle sort}, {histogram sort}
+@XREFS={shuffle sort}, {histogram sort}, {linear probing sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -57,7 +64,8 @@ examining the first $n/8$ items.  Distributive partitioning sort
 estimates the distribution by approximating the median and linearly
 interpolating from the minimum to the median and from the median to
 the maximum.  Histogram sort counts the number of items in each
-(fixed) interval.
+(fixed) interval.  See the note at {histogram sort} on distributing
+according to a rank function R.
 </p>
 
 <p>
