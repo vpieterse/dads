@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:57 2004" *by "Paul E. Black"
+# *modified "Thu Mar 30 11:46:26 2006" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.10  2006/03/30 16:47:32  black
+# Note that it is sometimes called tournament sort.
+#
 # Revision 1.9  2004/12/17 17:23:57  black
 # Make more XHTML compliant.
 #
@@ -66,6 +69,11 @@ today.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Heapsort can be seen as a variant of {selection sort} in which
 sorted items are arranged (in a {heap}) to quickly find the next item.
+</p>
+
+<p>
+Some times called "tournament sort" by analogy between a heap, with
+its {heap property}, and a tree of matches in a sports tournament.
 
 # further explanation (pure HTML)
 @LINKS=<a
