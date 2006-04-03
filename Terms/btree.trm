@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:14 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:21 2004" *by "Paul E. Black"
+# *modified "Mon Apr  3 08:21:22 2006" *by "Paul E. Black"
 
 # $Log: btree.trm,v $
+# Revision 1.7  2006/04/03 12:26:10  black
+# Update St. Vincent IMPL URL
+#
 # Revision 1.6  2004/12/17 17:23:22  black
 # Make more XHTML compliant.
 #
@@ -71,7 +74,7 @@ on the basics</a>, and
 <a href="http://perl.plover.com/BTree/">tutorial of how
 B-trees work and code (Perl)</a>,
 <a
-href="http://cis.stvincent.edu/carlsond/swdesign/btree/btree.html">another
+href="http://cis.stvincent.edu/swd/btree/btree.html">another
 tutorial and code (C++)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.data.c">data
