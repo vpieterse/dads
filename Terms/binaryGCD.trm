@@ -1,7 +1,10 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Mon Aug 29 08:46:02 2005" *by "Paul E. Black"
+# *modified "Tue Apr  4 07:53:38 2006" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.6  2006/04/04 11:54:32  black
+# Note non-obvious improvement suggested by Torsten.
+#
 # Revision 1.5  2005/08/29 12:50:04  black
 # drop Shallit URL from INFO - gone.  drop "algorithm" from NAME
 #
@@ -89,13 +92,16 @@ now u or v (or both) are odd
 </ul>
 </ul>
 
-<li> return g*v
+<li> return v*g
 </ol>
 </p>
 
 <p>
 Called Algorithm B in
 <a href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</a>.
+Torsten Eichst&auml;dt suggested incrementing g in step 2.3 (g++) and
+returning v left shifted g times (return v&lt;&lt;g) in step 4.
+4 April 2006.
 # further explanation (pure HTML)
 @LINKS=<a href="http://www.cut-the-knot.com/blue/binary.html">Binary
 Euclid's Algorithm</a> including examples and references.
