@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon Mar 13 08:28:51 2006" *by "Paul E. Black"
+# *modified "Mon Apr 17 09:32:57 2006" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.12  2006/04/17 13:33:40  black
+# Update URL for original article.
+#
 # Revision 1.11  2006/03/13 13:29:13  black
 # Update [star]modified field
 #
@@ -67,8 +70,8 @@ spelling.
 <strong>Lawrence Philips</strong>, <em>The Double Metaphone Search
 Algorithm</em>, C/C++ Users Journal, June 2000.
 <a
-href="http://www.cuj.com/documents/s=8038/cuj0006philips/">http://www.cuj.com/documents/s=8038/cuj0006philips/</a>
-accessed April 2004.
+href="http://www.ddj.com/dept/cpp/184401251">http://www.ddj.com/dept/cpp/184401251</a>
+accessed April 2006.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=This is an improved version of {metaphone}.  It returns two
