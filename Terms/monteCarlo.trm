@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jan 10 11:15:49 2005" *by "Paul E. Black"
+# *modified "Mon Apr 17 16:46:40 2006" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.7  2006/04/17 20:47:26  black
+# Remove duplicate Copyright notice.
+#
 # Revision 1.6  2005/01/10 16:16:59  black
 # Remove Brian Luke's Monte Carlo sim URL - host now (Dec 2004) charges,
 # and a visit to Brian's home page (aol.com) doesn't have new links.
@@ -44,10 +47,6 @@ with bounded error probability.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-From Algorithms and Theory of Computation Handbook, 15-21,
-Copyright &copy; 1999 by CRC Press LLC.
-Appearing in the Dictionary of Computer Science, Engineering and
-Technology, Copyright &copy; 2000 CRC Press LLC.
 From Algorithms and Theory of Computation Handbook, 15-21,
 Copyright &copy; 1999 by CRC Press LLC.
 Appearing in the Dictionary of Computer Science, Engineering and
