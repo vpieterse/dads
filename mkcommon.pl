@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.24 2004/12/23 21:32:40 black Exp $
+# $Id: mkcommon.pl,v 1.25 2006/04/19 16:13:43 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Thu Dec 23 16:30:48 2004" *by "Paul E. Black"
+# *modified "Wed Apr 19 12:13:16 2006" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -210,6 +210,46 @@ sub rewriteHrefs {
 	#print "subs is /$xrefQ/$xrefExit/\n"; # for debugging
 	$_[0] =~ s/$xrefQ/$xrefExit/;
     }
+}
+
+#------------------------------------------------------------------------
+#
+#	Change a Unix date string, e.g.,
+#	    Fri Dec 17 12:25:09 2004
+#	    Thu Jun  2 12:13:29 2005
+#	into day-month-year string, e.g.,
+#	    17 December 2004
+#	    2 June 2005
+#
+#------------------------------------------------------------------------
+
+sub unixDateStringToDDMMMYYY($) {
+    my $dateString = shift;
+
+    # remove leading day-of-week
+    $dateString =~ s/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) //;
+
+    # remove time
+    $dateString =~ s/ \d\d:\d\d:\d\d / /;
+
+    # spell out month
+    $dateString =~ s/^Jan /January /;
+    $dateString =~ s/^Feb /February /;
+    $dateString =~ s/^Mar /March /;
+    $dateString =~ s/^Apr /April /;
+    #$dateString =~ s/^May /May/;
+    $dateString =~ s/^Jun /June /;
+    $dateString =~ s/^Jul /July /;
+    $dateString =~ s/^Aug /August /;
+    $dateString =~ s/^Sep /September /;
+    $dateString =~ s/^Oct /October /;
+    $dateString =~ s/^Nov /November /;
+    $dateString =~ s/^Dec /December /;
+
+    # switch date and month
+    $dateString =~ s/^([A-Z][a-z]+) +(\d+) /$2 $1 /;
+
+    $dateString;
 }
 
 #------------------------------------------------------------------------
