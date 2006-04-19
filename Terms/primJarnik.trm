@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb  2 15:24:04 2005" *by "Paul E. Black"
+# *modified "Wed Apr 19 13:16:45 2006" *by "Paul E. Black"
 
 # $Log: primJarnik.trm,v $
+# Revision 1.5  2006/04/19 17:17:23  black
+# LINK to Eppstein's lecture.
+#
 # Revision 1.4  2005/02/02 20:25:06  black
 # IM not A greedy algorithm; it is an algo. technique used INME.
 #
@@ -55,6 +58,9 @@ generalizations</em>, Bell Syst. Tech. J., 36:1389-1401, 1957.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
+Eppstein's lecture 
+<a href="http://www.ics.uci.edu/~eppstein/161/960206.html">outlining
+and contrasting MST algorithms</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://students.ceid.upatras.gr/~papagel/project/prim.htm">explanation
