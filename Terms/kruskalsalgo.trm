@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:01:08 2005" *by "Paul E. Black"
+# *modified "Wed Apr 19 13:17:58 2006" *by "Paul E. Black"
 
 # $Log: kruskalsalgo.trm,v $
+# Revision 1.8  2006/04/19 17:19:12  black
+# LINK to Eppstein's lecture.
+#
 # Revision 1.7  2005/10/27 14:01:14  black
 # Update John Morris' URL
 #
@@ -49,6 +52,9 @@ are in different partial minimum spanning trees.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
+Eppstein's lecture 
+<a href="http://www.ics.uci.edu/~eppstein/161/960206.html">outlining
+and contrasting MST algorithms</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au
