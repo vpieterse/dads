@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:55:36 2004" *by "Paul E. Black"
+# *modified "Mon Apr 24 10:07:19 2006" *by "Paul E. Black"
 
 # $Log: zipfslaw.trm,v $
+# Revision 1.3  2006/04/24 14:08:27  black
+# Update W Li's "brief" URL.  Add Hermetic URL.
+#
 # Revision 1.2  2004/12/17 16:55:37  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -36,8 +39,8 @@ ranked item and $a$ is close to 1.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Zipfian distribution}, {Lotka's law}, {Benford's law},
-
 {Bradford's law}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In the English language words like "and," "the," "to," and "of"
 occur often while words like "undeniable" are rare.  This law applies
@@ -49,8 +52,11 @@ compression approaches.
 <p>
 Named for George Kingsley Zipf.
 # further explanation (pure HTML)
-@LINKS=A <a href="http://linkage.rockefeller.edu/wli/zipf/">brief
+@LINKS=
+A <a href="http://www.nslij-genetics.org/wli/zipf/">brief
 explanation of the law with links to dozens of papers</a>.
+Two <a href="http://www.hermetic.ch/wfc/zipf.htm">graphs</a>
+illustrating the law.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
