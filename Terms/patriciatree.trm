@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Thu May 11 09:02:05 2006" *by "Paul E. Black"
+# *modified "Thu May 11 09:57:52 2006" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.8  2006/05/11 13:58:22  black
+# The cprops IMPL needs many files - just refer to the main page.
+#
 # Revision 1.7  2006/05/11 13:02:30  black
 # Add cprops IMPL.
 #
@@ -85,14 +88,8 @@ Automaton in Optimal Space</a>.
 <a href="http://search.cpan.org/dist/Net-Patricia/">Net-Patricia (Perl
 and C)</a> is a C implementation with a Perl API.
 C prototyping tools,
-<a href="http://cprops.sourceforge.net/">cprops</a>, is a threaded
-implementation:
-<a
-href="http://cprops.sourceforge.net/gen/docs/trie_8c-source.html">source
-(C)</a> and 
-<a
-href="http://cprops.sourceforge.net/gen/docs/trie_8h-source.html">includes
-(C)</a>.
+<a href="http://cprops.sourceforge.net/">cprops (C)</a>, is a threaded
+implementation (find trie.c).
 <a href="http://www.mindrot.org/py-radix.html"><em>py-radix</em> (Python)</a>.
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
 # author's initials
