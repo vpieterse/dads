@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:12:51 2004" *by "Paul E. Black"
+# *modified "Thu May 11 15:44:44 2006" *by "Paul E. Black"
 
 # $Log: longestCommonSubsequence.trm,v $
+# Revision 1.5  2006/05/11 19:50:29  black
+# Add Wikipedia and minimal longest ascedning subseqence LINKs
+#
 # Revision 1.4  2004/12/17 17:12:51  black
 # Refine XREFS into IMA, etc.  Make more XHTML compliant.
 #
@@ -40,8 +43,8 @@
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Ratcliff/Obershelp pattern recognition},
-
 {longest common substring}, {shortest common supersequence}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 The longest common substring is contiguous, while the longest common
@@ -60,6 +63,11 @@ href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</a>
 as an example of <a
 href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
 programming</a>.
+<a
+href="http://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-common
+subsequence problem</a> in Wikipedia.
+The <a href="http://home.tiac.net/~cri/2001/mlas.html">minimal longest
+ascending subsequence</a> algorithm.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
