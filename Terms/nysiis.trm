@@ -1,7 +1,11 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Wed Feb  2 14:44:55 2005" *by "Paul E. Black"
+# *modified "Thu May 18 08:49:38 2006" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Revision 1.11  2006/05/18 12:51:12  black
+# Remove samhsa IMPL URL - gone and can't find replacement.  Add that
+# markcrocker Rexx IMPL is buggy.  raven.utc.edu IMPL is SPL, not COBOL.
+#
 # Revision 1.10  2005/02/02 19:44:58  black
 # Add {algorithm} to IMA {phonetic coding} for ontology
 #
@@ -64,17 +68,15 @@
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
-<a href="http://www.name-searching.com/Working/Name_SearchKeyWordPhoneticcoding3.htm">review
-of algorithm</a>
+<a href="http://www.name-searching.com/Working/Name_SearchKeyWordPhoneticcoding3.htm">algorithm
+review</a>
 # implementation(s) (pure HTML)
 @IMPL=
-# search for "New York State Identification and Intelligence System"
-# from the http://www.samhsa.gov/ search page
-SAMHSA's code <a
-href="http://csat.samhsa.gov/IDBSE/nysiis.sas">(SAS)</a>.
-<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
-<a href="http://www.dropby.com/NYSIIS.html">(pseudocode)</a>.
-<a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</a>.
+<a href="http://www.dropby.com/NYSIIS.html">(JavaScript)</a> (in page source).
+<a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(SPL)</a>.
+<a
+href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>
+(reportedly buggy).
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
