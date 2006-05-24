@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.25 2006/04/19 16:13:43 black Exp $
+# $Id: mkcommon.pl,v 1.26 2006/05/24 12:51:27 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Apr 19 12:13:16 2006" *by "Paul E. Black"
+# *modified "Mon May 22 15:24:33 2006" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -458,6 +458,12 @@ sub addToDictionary (\%) {
 
     # save a rich display version of the entry name
     rewriteLatex($entry{DNAME} = $entry{NAME});
+    # used in main index for AKA's:
+    #		$dname See: <a ..>$srcdname</a>
+    if (defined $entry{SRCNAME}) {
+	rewriteLatex($entry{SRCDNAME} = $entry{SRCNAME});
+	#print "\nsource dname for $entry{DNAME} is $entry{SRCDNAME}\n";
+    }
 
     # save a plain text version of the entry name, i.e., without HTML
     my $tname;
@@ -625,6 +631,11 @@ sub readTermEntries {
 		undef %akaEntry; # make sure nothing is left over
 		my $akaEntry = {};
 		$akaEntry{NAME} = $aka;
+		# SRCNAME is the name of the original entry and is converted
+		# to a display name, SRCDNAME, in addToDictionary, which is
+		# used as a main index entry:
+		#	$dname See: <a href=$pg>$SRCDNAME</a>
+		$akaEntry{SRCNAME} = $thisEntry{NAME};
 		$akaEntry{DEFN} = "See \{$thisEntry{NAME}}.";
 		$akaEntry{SRCFILE} = $thisEntry{SRCFILE};
 		$akaEntry{ENTCLASS} = "AKA";
