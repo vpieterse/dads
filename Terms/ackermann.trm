@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Mon Jan 23 11:03:17 2006" *by "Paul E. Black"
+# *modified "Tue May 30 09:55:06 2006" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.6  2006/05/30 13:55:49  black
+# Update Kosara's Lisp IMPL URL
+#
 # Revision 1.5  2006/01/23 16:03:38  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -85,7 +88,7 @@ Versions of Ackermann's function</a>.
 # implementation(s) (pure HTML)
 @IMPL=History of the function and
 <a href="http://www.modulaware.com/mdlt08.htm">(Modula-2)</a> code.
-<a href="http://www.kosara.net/thoughts/ackermann.html">(Lisp)</a>.
+<a href="http://kosara.net/thoughts/ackermann.html">(Lisp)</a>.
 <a href="http://www.geocities.com/hjsmithh/Ackerman.html">(Pascal)</a>.
 <a href="http://www.engin.umd.umich.edu/CIS/course.des/cis400/miranda/Ack.htm">(Miranda)</a>.
 # author's initials
