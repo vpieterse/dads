@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Wed May 31 08:41:43 2006" *by "Paul E. Black"
+# *modified "Wed May 31 08:51:46 2006" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.16  2006/05/31 12:51:48  black
+# Improve attribution: change Goletas' to Maksim Goleta's
+#
 # Revision 1.15  2006/05/31 12:42:07  black
 # Add Goletas' C# IMPL
 #
@@ -87,7 +90,7 @@ Kaz Kylheku's
 <a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
 implementing sorted list, binary search tree, AVL, red-black and splay
 trees and conversions from any of these to any other.
-Goletas'
+Maksim Goleta's
 <a href="http://goletas.com/solutions/collections/">Collections
 (C#)</a> implementing singly- and doubly-linked lists, binary search
 trees, and AVL trees.
