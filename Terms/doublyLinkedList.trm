@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:05:14 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:42 2004" *by "Paul E. Black"
+# *modified "Wed May 31 08:44:21 2006" *by "Paul E. Black"
 
 # $Log: doublyLinkedList.trm,v $
+# Revision 1.7  2006/05/31 12:44:22  black
+# Add Goletas' C# IMPL
+#
 # Revision 1.6  2004/12/17 17:23:42  black
 # Make more XHTML compliant.
 #
@@ -56,6 +59,10 @@ in constant time.
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>
 implementing dictionary, dynamic hash table, red-black tree, and
 doubly linked list.
+Goletas'
+<a href="http://goletas.com/solutions/collections/">Collections
+(C#)</a> implementing singly- and doubly-linked lists, binary search
+trees, and AVL trees.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/doublyLinkedList.trm,v $
