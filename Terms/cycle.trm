@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:31 2004" *by "Paul E. Black"
+# *modified "Tue May 30 16:43:46 2006" *by "Paul E. Black"
 
 # $Log: cycle.trm,v $
+# Revision 1.9  2006/05/30 20:44:58  black
+# Add "closed path" as another name cycle is known as.
+#
 # Revision 1.8  2004/12/17 17:23:32  black
 # Make more XHTML compliant.
 #
@@ -63,7 +66,10 @@ include vertices at most once makes a cycle a {simple path}.
 </p>
 
 <p>
-Also known as "circuit".
+Also known as "circuit" or "closed path".
+# "closed path" from Jack Edmonds, "Paths, Trees, and Flowers",
+# Canad. J. Math. 17, 449-467, 1965.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
