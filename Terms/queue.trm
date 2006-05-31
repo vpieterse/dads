@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 09:19:57 1998" *by "Paul E. Black"
-# *modified "Wed May 31 08:43:33 2006" *by "Paul E. Black"
+# *modified "Wed May 31 08:51:50 2006" *by "Paul E. Black"
 
 # $Log: queue.trm,v $
+# Revision 1.9  2006/05/31 12:51:52  black
+# Improve attribution: change Goletas' to Maksim Goleta's
+#
 # Revision 1.8  2006/05/31 12:43:33  black
 # Add Goletas' C# IMPL
 #
@@ -80,7 +83,7 @@ href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkQueueAppl.html">
 implementations.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.octavian.org/cs/Queue.java">(Java)</a>.
-Goletas'
+Maksim Goleta's
 <a href="http://goletas.com/solutions/collections/">Collections
 (C#)</a> implementing singly- and doubly-linked lists, binary search
 trees, and AVL trees.
