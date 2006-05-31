@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 10:25:11 2005" *by "Paul E. Black"
+# *modified "Wed May 31 09:36:39 2006" *by "Paul E. Black"
 
 # $Log: manhattanDistance.trm,v $
+# Revision 1.5  2006/05/31 13:40:14  black
+# XREF Hamming distance, which is Manhattan distance on bit vectors.
+# NOTE links at Lm distance entry.
+#
 # Revision 1.4  2005/01/10 15:26:26  black
 # Update Manhattan (vs. Euclidean) URL.
 #
@@ -42,23 +46,25 @@ $|x<sub>1</sub> - x<sub>2</sub>| + |y<sub>1</sub> - y<sub>2</sub>|$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Euclidean distance}
+@XREFS={Euclidean distance}, {Hamming distance}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 This is easily generalized to higher dimensions.  Manhattan
 distance is often used in integrated circuits where wires only run
 parallel to the X or Y axis.
+See links at {$L<sub>m</sub>$ distance} for more detail.
 </p>
 
 <p>
-Also known as {rectilinear} distance, taxi cab metric, or city block
+Also known as {rectilinear} distance, Minkowski's $L<sub>1</sub>$
+distance, taxi cab metric, or city block
 distance.
 </p>
 
 <p>
-Wikipedia says this concept was considered by Hermann Minkowski in the
-19th century.
+{Hamming distance} can be seen as Manhattan distance between bit
+vectors.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for 
