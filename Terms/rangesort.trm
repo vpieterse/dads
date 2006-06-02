@@ -1,7 +1,10 @@
 # *created  "Wed Mar  3 16:54:54 1999" *by "Paul E. Black"
-# *modified "Mon Jun 28 14:47:44 2004" *by "Paul E. Black"
+# *modified "Fri Jun  2 13:51:07 2006" *by "Paul E. Black"
 
 # $Log: rangesort.trm,v $
+# Revision 1.4  2006/06/02 17:51:52  black
+# add pigeonhole sort as a VARIANT.
+#
 # Revision 1.3  2004/06/28 18:48:17  black
 # Oops, a range sort IS a bucket sort.  Move bucket sort from XREFS to IMA.
 #
@@ -23,7 +26,7 @@
 # Generalization: "I am a kind of ..."
 @IMA={bucket sort}, {distribution sort}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={pigeonhole sort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
