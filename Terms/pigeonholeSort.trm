@@ -1,7 +1,10 @@
 # *created  "Fri Jun  2 13:45:08 2006" *by "Paul E. Black"
-# *modified "Fri Jun  2 14:31:00 2006" *by "Paul E. Black"
+# *modified "Fri Jun  2 14:51:21 2006" *by "Paul E. Black"
 
 # $Log: pigeonholeSort.trm,v $
+# Revision 1.2  2006/06/02 18:53:20  black
+# Fix DEFN: efficient when |items| \approx= Range(keys).
+#
 # Revision 1.1  2006/06/02 18:44:04  black
 # Initial revision
 #
@@ -14,9 +17,9 @@
 @AREA=sort
 # the definition
 @DEFN=A 2-pass {sort} algorithm that is efficient when the range of
-keys is small and there are many duplicate keys.  The first pass
+keys is approximately equal to the number of items.  The first pass
 allocates an {array} of {buckets}, one bucket for each possible {key}
-value, and puts each item in its key's bucket.  The second pass goes
+value, then puts each item in its key's bucket.  The second pass goes
 over the bucket array moving each item to the next place in the
 destination.
 # formal definition or {cross reference} to an entry
