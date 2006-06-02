@@ -1,7 +1,10 @@
 # *created  "Wed Mar  3 16:25:25 1999" *by "Paul E. Black"
-# *modified "Mon Mar 27 15:32:57 2006" *by "Paul E. Black"
+# *modified "Fri Jun  2 14:18:48 2006" *by "Paul E. Black"
 
 # $Log: distributionSort.trm,v $
+# Revision 1.5  2006/06/02 18:19:12  black
+# Histogram sort is not a distribution sort, according to the definition.
+#
 # Revision 1.4  2006/03/27 20:33:31  black
 # add a new instance: distributive partitioning sort
 #
@@ -28,7 +31,7 @@ which are then gathered and placed on the output.
 # Generalization: "I am a kind of ..."
 @IMA={sort}
 # Specialization: "... is a kind of me."
-@VARIANT={bucket sort}, {histogram sort}, {linear probing sort},
+@VARIANT={bucket sort}, {linear probing sort},
 {shuffle sort}, {merge sort}, {radix sort}, {UnShuffle sort}, 
 {restricted universe sort}, {strand sort}, 
 {distributive partitioning sort}
