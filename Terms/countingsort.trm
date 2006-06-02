@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Apr 19 15:20:21 2005" *by "Paul E. Black"
+# *modified "Fri Jun  2 14:30:49 2006" *by "Paul E. Black"
 
 # $Log: countingsort.trm,v $
+# Revision 1.5  2006/06/02 18:33:25  black
+# Counting sort is not a simplistic radix sort - there are many subtle
+# approximations.  XREF pigeonhole sort and NOTE the contrast with it.
+#
 # Revision 1.4  2005/04/19 19:21:16  black
 # NOTE that this may be seen as a variant of radix sort.  Add Preiss IMPL.
 #
@@ -39,17 +43,14 @@ according to the auxiliary entry for that key.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={American flag sort},
-{bingo sort}, {radix sort}
+{bingo sort}, {pigeonhole sort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A bucket sort uses fixed-size buckets.  A histogram sort
 sets up buckets of exactly the right size in a first pass.  A
-counting sort uses one bucket per key value.
-</p>
-
-<p>
-Counting sort may be seen as a {radix sort} where the radix is chosen
-so that a single pass distributes each key value into its own {bucket}.
+counting sort is a histogram sort with one bucket per possible key
+value.  A pigeonhole sort is a counting sort that moves items to the
+auxiliary array instead of counting them.
 
 # further explanation (pure HTML)
 @LINKS=
