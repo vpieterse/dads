@@ -1,0 +1,78 @@
+# *created  "Thu Jun  8 13:01:46 2006" *by "Paul E. Black"
+# *modified "Thu Jun  8 13:22:50 2006" *by "Paul E. Black"
+
+# $Log: spaceOrderingMethod.trm,v $
+# Revision 1.1  2006/06/08 17:23:14  black
+# Initial revision
+#
+
+# entry name
+@NAME=space ordering method
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A mapping from a discrete $k$-dimensional space into a linear order.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={point access method}, {spatial access method}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=A concrete version of the problem is, in what order should one
+visit every square in a checkerboard?  Equivalently, how should one
+map a 2-dimensional array in memory?
+</p>
+
+<p>
+A transversal of the mapped points in their linear order yields a
+space-filing curve.
+</p>
+
+<p>
+There is a good survey on pages 167-169 of<br>
+<strong>Hanan Samet</strong>, <em>Object-Based and Image-Based Object
+Representation</em>, ACM Computing Surveys, 36(2):159-217, June 2004.
+The article describes several methods and reviews their properties:
+<ul>
+<li>row order (row major)
+<li>row-prime order
+<li>Morton order
+<li>Peano-Hilbert order
+<li>Cantor-diagonal order
+<li>spiral order
+<li>Gray order
+<li>double Gray order
+<li>U order
+</ul>
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/spaceOrderingMethod.trm,v $
