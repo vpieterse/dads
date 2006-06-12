@@ -1,7 +1,10 @@
 # *created  "Thu Feb  3 16:52:31 2000" *by "Paul E. Black"
-# *modified "Mon Nov 28 06:55:49 2005" *by "Paul E. Black"
+# *modified "Mon Jun 12 10:16:33 2006" *by "Paul E. Black"
 
 # $Log: obdd.trm,v $
+# Revision 1.5  2006/06/12 14:17:08  black
+# Add BIB and update Bryant's URL.
+#
 # Revision 1.4  2005/11/28 11:58:09  black
 # Remove Lewis' obdd research link from NOTE: doesn't go anywhere
 # anymore.  Move commented Fortnow's use of oblivious ... to NOTE.
@@ -42,6 +45,12 @@
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={BDD}, {reduced ordered binary decision diagram}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Randal E. Bryant</strong>, <em>Graph-based algorithms for
+Boolean function manipulation</em>,
+IEEE Transactions on Computers, 35(8):677-691, August 1986.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 OBDD referred to as Oblivious ... by <strong>Lance Fortnow</strong>,
@@ -50,7 +59,7 @@ Theory and Applications</em>, SIGACT News, 33(1):7, March 2002.
 
 # further explanation (pure HTML)
 @LINKS=<a
-href="http://www.acm.org/pubs/citations/journals/surveys/1992-24-3/p293-bryant/">Symbolic
+href="http://doi.acm.org/10.1145/136035.136043">Symbolic
 Boolean manipulation with ordered binary-decision diagrams</a>.
 # implementation(s) (pure HTML)
 @IMPL=
