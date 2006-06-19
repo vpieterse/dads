@@ -1,7 +1,11 @@
 # *created  "Mon Nov 16 15:36:32 1998" *by "Paul E. Black"
-# *modified "Wed Mar 16 14:59:39 2005" *by "Paul E. Black"
+# *modified "Mon Jun 19 15:23:25 2006" *by "Paul E. Black"
 
 # $Log: bdtree.trm,v $
+# Revision 1.4  2006/06/19 19:31:26  black
+# Add BIB entry for def'n and BIB entry for something else also called a
+# BD-tree.
+#
 # Revision 1.3  2005/03/16 20:01:04  black
 # Add IMA binary tree and point access method.  Refine defn from
 # "A binary {tree} ..." to "A {binary tree} ..."
@@ -31,6 +35,22 @@ splitting off regular subintervals.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Y. Ohsawa</strong> and <strong>M. Sakauchi</strong>,
+<em>BD-Tree: A New N-dimensional Data Structure with Efficient Dynamic
+Characteristics</em>, Proc. 9th World Computer Congress, IFIP83,
+pp. 539-544, 1983.
+</p>
+
+<p>
+"Bounded deformation" trees for collision resolution are described
+in<br>
+<strong>Doug L. James</strong> and <strong>Dinesh K. Pai</strong>,
+<em>BD-Tree: Output-Sensitive Collision Detection for Reduced
+Deformable Models</em>, ACM Transactions on Graphics (SIGGRAPH 2004),
+23(3), August 2004.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
