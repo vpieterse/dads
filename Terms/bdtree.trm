@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:36:32 1998" *by "Paul E. Black"
-# *modified "Mon Jun 19 15:23:25 2006" *by "Paul E. Black"
+# *modified "Mon Jun 19 15:52:20 2006" *by "Paul E. Black"
 
 # $Log: bdtree.trm,v $
+# Revision 1.5  2006/06/19 19:52:35  black
+# Add authors' full names.
+#
 # Revision 1.4  2006/06/19 19:31:26  black
 # Add BIB entry for def'n and BIB entry for something else also called a
 # BD-tree.
@@ -38,7 +41,7 @@ splitting off regular subintervals.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<strong>Y. Ohsawa</strong> and <strong>M. Sakauchi</strong>,
+<strong>Yutaka Ohsawa</strong> and <strong>Masao Sakauchi</strong>,
 <em>BD-Tree: A New N-dimensional Data Structure with Efficient Dynamic
 Characteristics</em>, Proc. 9th World Computer Congress, IFIP83,
 pp. 539-544, 1983.
