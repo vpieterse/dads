@@ -1,7 +1,11 @@
 # *created  "Fri Jun  2 13:45:08 2006" *by "Paul E. Black"
-# *modified "Fri Jun  2 14:51:21 2006" *by "Paul E. Black"
+# *modified "Mon Jun 19 10:24:18 2006" *by "Paul E. Black"
 
 # $Log: pigeonholeSort.trm,v $
+# Revision 1.3  2006/06/19 14:54:41  black
+# Improve DEFN slightly.  Rapid sort is a VARIANT.  NOTE contrast
+# between this and rapid sort.
+#
 # Revision 1.2  2006/06/02 18:53:20  black
 # Fix DEFN: efficient when |items| \approx= Range(keys).
 #
@@ -17,9 +21,9 @@
 @AREA=sort
 # the definition
 @DEFN=A 2-pass {sort} algorithm that is efficient when the range of
-keys is approximately equal to the number of items.  The first pass
+{keys} is approximately equal to the number of items.  The first pass
 allocates an {array} of {buckets}, one bucket for each possible {key}
-value, then puts each item in its key's bucket.  The second pass goes
+value, then moves each item to its key's bucket.  The second pass goes
 over the bucket array moving each item to the next place in the
 destination.
 # formal definition or {cross reference} to an entry
@@ -33,7 +37,7 @@ destination.
 # Generalization: "I am a kind of ..."
 @IMA={range sort}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={rapid sort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
@@ -51,10 +55,12 @@ destination.
 </p>
 
 <p>
-A pigeonhole sort moves items twice: once to the bucket array and
-again to the final destination.  A counting sort builds an auxiliary
+Pigeonhole sort moves items twice: once to the bucket array and
+again to the final destination.  Counting sort builds an auxiliary
 array then uses the array to compute each item's final destination and
-move the item there.
+move the item there.  Since rapid sort only sorts keys, "moving an
+item in its key's bucket" is just incrementing a count and "moving
+each item to the destination" is writing the proper number of keys.
 
 # any historical notes
 @HISTORY=
