@@ -1,7 +1,10 @@
 # *created  "Thu Jun  8 13:01:46 2006" *by "Paul E. Black"
-# *modified "Thu Jun  8 13:22:50 2006" *by "Paul E. Black"
+# *modified "Mon Jun 19 15:48:21 2006" *by "Paul E. Black"
 
 # $Log: spaceOrderingMethod.trm,v $
+# Revision 1.2  2006/06/19 19:48:33  black
+# fix typo
+#
 # Revision 1.1  2006/06/08 17:23:14  black
 # Initial revision
 #
@@ -46,7 +49,7 @@ map a 2-dimensional array in memory?
 
 <p>
 A transversal of the mapped points in their linear order yields a
-space-filing curve.
+space-filling curve.
 </p>
 
 <p>
