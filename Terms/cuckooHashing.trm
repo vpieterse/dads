@@ -1,7 +1,10 @@
 # *created  "Thu Feb 20 11:48:59 2003" *by "Paul E. Black"
-# *modified "Fri Jan 28 17:30:44 2005" *by "Paul E. Black"
+# *modified "Tue Jun 20 16:50:55 2006" *by "Paul E. Black"
 
 # $Log: cuckooHashing.trm,v $
+# Revision 1.5  2006/06/20 20:51:50  black
+# Remove missing URL for Stanford essay on Brood Parasitism.
+#
 # Revision 1.4  2005/01/28 22:30:52  black
 # Improve grammar.
 #
@@ -58,9 +61,7 @@ Rodler</strong>, <em>Cuckoo Hashing</em>, Proceedings of ESA 2001,
 Lecture Notes in Computer Science, vol. 2161, pages 121-?, 2001.
 # any notes.  these are not printed in the final dictionary
 @NOTES=The name comes from the European cuckoo, whose young
-<a
-href="http://www.stanfordalumni.org/birdsite/text/essays/Brood_Parasitism.html">pushes
-other, competing eggs out of the nest</a>.
+pushes other, competing eggs out of the nest.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
