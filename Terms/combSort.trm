@@ -1,7 +1,11 @@
 # *created  "Thu Jan  6 12:27:59 2005" *by "Paul E. Black"
-# *modified "Fri Jan  7 09:34:37 2005" *by "Paul E. Black"
+# *modified "Mon Jul  3 09:09:20 2006" *by "Paul E. Black"
 
 # $Log: combSort.trm,v $
+# Revision 1.4  2006/07/03 13:10:39  black
+# Remove jdveale IMPL - no longer on line.  Improve wording in DEFN,
+# NOTE, and another IMPL.
+#
 # Revision 1.3  2005/01/07 14:36:07  black
 # Make comb sort a variant of diminishing increment sort.  Remove words
 # in def'n left over from editing.  Explicitly link to Ring's IMPL.
@@ -22,7 +26,7 @@
 # the definition
 @DEFN=An {in-place sort} algorithm that repeatedly reorders different
 pairs of items.  On each pass swap pairs of items separated by the
-increment or gap, $i$, if needed and reduce the gap (divide it by about
+increment or gap, if needed, and reduce the gap (divide it by about
 1.3).  The gap starts at about 3/4 of the number of items.  Continue
 until the gap is 1 and a pass had no swaps.
 # formal definition or {cross reference} to an entry
@@ -42,7 +46,7 @@ until the gap is 1 and a pass had no swaps.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bubble sort}
+@XREFS={bubble sort}, {Shell sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -51,8 +55,8 @@ until the gap is 1 and a pass had no swaps.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Bubble sort can be seen as a variant of comb sort where the gap
-is always 1.  Since items may move large distances at first, this
-method is quite efficient.
+is always 1.  Since items may move large distances at first, comb sort
+is quite efficient.
 </p>
 
 <p>
@@ -64,9 +68,6 @@ sorts each set.
 
 # implementation(s) (pure HTML)
 @IMPL=
-An
-<a href="http://world.std.com/~jdveale/combsort.htm">improved comb
-sort (C)</a> with discussion.
 Wayne Conrad has
 <a href="http://yagni.com/combsort/index.php">(C++ and Ruby)</a>
 versions, contrasts it with bubble sort, and links to versions in
@@ -76,7 +77,7 @@ assembly, Java, Pascal, Perl, PHP, and Python.
 href="http://www.cs.ubc.ca/spider/harrison/Java/CombSort11Algorithm.java">(Java)</a>.
 Dave Ring wrote a
 <a href="http://yagni.com/combsort/correspondence.php">variant
-(Java)</a> that switches to an insertion sort after the gap is 9.
+(Java)</a> that switches to an insertion sort when the gap is less than 9.
 
 # further explanation (pure HTML)
 @LINKS=
