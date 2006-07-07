@@ -1,7 +1,10 @@
 # *created  "Thu Mar 18 09:38:13 2004" *by "Paul E. Black"
-# *modified "Thu Mar 18 09:44:26 2004" *by "Paul E. Black"
+# *modified "Thu Jul  6 16:14:51 2006" *by "Paul E. Black"
 
 # $Log: zeroBasedIndexing.trm,v $
+# Revision 1.2  2006/07/06 20:16:57  black
+# IMIN array, like one-based indexing.
+#
 # Revision 1.1  2004/03/18 15:52:17  black
 # Initial revision
 #
@@ -27,7 +30,7 @@
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={array}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
