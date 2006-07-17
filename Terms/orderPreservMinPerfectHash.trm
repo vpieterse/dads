@@ -1,7 +1,11 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Fri Aug 12 13:55:56 2005" *by "Paul E. Black"
+# *modified "Mon Jul 17 13:12:27 2006" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.4  2006/07/17 17:17:41  black
+# Add IMA linear hash.  Add full citation for Czech, Havas, and
+# Majewski, and add that it is a Las Vegas algorithm.
+#
 # Revision 1.3  2005/08/12 17:57:47  black
 # LINK to an article on generating min. perf. hash fns.  Change file name.
 #
@@ -21,7 +25,7 @@ $k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={minimal perfect hashing}
+@IMA={minimal perfect hashing}, {linear hash}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -37,10 +41,14 @@ array offsets are an order preserving minimal perfect hash of the
 keys.
 # further explanation (pure HTML)
 @LINKS=
-Zbigniew J. Czech, George Havas, Bohdan S. Majewski, <a
-href="http://citeseer.ist.psu.edu/czech92optimal.html">An Optimal
-Algorithm for Generating Minimal Perfect Hash Functions</a>, 1992.
+<strong>Zbigniew J. Czech, George Havas</strong>, and <strong>Bohdan
+S. Majewski</strong>, <em>An Optimal Algorithm for Generating Minimal
+Perfect Hash Functions</em>, Information Processing Letters,
+43(5):257-264, October 1992.  Available at <a
+href="http://citeseer.ist.psu.edu/czech92optimal.html">http://citeseer.ist.psu.edu/czech92optimal.html</a>.  
 "It uses expected linear time and ... runs very fast in practice."
+This is a <a href="http://www.nist.gov/dads/HTML/lasVegas.html">Las
+Vegas algorithm</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
