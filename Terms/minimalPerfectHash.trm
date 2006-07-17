@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar 21 09:25:40 2005" *by "Paul E. Black"
+# *modified "Mon Jul 17 12:46:06 2006" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.7  2006/07/17 16:46:13  black
+# fix typo
+#
 # Revision 1.6  2005/03/21 14:27:02  black
 # Replace caltech gperf URL (no longer found) with Gnu URL.
 #
@@ -73,7 +76,7 @@ hashing (C)</a>,
 <a href="http://www.ibiblio.org/pub/Linux/devel/lang/c/!INDEX.short.html">
 mph: minimal perfect hash function generator (C)</a>.
 <a href="http://www.gnu.org/software/gperf/gperf.html">gperf: a
-near-minimal perfect hashing (C++)</a>, click on GNU mirror, lick on a
+near-minimal perfect hashing (C++)</a>, click on GNU mirror, click on a
 nearby server, then gperf.
 # author's initials
 @AUTHOR=PEB
