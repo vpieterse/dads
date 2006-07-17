@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Mar 13 09:01:41 2006" *by "Paul E. Black"
+# *modified "Mon Jul 17 09:10:24 2006" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.9  2006/07/17 13:12:50  black
+# Add Glarner's IMPL
+#
 # Revision 1.8  2006/03/13 14:02:14  black
 # Add http:// to Partow's IMPL
 #
@@ -83,6 +86,9 @@ kinds of hash functions</a>.
 Arash Partow's
 <a href="http://www.partow.net/programming/hashfunctions/">hash functions (C,
 C++, Pascal, Java)</a>.
+Herbert Glarner's 
+<a href="http://herbert.wikispaces.com/HSH">HSH 11/13 algorithm
+(Linoleum)</a>, including very thorough justification.
 <a href="http://www.isthe.com/chongo/tech/comp/fnv/">Fowler/Noll/Vo or
 FNV hash function (C)</a>.
 Hash functions for strings
