@@ -1,7 +1,11 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Jul 17 09:10:24 2006" *by "Paul E. Black"
+# *modified "Mon Jul 17 12:34:44 2006" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.10  2006/07/17 16:39:58  black
+# Add Mulvey's tutorial, implementations, and comparisons page.
+# Explicitly credit Bob Jenkins.
+#
 # Revision 1.9  2006/07/17 13:12:50  black
 # Add Glarner's IMPL
 #
@@ -73,7 +77,7 @@ href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
 perfect hashing (C++ and C)</a> and <a
 href="http://www.nist.gov/dads/HTML/pearsonshash.html">Pearson's hash
 (C)</a>.
-A fast, parameterizable, broadly applicable
+Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
 (C)</a> including code for and evaluations of many other hash
 functions.
@@ -83,6 +87,9 @@ Overview of
 <a
 href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">different
 kinds of hash functions</a>.
+Bret Mulvey's great tutorial on good hash functions, including
+analysis of and code for <a href="http://bretm.home.comcast.net/hash/">FNV,
+Jenkin's hashes, SHA-1, and other hash and evaluation functions (C#)</a>.
 Arash Partow's
 <a href="http://www.partow.net/programming/hashfunctions/">hash functions (C,
 C++, Pascal, Java)</a>.
