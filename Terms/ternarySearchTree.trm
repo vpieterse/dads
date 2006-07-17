@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Fri Dec 30 15:32:01 2005" *by "Paul E. Black"
+# *modified "Mon Jul 17 10:40:10 2006" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.5  2006/07/17 14:41:31  black
+# Update de Halleux's codeproject URL.
+#
 # Revision 1.4  2005/12/30 20:33:50  black
 # Add 1st DEFN and use much older BIB reference.
 #
@@ -66,7 +69,7 @@ Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 @IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
 demos, and code (C)</a>,
 <a href="http://www.octavian.org/cs/software.html">(C)</a>.
-<a href="http://www.codeproject.com/csharp/tst.asp">Ternary Search
+<a href="http://www.codeproject.com/cs/algorithms/tst.asp">Ternary Search
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
 # author's initials
