@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan  3 10:46:11 2006" *by "Paul E. Black"
+# *modified "Mon Jul 17 09:25:42 2006" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.9  2006/07/17 13:27:25  black
+# Add Glarner's IMPL
+#
 # Revision 1.8  2006/01/03 15:49:45  black
 # Update URL for C FAQ IMPL.
 #
@@ -68,7 +71,7 @@ every time it is used.
 </p>
 
 <p>
-Do <strong>NOT</strong> use typical "random" number generators for
+Do <strong>NOT</strong> use typical ``random'' number generators for
 security or cryptographic purposes.
 <a
 href="http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
@@ -87,7 +90,10 @@ structures</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
-C, and Fortran)</a>,
+C, and Fortran)</a>.
+Herbert Glarner's
+<a href="http://herbert.wikispaces.com/MT19937">Mersenne Twister MT
+19937 (Linoleum)</a>.
 Glenn Rhoads' <a
 href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
