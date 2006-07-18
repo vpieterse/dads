@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Wed Apr 19 13:19:42 2006" *by "Paul E. Black"
+# *modified "Mon Jul 17 16:45:53 2006" *by "Paul E. Black"
 
 # $Log: minimumSpanningTree.trm,v $
+# Revision 1.12  2006/07/17 20:46:07  black
+# Improve wording in NOTE
+#
 # Revision 1.11  2006/04/19 17:19:50  black
 # LINK to Eppstein's lecture.
 #
@@ -75,7 +78,7 @@ operations research.
 </p>
 
 <p>
-A Steiner tree is allowed added connection points to reduce the
+A Steiner tree is allowed additional connection points to reduce the
 total length even more.
 # further explanation (pure HTML)
 @LINKS=
