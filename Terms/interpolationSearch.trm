@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Thu Sep 15 11:53:11 2005" *by "Paul E. Black"
+# *modified "Wed Jul 19 15:53:31 2006" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Revision 1.7  2006/07/19 19:55:32  black
+# Replace UCI IMPL, which appears to have flaws, with a Java IMPL.
+#
 # Revision 1.6  2005/09/15 15:53:29  black
 # Add BIB entry and additional IMPL.
 #
@@ -76,7 +79,7 @@ indices of two successive iterations is small, it may be advantageous
 to switch to sequential search ..."
 Unless the data is very uniform,
 there are millions of records, or comparisons are very
-time-consuming, a binary search may be no slower since
+time-consuming, a binary search may be no slower:
 interpolation is usually time-consuming on a computer and a  
 binary search only takes log(n) comparisons anyway.
 # further explanation (pure HTML)
@@ -84,10 +87,10 @@ binary search only takes log(n) comparisons anyway.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.ics.uci.edu/~dan/class/161/notes/2/Interpolation.html">C-like pseudo-code</a>.
+href="http://www.niksula.cs.hut.fi/~trakla/book/english/node3.html">(Java)</a>.
 <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
-for real time (WOOP/ADA)</a>, including bibliography,
+for real time (WOOP/ADA)</a>, including bibliography.
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
