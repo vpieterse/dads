@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Feb  3 08:51:21 2005" *by "Paul E. Black"
+# *modified "Thu Jul 20 13:43:08 2006" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.7  2006/07/20 17:44:49  black
+# Add another, more accessible BIB entry for Larson.
+#
 # Revision 1.6  2005/02/03 15:01:18  black
 # Add VARIANTS linear hashing and spiral storage.  Correct and elaborate
 # BIB entries.
@@ -35,7 +38,7 @@ shrink the table to save space when items are deleted.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={hash table}
 # Specialization: "... is a kind of me."
 @VARIANT={extendible hashing}, {linear hashing}, {spiral storage}
 # Aggregate parent: "I am a part of or used in ..."
@@ -57,7 +60,10 @@ and C.
 # BIT is a Swedish journal or column: http://math.liu.se/BIT/
 <p>
 <strong>Per-&Aring;ke Larson</strong>, <em>Dynamic hashing</em>, BIT
-18(2):184-201, 1978.
+18(2):184-201, 1978.<br>
+<strong>Per-&Aring;ke Larson</strong>, <em>Dynamic Hash Tables</em>,
+CACM 31(4):446-457, April 1988.
+# describes two methods: linear hashing and spiral storage
 </p>
 
 <p>
