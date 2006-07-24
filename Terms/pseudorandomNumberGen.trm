@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 17 09:25:42 2006" *by "Paul E. Black"
+# *modified "Mon Jul 24 14:20:49 2006" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.10  2006/07/24 18:21:21  black
+# linear congruential generator is a VARIANT (not just XREF)
+#
 # Revision 1.9  2006/07/17 13:27:25  black
 # Add Glarner's IMPL
 #
@@ -47,14 +50,13 @@ statistical properties.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={linear congruential generator}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={randomized algorithm}, {linear congruential
-generator}
+@XREFS={randomized algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Any computer program is likely to generate pseudo-random
