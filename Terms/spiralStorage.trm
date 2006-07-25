@@ -1,7 +1,10 @@
 # *created  "Thu Feb  3 08:50:53 2005" *by "Paul E. Black"
-# *modified "Thu Feb  3 09:58:49 2005" *by "Paul E. Black"
+# *modified "Tue Jul 25 09:35:31 2006" *by "Paul E. Black"
 
 # $Log: spiralStorage.trm,v $
+# Revision 1.2  2006/07/25 13:36:44  black
+# Add Larson's CACM article to BIB
+#
 # Revision 1.1  2005/02/03 15:01:53  black
 # Initial revision
 #
@@ -44,6 +47,11 @@ $\lfloor d<sup>S</sup>\rfloor$ to $\lfloor d<sup>S'</sup>\rfloor-1$.
 <strong>G. N. N. Martin</strong>, <em>Spiral storage: Incrementally
 augmentable hash addressed storage</em>,
 Theory of Computation Rep. 27, Univ. of Warwick, England, 1979.
+</p>
+
+<p>
+<strong>Per-&Aring;ke Larson</strong>, <em>Dynamic Hash Tables</em>,
+CACM 31(4):446-457, April 1988.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Choosing $d=2$ and $S=\log<sub>2</sub>N$, the number of slots,
