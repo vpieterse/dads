@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jul 20 13:43:08 2006" *by "Paul E. Black"
+# *modified "Tue Jul 25 09:30:34 2006" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.8  2006/07/25 13:33:03  black
+# Add WEB ref: dynamic hash table
+#
 # Revision 1.7  2006/07/20 17:44:49  black
 # Add another, more accessible BIB entry for Larson.
 #
@@ -35,6 +38,12 @@
 @DEFN=A {hash table} that grows to handle more items.  The associated
 {hash function} must change as the table grows.  Some schemes may
 shrink the table to save space when items are deleted.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=dynamic hash table
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
