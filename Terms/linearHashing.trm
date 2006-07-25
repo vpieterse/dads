@@ -1,7 +1,10 @@
 # *created  "Tue Feb  1 17:20:31 2005" *by "Paul E. Black"
-# *modified "Wed Dec 14 08:58:16 2005" *by "Paul E. Black"
+# *modified "Tue Jul 25 09:33:54 2006" *by "Paul E. Black"
 
 # $Log: linearHashing.trm,v $
+# Revision 1.4  2006/07/25 13:35:04  black
+# Add Larson's CACM article to BIB
+#
 # Revision 1.3  2005/12/14 13:58:23  black
 # Change pp to pages
 #
@@ -52,6 +55,11 @@ and $p$ starts over.
 <strong>W. Litwin</strong>, <em>Linear hashing: A new tool for file
 and table addressing</em>,
 Proc. 6th Conference on Very Large Databases, pages 212-223, 1980.
+</p>
+
+<p>
+<strong>Per-&Aring;ke Larson</strong>, <em>Dynamic Hash Tables</em>,
+CACM 31(4):446-457, April 1988.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
