@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Tue Jan  4 10:47:14 2005" *by "Paul E. Black"
+# *modified "Thu Jul 27 12:25:56 2006" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Revision 1.7  2006/07/27 16:34:15  black
+# Add Kreibich's IMPL
+#
 # Revision 1.6  2005/01/04 15:48:01  black
 # Remove IMPL and LINKS (dna.lth.se, marti1, DDJ) that are gone or
 # require registration.
@@ -58,7 +61,11 @@ and suffix trees</a>.
 # implementation(s) (pure HTML)
 @IMPL=Strmat - a variety of <a
 href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">string matching
-and pattern discovery algorithms (C)</a>
+and pattern discovery algorithms (C)</a>.
+Christian Kreibich's
+<a href="http://www.cl.cam.ac.uk/~cpk25/libstree/">libstree (C)</a>
+including depth- and breadth-first traversal, string update, and
+examples like LCS.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/suffix-trees.shtml">(C++
 and Pascal)</a>.
