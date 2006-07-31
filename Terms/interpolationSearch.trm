@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Wed Jul 19 15:53:31 2006" *by "Paul E. Black"
+# *modified "Mon Jul 31 14:00:52 2006" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Revision 1.8  2006/07/31 18:03:10  black
+# Restore UCI IMPL - flaws are reported to have been corrected.
+#
 # Revision 1.7  2006/07/19 19:55:32  black
 # Replace UCI IMPL, which appears to have flaws, with a Java IMPL.
 #
@@ -88,6 +91,7 @@ binary search only takes log(n) comparisons anyway.
 @IMPL=
 <a
 href="http://www.niksula.cs.hut.fi/~trakla/book/english/node3.html">(Java)</a>.
+<a href="http://www.ics.uci.edu/~dan/class/161/notes/2/Interpolation.html">C-like pseudo-code</a>.
 <a
 href="http://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
