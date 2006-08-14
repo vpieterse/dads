@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 14:10:54 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:02:08 2005" *by "Paul E. Black"
+# *modified "Mon Aug 14 08:59:32 2006" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Revision 1.9  2006/08/14 12:59:56  black
+# Add Scheper's IMPL
+#
 # Revision 1.8  2005/10/27 14:02:13  black
 # Update John Morris' URL
 #
@@ -101,6 +104,9 @@ doubly linked list;
 <a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
 implementing sorted list, binary search tree, AVL, red-black and splay
 trees and conversions from any of these to any other.
+Glenn Scheper's
+<a href="http://home.earthlink.net/~glenn_scheper/rbsl.cpp">RBSL
+(C)</a> which sorts text lines using a red-black tree.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/redblack.trm,v $
