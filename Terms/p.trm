@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 12 08:10:04 2005" *by "Paul E. Black"
+# *modified "Tue Sep  5 10:49:39 2006" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Revision 1.8  2006/09/05 14:49:41  black
+# Update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.7  2005/12/12 13:10:06  black
 # Update U Waterloo comp.theory FAQ URL
 #
@@ -61,7 +64,7 @@ classes P and NP</a>.
 
 <p>
 Scott Aaronson's
-<a href="http://www.complexityzoo.com/">Complexity
+<a href="http://qwiki.caltech.edu/wiki/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
