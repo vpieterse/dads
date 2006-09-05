@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Dec 16 14:37:43 2004" *by "Paul E. Black"
+# *modified "Tue Sep  5 10:49:26 2006" *by "Paul E. Black"
 
 # $Log: complexityClass.trm,v $
+# Revision 1.5  2006/09/05 14:49:33  black
+# Update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.4  2004/12/16 19:39:16  black
 # Remove coNP and AP - I don't have definitions for them.  Make more
 # XHTML compliant.
@@ -47,7 +50,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 Scott Aaronson's
-<a href="http://www.complexityzoo.com/">Complexity
+<a href="http://qwiki.caltech.edu/wiki/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
