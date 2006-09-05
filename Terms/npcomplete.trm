@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec 12 08:09:59 2005" *by "Paul E. Black"
+# *modified "Tue Sep  5 10:49:36 2006" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.7  2006/09/05 14:49:38  black
+# Update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.6  2005/12/12 13:10:02  black
 # Update U Waterloo comp.theory FAQ URL
 #
@@ -92,7 +95,7 @@ of NP optimization problems</a>.
 
 <p>
 Scott Aaronson's
-<a href="http://www.complexityzoo.com/">Complexity
+<a href="http://qwiki.caltech.edu/wiki/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=Stas Busygin's <a
