@@ -1,5 +1,11 @@
 # *created  "Thu Nov 16 16:52:51 2000" *by "Paul E. Black"
-# *modified "Mon Nov 19 09:18:59 2001" *by "Paul E. Black"
+# *modified "Mon Sep 12 10:33:05 2005" *by "Paul E. Black"
+
+# $Log: treap.trm,v $
+# Revision 1.2  2006/09/11 14:01:24  black
+# misc. updates and improvements
+#
+
 # entry name
 @NAME=treap
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
@@ -8,11 +14,22 @@
 @AREA=tree
 # the definition
 @DEFN=A {binary search tree} in which {nodes} have another
-{key}, called the priority.  Operations also keep nodes in {heap}
-order with regard to the priority.
-# comma-separated list of {cross references}.  printed as "See also ..."
+{key}, called the priority.  Operations also keep the nodes
+{heap ordered#heap property} with regard to the priority.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary search tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={randomized binary search tree}
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 # copy in Mnemo 5
 <strong>Raimund G. Seidel</strong> and <strong>Cecilia R. Aragon</strong>, 
@@ -26,7 +43,7 @@ Triangle Park, North Carolina, 30 October-1 November 1989. IEEE.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's
-<A href="http://pobox.com/~oleg/ftp/Scheme/treap.scm">(Scheme)</A>
+<a href="http://okmij.org/ftp/Scheme/treap.scm">(Scheme)</a>
 # author's initials (see authors.data)
 @AUTHOR=PEB
-# end
+# end $Source: /home/black/Workspace/dads/Terms/RCS/treap.trm,v $
