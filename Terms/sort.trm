@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Wed Dec 14 16:50:33 2005" *by "Paul E. Black"
+# *modified "Tue Sep  5 10:56:14 2006" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.12  2006/09/11 13:53:30  black
+# Remove LINK to cs.hop.edu algorithm animations - persistent server timeout
+#
 # Revision 1.11  2005/12/14 21:51:05  black
 # Rename 3-way radix to multikey Quicksort, the authors' term
 #
@@ -96,8 +99,7 @@ by their holes, to implement {radix sort}.
 # further explanation (pure HTML)
 @LINKS=Demonstrations of <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">various
-sorting algorithms</a>;
-Links to <a href="http://www.cs.hope.edu/~alganim/ccaa/sorting.html">different sorting algorithms</a>.
+sorting algorithms</a>.
 Jim Gray's latest records of
 <a href="http://research.microsoft.com/barc/SortBenchmark/">items
 sorted per penny, items sorted in a minute, and time to sort a
