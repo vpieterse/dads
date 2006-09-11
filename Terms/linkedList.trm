@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:01:26 2005" *by "Paul E. Black"
+# *modified "Mon Aug 21 09:27:34 2006" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.7  2006/09/11 14:04:10  black
+# Update tutorial IMPL URL
+#
 # Revision 1.6  2005/10/27 14:01:32  black
 # Update John Morris' URL
 #
@@ -73,7 +76,11 @@ a Java applet <a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/Lin
 @IMPL=
 <a href="http://www.cs.rpi.edu/~musser/gp/lists.html">explanations,
 examples, iterators, sorting lists, etc. (C++)</a>,
-<a href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>,
+<a href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>.
+Bro. David Carlson's
+<a
+href="http://cis.stvincent.edu/html/tutorials/swd/lists/lists.html">tutorial
+and code (C++)</a>.
 <a href="http://www.fortunecity.com/skyscraper/false/780/linklist.html">(C++)</a>
 # author's initials
 @AUTHOR=PEB
