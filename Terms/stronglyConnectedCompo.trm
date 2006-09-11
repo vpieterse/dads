@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 13:55:22 2004" *by "Paul E. Black"
+# *modified "Mon Aug 21 14:38:35 2006" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.10  2006/09/11 14:05:24  black
+# Remove incorrect formal definition.
+#
 # Revision 1.9  2004/12/17 18:56:01  black
 # Make LI XHTML compliant.
 #
@@ -41,13 +44,7 @@
 of a {directed graph}, $D$, such that no {vertex} of $D$ can be added to
 $S$ and it still be strongly connected.  Informally, a maximal
 subgraph in which every vertex is {reachable} from every other vertex.
-@FORML=Given a directed graph $D=(V, E)$, a subgraph $S=(V', E')$
-is a strongly connected component if 
-<ul>
-<li> $S$ is strongly connected, and
-<li> for all vertices $u such that u\in V and u\notin V'$ there is no
-vertex $v\in V'$ for which $(u, v)\in E$.
-</ul>
+@FORML=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -79,22 +76,6 @@ strongly connected component.
 The strongly connected components {partition} the vertices in the
 graph.  That is, every vertex is in exactly one strongly connected
 component.
-</p>
-
-<p>
-Formally, let $G=(V, E)$ be a directed graph and
-$G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
-G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
-be its strongly connected components.
-<ul>
-<li> $\forall V<sub>i</sub>, V<sub>i</sub> \neq \emptyset$ <br>(no
-subgraph is empty),
-<li> $\forall V<sub>i</sub>, V<sub>j</sub> \in P, i \neq j \rightarrow
-V<sub>i</sub>
-\cap V<sub>j</sub> = \emptyset $ <br> (subsets are disjoint), and
-<li> $\bigcup<sub>i=1</sub> V<sub>i</sub> = V$ <br>(subgraphs exactly
-cover the original).
-</ul>
 </p>
 
 <p>
