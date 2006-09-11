@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Tue Feb  1 15:50:19 2005" *by "Paul E. Black"
+# *modified "Tue Sep  5 10:56:26 2006" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Revision 1.7  2006/09/11 13:56:03  black
+# Remove LINK to cs.hop.edu algorithm animations - persistent server timeout
+#
 # Revision 1.6  2005/02/01 20:51:05  black
 # IMA {sort}, too (for ontology)
 #
@@ -86,8 +89,7 @@ and code (Java)</a>;
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 and source code (Java)</a>
 - but code might not render properly;
-<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>;
-<a href="http://www.cs.hope.edu/~alganim/animator/Animator.html">(Java)</a>.
+<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bubblesort.trm,v $
