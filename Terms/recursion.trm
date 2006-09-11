@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 27 10:02:00 2005" *by "Paul E. Black"
+# *modified "Mon Aug 21 09:31:14 2006" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.7  2006/09/11 14:04:21  black
+# Update tutorial IMPL URL
+#
 # Revision 1.6  2005/10/27 14:02:04  black
 # Update John Morris' URL
 #
@@ -118,6 +121,11 @@ Hanoi</a> puzzle for another recursive and iterative solution.
 Erwin's <a
 href="http://personal.vsnl.com/erwin/recursion.htm">Programming with
 Recursion tutorial</a>.
+Bro. David Carlson's
+<a
+href="http://cis.stvincent.edu/html/tutorials/swd/recur/recur.html">tutorial
+and code (C++)</a> with examples for factorial, Fibonacci, quicksort,
+and merge sort.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
