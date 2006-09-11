@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Thu Nov  3 10:23:50 2005" *by "Paul E. Black"
+# *modified "Mon Aug 21 09:26:54 2006" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.9  2006/09/11 14:04:00  black
+# Update tutorial IMPL URL
+#
 # Revision 1.8  2005/11/03 15:34:01  black
 # XREF matrix
 #
@@ -74,6 +77,10 @@ algorithm</a>, equivalent to Knuth's.
 # John Morris morris@ee.uwa.edu.au
 <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/arrays.html#arrays">(C)</a>.
+Bro. David Carlson's
+<a
+href="http://cis.stvincent.edu/html/tutorials/swd/arrays/arrays.html">search,
+access, complexity, etc. tutorial and code (C++)</a>.
 <a href="http://gams.nist.gov/serve.cgi/Class/N1">Read and write
 different arrays (Fortran, C++)</a>.
 # author's initials
