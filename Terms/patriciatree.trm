@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Mon Sep 11 09:39:22 2006" *by "Paul E. Black"
+# *modified "Mon Sep 11 09:49:48 2006" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.10  2006/09/11 13:50:06  black
+# Correctly fix py-radix IMPL URL
+#
 # Revision 1.9  2006/09/11 13:39:58  black
 # Update URL for py-radix, a Python IMPL.
 #
@@ -93,7 +96,7 @@ and C)</a> is a C implementation with a Perl API.
 C prototyping tools,
 <a href="http://cprops.sourceforge.net/">cprops (C)</a>, is a threaded
 implementation (find trie.c).
-<a href="http://www.mindrot.org/projects/py-radix.html"><em>py-radix</em> (Python)</a>.
+<a href="http://www.mindrot.org/projects/py-radix/">py-radix (Python)</a>.
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
 # author's initials
 @AUTHOR=SE
