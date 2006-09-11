@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:58 2004" *by "Paul E. Black"
+# *modified "Thu Jan  5 10:54:33 2006" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
+# Revision 1.6  2006/09/11 14:02:30  black
+# add a humorous note about the pronunciation
+#
 # Revision 1.5  2004/12/17 17:28:58  black
 # Make more XHTML compliant.
 #
@@ -55,6 +58,15 @@ CACM, 3(9):490-499, September 1960.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The name comes from re<strong>TRIE</strong>val and is
 pronounced, "tree."
+<p>
+
+</p> 
+There are some who, in a sadly misguided attempt to verbally
+distinguish a trie from the more general tree and in contrast to
+typical English pronunciation (of which calorie, eerie, and reverie
+are examples, but die, lie, and pie are not), pronounce the name
+"try".
+
 # implementation(s): pure HTML
 @IMPL=
 <a
