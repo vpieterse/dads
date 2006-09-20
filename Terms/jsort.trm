@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Wed Oct 26 11:49:42 2005" *by "Paul E. Black"
+# *modified "Wed Sep 20 11:08:11 2006" *by "Paul E. Black"
 
 # $Log: jsort.trm,v $
+# Revision 1.4  2006/09/20 15:24:09  black
+# IMA in-place sort.  XREF JSort, which is a completely different
+# algorithm in the IMPL (and remove that).
+#
 # Revision 1.3  2005/10/27 13:19:49  black
 # strand and shuffle sort are INME
 #
@@ -23,11 +27,11 @@ fewer than about 40 items and {shuffle sort} to sort more.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=jsort, j sort
+@WEB=j sort
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={in-place sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -35,20 +39,20 @@ fewer than about 40 items and {shuffle sort} to sort more.
 # Aggregate child: "... is a part of or used in me."
 @INME={strand sort}, {shuffle sort}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={sort}
+@XREFS={sort}, {JSort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Called "quick-er sort" by one Th&eacute;odore Myshrall in an
 apparent plagiarism for a 1998 school project.
 # The report, written in French, gives the algorithm in pseudo-code.
 # But the pseudo-code is in English and is an exact copy of the
-# pseudo-code in the John Cohen's note!
+# pseudo-code in the John Cohen note!
 # further explanation (pure HTML)
 @LINKS=John Cohen says he invented this algorithm in
 <a href="http://groups.google.com/groups?selm=880578663%40p7.f108.n461.z2.ftn">a
 1997 message</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
+@IMPL=
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/jsort.trm,v $
