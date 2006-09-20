@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:23:19 2006" *by "Paul E. Black"
+# *modified "Wed Sep 20 11:41:13 2006" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.12  2006/09/20 15:41:31  black
+# build-heap is INME
+#
 # Revision 1.11  2006/09/11 14:03:35  black
 # Update tutorial IMPL URL
 #
@@ -55,7 +58,7 @@ repeatedly extracts the maximum item.  Run time is
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={heap}
+@INME={build-heap}, {heap}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={selection sort}
 
