@@ -1,0 +1,50 @@
+# *created  "Wed Sep 20 11:06:09 2006" *by "Paul E. Black"
+# *modified "Wed Sep 20 15:08:58 2006" *by "Paul E. Black"
+
+# $Log: JSort.trm,v $
+# Revision 1.1  2006/09/20 19:09:23  black
+# Initial revision
+#
+
+# entry name
+@NAME=JSort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=sort
+# the definition
+@DEFN=An {in-place sort} that partially orders the {array} twice with
+{build-heap}, once moving lesser items earlier and once in reverse
+moving greater items later, then uses {insertion sort} on the
+nearly-ordered array.
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=jsort
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={build-heap}, {insertion sort}, {heap}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={sort}, {heapsort}, {J sort}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+The implementation attributes the algorithm to 
+<a href="http://www.scs.carleton.ca/~morrison">Jason Morrison</a>,
+Carleton University.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">Demonstration and source code (Java)</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/JSort.trm,v $
