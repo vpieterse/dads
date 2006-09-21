@@ -1,7 +1,10 @@
 # *created  "Fri Jul 23 16:34:11 2004" *by "Vadim Okun"
-# *modified "Thu May  5 09:41:49 2005" *by "Paul E. Black"
+# *modified "Thu Sep 21 13:00:16 2006" *by "Paul E. Black"
 
 # $Log: ahoCorasick.trm,v $
+# Revision 1.3  2006/09/21 17:09:00  black
+# XREF Commentz-Walter
+#
 # Revision 1.2  2005/05/05 13:42:39  black
 # Put href in double quotes.
 #
@@ -36,7 +39,7 @@ the machine to locate all occurrences of the keywords in a body of text.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Commentz-Walter} works from the back, like {Boyer-Moore}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Alfred V. Aho</strong> and <strong>Margaret J. Corasick</strong>,
