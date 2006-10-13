@@ -1,7 +1,10 @@
 # *created  "Thu Dec 28 11:31:22 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:04:55 2004" *by "Paul E. Black"
+# *modified "Fri Oct 13 13:12:42 2006" *by "Paul E. Black"
 
 # $Log: invertedFileIndex.trm,v $
+# Revision 1.3  2006/10/13 17:19:17  black
+# IMA inverted index.  Fix grammar.  Add BIB for Zobel and Moffat 2006.
+#
 # Revision 1.2  2004/12/17 17:04:55  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -13,12 +16,12 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=An {inverted index} which only indicates the text in which a
+@DEFN=An {inverted index} that only indicates the text in which a
 word appears, not where the word appears within the text.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={inverted index}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -30,9 +33,15 @@ word appears, not where the word appears within the text.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Nivio Ziviani, Edleno Silva de Moura, Gonzalo Navarro,
-Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
+and Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
 Next-Generation Text Retrieval Systems</em>, IEEE Computer,
 33(11):37-44, November 2000, (page 42).
+</p>
+
+<p>
+<strong>Justin Zobel and Alistair Moffat</strong>, <em>Inverted Files
+for Text Search Engines</em>, ACM Computing Surveys, 38(2), article 6,
+July 2006.
 # any notes.  these are not printed in the final dictionary
 @NOTES=See the example at {inverted index}.
 # further explanation (pure HTML)
