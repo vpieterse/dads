@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 24 14:20:49 2006" *by "Paul E. Black"
+# *modified "Mon Oct 16 12:23:18 2006" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.11  2006/10/16 16:23:28  black
+# Remove Rhoads' IMPL - not at Rutgers, and Google doesn't find a new URL
+#
 # Revision 1.10  2006/07/24 18:21:21  black
 # linear congruential generator is a VARIANT (not just XREF)
 #
@@ -96,8 +99,6 @@ C, and Fortran)</a>.
 Herbert Glarner's
 <a href="http://herbert.wikispaces.com/MT19937">Mersenne Twister MT
 19937 (Linoleum)</a>.
-Glenn Rhoads' <a
-href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 Using C libraries to get <a
 href="http://c-faq.com/lib/randrange.html">random numbers in
