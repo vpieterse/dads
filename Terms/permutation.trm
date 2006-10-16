@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Aug 24 10:29:39 2005" *by "Paul E. Black"
+# *modified "Mon Oct 16 12:22:57 2006" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.10  2006/10/16 16:23:04  black
+# Remove Rhoads' IMPL - not at Rutgers, and Google doesn't find a new URL
+#
 # Revision 1.9  2005/08/24 14:30:06  black
 # Clarify included definition of derangement.
 #
@@ -73,8 +76,6 @@ href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Permutations
 Michael Gilleland's
 <a href="http://www.merriampark.com/perm.htm">PermutationGenerator
 class (Java)</a>;
-Glenn Rhoads' 
-<a href="http://paul.rutgers.edu/~rhoads/Code/code.html">Snippets (C)</a>;
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</a>;
