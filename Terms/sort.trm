@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Tue Sep  5 10:56:14 2006" *by "Paul E. Black"
+# *modified "Thu Nov  9 08:54:37 2006" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.13  2006/11/13 16:07:37  black
+# topo sort is a VARIANT
+#
 # Revision 1.12  2006/09/11 13:53:30  black
 # Remove LINK to cs.hop.edu algorithm animations - persistent server timeout
 #
@@ -72,7 +75,7 @@ $S$, of $N$ items and a final array, $S\prime$, as follows.
 {histogram sort}, {strand sort}, {J sort}, {shuffle sort}, 
 {American flag sort}, {gnome sort}, {bubble sort}, 
 {bidirectional bubble sort}, {treesort (1)},
-{adaptive heap sort}, {multikey Quicksort}
+{adaptive heap sort}, {multikey Quicksort}, {topological sort}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
