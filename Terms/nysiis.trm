@@ -1,7 +1,10 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Thu May 18 08:49:38 2006" *by "Paul E. Black"
+# *modified "Mon Nov 13 09:34:19 2006" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Revision 1.12  2006/11/13 14:36:55  black
+# Add BIB info.
+#
 # Revision 1.11  2006/05/18 12:51:12  black
 # Remove samhsa IMPL URL - gone and can't find replacement.  Add that
 # markcrocker Rexx IMPL is buggy.  raven.utc.edu IMPL is SPL, not COBOL.
@@ -64,8 +67,10 @@
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
-#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+<strong>Robert L. Taft</strong>, <em>Name Search Techniques</em>,
+New York State Identification and Intelligence System, Special Report
+No. 1, Albany, New York, 1970.
+
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 <a href="http://www.name-searching.com/Working/Name_SearchKeyWordPhoneticcoding3.htm">algorithm
