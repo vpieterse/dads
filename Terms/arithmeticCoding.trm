@@ -1,7 +1,10 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Tue Jan  4 10:27:30 2005" *by "Paul E. Black"
+# *modified "Mon Nov 20 09:18:25 2006" *by "Paul E. Black"
 
 # $Log: arithmeticCoding.trm,v $
+# Revision 1.5  2006/11/20 14:19:26  black
+# Add Numerical Recipes in C IMPL.  Improve NOTE wording, esp. about patents.
+#
 # Revision 1.4  2005/01/04 15:27:36  black
 # Fix typo.
 #
@@ -52,15 +55,15 @@ range (offset) and probability (product) of each character.
 # any notes.  these are not printed in the final dictionary
 @NOTES=Shannon-Fano is a minimal prefix code. Huffman is optimal for
 character coding (one character-one code word) and simple to
-program.  Arithmetic coding is a little better still, since it can
-allocate fractional bits, but is more complicated and has patents.
-</p>
-
-<p>
-Patents cover some use of arithmetic coding.
+program.  Arithmetic coding is a even more compact, since it can
+allocate fractional bits, but is more complicated and patents cover
+some uses.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://dogma.net/markn/articles/arith/part1.htm">Theory
 development and implementation (C)</a>.
+<a href="http://www.nrbook.com/a/bookcpdf/c20-5.pdf">explanation and
+implementation (C)</a>: a PDF document of section 20.5 of
+<em>Numerical Recipes in C</em>.
 # further explanation (pure HTML)
 @LINKS=
 <a
