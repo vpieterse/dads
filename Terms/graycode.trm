@@ -1,7 +1,13 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 20 09:26:06 2006" *by "Paul E. Black"
+# *modified "Mon Nov 20 10:31:58 2006" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.13  2006/11/20 15:32:05  black
+# Add BIB of Gray's patent.  Reword reference to Gray (he patented an
+# implementation, not the codes).  Remove description of constructing a
+# binary-reflected Gray code and refer to Wikipedia.  NOTE Sibeyn's
+# image of Hamiltonian path in a 5d hypercube.  Add Ruby IMPL.
+#
 # Revision 1.12  2006/11/20 14:26:12  black
 # fix typo
 #
@@ -70,6 +76,11 @@ are not unique, even allowing for {permutation} or inversion of bits.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Frank Gray</strong>, <em>Pulse Code Communication</em>,
+U.S. Patent 2,632,058, filed 13 November 1947, issued 17 March 1953.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Gray codes are particularly useful in mechanical encoders since
 a slight change in position only affects one bit.  
@@ -85,53 +96,14 @@ n-dimensional hypercube.
 
 <p>
 A Gray code was used in a telegraph demonstrated by French engineer 
-&Eacute;mile Baudot in 1878.  The codes were first patented by Frank Gray, a
-Bell Labs researcher, in 1953.
+&Eacute;mile Baudot in 1878.  Frank Gray, a Bell Labs researcher,
+patented a method using the codes in 1953.
 </p>
 
 <p>
-One way to construct a Gray code for $n$ bits is to take a Gray
-code for $n-1$ bits with each code prefixed by 0 (for the first half
-of the code) and append the $n-1$ Gray code reversed with each code
-prefixed by 1 (for the second half).  This is called a
-"binary-reflected Gray code".  Here is an example of creating a
-3-bit Gray code from a 2-bit Gray code.
-<table>
-<tr>
-<td align="right">00</td><td align="right">01</td>
-<td align="right">11</td><td align="right">10</td>
-<td colspan="4"></td>
-<td>A Gray code for 2 bits</td>
-</tr>
-
-<tr>
-<td align="right">000</td><td align="right">001</td>
-<td align="right">011</td><td align="right">010</td>
-<td colspan="4"></td>
-<td>the 2-bit code with "0" prefixes</td>
-</tr>
-
-<tr>
-<td colspan="4"></td>
-<td align="right">10</td><td align="right">11</td>
-<td align="right">01</td><td align="right">00</td>
-<td>the 2-bit code in reverse order</td>
-</tr>
-
-<tr>
-<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-<td align="right">110</td><td align="right">111</td>
-<td align="right">101</td><td align="right">100</td>
-<td>the reversed code with "1" prefixes</td>
-</tr>
-
-<tr>
-<td align="right">000</td><td align="right">001</td><td align="right">011</td>
-<td align="right">010</td><td align="right">110</td><td align="right">111</td>
-<td align="right">101</td><td align="right">100</td>
-<td>A Gray code for 3 bits</td>
-</tr>
-</table>
+See the Wikipedia entry for
+<a href="http://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
+more information.
 </p>
 
 <p>
@@ -143,6 +115,9 @@ binary numbers and certain Gray codes.
 Pictures of a 
 <a href="http://www.ida.net/users/tetonsl/railroad/graycode.htm">Gray
 code rotary railroad control</a>.
+Jop Sibeyn's image of a <a
+href="http://users.informatik.uni-halle.de/~jopsi/dpar03/chap2.shtml">Hamiltonian
+cycle in a 5-dimensional hypercube</a> (scroll down to Embeddings).
 # implementation(s) (pure HTML)
 @IMPL=
 # The following is an HTML version of part 6 of the comp.ai.genetic FAQ
@@ -156,6 +131,8 @@ between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <a
 href="http://web.usna.navy.mil/~wdj/gray.htm">binary-to-Gray, code
 generation, and plotting (Maple)</a> with applications and references.
+Wayne Conrad's <a href="http://yagni.com/graycode/">recursive and
+iterative programs (Ruby)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graycode.trm,v $
