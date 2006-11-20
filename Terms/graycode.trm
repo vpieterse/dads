@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 20 09:11:49 2006" *by "Paul E. Black"
+# *modified "Mon Nov 20 09:26:06 2006" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.12  2006/11/20 14:26:12  black
+# fix typo
+#
 # Revision 1.11  2006/11/20 14:13:09  black
 # Numerical Recipes is now hosted by the publisher; update IMPL URL
 #
@@ -147,7 +150,7 @@ code rotary railroad control</a>.
 href="http://www.faqs.org/faqs/ai-faq/genetic/part6/section-1.html">binary-to-Gray
 and Gray-to-binary conversion (C)</a> with history, references, and
 application to genetic algorithms.
-<a href="http://www.nrbook.com/a/bookcpdf/c20-2.pdf">convert
+<a href="http://www.nrbook.com/a/bookcpdf/c20-2.pdf">Convert
 between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <em>Numerical Recipes in C</em>.
 <a
