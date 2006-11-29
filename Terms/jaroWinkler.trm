@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:04 2004" *by "Paul E. Black"
+# *modified "Wed Nov 29 13:53:52 2006" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Revision 1.7  2006/11/29 18:55:02  black
+# add SecondString IMPL.  add author
+#
 # Revision 1.6  2004/12/17 17:24:04  black
 # Make more XHTML compliant.
 #
@@ -80,6 +83,9 @@ href="http://mathforum.org/library/drmath/sets/select/dm_piecewise.html">answers
 from Dr. Math</a>.
 # implementation(s) (pure HTML)
 @IMPL=
+Cohen, Ravikumar, and Fienberg have an implementation in their
+<a href="http://secondstring.sourceforge.net/">SecondString (Java)</a>
+package.
 # further explanation (pure HTML)
 @LINKS=<a
 href="http://www.census.gov/srd/www/byname.html#winklerwilliame">Winkler</a>
@@ -91,5 +97,5 @@ href="http://www.census.gov/srd/www/abstract/rr91-9.html">abstract</a>
 href="http://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</a>
 (PDF).
 # author's initials (see authors.data)
-@AUTHOR=
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/jaroWinkler.trm,v $
