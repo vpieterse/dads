@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 13:58:29 1999" *by "Paul E. Black"
-# *modified "Wed Dec 14 12:36:23 2005" *by "Paul E. Black"
+# *modified "Tue Nov 28 15:45:14 2006" *by "Paul E. Black"
 
 # $Log: karyTree.trm,v $
+# Revision 1.6  2006/11/28 20:45:55  black
+# fix typo
+#
 # Revision 1.5  2005/12/14 17:37:04  black
 # IMA tree and multiway tree.  VARIANTs are binary tree and ternary
 # search tree.
@@ -45,7 +48,7 @@
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A k-ary tree may be thought of as a multiway trees limited to
+@NOTES=A k-ary tree may be thought of as a multiway tree limited to
 <strong>k</strong> children.
 # further explanation (pure HTML)
 @LINKS=
