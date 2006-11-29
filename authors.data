@@ -1,4 +1,4 @@
-# $Id: authors.data,v 1.17 2005/06/06 13:13:20 black Exp $
+# $Id: authors.data,v 1.18 2006/11/28 21:15:37 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
@@ -6,7 +6,7 @@
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Mon Jun  6 09:12:54 2005" *by "Paul E. Black"
+# *modified "Tue Nov 28 15:41:23 2006" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -29,6 +29,7 @@ IR	Ingo Rohloff	rohloff@in.tum.de
 SKS	Sandeep Kumar Shukla
 GS	Gopinath Srinivasan	s.gopinath@in.ibm.com
 PMS	Paul M. Sant	sant@dcs.kcl.ac.uk
+RS	Rajiv Bakulesh Shah	brainix@gmail.com
 PS	Paul Steffas	Paul_Steffas@amat.com
 PHS	Per H&aring;kan Sundell	phs@cs.chalmers.se
 PJT	Paul J. Tanenbaum	pjt@ARL.MIL, http://ftp.arl.mil/~pjt/
