@@ -1,0 +1,66 @@
+# *created  "Tue Dec  5 09:18:17 2006" *by "Paul E. Black"
+# *modified "Tue Dec  5 11:04:41 2006" *by "Paul E. Black"
+
+# $Log: orderPreservingHuffmanCoding.trm,v $
+# Revision 1.1  2006/12/05 16:06:01  black
+# Initial revision
+#
+
+# entry name
+@NAME=order-preserving Huffman coding
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=A variable-length character coding based on the frequency of
+each character.  The algorithm is similar to {Huffman coding}, but the
+trees are kept in the same order as the characters.  Two
+<em>adjacent</em> trees with the least combined frequency are
+joined as subtrees of a new root.  As with Huffman coding, that new
+tree is assigned the sum of the subtrees' frequencies.  Repeat until
+all characters are in one tree.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=order preserving Huffman compression
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={full binary tree}, {priority queue}, {greedy algorithm}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Huffman coding}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=This may not produce a true Huffman code.  Although encoded
+messages may be up to twice as long as true Huffman codes,
+order-preserving Huffman codes are "quite effective for most data."
+[Graef06, 5]
+</p>
+
+<p>
+There are algorithms to produce optimum order-preserving prefix
+codes, but they are more complicated.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/orderPreservingHuffmanCoding.trm,v $
