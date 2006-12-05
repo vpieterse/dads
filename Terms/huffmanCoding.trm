@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 20 09:22:38 2006" *by "Paul E. Black"
+# *modified "Tue Dec  5 10:52:54 2006" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.12  2006/12/05 16:03:41  black
+# XREF order-preserving Huffman coding.  LINK wikipedia prefix code
+# article.  Add WEB name: compression.  Improve defn wording a bit.
+#
 # Revision 1.11  2006/11/20 14:27:15  black
 # Add IMPL from Numerical Recipes in C.  Improve NOTE wording.
 #
@@ -48,8 +52,8 @@ each character.  First, each character becomes a trivial
 character as the only {node}.  The character's frequency is the tree's
 frequency.  Two trees with the least frequencies are joined as the
 subtrees of a
-new root that is assigned the sum of their frequencies.  This is
-repeated until all characters are in one tree.  One code bit represents
+new root that is assigned the sum of their frequencies.
+Repeat until all characters are in one tree.  One code bit represents
 each level.  Thus more frequent characters are near the {root} and
 are coded with few bits, and rare characters are far from the root
 and are coded with many bits.
@@ -58,7 +62,7 @@ and are coded with many bits.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=static Huffman coding
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Huffman encoding, Hufman encoding, Huffmann encoding
+@WEB=Huffman encoding, Hufman encoding, Huffmann compression
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -70,7 +74,7 @@ and are coded with many bits.
 # Aggregate child: "... is a part of or used in me."
 @INME={full binary tree}, {priority queue}, {greedy algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={arithmetic coding}, 
+@XREFS={order-preserving Huffman coding}, {arithmetic coding}, 
 {optimal merge}, {Shannon-Fano coding}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
@@ -99,7 +103,9 @@ coding is a {full binary tree}.
 <p>
 Huffman coding is one of many <a
 href="http://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms">lossless
-compression algorithms</a>.
+compression algorithms</a>.  This algorithm produces a
+<a
+href="http://en.wikipedia.org/wiki/Prefix_code">prefix code</a>.
 </p>
 
 <p>
