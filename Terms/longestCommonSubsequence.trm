@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu May 11 15:44:44 2006" *by "Paul E. Black"
+# *modified "Wed Dec 13 12:03:09 2006" *by "Paul E. Black"
 
 # $Log: longestCommonSubsequence.trm,v $
+# Revision 1.6  2006/12/13 17:04:12  black
+# Add bug report for pseudocode in tiac.net/~cri LINK
+#
 # Revision 1.5  2006/05/11 19:50:29  black
 # Add Wikipedia and minimal longest ascedning subseqence LINKs
 #
@@ -68,6 +71,9 @@ href="http://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-c
 subsequence problem</a> in Wikipedia.
 The <a href="http://home.tiac.net/~cri/2001/mlas.html">minimal longest
 ascending subsequence</a> algorithm.
+Jim Fehrle reports two bugs in the pseudocode to extract the sequence
+at the end: n_as is not the length of result sequence, and temp should
+be set to terminals[n_as-1], not terminals[n_as] (11 Dec 2006).
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
