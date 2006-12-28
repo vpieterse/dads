@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 28 09:24:12 2006" *by "Paul E. Black"
+# *modified "Thu Dec 28 09:42:44 2006" *by "Paul E. Black"
 
 # $Log: memoize.trm,v $
+# Revision 1.5  2006/12/28 14:44:34  black
+# For better parallelism, remove line setting memo[1] and memo[2] and
+# add the base case test from the "naive" implementation.
+#
 # Revision 1.4  2006/12/28 14:25:42  black
 # clarify that the memo array must be initialized to 0.  Improve wording.
 #
@@ -58,10 +62,10 @@ If instead we memoize (save) the value of fib(n) the first time we
 compute it, the run time is ${\Theta}(n)$.
 <pre>
 allocate array for memo;<br>
-set all values of memo to zero;<br>
-initialize memo[1] and memo[2] to 1;<br>
+set all elements of memo to zero;<br>
 <br>
 fib(n) \{<br>
+   if n is 1 or 2, return 1;<br>
    if memo[n] is not zero, return memo[n];<br>
    memo[n] = fib(n-1) + fib(n-2);<br>
    return memo[n];<br>
