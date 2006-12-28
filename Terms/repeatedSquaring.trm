@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Fri Dec 17 13:58:07 2004" *by "Paul E. Black"
+# *modified "Thu Dec 28 09:34:02 2006" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Revision 1.5  2006/12/28 14:36:29  black
+# Improve presentation of example: put steps to do between rows for state.
+#
 # Revision 1.4  2004/12/17 19:47:51  black
 # Make more XHTML compliant.
 #
@@ -74,30 +77,58 @@ squaring s.
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>1</sup></td>  <td>1</td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Least significant bit of exponent is 1, so multiply a = a * s</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>1</sup></td>  <td>x<sup>1</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Square s</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>2</sup></td>  <td>x<sup>1</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Next bit is 0, so don't multiply</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>2</sup></td>  <td>x<sup>1</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Square s</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>4</sup></td>  <td>x<sup>1</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Next bit is 1, so multiply</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>4</sup></td>  <td>x<sup>5</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Square s</td>
 </tr>
 <tr align="center" valign="bottom">
     <td>x<sup>8</sup></td>  <td>x<sup>5</sup></td>
+    <td></td>
+</tr>
+<tr align="center" valign="bottom">
+    <td></td>  <td></td>
     <td align="left">Highest bit is 1, so multiply</td>
 </tr>
 <tr align="center" valign="bottom">
