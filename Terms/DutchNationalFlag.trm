@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:50:40 1998" *by "Paul E. Black"
-# *modified "Wed Dec 14 12:58:44 2005" *by "Paul E. Black"
+# *modified "Thu Dec 28 11:38:22 2006" *by "Paul E. Black"
 
 # $Log: DutchNationalFlag.trm,v $
+# Revision 1.7  2006/12/28 16:40:46  black
+# Be more precise: time is Theta(n).  Clarify historical note and put it
+# HISTORY section.
+#
 # Revision 1.6  2005/12/14 18:00:17  black
 # IMA partition
 #
@@ -40,7 +44,7 @@ If it belongs to the top group, swap it with the element just below
 the top.  If it belongs in the bottom, swap it with the element just
 above the bottom.  If it is in the middle, leave it.  Update the
 appropriate index.
-Complexity is {O(n)#big-O notation} moves and examinations.
+Complexity is {$\Theta(n)$#\Theta} moves and examinations.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -74,14 +78,16 @@ Prentice-Hall, 1976.
 with the middle group being elements equal to the pivot, lets
 quicksort avoid "resorting"
 elements that equal the pivot.
-</p>
 
-<p>
-The first reference I have to this algorithm is the report of someone
-hearing it at a lecture at the Institute of Computer Science (ICS),
+# any historical notes
+@HISTORY=
+Lloyd Allison reports that Dijkstra used this problem as an exercise
+in program derivation and program proof.  Allison first heard about
+the problem at the Institute of Computer Science (ICS),
 London University, about 1973.  The algorithm is
 named for the problem of ordering red, white, and blue marbles into
 the order of the Dutch national flag.
+# see Notes at http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Sort/Flag/
 # further explanation (pure HTML)
 @LINKS=A <a
 href="http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Sort/Flag/">detailed
