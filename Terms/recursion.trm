@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:31:14 2006" *by "Paul E. Black"
+# *modified "Wed Jan  3 12:04:31 2007" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.8  2007/01/03 17:05:18  black
+# Remove Erwin's Programming with Recursion tutorial - erwin's site is
+# completely gone, and I can't find a new location.
+#
 # Revision 1.7  2006/09/11 14:04:21  black
 # Update tutorial IMPL URL
 #
@@ -70,8 +74,7 @@ Depending on the problem, any of these may be trivial or complex.
 <p>
 Here are some exercises to help you learn recursion.  Although
 recursion may not be the best way to write some of these functions,
-it is good practice.  There are more exercises at Erwin's
-<em>Programming with Recursion</em> tutorial.
+it is good practice.
 <ol>
 <li>Write a function to compute the sum of all numbers from 1 to n.
 
@@ -118,9 +121,6 @@ clarity for a recursive vs. an iterative implementation.
 See the notes for the 
 <a href="http://www.nist.gov/dads/HTML/towersOfHanoi.html">towers of
 Hanoi</a> puzzle for another recursive and iterative solution.
-Erwin's <a
-href="http://personal.vsnl.com/erwin/recursion.htm">Programming with
-Recursion tutorial</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/recur/recur.html">tutorial
