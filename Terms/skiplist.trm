@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:55:15 1998" *by "Paul E. Black"
-# *modified "Mon Mar 20 08:37:22 2006" *by "Paul E. Black"
+# *modified "Wed Jan  3 12:00:39 2007" *by "Paul E. Black"
 
 # $Log: skiplist.trm,v $
+# Revision 1.7  2007/01/03 17:01:08  black
+# Update URL for Walker's skip list tutorial and code.
+#
 # Revision 1.6  2006/03/20 13:37:37  black
 # Add Walker's IMPL
 #
@@ -66,8 +69,9 @@ diagrams and explanation</a> (and code) at ePaperPress.
 # implementation(s) (pure HTML)
 @IMPL=
 Julienne Walker's
-<a href="http://eternallyconfuzzled.com/libs/jsw_slib1.html">tutorial
-and library (C)</a>.
+<a
+href="http://eternallyconfuzzled.com/tuts/datastructures/jsw_tut_skip.aspx">tutorial
+(C)</a>.  Click "Libraries", then "Classic Skip List" for the zip'd code.
 <a href="http://epaperpress.com/sortsearch/txt/skl.txt">Code (C)</a>
 at ePaperPress.
 # author's initials
