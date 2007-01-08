@@ -1,7 +1,10 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Mon Nov 20 09:22:45 2006" *by "Paul E. Black"
+# *modified "Mon Jan  8 08:39:50 2007" *by "Paul E. Black"
 
 # $Log: arithmeticCoding.trm,v $
+# Revision 1.7  2007/01/08 13:51:49  black
+# add BIB of original paper
+#
 # Revision 1.6  2006/11/20 14:26:25  black
 # fix typos
 #
@@ -51,9 +54,10 @@ range (offset) and probability (product) of each character.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
+<strong>Ian H. Witten, Radford M. Neal, and John G. Cleary</strong>,
+<em>Arithmetic Coding for Data Compression</em>, CACM 30(6):520-540,
+June 1987.
 # Algorithms and Theory of Computation Handbook, pages 12-11 to 12-17.
-#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
-#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Shannon-Fano is a minimal prefix code. Huffman is optimal for
