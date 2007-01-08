@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon Apr 17 09:32:57 2006" *by "Paul E. Black"
+# *modified "Mon Jan  8 11:24:16 2007" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.13  2007/01/08 16:25:21  black
+# Update aspell IMPL URL.
+#
 # Revision 1.12  2006/04/17 13:33:40  black
 # Update URL for original article.
 #
@@ -80,8 +83,9 @@ word.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://aspell.sourceforge.net/metaphone/">Metaphone and
-double metaphone (Basic, C, Perl, and C++)</a>.
+@IMPL=
+Many <a href="http://aspell.net/metaphone/">metaphone and
+double metaphone (Basic, C, Perl, and C++)</a> implementations.
 Apache codec implementations of 
 <a href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
