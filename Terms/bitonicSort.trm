@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Mon Nov 28 07:09:31 2005" *by "Paul E. Black"
+# *modified "Wed Jan 10 10:53:56 2007" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.7  2007/01/10 15:55:11  black
+# IMA oblivious algorithm
+#
 # Revision 1.6  2005/11/28 12:16:35  black
 # Add pC++ IMPL.
 #
@@ -38,7 +41,7 @@ Subsets are sorted then merged.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={oblivious algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
