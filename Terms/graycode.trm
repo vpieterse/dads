@@ -1,7 +1,11 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 20 10:31:58 2006" *by "Paul E. Black"
+# *modified "Mon Jan 22 09:41:29 2007" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.14  2007/01/22 14:42:36  black
+# Remove LINK to Jop Sibeyn's image - his account is gone, and I found
+# an obituary for him.
+#
 # Revision 1.13  2006/11/20 15:32:05  black
 # Add BIB of Gray's patent.  Reword reference to Gray (he patented an
 # implementation, not the codes).  Remove description of constructing a
@@ -115,9 +119,6 @@ binary numbers and certain Gray codes.
 Pictures of a 
 <a href="http://www.ida.net/users/tetonsl/railroad/graycode.htm">Gray
 code rotary railroad control</a>.
-Jop Sibeyn's image of a <a
-href="http://users.informatik.uni-halle.de/~jopsi/dpar03/chap2.shtml">Hamiltonian
-cycle in a 5-dimensional hypercube</a> (scroll down to Embeddings).
 # implementation(s) (pure HTML)
 @IMPL=
 # The following is an HTML version of part 6 of the comp.ai.genetic FAQ
