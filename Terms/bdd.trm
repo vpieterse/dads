@@ -1,7 +1,10 @@
 # *created  "Thu Feb  3 16:49:31 2000" *by "Paul E. Black"
-# *modified "Fri Oct 28 09:42:30 2005" *by "Paul E. Black"
+# *modified "Mon Jan 22 09:22:00 2007" *by "Paul E. Black"
 
 # $Log: bdd.trm,v $
+# Revision 1.6  2007/01/22 14:23:20  black
+# Update uni-trier bib LINK
+#
 # Revision 1.5  2005/10/28 13:43:51  black
 # Add some DEFN.  LINK to Lam's slides illustrating BDDs.
 #
@@ -54,7 +57,7 @@ C-35(8):677-691, August, 1986.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 A short bibliography of
-<a href="http://www.informatik.uni-trier.de/~ley/db/bdd/">Binary
+<a href="http://dblp.uni-trier.de/db/bdd/">Binary
 Decision Diagrams</a>.
 <a
 href="http://www.cs.cmu.edu/~bryant/">Randy
