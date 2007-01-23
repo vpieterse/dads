@@ -1,7 +1,11 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Mon Jan  8 08:39:50 2007" *by "Paul E. Black"
+# *modified "Mon Jan 22 16:53:15 2007" *by "Paul E. Black"
 
 # $Log: arithmeticCoding.trm,v $
+# Revision 1.8  2007/01/22 21:54:48  black
+# add BIB for Martin's Range encoding.  Add other references for range
+# encoding.  add URL for Abel's excellent site with IMPL
+#
 # Revision 1.7  2007/01/08 13:51:49  black
 # add BIB of original paper
 #
@@ -54,10 +58,17 @@ range (offset) and probability (product) of each character.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<strong>Ian H. Witten, Radford M. Neal, and John G. Cleary</strong>,
+<strong>Ian H. Witten, Radford M. Neal</strong>, and <strong>John
+G. Cleary</strong>,
 <em>Arithmetic Coding for Data Compression</em>, CACM 30(6):520-540,
 June 1987.
 # Algorithms and Theory of Computation Handbook, pages 12-11 to 12-17.
+</p>
+
+<p>
+<strong>G. N. N. Martin</strong>, <em>Range encoding: an algorithm for
+removing redundancy from a digitised message</em>, Video &amp; Data
+Recording Conference, Southampton, UK, July 1979.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=Shannon-Fano is a minimal prefix code. Huffman is optimal for
@@ -65,17 +76,32 @@ character coding (one character-one code word) and simple to
 program.  Arithmetic coding is even more compact, since it can
 allocate fractional bits, but is more complicated and patents cover
 some uses.
+</p>
+
+<p>
+Range encoding is essentially the same, but uses integers and integer
+ranges instead of fractions.  The implementation in
+<strong>Martin</strong> 1979 is thought to not be covered by patents.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://dogma.net/markn/articles/arith/part1.htm">Theory
+@IMPL=
+J&uuml;rgen Abel's excellent Range and <a
+href="http://www.data-compression.info/Algorithms/AC/">Arithmetic
+Coding resources (C, Java, C++)</a>, with links to papers, people, and
+implementations.
+<a href="http://dogma.net/markn/articles/arith/part1.htm">Theory
 development and implementation (C)</a>.
 An <a href="http://www.nrbook.com/a/bookcpdf/c20-5.pdf">explanation and
 implementation (C)</a>: a PDF document of section 20.5 of
 <em>Numerical Recipes in C</em>.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">survey on data
-compression</a>
+An <a
+href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">introduction to data
+compression</a> methods.
+Wikipedia entries for
+<a href="http://en.wikipedia.org/wiki/Arithmetic_coding">Arithmetic
+coding</a> and <a
+href="http://en.wikipedia.org/wiki/Range_encoding">Range encoding</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/arithmeticCoding.trm,v $
