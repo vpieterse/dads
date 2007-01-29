@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 16:58:01 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:52 2004" *by "Paul E. Black"
+# *modified "Mon Jan 29 09:21:11 2007" *by "Paul E. Black"
 
 # $Log: clique.trm,v $
+# Revision 1.5  2007/01/29 14:21:45  black
+# Suggest a consistent pronunciation - cleek.  Clarify that DEFN is
+# after Malka.
+#
 # Revision 1.4  2004/12/17 17:27:52  black
 # Make more XHTML compliant.
 #
@@ -37,11 +41,13 @@ In other words, a subgraph that is {complete#complete graph}.
 @XREFS={clique problem}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Pronounced "click."
+@NOTES=Standard pronunciation should be "cleek", to rhyme with
+antique, boutique, critique, oblique, physique, pique, technique,
+unique, etc.
 </p>
 
 <p>
-After Lior Malka, 31 July 2003.
+Definition after Lior Malka, 31 July 2003.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
