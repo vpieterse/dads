@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:51:26 1998" *by "Paul E. Black"
-# *modified "Mon Jan 24 13:56:22 2005" *by "Paul E. Black"
+# *modified "Thu Feb  1 11:30:02 2007" *by "Paul E. Black"
 
 # $Log: fullBinaryTree.trm,v $
+# Revision 1.5  2007/02/01 20:58:47  black
+# NOTE that Carrano & Prichard and Sahni have another definition for this.
+#
 # Revision 1.4  2005/01/24 18:57:07  black
 # Change TYPE to S so it appears in the ontology.
 #
@@ -49,7 +52,7 @@ tree.  A {BDD} is a full binary tree.
 <p>
 After Mustafa Ege (ege@eti.cc.hun.edu.tr) Hacettepe University,
 comp.theory, 17 November 1998.  
-Also Carrano &amp; Prichard page 427,
+Also 
 <a href="../terms.html#CLR90">[CLR90, page 95]</a>, and
 <a href="../terms.html#Stand98">[Stand98, page 248]</a>.
 </p>
@@ -57,6 +60,16 @@ Also Carrano &amp; Prichard page 427,
 <p>
 This kind of tree is called "proper" by Goodrich &amp; Tamassia page
 231.
+</p>
+
+<p>
+Sahni,
+# Data Structures, Algorithms, and Applications in Java [2005]
+page 461, and Carrano &amp; Prichard,
+# "Updated Edition" of "Data Abstraction and Problem Solving in JAVA
+page 429,
+define full binary tree the way we define a {perfect binary tree}.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fullBinaryTree.trm,v $
