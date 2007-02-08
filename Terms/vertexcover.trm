@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:29:02 2004" *by "Paul E. Black"
+# *modified "Thu Feb  8 09:10:37 2007" *by "Paul E. Black"
 
 # $Log: vertexcover.trm,v $
+# Revision 1.5  2007/02/08 14:11:01  black
+# add an example of vertex cover as a NOTE
+#
 # Revision 1.4  2004/12/17 17:29:02  black
 # Make more XHTML compliant.
 #
@@ -43,6 +46,16 @@ problem is to find a minimum size set and is {NP-complete}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+An illustration of vertex cover is posting the least number of polices
+to watch every street in a city.  Clearly police should be at
+intersections.  What's the smallest set of intersections?
+</p>
+
+<p>
+To correspond to the vertex cover problem, streets must be straight.
+A curving street is divided into segments such that at any
+intersection, a person can see from that intersection to the next.
+Also, no street goes straight through an intersection.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
