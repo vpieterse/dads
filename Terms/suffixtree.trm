@@ -1,7 +1,11 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Thu Jul 27 12:25:56 2006" *by "Paul E. Black"
+# *modified "Wed Feb 14 13:15:46 2007" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Revision 1.8  2007/02/14 18:22:07  black
+# add BIB for McCreight's original paper and Ukkonen's linear-time
+# construction paper.  add Mark Nelson's IMPL and great explanation.
+#
 # Revision 1.7  2006/07/27 16:34:15  black
 # Add Kreibich's IMPL
 #
@@ -44,6 +48,21 @@ corresponding to the {suffixes} of a given {string} where all
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={suffix array}, {directed acyclic word graph}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Edward M. McCreight</strong>, <em>A space-economical suffix
+tree construction algorithm</em>, Journal of the ACM, 23:262-272,
+1976.
+</p>
+
+<p>
+<strong>Esko Ukkonen</strong>, <em>On-line construction of suffix
+trees</em>, Algorithmica, 14(3):249-260, September 1995.<br>
+A linear time, forward construction algorithm.  See
+<a href="http://en.wikipedia.org/wiki/Ukkonen%27s_algorithm">Wikipedia
+entry</a> for links to PDF of Ukkonen's paper.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A suffix tree is a Patricia tree corresponding to the suffixes
 of a given string.  A directed acyclic word graph (DAWG) is a more
@@ -66,6 +85,10 @@ Christian Kreibich's
 <a href="http://www.cl.cam.ac.uk/~cpk25/libstree/">libstree (C)</a>
 including depth- and breadth-first traversal, string update, and
 examples like LCS.
+Mark Nelson's great 
+<a href="http://maya.cs.depaul.edu/~classes/ds575/Suffix_Trees/">Fast
+String Searching With Suffix Trees (C++)</a> explains Ukkonen's
+linear-time algorithm.  Dr. Dobb's Journal, August, 1996.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/suffix-trees.shtml">(C++
 and Pascal)</a>.
