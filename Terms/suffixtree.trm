@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Wed Feb 14 13:15:46 2007" *by "Paul E. Black"
+# *modified "Fri Feb 16 12:40:12 2007" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Revision 1.9  2007/02/16 17:42:33  black
+# Use Nelson's web site, instead of the DePaul copy.
+#
 # Revision 1.8  2007/02/14 18:22:07  black
 # add BIB for McCreight's original paper and Ukkonen's linear-time
 # construction paper.  add Mark Nelson's IMPL and great explanation.
@@ -86,7 +89,7 @@ Christian Kreibich's
 including depth- and breadth-first traversal, string update, and
 examples like LCS.
 Mark Nelson's great 
-<a href="http://maya.cs.depaul.edu/~classes/ds575/Suffix_Trees/">Fast
+<a href="http://marknelson.us/1996/08/01/suffix-trees/">Fast
 String Searching With Suffix Trees (C++)</a> explains Ukkonen's
 linear-time algorithm.  Dr. Dobb's Journal, August, 1996.
 <a
