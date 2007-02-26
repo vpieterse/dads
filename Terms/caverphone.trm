@@ -1,7 +1,11 @@
 # *created  "Fri Apr 16 07:59:55 2004" *by "Paul E. Black"
-# *modified "Wed Feb  2 14:43:52 2005" *by "Paul E. Black"
+# *modified "Mon Feb 26 11:19:13 2007" *by "Paul E. Black"
 
 # $Log: caverphone.trm,v $
+# Revision 1.7  2007/02/26 16:20:40  black
+# remove IMPLs at caversham.  Apparently they've reorganized the
+# computers.  I can't find a new link, if there is one.
+#
 # Revision 1.6  2005/02/02 19:44:00  black
 # Add {algorithm} to IMA {phonetic coding} for ontology
 #
@@ -28,7 +32,7 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=An algorithm to code English words phonetically.
+@DEFN=An algorithm to code English names phonetically.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -65,14 +69,7 @@ matching system."
 @HISTORY=
 
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://caversham.otago.ac.nz/files/working/ctp150804.pdf">PDF
-document comparing soundex, metaphone, and Caverphone 2.0
-(Python)</a>.
-<a
-href="http://caversham.otago.ac.nz/files/working/ctp060902.pdf">PDF
-document comparing soundex, metaphone, NYSIIS, and Caverphone
-(JavaScript)</a>.
+@IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
