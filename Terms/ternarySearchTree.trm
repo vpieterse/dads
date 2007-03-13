@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon Jul 17 10:40:10 2006" *by "Paul E. Black"
+# *modified "Tue Mar 13 11:46:06 2007" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.6  2007/03/13 16:48:15  black
+# Add Richard McGraw's explanation and IMPL.  LINK wikipedia entry.
+#
 # Revision 1.5  2006/07/17 14:41:31  black
 # Update de Halleux's codeproject URL.
 #
@@ -65,10 +68,19 @@ Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
+The 
+<a href="http://en.wikipedia.org/wiki/Ternary_search_tree">wikipedia
+entry</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
 demos, and code (C)</a>,
 <a href="http://www.octavian.org/cs/software.html">(C)</a>.
+Richard McGraw's <a
+href="http://kolchak.sdf-eu.org/res/ctst-README.html">explanation,
+example, and links to other implementations (C++, Java)</a> and his
+implementations called
+<a
+href="http://kolchak.sdf-eu.org/res/">ctst-dist-0.30.tar.* (C)</a>.
 <a href="http://www.codeproject.com/cs/algorithms/tst.asp">Ternary Search
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
