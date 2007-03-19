@@ -1,7 +1,11 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Mon Apr 25 09:10:27 2005" *by "Paul E. Black"
+# *modified "Mon Mar 19 11:48:15 2007" *by "Paul E. Black"
 
 # $Log: americanFlagSort.trm,v $
+# Revision 1.6  2007/03/19 16:49:45  black
+# Remove Ranjan Sinha IMPL - he moved to U Melbourne (cs.mu.oz) and his
+# old pages are gone (or inaccessible).
+#
 # Revision 1.5  2005/04/25 13:11:10  black
 # Remove shef.ac.uk LINK - page is gone.
 #
@@ -60,8 +64,7 @@ Computing Systems, 6(1):5-27, 1993.
 @NOTES=This works especially well when sorting a byte at a time,
 using 256 buckets.
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://goanna.cs.rmit.edu.au/~rsinha/resources/source/allsorts/mbmradix.c">(C)</a>.
+@IMPL=
 It is <a
 href="http://citeseer.ist.psu.edu/mcilroy93engineering.html">program C (C)</a>
 in the paper.
