@@ -1,7 +1,10 @@
 # *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
-# *modified "Mon Mar 13 08:56:42 2006" *by "Paul E. Black"
+# *modified "Mon Mar 19 11:53:19 2007" *by "Paul E. Black"
 
 # $Log: dual.trm,v $
+# Revision 1.10  2007/03/19 16:54:19  black
+# Remove G&G/articles/Torus.pdf algorithm for finding dual - web site gone.
+#
 # Revision 1.9  2006/03/13 13:57:32  black
 # Remove LINK to dual of a Venn diagram - connection timeout since Aug 2005.
 #
@@ -55,9 +58,6 @@ which is the boundary between the adjacent regions.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=<img src="Images/dual.gif" height=266 width=303 align=right>
-An <a
-href="http://bkocay.cs.umanitoba.ca/G&G/articles/Torus.pdf">algorithm
-for finding the dual</a> (PDF format) is in Fig. 2.1, page 4.
 </p>
 
 <p>
