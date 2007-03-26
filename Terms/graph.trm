@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Fri Sep  1 16:50:10 2006" *by "Paul E. Black"
+# *modified "Mon Mar 26 10:52:35 2007" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.14  2007/03/26 15:52:56  black
+# XREF graph partition
+#
 # Revision 1.13  2006/09/11 14:05:54  black
 # NOTE a good survey article on graph generators
 #
@@ -87,7 +90,7 @@ Relations between graphs: {isomorphic}, {homeomorphic}, {dual},
 Properties: {diameter}, {degree},
 Implementations: 
 {adjacency-list representation}, {adjacency-matrix representation}
-Other: {graph drawing}
+Other: {graph drawing}, {graph partition}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Graphs are so general that many other data structures, such as
