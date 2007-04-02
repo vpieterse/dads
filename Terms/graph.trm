@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Mar 26 10:52:35 2007" *by "Paul E. Black"
+# *modified "Mon Apr  2 09:51:53 2007" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.15  2007/04/02 13:52:50  black
+# Update URL for GTL IMPL
+#
 # Revision 1.14  2007/03/26 15:52:56  black
 # XREF graph partition
 #
@@ -151,7 +154,7 @@ and display directed and undirected graphs,
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">Graph
 generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
-<a href="http://infosun.fmi.uni-passau.de/GTL/">GTL - the Graph
+<a href="http://www.infosun.fmi.uni-passau.de/GTL/">GTL - the Graph
 Template Library (C)</a>,
 <a href="http://www.boost.org/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</a>
