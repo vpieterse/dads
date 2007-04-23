@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:27:34 2006" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:20:40 2007" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.8  2007/04/23 13:20:44  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.7  2006/09/11 14:04:10  black
 # Update tutorial IMPL URL
 #
@@ -71,7 +74,7 @@ such as a {queue} or a {stack}.
 # John Morris morris@ee.uwa.edu.au
 an <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/lists.html">introduction</a>,
-a Java applet <a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkListAppl.html">demonstration</a>.
+a Java applet <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LinkListAppl.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="http://www.cs.rpi.edu/~musser/gp/lists.html">explanations,
