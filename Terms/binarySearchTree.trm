@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Wed May 31 08:51:46 2006" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:19:29 2007" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.17  2007/04/23 13:19:51  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.16  2006/05/31 12:51:48  black
 # Improve attribution: change Goletas' to Maksim Goleta's
 #
@@ -80,7 +83,7 @@ pointers, but may have a variety of constraints on how it is composed.
 # further explanation (pure HTML)
 @LINKS=
 A <a
-href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BST.html">demonstration</a>.
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BST.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
