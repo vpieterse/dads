@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:21:01 2007" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:34:57 2007" *by "Paul E. Black"
 
 # $Log: preorderTraversal.trm,v $
+# Revision 1.5  2007/04/23 13:35:18  black
+# Mukundan gives an IMPL
+#
 # Revision 1.4  2007/04/23 13:21:04  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -56,10 +59,11 @@ begin<br>
 end
 </pre>
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BTree.html">animation (Java)</a>
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Mukundan's <a
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BTree.html">animation (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/preorderTraversal.trm,v $
