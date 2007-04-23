@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Mon Dec 19 11:07:33 2005" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:20:27 2007" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Revision 1.9  2007/04/23 13:20:33  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.8  2005/12/19 16:07:50  black
 # Update Princeton URL
 #
@@ -76,7 +79,7 @@ of several sort algorithms, with particular emphasis on insertion
 sort; more <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstrations</a>;
 a
-<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/ISort.html">demonstration</a>
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ISort.html">animation (Java)</a>
 of insertion sort.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.cs.ubc.ca/spider/harrison/Java/InsertionSortAlgorithm.java">(Java)</a>.
