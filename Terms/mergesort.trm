@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Apr 18 09:17:33 2005" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:20:45 2007" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Revision 1.10  2007/04/23 13:20:48  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.9  2005/04/18 13:18:37  black
 # Remove link to David Neto's recurrence relation analysis and IMPL -
 # account gone.
@@ -68,7 +71,7 @@ Run time is {$\Theta$}(n log n).
 Katajainen &amp; Pasanen.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/MSort.html">demonstration</a>.
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
 
