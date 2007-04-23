@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:19:29 2007" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:39:20 2007" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.18  2007/04/23 13:39:38  black
+# Update UCSC IMPL
+#
 # Revision 1.17  2007/04/23 13:19:51  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -98,7 +101,7 @@ Maksim Goleta's
 (C#)</a> implementing singly- and doubly-linked lists, binary search
 trees, and AVL trees.
 <a
-href="http://www.cse.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
+href="http://www.soe.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
