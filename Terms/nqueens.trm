@@ -1,7 +1,10 @@
 # *created  "Mon Nov  1 11:06:29 1999" *by "Paul E. Black"
-# *modified "Mon Dec 18 08:55:54 2006" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:20:49 2007" *by "Paul E. Black"
 
 # $Log: nqueens.trm,v $
+# Revision 1.5  2007/04/23 13:20:57  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.4  2006/12/18 13:56:25  black
 # Remove Fred Adler's 8 Queens page - gone.
 #
@@ -39,7 +42,7 @@ queen can attack another.  Efficiently find all possible placements.
 values of $n$.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/NQP.html">demonstration</a>
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/NQP.html">animation (Java)</a>
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
