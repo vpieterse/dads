@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 17 16:46:40 2006" *by "Paul E. Black"
+# *modified "Mon Apr 23 13:37:33 2007" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.8  2007/04/23 17:43:04  black
+# Add BIB for original paper.
+#
 # Revision 1.7  2006/04/17 20:47:26  black
 # Remove duplicate Copyright notice.
 #
@@ -44,6 +47,13 @@ with bounded error probability.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Las Vegas algorithm}, {RP}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# reference copied, not checked
+<strong>Nicholas Metropolis</strong> and <strong>Stanislaw Ulam</strong>,
+<em>The Monte Carlo method</em>, Journal of the American Statistical
+Association, 44(247):335-341, 1949.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
