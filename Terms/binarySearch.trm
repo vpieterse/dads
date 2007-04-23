@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Thu Oct 27 09:59:37 2005" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:13:44 2007" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.12  2007/04/23 13:43:24  black
+# Update URL for Mukundan's IMPL
+#
 # Revision 1.11  2005/10/27 13:59:46  black
 # Update John Morris' URL
 #
@@ -90,12 +93,15 @@ Thanks to Colin D. Wright, 1 June 2005.
 <p>
 The implementation of search in C uses {0-based indexing}.
 # further explanation (pure HTML)
-@LINKS=<a href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/BSearch.html">demonstration</a>.
+@LINKS=
 # John Morris morris@ee.uwa.edu.au
 <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html#binary-search">explanation</a>
 # implementation(s) (pure HTML)
 @IMPL=
+Mukudan's <a
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
+(Java)</a>. 
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a> where indexes are 0 to n, inclusive. That is, n is the highest
