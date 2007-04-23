@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:21:34 2007" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:24:21 2007" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Revision 1.6  2007/04/23 13:25:00  black
+# Mukundan gives an IMPL
+#
 # Revision 1.5  2007/04/23 13:21:36  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -60,10 +63,12 @@ Archive</a> gives
 <a
 href="http://brainyplanet.com/index.php/Hanoi%20Solution">background
 and a recursive and an iterative solution</a>.
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ToHdb.html">animation (Java)</a>
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://javascript.internet.com/games/hanoi.html">(JavaScript)</a>
+Mukundan's <a
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ToHdb.html">animation
+(Java)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/towersOfHanoi.trm,v $
