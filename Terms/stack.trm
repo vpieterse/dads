@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:33:40 2006" *by "Paul E. Black"
+# *modified "Mon Apr 23 09:21:31 2007" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Revision 1.14  2007/04/23 13:21:34  black
+# Update URL for Mukundan's Java demos and code
+#
 # Revision 1.13  2006/09/11 14:04:38  black
 # Update tutorial IMPL URL
 #
@@ -107,10 +110,10 @@ rotate(i, S), move i items from top to bottom or vice versa.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/stacks.html">examples
 and code</a>.
 Demonstration with <a
-href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/StackAppl.html">dynamic
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/StackAppl.html">dynamic
 array</a> and
 <a
-href="http://www.cosc.canterbury.ac.nz/people/mukundan/dsal/LinkStackAppl.html">linked
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LinkStackAppl.html">linked
 list</a> implementations.
 # implementation(s) (pure HTML)
 @IMPL=
