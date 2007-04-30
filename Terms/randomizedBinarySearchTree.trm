@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
-# *modified "Mon Jul 11 09:37:04 2005" *by "Paul E. Black"
+# *modified "Mon Apr 30 10:38:37 2007" *by "Paul E. Black"
 
 # $Log: randomizedBinarySearchTree.trm,v $
+# Revision 1.6  2007/04/30 14:38:51  black
+# IMA treap
+#
 # Revision 1.5  2005/07/11 13:38:50  black
 # Remove LINKS to papers at UPC - searching the tech reports didn't find
 # them, either.
@@ -35,7 +38,7 @@ priority.  Updates keep priorities in {heap} order instead of keeping
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={treap}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -43,7 +46,7 @@ priority.  Updates keep priorities in {heap} order instead of keeping
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={randomized search tree}, {treap}
+@XREFS={randomized search tree}
 
 # bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
 @BIB=<strong>Conrado Martinez and Salvador Roura</strong>,
@@ -55,7 +58,7 @@ priority.  Updates keep priorities in {heap} order instead of keeping
 <strong>Jean Vuillemin</strong>, <em>A Unifying Look at Data
 Structures</em>, CACM, 23(4):229-239, April 1980.
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Also called a {treap}, but strictly a treap does not define how
+@NOTES=Also called a treap, but strictly a treap does not define how
 priorities are assigned.
 </p>
 
