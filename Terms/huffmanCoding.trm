@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Dec  5 10:52:54 2006" *by "Paul E. Black"
+# *modified "Mon Apr 30 11:29:53 2007" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.13  2007/04/30 15:32:42  black
+# IMA greddy algorithm.  Coding tree is INME.  Refer to DADS prefix code
+# entry, and move Wikipedia entry to DADS entry.
+#
 # Revision 1.12  2006/12/05 16:03:41  black
 # XREF order-preserving Huffman coding.  LINK wikipedia prefix code
 # article.  Add WEB name: compression.  Improve defn wording a bit.
@@ -66,13 +70,13 @@ and are coded with many bits.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={greedy algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT={adaptive Huffman coding}, {k-ary Huffman coding}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={full binary tree}, {priority queue}, {greedy algorithm}
+@INME={coding tree}, {full binary tree}, {priority queue}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={order-preserving Huffman coding}, {arithmetic coding}, 
 {optimal merge}, {Shannon-Fano coding}
@@ -97,15 +101,13 @@ numbers, Lucas numbers and Huffman codes</a>.
 Joining trees by frequency is the same as merging sequences by length
 in {optimal merge}.  See the example there.
 Since a node with only one child is not optimal, any Huffman
-coding is a {full binary tree}.
+coding corresponds to a {full binary tree}.
 </p>
 
 <p>
 Huffman coding is one of many <a
 href="http://en.wikipedia.org/wiki/Category:Lossless_compression_algorithms">lossless
-compression algorithms</a>.  This algorithm produces a
-<a
-href="http://en.wikipedia.org/wiki/Prefix_code">prefix code</a>.
+compression algorithms</a>.  This algorithm produces a {prefix code}.
 </p>
 
 <p>
