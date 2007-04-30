@@ -1,7 +1,10 @@
 # *created  "Thu Nov 16 16:52:51 2000" *by "Paul E. Black"
-# *modified "Mon Sep 12 10:33:05 2005" *by "Paul E. Black"
+# *modified "Mon Apr 30 10:38:34 2007" *by "Paul E. Black"
 
 # $Log: treap.trm,v $
+# Revision 1.3  2007/04/30 14:39:32  black
+# RBST is a VARIANT.  NOTE that RBST is sometimes called a treap.
+#
 # Revision 1.2  2006/09/11 14:01:24  black
 # misc. updates and improvements
 #
@@ -21,13 +24,13 @@
 # Generalization: "I am a kind of ..."
 @IMA={binary search tree}
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={randomized binary search tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={randomized binary search tree}
+@XREFS=
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -39,6 +42,11 @@ Symposium on Foundations of Computer Science, pages 540-545, Research
 Triangle Park, North Carolina, 30 October-1 November 1989. IEEE.
 # any notes.  these are not printed in the final dictionary
 @NOTES=The name comes from "{tree}" and "{heap}".
+</p>
+
+<p>
+Some call "randomized binary search trees" treaps, but strictly a
+treap does not define how priorities are assigned.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
