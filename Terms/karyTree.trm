@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 13:58:29 1999" *by "Paul E. Black"
-# *modified "Tue Nov 28 15:45:14 2006" *by "Paul E. Black"
+# *modified "Fri May  4 14:41:27 2007" *by "Paul E. Black"
 
 # $Log: karyTree.trm,v $
+# Revision 1.7  2007/05/04 18:45:32  black
+# NOTE some ways of implementing nodes.
+#
 # Revision 1.6  2006/11/28 20:45:55  black
 # fix typo
 #
@@ -48,8 +51,20 @@
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A k-ary tree may be thought of as a multiway tree limited to
+@NOTES=A k-ary tree may be thought of as a {multiway tree} limited to
 <strong>k</strong> children.
+</P>
+
+<P>
+Each node may be implemented as an {array}, a {linked list}, a {tree}
+(see {binary tree representation of trees}), or more elaborate schemes
+such as mentioned at multiway tree.
+</P>
+
+<P>
+In an array implementation for a tree without insertions, nodes might
+be overlapped in one big array, since many entries are note used.
+Such an improvement is also referred to as "packed" or "compressed".
 # further explanation (pure HTML)
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
