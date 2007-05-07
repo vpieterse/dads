@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Mar 17 14:05:25 2006" *by "Paul E. Black"
+# *modified "Mon May  7 08:27:20 2007" *by "Paul E. Black"
 
 # $Log: stirlingsApproximation.trm,v $
+# Revision 1.6  2007/05/07 12:29:05  black
+# Remove Luschny's URL - for several weeks, server has been empty,
+# except for a notice that a new web site is in development.
+#
 # Revision 1.5  2006/03/17 19:06:58  black
 # Add Luschny's approximation page.  Put Bart's Colorado page last,
 # since it only has one approximation.
@@ -46,9 +50,6 @@ See Eric W. Weisstein,
 <a
 href="http://mathworld.wolfram.com/StirlingsApproximation.html">Stirling's
 Approximation</a> for a derivation and other approximations.
-Peter Luschny gives <a
-href="http://www.luschny.de/math/factorial/approx/SimpleCases.html">many
-approximations to factorial</a> including relative errors and advice.
 A slightly different <a
 href="http://ece.colorado.edu/~bart/book/stirling.htm">approximation
 and relative errors</a>.
