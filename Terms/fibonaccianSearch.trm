@@ -1,7 +1,10 @@
 # *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
-# *modified "Mon Dec  5 09:42:33 2005" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:37 2007" *by "Paul E. Black"
 
 # $Log: fibonaccianSearch.trm,v $
+# Revision 1.6  2007/05/14 14:01:38  black
+# Update URL to https for Woop
+#
 # Revision 1.5  2005/12/05 14:43:14  black
 # Add Lourakis' C IMPL.
 #
@@ -68,7 +71,7 @@ the next position.
 Manolis Lourakis'
 <a href="http://www.ics.forth.gr/~lourakis/fibsrch/">fibsrch (C)</a>.
 Worst-case behavior <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
+href="https://www.auto.tuwien.ac.at/~blieb/woop/fibsearc.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.  (Interpolation
 and secant search "guess more precisely where the key being sought
 falls".)
