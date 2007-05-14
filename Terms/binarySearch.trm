@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:44:26 2007" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:23 2007" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.14  2007/05/14 14:01:29  black
+# Update URL to https for Woop
+#
 # Revision 1.13  2007/04/23 13:44:34  black
 # fix typo
 #
@@ -112,7 +115,7 @@ index of the 0-based array, and
 possible key indexes, k, are <em>low &lt; k &lt;= high</em> in the loop.
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/binary-search.html">(Scheme)</a>,
 Worst-case behavior <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated
+href="https://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
 # author's initials
 @AUTHOR=PEB
