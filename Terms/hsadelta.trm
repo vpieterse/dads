@@ -1,7 +1,10 @@
 # *created  "Thu Jul  6 15:58:18 2006" *by "Paul E. Black"
-# *modified "Fri Jul  7 10:46:15 2006" *by "Paul E. Black"
+# *modified "Mon May 14 10:11:30 2007" *by "Paul E. Black"
 
 # $Log: hsadelta.trm,v $
+# Revision 1.2  2007/05/14 14:13:02  black
+# Update Agarwal URL in BIB
+#
 # Revision 1.1  2006/07/07 14:47:21  black
 # Initial revision
 #
@@ -53,7 +56,7 @@ compression</em>, IBM Journal of Research &amp; Development,
 50(1):149-166, January 2006.
 <br>
 Available from <a
-href="http://www.research.ibm.com/journal/rd/501/agarwal.html">http://www.research.ibm.com/journal/rd/501/agarwal.html</a>
+href="http://researchweb.watson.ibm.com/journal/rd/501/agarwal.html">http://www.research.ibm.com/journal/rd/501/agarwal.html</a>
 DOI: 10.1147/rd.501.0149.
 
 # any notes.  these are not printed in the final dictionary
