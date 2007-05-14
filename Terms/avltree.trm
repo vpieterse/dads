@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Mon May  7 08:05:27 2007" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:00 2007" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.19  2007/05/14 14:01:13  black
+# Update URL to https for Woop
+#
 # Revision 1.18  2007/05/07 12:07:43  black
 # Update URL for McGraw's IMPL
 #
@@ -146,7 +149,7 @@ Richard McGraw's
 <a
 href="http://dasnar.sdf-eu.org/res/">Navl-latest.tar.bz2 (C#)</a>.
 Worst-case behavior of <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/avl.html">traversal,
+href="https://www.auto.tuwien.ac.at/~blieb/woop/avl.html">traversal,
 annotated for real time (WOOP/ADA)</a>.
 Herbert Glarner's implementation in
 <a href="http://herbert.wikispaces.com/AVL Library">(Linoleum)</a>.
