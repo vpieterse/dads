@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:48 2004" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:35 2007" *by "Paul E. Black"
 
 # $Log: fibonacciNumber.trm,v $
+# Revision 1.7  2007/05/14 14:01:37  black
+# Update URL to https for Woop
+#
 # Revision 1.6  2004/12/17 17:23:48  black
 # Make more XHTML compliant.
 #
@@ -122,7 +125,7 @@ href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/">Fibonacci
 Numbers and the Golden Section</a>.
 # implementation(s) (pure HTML)
 @IMPL=Worst-case behavior to <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/fibnum.html">generate
+href="https://www.auto.tuwien.ac.at/~blieb/woop/fibnum.html">generate
 nth number, annotated for real time (WOOP/ADA)</a>,
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/fibonacci.html">(Scheme)</a>.
 # author's initials
