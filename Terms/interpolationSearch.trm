@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Mon Jul 31 14:00:52 2006" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:41 2007" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Revision 1.9  2007/05/14 14:01:43  black
+# Update URL to https for Woop
+#
 # Revision 1.8  2006/07/31 18:03:10  black
 # Restore UCI IMPL - flaws are reported to have been corrected.
 #
@@ -93,7 +96,7 @@ binary search only takes log(n) comparisons anyway.
 href="http://www.niksula.cs.hut.fi/~trakla/book/english/node3.html">(Java)</a>.
 <a href="http://www.ics.uci.edu/~dan/class/161/notes/2/Interpolation.html">C-like pseudo-code</a>.
 <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
+href="https://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
 <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
 # author's initials
