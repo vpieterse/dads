@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Mon Jan 30 09:30:18 2006" *by "Paul E. Black"
+# *modified "Mon May 14 10:01:44 2007" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.15  2007/05/14 14:01:45  black
+# Update URL to https for Woop
+#
 # Revision 1.14  2006/01/30 14:30:53  black
 # Remove Passport IMPL, ProcessSaveFile.txt, not found.
 #
@@ -254,7 +257,7 @@ sort (Java)</a>.
 Sedgewick's <a href="http://www.cs.princeton.edu/~rs/shell/">Analysis
 of Shellsort and Related Algorithms (C)</a>;
 Worst-case behavior <a
-href="http://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
+href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography;
 <a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>;
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</a>,
