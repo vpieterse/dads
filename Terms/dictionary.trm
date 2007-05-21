@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 16:14:42 2005" *by "Paul E. Black"
+# *modified "Mon May 21 08:32:20 2007" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.10  2007/05/21 12:44:36  black
+# Add Herbert Glarner's IMPL
+#
 # Revision 1.9  2005/01/11 21:15:27  black
 # Specify that IMA ADT.
 #
@@ -115,6 +118,9 @@ Kaz Kylheku's
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>
 implementing dictionary, dynamic hash table, red-black tree, and
 doubly linked list.
+Herbert Glarner's
+<a href="http://herbert.gandraxa.com/herbert/dic.asp">Patricia tree
+(Linoleum)</a> implementation.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dictionary.trm,v $
