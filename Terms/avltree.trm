@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Mon May 14 10:01:00 2007" *by "Paul E. Black"
+# *modified "Mon May 21 08:38:34 2007" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.20  2007/05/21 12:44:53  black
+# Update URL for Herbert Glarner's IMPL
+#
 # Revision 1.19  2007/05/14 14:01:13  black
 # Update URL to https for Woop
 #
@@ -152,7 +155,7 @@ Worst-case behavior of <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/avl.html">traversal,
 annotated for real time (WOOP/ADA)</a>.
 Herbert Glarner's implementation in
-<a href="http://herbert.wikispaces.com/AVL Library">(Linoleum)</a>.
+<a href="http://herbert.gandraxa.com/herbert/avl.asp">(Linoleum)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/avltree.trm,v $
