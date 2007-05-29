@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Mar 17 13:46:24 2006" *by "Paul E. Black"
+# *modified "Tue May 29 09:30:45 2007" *by "Paul E. Black"
 
 # $Log: factorial.trm,v $
+# Revision 1.7  2007/05/29 13:39:36  black
+# Remove Luschny's IMPL - server has been "under construction" for over
+# a month.
+#
 # Revision 1.6  2006/03/17 18:47:49  black
 # Fix IMPL reference: Luschny's page now has more than 14 implementations.
 #
@@ -56,11 +60,6 @@ e<sup>-x</sup>dx = 1$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Peter Luschny's
-<a
-href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm">
-fast factorial algorithms (Java and C#)</a> including benchmarks and
-advice.
 Calum Grant's
 <a href="http://visula.org/calum/fact2.cpp">prime sieve fast factorial
 (C++)</a>.
