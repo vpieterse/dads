@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Nov 10 09:09:52 2005" *by "Paul E. Black"
+# *modified "Mon Jun 11 08:17:09 2007" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.8  2007/06/11 12:26:13  black
+# Change WikiSource IMPL, which is gone, to WikiBooks.
+#
 # Revision 1.7  2005/11/10 14:32:52  black
 # LINK to Wikipedia entry and Wikisource IMPL
 #
@@ -74,7 +77,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 <a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
-entry</a>.
+entry</a> which has links to implementations.
 March 2003
 <a
 href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
@@ -84,9 +87,8 @@ of Levenshtein</a> at a reception.
 (Java, C++, Visual Basic)</a>, includes a great explanation and links
 to code in Perl, C, JavaScript, Python, and many more languages.
 Many implementations
-<a href="http://en.wikisource.org/wiki/Levenshtein_distance">(Lisp,
-Haskell, Java, Python, Ruby, Scheme, Visual Basic, Visual
-FoxPro)</a>.
+<a href="http://en.wikibooks.org/wiki/Algorithm_implementation/Strings/Levenshtein_distance">(Ada,
+C++, Lisp, Io, Java, OCaml, Octave, PHP, Python, Ruby, Visual Basic)</a>.
 
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
