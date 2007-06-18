@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
-# *modified "Fri Feb 24 09:12:29 2006" *by "Paul E. Black"
+# *modified "Mon Jun 18 08:58:35 2007" *by "Paul E. Black"
 
 # $Log: byzantine.trm,v $
+# Revision 1.5  2007/06/18 12:58:39  black
+# Update URL for cs.wisc.edu
+#
 # Revision 1.4  2006/02/24 14:12:33  black
 # Add first paper on subject, by Akkoyunlu, Ekanadham, and Huber in 1975.
 #
@@ -84,7 +87,7 @@ attack, how can that general be sure that the message has reached the
 other general and the other general will attack, too?
 # further explanation (pure HTML)
 @LINKS=Summary of the 1982 <a
-href="http://www.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">paper
+href="http://pages.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">paper
 by Lamport, Shostak, and Pease</a>.
 # implementation(s) (pure HTML)
 @IMPL=
