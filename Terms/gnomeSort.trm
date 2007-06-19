@@ -1,7 +1,10 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Wed Aug 24 10:21:21 2005" *by "Paul E. Black"
+# *modified "Tue Jun 19 12:54:31 2007" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.5  2007/06/19 16:55:04  black
+# fix grammar error
+#
 # Revision 1.4  2005/08/24 14:23:56  black
 # XREF bidirectional bubble sort, instead of bubble sort, and NOTE why
 # it is similar.  Also NOTE compexity.  Clarify NOTE on similarity to
@@ -64,7 +67,7 @@ the beginning.
 This can be seen as an {insertion sort} which only keeps track of the
 current item.  After having moved an item backward into place, it
 "walks" forward, checking the order of items as it goes, until it
-reaches the next item is out of place, which is at beyond where
+reaches the next item is out of place, which is beyond where
 progress left off.
 </p>
 
