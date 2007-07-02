@@ -1,7 +1,11 @@
 # *created  "Fri Mar 31 08:58:00 2000" *by "Paul E. Black"
-# *modified "Mon Jan 10 10:48:03 2005" *by "Paul E. Black"
+# *modified "Mon Jul  2 10:07:52 2007" *by "Paul E. Black"
 
 # $Log: cuttingStock.trm,v $
+# Revision 1.4  2007/07/02 14:11:19  black
+# Remove OTC liks - the Guide seems to be gone and the site does not
+# appear to be maintained.
+#
 # Revision 1.3  2005/01/10 15:48:15  black
 # Update Northwestern University URL
 #
@@ -24,25 +28,21 @@ variant of the {bin packing problem}.  It is {NP-complete}.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={strip packing} is a one-dimensional variant
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={knapsack problem}, a one-dimensional variant is the {strip
+@XREFS={knapsack problem}, {optimization problem}
 
-packing} problem, {optimization problem}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=This problem arises often in manufacturing.  For instance,
 deciding how to cut pieces for pants from cloth or shapes from sheet
 metal.  
 # further explanation (pure HTML)
-@LINKS=The <a
-href="http://www-fp.mcs.anl.gov/otc/Guide/CaseStudies/cutting/">Cutting
-Stock Problem</a>: An Application of Integer Linear Programming at the
-<a href="http://www.ece.northwestern.edu/OTC/">Optimization Technology
-Center</a>.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.ece.northwestern.edu/OTC/OTCsoftware.htm">linear and
 nonlinear programming and algebra packages (C and Fortran)</a>
