@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Mon Jan 23 11:07:10 2006" *by "Paul E. Black"
+# *modified "Mon Jul  2 09:46:28 2007" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Revision 1.5  2007/07/02 13:47:35  black
+# Remove Stockton's IMPL - removed from server due to bandwidth.
+# Improve some explanations.
+#
 # Revision 1.4  2006/01/23 16:07:33  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -80,7 +84,7 @@ integer, that is, 4, 6, 8, 10, 12, etc.
 </tr>
 <tr>
 <td colspan="26">
-The next unmarked integer is 3, so it is prime, and we mark every
+The next unmarked integer is 3, so it is prime.  We mark every
 third integer, i.e., 6, 9, 12, etc.  Note that we mark 6, 12, 18,
 etc. again.
 </td>
@@ -128,8 +132,8 @@ From here we find the primes 7, 11, 13, 17, 19, and 23.
 
 
 <p>
-To optimize, when we find the prime $n$, we can begin marking at
-$n<sup>2</sup>$, since any composite less than that is a multiple of
+When we find the prime $n$, we can begin marking at $n<sup>2</sup>$.  
+Why?  Any composite less than $n<sup>2</sup>$ is a multiple of
 a lesser prime, and so will have been marked earlier.  As a corollary,
 we can stop marking when $n<sup>2</sup>$ is greater than our range.
 That is, any unmarked numbers greater than the square root of the
@@ -153,15 +157,6 @@ Luschny's
 <a
 href="http://www.javajungle.de/math/primes/PrimeNumberSieve.html">(Java
 5)</a> implementation.
-Stockton's Pascal Maths Page gives <a
-href="http://www.merlyn.demon.co.uk/pas-math.htm#Primes">links to
-three implementations</a>:
-<a href="http://www.merlyn.demon.co.uk/programs/eratost1.pas">bit
-array (Pascal)</a>,
-<a href="http://www.merlyn.demon.co.uk/programs/eratost2.pas">bit
-array for odd numbers (Pascal)</a>,
-<a href="http://www.merlyn.demon.co.uk/programs/eratost3.pas">packed
-bit array for odd numbers (Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sieve.trm,v $
