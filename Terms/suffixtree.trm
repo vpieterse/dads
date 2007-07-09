@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Fri Feb 16 12:40:12 2007" *by "Paul E. Black"
+# *modified "Mon Jul  9 10:53:57 2007" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Revision 1.10  2007/07/09 14:55:39  black
+# Update Kreibich's libstree IMPL
+#
 # Revision 1.9  2007/02/16 17:42:33  black
 # Use Nelson's web site, instead of the DePaul copy.
 #
@@ -85,7 +88,7 @@ and suffix trees</a>.
 href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">string matching
 and pattern discovery algorithms (C)</a>.
 Christian Kreibich's
-<a href="http://www.cl.cam.ac.uk/~cpk25/libstree/">libstree (C)</a>
+<a href="http://www.icir.org/christian/libstree/">libstree (C)</a>
 including depth- and breadth-first traversal, string update, and
 examples like LCS.
 Mark Nelson's great 
