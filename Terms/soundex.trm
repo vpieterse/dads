@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Jul 25 11:05:07 2005" *by "Paul E. Black"
+# *modified "Mon Jul 30 08:41:58 2007" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.12  2007/07/30 12:43:49  black
+# Update Apache IMPL URL
+#
 # Revision 1.11  2005/07/25 15:06:53  black
 # Update NARA URL and add an alternate NARA URL with the same info in a
 # different format.
@@ -76,7 +79,7 @@ of Soundex</a>.
 @IMPL=<a
 href="http://physics.nist.gov/cuu/Reference/soundex.html">(C)</a>.
 Apache codec implementations of 
-<a href="http://jakarta.apache.org/commons/codec/">soundex, Metaphone,
+<a href="http://commons.apache.org/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 <a href="http://www.source-code.biz/snippets/vbasic/4.htm">(Visual Basic)</a>.
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
