@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:25:06 2004" *by "Paul E. Black"
+# *modified "Mon Aug 27 10:16:49 2007" *by "Paul E. Black"
 
 # $Log: vittersAlgorithm.trm,v $
+# Revision 1.7  2007/08/27 14:17:27  black
+# Remove acm.org/calgo IMPL - seems to be gone.
+#
 # Revision 1.6  2004/12/17 17:25:06  black
 # Make more XHTML compliant.
 #
@@ -67,8 +70,7 @@ ACM Transactions on Mathematical Software, 15(2):158-167, June 1989.
 of data compression</a>
 # implementation(s) (pure HTML)
 @IMPL=Algorithm 673 in
-<a href="http://www.netlib.org/toms/673">plain text (Pascal)</a> or
-<a href="http://www.acm.org/calgo/contents/673.gz">gzip'd (Pascal)</a>.
+<a href="http://www.netlib.org/toms/673">plain text (Pascal)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/vittersAlgorithm.trm,v $
