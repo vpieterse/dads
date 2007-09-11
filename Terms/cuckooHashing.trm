@@ -1,7 +1,11 @@
 # *created  "Thu Feb 20 11:48:59 2003" *by "Paul E. Black"
-# *modified "Tue Jun 20 16:50:55 2006" *by "Paul E. Black"
+# *modified "Tue Sep 11 09:15:45 2007" *by "Paul E. Black"
 
 # $Log: cuckooHashing.trm,v $
+# Revision 1.6  2007/09/11 13:19:02  black
+# Add Erlingsson, Manasse, and McSherry to BIB.  Add wikipedia link for
+# cuckoo to NOTE.
+#
 # Revision 1.5  2006/06/20 20:51:50  black
 # Remove missing URL for Stanford essay on Brood Parasitism.
 #
@@ -59,8 +63,18 @@ by removing it from a table.
 @BIB=<strong>Rasmus Pagh</strong> and <strong>Flemming Friche
 Rodler</strong>, <em>Cuckoo Hashing</em>, Proceedings of ESA 2001,
 Lecture Notes in Computer Science, vol. 2161, pages 121-?, 2001.
+<br>
+Generalized in
+<strong>&Uacute;lfar Erlingsson</strong>, <strong>Mark
+Manasse</strong>, and <strong>Frank McSherry</strong>,
+<a href="https://research.microsoft.com/users/ulfar/CuckooHash.pdf"><em>A 
+cool and practical alternative to traditional hash tables</em></a>,
+proc 7th Workshop on Distributed Data and Structures (WDAS'06), Santa
+Clara, CA, January 2006. 
 # any notes.  these are not printed in the final dictionary
-@NOTES=The name comes from the European cuckoo, whose young
+@NOTES=The name comes from the 
+<a href="http://en.wikipedia.org/wiki/Common_Cuckoo">European
+cuckoo</a>, whose young
 pushes other, competing eggs out of the nest.
 # implementation(s) (pure HTML)
 @IMPL=
