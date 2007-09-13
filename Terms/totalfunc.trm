@@ -1,7 +1,10 @@
 # *created  "Thu Jun 17 12:56:57 1999" *by "Paul E. Black"
-# *modified "Tue Jan 20 15:18:57 2004" *by "Paul E. Black"
+# *modified "Thu Sep 13 14:48:07 2007" *by "Paul E. Black"
 
 # $Log: totalfunc.trm,v $
+# Revision 1.3  2007/09/13 18:48:35  black
+# Make DEFN reasonable wrt domain.
+#
 # Revision 1.2  2004/01/20 20:19:23  black
 # Clarify note.  Add RCS Log and Source.
 #
@@ -14,7 +17,7 @@
 @AREA=theory
 # the definition
 @DEFN=A {function} which is defined for all inputs of the right type,
-that is, for all of its {domain}.
+that is, for all of a {domain}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
