@@ -1,7 +1,10 @@
 # *created  "Thu Jun 17 09:56:40 1999" *by "Paul E. Black"
-# *modified "Thu Sep 13 14:38:15 2007" *by "Paul E. Black"
+# *modified "Thu Sep 13 14:51:33 2007" *by "Paul E. Black"
 
 # $Log: partialfunct.trm,v $
+# Revision 1.4  2007/09/13 18:52:46  black
+# Change DEFN wording to parallel "total function".
+#
 # Revision 1.3  2007/09/13 18:39:44  black
 # Change DEFN to be consistent with "domain". LINK to wikipedia entry.
 # NOTE difference in definition of partial function.
@@ -17,10 +20,10 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=theory
 # the definition
-@DEFN=A {function} which is not defined for some of a {domain}.  For
-instance, division is (usually) a partial function on rationals since
-anything
-divided by $0$ is undefined.
+@DEFN=A {function} which is not defined for some inputs of the right
+type, that is, for some of a {domain}.  For
+instance, division is a partial function since
+division by $0$ is undefined (on the Reals).
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -36,10 +39,10 @@ divided by $0$ is undefined.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+This definition says a function is either partial or total, but not
+both.
 Some authors consider that all functions are partial, but some are
 total, too.
-Others consider that a function is either partial or total, but not
-both.
 
 # further explanation (pure HTML)
 @LINKS=
