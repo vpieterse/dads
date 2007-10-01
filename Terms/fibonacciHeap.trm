@@ -1,7 +1,11 @@
 # *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
-# *modified "Mon Apr 25 09:56:57 2005" *by "Paul E. Black"
+# *modified "Mon Oct  1 10:26:19 2007" *by "Paul E. Black"
 
 # $Log: fibonacciHeap.trm,v $
+# Revision 1.8  2007/10/01 14:28:06  black
+# Complete the BIB entry.  Replace the old IMPL (myrice.com - gone) with
+# a new location: isomap.stanford.edu.
+#
 # Revision 1.7  2005/04/25 13:57:56  black
 # Improve(?) URL (elaborate host name) for Boyer's explanation.
 #
@@ -55,9 +59,9 @@ notation}.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-<strong>Michael Fredman</strong> and <strong>Robert Tarjan</strong>,
-#<em></em>, Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February
-1984.
+<strong>Michael L. Fredman</strong> and <strong>Robert Endre Tarjan</strong>,
+<em>Fibonacci heaps and their uses in improved network optimization
+algorithms</em>, Journal of the ACM, 34(3):596-615, July, 1987.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <a href="../terms.html#CLR90">[CLR90, page 421]</a>.
@@ -65,11 +69,11 @@ notation}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-An <a
-href="http://algorithm.diy.myrice.com/resources/technical_artile/fibonacci_heap/fibonacci.htm">explanation
-and code for ExtractMin and DecreaseKey (C++)</a> by
-<strong>John Boyer</strong>, <em>Algorithm Alley</em>, Dr. Dobb's
-Journal, January 1997.
+John Boyer's code for <a
+href="http://isomap.stanford.edu/code/dijkstra.cpp">ExtractMin and
+DecreaseKey (C++)</a> and <a
+href="http://isomap.stanford.edu/code/fibheap.h">fibheap.h</a>, the
+include file it needs.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciHeap.trm,v $
