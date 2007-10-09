@@ -2,6 +2,9 @@
 # *modified "Mon Jan 23 11:03:39 2006" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Revision 1.8  2007/10/09 15:43:35  black
+# Remove Jonathan Brown's IMPL - gone.
+#
 # Revision 1.7  2006/01/23 16:04:05  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -102,9 +105,7 @@ If you find an earlier digraph, please contact me,
 <a href="mailto:Jnwarfield@aol.com">John N. Warfield</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
-traverse, top sort, etc. weighted, directed graph (Java)</a>
+@IMPL=
 # further explanation (pure HTML)
 @LINKS=
 # author's initials
