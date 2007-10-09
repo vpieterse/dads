@@ -2,6 +2,9 @@
 # *modified "Mon Sep 24 08:46:48 2007" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.18  2007/10/09 15:43:05  black
+# Remove Jonathan Brown's IMPL - gone.
+#
 # Revision 1.17  2007/09/24 12:47:04  black
 # Update GTL IMPL URL
 #
@@ -150,9 +153,6 @@ Editor and Layout Program (C)</a>,
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/graph-data-structures.shtml">graph
 manipulation (C++, C, Mathematica, and Pascal)</a>,
-<a
-href="http://www.helsinki.fi/~jbrown/tira/overview.html">build,
-traverse, top sort, etc. weighted, directed graphs (Java)</a>,
 <a href="http://jgrapht.sourceforge.net/">JGraphT (Java)</a> build, traverse,
 and display directed and undirected graphs,
 <a href="http://gef.tigris.org/">GEF - Graph Editing Framework
