@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Sat Jun  2 08:02:26 2007" *by "Paul E. Black"
+# *modified "Wed Oct 10 15:48:18 2007" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.5  2007/10/10 19:48:45  black
+# add "Easter date" as a web alias
+#
 # Revision 1.4  2007/06/11 13:53:45  black
 # LINK to wikipedia enty.  Add note that most impls are only correct for
 # Gregorian dates.  Add Keith's IMPL.
@@ -26,7 +29,7 @@
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Zeller's algorithm
+@WEB=Zeller's algorithm, Easter date
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
