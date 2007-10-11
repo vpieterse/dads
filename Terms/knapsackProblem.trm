@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan 26 08:55:31 2005" *by "Paul E. Black"
+# *modified "Thu Oct 11 13:10:26 2007" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.8  2007/10/11 17:17:56  black
+# Add knapsack problem cartoon (in LINKS so its at the bottom of the
+# entry).  XREF NP-complete
+#
 # Revision 1.7  2005/01/26 13:55:47  black
 # NOTE link to drawing of a knapsack.
 #
@@ -56,8 +60,8 @@ is maximized.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={fractional knapsack problem}, {unbounded knapsack problem}, 
+{bin packing problem}, {cutting stock problem}, {NP-complete}
 
-{bin packing problem}, {cutting stock problem}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Also called 0-1 or binary knapsack (each item may be taken (1)
 or not (0)), in contrast to the {fractional
@@ -70,12 +74,16 @@ exceeds a certain value?  The decision problem is {NP-complete}.
 </p>
 
 <p>
-Near the end, this page has 
+Near the end, the following page has 
 <a
 href="http://www.dodgenet.com/~ghostgar/ggbook/GGbook.html">drawings
-and a description</a> of a knapsack.
+and a description</a> of a rigid frame knapsack.
 # further explanation (pure HTML)
 @LINKS=
+<img src="../Images/xkcd np_complete.png"><br>
+From <a href="http://xkcd.com/">xkcd</a> by
+<a href="http://xkcd.com/license.html">Creative Commons
+Attribution-NonCommercial 2.5 License</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/knapsack.shtml">(Fortran
