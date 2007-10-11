@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  5 10:49:36 2006" *by "Paul E. Black"
+# *modified "Thu Oct 11 13:08:01 2007" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.8  2007/10/11 17:08:56  black
+# add NP-complete cartoon (in LINK so it comes at the end).  NOTE
+# knapsack problem, too.
+#
 # Revision 1.7  2006/09/05 14:49:38  black
 # Update URL for Aaronson's Complexity Zoo
 #
@@ -70,8 +74,10 @@ NP-complete (as far as we know).
 </p>
 
 <p>
-Some other well-known NP-complete problems are
-satisfiability (SAT), {traveling salesman}, and the {bin packing problem}.
+Other well-known NP-complete problems are
+satisfiability (SAT), {traveling salesman}, the {bin packing problem},
+and the {knapsack problem}. (Strictly the related decision problems
+are NP-complete.)
 </p>
 
 <p>
@@ -97,6 +103,14 @@ of NP optimization problems</a>.
 Scott Aaronson's
 <a href="http://qwiki.caltech.edu/wiki/Complexity_Zoo">Complexity
 Zoo</a>
+</p>
+
+<p>
+<img src="../Images/xkcd np_complete.png"><br>
+From <a href="http://xkcd.com/">xkcd</a> by
+<a href="http://xkcd.com/license.html">Creative Commons
+Attribution-NonCommercial 2.5 License</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=Stas Busygin's <a
 href="http://www.busygin.dp.ua/npc.html">NP-Completeness Page with
