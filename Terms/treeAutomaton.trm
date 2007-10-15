@@ -1,7 +1,10 @@
 # *created  "Thu Feb  4 14:05:52 1999" *by "Paul E. Black"
-# *modified "Mon Oct 15 08:19:58 2007" *by "Paul E. Black"
+# *modified "Mon Oct 15 08:26:15 2007" *by "Paul E. Black"
 
 # $Log: treeAutomaton.trm,v $
+# Revision 1.5  2007/10/15 12:29:49  black
+# Improve wording of DEFN a little.
+#
 # Revision 1.4  2007/10/15 12:20:01  black
 # Update URL for tata (Tree Automata)
 #
@@ -19,8 +22,7 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=autom
 # the definition
-@DEFN=A tree automaton is an extension of a 
-{finite state machine}, but 
+@DEFN=An extension of a {finite state machine} that
 operates on n-ary constructors.  Where a finite state automaton reaches
 a new state with a single state and character, a tree automaton
 takes <em>n</em> states and constructors.  Tree automata may be
