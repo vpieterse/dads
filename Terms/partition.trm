@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 13:55:35 2004" *by "Paul E. Black"
+# *modified "Thu Oct 18 16:19:40 2007" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Revision 1.5  2007/10/18 20:20:04  black
+# fix grammar in DEFN.  XREF connected components.
+#
 # Revision 1.4  2004/12/17 18:55:49  black
 # Make LI XHTML compliant.
 #
@@ -20,7 +23,7 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=combin
 # the definition
-@DEFN=(1) A division of a {set} into nonempty {disjoint sets} which
+@DEFN=(1) A division of a {set} into nonempty {disjoint sets} that
 completely cover the set.  (2) To rearrange the elements of an {array}
 into two (or more) groups, typically, such that elements in the first
 group are less than a value and elements in the second group are
@@ -57,7 +60,7 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={set packing}, {subset}
+@XREFS={set packing}, {subset}, {connected components}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
