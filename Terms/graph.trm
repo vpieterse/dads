@@ -1,7 +1,12 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Sep 24 08:46:48 2007" *by "Paul E. Black"
+# *modified "Thu Oct 18 16:01:12 2007" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.19  2007/10/18 20:04:33  black
+# Fix DEFN: E is a subset of edges ...  When I wrote it, I was
+# prob. thinking E is a set whose members are pairs.  But it really
+# means THE set of ALL pairs ...
+#
 # Revision 1.18  2007/10/09 15:43:05  black
 # Remove Jonathan Brown's IMPL - gone.
 #
@@ -70,9 +75,9 @@ item is called a {vertex} or node.  Formally, a graph is a
 # formal definition or {cross reference} to an entry
 @FORML=A graph G can be defined as a pair (V,E), where V is a set
 of vertices, and E is a set of edges between the vertices
-$E = \{(u,v) | u, v \in V}$. If the graph is undirected, the adjacency
+$E \subseteq \{(u,v) | u, v \in V}$. If the graph is undirected, the adjacency
 relation defined by the edges is {symmetric}, or
-$E = \{\{u,v} | u, v \in V}$ (sets of vertices rather than
+$E \subseteq \{\{u,v} | u, v \in V}$ (sets of vertices rather than
 ordered pairs).
 If the graph does not allow {self-loops}, adjacency is {irreflexive}.
 # comma-sep list of pure names that this is Also Known As.
