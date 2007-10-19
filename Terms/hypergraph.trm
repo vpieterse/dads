@@ -1,7 +1,10 @@
 # *created  "Wed Nov 18 10:12:27 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:39:12 2004" *by "Paul E. Black"
+# *modified "Thu Oct 18 16:11:56 2007" *by "Paul E. Black"
 
 # $Log: hypergraph.trm,v $
+# Revision 1.5  2007/10/18 20:12:14  black
+# fix DEFN: E is a SUBSET of tuples.
+#
 # Revision 1.4  2004/04/19 18:39:16  black
 # Use the standard English plural of vertex
 #
@@ -26,7 +29,7 @@
 A hypergraph G can be defined as a pair (V, E), where V is a {set}
 of vertices, and E is a set of hyperedges between the vertices.
 Each hyperedge is a set of vertices:
-$E = \{\{u, v, \ldots} \in 2<sup>V</sup>}$.
+$E \subseteq \{\{u, v, \ldots} \in 2<sup>V</sup>}$.
 (Hyperedges are undirected.)
 
 #    These are all comma-separated lists of {cross references}
