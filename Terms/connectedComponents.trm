@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:28 2004" *by "Paul E. Black"
+# *modified "Thu Oct 18 16:17:59 2007" *by "Paul E. Black"
 
 # $Log: connectedComponents.trm,v $
+# Revision 1.5  2007/10/18 20:18:27  black
+# cross reference "partition"
+#
 # Revision 1.4  2004/12/17 17:23:28  black
 # Make more XHTML compliant.
 #
@@ -52,7 +55,7 @@ Let $G=(V, E)$ be a graph and
 $G<sub>1</sub>=(V<sub>1</sub>, E<sub>1</sub>)\ldots, 
 G<sub>m</sub>=(V<sub>m</sub>, E<sub>m</sub>)$ 
 be its connected components.  Every vertex is in exactly in one
-connected component.  
+connected component, that is, the components {partition}(1) V.
 Formally, for all $i \neq j, V<sub>i</sub>\cap V<sub>j</sub>=\emptyset$.
 Further, $V=V<sub>1</sub>\cup\ldots\cup V<sub>m</sub>$ and 
 $E=E<sub>1</sub>\cup\ldots\cup E<sub>m</sub>$.
