@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Jan 11 15:50:21 2005" *by "Paul E. Black"
+# *modified "Mon Oct 22 10:56:54 2007" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Revision 1.7  2007/10/22 14:57:34  black
+# Add Mark Nelson's tutorial and IMPL.  Move problems solved from XREF to IMIN.
+#
 # Revision 1.6  2005/01/11 20:52:23  black
 # Remove leading redundant phrase in DEFN.  IMIN Smith-Waterman.
 #
@@ -37,13 +40,13 @@ recomputing them.
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={Smith-Waterman algorithm}
+Solves these problems:
+{matrix-chain multiplication problem}, 
+{longest common substring}, {longest common subsequence}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={greedy algorithm}, {principle of optimality}.
-Solves these problems:
-{matrix-chain multiplication problem}, 
-{longest common substring}, {longest common subsequence}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -59,7 +62,11 @@ href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">matrix
 multiplication and longest common substring and subsequence</a>,
 including pseudocode.
 # implementation(s) (pure HTML)
-@IMPL=Oleg Kiselyov's program to <a
+@IMPL=
+Mark Nelson's tutorial to using
+<a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
+Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
+Oleg Kiselyov's program to <a
 href="http://okmij.org/ftp/packages/word_layout.cc">optimally
 lay out a page (C++)</a> using dynamic programming.
 # author's initials (see authors.data)
