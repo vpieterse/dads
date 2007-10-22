@@ -1,0 +1,164 @@
+#! /bin/csh -f
+set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.1 2007/10/22 12:53:41 black Exp $'
+#                  *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
+set versionMod = ' *modified "Fri Dec 30 10:01:27 2005" *by "Paul E. Black"'
+
+#------------------------------------------------------------------------
+#	Rename a term file and make other needed changes: RCS, Target
+#	HTML, etc.
+#
+set programName = "mvterm"
+set useMsg = \
+	"Usage: $programName [-nh] [--verbose] currentName newName"
+set options = ""
+set minOperands = 2
+set maxOperands = 2
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgment if the software is used.
+#
+# Paul E. Black  paul.black@nist.gov
+#
+#------------------------------------------------------------------------
+
+# set defaults
+set errorStatus = 2
+set termDir = "Terms"
+set targetDir = "Target"
+set doCmds = 1 # if true, execute commands
+set showCmds = 0 # if true, print what is (or would be) done
+
+# SEE ~aftg/bin/mugent FOR CODE TO HANDLE OPTIONS
+
+set optind = 1
+while ($optind <= $#argv)
+	set option = $argv[$optind]
+	switch ($option)
+	  case -h*:
+	  case --h*:
+    echo $useMsg:q
+    echo "	-n	No changes; just print what would be done"
+    echo "	--verbose print what is done"
+    echo "	--version print Version information"
+    echo "	--	End of options (e.g., currentName begins with -)"
+	    exit 0
+
+	  case -n:
+	    @ optind++
+	    set doCmds = 0
+	    set showCmds = 1
+	    break
+
+	  case --verb*:
+	    @ optind++
+	    set showCmds = 1
+	    break
+
+	  case --vers*:
+	    @ optind++
+	    echo $versionRCS:q
+	    echo $versionMod:q
+	    exit 0
+
+	  case -v*:
+	  case --v*:
+	    @ optind++
+	    echo "ambiguous: use --verb[ose] or --vers[ion] (or --help)"
+	    echo $useMsg:q
+	    exit 0
+
+	  # this branch must always be present to detect end-of-options
+	  case --:
+	    @ optind++
+	    break
+
+	  case -*:
+	    echo Unknown option: $option
+	    echo $useMsg:q
+	    exit $errorStatus
+
+	  default:
+	    # must be an operand
+	    break
+	endsw # on option
+
+	@ optind++
+end # while options to process
+
+@ numberOfOperands = 1 + $#argv - $optind
+if ($numberOfOperands < $minOperands || $numberOfOperands > $maxOperands) then
+	echo $programName\: Wrong number of operands
+	echo $useMsg:q
+	exit $errorStatus
+endif
+
+# get "from" or current term file name
+set baseFrom = `basename "$argv[$optind]" .trm`
+@ optind++
+set fromTerm = "$termDir/$baseFrom.trm"
+if (! -e $fromTerm || ! -r $fromTerm) then
+    echo $programName\: cannot read $fromTerm
+    echo $useMsg:q
+    exit $errorStatus
+endif
+
+# get new term file name
+set baseTo = `basename "$argv[$optind]" .trm`
+@ optind++
+set toTerm = "$termDir/$baseTo.trm"
+if (-e $toTerm) then
+    echo $programName\: $toTerm exists
+    echo $useMsg:q
+    exit $errorStatus
+endif
+
+# since from MUST exist and to CANNOT exist, this should never happen
+if ($baseFrom:q == $baseTo:q) then
+    echo $programName\: "$baseFrom and $baseTo are the same" 
+    exit $errorStatus
+endif
+
+# rename term file
+if ($showCmds) then
+    echo mv $fromTerm $toTerm
+endif
+if ($doCmds) then
+    mv $fromTerm $toTerm
+endif
+
+# rename RCS file
+set fromRCS = "$termDir/RCS/$baseFrom.trm,v"
+set toRCS   = "$termDir/RCS/$baseTo.trm,v"
+if ($showCmds) then
+    echo mv $fromRCS $toRCS
+endif
+if ($doCmds) then
+    mv $fromRCS $toRCS
+endif
+
+# SKIMP - should have option to co new file (to fix RCS keywords)
+
+# make sure they match
+if ($showCmds) then
+    echo rcsdiff $toTerm
+endif
+if ($doCmds) then
+    rcsdiff $toTerm
+endif
+
+# remove any target HTML refering to it, so they will be regenerated
+echo finding references to $baseFrom.  This may take a few seconds ...
+set fileList = `grep -l $baseFrom.html $targetDir/HTML/*`
+if ($showCmds) then
+    echo rm $fileList
+endif
+if ($doCmds) then
+    rm $fileList
+endif
+
+# end of $Source: /home/black/DADS/dads/RCS/mvterm,v $
