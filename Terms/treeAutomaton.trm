@@ -1,7 +1,10 @@
 # *created  "Thu Feb  4 14:05:52 1999" *by "Paul E. Black"
-# *modified "Mon Oct 15 08:26:15 2007" *by "Paul E. Black"
+# *modified "Mon Oct 22 08:49:25 2007" *by "Paul E. Black"
 
 # $Log: treeAutomaton.trm,v $
+# Revision 1.6  2007/10/22 12:49:26  black
+# CORRECTLY Update URL for tata (Tree Automata)
+#
 # Revision 1.5  2007/10/15 12:29:49  black
 # Improve wording of DEFN a little.
 #
@@ -53,7 +56,7 @@ Nondeterministic top-down and bottom-up automata, and
 deterministic bottom-up automata are equivalent, but top-down automata
 are weaker.
 # further explanation (pure HTML)
-@LINKS=<a href="http://tata.gforge.inria.fr/ ">Tree Automata
+@LINKS=<a href="http://tata.gforge.inria.fr/">Tree Automata
 Techniques and Applications</a> page.
 # implementation(s) (pure HTML)
 @IMPL=
