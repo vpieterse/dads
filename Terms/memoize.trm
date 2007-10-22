@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Dec 28 09:42:44 2006" *by "Paul E. Black"
+# *modified "Mon Oct 22 10:56:46 2007" *by "Paul E. Black"
 
 # $Log: memoize.trm,v $
+# Revision 1.6  2007/10/22 14:58:17  black
+# Add Mark Nelson's tutorial and IMPL
+#
 # Revision 1.5  2006/12/28 14:44:34  black
 # For better parallelism, remove line setting memo[1] and memo[2] and
 # add the base case test from the "naive" implementation.
@@ -78,6 +81,9 @@ time (see {Fibonacci numbers}), but this illustrates memoization.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Mark Nelson's tutorial to using
+<a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
+Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/memoize.trm,v $
