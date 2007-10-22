@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:20:31 2006" *by "Paul E. Black"
+# *modified "Mon Oct 22 10:56:32 2007" *by "Paul E. Black"
 
 # $Log: hashtab.trm,v $
+# Revision 1.11  2007/10/22 14:57:58  black
+# Add Mark Nelson's tutorial and IMPL.
+#
 # Revision 1.10  2006/09/11 14:03:24  black
 # Update tutorial IMPL URL
 #
@@ -116,6 +119,9 @@ up (C)</a>, <a
 href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>,
 direct chaining: <a href="http://epaperpress.com/vbhash/">explanations,
 diagrams, and code (Visual Basic)</a>.
+Mark Nelson's tutorial to using
+<a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
+Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
 Explanation and sample problems for <a
 href="http://www.sparknotes.com/cs/searching/hashtables/section1.html">hashing
 (C)</a> (some pages require free registration).
