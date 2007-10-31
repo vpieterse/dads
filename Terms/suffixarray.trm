@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:51 2004" *by "Paul E. Black"
+# *modified "Tue Oct 30 17:37:42 2007" *by "Paul E. Black"
 
 # $Log: suffixarray.trm,v $
+# Revision 1.5  2007/10/30 21:38:34  black
+# add BIB citation and construction algorithm citation.  Clarify DEFN a little.
+#
 # Revision 1.4  2004/12/17 17:28:51  black
 # Make more XHTML compliant.
 #
@@ -21,7 +24,7 @@
 @AREA=search
 # the definition
 @DEFN=An {array} of all starting positions of {suffixes} of a {string}
-in {lexicographical order}, which allows a {binary search}.
+arranged in {lexicographical order}. This allows a {binary search}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -35,6 +38,12 @@ in {lexicographical order}, which allows a {binary search}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={suffix tree}, {suffix automaton}
 
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Udi Manber and Gene Myers</strong>, 
+<em>Suffix Arrays: A New Method for On-Line String Searches</em>,
+SIAM Journal on Computing 22(5):935-948, 1993.
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 Consider the string "good".  In lexicographical order, the suffixes
@@ -45,9 +54,13 @@ convenience, a special character is usually appended to the string.)
 
 <p>
 For a string of length $n$, it can be constructed in 
-{$O(n \log n)$#big-O notation} time by "sorting" the suffixes, or in
+{$O(n \log n)$#big-O notation} time by sorting the suffixes, or in
 {$O(n)$#big-O notation} time by building the {suffix tree}, then doing
 a {depth-first search}.
+For a comprehensive survey, see
+<strong>Simon J. Puglisi, W. F. Smyth, and Andrew H. Turpin</strong>, 
+<em>A taxonomy of suffix array construction algorithms</em>,
+ACM Computing Surveys, 39(2) Article #4, 2007.
 </p>
 
 <p>
