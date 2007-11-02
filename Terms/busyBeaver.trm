@@ -1,7 +1,10 @@
 # *created  "Tue Mar  6 12:28:25 2001" *by "Paul E. Black"
-# *modified "Thu Feb  2 11:20:36 2006" *by "Paul E. Black"
+# *modified "Fri Nov  2 12:59:19 2007" *by "Paul E. Black"
 
 # $Log: busyBeaver.trm,v $
+# Revision 1.4  2007/11/02 17:01:23  black
+# Improve grammar in DEFN
+#
 # Revision 1.3  2006/02/02 16:21:21  black
 # NOTE that this is related to the halting problem.
 #
@@ -16,8 +19,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=autom
 # the definition
-@DEFN=(1) A {Turing machine} with a small number of {states} which
-halts when started with a blank tape, but which writes a huge number
+@DEFN=(1) A {Turing machine} with a small number of {states} that
+halts when started with a blank tape, but writes a huge number
 of non-blanks or takes a huge number of steps.  (2) The problem of
 finding the maximum number of non-blanks written or steps taken for
 any Turing machines with a given number of states and symbols.
