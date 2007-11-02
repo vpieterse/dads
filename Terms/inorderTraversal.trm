@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:20:23 2007" *by "Paul E. Black"
+# *modified "Fri Nov  2 14:18:46 2007" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
+# Revision 1.7  2007/11/02 18:19:05  black
+# IMA depth-first search
+#
 # Revision 1.6  2007/04/23 13:20:27  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -38,7 +41,7 @@ the right subtree.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={tree traversal}
+@IMA={tree traversal}, {depth-first search}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
