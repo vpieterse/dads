@@ -2,6 +2,9 @@
 # *modified "Thu Oct 18 16:01:12 2007" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.20  2007/11/02 18:07:01  black
+# link to node in DEFN
+#
 # Revision 1.19  2007/10/18 20:04:33  black
 # Fix DEFN: E is a subset of edges ...  When I wrote it, I was
 # prob. thinking E is a set whose members are pairs.  But it really
@@ -70,7 +73,7 @@
 @AREA=graph
 # the definition
 @DEFN=A set of items connected by {edges}.  Each
-item is called a {vertex} or node.  Formally, a graph is a
+item is called a {vertex} or {node}.  Formally, a graph is a
 {set} of vertices and a {binary relation} between vertices, adjacency.
 # formal definition or {cross reference} to an entry
 @FORML=A graph G can be defined as a pair (V,E), where V is a set
