@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Mon Aug 21 09:26:54 2006" *by "Paul E. Black"
+# *modified "Fri Nov  2 14:38:42 2007" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.10  2007/11/02 21:19:18  black
+# XREF huge sparse array and NOTE its use.  NOTE skip list as a faster
+# data structure.
+#
 # Revision 1.9  2006/09/11 14:04:00  black
 # Update tutorial IMPL URL
 #
@@ -46,7 +50,7 @@
 # Aggregate child: "... is a part of or used in me."
 @INME={array index}, {one-based indexing}, {0-based indexing}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={associative array}, {matrix}
+@XREFS={associative array}, {matrix}, {huge sparse array}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=An unordered array must be searched with a {linear search}.
@@ -61,11 +65,17 @@ search} is faster.
 
 <p>
 Inserting into an array takes ${\Theta}(n)$ time.  If that's too slow,
-use a {balanced tree} or a {linked list}.  
-Knuth use a balanced tree with a RANK field which supports 
+use a {balanced tree}, {skip list}, or a {linked list}.  
+Knuth uses a balanced tree with a RANK field that supports 
 ${\Theta}(\log n)$ access by index and ${\Theta}(\log n)$ insert and
 delete.
 <a href="../terms.html#Knuth98">[Knuth98, 3:471, Sect. 6.2.3]</a>
+</p>
+
+<p>
+If it takes too long to initialize a big array of size S, a 
+{huge sparse array} takes time proportional to the number of accesses
+and only ${\Theta}(S)$ extra space.
 
 # further explanation (pure HTML)
 @LINKS=
