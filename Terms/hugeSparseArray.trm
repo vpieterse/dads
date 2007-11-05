@@ -1,7 +1,11 @@
 # *created  "Thu Jun  8 16:45:23 2006" *by "Paul E. Black"
-# *modified "Tue Jun 27 10:05:44 2006" *by "Paul E. Black"
+# *modified "Mon Nov  5 10:37:14 2007" *by "Paul E. Black"
 
 # $Log: hugeSparseArray.trm,v $
+# Revision 1.2  2007/11/05 15:38:03  black
+# Rename variables and change wording in DEFN to be clearer.
+# IMA array.  Confirm and refine HISTORY.
+#
 # Revision 1.1  2006/06/27 14:11:07  black
 # Initial revision
 #
@@ -15,22 +19,23 @@
 # the definition
 @DEFN=Let $N$ be the number of items to store and $R$ be the size of
 the {range} of {key} values; $R \gg N$.  
-Allocate, but don't initialize, two arrays: a key
-array K, where $|K|=R$, and an item array I, where $|I|&gt;N$.
-Initialize c, the number of items, to zero.  
+Allocate, but don't initialize, two arrays: an item array I,
+where $|I|&ge;N$, and a location array L, where $|L|=R$.
+Initialize a variable, next, the number of items, to zero (with
+{0-based indexing}).
 To insert an item, put it in the next place in the item array
-and save that location in the key array.
+and save where to find it in the location array.
 <pre>
-  I[c] = item;<br>
-  K[item.key] = c;<br>
-  c++;
+  I[next] = item;<br>
+  L[item.key] = next;<br>
+  next++;
 </pre>
-To look up an item by key, get the index from the key array.  If
+To look up an item by key, get the index from the location array.  If
 the index is invalid or refers to the wrong item, the item is not
 found.
 <pre>
-  index = K[key];<br>
-  if (index &lt; 0 OR index &gt;= c) return NOTFOUND;<br>
+  index = L[key];<br>
+  if (index &lt; 0 OR index &gt;= next) return NOTFOUND;<br>
   if (I[index].key != key) return NOTFOUND;<br>
   return I[index];
 </pre>
@@ -49,7 +54,7 @@ Listing all items takes $\Theta(N)$ time using I.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={array}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -61,24 +66,30 @@ Listing all items takes $\Theta(N)$ time using I.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
-#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 Keys must be unique.  Duplicate keys could be handled with
 {collision resolution schemes}.  
-This data structure is usually impractical since the key range is
+This data structure is usually impractical since the range is
 enormous.
+</p>
+
+<p>
+This effectively allocates a huge array without explicitly
+initializing it, at the cost of $\Theta(N)$ space and a little
+time for each access.
 </p>
 
 <p>
 This is what {hash tables} want to be: constant time for insertion and
 look up.
 # any historical notes
-@HISTORY=possibly from an exercise in <strong>Alfred V. Aho,
+@HISTORY=
+Motivating problem first posed as exercise 2.12 in <strong>Alfred V. Aho, 
 John E. Hopcroft</strong>, and <strong>Jeffrey D. Ullman</strong>,
-<em>The Design and Analysis of Computer Algorithms</em>, 1974?
+<em>The Design and Analysis of Computer Algorithms</em>,
+page 71, Addison-Wesley, 1974.
 
 # implementation(s) (pure HTML)
 @IMPL=
