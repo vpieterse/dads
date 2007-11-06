@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr  3 08:27:09 2006" *by "Paul E. Black"
+# *modified "Tue Nov  6 09:19:31 2007" *by "Paul E. Black"
 
 # $Log: bplustree.trm,v $
+# Revision 1.5  2007/11/06 14:56:27  black
+# change NAME to use superscript +.  NOTE early use of name.
+#
 # Revision 1.4  2006/04/03 12:27:57  black
 # XREF B*-tree
 #
@@ -14,7 +17,7 @@
 #
 
 # entry name
-@NAME=B+-tree
+@NAME=$B<sup>+</sup>-tree$
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
@@ -37,6 +40,10 @@
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+An early use of the name, "$B<sup>+</sup>$-tree", is
+<strong>Douglas Comer</strong>, <em>The Ubiquitous B-Tree</em>,
+Computing Surveys, 11(2):121-137, June 1979.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
