@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr  3 08:29:08 2006" *by "Paul E. Black"
+# *modified "Tue Nov  6 09:57:59 2007" *by "Paul E. Black"
 
 # $Log: bstartree.trm,v $
+# Revision 1.5  2007/11/06 14:58:41  black
+# make + superscript in B+-tree
+#
 # Revision 1.4  2006/04/03 12:30:21  black
 # Remove IMPL - they are for B-tree, not B*
 #
@@ -33,7 +36,7 @@ splitting them into three nodes.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={B+-tree}
+@XREFS={$B<sup>+</sup>-tree$}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
