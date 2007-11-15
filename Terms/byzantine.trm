@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
-# *modified "Mon Jun 18 08:58:35 2007" *by "Paul E. Black"
+# *modified "Thu Nov 15 10:16:26 2007" *by "Paul E. Black"
 
 # $Log: byzantine.trm,v $
+# Revision 1.6  2007/11/15 15:21:19  black
+# Link from "available" instead of "PDF" - more meaningful.
+#
 # Revision 1.5  2007/06/18 12:58:39  black
 # Update URL for cs.wisc.edu
 #
@@ -67,9 +70,10 @@ ACM 27(2):228-234, 1980.
 <em>The Byzantine Generals Problem</em>,
 ACM Transactions on Programming Languages and Systems, 4(3):382-401,
 July 1982. 
-<br>Both available in
+<br>Both
 <a
-href="http://research.microsoft.com/users/lamport/pubs/pubs.html">PDF</a>.
+href="http://research.microsoft.com/users/lamport/pubs/pubs.html">available</a>
+in PDF.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The 1975 paper is the first published consideration of the
