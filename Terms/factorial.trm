@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue May 29 09:30:45 2007" *by "Paul E. Black"
+# *modified "Mon Nov 26 10:11:52 2007" *by "Paul E. Black"
 
 # $Log: factorial.trm,v $
+# Revision 1.8  2007/11/26 15:14:01  black
+# Luschny's IMPL is on-line again.  Remove Ericson's IMPL - URL is bad,
+# and cannot find a new one.  IMIN permutation and combination.
+#
 # Revision 1.7  2007/05/29 13:39:36  black
 # Remove Luschny's IMPL - server has been "under construction" for over
 # a month.
@@ -39,7 +43,7 @@ n-1 \times \ldots \times 2 \times 1$.  In particular, 0! = 1.
 # Specialization: "... is a kind of me."
 @VARIANT={Stirling's approximation}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={permutation}, {combination}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -60,13 +64,14 @@ e<sup>-x</sup>dx = 1$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Peter Luschny's
+<a
+href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm">
+fast factorial algorithms (Java and C#)</a> including benchmarks and
+advice.
 Calum Grant's
 <a href="http://visula.org/calum/fact2.cpp">prime sieve fast factorial
 (C++)</a>.
-Christer Ericson's
-<a
-href="http://groups.google.com/groups?selm=christer.689772066@berghem">fast
-factorial (C)</a>.
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PEB
