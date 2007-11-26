@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct 16 12:22:57 2006" *by "Paul E. Black"
+# *modified "Mon Nov 26 09:50:13 2007" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.11  2007/11/26 14:53:29  black
+# NOTE there are m! permutations.
+#
 # Revision 1.10  2006/10/16 16:23:04  black
 # Remove Rhoads' IMPL - not at Rutgers, and Google doesn't find a new URL
 #
@@ -67,6 +70,11 @@ changed.  The {Fisher-Yates shuffle} randomly permutes elements.
 order.
 A {derangement} is a permutation where no item is in its original
 position.
+</p>
+
+<p>
+There are {$m!$#factorial} permutations of $m$ (distinguishable) elements.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
