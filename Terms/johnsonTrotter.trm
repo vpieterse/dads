@@ -1,7 +1,10 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Mon Nov 26 16:00:43 2007" *by "Paul E. Black"
+# *modified "Mon Nov 26 16:02:40 2007" *by "Paul E. Black"
 
 # $Log: johnsonTrotter.trm,v $
+# Revision 1.5  2007/11/26 21:04:29  black
+# fix typo
+#
 # Revision 1.4  2007/11/26 21:01:58  black
 # IMA permutation.  XREF Gray code.  Add BIB info.  Clarify DEFN a little.
 #
@@ -43,7 +46,7 @@ elements at a time.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Hale F. Trotter</strong>, <em>Perm (Algorithm 115)</em>,
-CACM, 5(8):434-435, August 1962.  Avaliable at
+CACM, 5(8):434-435, August 1962.  Available at
 <a href="http://doi.acm.org/10.1145/368637.368660">http://doi.acm.org/10.1145/368637.368660</a>
 <br>
 <strong>Selmer M. Johnson</strong>, <em>Generation of Permutations by
