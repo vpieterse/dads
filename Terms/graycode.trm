@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Jan 22 09:41:29 2007" *by "Paul E. Black"
+# *modified "Mon Nov 26 16:10:16 2007" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.15  2007/11/26 21:10:40  black
+# update URL for railroad controller.
+#
 # Revision 1.14  2007/01/22 14:42:36  black
 # Remove LINK to Jop Sibeyn's image - his account is gone, and I found
 # an obituary for him.
@@ -116,8 +119,8 @@ binary numbers and certain Gray codes.
 
 # further explanation (pure HTML)
 @LINKS=
-Pictures of a 
-<a href="http://www.ida.net/users/tetonsl/railroad/graycode.htm">Gray
+Image of a 
+<a href="http://www.tslrr.com/graycode.htm">Gray
 code rotary railroad control</a>.
 # implementation(s) (pure HTML)
 @IMPL=
