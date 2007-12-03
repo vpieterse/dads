@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 11 13:08:01 2007" *by "Paul E. Black"
+# *modified "Mon Dec  3 12:35:49 2007" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.9  2007/12/03 17:38:07  black
+# Update Busygin's IMPL URL
+#
 # Revision 1.8  2007/10/11 17:08:56  black
 # add NP-complete cartoon (in LINK so it comes at the end).  NOTE
 # knapsack problem, too.
@@ -112,9 +115,9 @@ From <a href="http://xkcd.com/">xkcd</a> by
 Attribution-NonCommercial 2.5 License</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=Stas Busygin's <a
-href="http://www.busygin.dp.ua/npc.html">NP-Completeness Page with
-QUALEX and SAT01 (C++)</a>.
+@IMPL=
+Stas Busygin's home page with <a
+href="http://www.stasbusygin.org/">QUALEX and SAT01 (C++)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/npcomplete.trm,v $
