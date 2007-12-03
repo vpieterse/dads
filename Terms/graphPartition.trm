@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar 26 11:02:32 2007" *by "Paul E. Black"
+# *modified "Mon Dec  3 13:53:41 2007" *by "Paul E. Black"
 
 # $Log: graphPartition.trm,v $
+# Revision 1.4  2007/12/03 18:53:46  black
+# add AUTHOR
+#
 # Revision 1.3  2007/03/26 16:03:43  black
 # Add DEFN.  Update METIS URL and make it an IMPL, not just a LINK.  Add
 # reference to "graph".  This is a Problem, not a Definition.
@@ -44,5 +47,5 @@ explanation of problem with links to implementations.
 <a href="http://glaros.dtc.umn.edu/gkhome/views/metis/metis/">METIS</a>
 is a set of programs for partitioning graphs, etc.
 # author's initials
-@AUTHOR=
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graphPartition.trm,v $
