@@ -2,6 +2,9 @@
 # *modified "Mon Jan 22 09:22:00 2007" *by "Paul E. Black"
 
 # $Log: bdd.trm,v $
+# Revision 1.7  2007/12/03 18:57:27  black
+# add AUTHOR
+#
 # Revision 1.6  2007/01/22 14:23:20  black
 # Update uni-trier bib LINK
 #
@@ -74,5 +77,5 @@ Design Rules</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
-@AUTHOR=
+@AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bdd.trm,v $
