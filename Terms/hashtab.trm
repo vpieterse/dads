@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Mon Oct 22 10:56:32 2007" *by "Paul E. Black"
+# *modified "Mon Dec  3 17:18:41 2007" *by "Paul E. Black"
 
 # $Log: hashtab.trm,v $
+# Revision 1.12  2007/12/03 22:18:59  black
+# add a new variant: hashbelt
+#
 # Revision 1.11  2007/10/22 14:57:58  black
 # Add Mark Nelson's tutorial and IMPL.
 #
@@ -63,7 +66,7 @@ into {open addressing}, {chaining}, and keeping one special overflow area.
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={perfect hashing}, {dynamic hashing}, {2-left hashing},
-{cuckoo hashing}, {2-choice hashing}
+{cuckoo hashing}, {2-choice hashing}, {hashbelt}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={dictionary}
 # Aggregate child: "... is a part of or used in me."
