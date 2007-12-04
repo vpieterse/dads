@@ -1,7 +1,10 @@
 # *created  "Mon Dec  3 17:00:11 2007" *by "Paul E. Black"
-# *modified "Mon Dec  3 17:20:04 2007" *by "Paul E. Black"
+# *modified "Tue Dec  4 08:43:37 2007" *by "Paul E. Black"
 
 # $Log: hashbelt.trm,v $
+# Revision 1.2  2007/12/04 13:45:22  black
+# make BIB URL an href
+#
 # Revision 1.1  2007/12/03 22:20:32  black
 # Initial revision
 #
@@ -41,8 +44,9 @@ its contents.  To find an item, search all the tables.
 @BIB=
 <strong>William Grosso</strong>, <em>The Hashbelt Data Structure</em>,
 O'Reilly ONJava.com, 9 January 2002.  Available at
-http://www.onjava.com/pub/a/onjava/2002/01/30/dataexp2.html (Accessed
-3 Dec 2007).
+<a href="http://www.onjava.com/pub/a/onjava/2002/01/30/dataexp2.html">
+http://www.onjava.com/pub/a/onjava/2002/01/30/dataexp2.html</a>
+(Accessed 3 Dec 2007).
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
