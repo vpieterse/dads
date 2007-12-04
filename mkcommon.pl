@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.26 2006/05/24 12:51:27 black Exp $
+# $Id: mkcommon.pl,v 1.27 2007/12/04 18:17:27 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Mon May 22 15:24:33 2006" *by "Paul E. Black"
+# *modified "Wed Jul 19 09:36:49 2006" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -645,9 +645,6 @@ sub readTermEntries {
 		if (defined $thisEntry{AREA}) {
 		    $akaEntry{AREA} = $thisEntry{AREA};
 		}
-		if (defined $thisEntry{IMPL}) {
-		    $akaEntry{IMPL} = $thisEntry{IMPL};
-		}
 		if (defined $thisEntry{MODIFIED}) {
 		    $akaEntry{MODIFIED} = $thisEntry{MODIFIED};
 		}
@@ -690,10 +687,6 @@ sub readTermEntries {
 		if (defined $thisEntry{AREA}) {
 		    $webEntry{AREA} = $thisEntry{AREA};
 		}
-		# the web-only pages are very sparse
-		#if (defined $thisEntry{IMPL}) {
-		#    $webEntry{IMPL} = $thisEntry{IMPL};
-		#}
 		if (defined $thisEntry{MODIFIED}) {
 		    $webEntry{MODIFIED} = $thisEntry{MODIFIED};
 		}
