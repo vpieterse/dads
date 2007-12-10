@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon May  7 08:05:11 2007" *by "Paul E. Black"
+# *modified "Mon Dec 10 09:05:19 2007" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.8  2007/12/10 14:07:03  black
+# Update de Halleux IMPL URL
+#
 # Revision 1.7  2007/05/07 12:08:04  black
 # Update URL for McGraw's IMPL
 #
@@ -84,7 +87,7 @@ example, and links to other implementations (C++, Java)</a> and his
 implementations called
 <a
 href="http://dasnar.sdf-eu.org/res/">ctst-dist-0.30.tar.* (C)</a>.
-<a href="http://www.codeproject.com/cs/algorithms/tst.asp">Ternary Search
+<a href="http://www.codeproject.com/KB/recipes/tst.aspx">Ternary Search
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
 # author's initials
