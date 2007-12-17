@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 12 13:10:52 2006" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:06:50 2007" *by "Paul E. Black"
 
 # $Log: select.trm,v $
+# Revision 1.5  2007/12/17 15:07:04  black
+# Remove Moonflare's IMPL - site not responding
+#
 # Revision 1.4  2006/10/12 17:11:54  black
 # Add Moonflare C++ IMPL
 #
@@ -71,9 +74,6 @@ $n$ numbers is $n+min(i,n-i)+{o(n)#little-o notation}$ or ${\Theta}(n)$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Derrick Coetzee and Moonflare's 
-<a href="http://moonflare.com/code/select/">literate programming
-example (C++)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/select.trm,v $
