@@ -1,7 +1,11 @@
 # *created  "Wed May 17 13:06:36 2000" *by "Paul E. Black"
-# *modified "Wed Feb  9 13:20:03 2005" *by "Paul E. Black"
+# *modified "Mon Dec 17 12:26:04 2007" *by "Paul E. Black"
 
 # $Log: quantumComputation.trm,v $
+# Revision 1.4  2007/12/17 17:26:37  black
+# Remove link to BIB articel, accessed (no longer?) allowed without
+# registration.
+#
 # Revision 1.3  2005/02/09 18:20:29  black
 # Make Shor's, Grover's, etc. algorithms variants.  Add LINK to
 # Bernstein and Vazirani.
@@ -44,8 +48,7 @@ few specialized roles.
 # further explanation (pure HTML)
 @LINKS=
 <strong>Ethan Bernstein</strong> and <strong>Umesh Vazirani</strong>,
-<a href="http://epubs.siam.org/sam-bin/dbq/article/30092">Quantum
-Complexity Theory</a>, SIAM Journal on Computing, 26(5):1411-1473, 1997.
+Quantum Complexity Theory, SIAM Journal on Computing, 26(5):1411-1473, 1997.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
