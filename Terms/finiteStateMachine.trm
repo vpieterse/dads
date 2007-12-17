@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Feb 24 08:32:02 2006" *by "Paul E. Black"
+# *modified "Mon Dec 17 11:52:26 2007" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Revision 1.8  2007/12/17 16:53:08  black
+# Update Daciuk's URL.
+#
 # Revision 1.7  2006/02/24 13:33:25  black
 # Update Daciuk's IMPL URL
 #
@@ -81,7 +84,7 @@ some papers, conferences, and projects.
 # implementation(s) (pure HTML)
 @IMPL=
 Jan Daciuk's
-<a href="http://www.eti.pg.gda.pl/~jandac/fsa.html">Finite
+<a href="http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html">Finite
 state utilities (C++)</a> including many links to other code, papers,
 etc.
 <a href="http://odur.let.rug.nl/~vannoord/Fsa/">Finite State Automata
