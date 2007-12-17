@@ -1,7 +1,10 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Tue Jun 27 09:53:57 2006" *by "Paul E. Black"
+# *modified "Mon Dec 17 13:45:56 2007" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Revision 1.6  2007/12/17 18:46:34  black
+# Update URL of Sonnack's illustration of a sparse matrix.
+#
 # Revision 1.5  2006/06/27 13:56:05  black
 # XREF huge sparse array
 #
@@ -55,8 +58,8 @@ positions), or by a {point access method}.
 # further explanation (pure HTML)
 @LINKS=
 A <a
-href="http://www.Sonnack.com/Pub/sparse_matix.gif">picture</a> of another
-type of sparse matrix.
+href="http://www.Sonnack.com/Pub/sparse_matrix.gif">picture</a> of a
+sparse matrix with dual {linked lists}. 
 Yousef Saad's 
 <a href="ftp://ftp.cs.umn.edu/dept/users/saad/PS/iter1.pdf">Iterative
 methods for sparse linear systems (PDF)</a>, a textbook reviewing
