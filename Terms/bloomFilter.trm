@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Thu Dec 13 11:33:08 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:34:51 2007" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Revision 1.10  2007/12/17 15:35:32  black
+# Remove relative anchor in Partow IMPL, to stop checklink complaint
+#
 # Revision 1.9  2007/12/13 16:34:04  black
 # LINK to wikipedia entry
 #
@@ -72,8 +75,8 @@ it is impractical to recreate the whole collection.
 # implementation(s) (pure HTML)
 @IMPL=
 Arash Partow's
-<a href="www.partow.net/programming/hashfunctions/#Download">implementations
-(C++, Object Pascal)</a>.
+<a href="www.partow.net/programming/hashfunctions/">implementations
+(C++, Object Pascal)</a> (go to Download, at the bottom).
 # further explanation (pure HTML)
 @LINKS=
 <a href="http://en.wikipedia.org/wiki/Bloom_filter">Wikipedia
