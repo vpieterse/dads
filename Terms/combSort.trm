@@ -1,7 +1,10 @@
 # *created  "Thu Jan  6 12:27:59 2005" *by "Paul E. Black"
-# *modified "Mon Jul  3 09:09:20 2006" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:50:35 2007" *by "Paul E. Black"
 
 # $Log: combSort.trm,v $
+# Revision 1.5  2007/12/17 15:52:54  black
+# Remove yagni.com IMPLs - the site has been empty since May.
+#
 # Revision 1.4  2006/07/03 13:10:39  black
 # Remove jdveale IMPL - no longer on line.  Improve wording in DEFN,
 # NOTE, and another IMPL.
@@ -68,16 +71,8 @@ sorts each set.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Wayne Conrad has
-<a href="http://yagni.com/combsort/index.php">(C++ and Ruby)</a>
-versions, contrasts it with bubble sort, and links to versions in
-bash, Basic, C, Forth, Fortran 77, i386
-assembly, Java, Pascal, Perl, PHP, and Python.
 <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/CombSort11Algorithm.java">(Java)</a>.
-Dave Ring wrote a
-<a href="http://yagni.com/combsort/correspondence.php">variant
-(Java)</a> that switches to an insertion sort when the gap is less than 9.
 
 # further explanation (pure HTML)
 @LINKS=
