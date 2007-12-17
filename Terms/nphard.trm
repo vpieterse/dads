@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Sep  5 10:49:38 2006" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:40:01 2007" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Revision 1.8  2007/12/17 15:40:02  black
+# Update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.7  2006/09/05 14:49:39  black
 # Update URL for Aaronson's Complexity Zoo
 #
@@ -82,7 +85,7 @@ FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 
 <p>
 Scott Aaronson's
-<a href="http://qwiki.caltech.edu/wiki/Complexity_Zoo">Complexity
+<a href="http://qwiki.stanford.edu/wiki/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
