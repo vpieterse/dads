@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon May 21 08:37:36 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 12:00:16 2007" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.13  2007/12/17 17:01:41  black
+# Update Mulvey's IMPL URL.  Combine Partow's IMPL URLs.
+#
 # Revision 1.12  2007/05/21 12:44:45  black
 # Update URL for Herbert Glarner's IMPL
 #
@@ -94,11 +97,8 @@ Overview of
 href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">different
 kinds of hash functions</a>.
 Bret Mulvey's great tutorial on good hash functions, including
-analysis of and code for <a href="http://bretm.home.comcast.net/hash/">FNV,
+analysis of and code for <a href="http://home.comcast.net/~bretm/hash/">FNV,
 Jenkin's hashes, SHA-1, and other hash and evaluation functions (C#)</a>.
-Arash Partow's
-<a href="http://www.partow.net/programming/hashfunctions/">hash functions (C,
-C++, Pascal, Java)</a>.
 Herbert Glarner's 
 <a href="http://herbert.gandraxa.com/herbert/hsh.asp">HSH 11/13 algorithm
 (Linoleum)</a>, including very thorough justification.
