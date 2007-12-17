@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 23 13:37:33 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:20:55 2007" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.9  2007/12/17 15:22:32  black
+# Remove LINK to Zeng's example of calculating Pi - mclab subdirectory
+# is empty.
+#
 # Revision 1.8  2007/04/23 17:43:04  black
 # Add BIB for original paper.
 #
@@ -74,8 +78,6 @@ An excellent
 <a
 href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
 introduction</a> with history.
-An example of <a
-href="http://www.chem.unl.edu/zeng/joy/mclab/mcintro.html">calculating Pi</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
