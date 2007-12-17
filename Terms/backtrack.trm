@@ -1,7 +1,10 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:54:23 2005" *by "Paul E. Black"
+# *modified "Mon Dec 17 09:25:41 2007" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.6  2007/12/17 14:32:16  black
+# Remove www.siteexperts.com LINK - "can't connect to host"
+#
 # Revision 1.5  2005/12/05 15:54:36  black
 # Update FOLDOC URL
 #
@@ -47,10 +50,7 @@ search} of a {tree} of possible (partial) solutions.  Each choice is a
 # further explanation (pure HTML)
 @LINKS=Explanation with the <a
 href="http://students.ceid.upatras.gr/~papagel/project/kef5_8.htm">8-queens</a>
-problems and 
-<a
-href="http://www.siteexperts.com/tips/functions/ts20/page2.asp">solving
-a maze</a>;
+problems.
 <a
 href="http://gaia.ecs.csus.edu/~wang/backtrack/maze/maze1/mazetraversal.html">maze
 solving Java applet</a>;
