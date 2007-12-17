@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 26 16:10:16 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 11:10:04 2007" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.16  2007/12/17 16:10:24  black
+# Remove yagni.com IMPL - site has been empty for months.
+#
 # Revision 1.15  2007/11/26 21:10:40  black
 # update URL for railroad controller.
 #
@@ -135,8 +138,6 @@ between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <a
 href="http://web.usna.navy.mil/~wdj/gray.htm">binary-to-Gray, code
 generation, and plotting (Maple)</a> with applications and references.
-Wayne Conrad's <a href="http://yagni.com/graycode/">recursive and
-iterative programs (Ruby)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graycode.trm,v $
