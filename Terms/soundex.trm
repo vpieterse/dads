@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Jul 30 08:41:58 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 12:31:14 2007" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.13  2007/12/17 17:31:49  black
+# Update URL for Bradley & Kathleen's IMPL.
+#
 # Revision 1.12  2007/07/30 12:43:49  black
 # Update Apache IMPL URL
 #
@@ -72,8 +75,8 @@ Variants have been devised for names from other cultures.
 NARA <a href="http://www.archives.gov/genealogy/census/soundex.html">Soundex
 Indexing System</a> (or <a
 href="http://www.archives.gov/publications/general-info-leaflets/55.html">GIL
-55</a>) with links to encoders and more information, and
-<a href="http://www.bradandkathy.com/genealogy/overviewofsoundex.html">Overview
+55</a>) with links to encoders and more information.
+<a href="http://bradandkathy.com/genealogy/overviewofsoundex.html">Overview
 of Soundex</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
