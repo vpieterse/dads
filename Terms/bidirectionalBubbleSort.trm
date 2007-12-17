@@ -1,7 +1,10 @@
 # *created  "Fri Mar  3 13:54:01 2000" *by "Paul E. Black"
-# *modified "Wed Aug 24 10:22:12 2005" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:29:14 2007" *by "Paul E. Black"
 
 # $Log: bidirectionalBubbleSort.trm,v $
+# Revision 1.5  2007/12/17 15:29:31  black
+# Remove java.sun.com IMPL - page is gone.
+#
 # Revision 1.4  2005/08/24 14:22:28  black
 # XREF gnome sort
 #
@@ -48,9 +51,7 @@ into place, but can only move items backward one location each pass.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
-and code (Java)</a>;
+@IMPL=
 <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 and source code (Java)</a>;
