@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:20:08 2007" *by "Paul E. Black"
+# *modified "Mon Dec 17 10:42:24 2007" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Revision 1.9  2007/12/17 15:42:39  black
+# Remove java.sun.com IMPL - page is gone.
+#
 # Revision 1.8  2007/04/23 13:20:12  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -85,9 +88,6 @@ of many sorting algorithms</a>;
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSort.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a
-href="http://java.sun.com/applets/jdk/1.0/demo/SortDemo/example1.html">animation
-and code (Java)</a>;
 <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 and source code (Java)</a>
