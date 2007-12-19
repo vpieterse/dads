@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:55 1998" *by "Paul E. Black"
-# *modified "Fri Nov  2 13:53:25 2007" *by "Paul E. Black"
+# *modified "Tue Dec 18 13:59:59 2007" *by "Paul E. Black"
 
 # $Log: breadthfirst.trm,v $
+# Revision 1.10  2007/12/18 19:02:37  black
+# Add WEB names: BFS and parallel search
+#
 # Revision 1.9  2007/11/02 18:22:12  black
 # Change DEFN wording to parallel DFS ("Any search algorithm ..."
 # instead of "A ...")
@@ -51,6 +54,21 @@ searched last.  This is typically implemented with a {queue}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={depth-first search}, {best-first search}
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=BFS,
+# breadth-first search used to be called
+parallel search
+# e.g. in Ira Pohl, "Bi-directional and Heuristic Search in Path
+# Problems", SLAC-104, UC-32, May 1969.  Stanford Linear Accelerator
+# Center, Stanford University, Stanford, California.
+# "If instead our tie-break rule was first-in/first-out (FIFO) we would
+# have parallel search.  Last-in/first-out (LIFO) would be a depth first
+# rule."   page 63 (pdf 76 0f 170) (and page 67 (pdf 80)
+# "exhaustive parallel or breadth first search" page 60 (pdf 73)
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=In a tree, called a {level-order traversal}.
