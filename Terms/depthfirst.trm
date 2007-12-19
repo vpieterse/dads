@@ -1,7 +1,12 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Fri Dec  7 08:58:27 2007" *by "Paul E. Black"
+# *modified "Tue Dec 18 14:49:29 2007" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.12  2007/12/18 19:51:09  black
+# Add BIB references of early uses of depth-first search.  Add other bib
+# references, commented out, for later research into the origin of
+# "depth-first search".
+#
 # Revision 1.11  2007/12/07 13:59:16  black
 # pre-, in-, and postorder traversals are VARIANTs
 #
@@ -66,6 +71,67 @@ discovered and finished, partitioning the graph into a {forest}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={breadth-first search}, {best-first search}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+An early mention of depth-first search:<br>
+#<strong>Robert Tarjan</strong>, <em>Depth-First Search and Linear
+#Graph Algorithms</em>,
+#SIAM Journal on Computing, 1(2):146-160, 1972.<br>
+<strong>C. Cordell Green</strong> and <strong>Bertram Raphael</strong>,
+<em>The use of theorem-proving techniques in question-answering systems</em>,
+Proc. 1968 23rd ACM national conference, pages 169-181, 1968.
+# http://doi.acm.org/10.1145/800186.810578 
+<br>
+Uses just "depth-first search" in the body (page 5), but contrasts
+depth-first with breadth-first search in a footnote.  
+# This suggests the usage is somewhat new.  Institution is Stanford
+# Research Institute, Menlo Park, California.
+
+#<br>
+#          an early use of depth-first AND breadth-first search
+# Ira Pohl, "Bi-directional and Heuristic Search in Path Problems",
+# SLAC-104, UC-32, May 1969.  Stanford Linear Accelerator Center,
+# Stanford University, Stanford, California.
+# "If instead our tie-break rule was first-in/first-out (FIFO) we would
+# have parallel search.  Last-in/first-out (LIFO) would be a depth first
+# rule."   page 63 (pdf 76 0f 170) (and page 67 (pdf 80)
+# "exhaustive parallel or breadth first search" page 60 (pdf 73)
+
+#<br>
+#         an early mention of a backtracking algorithm
+# Robert W. Floyd, "Nondeterministic algorithms", Journal of the ACM,
+# 14(4):636-644, (Oct 1967).
+#<br>
+# Shows how to convert a multi-value ("nondeterministic", as he calls
+# it) algorithm into a deterministic ("backtracking", as he calls it)
+# algorithm, which can be implemented in standard languages.  The
+# backtracking algorithm is a depth-first search.  "It is also possible
+# to simulate a multiprocessing machine which replicates itself at each
+# choice point ..."  So it should be possible to mechically convert
+# nondeterministic programs into breadth-first search, too.  The tone of
+# the paper is laying the groundwork for possible programming language
+# constructs.
+# The paper cites Golomb and Baumert, below
+
+<br><br>
+An earlier description of what we would call depth-first search with
+pruning of infeasible solutions.
+# see {prune and search} and {feasbile solution} in DADS
+<br>
+<strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
+<em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
+# "This rather universal method was named ''backtrack'' by Professor
+# D. H. Lehmer of the University of California at Berkeley.  Backtrack
+# has been independently "discovered" and applied by many people.  A
+# fairly general exposition of backtrack was given by R. J. Walker [11]."
+# [4] Hall, M., and Knuth, D. E. Combinatorial analysis and
+# computers.  Herbert Ellsworth Slaught memorial Papers, No. 10
+# (Suppl., Amer. Math. Mon., 1965).
+# [11] Walker, R. L. An enumerative technique for a class of
+# combinatorial problems.  Amer. Math. Soc. Proc. Symp. Appl Math. 10
+# (1960), 91-94.
+#   Mathematic Society Procedings of Symposium in Applied Mathematics
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
