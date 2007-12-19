@@ -1,7 +1,10 @@
 # *created  "Mon Nov 29 15:55:48 2004" *by "Paul E. Black"
-# *modified "Thu Dec 23 16:19:38 2004" *by "Paul E. Black"
+# *modified "Wed Dec 19 09:14:53 2007" *by "Paul E. Black"
 
 # $Log: treesort1.trm,v $
+# Revision 1.5  2007/12/19 14:15:39  black
+# XREF blind sort
+#
 # Revision 1.4  2004/12/23 21:20:07  black
 # Remove unneeded period at end of INME
 #
@@ -43,7 +46,7 @@ keys with an {in-order traversal}.
 # Aggregate child: "... is a part of or used in me."
 @INME={binary search tree}, {in-order traversal}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={treesort (2)}, {heapsort}
+@XREFS={blind sort}, {treesort (2)}, {heapsort}
 
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
