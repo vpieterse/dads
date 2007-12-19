@@ -1,7 +1,7 @@
 #! /bin/csh -f
-set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.2 2007/10/30 19:04:43 black Exp $'
+set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.3 2007/12/18 21:22:17 black Exp $'
 #                  *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
-set versionMod = ' *modified "Tue Oct 30 15:03:50 2007" *by "Paul E. Black"'
+set versionMod = ' *modified "Tue Dec 18 16:21:49 2007" *by "Paul E. Black"'
 
 #------------------------------------------------------------------------
 #	Rename a term file and make other needed changes: RCS, Target
@@ -161,6 +161,6 @@ if ($doCmds) then
     rm $fileList
 endif
 
-echo Remember to remove $baseFrom.html from www-i.nist.gov
+echo Remember to ftp www-i.nist.gov, cd HTML, and delete $baseFrom.html
 
 # end of $Source: /home/black/DADS/dads/RCS/mvterm,v $
