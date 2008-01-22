@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Feb  1 11:31:08 2007" *by "Paul E. Black"
+# *modified "Tue Jan 22 11:58:53 2008" *by "Paul E. Black"
 
 # $Log: perfectBinaryTree.trm,v $
+# Revision 1.6  2008/01/22 17:04:24  black
+# correct formula for number of nodes
+#
 # Revision 1.5  2007/02/01 20:58:09  black
 # Add Carrano & Prichard and Sahni that call this "full".
 #
@@ -46,7 +49,8 @@ All {internal nodes} have {degree} 2.
 @XREFS={perfect <strong>k</strong>-ary tree}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A perfect binary tree has $2<sup>n</sup>-1$ nodes.
+@NOTES=A perfect binary tree has $2<sup>n+1</sup>-1$ nodes, where $n$
+is the {height}.
 It can be efficiently implemented as an {array}, where a node at index
 $i$ has children at indexes $2i$ and $2i+1$ and a
 parent at index $i/2$.
