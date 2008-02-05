@@ -1,7 +1,11 @@
 # *created  "Fri Oct 15 08:54:48 2004" *by "Paul E. Black"
-# *modified "Thu Nov 15 09:32:43 2007" *by "Paul E. Black"
+# *modified "Tue Jan 22 12:02:49 2008" *by "Paul E. Black"
 
 # $Log: cubeRoot.trm,v $
+# Revision 1.4  2008/02/04 21:01:46  black
+# Fix very poor wording: mention other sophisticated functions in
+# addition to Newton-Raphson.
+#
 # Revision 1.3  2007/11/15 14:34:30  black
 # Put spaces between underscores to make it clear there are two digits.
 # Fix typo: cube root, not square root.  From Jeff I. Cleveland II,
@@ -273,11 +277,11 @@ more digits, and repeat the process.
 # any notes.  these are not printed in the final dictionary
 @NOTES=In computers and hand-held calculators, square root, sine,
 cosine, and other transcendental functions are calculated with
-sophisticated functions based on the
+sophisticated functions, such as Taylor series, {CORDIC}, or
 # by Mohamed A. Khamsi and Helmut Knaust 
 <a href="http://www.sosmath.com/calculus/diff/der07/der07.html">Newton-Raphson
 method</a>, sometimes called Newton's method.  
-Here is a more detailed lesson that explains, for instance, 
+This lesson explains, for instance, 
 # Newton-Raphson Method multi-dimensional systems and nonlinear equations
 # by Amarantidis Kostas and Makris Lambros
 <a href="http://uranus.ee.auth.gr/lessons/1/">possible difficulties in
