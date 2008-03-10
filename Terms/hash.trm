@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Dec 17 12:00:16 2007" *by "Paul E. Black"
+# *modified "Mon Mar 10 14:08:27 2008" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.14  2008/03/10 18:08:54  black
+# Add Appleby's MurmurHash.
+#
 # Revision 1.13  2007/12/17 17:01:41  black
 # Update Mulvey's IMPL URL.  Combine Partow's IMPL URLs.
 #
@@ -92,6 +95,8 @@ Bob Jenkins' fast, parameterizable, broadly applicable
 functions.
 A review and comparison of many
 <a href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</a>.
+Austin Appleby's fast
+<a href="http://murmurhash.googlepages.com/">MurmurHash (C)</a>.
 Overview of
 <a
 href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter12/12-3.html">different
