@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jun 11 08:17:09 2007" *by "Paul E. Black"
+# *modified "Wed Mar 26 09:01:13 2008" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.9  2008/03/26 13:17:21  black
+# XREF Jaro-Winkler, too, since it is a distance measure
+#
 # Revision 1.8  2007/06/11 12:26:13  black
 # Change WikiSource IMPL, which is gone, to WikiBooks.
 #
@@ -57,7 +60,7 @@ between strings, where $m$ and $n$ are the lengths of the strings.
 # Aggregate child: "... is a part of or used in me."
 @INME={edit operation}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={double metaphone}, {soundex}, {Hamming distance}
+@XREFS={double metaphone}, {soundex}, {Jaro-Winkler}, {Hamming distance}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
