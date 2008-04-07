@@ -1,7 +1,10 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Mon Nov 26 16:02:40 2007" *by "Paul E. Black"
+# *modified "Mon Apr  7 10:16:34 2008" *by "Paul E. Black"
 
 # $Log: johnsonTrotter.trm,v $
+# Revision 1.6  2008/04/07 14:23:15  black
+# Update jstor BIB URLs
+#
 # Revision 1.5  2007/11/26 21:04:29  black
 # fix typo
 #
@@ -53,9 +56,9 @@ CACM, 5(8):434-435, August 1962.  Available at
 Adjacent Transposition</em>, Mathematics of Computation,
 17(83):282-285, July 1963.  Available at 
 <a
-href="http://links.jstor.org/sici?sici=0025-5718(196307)17:83<282:GOPBAT>2.0.CO;2-E">http://links.jstor.org/sici?sici=0025-5718(196307)17:83<282:GOPBAT>2.0.CO;2-E</a>
+href="http://www.jstor.org/sici?sici=0025-5718(196307)17:83<282:GOPBAT>2.0.CO;2-E">http://www.jstor.org/sici?sici=0025-5718(196307)17:83<282:GOPBAT>2.0.CO;2-E</a>
 or
-<a href="http://www.jstor.org/view/00255718/di970507/97p01064/0">http://www.jstor.org/view/00255718/di970507/97p01064/0</a>
+<a href="http://www.jstor.org/action/showArticle?doi=10.2307/2003846">http://www.jstor.org/action/showArticle?doi=10.2307/2003846</a>
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
