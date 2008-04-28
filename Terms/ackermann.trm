@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Tue May 30 09:55:06 2006" *by "Paul E. Black"
+# *modified "Mon Apr 28 09:43:37 2008" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.7  2008/04/28 13:45:04  black
+# Update Munafo's LINK
+#
 # Revision 1.6  2006/05/30 13:55:49  black
 # Update Kosara's Lisp IMPL URL
 #
@@ -80,7 +83,7 @@ of which are not simply a restating of this one.
 # further explanation (pure HTML)
 @LINKS=
 Robert Munafo's <a
-href="http://home.earthlink.net/~mrob/pub/math/ln-2deep.html">Versions
+href="http://www.mrob.com/pub/math/ln-2deep.html">Versions
 of Ackermann's Function</a> and analysis.
 Cowles and Bailey <a
 href="http://www.cs.utexas.edu/users/boyer/ftp/nqthm/nqthm-1992/examples/basic/peter.events">Several
