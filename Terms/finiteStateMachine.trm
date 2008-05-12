@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 17 11:52:26 2007" *by "Paul E. Black"
+# *modified "Mon May 12 09:16:51 2008" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Revision 1.9  2008/05/12 13:17:11  black
+# add Lutterkort's IMPL
+#
 # Revision 1.8  2007/12/17 16:53:08  black
 # Update Daciuk's URL.
 #
@@ -87,6 +90,11 @@ Jan Daciuk's
 <a href="http://www.eti.pg.gda.pl/katedry/kiw/pracownicy/Jan.Daciuk/personal/fsa.html">Finite
 state utilities (C++)</a> including many links to other code, papers,
 etc.
+David Lutterkort's
+<a href="http://www.augeas.net/libfa/">Finite Automata library -
+libfa (C)</a>, which is part of Augeas, supports many operations like
+"compile" a regular expression into a finite automaton, minimize,
+union, intersect, and minus.
 <a href="http://odur.let.rug.nl/~vannoord/Fsa/">Finite State Automata
 Utilities (Prolog)</a>, which generate C code, minimize, visualize,
 etc.  Page has binaries, too.
