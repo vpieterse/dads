@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Fri Nov  2 14:38:42 2007" *by "Paul E. Black"
+# *modified "Thu May 15 12:20:00 2008" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.11  2008/05/15 16:22:49  black
+# Restate DEFN without using "set".  Add a FORML definition.
+#
 # Revision 1.10  2007/11/02 21:19:18  black
 # XREF huge sparse array and NOTE its use.  NOTE skip list as a faster
 # data structure.
@@ -38,7 +41,42 @@
 # basic, numeric, search, sort, graph, combin(atorial)
 @AREA=basic
 # the definition
-@DEFN=A set of items which are randomly accessible by numeric index.
+@DEFN=An assemblage of items which are randomly accessible by
+integers, the index.
+
+# formal definition or {cross reference} to an entry
+@FORML=Ignoring size an array may be seen as an {abstract data type}
+with the operations new(), set(i, v, A), and get(i, A),  where i is a
+numeric index, v is a value, and A is an array.  The operations may be
+defined with {axiomatic semantics} as follows.
+<ol>
+<li>new() returns an array
+<li>get(i, set(i, v, A)) = v
+<li>$get(i, set(j, v, A)) = get(i, A) if i \neq j$
+</ol>
+Compare this with a {dictionary} using integers as keys.
+</p>
+
+<p>
+If the contents of a new array are set to some implicit initial value
+$v<sub>i</sub>$, we could add the following rule for get.
+<ol start="4">
+<li>get(i, new()) = $v<sub>i</sub>$
+</ol>
+
+<p>
+Typically arrays have a fixed size and use either {0-based indexing}
+or {one-based indexing}.  Fixed initial size and 0-based indexing may
+incorporated as follows.
+<ol>
+<li>new(s) returns an array, which has a size s
+<li>size(new(s)) = s
+<li>size(set(i, v, A)) = size(A)
+<li>$get(i, set(i, v, A)) = v if 0 \leq i &lt; size(A)$
+<li>$get(i, set(j, v, A)) = get(i, A) if i \neq j$
+</ol>
+One-based or other indexing may be defined similarly.
+</p>
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
