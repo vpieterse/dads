@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Dec 17 10:34:51 2007" *by "Paul E. Black"
+# *modified "Fri May 16 14:26:01 2008" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Revision 1.11  2008/05/16 20:14:23  black
+# XREF new locality-sensitive hashing
+#
 # Revision 1.10  2007/12/17 15:35:32  black
 # Remove relative anchor in Partow IMPL, to stop checklink complaint
 #
@@ -60,7 +63,7 @@ large set using multiple {hash functions} into a single
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={locality-sensitive hashing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Burton Bloom</strong>, <em>Space/time trade-offs in hash
