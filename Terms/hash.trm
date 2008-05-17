@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Mar 10 14:13:43 2008" *by "Paul E. Black"
+# *modified "Fri May 16 16:16:53 2008" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.16  2008/05/16 20:18:08  black
+# I'M IN locality-sensitive hashing.
+#
 # Revision 1.15  2008/03/10 18:14:45  black
 # note that Appleby's pages include avalanche diagrams.
 #
@@ -70,7 +73,8 @@ get an even distribution on a smaller set of values.
 {minimal perfect hashing}, {order preserving minimal perfect hashing}, 
 specific functions: {Pearson's hash}, {multiplication method}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={hash table}, {uniform hashing}, {universal hashing}, {Bloom filter}
+@IMIN={hash table}, {uniform hashing}, {universal hashing}, 
+{Bloom filter}, {locality-sensitive hashing}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
