@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:09:15 1998" *by "Paul E. Black"
-# *modified "Mon Jun 19 15:46:18 2006" *by "Paul E. Black"
+# *modified "Fri May 16 14:25:01 2008" *by "Paul E. Black"
 
 # $Log: pointAccessMethod.trm,v $
+# Revision 1.6  2008/05/16 20:14:18  black
+# XREF new locality-sensitive hashing
+#
 # Revision 1.5  2006/06/19 19:49:38  black
 # LINK to Java demos.
 #
@@ -37,7 +40,7 @@ for points defined in multidimensional space.
 # Specialization: "... is a kind of me."
 @VARIANT={EXCELL}, {grid file}, {hB-tree}, {twin grid file}, 
 {two-level grid file}, {k-d tree}, {BSP-tree}, {quadtree},
-{UB-tree}, {buddy tree}
+{UB-tree}, {buddy tree}, {locality-sensitive hashing}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
