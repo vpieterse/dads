@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:15:03 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:17 2004" *by "Paul E. Black"
+# *modified "Tue May 27 09:16:23 2008" *by "Paul E. Black"
 
 # $Log: rightrotatn.trm,v $
+# Revision 1.5  2008/05/27 13:16:29  black
+# Update URL for James Stewart's applet
+#
 # Revision 1.4  2004/12/17 16:54:18  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -54,9 +57,9 @@ right rotation.
 @IMPL=<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">(C
 and Pascal)</a>.  A great series of <a
-href="http://www.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
+href="http://research.cs.queensu.ca/home/jstewart/applets/bst/bst-rotation.html">animations
 explaining rotations</a> with <a
-href="http://www.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
+href="http://research.cs.queensu.ca/home/jstewart/applets/bst/source/bst.java">code
 (Java)</a>.
 # author's initials
 @AUTHOR=BB
