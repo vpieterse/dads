@@ -1,7 +1,10 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Tue Apr  1 14:30:53 2008" *by "Paul E. Black"
+# *modified "Fri Jun  6 11:14:58 2008" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.9  2008/06/06 15:15:45  black
+# Fix punctuation.
+#
 # Revision 1.8  2008/04/01 18:55:09  black
 # Update Allen's freepages.genealogy URL and improve the text.
 #
@@ -58,10 +61,10 @@ An early exposition of this technique:
 <strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
 <em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
 <br>
-"This rather universal method was named ''backtrack'' by Professor
+"This rather universal method was named 'backtrack' by Professor
 D. H. Lehmer of the University of California at Berkeley."
 # article goes on to say "Backtrack
-# has been independently "discovered" and applied by many people.  A
+# has been independently 'discovered' and applied by many people.  A
 # fairly general exposition of backtrack was given by R. J. Walker [11]."
 #
 # [4] Hall, M., and Knuth, D. E. Combinatorial analysis and
