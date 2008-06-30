@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jun 30 09:46:36 2008" *by "Paul E. Black"
+# *modified "Mon Jun 30 10:03:53 2008" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.10  2008/06/30 14:04:42  black
+# add web-only misspellings
+#
 # Revision 1.9  2008/06/30 13:49:40  black
 # Add URL of reproduction knapsacks since the previous page is not now
 # available.
@@ -51,7 +54,7 @@ is maximized.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=0-1 knapsack problem, binary knapsack problem
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=BKP
+@WEB=BKP, nap sack, napsack
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
