@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 11 13:10:26 2007" *by "Paul E. Black"
+# *modified "Mon Jun 30 09:46:36 2008" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.9  2008/06/30 13:49:40  black
+# Add URL of reproduction knapsacks since the previous page is not now
+# available.
+#
 # Revision 1.8  2007/10/11 17:17:56  black
 # Add knapsack problem cartoon (in LINKS so its at the bottom of the
 # entry).  XREF NP-complete
@@ -74,6 +78,9 @@ exceeds a certain value?  The decision problem is {NP-complete}.
 </p>
 
 <p>
+Pictures of several
+<a href="http://www.jarnaginco.com/CWKnapsacks.html">reproduction
+knapsacks</a>, many with rigid internal frames.
 Near the end, the following page has 
 <a
 href="http://www.dodgenet.com/~ghostgar/ggbook/GGbook.html">drawings
