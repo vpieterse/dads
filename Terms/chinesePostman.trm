@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:12:45 2004" *by "Paul E. Black"
+# *modified "Wed Jul  9 09:56:13 2008" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Revision 1.6  2008/07/09 13:57:57  black
+# fix name in BIB.  Add Goldman's middle initial to Historical Note and
+# fix typo.
+#
 # Revision 1.5  2004/12/17 17:12:46  black
 # Refine XREFS into IMA, etc.  Make more XHTML compliant.
 #
@@ -50,21 +54,21 @@ at least once.  Finding an optimal solution in a graph with both
 {vehicle routing problem},
 {optimization problem}
 @BIB=
-<strong>Mei-Ko Kwan</strong>, <em>Graphic Programming Using Odd or
+<strong>Kwan Mei-Ko</strong>, <em>Graphic Programming Using Odd or
 Even Points</em>, Chinese Math., 1:273-277, 1962.
 # as given as K. Mei-Ko - Mei-Ko is the family name
 
 # Historical note 
 @HISTORY=
 K. Mei-Ko's article referred to optimizing a postman's route, was
-written by a Chinese author and appeared in a Chinese math journal.  
-Based on this Alan Goldman suggested the name "Chinese Postman
+written by a Chinese author, and appeared in a Chinese math journal.  
+Based on this Alan J. Goldman suggested the name "Chinese Postman
 problem" to Jack Edmonds when Edmonds was in Goldman's Operations
 Research group at the U.S. National Bureau of Standards (now NIST).
 Edmonds appreciated its "catchiness" and adopted it.  
 Goldman was also indirectly influenced by recalling an Ellery
-Queen mystery called "The Chinese Orange Mystery".
-(Alan Goldman, personal communication, 14 December 2003)
+Queen mystery named "The Chinese Orange Mystery".
+(Alan J. Goldman, personal communication, 14 December 2003)
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
