@@ -1,7 +1,11 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Tue Apr  4 07:53:38 2006" *by "Paul E. Black"
+# *modified "Fri Jul 11 11:43:02 2008" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.7  2008/07/11 15:46:57  black
+# Add Peyser's correction to Eichstadt's refinement.  Update
+# cut-the-knot.com LINK.
+#
 # Revision 1.6  2006/04/04 11:54:32  black
 # Note non-obvious improvement suggested by Torsten.
 #
@@ -97,13 +101,14 @@ now u or v (or both) are odd
 </p>
 
 <p>
-Called Algorithm B in
+Algorithm B in
 <a href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</a>.
-Torsten Eichst&auml;dt suggested incrementing g in step 2.3 (g++) and
-returning v left shifted g times (return v&lt;&lt;g) in step 4.
-4 April 2006.
+Torsten Eichst&auml;dt suggested incrementing g in step 2.3 (g++) and 
+returning v left shifted g times in step 4 (return v&lt;&lt;g).
+4 April 2006.  
+Alex Peyser pointed out that g must start at 0.  10 July 2008.
 # further explanation (pure HTML)
-@LINKS=<a href="http://www.cut-the-knot.com/blue/binary.html">Binary
+@LINKS=<a href="http://www.cut-the-knot.com/blue/binary.shtml">Binary
 Euclid's Algorithm</a> including examples and references.
 # implementation(s) (pure HTML)
 @IMPL=
