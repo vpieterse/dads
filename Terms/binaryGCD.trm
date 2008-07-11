@@ -1,7 +1,11 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Fri Jul 11 11:43:02 2008" *by "Paul E. Black"
+# *modified "Fri Jul 11 11:57:09 2008" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.8  2008/07/11 16:03:10  black
+# Remove WEB entry for Knuth's algorithm B: Knuth reuses one letter
+# algorithm names, so it is a local designator, not a "name".
+#
 # Revision 1.7  2008/07/11 15:46:57  black
 # Add Peyser's correction to Eichstadt's refinement.  Update
 # cut-the-knot.com LINK.
@@ -39,7 +43,7 @@ operations.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=Knuth's algorithm B
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
