@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:40:01 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:22:59 2004" *by "Paul E. Black"
+# *modified "Mon Jul 14 09:22:14 2008" *by "Paul E. Black"
 
 # $Log: adaptiveHuffman.trm,v $
+# Revision 1.7  2008/07/14 13:22:56  black
+# remove link to Ali Rahimi's IMPL - entire account is gone
+#
 # Revision 1.6  2004/12/17 17:22:59  black
 # Make more XHTML compliant.
 #
@@ -60,7 +63,7 @@ of algorithm FGK and Vitter's Algorithm (algorithm V), two different
 adaptive Huffman coding
 algorithms.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.xcf.berkeley.edu/~ali/K0D/Algorithms/huff/">(C)</a>
+@IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/adaptiveHuffman.trm,v $
