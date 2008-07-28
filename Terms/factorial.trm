@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 26 10:11:52 2007" *by "Paul E. Black"
+# *modified "Mon Jul 28 15:58:00 2008" *by "Paul E. Black"
 
 # $Log: factorial.trm,v $
+# Revision 1.9  2008/07/28 19:58:31  black
+# Remove Grant's prime sieve IMPL - DNS entry is gone.
+#
 # Revision 1.8  2007/11/26 15:14:01  black
 # Luschny's IMPL is on-line again.  Remove Ericson's IMPL - URL is bad,
 # and cannot find a new one.  IMIN permutation and combination.
@@ -69,9 +72,6 @@ Peter Luschny's
 href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm">
 fast factorial algorithms (Java and C#)</a> including benchmarks and
 advice.
-Calum Grant's
-<a href="http://visula.org/calum/fact2.cpp">prime sieve fast factorial
-(C++)</a>.
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PEB
