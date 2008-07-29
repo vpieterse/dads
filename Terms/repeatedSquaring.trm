@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Thu Dec 28 09:34:02 2006" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:00:41 2008" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Revision 1.6  2008/07/28 20:01:16  black
+# Remove exponents modulo some number NOTE - server DNS is still not available.
+#
 # Revision 1.5  2006/12/28 14:36:29  black
 # Improve presentation of example: put steps to do between rows for state.
 #
@@ -174,10 +177,6 @@ could multiply by repeatedly doubling and summing.
 <a href="http://www.cs.ucsd.edu/classes/fa96/cse30/lec4/exp.html">(C)</a>
 # further explanation (pure HTML)
 @LINKS=
-Computing
-<a href="http://web.usna.navy.mil/~wdj/book/node27.html">exponents
-modulo some number</a> from 2002 on-line book "Applied Abstract Algebra" by
-Joyner, Kreminski, and Turisco.
 How do you
 <a
 href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf">compute
