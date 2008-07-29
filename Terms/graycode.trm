@@ -1,7 +1,11 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Dec 17 11:10:04 2007" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:01:37 2008" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.17  2008/07/28 20:02:14  black
+# Remove binary-to-Gray code etc. (Maple) IMPL - usna.navy.mil server
+# still not available.
+#
 # Revision 1.16  2007/12/17 16:10:24  black
 # Remove yagni.com IMPL - site has been empty for months.
 #
@@ -135,9 +139,6 @@ application to genetic algorithms.
 <a href="http://www.nrbook.com/a/bookcpdf/c20-2.pdf">Convert
 between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <em>Numerical Recipes in C</em>.
-<a
-href="http://web.usna.navy.mil/~wdj/gray.htm">binary-to-Gray, code
-generation, and plotting (Maple)</a> with applications and references.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/graycode.trm,v $
