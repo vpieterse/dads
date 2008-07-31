@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Mon Apr 28 09:43:37 2008" *by "Paul E. Black"
+# *modified "Thu Jul 31 12:58:22 2008" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.8  2008/07/31 16:59:18  black
+# Add BIB entries.  Clarify where the above formula comes from.
+#
 # Revision 1.7  2008/04/28 13:45:04  black
 # Update Munafo's LINK
 #
@@ -42,9 +45,11 @@
 <li>$A(i, 0)=A(i-1, 1)$			for $i &gt; 0$
 <li>$A(i, j)=A(i-1, A(i, j-1))$		for $i, j &gt; 0$
 </ul>
-# from
-# Rozsa Peter, "Recursive Functions in Computer Theory", translated by
-# I. Juha'sz (that is, a-acute-accent), Ellis Horwood Ltd, 1981, p 29.
+#The formal definition is Raphael M. Robinson's simplification of
+#Peter's version. I got it from<br />
+#<strong>R&oacute;zsa P&eacute;ter</strong>, <em>Recursive Functions in
+#Computer Theory</em>, translated by I. Juh&aacute;sz, Ellis Horwood
+#Ltd, 1981, p 29.
 # NIST QA76.7 .P46 1981
 
 # comma-sep list of pure names that this is Also Known As.
@@ -64,21 +69,38 @@
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={inverse Ackermann function}
 
-# any notes.  these will not be printed in the final dictionary
-@NOTES=In 1928, 
-<a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Ackermann.html">Wilhelm
-Ackermann</a> observed that
-A(x,y,z), the z-fold iterated exponentiation of x with y, is an
-example of a recursive function which is not primitive recursive.
-A(x,y,z) was simplified to a function of 2 variables by 
-R&oacute;zsa P&eacute;ter in 1935. 
-Raphael M. Robinson simplified the initial condition in 1948.
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Wilhelm Ackermann</strong>, <em>Zum Hilbertschen Aufbau der
+reellen Zahlen</em>, Mathematische Annalen 99(1):118-133, 
+December 1928. <br />
+<a href="http://dx.doi.org/10.1007/BF01459088">doi:10.1007/BF01459088</a>
 </p>
 
 <p>
-Many people have given other versions of Ackermann's function, some
-of which are not simply a restating of this one.
+The formal definition given here is G<sub>n</sub>x in the first page
+of<br />
+<strong>Raphael M. Robinson</strong>, <em>Recursion and Double
+Recursion</em>, Bulletin of the American Mathematical Society
+54:987-993, October 1948.<br />
+<a href="http://dx.doi.org/10.1090/S0002-9904-1948-09121-2">doi:10.1090/S0002-9904-1948-09121-2</a>
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Many people have defined other similar functions which are not simply
+a restating of this one.
+</p>
+
+<p>
+In 1928, 
+<a
+href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Ackermann.html">Wilhelm
+Ackermann</a> observed that
+A(x,y,z), the z-fold iterated exponentiation of x with y, is
+a recursive function that is not primitive recursive.
+A(x,y,z) was simplified to a function of 2 variables by 
+R&oacute;zsa P&eacute;ter in 1935. 
+Raphael M. Robinson simplified the initial condition in 1948.
 
 # further explanation (pure HTML)
 @LINKS=
