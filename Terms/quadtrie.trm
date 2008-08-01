@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:52:28 1999" *by "Paul E. Black"
-# *modified "Wed Dec 14 09:00:42 2005" *by "Paul E. Black"
+# *modified "Fri Aug  1 10:12:45 2008" *by "Paul E. Black"
 
 # $Log: quadtrie.trm,v $
+# Revision 1.6  2008/08/01 14:20:22  black
+# Add NOTE on pronunciation.
+#
 # Revision 1.5  2005/12/14 14:00:44  black
 # Change pp to pages
 #
@@ -39,6 +42,12 @@ of the {key}, typically a character.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After <a href="../terms.html#GBY91">[GBY91, pages 146-149]</a>.
+</p>
+
+<p>
+The name comes from re<strong>TRIE</strong>val and is
+pronounced, "tree."  See the historical note at {trie}.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
