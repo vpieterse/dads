@@ -1,7 +1,12 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Thu Jan  5 10:54:33 2006" *by "Paul E. Black"
+# *modified "Fri Aug  1 10:06:28 2008" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
+# Revision 1.7  2008/08/01 14:07:51  black
+# Add HISTORY note direct communication from Ed Fredkin that the
+# pronunciation is intended to be "tree".  Moderate wording of my partly
+# humorous NOTE on pronunciation.
+#
 # Revision 1.6  2006/09/11 14:02:30  black
 # add a humorous note about the pronunciation
 #
@@ -57,15 +62,43 @@ CACM, 3(9):490-499, September 1960.
 #	Fundamentals of Data Structures, Horowitz and Sahni, pp 517-525
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."
+pronounced, "tree."  See the historical note.
 <p>
 
 </p> 
-There are some who, in a sadly misguided attempt to verbally
+There are many who, in an attempt to verbally
 distinguish a trie from the more general tree and in contrast to
 typical English pronunciation (of which calorie, eerie, and reverie
 are examples, but die, lie, and pie are not), pronounce the name
 "try".
+
+# any historical notes
+@HISTORY=
+On 31 July 2008 Edward Fredkin wrote
+# "Ed Fredkin" <ed@fredkin.com>
+</p>
+
+<p>
+As defined by me,
+nearly 50 years ago, it is properly pronounced "tree" as in the word
+"retrieval".  At least that was my intent when I gave it the name
+"Trie".  The idea behind the name was to combine reference to both the
+structure (a tree structure) and a major purpose (data storage and
+retrieval).
+# It's fascinating to see various authorities claiming it
+# should be pronounced like "try" but they are only parroting each other.
+# Of course, the English language is free to evolve in any direction
+# whatsoever.
+</p>
+
+<p>
+Ed Fredkin
+</p>
+
+#<p>
+#ef@cmu.edu
+#</p>
+
 
 # implementation(s): pure HTML
 @IMPL=
