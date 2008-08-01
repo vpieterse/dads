@@ -1,0 +1,74 @@
+# *created  "Tue Dec 18 16:07:56 2007" *by "Paul E. Black"
+# *modified "Fri Aug  1 10:15:06 2008" *by "Paul E. Black"
+
+# $Log: blindTrie.trm,v $
+# Revision 1.1  2008/08/01 14:18:45  black
+# Initial revision
+#
+
+# entry name
+@NAME=blind trie
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A specialized {Patricia tree} whose {internal nodes} store only
+an integer, $k$, which is the length of the common {prefix} of the
+strings in the {children#child}.  Equivalently, the strings first
+differ in the $(k+1)<sup>st</sup>$ character.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={Patricia tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={blind sort}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+Defined in the following, but called a Patricia tree<br>
+<strong>Paolo Ferragina</strong> and <strong>Roberto Grossi</strong>,
+<em>The string B-tree: a new data structure for string search in
+external memory and its applications</em>,
+Journal of the ACM, 46(2): 236 - 280, (March 1999).
+</p>
+
+<p>
+Called "blind trie" in<br>
+<strong>Giovanni Manzini</strong> and <strong>Paolo Ferragina</strong>,
+<em>Engineering a Lightweight Suffix Array Construction Algorithm</em>,
+Algorithmica, 40(1):33-50, (Jun 2004).
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Used in a specialized algorithm, described in <em>Engineering a
+Lightweight Suffix Array Construction Algorithm</em>, to build {suffix
+arrays}.
+</p>
+
+<p>
+The name comes from re<strong>TRIE</strong>val and is
+pronounced, "tree."  See the historical note at {trie}.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/blindTrie.trm,v $
