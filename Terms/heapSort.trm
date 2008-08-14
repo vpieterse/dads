@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Mon May 14 10:01:39 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:29 2008" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.14  2008/08/14 16:14:31  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.13  2007/05/14 14:01:41  black
 # Update URL to https for Woop
 #
@@ -68,9 +71,9 @@ repeatedly extracts the maximum item.  Run time is
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Robert W. Floyd</strong>, <em>Algorithm 245 Treesort 3</em>,
-CACM, 7(12):701, December 1964.<br>
+CACM, 7(12):701, December 1964.<br />
 <strong>J. W. J. Williams</strong>, <em>Algorithm 232 Heapsort</em>,
-CACM, 7(6):378-348, June 1964.<br>
+CACM, 7(6):378-348, June 1964.<br />
 Although Williams clearly stated the idea of heapsort, Floyd gave a
 complete, efficient implementation nearly identical to what we use
 today.
