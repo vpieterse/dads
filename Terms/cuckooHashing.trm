@@ -1,7 +1,10 @@
 # *created  "Thu Feb 20 11:48:59 2003" *by "Paul E. Black"
-# *modified "Mon Apr 14 09:00:54 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:21 2008" *by "Paul E. Black"
 
 # $Log: cuckooHashing.trm,v $
+# Revision 1.8  2008/08/14 16:14:23  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2008/04/14 13:02:29  black
 # Microsoft Research copy of "cool and practical alternative" is gone.
 # Fix grammatical error.
@@ -67,7 +70,7 @@ by removing it from a table.
 @BIB=<strong>Rasmus Pagh</strong> and <strong>Flemming Friche
 Rodler</strong>, <em>Cuckoo Hashing</em>, Proceedings of ESA 2001,
 Lecture Notes in Computer Science, vol. 2161, pages 121-?, 2001.
-<br>
+<br />
 Generalized in
 <strong>&Uacute;lfar Erlingsson</strong>, <strong>Mark
 Manasse</strong>, and <strong>Frank McSherry</strong>,
