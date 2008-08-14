@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jul 25 09:30:34 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:24 2008" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.9  2008/08/14 16:14:25  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.8  2006/07/25 13:33:03  black
 # Add WEB ref: dynamic hash table
 #
@@ -60,7 +63,7 @@ shrink the table to save space when items are deleted.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>R. J. Enbody and H. C. Du</strong>, <em>Dynamic Hashing
 Schemes</em>, ACM Computing Surveys, 20(2):85-113, June 1998.  
-<br>
+<br />
 Note:
 Figure 5b has errors: boxes should be labeled (top to bottom) A, D, B,
 and C.  
@@ -69,7 +72,7 @@ and C.
 # BIT is a Swedish journal or column: http://math.liu.se/BIT/
 <p>
 <strong>Per-&Aring;ke Larson</strong>, <em>Dynamic hashing</em>, BIT
-18(2):184-201, 1978.<br>
+18(2):184-201, 1978.<br />
 <strong>Per-&Aring;ke Larson</strong>, <em>Dynamic Hash Tables</em>,
 CACM 31(4):446-457, April 1988.
 # describes two methods: linear hashing and spiral storage
