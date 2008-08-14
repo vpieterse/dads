@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon Dec 19 11:08:00 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:28 2008" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.8  2008/08/14 16:14:28  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2005/12/19 16:09:07  black
 # Update Princeton URL
 #
@@ -57,7 +60,7 @@ It consumes {$\Theta(N \log N)$#$\Theta$} bits and runs in
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>R. A. Fisher</strong> and <strong>F. Yates</strong>,
-Example 12, Statistical Tables, London, 1938.<br>
+Example 12, Statistical Tables, London, 1938.<br />
 <strong>Richard Durstenfeld</strong>, <em>Algorithm 235: Random
 permutation</em>, CACM 7(7):420, July 1964.
 
