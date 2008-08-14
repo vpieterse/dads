@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon Dec 10 09:05:19 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:45 2008" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.9  2008/08/14 16:15:47  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.8  2007/12/10 14:07:03  black
 # Update de Halleux IMPL URL
 #
@@ -61,7 +64,7 @@ array, list, etc.), the middle subtree organizes by the next subkey
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-Although not named, ternary search trees are described in<br>
+Although not named, ternary search trees are described in<br />
 <strong>Jon Louis Bentley</strong> and <strong>James B. Saxe</strong>,
 <em>Algorithms on Vector Sets</em>, SIGACT News, pages 36-39, Fall 1979.
 </p>
