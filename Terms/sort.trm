@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:17:13 1998" *by "Paul E. Black"
-# *modified "Thu Nov  9 08:54:37 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:31 2008" *by "Paul E. Black"
 
 # $Log: sort.trm,v $
+# Revision 1.14  2008/08/14 16:15:33  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.13  2006/11/13 16:07:37  black
 # topo sort is a VARIANT
 #
@@ -57,7 +60,7 @@ cost of moving items, etc.  Most algorithms can be implemented as an
 $S$, of $N$ items and a final array, $S\prime$, as follows.
 <ol>
 <li>$S\prime<sub>i</sub> \leq S\prime<sub>i+1</sub>, 0 &lt; i &lt; N$
-<br> (the items are in order) and
+<br /> (the items are in order) and
 <li>$S\prime$ is a {permutation} of $S$.
 </ol>
 # comma-sep list of pure names that this is Also Known As.
