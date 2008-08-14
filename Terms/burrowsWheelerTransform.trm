@@ -1,7 +1,10 @@
 # *created  "Tue Jan 20 16:45:15 2004" *by "Paul E. Black"
-# *modified "Fri Feb 16 12:39:16 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:07 2008" *by "Paul E. Black"
 
 # $Log: burrowsWheelerTransform.trm,v $
+# Revision 1.4  2008/08/14 16:14:10  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.3  2007/02/16 19:10:20  black
 # Add Nelson's explanation and IMPL.
 #
@@ -48,7 +51,7 @@ can be reconstructed from the rearranged string.
 Block-sorting Lossless Data Compression Algorithm</em>, Research
 Report SRC-124, Digital Equipment Corporation, Palo Alto, California,
 May 1994.
-<br>
+<br />
 This transform is algorithm C in the paper.
 
 # any notes.  these are not printed in the final dictionary
