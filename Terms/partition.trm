@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 18 16:19:40 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:08 2008" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Revision 1.6  2008/08/14 16:15:13  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.5  2007/10/18 20:20:04  black
 # fix grammar in DEFN.  XREF connected components.
 #
@@ -33,12 +36,12 @@ greater.
 (1) A partition $P$ of a set $S$ is a set of subsets
 with the following properties:
 <ul>
-<li> $\forall s<sub>i</sub> \in P, s<sub>i</sub> \neq \emptyset$ <br>(no
+<li> $\forall s<sub>i</sub> \in P, s<sub>i</sub> \neq \emptyset$ <br />(no
 subset is empty),
 <li> $\forall s<sub>i</sub>, s<sub>j</sub> \in P, i \neq j \rightarrow
 s<sub>i</sub>
-\cap s<sub>j</sub> = \emptyset $ <br> (subsets are disjoint), and
-<li> $\bigcup<sub>i=1</sub> s<sub>i</sub> = S$ <br>(subsets exactly
+\cap s<sub>j</sub> = \emptyset $ <br /> (subsets are disjoint), and
+<li> $\bigcup<sub>i=1</sub> s<sub>i</sub> = S$ <br />(subsets exactly
 cover the original).
 </ul>
 </p>
