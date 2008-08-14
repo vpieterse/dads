@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:59:26 1999" *by "Paul E. Black"
-# *modified "Mon Dec 20 09:09:00 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:06 2008" *by "Paul E. Black"
 
 # $Log: pagoda.trm,v $
+# Revision 1.6  2008/08/14 16:15:08  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.5  2004/12/20 14:09:15  black
 # Note that merge is called "meld".
 #
@@ -50,7 +53,7 @@ the rightmost edge of the other.
 <strong>J. Francon, G. Viennot, and J. Vuillemin</strong>,
 <em>Description and analysis of an efficient priority queue
 representation</em>, Proc. 19th Annual Symp. on Foundations of
-Computer Science.  IEEE, 1978, pages 1-7.<br>
+Computer Science.  IEEE, 1978, pages 1-7.<br />
 <strong>R. Nix</strong>, <em>An Evaluation of Pagodas</em>,
 Res. Rep. 164, Dept. of Computer Science, Yale Univ.  1988?
 
