@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jul 11 11:47:13 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:51 2008" *by "Paul E. Black"
 
 # $Log: venndiagram.trm,v $
+# Revision 1.8  2008/08/14 16:16:53  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2008/07/11 15:48:08  black
 # Update cut-the-know.com LINK.
 #
@@ -52,7 +55,7 @@ properties (or membership).
 @NOTES=Here is an example of a Venn diagram with three properties:
 male/female, happy/sad, and short/tall.  Some of the combinations,
 such as sad, tall males and happy, short females are labeled.
-<br>
+<br />
 <img src="../Images/venn.gif" height="247" width="316">
 </p>
 
