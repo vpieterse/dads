@@ -1,7 +1,10 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:11:05 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:59 2008" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Revision 1.5  2008/08/14 16:14:04  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.4  2004/12/17 17:11:06  black
 # Refine XREFS into IMA, etc.  Make more XHTML compliant.
 #
@@ -40,7 +43,7 @@ accumulated.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Jack E. Bresenham</strong>, <em>Algorithm for Computer Control 
-of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.<br>
+of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.<br />
 Reprinted in <em>Interactive Computer Graphics</em>, Herbert Freeman ed., 
 IEEE catalog no. EHO 156-0, Library of Congress no. 79-91237, 1980, and
 <em>Seminal Graphics: Pioneering Efforts That Shaped The Field</em>,
