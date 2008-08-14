@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Wed Jan 10 10:53:56 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:50 2008" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.8  2008/08/14 16:13:53  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2007/01/10 15:55:11  black
 # IMA oblivious algorithm
 #
@@ -70,10 +73,10 @@ Elements are compared and swapped in a fixed (oblivious) schedule, so
 this may be implemented with only conditional swaps.  Here is a
 Batcher sort for four elements:
 <pre>
-    compareAndSwap(0, 1);<br>
-    compareAndSwap(2, 3);<br>
-    compareAndSwap(0, 2);<br>
-    compareAndSwap(1, 3);<br>
+    compareAndSwap(0, 1);<br />
+    compareAndSwap(2, 3);<br />
+    compareAndSwap(0, 2);<br />
+    compareAndSwap(1, 3);<br />
     compareAndSwap(1, 2);
 </pre>
 where compareAndSwap(i,j) is if (a[i] &lt; a[j]) Swap(a[i], a[j]).
