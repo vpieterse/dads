@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Wed Dec 14 14:00:16 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:20 2008" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Revision 1.10  2008/08/14 16:15:23  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.9  2005/12/14 19:02:48  black
 # Remove XREF to multikey Quicksort, which is more like postman's sort.
 # XREF postman's sort.
@@ -64,24 +67,24 @@ Here is a simple example of the sort.  Suppose the input keys are
 appropriate, since there are four different digits.
 The first pass distributes the keys into buckets by the least
 significant digit.  Half way through the first pass, the buckets
-contain the following, where each line is a bucket.<br>
-<br>
-12 42 32<br>
-<br>
-34 44<br>
-When the first pass is done, we have the following.<br>
-41 11<br>
-12 42 32 32<br>
-23<br>
-34 44 34<br>
+contain the following, where each line is a bucket.<br />
+<br />
+12 42 32<br />
+<br />
+34 44<br />
+When the first pass is done, we have the following.<br />
+41 11<br />
+12 42 32 32<br />
+23<br />
+34 44 34<br />
 We collect these, keeping their relative order: 
 41 11 12 42 32 32 23 34 44 34.
 Now we distribute by the next most significant digit, which is the
-highest digit, and we get the following.<br>
-11 12<br>
-23<br>
-32 32 34 34<br>
-41 42 44<br>
+highest digit, and we get the following.<br />
+11 12<br />
+23<br />
+32 32 34 34<br />
+41 42 44<br />
 When we collect them, they are in order: 
 11 12 23 32 32 34 34 41 42 44.
 </p>
