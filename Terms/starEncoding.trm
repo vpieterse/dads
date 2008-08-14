@@ -1,7 +1,10 @@
 # *created  "Fri Apr  6 11:56:18 2007" *by "Paul E. Black"
-# *modified "Fri Apr  6 12:55:19 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:36 2008" *by "Paul E. Black"
 
 # $Log: starEncoding.trm,v $
+# Revision 1.2  2008/08/14 16:15:37  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.1  2007/04/06 16:55:44  black
 # Initial revision
 #
@@ -40,7 +43,7 @@ having many repeated characters, typically an asterisk or "star" (*).
 <em>Data compression using text encryption</em>,
 Proc. Data Compression Conference, Snowbird, Utah, USA, pp 447-, 
 March 1997.
-<br>
+<br />
 <strong>Holger Kruse</strong> and <strong>Amar Mukherjee</strong>  
 <em>Preprocessing text to improve compression ratios</em>,
 Proc. Data Compression Conference, Snowbird, Utah, USA, pp 556-464,
@@ -51,9 +54,9 @@ April 1998.
 for compression.  With many runs of stars, the encoded text may be
 much more compressible than the original text.  The sender and the
 receiver must communicate the dictionary somehow.
-</P>
+</p>
 
-<P>
+<p>
 The code string for a word is the same length as the word.
 Kruse and Mukherjee constructed a dictionary "from a large set
 of reference texts" and assigned codes solely by frequency.
