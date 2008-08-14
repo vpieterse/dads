@@ -1,7 +1,10 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:00:41 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:25 2008" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Revision 1.7  2008/08/14 16:15:30  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2008/07/28 20:01:16  black
 # Remove exponents modulo some number NOTE - server DNS is still not available.
 #
@@ -144,15 +147,15 @@ squaring s.
 <p>
 Why does this work?  Consider the exponent decomposed into binary notation.
 <pre>
-    $x<sup>13</sup> = x<sup>1101</sup>$			<br>
-						<br>
-    $    = x<sup>(1*2^3 + 1*2^2 + 0*2^1 + 1*2^0)</sup>$		<br>
-						<br>
-    $    = x<sup>1*2^3</sup>* x<sup>1*2^2</sup>* x<sup>0*2^1</sup>* x<sup>1*2^0</sup>$		<br>
-						<br>
-    $    = x<sup>2^3</sup>  * x<sup>2^2</sup>  *  1    * x<sup>2^0</sup>$ <br>
-						<br>
-    $    = x<sup>8</sup>    * x<sup>4</sup>            * x<sup>1</sup>$ <br>
+    $x<sup>13</sup> = x<sup>1101</sup>$			<br />
+						<br />
+    $    = x<sup>(1*2^3 + 1*2^2 + 0*2^1 + 1*2^0)</sup>$		<br />
+						<br />
+    $    = x<sup>1*2^3</sup>* x<sup>1*2^2</sup>* x<sup>0*2^1</sup>* x<sup>1*2^0</sup>$		<br />
+						<br />
+    $    = x<sup>2^3</sup>  * x<sup>2^2</sup>  *  1    * x<sup>2^0</sup>$ <br />
+						<br />
+    $    = x<sup>8</sup>    * x<sup>4</sup>            * x<sup>1</sup>$ <br />
 </pre>
 The values to be multiplied are successive squares (variable s above).  
 By multiplying appropriate powers, we can compute
