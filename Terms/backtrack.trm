@@ -1,7 +1,10 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Fri Jun  6 11:14:58 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:12:18 2008" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.10  2008/08/14 16:13:38  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.9  2008/06/06 15:15:45  black
 # Fix punctuation.
 #
@@ -57,10 +60,10 @@ alternate choices using {recursion}.
 @BIB=
 An early exposition of this technique:
 # We'd call this depth-first search with pruning of infeasible solutions.
-<br>
+<br />
 <strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
 <em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
-<br>
+<br />
 "This rather universal method was named 'backtrack' by Professor
 D. H. Lehmer of the University of California at Berkeley."
 # article goes on to say "Backtrack
