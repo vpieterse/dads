@@ -1,7 +1,10 @@
 # *created  "Tue Dec 18 16:07:56 2007" *by "Paul E. Black"
-# *modified "Fri Aug  1 10:15:06 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:53 2008" *by "Paul E. Black"
 
 # $Log: blindTrie.trm,v $
+# Revision 1.2  2008/08/14 16:13:59  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.1  2008/08/01 14:18:45  black
 # Initial revision
 #
@@ -38,7 +41,7 @@ differ in the $(k+1)<sup>st</sup>$ character.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-Defined in the following, but called a Patricia tree<br>
+Defined in the following, but called a Patricia tree<br />
 <strong>Paolo Ferragina</strong> and <strong>Roberto Grossi</strong>,
 <em>The string B-tree: a new data structure for string search in
 external memory and its applications</em>,
@@ -46,7 +49,7 @@ Journal of the ACM, 46(2): 236 - 280, (March 1999).
 </p>
 
 <p>
-Called "blind trie" in<br>
+Called "blind trie" in<br />
 <strong>Giovanni Manzini</strong> and <strong>Paolo Ferragina</strong>,
 <em>Engineering a Lightweight Suffix Array Construction Algorithm</em>,
 Algorithmica, 40(1):33-50, (Jun 2004).
