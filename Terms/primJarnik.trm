@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Apr 19 13:16:45 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:17 2008" *by "Paul E. Black"
 
 # $Log: primJarnik.trm,v $
+# Revision 1.6  2008/08/14 16:15:20  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.5  2006/04/19 17:17:23  black
 # LINK to Eppstein's lecture.
 #
@@ -49,7 +52,7 @@ all vertices have been added.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>V. Jarn&iacute;k</strong>, <em>O jistem problemu minimalnim</em>,
-Praca Moravske Prirodovedecke Spolecnosti, 6:57-63, 1930. (in Czech)<br>
+Praca Moravske Prirodovedecke Spolecnosti, 6:57-63, 1930. (in Czech)<br />
 <strong>R. C. Prim</strong>, <em>Shortest connection networks and some
 generalizations</em>, Bell Syst. Tech. J., 36:1389-1401, 1957.
 # bibs copied from Goodrich & Tamassia, pages 627, 629
