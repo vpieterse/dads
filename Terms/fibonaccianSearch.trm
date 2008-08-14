@@ -1,7 +1,10 @@
 # *created  "Wed May  5 14:17:35 1999" *by "Paul E. Black"
-# *modified "Mon May 14 10:01:37 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:26 2008" *by "Paul E. Black"
 
 # $Log: fibonaccianSearch.trm,v $
+# Revision 1.7  2008/08/14 16:14:27  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2007/05/14 14:01:38  black
 # Update URL to https for Woop
 #
@@ -57,7 +60,7 @@ or q-p (F(n-1)) if it is greater.
 @BIB=
 <strong>David E. Ferguson</strong>, <em>Fibonaccian Searching</em>,
 CACM, 3(12):648, December 1960.
-<br>
+<br />
 Also <a href="../terms.html#Knuth98">[Knuth98, 3:417, Sect. 6.2.1]</a>.
 
 # any notes.  these will not be printed in the final dictionary
