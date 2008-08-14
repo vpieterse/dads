@@ -1,7 +1,10 @@
 # *created  "Thu May 13 10:18:15 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:27:37 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:11:52 2008" *by "Paul E. Black"
 
 # $Log: adjacencyListRep.trm,v $
+# Revision 1.5  2008/08/14 16:12:01  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.4  2004/12/17 17:27:37  black
 # Make more XHTML compliant.
 #
@@ -52,19 +55,19 @@ adjacency-matrix and adjacency-list representations.  The arrow (-&gt;)
 means a link in a list.
 <p>
 <pre>
-   1 2 3 4<br>
-1  1 1 1 1<br>
-2  1 0 0 0<br>
-3  0 1 0 1<br>
-4  0 1 1 0<br>
+   1 2 3 4<br />
+1  1 1 1 1<br />
+2  1 0 0 0<br />
+3  0 1 0 1<br />
+4  0 1 1 0<br />
 </pre>
 </p>
 <p>
 <pre>
-1  -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4<br>
-2  -&gt; 1<br>
-3  -&gt; 2 -&gt; 4<br>
-4  -&gt; 2 -&gt; 3<br>
+1  -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4<br />
+2  -&gt; 1<br />
+3  -&gt; 2 -&gt; 4<br />
+4  -&gt; 2 -&gt; 3<br />
 </pre>
 </p>
 
