@@ -1,7 +1,10 @@
 # *created  "Fri Jan 28 16:57:11 2005" *by "Paul E. Black"
-# *modified "Mon Jan 31 12:39:58 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:46 2008" *by "Paul E. Black"
 
 # $Log: twoLeftHashing.trm,v $
+# Revision 1.2  2008/08/14 16:16:48  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.1  2005/01/31 17:42:09  black
 # Initial revision
 #
@@ -44,18 +47,18 @@ probability.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Berthold V&ouml;cking</strong>, <em>How Asymmetry Helps Load
-Balancing</em>, Journal of the ACM, 50(4):568-589, July 2003.<br>
+Balancing</em>, Journal of the ACM, 50(4):568-589, July 2003.<br />
 A preliminary version appeared in FOCS 1999.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=The name comes from the notion of dividing a single hash table
 in two, left and right halves of equal sizes, and always putting the
-key in the left half on ties.<br>
+key in the left half on ties.<br />
 Although the average lookup time is similar to a table with a single
 hash function, the maximum number of collisions is exponentially
 smaller.  This make using buckets or use in real-time systems far more
 practical.  Additional hash functions only decrease the maximum by a
-constant factor.<br>
+constant factor.<br />
 Buckets or lists can be searched in parallel.
 </p>
 
