@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:39:25 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:25:00 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:30 2008" *by "Paul E. Black"
 
 # $Log: treesort2.trm,v $
+# Revision 1.6  2008/08/14 16:16:42  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.5  2004/12/17 17:25:00  black
 # Make more XHTML compliant.
 #
@@ -43,7 +46,7 @@
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>Robert W. Floyd</strong>, <em>Algorithm 245 Treesort 3</em>,
-CACM, 7(12):701, December 1964.<br>
+CACM, 7(12):701, December 1964.<br />
 <strong>Robert W. Floyd</strong>, <em>Algorithm 113 Treesort</em>,
 CACM, 5(8):434, August 1962.
 
