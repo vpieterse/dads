@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:36:32 1998" *by "Paul E. Black"
-# *modified "Mon Jun 19 15:52:20 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:42 2008" *by "Paul E. Black"
 
 # $Log: bdtree.trm,v $
+# Revision 1.6  2008/08/14 16:13:44  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.5  2006/06/19 19:52:35  black
 # Add authors' full names.
 #
@@ -49,7 +52,7 @@ pp. 539-544, 1983.
 
 <p>
 "Bounded deformation" trees for collision resolution are described
-in<br>
+in<br />
 <strong>Doug L. James</strong> and <strong>Dinesh K. Pai</strong>,
 <em>BD-Tree: Output-Sensitive Collision Detection for Reduced
 Deformable Models</em>, ACM Transactions on Graphics (SIGGRAPH 2004),
