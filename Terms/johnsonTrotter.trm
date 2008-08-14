@@ -1,7 +1,10 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Mon Apr  7 10:16:34 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:42 2008" *by "Paul E. Black"
 
 # $Log: johnsonTrotter.trm,v $
+# Revision 1.7  2008/08/14 16:14:43  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2008/04/07 14:23:15  black
 # Update jstor BIB URLs
 #
@@ -51,7 +54,7 @@ elements at a time.
 <strong>Hale F. Trotter</strong>, <em>Perm (Algorithm 115)</em>,
 CACM, 5(8):434-435, August 1962.  Available at
 <a href="http://doi.acm.org/10.1145/368637.368660">http://doi.acm.org/10.1145/368637.368660</a>
-<br>
+<br />
 <strong>Selmer M. Johnson</strong>, <em>Generation of Permutations by
 Adjacent Transposition</em>, Mathematics of Computation,
 17(83):282-285, July 1963.  Available at 
