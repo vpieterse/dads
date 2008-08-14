@@ -1,7 +1,10 @@
 # *created  "Tue Apr 11 11:27:20 2000" *by "Paul E. Black"
-# *modified "Mon Jan 23 11:09:33 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:31 2008" *by "Paul E. Black"
 
 # $Log: hiddenMarkovModel.trm,v $
+# Revision 1.10  2008/08/14 16:14:34  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.9  2006/01/23 16:09:53  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -49,11 +52,11 @@ CN760.
 <li> $A = \{a<sub>ij</sub> = P(q<sub>j</sub> at t+1 | q<sub>i</sub> at
 t)}$, where $P(a | b)$ is the conditional probability of a given b, 
 $t \geq 1$ is time, and $q<sub>i</sub> \in Q$.
-<br>Informally, A is the probability that the next state is $q<sub>j</sub>$
+<br />Informally, A is the probability that the next state is $q<sub>j</sub>$
 given that the current state is $q<sub>i</sub>$.
 <li> $B = \{b<sub>ik</sub> = P(o<sub>k</sub> | q<sub>i</sub>)}$, 
 where $o<sub>k</sub> \in O$.
-<br>Informally, B is the probability that the output is
+<br />Informally, B is the probability that the output is
 $o<sub>k</sub>$ given that the current state is $q<sub>i</sub>$.
 <li> $\Pi = \{p<sub>i</sub> = P(q<sub>i</sub> at t=1)}$.
 </ul>
