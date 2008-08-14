@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:00:00 1998" *by "Paul E. Black"
-# *modified "Wed Feb  8 07:37:16 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:49 2008" *by "Paul E. Black"
 
 # $Log: tree.trm,v $
+# Revision 1.8  2008/08/14 16:15:50  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2006/02/08 12:39:34  black
 # XREF degree.  Fix punctuation in credit for tree figure.
 #
@@ -32,9 +35,9 @@ of the structure, and the leaves are depicted at the bottom.
 (2) A {connected#connected graph},
 {undirected#undirected graph}, {acyclic graph}.  It is
 {rooted#rooted tree} and {ordered#ordered tree} unless otherwise specified.
-<br>
+<br />
 <img src="../Images/tree.png" height="219" width="318">
-<br>
+<br />
 Thanks to Joshua O'Madadhain (jmadden@ics.uci.edu) for the figure, 6
 October 2005.
 # formal definition or {cross reference} to an entry
