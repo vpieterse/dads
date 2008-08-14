@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:21 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:01 2008" *by "Paul E. Black"
 
 # $Log: omegaCapital.trm,v $
+# Revision 1.4  2008/08/14 16:15:05  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.3  2004/12/17 17:24:21  black
 # Make more XHTML compliant.
 #
@@ -67,7 +70,7 @@ definition.  Here, f must be greater than g FOR ALL x bigger than some
 k.  The traditional definition is f is big omega of g if
 it is not little o of g.  That is, one needs only an unbounded
 sequence of values of x tending to infinity such that $cg(x) \leq
-f(x)$ for all x in the sequence. <br>
+f(x)$ for all x in the sequence. <br />
 
 After Duncan Buell (BUELL@engr.sc.edu) 21 May 2004.
 # Capital omega is "defined as the negation of o"
