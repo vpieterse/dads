@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 21 09:52:04 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:44 2008" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.12  2008/08/14 16:14:47  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.11  2008/07/21 13:52:56  black
 # remove LINK to Ghost Gar.. (GGbook) drawings and description of rigid
 # frame knapsack.
@@ -90,7 +93,7 @@ Pictures of several
 knapsacks</a>, many with rigid internal frames.
 # further explanation (pure HTML)
 @LINKS=
-<img src="../Images/xkcd np_complete.png"><br>
+<img src="../Images/xkcd np_complete.png"><br />
 From <a href="http://xkcd.com/">xkcd</a> by
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
