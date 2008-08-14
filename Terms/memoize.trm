@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Oct 22 10:56:46 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:49 2008" *by "Paul E. Black"
 
 # $Log: memoize.trm,v $
+# Revision 1.7  2008/08/14 16:14:50  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2007/10/22 14:58:17  black
 # Add Mark Nelson's tutorial and IMPL
 #
@@ -54,9 +57,9 @@ reminder." [The American Heritage Dictionary of the English Language,
 <p>
 A naive program to compute {Fibonacci numbers} is
 <pre>
-fib(n) \{<br>
-   if n is 1 or 2, return 1;<br>
-   return fib(n-1) + fib(n-2);<br>
+fib(n) \{<br />
+   if n is 1 or 2, return 1;<br />
+   return fib(n-1) + fib(n-2);<br />
 }
 </pre>
 Because fib() is recomputed over and over for the same argument, run
@@ -64,14 +67,14 @@ time for the above is ${\Omega}(1.6<sup>n</sup>)$.
 If instead we memoize (save) the value of fib(n) the first time we
 compute it, the run time is ${\Theta}(n)$.
 <pre>
-allocate array for memo;<br>
-set all elements of memo to zero;<br>
-<br>
-fib(n) \{<br>
-   if n is 1 or 2, return 1;<br>
-   if memo[n] is not zero, return memo[n];<br>
-   memo[n] = fib(n-1) + fib(n-2);<br>
-   return memo[n];<br>
+allocate array for memo;<br />
+set all elements of memo to zero;<br />
+<br />
+fib(n) \{<br />
+   if n is 1 or 2, return 1;<br />
+   if memo[n] is not zero, return memo[n];<br />
+   memo[n] = fib(n-1) + fib(n-2);<br />
+   return memo[n];<br />
 }
 </pre>
 <p>
