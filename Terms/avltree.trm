@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:54:05 1998" *by "Paul E. Black"
-# *modified "Thu Jul 19 09:48:11 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:12:15 2008" *by "Paul E. Black"
 
 # $Log: avltree.trm,v $
+# Revision 1.22  2008/08/14 16:12:18  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.21  2007/07/19 13:49:09  black
 # Remove McNamara's 5trees.com IMPL - host name is gone from DNS
 #
@@ -102,7 +105,7 @@ M. Landis</strong>,
 Doklady Akademii Nauk SSSR, 146:263-266, 1962 (Russian).
 English translation by Myron J. Ricci in Soviet Math. Doklady,
 3:1259-1263, 1962.
-<br>(Doklady is Russian for "Report".  Sometimes transliterated in
+<br />(Doklady is Russian for "Report".  Sometimes transliterated in
 English as Doclady or Dokladi.)
 
 # any notes.  these will not be printed in the final dictionary
