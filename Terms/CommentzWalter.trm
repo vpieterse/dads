@@ -1,7 +1,10 @@
 # *created  "Thu Sep 21 12:49:20 2006" *by "Paul E. Black"
-# *modified "Thu Sep 21 13:14:46 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:11:38 2008" *by "Paul E. Black"
 
 # $Log: CommentzWalter.trm,v $
+# Revision 1.2  2008/08/14 16:11:44  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.1  2006/09/21 17:15:00  black
 # Initial revision
 #
@@ -40,7 +43,7 @@ machine}, like {Aho-Corasick}.
 <strong>Beate Commentz-Walter</strong>, <em>A string matching
 algorithm fast on the average</em> in Maurer (ed.), Proc 6th
 International Coll. on Automata, Languages, and Programming, pages
-118-132, Springer-Verlag, 1979.<br>
+118-132, Springer-Verlag, 1979.<br />
 <strong>Beate Commentz-Walter</strong>, <em>A string matching
 algorithm fast on the average</em>, Technical Report TR 79.09.007, IBM
 Germany, Heidelberg Scientific Center, 1979.
