@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
-# *modified "Thu Sep 29 11:02:40 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:43 2008" *by "Paul E. Black"
 
 # $Log: karnaughmap.trm,v $
+# Revision 1.7  2008/08/14 16:14:44  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2005/09/29 15:04:26  black
 # LINK directly to Dillon's Karnaugh map page.
 #
@@ -30,7 +33,7 @@ a rectangular map of the value of the expression for all possible input
 values.  Input values are arranged in a {Gray code}.  Maximal
 rectangular groups that cover the inputs where the expression is true
 give a minimum implementation.
-<br>
+<br />
 <img src="../Images/karnaugh.gif" height="225" width="221">
 # formal definition or {cross reference} to an entry
 @FORML=
