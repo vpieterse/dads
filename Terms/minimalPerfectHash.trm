@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 17 12:46:06 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:50 2008" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.8  2008/08/14 16:14:54  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2006/07/17 16:46:13  black
 # fix typo
 #
@@ -65,7 +68,7 @@ f(k) is $1\ldots |K|$.
 <em><a href="http://doi.acm.org/10.1145/129617.129623">Practical
 minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
-<BR>
+<br />
 <a href="http://www.cs.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
 Perfect Hash Function Generator</a> PDF document.
 # implementation(s) (pure HTML)
