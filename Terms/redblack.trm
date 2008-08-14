@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 14:10:54 1998" *by "Paul E. Black"
-# *modified "Mon Aug 14 08:59:32 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:24 2008" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Revision 1.10  2008/08/14 16:15:25  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.9  2006/08/14 12:59:56  black
 # Add Scheper's IMPL
 #
@@ -65,7 +68,7 @@ at most $2\log<sub>2</sub>(n+1)$.
 <strong>Rudolf Bayer</strong>, <em>Symmetric Binary B-Trees: Data
 Structures and Maintenance Algorithms</em>,
 Acta Informatica, 1:290-306, 1972.
-<br>
+<br />
 <strong>Leo J. Guibas</strong> and <strong>Robert Sedgewick</strong>,
 <em>A Dichromatic Framework for Balanced Trees</em>, Proceedings of
 the 19th Annual Symposium on Foundations of Computer Science,
