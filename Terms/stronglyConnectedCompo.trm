@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 21 14:38:35 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:38 2008" *by "Paul E. Black"
 
 # $Log: stronglyConnectedCompo.trm,v $
+# Revision 1.11  2008/08/14 16:15:42  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.10  2006/09/11 14:05:24  black
 # Remove incorrect formal definition.
 #
@@ -62,7 +65,7 @@ subgraph in which every vertex is {reachable} from every other vertex.
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 This has a linear time algorithm for finding strongly connected
-components:<br>
+components:<br />
 <strong>Robert E. Tarjan</strong>, 
 <em>Depth-first search and linear graph algorithms</em>,
 SIAM Journal on Computing, 1(2):146-160, 1972.
