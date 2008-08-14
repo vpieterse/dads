@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Tue Apr  1 14:37:42 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:28 2008" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.22  2008/08/14 16:14:29  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.21  2008/04/01 18:38:35  black
 # Update URL for Boost Graph Library
 #
@@ -143,7 +146,7 @@ Thus the dots can be anywhere, and the lines that join them are
 infinitely stretchy.  Moreover, a mathematical graph is not a
 comparison chart, nor a diagram with an x- and y-axis, nor a squiggly
 line on a stock report.  A graph is simply dots and lines between
-them---pardon me, vertices and edges. <br>
+them---pardon me, vertices and edges. <br />
 &nbsp;&nbsp;&nbsp;&nbsp;Michael Bolton &lt;mb@michaelbolton.net&gt; 22
 February 2000
 
@@ -154,7 +157,7 @@ glossary of graphs</a>.
 <strong>Deepayan Chakrabarti</strong> and <strong>Christos
 Faloutsos</strong>, <em>Graph Mining: Laws, Generators, and
 Algorithms</em>,  ACM Computing Surveys, Vol. 38, March 2006, Article 2.
-<br>
+<br />
 A great list of graph generators and their strengths and weaknesses.
 
 # implementation(s) (pure HTML)
