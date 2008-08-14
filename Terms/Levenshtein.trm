@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Mar 26 09:01:13 2008" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:11:44 2008" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.10  2008/08/14 16:11:52  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.9  2008/03/26 13:17:21  black
 # XREF Jaro-Winkler, too, since it is a distance measure
 #
@@ -68,7 +71,7 @@ between strings, where $m$ and $n$ are the lengths of the strings.
 correcting deletions, insertions, and reversals</em>,
 Doklady Akademii Nauk SSSR, 163(4):845-848, 1965 (Russian).
 English translation in Soviet Physics Doklady, 10(8):707-710, 1966.
-<br>(Doklady is Russian for "Report".  Sometimes transliterated in
+<br />(Doklady is Russian for "Report".  Sometimes transliterated in
 English as Doclady or Dokladi.)
 
 # any notes.  these will not be printed in the final dictionary
