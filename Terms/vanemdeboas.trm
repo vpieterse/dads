@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:05:33 1999" *by "Paul E. Black"
-# *modified "Wed Dec 14 09:00:44 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:48 2008" *by "Paul E. Black"
 
 # $Log: vanemdeboas.trm,v $
+# Revision 1.5  2008/08/14 16:16:50  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.4  2005/12/14 14:00:45  black
 # Change pp to pages
 #
@@ -45,7 +48,7 @@ and one more priority queue of array indexes of the bottom queues.
 # copied from GBY91
 <strong>P. van Emde-Boas, R. Kass, and E. Zijlstra</strong>, 
 <em>Design and Implementation of an Efficient Priority Queue</em>,
-Mathematical Systems Theory, 10:99-127, 1977.<br>
+Mathematical Systems Theory, 10:99-127, 1977.<br />
 <strong>P. van Emde-Boas</strong>, <em>Preserving Order in a Forest in
 Less than Logarithmic Time and Linear Space</em>,
 Inf. Proc. Letters, 6(3):80-82, June 1977.
