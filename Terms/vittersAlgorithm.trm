@@ -1,7 +1,10 @@
 # *created  "Mon Sep 27 08:52:44 1999" *by "Paul E. Black"
-# *modified "Mon Aug 27 10:16:49 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:53 2008" *by "Paul E. Black"
 
 # $Log: vittersAlgorithm.trm,v $
+# Revision 1.8  2008/08/14 16:16:54  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2007/08/27 14:17:27  black
 # Remove acm.org/calgo IMPL - seems to be gone.
 #
@@ -58,7 +61,7 @@ In the {worst case}, this uses one more bit per {codeword}.
 @BIB=
 <strong>Jeffrey Scott Vitter</strong>, <em>Design and analysis of
 dynamic Huffman codes</em>,
-Journal of the ACM 34(4):825-845, October 1987.<br>
+Journal of the ACM 34(4):825-845, October 1987.<br />
 <strong>Jeffrey Scott Vitter</strong>, <em>ALGORITHM 673: dynamic
 Huffman coding</em>,
 ACM Transactions on Mathematical Software, 15(2):158-167, June 1989.
