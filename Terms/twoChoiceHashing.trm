@@ -1,7 +1,10 @@
 # *created  "Fri Jan 28 16:25:04 2005" *by "Paul E. Black"
-# *modified "Mon Jan 31 12:38:12 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:42 2008" *by "Paul E. Black"
 
 # $Log: twoChoiceHashing.trm,v $
+# Revision 1.2  2008/08/14 16:16:45  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.1  2005/01/31 17:42:12  black
 # Initial revision
 #
@@ -46,16 +49,16 @@ probability.
 <strong>Yossi Azar</strong>, <strong>Andrei Z. Broder</strong>, 
 <strong>Anna R. Karlin</strong>, <strong>Eli Upfal</strong>, 
 <em>Balanced Allocations</em>, SIAM J. Comput. 29(1):180-200,
-1999.<br>
+1999.<br />
 An earlier version appeared in STOC 1994.
 
 # any notes.  these are not printed in the final dictionary
-@NOTES=Called "2-way chaining" in the paper.<br>
+@NOTES=Called "2-way chaining" in the paper.<br />
 Although the average lookup time is similar to a table with a single
 hash function, the maximum number of collisions is exponentially
 smaller.  This make using buckets or use in real-time systems far more
 practical.  Additional hash functions only decrease the maximum by a
-constant factor.<br>
+constant factor.<br />
 Buckets or lists can be searched in parallel.
 </p>
 
