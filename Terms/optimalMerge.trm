@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  1 11:58:08 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:05 2008" *by "Paul E. Black"
 
 # $Log: optimalMerge.trm,v $
+# Revision 1.3  2008/08/14 16:15:06  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.2  2004/11/01 16:58:21  black
 # Change encoding to coding
 #
@@ -24,7 +27,7 @@ such that $n\geq n<sub>i$</sub> and $n\geq n<sub>j</sub> \forall n\in D$.
 Merge these two sequences.  The new set $D$ is
 $D' = (D - \{n<sub>i</sub>, n<sub>j</sub>\}) \cup \{n<sub>i</sub>+n<sub>j</sub>\}$.  
 Repeat until there is only one sequence.
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -55,78 +58,78 @@ and the sequence of length 5 to get a sequence of length 8.
 </pre>
 
 <pre>
-  8          7        9       12        14     15       17	<br>
- / \								<br>
+  8          7        9       12        14     15       17	<br />
+ / \								<br />
 3   5
 </pre>
 
 <pre>
-    15         9       12        14     15       17	<br>
-   /  \							<br>
-  8    7						<br>
- / \							<br>
+    15         9       12        14     15       17	<br />
+   /  \							<br />
+  8    7						<br />
+ / \							<br />
 3   5
 </pre>
 
 <pre>
-    15          21       14     15       17	<br>
-   /  \        /  \				<br>
-  8    7      9    12				<br>
- / \						<br>
+    15          21       14     15       17	<br />
+   /  \        /  \				<br />
+  8    7      9    12				<br />
+ / \						<br />
 3   5
 </pre>
 
 
 <pre>
-   29             21        15       17	<br>
-  /  \           /  \			<br>
-14    15        9    12			<br>
-     /  \				<br>
-    8    7				<br>
-   / \					<br>
+   29             21        15       17	<br />
+  /  \           /  \			<br />
+14    15        9    12			<br />
+     /  \				<br />
+    8    7				<br />
+   / \					<br />
   3   5
 </pre>
 
 
 <pre>
-   29             21           32	<br>
-  /  \           /  \         /  \	<br>
-14    15        9    12     15    17	<br>
-     /  \				<br>
-    8    7				<br>
-   / \					<br>
+   29             21           32	<br />
+  /  \           /  \         /  \	<br />
+14    15        9    12     15    17	<br />
+     /  \				<br />
+    8    7				<br />
+   / \					<br />
   3   5
 </pre>
 
 
 <pre>
-        50                 32		<br>
-      /    \              /  \		<br>
-     /      \           15    17	<br>
-   29        21				<br>
-  /  \      /  \			<br>
-14    15   9    12			<br>
-     /  \				<br>
-    8    7				<br>
-   / \					<br>
+        50                 32		<br />
+      /    \              /  \		<br />
+     /      \           15    17	<br />
+   29        21				<br />
+  /  \      /  \			<br />
+14    15   9    12			<br />
+     /  \				<br />
+    8    7				<br />
+   / \					<br />
   3   5
 </pre>
 
 
 <pre>
-              82		<br>
-            /    \		<br>
-           /      \		<br>
-          /        \		<br>
-        50          32		<br>
-      /    \       /  \		<br>
-     /      \    15    17	<br>
-   29        21			<br>
-  /  \      /  \		<br>
-14    15   9    12		<br>
-     /  \			<br>
-    8    7			<br>
-   / \				<br>
+              82		<br />
+            /    \		<br />
+           /      \		<br />
+          /        \		<br />
+        50          32		<br />
+      /    \       /  \		<br />
+     /      \    15    17	<br />
+   29        21			<br />
+  /  \      /  \		<br />
+14    15   9    12		<br />
+     /  \			<br />
+    8    7			<br />
+   / \				<br />
   3   5
 </pre>
 # further explanation (pure HTML)
