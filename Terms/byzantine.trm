@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
-# *modified "Thu Nov 15 10:16:26 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:10 2008" *by "Paul E. Black"
 
 # $Log: byzantine.trm,v $
+# Revision 1.7  2008/08/14 16:14:13  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2007/11/15 15:21:19  black
 # Link from "available" instead of "PDF" - more meaningful.
 #
@@ -60,17 +63,17 @@ and still correctly determine a consensus?
 <em>Some constraints and tradeoffs in the design of network
 communications</em>, Proc. 5th ACM Symposium on Operating Systems
 Principles, pages 67-74, 1975.
-<br>
+<br />
 
 <strong>Marshall Pease, Robert Shostak, and Leslie Lamport</strong>, 
 <em>Reaching Agreement in the Presence of Faults</em>, Journal of the
 ACM 27(2):228-234, 1980.
-<br>
+<br />
 <strong>Leslie Lamport, Robert Shostak and Marshall Pease</strong>, 
 <em>The Byzantine Generals Problem</em>,
 ACM Transactions on Programming Languages and Systems, 4(3):382-401,
 July 1982. 
-<br>Both
+<br />Both
 <a
 href="http://research.microsoft.com/users/lamport/pubs/pubs.html">available</a>
 in PDF.
