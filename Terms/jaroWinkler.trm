@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Wed Nov 29 13:53:52 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:41 2008" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Revision 1.8  2008/08/14 16:14:42  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.7  2006/11/29 18:55:02  black
 # add SecondString IMPL.  add author
 #
@@ -62,12 +65,12 @@ Thibaudeau</strong>, <em>An Application of the Fellegi-Sunter Model of
 Record Linkage to the 1990 U.S. Decennial Census</em>, Statistical
 Research Report Series RR91/09, U.S. Bureau of the Census, Washington,
 D.C., 1991.
-<br>
+<br />
 
 <strong>Matthew A. Jaro</strong>, <em>UNIMATCH: A Record Linkage
 System: User's Manual</em>, Technical Report, U.S. Bureau of the
 Census, Washington, D.C., 1976.
-<br>
+<br />
 <strong>Matthew A. Jaro</strong>, <em>Advances in Record-linkage
 Methodology a Applied to Matching the 1985 Census of Tampa,
 Florida</em>, Journal of the American Statistical Association,
