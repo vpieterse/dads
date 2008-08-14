@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:23:07 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:38 2008" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Revision 1.7  2008/08/14 16:13:40  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2004/12/17 17:23:07  black
 # Make more XHTML compliant.
 #
@@ -45,13 +48,13 @@
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <a href="../terms.html#Knuth98">[Knuth98, 3:459, Sect. 6.2.3]</a>
-<br>
+<br />
 Knuth refers to "balanced trees", but defines them as ordered, for
 searching, and binary.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Usually "balanced" means "height balanced".
-<br>
+<br />
 <strong>Quentin F. Stout</strong> and </strong>Bette L. Warren,</strong>,
 <em>Tree Rebalancing in Optimal Time and Space</em>,
 CACM, 29(9):902-908, September 1986.
