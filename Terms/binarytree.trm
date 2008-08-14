@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Mon May 14 10:01:29 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:13:48 2008" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Revision 1.15  2008/08/14 16:13:49  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.14  2007/05/14 14:01:32  black
 # Update URL to https for Woop
 #
@@ -90,7 +93,7 @@ M. Landis</strong>,
 Doklady Akademii Nauk SSSR, 146:263-266, 1962 (Russian).
 English translation by Myron J. Ricci in Soviet Math. Doklady,
 3:1259-1263, 1962.
-<br>(Doklady is Russian for "Report".  Sometimes transliterated in
+<br />(Doklady is Russian for "Report".  Sometimes transliterated in
 English as Doclady or Dokladi.)
 
 # further explanation (pure HTML)
