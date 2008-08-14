@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:55:01 2004" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:44 2008" *by "Paul E. Black"
 
 # $Log: tailRecursion.trm,v $
+# Revision 1.3  2008/08/14 16:15:45  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.2  2004/12/17 16:55:02  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -35,17 +38,17 @@ its result rather than creating a new stack frame.
 of memory.
 The following finds the maximum value in a list.
 <pre>
-int max_list(list l, int max_so_far)<br>
-\{<br>
-    if (null == l) \{<br>
-        return max_so_far;<br>
-    }<br>
-<br>
-    if (max_so_far < head(l)) \{<br>
-        return max_list(tail(l), head(l));<br>
-    } else \{<br>
-        return max_list(tail(l), max_so_far);<br>
-    }<br>
+int max_list(list l, int max_so_far)<br />
+\{<br />
+    if (null == l) \{<br />
+        return max_so_far;<br />
+    }<br />
+<br />
+    if (max_so_far < head(l)) \{<br />
+        return max_list(tail(l), head(l));<br />
+    } else \{<br />
+        return max_list(tail(l), max_so_far);<br />
+    }<br />
 }
 </pre>
 
@@ -55,22 +58,22 @@ the recursive call.  A compiler could optimize it something like
 the following so it doesn't allocate new space for l and max_so_far on
 each invocation or tear down the stack on the returns.
 <pre>
-<br>
-int max_list(list l, int max_so_far)<br>
-\{<br>
-  for (;;) \{<br>
-    if (null == l) \{<br>
-        return max_so_far;<br>
-    }<br>
-<br>
-    if (max_so_far < head(l)) \{<br>
-        max_so_far = head(l);<br>
-        l = tail(l);<br>
-    } else \{<br>
-        max_so_far = max_so_far;<br>
-        l = tail(l);<br>
-    }<br>
-  }<br>
+<br />
+int max_list(list l, int max_so_far)<br />
+\{<br />
+  for (;;) \{<br />
+    if (null == l) \{<br />
+        return max_so_far;<br />
+    }<br />
+<br />
+    if (max_so_far < head(l)) \{<br />
+        max_so_far = head(l);<br />
+        l = tail(l);<br />
+    } else \{<br />
+        max_so_far = max_so_far;<br />
+        l = tail(l);<br />
+    }<br />
+  }<br />
 }
 </pre>
 Now there is no need to allocate new memory for the parameters or get
@@ -85,16 +88,16 @@ recursion, it will also collapse the loop test, eliminate the
 assignment of max_so_far to itself, and hoist the assignment of l
 after the test giving the following:
 <pre>
-<br>
-int max_list(list l, int max_so_far)<br>
-\{<br>
-  while (null != l) \{<br>
-    if (max_so_far < head(l)) \{<br>
-        max_so_far = head(l);<br>
-    }<br>
-    l = tail(l);<br>
-  }<br>
-  return max_so_far;<br>
+<br />
+int max_list(list l, int max_so_far)<br />
+\{<br />
+  while (null != l) \{<br />
+    if (max_so_far < head(l)) \{<br />
+        max_so_far = head(l);<br />
+    }<br />
+    l = tail(l);<br />
+  }<br />
+  return max_so_far;<br />
 }
 </pre>
 # further explanation (pure HTML)
