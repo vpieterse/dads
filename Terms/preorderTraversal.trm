@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Nov  2 14:19:38 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:16 2008" *by "Paul E. Black"
 
 # $Log: preorderTraversal.trm,v $
+# Revision 1.7  2008/08/14 16:15:17  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
 # Revision 1.6  2007/11/02 18:19:51  black
 # IMA depth-first search
 #
@@ -53,12 +56,12 @@
 printed as "root (first subtree) (second subtree) ... (last subtree)."
 Here is pseudocode for a {binary tree}:
 <pre>
-preorder(tree)<br>
-begin<br>
-    if tree is null, return;<br><br>
-    print(tree.root);<br>
-    preorder(tree.left_subtree);<br>
-    preorder(tree.right_subtree);<br>
+preorder(tree)<br />
+begin<br />
+    if tree is null, return;<br /><br />
+    print(tree.root);<br />
+    preorder(tree.left_subtree);<br />
+    preorder(tree.right_subtree);<br />
 end
 </pre>
 # further explanation (pure HTML)
