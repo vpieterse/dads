@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:39:20 2007" *by "Paul E. Black"
+# *modified "Mon Aug 18 09:25:23 2008" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.19  2008/08/18 13:25:27  black
+# Remove Kaz's IMPL - it has been off line for at least a month.
+#
 # Revision 1.18  2007/04/23 13:39:38  black
 # Update UCSC IMPL
 #
@@ -92,10 +95,6 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BST.html">animation (Java)<
 Ben Pfaff's 
 <a href="http://www.stanford.edu/~blp/avl/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</a>;
-Kaz Kylheku's
-<a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
-implementing sorted list, binary search tree, AVL, red-black and splay
-trees and conversions from any of these to any other.
 Maksim Goleta's
 <a href="http://goletas.com/solutions/collections/">Collections
 (C#)</a> implementing singly- and doubly-linked lists, binary search
