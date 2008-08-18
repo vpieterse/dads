@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:55:14 1999" *by "Paul E. Black"
-# *modified "Mon Dec 17 12:44:16 2007" *by "Paul E. Black"
+# *modified "Mon Aug 18 09:21:03 2008" *by "Paul E. Black"
 
 # $Log: splaytree.trm,v $
+# Revision 1.6  2008/08/18 13:21:36  black
+# Remove Kaz's IMPL - its been off line for at least a month.
+#
 # Revision 1.5  2007/12/17 17:45:35  black
 # Remove link to demo at cmu.edu: server has been timing out since June 2008.
 #
@@ -54,10 +57,6 @@ Binary Search Trees</a></em>, Journal of the ACM, 32(3):652-686, 1985.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Kaz Kylheku's
-<a href="http://users.footprints.net/~kaz/austin.html">Austin (C)</a>
-implementing sorted list, binary search tree, AVL, red-black and splay
-trees and conversions from any of these to any other.
 Danny Sleator's
 <a href="ftp://ftp.cs.cmu.edu/user/sleator/splaying/">(Java and C)</a>.
 # author's initials
