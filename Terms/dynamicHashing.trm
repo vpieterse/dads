@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:24 2008" *by "Paul E. Black"
+# *modified "Mon Aug 18 09:23:17 2008" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.10  2008/08/18 13:23:55  black
+# Remove Kaz's IMPL - it has been off line for at least a month.
+#
 # Revision 1.9  2008/08/14 16:14:25  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -92,11 +95,6 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 Charles B. Falconer's
 <a href="http://cbfalconer.home.att.net/download/">hashlib (C)</a>
 including several example applications.
-Kaz Kylheku's
-<a
-href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>
-implementing dictionary, dynamic hash table, red-black tree, and
-doubly linked list.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dynamicHashing.trm,v $
