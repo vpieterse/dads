@@ -1,7 +1,10 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Thu Aug 14 15:01:30 2008" *by "Paul E. Black"
+# *modified "Mon Aug 25 09:02:35 2008" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Revision 1.7  2008/08/25 13:03:15  black
+# update URL for original paper
+#
 # Revision 1.6  2008/08/14 19:02:50  black
 # Bresenham's seminal paper is (now) on-line.  NOTE his paper on
 # "anomalies" in such algorithms.
@@ -49,8 +52,8 @@ accumulated.
 <strong>Jack E. Bresenham</strong>, <em>Algorithm for Computer Control 
 of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.
 On-line at
-<a href="http://www.research.ibm.com/journal/sj/041/ibmsjIVRIC.pdf">
-http://www.research.ibm.com/journal/sj/041/ibmsjIVRIC.pdf</a>
+<a href="http://researchweb.watson.ibm.com/journal/sj/041/ibmsjIVRIC.pdf">
+http://researchweb.watson.ibm.com/journal/sj/041/ibmsjIVRIC.pdf</a>
 <br />
 Reprinted in <em>Interactive Computer Graphics</em>, Herbert Freeman ed., 
 1980, and
