@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Tue Aug 26 08:44:56 2008" *by "Paul E. Black"
+# *modified "Tue Aug 26 08:57:25 2008" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.13  2008/08/26 12:58:21  black
+# Update Morris' URL.  Fix typos in Sedgewick link and put it before Morris'.
+#
 # Revision 1.12  2008/08/26 12:45:52  black
 # Add Sedgewick & Wayne's introduction and tutorial to IMPL
 #
@@ -125,16 +128,23 @@ Jennifer E. Elaan's
 algorithm</a>, equivalent to Knuth's.
 # implementation(s) (pure HTML)
 @IMPL=
-# John Morris morris@ee.uwa.edu.au
-<a
-href="http://www.cs.auckland.ac.nz/software/AlgAnim/arrays.html#arrays">(C)</a>.
 Sedgewick & Wayne's
-<a href="http://www.cs.princeton.edu/introcs/14array/">introductions
-and tutorial to arrays (JAva)</a>
+<a href="http://www.cs.princeton.edu/introcs/14array/">introduction
+and tutorial to arrays (Java)</a>.
+John Morris'
+# morris@ee.uwa.edu.au
+<a
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/arrays.html">Data
+Structures - Arrays(C)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/arrays/arrays.html">search,
 access, complexity, etc. tutorial and code (C++)</a>.
+Hudak, Peterson, and Fasel's 
+# "Gentle Introduction to Haskell", 1997
+# http://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/
+section on <a
+href="http://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/arrays.html">arrays (Haskell)</a>.
 <a href="http://gams.nist.gov/serve.cgi/Class/N1">Read and write
 different arrays (Fortran, C++)</a>.
 # author's initials
