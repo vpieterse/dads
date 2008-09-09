@@ -1,7 +1,12 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Tue May 30 16:43:46 2006" *by "Paul E. Black"
+# *modified "Tue Sep  9 14:29:35 2008" *by "Paul E. Black"
 
 # $Log: cycle.trm,v $
+# Revision 1.10  2008/09/09 18:32:49  black
+# Fix DEFN: must have at least 1 edge.  Move stuff around: simple path
+# and cycle finding to NOTE, "graph" to IMIN, and Euler Cycle to
+# VARIANT.  Add "closed path" as a WEB-only name.
+#
 # Revision 1.9  2006/05/30 20:44:58  black
 # Add "closed path" as another name cycle is known as.
 #
@@ -37,38 +42,50 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=graph
 # the definition
-@DEFN=A {path} in a {graph} that starts and ends at the
-same {vertex} and includes other vertices at most once.
-To find a cycle, use {depth-first search}.  One step in finding all
-cycles is to look for {strongly connected components}.
+@DEFN=A {path} that starts and ends at the
+same {vertex} and includes at least one {edge}.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
-@WEB=
+@WEB=closed path
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
 @IMA=(nonsimple) {path}
 # Specialization: "... is a kind of me."
-@VARIANT={Hamiltonian cycle}
+@VARIANT={Hamiltonian cycle}, {Euler cycle}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={graph}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Euler cycle}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Ignoring the start (or end) vertex, the constraint that it
-include vertices at most once makes a cycle a {simple path}.
-</p>
-
-<p>
+@NOTES=
 Also known as "circuit" or "closed path".
 # "closed path" from Jack Edmonds, "Paths, Trees, and Flowers",
 # Canad. J. Math. 17, 449-467, 1965.
+</p>
+
+<p>
+A cycle is usually assumed to be a {simple path} ignoring the start
+(and end) vertex.  That is, it include vertices other than the
+start/end at most once.
+</p>
+
+<p>
+Having at least one edge means that there are at least two vertices in
+the path: the start/end and one other.  It also means the path length
+is at least one.
+</p>
+
+<p>
+One way to find a cycle is to do a {depth-first search}, checking for
+repeated vertices.  One step in finding all
+cycles is to look for {strongly connected components}.
 
 # further explanation (pure HTML)
 @LINKS=
