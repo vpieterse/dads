@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:20:40 2007" *by "Paul E. Black"
+# *modified "Mon Sep 29 11:43:42 2008" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.9  2008/09/29 15:48:43  black
+# NOTE that a linked list may be used to implement a sparse matrix.
+#
 # Revision 1.8  2007/04/23 13:20:44  black
 # Update URL for Mukundan's Java demos and code
 #
@@ -68,7 +71,7 @@ items quickly.
 
 <p>
 A linked list can be used to implement other data structures,
-such as a {queue} or a {stack}.
+such as a {queue}, a {stack}, or a {sparse matrix}.
 # further explanation (pure HTML)
 @LINKS=
 # John Morris morris@ee.uwa.edu.au
