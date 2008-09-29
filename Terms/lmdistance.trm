@@ -1,7 +1,11 @@
 # *created  "Fri Apr  9 08:03:08 1999" *by "Paul E. Black"
-# *modified "Wed May 31 09:37:52 2006" *by "Paul E. Black"
+# *modified "Mon Sep 29 14:13:40 2008" *by "Paul E. Black"
 
 # $Log: lmdistance.trm,v $
+# Revision 1.4  2008/09/29 18:16:09  black
+# Remove link "Pictures and definitions" link - site moved to
+# www.ucl.ac.uk/cancer, but I couldn't find the old page on the new site.
+#
 # Revision 1.3  2006/05/31 13:38:58  black
 # Add AKA Minkowski distance.  Add XREF to Hamming distance.  Add LINKs.
 #
@@ -49,9 +53,6 @@ $max(|x<sub>1</sub> - x<sub>2</sub>|, |y<sub>1</sub> - y<sub>2</sub>|)$.
 Adapted from <a href="../terms.html#CLR90">[CLR90, page 912]</a>.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://www.ucl.ac.uk/oncology/MicroCore/HTML_resource/Distances_detailed_popup.htm">Pictures
-and definitions</a> of several distance measures.
 <a href="http://www.vias.org/tmdatanaleng/cc_distance_meas.html">More
 formal definitions</a> of distance measures.
 Wikipedia definition of
