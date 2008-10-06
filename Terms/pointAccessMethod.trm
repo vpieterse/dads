@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:09:15 1998" *by "Paul E. Black"
-# *modified "Fri May 16 14:25:01 2008" *by "Paul E. Black"
+# *modified "Mon Oct  6 10:15:35 2008" *by "Paul E. Black"
 
 # $Log: pointAccessMethod.trm,v $
+# Revision 1.7  2008/10/06 14:16:58  black
+# Remove LINK to brabec demos - user completely gone from umd CS
+#
 # Revision 1.6  2008/05/16 20:14:18  black
 # XREF new locality-sensitive hashing
 #
@@ -52,10 +55,6 @@ for points defined in multidimensional space.
 @NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
 # further explanation (pure HTML)
 @LINKS=
-Demonstrations of some
-<a
-href="http://www.cs.umd.edu/users/brabec/quadtree/index2.html">spatial
-access methods</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pointAccessMethod.trm,v $
