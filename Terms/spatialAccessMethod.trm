@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:12:55 1998" *by "Paul E. Black"
-# *modified "Mon Jun 19 15:46:44 2006" *by "Paul E. Black"
+# *modified "Mon Oct  6 10:15:17 2008" *by "Paul E. Black"
 
 # $Log: spatialAccessMethod.trm,v $
+# Revision 1.7  2008/10/06 14:17:11  black
+# Remove LINK to brabec demos - user completely gone from umd CS
+#
 # Revision 1.6  2006/06/19 19:49:27  black
 # LINK to Java demos.
 #
@@ -54,10 +57,6 @@ methods may not support region,
 overlap, enclosure, etc. searches very well.
 # further explanation (pure HTML)
 @LINKS=
-Demonstrations of some
-<a
-href="http://www.cs.umd.edu/users/brabec/quadtree/index2.html">spatial
-access methods</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/spatialAccessMethod.trm,v $
