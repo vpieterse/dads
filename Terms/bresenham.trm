@@ -1,7 +1,10 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Mon Aug 25 09:02:35 2008" *by "Paul E. Black"
+# *modified "Mon Oct 20 12:45:48 2008" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Revision 1.8  2008/10/20 16:47:26  black
+# Add LINK to Dedu's implementation of a supercover line algorithm.
+#
 # Revision 1.7  2008/08/25 13:03:15  black
 # update URL for original paper
 #
@@ -97,6 +100,14 @@ they could publish the paper.  I happily agreed, and they printed it in
 @LINKS=
 An <a
 href="http://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</a>.
+</p>
+
+<p>
+Eugen Dedu's implementation of a
+<a href="http://lifc.univ-fcomte.fr/~dedu/projects/bresenham/">Bresenham-based
+supercover line algorithm</a>.  It marks all the squares a line passes
+through, not just the least error sqaures.  It may help with dithered
+lines or checking for obstacles.
 # implementation(s) (pure HTML)
 @IMPL=
 The original IBM 1401 <a
