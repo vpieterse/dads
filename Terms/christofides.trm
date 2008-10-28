@@ -1,7 +1,12 @@
 # *created  "Fri Aug  3 12:16:15 2001" *by "Paul E. Black"
-# *modified "Tue Dec 27 09:46:41 2005" *by "Paul E. Black"
+# *modified "Tue Oct 28 09:01:56 2008" *by "Paul E. Black"
 
 # $Log: christofides.trm,v $
+# Revision 1.8  2008/10/28 13:03:23  black
+# Make Christofides heuristic a WEB reference instead of an AKA.  Remove
+# LINK to troy.org document with algorithm and proof - it is not
+# accessible.
+#
 # Revision 1.7  2005/12/27 14:48:54  black
 # Remove LINK to msci.memphis: ~giri not found.
 #
@@ -20,7 +25,6 @@
 #
 # Revision 1.2  2003/10/16 17:04:37  black
 # Use a more regular plural of vertex
-#
 
 # entry name
 @NAME=Christofides algorithm
@@ -40,9 +44,9 @@ number} of a graph.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=Christofides heuristic
+@AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=Christofides heuristic
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -76,9 +80,6 @@ chromatic number of a graph</em>, Computer J., 14(1):38-39, February
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-A PDF document explaining the <a
-href="http://troy.troy.org/cs170/week13.pdf">algorithm with proof of
-guarantee</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
