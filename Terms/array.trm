@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Tue Aug 26 08:57:25 2008" *by "Paul E. Black"
+# *modified "Mon Nov  3 10:21:24 2008" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.14  2008/11/03 15:24:20  black
+# Represent a lone ampersand in standard HTML.
+#
 # Revision 1.13  2008/08/26 12:58:21  black
 # Update Morris' URL.  Fix typos in Sedgewick link and put it before Morris'.
 #
@@ -128,7 +131,7 @@ Jennifer E. Elaan's
 algorithm</a>, equivalent to Knuth's.
 # implementation(s) (pure HTML)
 @IMPL=
-Sedgewick & Wayne's
+Sedgewick &amp; Wayne's
 <a href="http://www.cs.princeton.edu/introcs/14array/">introduction
 and tutorial to arrays (Java)</a>.
 John Morris'
