@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Wed Oct 10 15:48:18 2007" *by "Paul E. Black"
+# *modified "Mon Nov  3 09:43:53 2008" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.6  2008/11/03 14:44:53  black
+# Remove LINK to Mike Keith's page: the site is permanently gone.
+#
 # Revision 1.5  2007/10/10 19:48:45  black
 # add "Easter date" as a web alias
 #
@@ -58,10 +61,6 @@ The following are only correct for Gregorian dates.
 Comp.lang.c FAQ <a
 href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 17.28 (C)</a>.
-Mike Keith's short
-<a href="http://users.aol.com/s6sj7gt/mikecal.htm">day of the week
-expression for Gregorian dates (C)</a>. (Stockton's page gives later,
-shorter versions of Keith's expression.)
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for
