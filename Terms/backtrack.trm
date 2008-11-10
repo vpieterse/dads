@@ -1,7 +1,10 @@
 # *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:12:18 2008" *by "Paul E. Black"
+# *modified "Mon Nov 10 13:26:54 2008" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.11  2008/11/10 18:27:53  black
+# update URL in LINK to James Allen's explanation
+#
 # Revision 1.10  2008/08/14 16:13:38  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -91,7 +94,7 @@ href="http://gaia.ecs.csus.edu/~wang/backtrack/maze/maze1/mazetraversal.html">ma
 solving Java applet</a>.
 James D. Allen's
 <a
-href="http://freepages.genealogy.rootsweb.ancestry.com/~jamesdow/Tech/lesson9.htm#p91">short
+href="http://fabpedigree.com/james/lesson9.htm">short
 explanation</a>.
 FOLDOC's
 <a href="http://foldoc.org/?backtracking">entry</a>.
