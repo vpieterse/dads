@@ -1,7 +1,11 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Apr 23 09:24:21 2007" *by "Paul E. Black"
+# *modified "Mon Nov 10 13:16:47 2008" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Revision 1.7  2008/11/10 18:19:09  black
+# update brainy planet URL - something stopped interpreting "percent
+# sign" HTML "quotes".
+#
 # Revision 1.6  2007/04/23 13:25:00  black
 # Mukundan gives an IMPL
 #
@@ -61,7 +65,7 @@ puzzle, algorithms, and proofs.
 href="http://rec-puzzles.org/">Puzzle
 Archive</a> gives 
 <a
-href="http://brainyplanet.com/index.php/Hanoi%20Solution">background
+href="http://brainyplanet.com/index.php/Hanoi Solution">background
 and a recursive and an iterative solution</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
