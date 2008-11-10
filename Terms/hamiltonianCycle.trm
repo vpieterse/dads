@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Thu Sep 14 10:24:35 2006" *by "Paul E. Black"
+# *modified "Mon Nov 10 13:08:00 2008" *by "Paul E. Black"
 
 # $Log: hamiltonianCycle.trm,v $
+# Revision 1.5  2008/11/10 18:11:03  black
+# update LINK to Moscato's page
+#
 # Revision 1.4  2006/09/14 14:27:50  black
 # IMA cycle.  TSP is a VARIANT.  XREF Hamiltonian path, but remove XREF
 # to simple path.
@@ -55,9 +58,10 @@ each edge once.
 <p>
 Also known as a Hamiltonian circuit.
 # further explanation (pure HTML)
-@LINKS=Links to <a
-href="http://www.densis.fee.unicamp.br/~moscato/Hamilton.html">papers
-on many aspects of Hamiltonian cycles and paths</a>.
+@LINKS=
+Pablo Moscato's <a
+href="http://www.ing.unlp.edu.ar/cetad/mos/Hamilton.html">Hamiltonian
+Page</a> with papers on many aspects of Hamiltonian cycles and paths.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/hamiltonian-cycle.shtml">(Fortran,
