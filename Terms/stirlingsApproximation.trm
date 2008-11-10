@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May  7 08:27:20 2007" *by "Paul E. Black"
+# *modified "Mon Nov 10 09:30:46 2008" *by "Paul E. Black"
 
 # $Log: stirlingsApproximation.trm,v $
+# Revision 1.7  2008/11/10 14:32:17  black
+# LINK to Luschny's page of approximation formulas.
+#
 # Revision 1.6  2007/05/07 12:29:05  black
 # Remove Luschny's URL - for several weeks, server has been empty,
 # except for a notice that a new web site is in development.
@@ -46,6 +49,10 @@ ${n!#factorial} \approx (n/e)<sup>n</sup>\sqrt\{2n\pi}$.
 @NOTES=This approximation is taken directly from {Stirling's formula}.
 # further explanation (pure HTML)
 @LINKS=
+Peter Luschny lists and evaluates
+<a
+href="http://www.luschny.de/math/factorial/approx/SimpleCases.html">many
+approximation formulas for n!</a>.
 See Eric W. Weisstein,
 <a
 href="http://mathworld.wolfram.com/StirlingsApproximation.html">Stirling's
