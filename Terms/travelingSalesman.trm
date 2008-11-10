@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Thu Jan 18 14:01:31 2007" *by "Paul E. Black"
+# *modified "Mon Nov 10 13:03:34 2008" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Revision 1.7  2008/11/10 18:10:15  black
+# update URL for Moscato's IMPL page
+#
 # Revision 1.6  2007/01/18 19:02:04  black
 # The solution is approximate, not absolute.
 #
@@ -91,10 +94,11 @@ different heuristics</a>.
 <a href="http://www.tsp.gatech.edu/">links to challenges,
 advances, etc.</a>.
 # implementation(s) (pure HTML)
-@IMPL=Links to <a
-href="http://www.densis.fee.unicamp.br/~moscato/TSPBIB_home.html">software</a>
-as well as papers, preprints, reports, etc., on-line on this
-and related problems, 
+@IMPL=
+Pablo Moscato's <a
+href="http://www.ing.unlp.edu.ar/cetad/mos/TSPBIB_home.html">TSPBIB
+Home Page</a> with links to software, papers, preprints, reports,
+etc., on-line on this and related problems.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/traveling-salesman.shtml">(C,
 Fortran, Pascal, Mathematica, and C++)</a>.
