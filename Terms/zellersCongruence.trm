@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Mon Nov  3 09:43:53 2008" *by "Paul E. Black"
+# *modified "Wed Nov 12 11:59:01 2008" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.7  2008/11/12 17:02:01  black
+# Update Stockton's page's description.
+#
 # Revision 1.6  2008/11/03 14:44:53  black
 # Remove LINK to Mike Keith's page: the site is permanently gone.
 #
@@ -52,12 +55,14 @@ Acta Mathematica, 9:131-6, Nov 1886.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # implementation(s) (pure HTML)
-@IMPL=Dr J R Stockton's <a
-href="http://www.merlyn.demon.co.uk/zeller-c.htm#ZC">Zeller's
-congruence, for day-of-week (Pascal, JavaScript)</a>.  Includes tests
-and code for Easter, Zeller's original papers (in German and English
+@IMPL=
+Dr J R Stockton's <em>The Calendrical Works of Rektor Chr. Zeller: The
+Day-of-Week and Easter Formulae</em> page has implementations of <a 
+href="http://www.merlyn.demon.co.uk/zeller-c.htm">Zeller's
+congruence, for day-of-week (Pascal, JavaScript)</a>.  The page
+includes tests and code for Easter, Zeller's original papers (and
 translations), etc.
-The following are only correct for Gregorian dates.
+The following is only correct for Gregorian dates:
 Comp.lang.c FAQ <a
 href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 17.28 (C)</a>.
