@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 17 13:10:39 2006" *by "Paul E. Black"
+# *modified "Thu Nov 13 12:04:17 2008" *by "Paul E. Black"
 
 # $Log: lasVegas.trm,v $
+# Revision 1.5  2008/11/13 17:04:40  black
+# Add random search as a VARIANT.
+#
 # Revision 1.4  2006/07/17 17:16:45  black
 # Add another VARIANT (C, H, & M)
 #
@@ -28,7 +31,7 @@ time.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT={Grover's algorithm}, 
+@VARIANT={random search}, {Grover's algorithm}, 
 Czech, Havas, and Majewski's {order preserving minimal perfect hashing}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
