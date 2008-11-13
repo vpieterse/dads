@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:46 1998" *by "Paul E. Black"
-# *modified "Mon Jul  2 09:46:28 2007" *by "Paul E. Black"
+# *modified "Mon Nov 10 09:17:23 2008" *by "Paul E. Black"
 
 # $Log: sieve.trm,v $
+# Revision 1.6  2008/11/13 17:21:11  black
+# Update URL to and language of Luschny's IMPL
+#
 # Revision 1.5  2007/07/02 13:47:35  black
 # Remove Stockton's IMPL - removed from server due to bandwidth.
 # Improve some explanations.
@@ -153,10 +156,10 @@ and (pseudocode)</a>
 @IMPL=<a
 href="http://primes.utm.edu/links/programs/sieves/Eratosthenes/">various
 implementations (C, Perl, and Java)</a>,
-Luschny's
+Peter Luschny's
 <a
-href="http://www.javajungle.de/math/primes/PrimeNumberSieve.html">(Java
-5)</a> implementation.
+href="http://www.luschny.de/math/primes/PrimeSieveForJavaAndCsharp.html">(Java
+5 and C#)</a> implementation.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/sieve.trm,v $
