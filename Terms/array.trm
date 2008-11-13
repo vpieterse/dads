@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Mon Nov  3 10:21:24 2008" *by "Paul E. Black"
+# *modified "Thu Nov 13 12:00:23 2008" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.15  2008/11/13 17:00:47  black
+# improve grammar in DEFN: use "that" instead of "which".
+#
 # Revision 1.14  2008/11/03 15:24:20  black
 # Represent a lone ampersand in standard HTML.
 #
@@ -41,7 +44,6 @@
 #
 # Revision 1.2  2004/03/08 15:29:18  black
 # Refine XREFS into IMA, etc.  Add reference to sorted array.
-#
 
 # entry name
 @NAME=array
@@ -50,7 +52,7 @@
 # basic, numeric, search, sort, graph, combin(atorial)
 @AREA=basic
 # the definition
-@DEFN=An assemblage of items which are randomly accessible by
+@DEFN=An assemblage of items that are randomly accessible by
 integers, the index.
 
 # formal definition or {cross reference} to an entry
