@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jun 21 10:32:34 2005" *by "Paul E. Black"
+# *modified "Thu Nov 13 14:41:14 2008" *by "Paul E. Black"
 
 # $Log: directedAcyclicWordGraph.trm,v $
+# Revision 1.5  2008/11/13 19:42:45  black
+# LINK to Adamovsky's page
+#
 # Revision 1.4  2005/06/21 14:35:59  black
 # Fix description of compact DAWG.
 #
@@ -76,6 +79,10 @@ coded with new characters, like a simplified {Huffman coding}.
 # and comments on implementations.
 # further explanation (pure HTML)
 @LINKS=
+JohnPaul Adamovsky's
+<a href="http://www.pathcom.com/~vadco/dawg.html">Directed Acyclic
+Word Graph or DAWG</a> page with introduction, explanation, C
+implementation, and notes on optimization.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
