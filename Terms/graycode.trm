@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:01:37 2008" *by "Paul E. Black"
+# *modified "Mon Nov 17 13:24:23 2008" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.18  2008/11/17 18:24:53  black
+# Update URL for comp.ai.genetic FAQ entry.
+#
 # Revision 1.17  2008/07/28 20:02:14  black
 # Remove binary-to-Gray code etc. (Maple) IMPL - usna.navy.mil server
 # still not available.
@@ -131,9 +134,10 @@ Image of a
 code rotary railroad control</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-# The following is an HTML version of part 6 of the comp.ai.genetic FAQ
+# The following is an HTML version of Q21 part 6, section 1,
+comp.ai.genetic FAQ.  Google for "Q21: What are Gray codes"
 <a
-href="http://www.faqs.org/faqs/ai-faq/genetic/part6/section-1.html">binary-to-Gray
+href="http://surf.de.uu.net/encore/FAQ/www/Q21.htm">binary-to-Gray
 and Gray-to-binary conversion (C)</a> with history, references, and
 application to genetic algorithms.
 <a href="http://www.nrbook.com/a/bookcpdf/c20-2.pdf">Convert
