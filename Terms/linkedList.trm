@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Sep 29 11:43:42 2008" *by "Paul E. Black"
+# *modified "Mon Nov 17 12:51:32 2008" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.10  2008/11/17 17:51:56  black
+# Remove Kazlib IMPL - its been gone at least 3 months.
+#
 # Revision 1.9  2008/09/29 15:48:43  black
 # NOTE that a linked list may be used to implement a sparse matrix.
 #
@@ -81,8 +84,7 @@ a Java applet <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LinkListAp
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="http://www.cs.rpi.edu/~musser/gp/lists.html">explanations,
-examples, iterators, sorting lists, etc. (C++)</a>,
-<a href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>.
+examples, iterators, sorting lists, etc. (C++)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/lists/lists.html">tutorial
