@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:51:36 1998" *by "Paul E. Black"
-# *modified "Mon Dec  3 17:18:41 2007" *by "Paul E. Black"
+# *modified "Mon Nov 17 12:49:35 2008" *by "Paul E. Black"
 
 # $Log: hashtab.trm,v $
+# Revision 1.13  2008/11/17 17:50:28  black
+# Remove kazlib and SparkNotes IMPLs - they've been gone for at least 3
+# months.
+#
 # Revision 1.12  2007/12/03 22:18:59  black
 # add a new variant: hashbelt
 #
@@ -118,16 +122,12 @@ linear probing hashing: <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.ins.c">insert
 (C)</a>, <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.srch.c">look
-up (C)</a>, <a
-href="http://users.footprints.net/~kaz/kazlib.html">Kazlib (C)</a>,
-direct chaining: <a href="http://epaperpress.com/vbhash/">explanations,
+up (C)</a>.
+Direct chaining: <a href="http://epaperpress.com/vbhash/">explanations,
 diagrams, and code (Visual Basic)</a>.
 Mark Nelson's tutorial to using
 <a href="http://marknelson.us/2007/08/01/memoization/">C++ Hash Table
 Memoization: [for] Simplifying Dynamic Programming (C++)</a>.
-Explanation and sample problems for <a
-href="http://www.sparknotes.com/cs/searching/hashtables/section1.html">hashing
-(C)</a> (some pages require free registration).
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/hashtab.trm,v $
