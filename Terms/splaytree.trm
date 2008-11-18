@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:55:14 1999" *by "Paul E. Black"
-# *modified "Mon Aug 18 09:21:03 2008" *by "Paul E. Black"
+# *modified "Mon Nov 17 14:42:03 2008" *by "Paul E. Black"
 
 # $Log: splaytree.trm,v $
+# Revision 1.7  2008/11/17 19:42:35  black
+# Use Sleator's (free) paper in BIB
+#
 # Revision 1.6  2008/08/18 13:21:36  black
 # Remove Kaz's IMPL - its been off line for at least a month.
 #
@@ -49,7 +52,7 @@
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Daniel D. Sleator</strong> and <strong>Robert E. Tarjan</strong>, 
-<em><a href="http://doi.acm.org/10.1145/3828.3835">Self-Adjusting
+<em><a href="http://www.cs.cmu.edu/~sleator/papers/self-adjusting.pdf">Self-Adjusting
 Binary Search Trees</a></em>, Journal of the ACM, 32(3):652-686, 1985.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
