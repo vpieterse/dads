@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:45 2008" *by "Paul E. Black"
+# *modified "Thu Nov 20 13:54:57 2008" *by "Paul E. Black"
 
 # $Log: binaryTreeRepofTree.trm,v $
+# Revision 1.7  2008/11/20 18:55:15  black
+# IMIN Schorr-Waite graph marking algorithm
+#
 # Revision 1.6  2008/08/14 16:13:48  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -71,7 +74,7 @@ doubly-chained tree, filial-heir chain
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN={multiway tree}, {k-ary tree}
+@IMIN={multiway tree}, {k-ary tree}, {Schorr-Waite graph marking algorithm}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
