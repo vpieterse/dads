@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
-# *modified "Thu Oct 18 16:09:50 2007" *by "Paul E. Black"
+# *modified "Thu Nov 20 09:21:52 2008" *by "Paul E. Black"
 
 # $Log: directedGraph.trm,v $
+# Revision 1.10  2008/11/20 14:22:26  black
+# XREF Schorr-Waite graph marking algorithm
+#
 # Revision 1.9  2007/10/18 20:10:15  black
 # fix DEFN: E is a SUBSET of pairs of vertices.
 #
@@ -59,7 +62,8 @@ $E \subseteq \{(u,v) | u, v \in V \wedge u \neq v}$.
 # Aggregate child: "... is a part of or used in me."
 @INME={source}, {sink}, {in-degree}, {out-degree}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={undirected graph}, {hypergraph}, {multigraph}
+@XREFS={undirected graph}, {hypergraph}, {multigraph},
+{Schorr-Waite graph marking algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
