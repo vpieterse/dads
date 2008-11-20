@@ -1,7 +1,11 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Tue Dec 18 14:49:29 2007" *by "Paul E. Black"
+# *modified "Thu Nov 20 09:21:49 2008" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.13  2008/11/20 14:23:16  black
+# XREF Schorr-Waite graph marking algorithm
+# add comments about early references to depth-first search.
+#
 # Revision 1.12  2007/12/18 19:51:09  black
 # Add BIB references of early uses of depth-first search.  Add other bib
 # references, commented out, for later research into the origin of
@@ -70,14 +74,12 @@ discovered and finished, partitioning the graph into a {forest}.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={breadth-first search}, {best-first search}
+@XREFS={breadth-first search}, {best-first search},
+{Schorr-Waite graph marking algorithm}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 An early mention of depth-first search:<br>
-#<strong>Robert Tarjan</strong>, <em>Depth-First Search and Linear
-#Graph Algorithms</em>,
-#SIAM Journal on Computing, 1(2):146-160, 1972.<br>
 <strong>C. Cordell Green</strong> and <strong>Bertram Raphael</strong>,
 <em>The use of theorem-proving techniques in question-answering systems</em>,
 Proc. 1968 23rd ACM national conference, pages 169-181, 1968.
@@ -87,6 +89,13 @@ Uses just "depth-first search" in the body (page 5), but contrasts
 depth-first with breadth-first search in a footnote.  
 # This suggests the usage is somewhat new.  Institution is Stanford
 # Research Institute, Menlo Park, California.
+
+#Nils J. Nilsson, Problem-solving methods in Artificial Intelligence, 
+#McGraw-Hill, 1971
+#defines and contrasts depth-first and breadth-first search starting
+# on page 44 (Sect. 3-1) and continuing through Sect 3-2 Breadth-first
+# methods, Sect 3-3 Depth-first Method page 50.
+# There are bib references on page 76, including Golomb and Baumert, below
 
 #<br>
 #          an early use of depth-first AND breadth-first search
@@ -148,7 +157,7 @@ during, or after its outgoing edges or children.  Thus it can be
 Lecture notes from Design and Analysis of Algorithms on <a
 href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
 search and depth-first search</a>.
-A <a
+An <a
 href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
