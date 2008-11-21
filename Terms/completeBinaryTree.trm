@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Tue Feb  1 15:02:29 2005" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:10:09 2008" *by "Paul E. Black"
 
 # $Log: completeBinaryTree.trm,v $
+# Revision 1.5  2008/11/20 21:11:06  black
+# Fix refs to Knuth vol 1 and 2 to 1997
+#
 # Revision 1.4  2005/02/01 20:03:05  black
 # Change TYPE from D to S (for ontology).
 #
@@ -67,7 +70,7 @@ This kind of tree is called "complete" by authors that mention it
 (Budd page 332, Ege, Carrano &amp; Prichard page 427, Goodrich &amp;
 Tamassia page 302,
 <a href="../terms.html#HS83">[HS83, page 226]</a>,
-<a href="../terms.html#Knuth98">[Knuth98]</a>,
+<a href="../terms.html#Knuth97">[Knuth97]</a>,
 <a href="../terms.html#Stand98">[Stand98, page 249]</a>).  Some
 authors call {perfect binary trees} "complete".
 # author's initials
