@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:24:56 2004" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:11:42 2008" *by "Paul E. Black"
 
 # $Log: threadedtree.trm,v $
+# Revision 1.5  2008/11/20 21:11:44  black
+# Fix refs to Knuth vol 1 and 2 to 1997
+#
 # Revision 1.4  2004/12/17 17:24:56  black
 # Make more XHTML compliant.
 #
@@ -38,7 +41,7 @@ link to refer to its in-order successor.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-See <a href="../terms.html#Knuth98">[Knuth98, 1:320, Sect. 2.3.1]</a>.
+See <a href="../terms.html#Knuth97">[Knuth97, 1:320, Sect. 2.3.1]</a>.
 Although the definition could refer to a {multiway tree}, Knuth
 defines a threaded tree as a binary tree.
 # further explanation (pure HTML)
