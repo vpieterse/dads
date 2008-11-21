@@ -1,0 +1,88 @@
+# *created  "Wed Nov 19 16:46:46 2008" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:14:19 2008" *by "Paul E. Black"
+
+# $Log: SchorrWaiteGraphMarking.trm,v $
+# Revision 1.1  2008/11/20 21:15:38  black
+# Initial revision
+#
+
+# entry name
+@NAME=Schorr-Waite graph marking algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=A class of algorithms to mark all reachable {nodes} in a
+{directed graph} by reversing pointers on the way down, then restoring
+them upon leaving.  It uses only a few bits of extra space per node
+and a few work pointers.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=Deutsch-Schorr-Waite algorithm, DSW
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={directed graph}, {binary tree representation of trees}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={depth-first search}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Herbert Schorr and William M. Waite</strong>,
+<em>An efficient machine-independent procedure for garbage collection
+in various list structures</em>, CACM, 10(8):501-506, August 1967.
+</p>
+
+<p>
+There are many variants, better presentations, and proofs of
+correctness, such as
+<strong>David Gries</strong>,
+<a href="http://www.cs.cornell.edu/courses/cs312/2007fa/lectures/lec21-schorr-waite.pdf"><em>Schorr-Waite
+Graph Marking Algorithm - Developed With Style</em></a>, 2007.
+
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+The graph must be a binary graph, that is, nodes have {out-degree} at
+most two.  Any graph may be represented as a binary graph using a
+technique like {binary tree representation of trees}.
+This algorithm works for graphs with {cycles}, so is not limited to
+{binary trees}.
+</p>
+
+<p>
+This is used in garbage collection to mark all nodes in use.  Any
+node still unmarked after the algorithm finishes is unused and may be
+collected.  Although a depth-first search to mark nodes is easy to
+write, it takes extra space proportional to the maximum search depth,
+which could be all nodes.
+
+# any historical notes
+@HISTORY=
+Knuth says this method was "discovered independently by Peter Deutsch
+and by Herbert Schorr and W. M. Waite in 1965"
+<a href="../terms.html#Knuth97">[Knuth97, 1:418, Sect. 2.3.5]</a>,
+but I cannot find any other documentation crediting Deutsch.
+# this is NOT it.  (Knuth gives Deutsch's first name as Laurence.)
+# L. Peter Deutsch and Daniel G. Bobrow,
+# Xerox Palo Alto Research Center,
+# "An efficient, incremental, automatic garbage collector",
+# CACM, 19(9):522-526, September 1976.
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/SchorrWaiteGraphMarking.trm,v $
