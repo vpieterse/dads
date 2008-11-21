@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Nov 20 13:54:57 2008" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:09:36 2008" *by "Paul E. Black"
 
 # $Log: binaryTreeRepofTree.trm,v $
+# Revision 1.8  2008/11/20 21:09:39  black
+# Fix refs to Knuth vol 1 and 2 to 1997
+#
 # Revision 1.7  2008/11/20 18:55:15  black
 # IMIN Schorr-Waite graph marking algorithm
 #
@@ -81,7 +84,7 @@ doubly-chained tree, filial-heir chain
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=See <a href="../terms.html#Knuth98">[Knuth98, 1:333, Sect. 2.3.2]</a>.
+@NOTES=See <a href="../terms.html#Knuth97">[Knuth97, 1:333, Sect. 2.3.2]</a>.
 </p>
 
 <p>
