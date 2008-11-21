@@ -1,7 +1,10 @@
 # *created  "Fri Jul 19 16:35:10 2002" *by "Paul E. Black"
-# *modified "Fri Jul 11 11:57:09 2008" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:09:28 2008" *by "Paul E. Black"
 
 # $Log: binaryGCD.trm,v $
+# Revision 1.9  2008/11/20 21:09:36  black
+# Fix refs to Knuth vol 1 and 2 to 1997
+#
 # Revision 1.8  2008/07/11 16:03:10  black
 # Remove WEB entry for Knuth's algorithm B: Knuth reuses one letter
 # algorithm names, so it is a local designator, not a "name".
@@ -106,7 +109,7 @@ now u or v (or both) are odd
 
 <p>
 Algorithm B in
-<a href="../terms.html#Knuth98">[Knuth98, vol. 2, Sect. 4.5.2]</a>.
+<a href="../terms.html#Knuth97">[Knuth97, vol. 2, Sect. 4.5.2]</a>.
 Torsten Eichst&auml;dt suggested incrementing g in step 2.3 (g++) and 
 returning v left shifted g times in step 4 (return v&lt;&lt;g).
 4 April 2006.  
