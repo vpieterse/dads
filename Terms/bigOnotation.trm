@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:44 2008" *by "Paul E. Black"
+# *modified "Thu Nov 20 16:09:22 2008" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Revision 1.12  2008/11/20 21:09:28  black
+# Fix refs to Knuth vol 1 and 2 to 1997
+#
 # Revision 1.11  2008/08/14 16:13:45  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -121,7 +124,7 @@ disk accesses, memory used, or elapsed ("wall clock") time.
 </p>
 
 <p>
-<a href="../terms.html#Knuth98">[Knuth98, 1:107]</a>, 
+<a href="../terms.html#Knuth97">[Knuth97, 1:107]</a>, 
 <a href="../terms.html#HS83">[HS83, page 31]</a>, and
 <a href="../terms.html">[Stand98, page 466]</a> use
 $|f(n)| \leq c|g(n)|$.  
