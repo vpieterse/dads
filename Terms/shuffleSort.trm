@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 11:48:10 2003" *by "Paul E. Black"
-# *modified "Tue Mar 28 07:44:12 2006" *by "Paul E. Black"
+# *modified "Mon Nov 24 12:04:26 2008" *by "Paul E. Black"
 
 # $Log: shuffleSort.trm,v $
+# Revision 1.7  2008/11/24 17:11:49  black
+# Update URL for 1997 message
+#
 # Revision 1.6  2006/03/28 13:07:16  black
 # Clarify DEFN slightly.  Add NOTE contrasting shuffle and
 # distributive partitioning sorts.
@@ -69,8 +72,8 @@ the maximum.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=Explained in
-<a href="http://groups.google.com/groups?selm=880578663%40p7.f108.n461.z2.ftn">a
-1997 message about J sort</a>.
+<a href="http://groups.google.com/group/fido7.ru.algorithms/msg/26084cdb04008ab3">a
+message about J sort</a> posted in 1997.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/shuffleSort.trm,v $
