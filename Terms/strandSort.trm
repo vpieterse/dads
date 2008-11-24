@@ -1,7 +1,10 @@
 # *created  "Tue Aug 12 10:52:34 2003" *by "Paul E. Black"
-# *modified "Wed Dec 14 16:47:52 2005" *by "Paul E. Black"
+# *modified "Mon Nov 24 12:04:14 2008" *by "Paul E. Black"
 
 # $Log: strandSort.trm,v $
+# Revision 1.6  2008/11/24 17:12:08  black
+# Update URL for 1997 message
+#
 # Revision 1.5  2005/12/14 21:48:48  black
 # IMA distribution sort.  XREF UnShuffle sort.
 #
@@ -60,8 +63,8 @@ special cases.
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=Explained in
-<a href="http://groups.google.com/groups?selm=880578663%40p7.f108.n461.z2.ftn">a
-1997 message about J sort</a>.
+<a href="http://groups.google.com/group/fido7.ru.algorithms/msg/26084cdb04008ab3">a
+message about J sort</a> posted in 1997.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/strandSort.trm,v $
