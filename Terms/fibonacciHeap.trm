@@ -1,7 +1,10 @@
 # *created  "Thu Jan 14 14:07:35 1999" *by "Paul E. Black"
-# *modified "Mon Oct  1 10:26:19 2007" *by "Paul E. Black"
+# *modified "Mon Nov 24 13:07:51 2008" *by "Paul E. Black"
 
 # $Log: fibonacciHeap.trm,v $
+# Revision 1.9  2008/11/24 18:08:11  black
+# Remove Boyer's IMPL - its gone from Stanford.
+#
 # Revision 1.8  2007/10/01 14:28:06  black
 # Complete the BIB entry.  Replace the old IMPL (myrice.com - gone) with
 # a new location: isomap.stanford.edu.
@@ -69,11 +72,6 @@ algorithms</em>, Journal of the ACM, 34(3):596-615, July, 1987.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-John Boyer's code for <a
-href="http://isomap.stanford.edu/code/dijkstra.cpp">ExtractMin and
-DecreaseKey (C++)</a> and <a
-href="http://isomap.stanford.edu/code/fibheap.h">fibheap.h</a>, the
-include file it needs.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciHeap.trm,v $
