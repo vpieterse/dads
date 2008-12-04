@@ -2,6 +2,9 @@
 # *modified "Tue Dec 18 16:14:50 2007" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Revision 1.14  2008/12/03 19:50:20  black
+# remove LINK to McGill 1997 CS251 - appears to be completely gone
+#
 # Revision 1.13  2007/12/18 21:15:10  black
 # improve grammar in DEFN
 #
@@ -88,12 +91,6 @@ A radix tree is taken to be a binary Patricia tree.
 
 # further explanation
 @LINKS=
-# Winter 1997 Class Notes for 308-251
-# DATA STRUCTURES AND ALGORITHMS
-# Topic #7: TRIES AND SUFFIX TREES
-A McGill class note has explanations of and comparisons between
-<a href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
-and suffix trees</a>.
 <a
 href="http://www.informatik.uni-freiburg.de/tr/1999/Report129/">Dictionary
 Automaton in Optimal Space</a>.
