@@ -2,6 +2,9 @@
 # *modified "Fri Aug  1 10:13:41 2008" *by "Paul E. Black"
 
 # $Log: compactTrie.trm,v $
+# Revision 1.4  2008/12/03 19:50:44  black
+# remove LINK to McGill 1997 CS251 - appears to be completely gone
+#
 # Revision 1.3  2008/08/01 14:20:07  black
 # Add NOTE on pronunciation referring to historical note at trie.
 #
@@ -57,12 +60,6 @@ pronounced, "tree."  See the historical note at {trie}.
 
 # further explanation (pure HTML)
 @LINKS=
-# Winter 1997 Class Notes for 308-251
-# DATA STRUCTURES AND ALGORITHMS
-# Topic #7: TRIES AND SUFFIX TREES
-Explanations of and comparisons between
-<a href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
-and suffix trees</a>.
 
 # author's initials (see authors.data)
 @AUTHOR=PEB
