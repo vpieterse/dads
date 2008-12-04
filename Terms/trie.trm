@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Fri Aug  1 10:06:28 2008" *by "Paul E. Black"
+# *modified "Wed Dec  3 14:46:36 2008" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
+# Revision 1.8  2008/12/03 19:47:31  black
+# remove LINK to McGill 1997 CS251 - appears to be completely gone
+#
 # Revision 1.7  2008/08/01 14:07:51  black
 # Add HISTORY note direct communication from Ed Fredkin that the
 # pronunciation is intended to be "tree".  Moderate wording of my partly
@@ -115,12 +118,6 @@ implementation (Scheme)</a>
 
 # further explanation (pure HTML)
 @LINKS=
-# Winter 1997 Class Notes for 308-251
-# DATA STRUCTURES AND ALGORITHMS
-# Topic #7: TRIES AND SUFFIX TREES
-Explanations of and comparisons between
-<a href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic7/">tries
-and suffix trees</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/trie.trm,v $
