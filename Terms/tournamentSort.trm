@@ -2,6 +2,9 @@
 # *modified "Thu Mar 30 14:34:58 2006" *by "Paul E. Black"
 
 # $Log: tournamentSort.trm,v $
+# Revision 1.4  2008/12/03 19:48:42  black
+# remove LINK to McGill 1997 CS251 - appears to be completely gone
+#
 # Revision 1.3  2006/03/30 19:36:57  black
 # NOTE another proposed algorithm called tournament sort
 #
@@ -53,11 +56,7 @@ John Wiley and Sons, 1962, pages 223-226.
 matches in a single-elimination sports tournament, where players'
 abilities are a {total order}.  The tournament tree has the {heap
 property}.  When a winner is found (the least element is chosen), the
-winner is removed and the appropriate matches replayed.  For instance,
-see
-<a
-href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic15/#Tournament%20Trees">Tournament
-Trees</a> at McGill.
+winner is removed and the appropriate matches replayed.
 </p>
 
 <p>
