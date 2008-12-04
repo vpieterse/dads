@@ -2,6 +2,9 @@
 # *modified "Mon Aug 18 09:22:44 2008" *by "Paul E. Black"
 
 # $Log: redblack.trm,v $
+# Revision 1.12  2008/12/03 19:49:55  black
+# remove NOTE from McGill 1997 CS251 - appears to be completely gone
+#
 # Revision 1.11  2008/08/18 13:22:56  black
 # Remove Kaz's IMPL - its been off line for at least a month.
 #
@@ -90,9 +93,6 @@ An AVL tree is at least as balanced as a red-black tree.
 
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://www.cs.mcgill.ca/~cs251/OldCourses/1997/topic18/">explanations,
-examples, and links</a> to more material.
 # implementation(s) (pure HTML)
 @IMPL=
 # John Morris morris@ee.uwa.edu.au
