@@ -1,7 +1,12 @@
 # *created  "Mon Apr 12 09:34:27 1999" *by "Paul E. Black"
-# *modified "Mon Sep 19 10:05:38 2005" *by "Paul E. Black"
+# *modified "Mon Dec  8 11:35:24 2008" *by "Paul E. Black"
 
 # $Log: graphdrawing.trm,v $
+# Revision 1.7  2008/12/08 16:36:53  black
+# Remove LINK to Tamassia's site, it now just refers to
+# GraphDrawing.org, which is symposia, literature, and data, but no
+# software.
+#
 # Revision 1.6  2005/09/19 14:06:02  black
 # Remove Graph Vis Software IMPL - gone
 #
@@ -44,13 +49,12 @@ for instance with a minimum number of {edge crossings}.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=Roberto Tamassia's
-<a href="http://www.cs.brown.edu/people/rt/gd.html">Graph Drawing
-links</a> page (conferences, software, etc.)
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/drawing-graphs.shtml">draw
+href="http://www.cs.sunysb.edu/~algorith/files/drawing-graphs.shtml">Draw
 a graph nicely (C and Mathematica)</a>, <a
 href="http://www.cs.sunysb.edu/~algorith/files/planar-drawing.shtml">draw
 a graph in the plane such that no edges cross (C, C++, and
