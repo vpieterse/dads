@@ -1,7 +1,11 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Nov 10 13:16:47 2008" *by "Paul E. Black"
+# *modified "Mon Dec 15 09:39:57 2008" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Revision 1.8  2008/12/15 14:41:46  black
+# Remove LINK to Puzzle Archive: it moved to www.puzzlearchive.com, a
+# wiki, and doesn't have an entry for Towers of Hanoi.
+#
 # Revision 1.7  2008/11/10 18:19:09  black
 # update brainy planet URL - something stopped interpreting "percent
 # sign" HTML "quotes".
@@ -61,11 +65,9 @@ other move which is possible.
 <a href="../terms.html#GCG92">[GCG92]</a> gives generalizations of the
 puzzle, algorithms, and proofs.
 # further explanation (pure HTML)
-@LINKS=The <a
-href="http://rec-puzzles.org/">Puzzle
-Archive</a> gives 
+@LINKS=
 <a
-href="http://brainyplanet.com/index.php/Hanoi Solution">background
+href="http://brainyplanet.com/index.php/Hanoi Solution">Background
 and a recursive and an iterative solution</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
