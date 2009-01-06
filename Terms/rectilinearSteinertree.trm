@@ -2,6 +2,9 @@
 # *modified "Fri Dec 17 11:54:07 2004" *by "Paul E. Black"
 
 # $Log: rectilinearSteinertree.trm,v $
+# Revision 1.3  2009/01/05 21:50:29  black
+# Remove URL of GeoSteiner IMPL - page is gone, and I can't find a new place.
+#
 # Revision 1.2  2004/12/17 16:54:07  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -35,8 +38,7 @@ points other than the terminals, which are called
 # further explanation (pure HTML)
 @LINKS=<a href="http://ganley.org/steiner/">Steiner Tree page</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.diku.dk/geosteiner/">GeoSteiner (C)</a> -
-software for computing steiner trees.
+@IMPL=
 # author's initials
 @AUTHOR=JLG
 # end $Source: /home/black/Workspace/dads/Terms/RCS/rectilinearSteinertree.trm,v $
