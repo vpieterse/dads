@@ -2,6 +2,9 @@
 # *modified "Fri Aug 19 11:26:59 2005" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Revision 1.7  2009/01/05 21:49:52  black
+# Remove URL of GeoSteiner IMPL - page is gone, and I can't find a new place.
+#
 # Revision 1.6  2005/08/19 15:29:02  black
 # add that the graph is undirected.  add WEB synonyms with "minimum",
 # since Steiner trees are (almost) always required to be minimum.  NOTE
@@ -73,9 +76,7 @@ trees.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/steiner-tree.shtml">(C
-and Pascal)</a>,
-<a href="http://www.diku.dk/geosteiner/">GeoSteiner (C)</a> -
-software for computing steiner trees.
+and Pascal)</a>.
 # author's initials
 @AUTHOR=JLG
 # end $Source: /home/black/Workspace/dads/Terms/RCS/steinertree.trm,v $
