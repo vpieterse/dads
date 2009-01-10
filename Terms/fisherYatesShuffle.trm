@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Thu Nov 20 16:11:25 2008" *by "Paul E. Black"
+# *modified "Fri Jan  9 17:11:57 2009" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.10  2009/01/09 22:12:22  black
+# Rename "perfect shuffle" to be "ideal random shuffle".
+#
 # Revision 1.9  2008/11/20 21:11:27  black
 # Fix refs to Knuth vol 1 and 2 to 1997
 #
@@ -50,7 +53,7 @@ It consumes {$\Theta(N \log N)$#$\Theta$} bits and runs in
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={perfect shuffle}, {permutation}
+@IMA={ideal random shuffle}, {permutation}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
