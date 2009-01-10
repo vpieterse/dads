@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 26 10:25:09 2007" *by "Paul E. Black"
+# *modified "Fri Jan  9 17:12:58 2009" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.13  2009/01/09 22:15:14  black
+# Rename "perfect shuffle" to "ideal random shuffle".
+#
 # Revision 1.12  2007/11/26 15:30:52  black
 # Use "n" to NOTE the number of permutations, to be consistent with the
 # formulas in "combination".
@@ -60,7 +63,7 @@ changed.  The {Fisher-Yates shuffle} randomly permutes elements.
 # Generalization: "I am a kind of ..."
 @IMA={combination}
 # Specialization: "... is a kind of me."
-@VARIANT={perfect shuffle}, {Fisher-Yates shuffle}, {Johnson-Trotter},
+@VARIANT={ideal random shuffle}, {Fisher-Yates shuffle}, {Johnson-Trotter},
 {sort}, {derangement}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={American flag sort}
