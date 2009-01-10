@@ -1,7 +1,11 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Fri Jan  9 17:11:57 2009" *by "Paul E. Black"
+# *modified "Fri Jan  9 17:57:56 2009" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.11  2009/01/09 22:58:58  black
+# Note that a long-period (pseudo-)random number generator is needed to
+# shuffle even modest numbers of elements.
+#
 # Revision 1.10  2009/01/09 22:12:22  black
 # Rename "perfect shuffle" to be "ideal random shuffle".
 #
@@ -74,6 +78,14 @@ permutation</em>, CACM 7(7):420, July 1964.
 @NOTES=The algorithm can be viewed as a reverse {selection
 sort}.  It is described in some detail as algorithm P in 
 <a href="../terms.html#Knuth97">[Knuth97, vol. 2, p 145]</a>.
+</p>
+
+<p>
+For even a rather small number of elements (or cards), the total
+number of permutations is far larger than the period of most
+pseudo-random number generators.  This implies that most permutations
+will never be generated.  (After documentation for random.shuffle() in
+Python, particularly v2.6.1.)
 
 # I first saw it called the Fisher-Yates shuffle in Perl Cookbook,
 # recipe 4.17.  The bib info came from Knuth.  I verified the CACM
