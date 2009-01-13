@@ -1,7 +1,12 @@
 # *created  "Fri Jul  5 16:18:10 2002" *by "Paul E. Black"
-# *modified "Fri Feb  4 08:58:27 2005" *by "Paul E. Black"
+# *modified "Mon Jan 12 16:58:29 2009" *by "Paul E. Black"
 
 # $Log: idealRandomShuffle.trm,v $
+# Revision 1.5  2009/01/12 21:58:52  black
+# rename perfect shuffle to be ideal random shuffle and note in HISTORY.
+# Remove temp stuff about card shuffling, except as a note.  IMA
+# randomized algorithm.  Add Phython IMPL
+#
 # Revision 1.4  2005/02/04 13:59:24  black
 # Add VARIANT Fisher-Yates shuffle
 #
@@ -10,17 +15,16 @@
 #
 # Revision 1.2  2004/12/17 16:53:35  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
-#
 
 # entry name
-@NAME=perfect shuffle
+@NAME=ideal random shuffle
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=combin
 # the definition
-@DEFN=A {permutation} algorithm, or shuffle, that has exactly the same
-chance of producing any permutation.
+@DEFN=A {permutation} algorithm, or shuffle,
+that has exactly the same chance of producing any permutation.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -30,7 +34,7 @@ chance of producing any permutation.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={randomized algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT={Fisher-Yates shuffle}
 # Aggregate parent: "I am a part of or used in ..."
@@ -46,13 +50,25 @@ chance of producing any permutation.
 #Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
 # any notes.  these are not printed in the final dictionary
 @NOTES=Attaching random tags then sorting (see {permutation}) may not
-be a perfect shuffle: if tags may be duplicated, a {stable} sort
-has a greater chance of producing permutations with some items in the
-original order.
+work: if tags may be duplicated, a deterministic sort will not
+randomly switch the order of elements with duplicate tags.
+
+# any historical notes
+@HISTORY=
+Formerly called "perfect shuffle".  Renamed in January 2009 when Dave
+Bayer pointed out that the term is almost universally used to mean
+dividing a list of elements (or deck of cards) exactly in half then
+precisely interleaving the two halves and has been for decades.
+
 # implementation(s) (pure HTML)
-@IMPL=Discussion and explanation of what makes a shuffle perfect and <a
+@IMPL=
+Discussion and explanation of what makes a shuffle ideal and <a
 href="http://okmij.org/ftp/Haskell/perfect-shuffle.txt">two
 implementations (Haskell)</a>.
+Search for
+<a href="http://www.faqts.com/knowledge_base/view.phtml/aid/4406/fid/546">shuffletable
+(Python)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
