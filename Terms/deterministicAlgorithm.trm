@@ -1,7 +1,10 @@
 # *created  "Fri Feb 26 16:46:20 1999" *by "Paul E. Black"
-# *modified "Wed Jan 14 12:00:43 2009" *by "Paul E. Black"
+# *modified "Wed Jan 14 12:05:21 2009" *by "Paul E. Black"
 
 # $Log: deterministicAlgorithm.trm,v $
+# Revision 1.4  2009/01/14 17:05:45  black
+# Improve the explanation in the note.
+#
 # Revision 1.3  2009/01/14 17:01:17  black
 # XREF randomized algorithm
 #
@@ -33,7 +36,8 @@ the input.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=That is, each time a certain set of input is presented, the
-algorithm gives the same results as any other time the set of input is
+algorithm does the same computations and gives the same results as any
+other time the set of input is
 presented.  For algorithms with state, or that maintain information
 between inputs, "the input" means everything since the algorithm was
 started from an initial state.
@@ -41,7 +45,7 @@ started from an initial state.
 
 <p>
 There can be degrees of deterministic behavior.  For instance, an
-algorithm that uses random numbers might not be considered
+algorithm that uses random numbers is not usually considered
 deterministic.  However if the "random numbers" come from a
 {pseudo-random number generator}, the behavior may be deterministic.
 # further explanation (pure HTML)
