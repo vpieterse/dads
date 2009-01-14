@@ -1,7 +1,10 @@
 # *created  "Fri Jul  5 16:18:10 2002" *by "Paul E. Black"
-# *modified "Mon Jan 12 16:58:29 2009" *by "Paul E. Black"
+# *modified "Tue Jan 13 15:21:44 2009" *by "Paul E. Black"
 
 # $Log: idealRandomShuffle.trm,v $
+# Revision 1.6  2009/01/13 20:23:54  black
+# Improve HISTORY wording.
+#
 # Revision 1.5  2009/01/12 21:58:52  black
 # rename perfect shuffle to be ideal random shuffle and note in HISTORY.
 # Remove temp stuff about card shuffling, except as a note.  IMA
@@ -58,7 +61,8 @@ randomly switch the order of elements with duplicate tags.
 Formerly called "perfect shuffle".  Renamed in January 2009 when Dave
 Bayer pointed out that the term is almost universally used to mean
 dividing a list of elements (or deck of cards) exactly in half then
-precisely interleaving the two halves and has been for decades.
+precisely interleaving the two halves.  This has been the use of
+"perfect shuffle" for decades.
 
 # implementation(s) (pure HTML)
 @IMPL=
