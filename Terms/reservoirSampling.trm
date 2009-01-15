@@ -1,0 +1,78 @@
+# *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
+# *modified "Wed Jan 14 14:58:28 2009" *by "Paul E. Black"
+
+# $Log: reservoirSampling.trm,v $
+# Revision 1.1  2009/01/14 20:01:40  black
+# Initial revision
+#
+
+# entry name
+@NAME=reservoir sampling
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=An algorithm to randomly select $k$ items from a stream of items
+of unknown length.  Save the first $k$ items in an {array} of size $k$.
+For item $j$, $j \gt k$, choose a random integer $M$ from 1 to $j$
+(inclusive).  If $M \le k$, replace element $k$ of the array with item
+$j$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={randomized algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+Vitter's algorithms X, Y, and Z use far fewer random numbers by
+choosing how many items to skip, rather than deciding whether or not
+to skip each item.</ br>
+<strong>Jeffrey Scott Vitter</strong>, <em>Random Sampling with a
+Reservoir</em>, ACM Transactions on Mathematical Software (TOMS),
+11(1):37-57, March 1985.</ br>
+Available on-line, for instance at
+<a href="http://www.cs.umd.edu/~samir/498/vitter.pdf">http://www.cs.umd.edu/~samir/498/vitter.pdf</a>.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Each possible selection of $k$ items has an equal probability of
+occurring.
+</p>
+
+<p>
+Knuth calls this Algorithm R and credits Alan G. Waterman.
+<a href="../terms.html#Knuth97">[Knuth97, 2:144, Sect. 3.4.2]</a>
+The algorithm defined above is actually an in-memory variant,
+suggested in exercise 10, of Algorithm R.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://webkist.wordpress.com/2008/10/01/reservoir-sampling-in-perl/">(Perl)</a>.
+
+# further explanation (pure HTML)
+@LINKS=
+Henry Robinson's
+<a href="http://hnr.dnsalias.net/wordpress/?p=43">explanation of
+correctness</a>.
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/reservoirSampling.trm,v $
