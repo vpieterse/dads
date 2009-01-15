@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:07:01 1999" *by "Paul E. Black"
-# *modified "Fri Feb  4 08:50:02 2005" *by "Paul E. Black"
+# *modified "Wed Jan 14 11:39:42 2009" *by "Paul E. Black"
 
 # $Log: selectkth.trm,v $
+# Revision 1.4  2009/01/14 20:00:36  black
+# XREF new reservoir sampling.  Improve grammar.
+#
 # Revision 1.3  2005/02/04 13:51:09  black
 # Fix typo.
 #
@@ -37,11 +40,11 @@ k<sup>th</sup> smallest element
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Select}, {MODIFIND}, {Find}
+@XREFS={Select}, {MODIFIND}, {Find}, {reservoir sampling}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The select-and-partition approximately divides in half the
-number of elements which must be considered at each step.  The
+number of elements that must be considered at each step.  The
 modified distribution sort divides by m the number of elements at each
 step.  The latter is faster, but the former is more generally
 applicable.
