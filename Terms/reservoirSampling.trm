@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Wed Jan 14 14:58:28 2009" *by "Paul E. Black"
+# *modified "Wed Jan 14 15:11:52 2009" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.2  2009/01/14 20:13:38  black
+# fix latex and HTML "break" typos.
+#
 # Revision 1.1  2009/01/14 20:01:40  black
 # Initial revision
 #
@@ -15,9 +18,9 @@
 # the definition
 @DEFN=An algorithm to randomly select $k$ items from a stream of items
 of unknown length.  Save the first $k$ items in an {array} of size $k$.
-For item $j$, $j \gt k$, choose a random integer $M$ from 1 to $j$
-(inclusive).  If $M \le k$, replace element $k$ of the array with item
-$j$.
+For item $j$, $j &gt; k$, choose a random integer $M$ from 1 to $j$
+(inclusive).  If $M \leq k$, replace element $k$ of the array with
+item $j$.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -41,10 +44,10 @@ $j$.
 @BIB=
 Vitter's algorithms X, Y, and Z use far fewer random numbers by
 choosing how many items to skip, rather than deciding whether or not
-to skip each item.</ br>
+to skip each item.<br />
 <strong>Jeffrey Scott Vitter</strong>, <em>Random Sampling with a
 Reservoir</em>, ACM Transactions on Mathematical Software (TOMS),
-11(1):37-57, March 1985.</ br>
+11(1):37-57, March 1985.<br />
 Available on-line, for instance at
 <a href="http://www.cs.umd.edu/~samir/498/vitter.pdf">http://www.cs.umd.edu/~samir/498/vitter.pdf</a>.
 
