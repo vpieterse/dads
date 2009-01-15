@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec 17 10:06:50 2007" *by "Paul E. Black"
+# *modified "Wed Jan 14 11:38:42 2009" *by "Paul E. Black"
 
 # $Log: select.trm,v $
+# Revision 1.6  2009/01/14 20:00:19  black
+# XREF new reservoir sampling
+#
 # Revision 1.5  2007/12/17 15:07:04  black
 # Remove Moonflare's IMPL - site not responding
 #
@@ -51,7 +54,7 @@ element of the high side.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={select and partition}, {select k<sup>th</sup> element},
-{Find}, {MODIFIND}, {tournament}
+{Find}, {MODIFIND}, {tournament}, {reservoir sampling}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Robert W. Floyd</strong> and <strong>Ronald L. Rivest</strong>,
