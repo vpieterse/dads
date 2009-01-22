@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Thu Nov 20 09:21:49 2008" *by "Paul E. Black"
+# *modified "Thu Jan 22 11:11:37 2009" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Revision 1.14  2009/01/22 16:12:42  black
+# Add Simple programming tutorials' IMPL.
+#
 # Revision 1.13  2008/11/20 14:23:16  black
 # XREF Schorr-Waite graph marking algorithm
 # add comments about early references to depth-first search.
@@ -79,12 +82,12 @@ discovered and finished, partitioning the graph into a {forest}.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-An early mention of depth-first search:<br>
+An early mention of depth-first search:<br />
 <strong>C. Cordell Green</strong> and <strong>Bertram Raphael</strong>,
 <em>The use of theorem-proving techniques in question-answering systems</em>,
 Proc. 1968 23rd ACM national conference, pages 169-181, 1968.
 # http://doi.acm.org/10.1145/800186.810578 
-<br>
+<br />
 Uses just "depth-first search" in the body (page 5), but contrasts
 depth-first with breadth-first search in a footnote.  
 # This suggests the usage is somewhat new.  Institution is Stanford
@@ -97,7 +100,7 @@ depth-first with breadth-first search in a footnote.
 # methods, Sect 3-3 Depth-first Method page 50.
 # There are bib references on page 76, including Golomb and Baumert, below
 
-#<br>
+#<br />
 #          an early use of depth-first AND breadth-first search
 # Ira Pohl, "Bi-directional and Heuristic Search in Path Problems",
 # SLAC-104, UC-32, May 1969.  Stanford Linear Accelerator Center,
@@ -107,14 +110,14 @@ depth-first with breadth-first search in a footnote.
 # rule."   page 63 (pdf 76 0f 170) (and page 67 (pdf 80)
 # "exhaustive parallel or breadth first search" page 60 (pdf 73)
 
-#<br>
+#<br />
 #         an early mention of a backtracking algorithm
 # Robert W. Floyd, "Nondeterministic algorithms", Journal of the ACM,
 # 14(4):636-644, (Oct 1967).
-#<br>
+#<br />
 # Shows how to convert a multi-value ("nondeterministic", as he calls
 # it) algorithm into a deterministic ("backtracking", as he calls it)
-# algorithm, which can be implemented in standard languages.  The
+# algorithm, that can be implemented in standard languages.  The
 # backtracking algorithm is a depth-first search.  "It is also possible
 # to simulate a multiprocessing machine which replicates itself at each
 # choice point ..."  So it should be possible to mechically convert
@@ -123,11 +126,11 @@ depth-first with breadth-first search in a footnote.
 # constructs.
 # The paper cites Golomb and Baumert, below
 
-<br><br>
+<br /><br />
 An earlier description of what we would call depth-first search with
 pruning of infeasible solutions.
 # see {prune and search} and {feasbile solution} in DADS
-<br>
+<br />
 <strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
 <em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
 # "This rather universal method was named ''backtrack'' by Professor
@@ -161,6 +164,10 @@ An <a
 href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
+Simple Programming Tutorials'
+<a
+href="http://simpleprogrammingtutorials.com/tutorials/graphs/DFS-undirected.php">explanation
+and implementation (Java and C++)</a> for undirected graphs.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/depthfirst.trm,v $
