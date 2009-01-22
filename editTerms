@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.12 2005/10/27 14:09:37 black Exp $';
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.13 2009/01/22 16:18:01 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Thu Oct 27 09:55:32 2005" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Jan 22 11:15:30 2009" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -28,7 +28,8 @@ $typUse = "./editTerms `grep -l vertices Terms/*.trm`";
 #	Command line handling
 #------------------------------------------------------------------------------
 
-$reason = "Update John Morris' URL";
+$reason = "Fix refs to Knuth vol 1 and 2 to 1997";
+#           search for SPECIFIC EDITS
 $editor = "Paul E. Black"; # for *modified line
 # check that hard-coded date is current to reduce chance of 
 # using old reason and old edits
@@ -85,11 +86,12 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Thu Oct 27/) {
+if ($checkDate && localtime() !~ /Thu Nov 20/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
-    print "\tIt is " . localtime() . "\n";
+    print "\tIt is now " . localtime();
+    print "\nThe local time does not match\n";
     die;
 }
 
@@ -137,7 +139,7 @@ foreach $term_file_name (@ARGV) {
 		$line =~ s/HREF=/href=/g;
 		$line =~ s|<A|<a|g;
 		$line =~ s|</A>|</a>|g;
-		$line =~ s|<BR>|<br>|g;
+		$line =~ s|<BR>|<br />|gi;
 		$line =~ s|<IMG|<img|g;
 		$line =~ s|<LI>|<li>|g;
 		$line =~ s|P>|p>|g;
@@ -156,7 +158,7 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s|http://ciips.ee.uwa.edu.au/~morris/Year2/PLDS210/|http://www.cs.auckland.ac.nz/software/AlgAnim/|g;
+		$line =~ s/Knuth98/Knuth97/g;
 
 		print TERM $line;
 	    }
