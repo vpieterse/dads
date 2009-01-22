@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Dec 17 10:42:24 2007" *by "Paul E. Black"
+# *modified "Thu Jan 22 10:53:46 2009" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Revision 1.10  2009/01/22 15:54:30  black
+# Add Simple programming tutorials' IMPL.
+#
 # Revision 1.9  2007/12/17 15:42:39  black
 # Remove java.sun.com IMPL - page is gone.
 #
@@ -91,7 +94,11 @@ of many sorting algorithms</a>;
 <a
 href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration
 and source code (Java)</a>
-- but code might not render properly;
+- but code might not render properly.
+Simple Programming Tutorials'
+<a
+href="http://simpleprogrammingtutorials.com/tutorials/sorts/bubble-sort.php">explanation
+(Java and C++)</a>.
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
 # author's initials
 @AUTHOR=PEB
