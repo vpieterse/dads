@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:12:01 2008" *by "Paul E. Black"
+# *modified "Thu Jan 22 11:03:32 2009" *by "Paul E. Black"
 
 # $Log: adjacencyMatrixRep.trm,v $
+# Revision 1.6  2009/01/22 16:03:49  black
+# Add Simple programming tutorials' IMPL.  IMIN graph.
+#
 # Revision 1.5  2008/08/14 16:12:07  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -42,7 +45,7 @@ using an {upper triangular matrix}.
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={graph}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -77,6 +80,9 @@ The adjacency-list representation is more compact for a {sparse matrix}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Simple Programming Tutorials'
+<a
+href="http://simpleprogrammingtutorials.com/tutorials/graphs/graphs-representation.php">implementation (Java and C++)</a>.
 # author's initials
 @AUTHOR=SKS
 # end $Source: /home/black/Workspace/dads/Terms/RCS/adjacencyMatrixRep.trm,v $
