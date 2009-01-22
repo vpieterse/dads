@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 10:01:36 1998" *by "Paul E. Black"
-# *modified "Mon Jan  3 12:21:47 2005" *by "Paul E. Black"
+# *modified "Thu Jan 22 10:10:25 2009" *by "Paul E. Black"
 
 # $Log: list.trm,v $
+# Revision 1.5  2009/01/22 15:11:25  black
+# add ordered linked list as a variant.  IMIN orthogonal lists.  Add
+# NOTES about varieties of lists.
+#
 # Revision 1.4  2005/01/03 17:22:39  black
 # Make XREFS more specific.  Remove Campbell's URL - not found.
 #
@@ -27,16 +31,19 @@
 @IMA={bag}
 # Specialization: "... is a kind of me."
 @VARIANT={linked list}, {doubly linked list}, {circular list},
-{self-organizing list}
+{self-organizing list}, {ordered linked list}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={orthogonal lists}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=A list can be seen as an ordered {bag}.
+@NOTES=A list may have additional access methods.  A list may be
+ordered.  A list can be seen as an ordered {bag}.  A list may be kept
+as the leading items of an {array}, but inserting items other than at
+the end takes time.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
