@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Aug 18 09:25:23 2008" *by "Paul E. Black"
+# *modified "Thu Jan 22 11:25:46 2009" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.20  2009/01/22 16:25:54  black
+# Add Simple programming tutorials' IMPL.
+#
 # Revision 1.19  2008/08/18 13:25:27  black
 # Remove Kaz's IMPL - it has been off line for at least a month.
 #
@@ -107,10 +110,14 @@ href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
-(C)</a>,
-and 
+(C)</a>.
+Simple Programming Tutorials'
+<a
+href="http://simpleprogrammingtutorials.com/tutorials/bst-overview.php">explanation
+with links to add, delete, search, and output values in order (Java
+and C++)</a>.
 <a 
-href="http://www.csc.twu.ca/rsbook/index.html?http://www.csc.twu.ca/rsbook/Ch14/Ch14.8.html">insert,
+href="http://www.csc.twu.ca/rsbook/index.html?http://www.csc.twu.ca/rsbook/Ch14/Ch14.8.html">Insert,
 search, delete, and various traversals (Modula-2)</a> (use must be
 acknowledged).
 # author's initials
