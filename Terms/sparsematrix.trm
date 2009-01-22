@@ -1,7 +1,12 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:22:38 2008" *by "Paul E. Black"
+# *modified "Thu Jan 22 10:22:20 2009" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Revision 1.9  2009/01/22 15:25:28  black
+# List possible implementation methods INME.  NOTE that orthogonal lists
+# may be an implementation.  Change "dual linked lists" to orthogonal
+# lists.
+#
 # Revision 1.8  2008/09/29 15:49:16  black
 # fix link to "linked lists" in NOTE.
 #
@@ -51,7 +56,7 @@ represented in much less than $n \times m$ space.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={list}, {orthogonal lists}, {array}, or {point access method}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={ragged matrix}, {huge sparse array}
 
@@ -59,15 +64,17 @@ represented in much less than $n \times m$ space.
 @NOTES=A $n \times m$ matrix with $k$ non-zero
 entries is sparse if $k \ll n \times m$.  It may be
 faster to represent the matrix compactly as a {list} of the non-zero
-indexes and associated entries, as a list of lists of entries (one
-list for each row), coordinate format (the values and their row/column
-positions), or by a {point access method}.
+entries in coordinate format (the value and its row/column position), 
+as a list or {array} of lists of entries (one list for each
+row), two {orthogonal lists} (one list for each column and one list
+for each row), or by a {point access method}.
 # further explanation (pure HTML)
 @LINKS=
 A <a
 href="http://www.Sonnack.com/Pub/sparse_matrix.gif">picture</a> of a
-sparse matrix with dual 
-<a href="http://www.nist.gov/dads/HTML/linkedList.html"><em>linked lists</em></a>. 
+sparse matrix with 
+<a href="http://www.nist.gov/dads/HTML/orthogonalLists.html"><em>orthogonal
+ lists</em></a>. 
 Yousef Saad's 
 <a href="http://www-users.cs.umn.edu/~saad/PS/iter1.pdf">Iterative
 methods for sparse linear systems (PDF)</a>, chapters 1-3 of a
