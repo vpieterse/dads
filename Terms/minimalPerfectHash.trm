@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:50 2008" *by "Paul E. Black"
+# *modified "Tue Feb  3 11:38:17 2009" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.9  2009/02/03 16:39:15  black
+# XREF Pearson's hash.  Hyphenate name of order-preserving minimal
+# perfect hashing.
+#
 # Revision 1.8  2008/08/14 16:14:54  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -48,13 +52,13 @@ f(k) is $1\ldots |K|$.
 # Generalization: "I am a kind of ..."
 @IMA={perfect hashing}, {hash function}
 # Specialization: "... is a kind of me."
-@VARIANT={order preserving minimal perfect hashing}
+@VARIANT={order-preserving minimal perfect hashing}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Pearson's hash}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
