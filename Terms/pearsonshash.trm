@@ -1,7 +1,12 @@
 # *created  "Thu Dec 23 08:50:50 1999" *by "Paul E. Black"
-# *modified "Tue Mar 18 12:15:42 2008" *by "Paul E. Black"
+# *modified "Tue Feb  3 11:48:19 2009" *by "Paul E. Black"
 
 # $Log: pearsonshash.trm,v $
+# Revision 1.4  2009/02/03 16:52:10  black
+# NOTE that this can be used to create [[order-preserving] minimal]
+# perfect hashing functions.  Jenkins' site has a Basic IMPL, not C.
+# Add Wikipedia IMPL in C and Python.
+#
 # Revision 1.3  2008/03/18 16:17:48  black
 # fix typo in BIB.  IMA hash function.
 #
@@ -37,11 +42,19 @@ exclusive-or ({xor}) operations.
 Variable-Length Text Strings</em>, CACM, 33(6):677-680, June 1990.
 @NOTES=This hash function may be particularly fast on computers that
 don't have hardware support for shifting or xor.
+</p>
+
+<p>
+Careful choice of the auxiliary table allows construction of a
+{perfect hashing} function, a {minimal perfect hashing} function, or
+even an {order-preserving minimal perfect hashing} function.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://burtleburtle.net/bob/hash/pearson.html">(C)</a>
+<a href="http://en.wikipedia.org/wiki/Pearson_hashing">(C and Python)</a>.
+<a href="http://burtleburtle.net/bob/hash/pearson.html">(Basic)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pearsonshash.trm,v $
