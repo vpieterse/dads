@@ -1,7 +1,10 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Mon Jul 17 13:12:27 2006" *by "Paul E. Black"
+# *modified "Tue Feb  3 11:36:41 2009" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.5  2009/02/03 16:37:58  black
+# XREF Pearon's hash.  Hyphenate name.
+#
 # Revision 1.4  2006/07/17 17:17:41  black
 # Add IMA linear hash.  Add full citation for Czech, Havas, and
 # Majewski, and add that it is a Las Vegas algorithm.
@@ -14,7 +17,7 @@
 #
 
 # entry name
-@NAME=order preserving minimal perfect hashing
+@NAME=order-preserving minimal perfect hashing
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
@@ -33,7 +36,7 @@ $k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Pearson's hash}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For example, if the keys are stored in order in an {array}, the
