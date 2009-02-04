@@ -1,7 +1,10 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Thu Jan 22 10:22:20 2009" *by "Paul E. Black"
+# *modified "Wed Feb  4 11:08:21 2009" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Revision 1.10  2009/02/04 16:08:23  black
+# Update DADS URL root
+#
 # Revision 1.9  2009/01/22 15:25:28  black
 # List possible implementation methods INME.  NOTE that orthogonal lists
 # may be an implementation.  Change "dual linked lists" to orthogonal
@@ -73,7 +76,7 @@ for each row), or by a {point access method}.
 A <a
 href="http://www.Sonnack.com/Pub/sparse_matrix.gif">picture</a> of a
 sparse matrix with 
-<a href="http://www.nist.gov/dads/HTML/orthogonalLists.html"><em>orthogonal
+<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/orthogonalLists.html"><em>orthogonal
  lists</em></a>. 
 Yousef Saad's 
 <a href="http://www-users.cs.umn.edu/~saad/PS/iter1.pdf">Iterative
