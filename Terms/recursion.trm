@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Jan  3 12:04:31 2007" *by "Paul E. Black"
+# *modified "Wed Feb  4 11:08:20 2009" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.9  2009/02/04 16:08:21  black
+# Update DADS URL root
+#
 # Revision 1.8  2007/01/03 17:05:18  black
 # Remove Erwin's Programming with Recursion tutorial - erwin's site is
 # completely gone, and I can't find a new location.
@@ -119,7 +122,7 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/dynamic.html#fibonacci">dyna
 algorithms</a> for an example of one trade-off between speed and
 clarity for a recursive vs. an iterative implementation.  
 See the notes for the 
-<a href="http://www.nist.gov/dads/HTML/towersOfHanoi.html">towers of
+<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/towersOfHanoi.html">towers of
 Hanoi</a> puzzle for another recursive and iterative solution.
 Bro. David Carlson's
 <a
