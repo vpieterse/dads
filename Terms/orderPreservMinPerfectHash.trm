@@ -1,7 +1,10 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Tue Feb  3 11:36:41 2009" *by "Paul E. Black"
+# *modified "Wed Feb  4 11:08:13 2009" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.6  2009/02/04 16:08:17  black
+# Update DADS URL root
+#
 # Revision 1.5  2009/02/03 16:37:58  black
 # XREF Pearon's hash.  Hyphenate name.
 #
@@ -50,7 +53,7 @@ Perfect Hash Functions</em>, Information Processing Letters,
 43(5):257-264, October 1992.  Available at <a
 href="http://citeseer.ist.psu.edu/czech92optimal.html">http://citeseer.ist.psu.edu/czech92optimal.html</a>.  
 "It uses expected linear time and ... runs very fast in practice."
-This is a <a href="http://www.nist.gov/dads/HTML/lasVegas.html">Las
+This is a <a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/lasVegas.html">Las
 Vegas algorithm</a>.
 # implementation(s) (pure HTML)
 @IMPL=
