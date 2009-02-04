@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Nov 13 12:04:17 2008" *by "Paul E. Black"
+# *modified "Wed Feb  4 10:41:13 2009" *by "Paul E. Black"
 
 # $Log: lasVegas.trm,v $
+# Revision 1.6  2009/02/04 15:45:02  black
+# Hypenate name.
+#
 # Revision 1.5  2008/11/13 17:04:40  black
 # Add random search as a VARIANT.
 #
@@ -32,7 +35,7 @@ time.
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={random search}, {Grover's algorithm}, 
-Czech, Havas, and Majewski's {order preserving minimal perfect hashing}
+Czech, Havas, and Majewski's {order-preserving minimal perfect hashing}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
