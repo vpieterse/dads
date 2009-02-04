@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.27 2007/12/04 18:17:27 black Exp $
+# $Id: mkcommon.pl,v 1.28 2009/02/04 16:03:50 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Jul 19 09:36:49 2006" *by "Paul E. Black"
+# *modified "Wed Feb  4 11:01:05 2009" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -20,18 +20,17 @@
 # CONFIGURATION SECTION:
 # set the following appropriately
 
+# Note: the *name=\value is a Perl 5.0-ism which says name refers to 
+# value, and the reference cannot be changed.  Equivalent to declaring
+# the name to be a constant or immutable.
+
 # - The file system path of the web pages.
 #$WEB_DIR	="TargetInternal";
 $WEB_DIR	="Target";
 # - The URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-#$URL_DIR	="http://hissa.nist.gov/dads";
-$URL_DIR	="http://www.nist.gov/dads";
-
-# Note: the *name=\value is a Perl 5.0-ism which says name refers to 
-# value, and the reference cannot be changed.  Equivalent to declaring
-# the name to be a constant or immutable.
+*URL_DIR	=\"http://www.itl.nist.gov/div897/sqg/dads";
 
 #------------------------------------------------------------------------
 #	Input files, directories, etc.
@@ -198,8 +197,8 @@ sub rewriteHrefs {
 	$xrefCGIQ =~ s|\#|%23|g;
 	$xrefCGIQ =~ s|&|%26|g;
 	$xrefCGIQ =~ s|\+|%2B|g;
-	#$xrefCGIQ =~ s|/|%2F|g;
-	$xrefCGIQ =~ s|;|%3B|g;
+	#$xrefCGIQ =~ s|/|%2F|g; # not necessary
+	$xrefCGIQ =~ s|;|%3B|g; # exit_nist.cgi turns %3B into &
 	$xrefCGIQ =~ s|=|%3D|g;
 	$xrefCGIQ =~ s|~|%7E|g;
 	my($xrefExit) = "\"http://www.nist.gov/cgi-bin/exit_nist.cgi?url=$xrefCGIQ\"";
