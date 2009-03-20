@@ -1,7 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Fri Mar 20 12:41:53 2009" *by "Paul E. Black"
+# *modified "Fri Mar 20 14:31:38 2009" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.5  2009/03/20 18:34:28  black
+# NOTE paper that analyzes run time.
+#
 # Revision 1.4  2009/03/20 17:11:49  black
 # IMA Las Vegas algorithm
 #
@@ -49,6 +52,23 @@ anybody would be so thoughtless to write/do/say/believe that, and I
 just can't let it pass without objecting."
 See the FOLDOC entry for
 <a href="http://foldoc.org/?bogo-sort">bogo-sort</a>.
+</p>
+
+<p>
+Fastest run time is $\Theta(n)$.  Average run time is 
+$\Omega(n \times n!)$. From <br />
+<strong>Hermann Gruber, Markus Holzer</strong>, and <strong>Oliver
+Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
+awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
+pp. 183-197, 2007.
+Available at 
+<a href="http://www.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
+<br />
+Note: the permutation subroutine given for Algorithm 1 is
+<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
+shuffle</a>.  Also "Supercalifragilisticexpialidocious" is mispelled
+on the sixth page, although it is spelled correctly in the footnote.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
