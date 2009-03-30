@@ -1,7 +1,10 @@
 # *created  "Mon Mar 26 16:04:24 2001" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:39:26 2005" *by "Paul E. Black"
+# *modified "Mon Mar 30 09:13:45 2009" *by "Paul E. Black"
 
 # $Log: metaheuristic.trm,v $
+# Revision 1.5  2009/03/30 13:18:39  black
+# remove LINK to MetaHeuristic research group - web pages reorganized.
+#
 # Revision 1.4  2005/12/05 15:39:30  black
 # Update FOLDOC URL
 #
@@ -47,9 +50,6 @@ that guides other {heuristics} in a search for {feasible solutions}.
 <a
 href="http://foldoc.org/?metaheuristic">FOLDOC
 definition</a>.
-The
-<a href="http://iridia.ulb.ac.be/~meta/newsite/index.php?main=1">Metaheuristic
-research group</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
