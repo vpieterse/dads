@@ -1,7 +1,10 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Wed Feb  4 11:08:13 2009" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:36:58 2009" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.7  2009/04/14 16:37:02  black
+# update LINK to paper in citeseer, now citeseerx.
+#
 # Revision 1.6  2009/02/04 16:08:17  black
 # Update DADS URL root
 #
@@ -51,7 +54,7 @@ keys.
 S. Majewski</strong>, <em>An Optimal Algorithm for Generating Minimal
 Perfect Hash Functions</em>, Information Processing Letters,
 43(5):257-264, October 1992.  Available at <a
-href="http://citeseer.ist.psu.edu/czech92optimal.html">http://citeseer.ist.psu.edu/czech92optimal.html</a>.  
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566</a>.  
 "It uses expected linear time and ... runs very fast in practice."
 This is a <a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/lasVegas.html">Las
 Vegas algorithm</a>.
