@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 23 11:10:08 2006" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:38:02 2009" *by "Paul E. Black"
 
 # $Log: postsCorrespondProb.trm,v $
+# Revision 1.4  2009/04/14 16:38:24  black
+# remove LINK to Zhao's page - account is empty
+#
 # Revision 1.3  2006/01/23 16:10:25  black
 # Update St. Andrews' mathematician biography URL
 #
@@ -47,9 +50,8 @@ Bulletin of the American Mathematical Society, 52:264-268, 1946.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=Ling Zhao's
-<a href="http://web.cs.ualberta.ca/~zhao/PCP/intro.htm">page with
-examples, notes on programs to find solutions, etc.</a>.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
