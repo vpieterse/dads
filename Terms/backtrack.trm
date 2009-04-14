@@ -2,6 +2,9 @@
 # *modified "Mon Nov 10 13:26:54 2008" *by "Paul E. Black"
 
 # $Log: backtrack.trm,v $
+# Revision 1.12  2009/04/14 16:21:34  black
+# remove LINK to FOLDOC entry - web site is off-line
+#
 # Revision 1.11  2008/11/10 18:27:53  black
 # update URL in LINK to James Allen's explanation
 #
@@ -96,8 +99,7 @@ James D. Allen's
 <a
 href="http://fabpedigree.com/james/lesson9.htm">short
 explanation</a>.
-FOLDOC's
-<a href="http://foldoc.org/?backtracking">entry</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
