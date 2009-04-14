@@ -2,6 +2,9 @@
 # *modified "Mon Mar 23 16:34:01 2009" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.7  2009/04/14 16:21:00  black
+# remove NOTE of FOLDOC entry - web site is off-line
+#
 # Revision 1.6  2009/03/23 20:34:08  black
 # fix misspelling
 #
@@ -53,8 +56,6 @@ order.
 @NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
 anybody would be so thoughtless to write/do/say/believe that, and I
 just can't let it pass without objecting."
-See the FOLDOC entry for
-<a href="http://foldoc.org/?bogo-sort">bogo-sort</a>.
 </p>
 
 <p>
