@@ -1,7 +1,10 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Mon Mar 19 11:48:15 2007" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:25:59 2009" *by "Paul E. Black"
 
 # $Log: americanFlagSort.trm,v $
+# Revision 1.7  2009/04/14 16:26:59  black
+# update LINK to paper in citeseer, now citeseerx.
+#
 # Revision 1.6  2007/03/19 16:49:45  black
 # Remove Ranjan Sinha IMPL - he moved to U Melbourne (cs.mu.oz) and his
 # old pages are gone (or inaccessible).
@@ -66,7 +69,7 @@ using 256 buckets.
 # implementation(s) (pure HTML)
 @IMPL=
 It is <a
-href="http://citeseer.ist.psu.edu/mcilroy93engineering.html">program C (C)</a>
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.8162">program C (C)</a>
 in the paper.
 # further explanation (pure HTML)
 @LINKS=The flag of the 
