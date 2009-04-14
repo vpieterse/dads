@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
-# *modified "Wed Feb  4 11:08:25 2009" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:39:04 2009" *by "Paul E. Black"
 
 # $Log: unboundedKnapsack.trm,v $
+# Revision 1.5  2009/04/14 16:39:14  black
+# update LINK to paper in citeseer, now citeseerx.
+#
 # Revision 1.4  2009/02/04 16:08:26  black
 # Update DADS URL root
 #
@@ -65,7 +68,9 @@ programming</a>.
 <a
 href="http://www.irisa.fr/cosi/HOMEPAGE/Rajopadhye/knapsack.html">formal
 definition and links to papers</a>.
-<a href="http://citeseer.ist.psu.edu/273951.html">Links to many papers</a>.
+<a
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.2135">Links
+to many papers</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/unboundedKnapsack.trm,v $
