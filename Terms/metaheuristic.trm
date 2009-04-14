@@ -2,6 +2,9 @@
 # *modified "Mon Mar 30 09:13:45 2009" *by "Paul E. Black"
 
 # $Log: metaheuristic.trm,v $
+# Revision 1.6  2009/04/14 16:20:10  black
+# remove LINK to FOLDOC definition - web site is off-line
+#
 # Revision 1.5  2009/03/30 13:18:39  black
 # remove LINK to MetaHeuristic research group - web pages reorganized.
 #
@@ -47,9 +50,7 @@ that guides other {heuristics} in a search for {feasible solutions}.
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://foldoc.org/?metaheuristic">FOLDOC
-definition</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
