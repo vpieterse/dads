@@ -1,7 +1,10 @@
 # *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
-# *modified "Mon Mar 30 09:06:34 2009" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:29:01 2009" *by "Paul E. Black"
 
 # $Log: bresenham.trm,v $
+# Revision 1.12  2009/04/14 16:29:52  black
+# Remove link to paper on-line: IBM no longer allows free on-line access.
+#
 # Revision 1.11  2009/03/30 13:08:23  black
 # update URL for LINK to Dedu's page
 #
@@ -63,9 +66,6 @@ accumulated.
 @BIB=
 <strong>Jack E. Bresenham</strong>, <em>Algorithm for Computer Control 
 of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.
-On-line at
-<a href="http://researchweb.watson.ibm.com/journal/sj/041/ibmsjIVRIC.pdf">
-http://researchweb.watson.ibm.com/journal/sj/041/ibmsjIVRIC.pdf</a>
 <br />
 Reprinted in <em>Interactive Computer Graphics</em>, Herbert Freeman ed., 
 1980, and
