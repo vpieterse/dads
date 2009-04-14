@@ -1,7 +1,10 @@
 # *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
-# *modified "Tue Apr 14 12:36:58 2009" *by "Paul E. Black"
+# *modified "Tue Apr 14 15:02:14 2009" *by "Paul E. Black"
 
 # $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.8  2009/04/14 19:10:51  black
+# IMA Las Vegas algorithm
+#
 # Revision 1.7  2009/04/14 16:37:02  black
 # update LINK to paper in citeseer, now citeseerx.
 #
@@ -34,7 +37,7 @@ $k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA={minimal perfect hashing}, {linear hash}
+@IMA={minimal perfect hashing}, {linear hash}, {Las Vegas algorithm}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -56,8 +59,6 @@ Perfect Hash Functions</em>, Information Processing Letters,
 43(5):257-264, October 1992.  Available at <a
 href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566</a>.  
 "It uses expected linear time and ... runs very fast in practice."
-This is a <a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/lasVegas.html">Las
-Vegas algorithm</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
