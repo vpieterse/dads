@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Aug 18 09:23:17 2008" *by "Paul E. Black"
+# *modified "Tue Apr 28 14:59:52 2009" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.11  2009/04/28 19:04:42  black
+# NOTE consistent hashing in Wikipedia.
+#
 # Revision 1.10  2008/08/18 13:23:55  black
 # Remove Kaz's IMPL - it has been off line for at least a month.
 #
@@ -88,6 +91,11 @@ Meyer Auf Der Heide, Hans Rohnert, and Robert E. Tarjan</strong>,
 SIAM J. Comput., 23(4):738-761, August 1994.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+See also <a
+href="http://en.wikipedia.org/wiki/Consistent_hashing">Consistent
+hashing</a> in Wikipedia.  Consistent hashing allows mapping into
+arbitrary sets of buckets.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
