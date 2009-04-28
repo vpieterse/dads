@@ -1,7 +1,10 @@
 # *created  "Mon Apr 27 15:33:20 2009" *by "Paul E. Black"
-# *modified "Mon Apr 27 16:07:13 2009" *by "Paul E. Black"
+# *modified "Mon Apr 27 16:10:13 2009" *by "Paul E. Black"
 
 # $Log: tacoSort.trm,v $
+# Revision 1.2  2009/04/27 20:10:38  black
+# Add WEB entry of tacosort, the way the author spells it.
+#
 # Revision 1.1  2009/04/27 20:09:19  black
 # Initial revision
 #
@@ -22,7 +25,7 @@ is $n \times 2<sup>nk</sup>$.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
-@WEB=
+@WEB=tacosort
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
