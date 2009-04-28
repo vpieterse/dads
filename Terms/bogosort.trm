@@ -1,7 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Mar 23 16:34:01 2009" *by "Paul E. Black"
+# *modified "Mon Apr 27 15:45:43 2009" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.8  2009/04/27 20:09:19  black
+# XREF new algo: tac sort
+#
 # Revision 1.7  2009/04/14 16:21:00  black
 # remove NOTE of FOLDOC entry - web site is off-line
 #
@@ -48,7 +51,7 @@ order.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={bozo sort}, {stooge sort}, {lucky sort}
+@XREFS={taco sort}, {bozo sort}, {stooge sort}, {lucky sort}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
