@@ -1,7 +1,10 @@
 # *created  "Tue Nov 14 09:33:09 2000" *by "Paul E. Black"
-# *modified "Mon May 24 11:21:40 2004" *by "Paul E. Black"
+# *modified "Tue Apr 28 15:01:20 2009" *by "Paul E. Black"
 
 # $Log: expandableHashing.trm,v $
+# Revision 1.3  2009/04/28 19:04:29  black
+# NOTE consistent hashing in Wikipedia.
+#
 # Revision 1.2  2004/05/24 15:22:06  black
 # Change pp. to pages.
 #
@@ -31,6 +34,13 @@
 @NOTES=Source: Knott, G. D., "Expandable open addressing hash table storage
 and retrieval."  Proc. ACM SIGFIDET Workshop on Data Description,
 Access, and Control, 1971, pages 186-206.
+</p>
+
+<p>
+See also <a
+href="http://en.wikipedia.org/wiki/Consistent_hashing">Consistent
+hashing</a> in Wikipedia.  Consistent hashing allows mapping into
+arbitrary sets of buckets.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
