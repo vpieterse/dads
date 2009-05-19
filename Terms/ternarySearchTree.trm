@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:45 2008" *by "Paul E. Black"
+# *modified "Mon May 18 17:34:25 2009" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.10  2009/05/18 21:36:47  black
+# Update URL for McGraw's IMPL
+#
 # Revision 1.9  2008/08/14 16:15:47  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -84,12 +87,10 @@ entry</a>.
 @IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
 demos, and code (C)</a>,
 <a href="http://www.octavian.org/cs/software.html">(C)</a>.
-Richard McGraw's <a
-href="http://dasnar.sdf-eu.org/res/ctst-README.html">explanation,
-example, and links to other implementations (C++, Java)</a> and his
+Richard McGraw's 
 implementations called
 <a
-href="http://dasnar.sdf-eu.org/res/">ctst-dist-0.30.tar.* (C)</a>.
+href="gopher://sdf-eu.org/1/users/dasnar/res">ctst-dist-0.30.tar.* (C)</a>.
 <a href="http://www.codeproject.com/KB/recipes/tst.aspx">Ternary Search
 Tree Dictionary in (C#): Faster String Dictionary!</a> by Jonathan de
 Halleux.
