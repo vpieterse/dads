@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon May 18 17:34:25 2009" *by "Paul E. Black"
+# *modified "Mon May 18 17:39:40 2009" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Revision 1.11  2009/05/18 21:40:31  black
+# update URL for McGraw's explanation in IMPL section
+#
 # Revision 1.10  2009/05/18 21:36:47  black
 # Update URL for McGraw's IMPL
 #
@@ -88,6 +91,9 @@ entry</a>.
 demos, and code (C)</a>,
 <a href="http://www.octavian.org/cs/software.html">(C)</a>.
 Richard McGraw's 
+<a
+href="gopher://sdf-eu.org/0/users/dasnar/res/ctst/README">explanation,
+example, and links to other implementations (C++, Java)</a> and his
 implementations called
 <a
 href="gopher://sdf-eu.org/1/users/dasnar/res">ctst-dist-0.30.tar.* (C)</a>.
