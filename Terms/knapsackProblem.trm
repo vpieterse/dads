@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:44 2008" *by "Paul E. Black"
+# *modified "Mon Jul 13 11:40:37 2009" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.13  2009/07/13 15:45:15  black
+# Remove LINK to pictures of knapsacks - the domain name is gone.
+#
 # Revision 1.12  2008/08/14 16:14:47  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -85,12 +88,6 @@ problem}.
 The {decision problem} is, given items of
 different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
-</p>
-
-<p>
-Pictures of several
-<a href="http://www.jarnaginco.com/CWKnapsacks.html">reproduction
-knapsacks</a>, many with rigid internal frames.
 # further explanation (pure HTML)
 @LINKS=
 <img src="../Images/xkcd np_complete.png"><br />
