@@ -1,7 +1,11 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Thu Jan 22 10:57:43 2009" *by "Paul E. Black"
+# *modified "Mon Aug  3 09:30:22 2009" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Revision 1.16  2009/08/03 13:36:03  black
+# update URL for IMPL at Simple Programming Tutorials, now Algorithms
+# and Data Structures.
+#
 # Revision 1.15  2009/01/22 15:57:58  black
 # Add Simple programming tutorials' IMPL.
 #
@@ -108,7 +112,7 @@ href="http://thomas.baudel.name/Visualisation/VisuTri/selectionsort.html">links
 to animation (Java)</a>.
 Simple Programming Tutorials'
 <a
-href="http://simpleprogrammingtutorials.com/tutorials/sorts/selection-sort.php">explanation
+href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>.
 <a
