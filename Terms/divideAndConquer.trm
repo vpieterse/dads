@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 30 11:30:41 2005" *by "Paul E. Black"
+# *modified "Mon Aug  3 09:17:33 2009" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.8  2009/08/03 13:18:50  black
+# remove LINK to parallel sorting (hwloidl) - account no longer found
+#
 # Revision 1.7  2005/12/30 16:31:08  black
 # NOTE Karatsuba's Fast Algorithms page.
 #
@@ -85,9 +88,7 @@ Here is the translation of "divide and conquer" in different languages:
 # further explanation (pure HTML)
 @LINKS=<a
 href="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
-and conquer sorting algorithms</a>, as a means of <a
-href="http://www.dcs.gla.ac.uk/~hwloidl/publications/Strategies/strategies_18.html">using
-parallelism</a>.
+and conquer sorting algorithms</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.geocities.com/Vienna/7079/src/addodd.txt">how many
