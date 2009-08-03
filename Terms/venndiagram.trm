@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:16:51 2008" *by "Paul E. Black"
+# *modified "Mon Aug  3 09:27:44 2009" *by "Paul E. Black"
 
 # $Log: venndiagram.trm,v $
+# Revision 1.9  2009/08/03 13:28:46  black
+# update URL for cut-the-knot LINK
+#
 # Revision 1.8  2008/08/14 16:16:53  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -62,7 +65,7 @@ such as sad, tall males and happy, short females are labeled.
 <p>
 John Venn first published these diagrams in 1880,
 although similar diagrams were used much earlier by Leibniz and Euler 
-(<a href="http://cut-the-knot.com/LewisCarroll/dunham.shtml">Opera
+(<a href="http://www.cut-the-knot.com/LewisCarroll/dunham.shtml">Opera
 Omnia</a>), a century earlier.
 # further explanation (pure HTML)
 @LINKS=
