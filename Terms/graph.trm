@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Thu Jan 22 11:06:33 2009" *by "Paul E. Black"
+# *modified "Mon Aug  3 09:38:44 2009" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.24  2009/08/03 13:39:20  black
+# update URL for IMPL at Simple Programming Tutorials, now Algorithms
+# and Data Structures.
+#
 # Revision 1.23  2009/01/22 16:07:38  black
 # Add Simple programming tutorials' IMPL.  Change so implementation
 # XREFs are INME.
@@ -187,11 +191,11 @@ Library (C++)</a>
 Universal Network/Graph framework.
 <a href="http://www.jdsl.org/home.html">JDSL (Java)</a>, the Data
 Structures Library in Java.
-Simple Programming Tutorials'
+Algorithms and Data Structures'
 <a
-href="http://simpleprogrammingtutorials.com/tutorials/graphs/intro.php">explanation</a>
+href="http://www.algolist.net/Data_structures/Graph">explanation</a>
 and <a
-href="http://simpleprogrammingtutorials.com/tutorials/graphs/graphs-representation.php">adjacency
+href="http://www.algolist.net/Data_structures/Graph/Internal_representation">adjacency
 matrix implementation (Java and C++)</a>.
 # author's initials
 @AUTHOR=PEB,PJT
