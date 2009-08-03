@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 24 10:07:19 2006" *by "Paul E. Black"
+# *modified "Mon Aug  3 09:25:57 2009" *by "Paul E. Black"
 
 # $Log: zipfslaw.trm,v $
+# Revision 1.4  2009/08/03 13:26:44  black
+# remove LINK to nslij-genetics - site off-line for months
+#
 # Revision 1.3  2006/04/24 14:08:27  black
 # Update W Li's "brief" URL.  Add Hermetic URL.
 #
@@ -53,8 +56,6 @@ compression approaches.
 Named for George Kingsley Zipf.
 # further explanation (pure HTML)
 @LINKS=
-A <a href="http://www.nslij-genetics.org/wli/zipf/">brief
-explanation of the law with links to dozens of papers</a>.
 Two <a href="http://www.hermetic.ch/wfc/zipf.htm">graphs</a>
 illustrating the law.
 # implementation(s) (pure HTML)
