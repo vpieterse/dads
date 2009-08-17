@@ -1,7 +1,10 @@
 # *created  "Fri Oct 15 08:54:48 2004" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:20 2008" *by "Paul E. Black"
+# *modified "Mon Aug 17 09:42:32 2009" *by "Paul E. Black"
 
 # $Log: cubeRoot.trm,v $
+# Revision 1.6  2009/08/17 13:43:28  black
+# clarify DEFN slightly
+#
 # Revision 1.5  2008/08/14 16:14:21  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -29,16 +32,16 @@
 @AREA=numeric
 # the definition
 @DEFN=This describes a "long hand" or manual method of calculating or
-extracting cube roots.  Calculation of a cube root by hand is a little
-like long-hand division or manual {square root}.
+extracting cube roots.  Calculation of a cube root by hand is similar
+to long-hand division or manual {square root}.
 </p>
 
 <p>
 Suppose you need to find the cube root of 55,742,968.
 Set up a "division" with the number under the radical.
 Mark off triples of digits, starting from the decimal
-point.  (The decimal point is a period (.), and a comma
-(,) marks triples of digits.)
+point and working left.  (The decimal point is a period (.), and
+commas (,) mark triples of digits.)
 <pre>
          ____________	<br />
        \/ 55,742,968.	<br />
