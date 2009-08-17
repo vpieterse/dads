@@ -1,7 +1,10 @@
 # *created  "Wed Apr 25 11:40:02 2001" *by "Paul E. Black"
-# *modified "Mon Aug 17 10:04:02 2009" *by "Paul E. Black"
+# *modified "Mon Aug 17 11:49:05 2009" *by "Paul E. Black"
 
 # $Log: squareRoot.trm,v $
+# Revision 1.8  2009/08/17 15:49:28  black
+# add 2 more digits to 2nd (extended) example
+#
 # Revision 1.7  2009/08/17 14:05:15  black
 # Add an example spanning the decimal point and not having a rational
 # square root.  Improve some wording a little.
@@ -133,7 +136,7 @@ Here is an example spanning the decimal point.  When a number does not
 have a rational square root, you can continue calculating
 (significant) digits as long as you wish.
 <pre>
-      __1__6.8_4_0_4_2_...<br />
+      __1__6.8_4_0_4_2_7_5_...<br />
     \/  2,83.6		<br />
        -1		<br />
        -----		<br />
@@ -151,11 +154,17 @@ have a rational square root, you can continue calculating
            ---------	<br />
     336804 ) 1440000	<br />
             -1347216	<br />
-             ---------	<br />
-     3368082 ) 9278400	<br />
+            ----------	<br />
+    3368082 )  9278400	<br />
               -6736164	<br />
-              --------	<br />
-               2542236
+             -----------	<br />
+    33680847 ) 254223600	<br />
+              -235765929	<br />
+              ------------	<br />
+    336808545 ) 1845767100	<br />
+               -1684042725	<br />
+               -----------	<br />
+                 161724375	<br />
 </pre>
 </p>
 
