@@ -1,7 +1,10 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:50 2008" *by "Paul E. Black"
+# *modified "Mon Aug 24 10:17:56 2009" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.9  2009/08/24 14:19:35  black
+# update URL for C (and Java) IMPL
+#
 # Revision 1.8  2008/08/14 16:13:53  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -91,8 +94,10 @@ This is Knuth's <a href="../terms.html#Knuth98">Algorithm M [Knuth98,
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
 analysis, bibliography, etc. (Java)</a>.
 <a
-href="http://www.cag.lcs.mit.edu/streamit/results/bitonic/code/c/">reference
-source code (C)</a>.
+href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">reference
+source code (C)</a> and in
+<a
+href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/streamit/">(Java)</a>.
 Section from 1994 User Manual for <a
 href="http://www.extreme.indiana.edu/sage/pcxx_ug/subsection3_6_2.html">Portable
 Parallel C++ (pC++)</a>.
