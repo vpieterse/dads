@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:29 2008" *by "Paul E. Black"
+# *modified "Mon Aug 24 10:02:58 2009" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.15  2009/08/24 14:03:02  black
+# Update Harrison's sorting demo URL root
+#
 # Revision 1.14  2008/08/14 16:14:31  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -89,7 +92,7 @@ its {heap property}, and a tree of matches in a sports tournament.
 
 # further explanation (pure HTML)
 @LINKS=<a
-href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">demonstration</a>.
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">demonstration</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
 
@@ -99,7 +102,7 @@ Lang's <a
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/heap/heapen.htm">definitions,
 explanations, diagrams, Java applet, and pseudo-code (C)</a>,
 <a
-href="http://www.cs.ubc.ca/spider/harrison/Java/HeapSortAlgorithm.java">(Java)</a>,
+href="http://people.cs.ubc.ca/~harrison/Java/HeapSortAlgorithm.java">(Java)</a>,
 <a href="http://www2.hawaii.edu/~copley/665/HSMain.html">(Java)</a>.
 Bro. David Carlson's
 <a
