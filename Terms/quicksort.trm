@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Aug  3 10:28:29 2009" *by "Paul E. Black"
+# *modified "Mon Aug 24 10:03:08 2009" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Revision 1.16  2009/08/24 14:03:10  black
+# Update Harrison's sorting demo URL root
+#
 # Revision 1.15  2009/08/03 14:28:42  black
 # update URL for IMPL at Simple Programming Tutorials, now Algorithms
 # and Data Structures
@@ -107,10 +110,10 @@ duplicate keys; includes discussion and proof.
 <a href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
 extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
 Demos and code for <a
-href="http://www.cs.ubc.ca/spider/harrison/Java/sorting-demo.html">enhanced,
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">enhanced,
 fast, quicksort, and quicksort with bubble sort (Java)</a>.
 <a
-href="http://www.cs.ubc.ca/spider/harrison/Java/QSortAlgorithm.java">(Java)</a>.
+href="http://people.cs.ubc.ca/~harrison/Java/QSortAlgorithm.java">(Java)</a>.
 Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
