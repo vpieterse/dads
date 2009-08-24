@@ -2,6 +2,9 @@
 # *modified "Thu Nov  9 08:59:31 2006" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Revision 1.5  2009/08/24 14:22:50  black
+# Remove LINK to FSU example: not publicly accessible.
+#
 # Revision 1.4  2007/10/09 15:41:46  black
 # Remove Jonathan Brown's IMPL - gone.
 #
@@ -45,9 +48,6 @@ that is, according to a {partial order}.
 @NOTES=After <a href="../terms.html#Leda98">[Leda98]</a>.
 # further explanation (pure HTML)
 @LINKS=
-An <a
-href="http://www.cs.fsu.edu/~cop4531/slideshow/chapter23/23-4.html">example</a>
-with relation to a directed acyclic graph (DAG).
 # implementation(s) (pure HTML)
 @IMPL=
 Eric Lippert's narrative example and <a
