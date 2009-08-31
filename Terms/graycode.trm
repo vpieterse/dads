@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 17 13:24:23 2008" *by "Paul E. Black"
+# *modified "Mon Aug 31 10:15:33 2009" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Revision 1.19  2009/08/31 14:16:40  black
+# Remove "Q21: What are Gray codes" from IMPL - surf.de.uu.net is gone.
+#
 # Revision 1.18  2008/11/17 18:24:53  black
 # Update URL for comp.ai.genetic FAQ entry.
 #
@@ -134,12 +137,6 @@ Image of a
 code rotary railroad control</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-# The following is an HTML version of Q21 part 6, section 1,
-comp.ai.genetic FAQ.  Google for "Q21: What are Gray codes"
-<a
-href="http://surf.de.uu.net/encore/FAQ/www/Q21.htm">binary-to-Gray
-and Gray-to-binary conversion (C)</a> with history, references, and
-application to genetic algorithms.
 <a href="http://www.nrbook.com/a/bookcpdf/c20-2.pdf">Convert
 between binary and Gray (C)</a>: a PDF document of section 20.2 of
 <em>Numerical Recipes in C</em>.
