@@ -1,7 +1,11 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Aug 24 10:24:12 2009" *by "Paul E. Black"
+# *modified "Mon Aug 31 09:47:39 2009" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.23  2009/08/31 13:52:04  black
+# move Appleby's MurmurHash to the bottom of IMPL since Serice reports
+# that it some implementations are flawed.
+#
 # Revision 1.22  2009/08/24 14:24:43  black
 # Remove LINK to FSU explanation: not publicly accessible.
 #
@@ -120,10 +124,6 @@ Bob Jenkins' fast, parameterizable, broadly applicable
 functions.
 A review and comparison of many
 <a href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</a>.
-Austin Appleby's fast
-<a href="http://murmurhash.googlepages.com/">MurmurHash (C)</a>,
-including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
-lookup3, Murmur, Bernstein, FNV, and modified FNV.
 Overview of
 Bret Mulvey's great tutorial on good hash functions, including
 analysis of and code for 
@@ -144,6 +144,14 @@ Hash functions for strings
 and
 <a href="http://www.octavian.org/cs/software.html">(C and
 Perl)</a>.
+Austin Appleby's fast
+<a href="http://murmurhash.googlepages.com/">MurmurHash (C)</a>,
+including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
+lookup3, Murmur, Bernstein, FNV, and modified FNV.  
+NOTE: Paul Serice's
+<a href="http://www.serice.net/flawed_hash_functions/">Flawed Hash
+Functions: MurmurHash 2.0 and Hsieh SuperFastHash</a> reports that
+those functions "do not have random key distribution."
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/hash.trm,v $
