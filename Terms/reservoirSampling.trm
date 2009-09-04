@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Fri Mar  6 10:27:20 2009" *by "Paul E. Black"
+# *modified "Fri Sep  4 10:31:10 2009" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.4  2009/09/04 14:36:06  black
+# refer to algorithm "name" in Knuth with section context, as he does.
+#
 # Revision 1.3  2009/03/06 15:30:01  black
 # Fix defn.  Improve wording of NOTE citing Knuth.
 #
@@ -61,8 +64,8 @@ occurring.
 </p>
 
 <p>
-This algorithm is an in-memory variant of Knuth's Algorithm R
-<a href="../terms.html#Knuth97">[Knuth97, 2:144, Sect. 3.4.2]</a>.
+This algorithm is an in-memory variant of Knuth's Algorithm 3.4.2R
+<a href="../terms.html#Knuth97">[Knuth97, vol. 2, p 144]</a>.
 He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 
 # any historical notes
