@@ -2,6 +2,9 @@
 # *modified "Fri Sep  4 10:29:09 2009" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.19  2009/09/04 15:40:05  black
+# cite Knuth with V:PP (volume number, colon, page number)
+#
 # Revision 1.18  2009/09/04 14:29:53  black
 # refer to algorithm "name" in Knuth with section context, as he does.
 #
@@ -134,7 +137,7 @@ sorts each set.
 
 <p>
 Donald E. Knuth extensively analyzes this algorithm as 5.2.1D in 
-<a href="../terms.html#Knuth98">[Knuth98, vol. 3, p 84]</a>. 
+<a href="../terms.html#Knuth98">[Knuth98, 3:84]</a>. 
 A good set of increments is 2<sup>k</sup>+1, . . ., 9, 5, 3, 1 with
 the first increment no more than $N/3$.
 
