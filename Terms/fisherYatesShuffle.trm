@@ -2,6 +2,9 @@
 # *modified "Fri Sep  4 10:22:21 2009" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.13  2009/09/04 15:40:54  black
+# cite Knuth with V:PP (volume number, colon, page number)
+#
 # Revision 1.12  2009/09/04 14:23:42  black
 # refer to algorithm "name" in Knuth with section context, as he does.
 #
@@ -80,7 +83,7 @@ permutation</em>, CACM 7(7):420, July 1964.
 # any notes.  these are not printed in the final dictionary
 @NOTES=The algorithm can be viewed as a reverse {selection
 sort}.  It is described in some detail as algorithm 3.4.2P in 
-<a href="../terms.html#Knuth97">[Knuth97, vol. 2, p 145]</a>.
+<a href="../terms.html#Knuth97">[Knuth97, 2:145]</a>.
 </p>
 
 <p>
