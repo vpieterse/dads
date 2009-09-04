@@ -2,6 +2,9 @@
 # *modified "Fri Sep  4 10:31:10 2009" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.5  2009/09/04 15:40:35  black
+# cite Knuth with V:PP (volume number, colon, page number)
+#
 # Revision 1.4  2009/09/04 14:36:06  black
 # refer to algorithm "name" in Knuth with section context, as he does.
 #
@@ -65,7 +68,7 @@ occurring.
 
 <p>
 This algorithm is an in-memory variant of Knuth's Algorithm 3.4.2R
-<a href="../terms.html#Knuth97">[Knuth97, vol. 2, p 144]</a>.
+<a href="../terms.html#Knuth97">[Knuth97, 2:144]</a>.
 He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 
 # any historical notes
