@@ -2,6 +2,9 @@
 # *modified "Fri Sep  4 10:47:36 2009" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.11  2009/09/04 15:47:50  black
+# cite Knuth with V:PP (volume number, colon, page number)
+#
 # Revision 1.10  2009/09/04 14:48:05  black
 # refer to algorithm "name" in Knuth with section context, as he does.
 #
@@ -89,8 +92,8 @@ where compareAndSwap(i,j) is if (a[i] &lt; a[j]) Swap(a[i], a[j]).
 </p>
 
 <p>
-This is Knuth's <a href="../terms.html#Knuth98">Algorithm 5.2.2M
-[Knuth98, vol. 3, p 111]</a>.
+Knuth calls this <a href="../terms.html#Knuth98">Algorithm 5.2.2M
+[Knuth98, 3:111]</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
