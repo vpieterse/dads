@@ -1,7 +1,10 @@
 # *created  "Wed Sep 20 11:06:09 2006" *by "Paul E. Black"
-# *modified "Mon Sep 17 08:41:44 2007" *by "Paul E. Black"
+# *modified "Tue Sep  8 08:57:31 2009" *by "Paul E. Black"
 
 # $Log: JSort.trm,v $
+# Revision 1.3  2009/09/08 12:58:38  black
+# update Morrison's URL
+#
 # Revision 1.2  2007/09/17 12:42:37  black
 # improvement: add trailing / to Morrison URL
 #
@@ -41,7 +44,7 @@ nearly-ordered array.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 The implementation attributes the algorithm to 
-<a href="http://www.scs.carleton.ca/~morrison/">Jason Morrison</a>,
+<a href="http://people.scs.carleton.ca:8008/~morrison/">Jason Morrison</a>,
 Carleton University.
 # further explanation (pure HTML)
 @LINKS=
