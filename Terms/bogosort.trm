@@ -1,7 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Apr 27 15:45:43 2009" *by "Paul E. Black"
+# *modified "Tue Sep  8 09:04:37 2009" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.9  2009/09/08 13:05:02  black
+# update URL for Gruber's paper
+#
 # Revision 1.8  2009/04/27 20:09:19  black
 # XREF new algo: tac sort
 #
@@ -69,7 +72,7 @@ Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
 awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
 pp. 183-197, 2007.
 Available at 
-<a href="http://www.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
+<a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
 <br />
 Note: the permutation subroutine given for Algorithm 1 is
 <a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
