@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Tue Sep 22 10:18:37 2009" *by "Paul E. Black"
+# *modified "Wed Sep 30 13:20:41 2009" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.25  2009/09/30 17:20:42  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
 # Revision 1.24  2009/09/22 14:22:28  black
 # Serice wrote "to retract [his] criticism of MurmurHash".  Remove link
 # to his page: he suggests that it "can probably be ignored" since he
@@ -145,7 +148,7 @@ Hash Functions (C, C++, Pascal, Object Pascal, Java, Ruby, Python)</a>
 and Bloom filter for strings.
 Hash functions for strings
 # This implementation is okay - PEB 6 April 1999
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c">(C)</a>
+<a href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/3/331.hash.c">(C)</a>
 and
 <a href="http://www.octavian.org/cs/software.html">(C and
 Perl)</a>.
