@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:20:29 1999" *by "Paul E. Black"
-# *modified "Thu Jan 22 10:55:43 2009" *by "Paul E. Black"
+# *modified "Wed Sep 30 13:19:52 2009" *by "Paul E. Black"
 
 # $Log: binaryinsort.trm,v $
+# Revision 1.4  2009/09/30 17:19:53  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
 # Revision 1.3  2009/01/22 15:55:51  black
 # IMA insertion sort
 #
@@ -36,7 +39,7 @@ for the next item is found with a {binary search}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/412c.sort.c">(C)</a>
+@IMPL=<a href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/4/412c.sort.c">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/binaryinsort.trm,v $
