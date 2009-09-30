@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Mon Jan 24 11:55:00 2005" *by "Paul E. Black"
+# *modified "Wed Sep 30 13:20:47 2009" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Revision 1.7  2009/09/30 17:20:49  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
 # Revision 1.6  2005/01/24 16:55:40  black
 # Fix Moore example URL.
 #
@@ -72,9 +75,9 @@ Matching Algorithms (C)</a>.
 Unix strstr implemented with <a
 href="http://barnyard.syr.edu/quickies/kmp.c">KMP (C)</a>.
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/712.srch.c">(C
 and Pascal)</a> which uses <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
 preprocessing (C)</a>
 # author's initials
 @AUTHOR=SB
