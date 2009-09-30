@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Wed Dec  3 14:46:36 2008" *by "Paul E. Black"
+# *modified "Wed Sep 30 13:21:13 2009" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
+# Revision 1.9  2009/09/30 17:21:24  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
 # Revision 1.8  2008/12/03 19:47:31  black
 # remove LINK to McGill 1997 CS251 - appears to be completely gone
 #
@@ -106,10 +109,10 @@ Ed Fredkin
 # implementation(s): pure HTML
 @IMPL=
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.ins.c">insert 
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/3/344.ins.c">insert 
  (C)</a> and
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.srch.c">search 
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/3/344.srch.c">search 
  (C)</a>,
 Darius Bacon's
 <a
