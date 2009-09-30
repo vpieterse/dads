@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:18:33 1999" *by "Paul E. Black"
-# *modified "Mon Dec 13 16:17:22 2004" *by "Paul E. Black"
+# *modified "Wed Sep 30 13:19:53 2009" *by "Paul E. Black"
 
 # $Log: boyerMooreHorspool.trm,v $
+# Revision 1.4  2009/09/30 17:19:54  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
 # Revision 1.3  2004/12/13 21:18:26  black
 # Remove XREF brackets from second "pattern".  Add authors' names to IMPL.
 #
@@ -39,7 +42,7 @@ match, searching jumps to the next matching position in the pattern.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Boyer-Moore}
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
 <strong>R. Nigel Horspool</strong>,
 <em> Practical Fast Searching in Strings</em>, 
@@ -54,9 +57,9 @@ Software - Practice and Experience, 10:501-506, 1980.
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node18.html">Horspool
 algorithm (C)</a>.
 Gonnet and Baeza-Yates' <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(C)</a> or
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/713b.srch.c">(C)</a> or
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</a>
+href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/boyerMooreHorspool.trm,v $
