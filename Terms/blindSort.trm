@@ -1,0 +1,65 @@
+# *created  "Fri Dec  7 16:15:00 2007" *by "Paul E. Black"
+# *modified "Wed Dec 19 09:23:32 2007" *by "Paul E. Black"
+
+# $Log: blindSort.trm,v $
+# Revision 1.1  2009/10/01 19:07:13  black
+# Initial revision
+#
+
+# entry name
+@NAME=blind sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A specialized {sort} algorithm that first builds a {blind trie},
+then traverse the tree left to right.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={suffix array}
+# Aggregate child: "... is a part of or used in me."
+@INME={blind trie}, {depth-first search}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={treesort (1)}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Paolo Ferragina</strong> and <strong>Roberto Grossi</strong>,
+<em>The string B-tree: a new data structure for string search in
+external memory and its applications</em>,
+Journal of the ACM, 46(2):236 - 280, March 1999.
+
+# A fully-dynamic data structure for external substring search
+# Proceedings of the twenty-seventh annual ACM symposium on Theory of computing
+# Las Vegas, Nevada, United States
+# Pages: 693 - 702  
+# Year of Publication: 1995
+# Paolo Ferragina and Roberto Grossi
+
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Used in a specialized algorithm to build {suffix arrays}.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/Workspace/dads/Terms/RCS/blindSort.trm,v $
