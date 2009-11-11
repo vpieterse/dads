@@ -1,4 +1,4 @@
-# $Id: authors.data,v 1.19 2006/12/28 15:16:32 black Exp $
+# $Id: authors.data,v 1.20 2009/11/10 20:07:40 black Exp $
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
@@ -6,7 +6,7 @@
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Thu Dec 28 10:16:18 2006" *by "Paul E. Black"
+# *modified "Tue Nov 10 15:07:06 2009" *by "Paul E. Black"
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -34,7 +34,7 @@ PS	Paul Steffas	Paul_Steffas@amat.com
 PHS	Per H&aring;kan Sundell	phs@cs.chalmers.se
 PJT	Paul J. Tanenbaum	pjt@ARL.MIL
 LJW	Lawrence J. Wobker	ljwobker@pobox.com
-VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com, http://www.geocities.com/SiliconValley/Garage/3323/
+VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com
 YZ	Yuming Zou	zou@fas.harvard.edu
 CRC-A	Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999
 # end of $Source: /home/black/DADS/dads/RCS/authors.data,v $
