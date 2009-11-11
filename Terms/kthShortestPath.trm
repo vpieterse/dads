@@ -1,7 +1,11 @@
 # *created  "Mon Nov 26 12:25:38 2001" *by "Paul E. Black"
-# *modified "Mon Sep 19 10:17:42 2005" *by "Paul E. Black"
+# *modified "Tue Nov 10 14:56:37 2009" *by "Paul E. Black"
 
 # $Log: kthShortestPath.trm,v $
+# Revision 1.6  2009/11/10 19:57:34  black
+# remove LINK to Ernesto de Queiros Vieira Martins' Kth Shortest Path
+# Problem page since it is gone.
+#
 # Revision 1.5  2005/09/19 14:19:05  black
 # Remove Jimenez and Marzal IMPL - site gets timeout.  Add that shortest
 # path is a VARIANT of this.
@@ -54,9 +58,8 @@ weight, etc.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=The optimal problem page with <a
-href="http://www.mat.uc.pt/~eqvm/OPP/KSPP/KSPP.html">definitions,
-links to basic concepts, variants, and algorithms</a>.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
