@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep 30 13:20:54 2009" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:28 2009" *by "Paul E. Black"
 
 # $Log: median.trm,v $
+# Revision 1.5  2009/11/16 14:52:28  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
 # Revision 1.4  2009/09/30 17:20:55  black
 # Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
 #
@@ -44,7 +47,7 @@ is 2.5, the mean of 2 and 3.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/selec_a.html">select
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/selec_a.html">select
 kth element (Pascal and C++)</a>
 # author's initials
 @AUTHOR=PEB
