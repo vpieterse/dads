@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 09:03:20 1998" *by "Paul E. Black"
-# *modified "Wed Sep 30 13:20:53 2009" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:27 2009" *by "Paul E. Black"
 
 # $Log: linearprobng.trm,v $
+# Revision 1.5  2009/11/16 14:52:28  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
 # Revision 1.4  2009/09/30 17:20:54  black
 # Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
 #
@@ -47,9 +50,9 @@ so it can be reused for insertion, but the search list is still intact.
 @IMPL=
 # These two implementations are okay - PEB 6 Apr 99
 <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/3/334.ins.c">insert
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.ins.c">insert
 (C)</a>, <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/3/334.srch.c">search
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/334.srch.c">search
 (C)</a>.
 # GBY pp 51-54
 
