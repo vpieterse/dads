@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:21:26 1999" *by "Paul E. Black"
-# *modified "Wed Sep 30 13:20:35 2009" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:13 2009" *by "Paul E. Black"
 
 # $Log: determFinitAutSrch.trm,v $
+# Revision 1.4  2009/11/16 14:52:14  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
 # Revision 1.3  2009/09/30 17:20:36  black
 # Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
 #
@@ -41,11 +44,11 @@ each location in turn.  If the machine accepts, that is a match.
 @IMPL=<a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node4.html">description
 and animation (C)</a>, <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/716.srch.c">(C)</a>
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.srch.c">(C)</a>
 which uses a <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/716.def.c">finite
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.def.c">finite
 automaton structure (C)</a> and <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/7/716.straut.c">builds
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/716.straut.c">builds
 a recognizer (C)</a>
 # author's initials
 @AUTHOR=PEB
