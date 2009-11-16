@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Wed Sep 30 13:21:04 2009" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:47 2009" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Revision 1.12  2009/11/16 14:52:47  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
 # Revision 1.11  2009/09/30 17:21:05  black
 # Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
 #
@@ -110,7 +113,7 @@ Dr. Dobb's Journal, May 2002, pages 89-94.)
 href="http://www.math.grin.edu/~stone/courses/fundamentals/radix-sorting.html">Explanation
 and code (Pascal)</a>.
 <a
-href="http://www.dcc.chileedu.com/~rbaeza/handbook/algs/4/424.sort.c">(C
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/424.sort.c">(C
 and Pascal)</a>.
 # John Morris morris@ee.uwa.edu.au
 <a
