@@ -1,7 +1,10 @@
 # *created  "Sat Aug 28 11:04:13 1999" *by "Paul E. Black"
-# *modified "Wed Feb  4 11:08:21 2009" *by "Paul E. Black"
+# *modified "Fri Dec 18 17:34:30 2009" *by "Paul E. Black"
 
 # $Log: sparsematrix.trm,v $
+# Revision 1.11  2009/12/18 22:35:00  black
+# Remove LINK to Sonnack's graphic of a sparse matrix - it is gone.
+#
 # Revision 1.10  2009/02/04 16:08:23  black
 # Update DADS URL root
 #
@@ -73,11 +76,6 @@ row), two {orthogonal lists} (one list for each column and one list
 for each row), or by a {point access method}.
 # further explanation (pure HTML)
 @LINKS=
-A <a
-href="http://www.Sonnack.com/Pub/sparse_matrix.gif">picture</a> of a
-sparse matrix with 
-<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/orthogonalLists.html"><em>orthogonal
- lists</em></a>. 
 Yousef Saad's 
 <a href="http://www-users.cs.umn.edu/~saad/PS/iter1.pdf">Iterative
 methods for sparse linear systems (PDF)</a>, chapters 1-3 of a
