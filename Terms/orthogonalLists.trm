@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jan 22 10:42:39 2009" *by "Paul E. Black"
+# *modified "Fri Dec 18 17:35:14 2009" *by "Paul E. Black"
 
 # $Log: orthogonalLists.trm,v $
+# Revision 1.4  2009/12/18 22:35:46  black
+# Remove LINK to Sonnack's graphic of orthogonal lists implementing a
+# sparse matrix.
+#
 # Revision 1.3  2009/01/22 15:43:58  black
 # Initial DEFN (from original notes).  Add links and more notes.
 #
@@ -38,9 +42,6 @@ orthogonal lists by row and column.  Inserting an item means inserting
 it into each list as appropriate.
 # further explanation (pure HTML)
 @LINKS=
-A <a
-href="http://www.Sonnack.com/Pub/sparse_matrix.gif">picture</a> of a
-sparse matrix implemented with two orthogonal lists.
 A <a 
 href="http://cs.saddleback.edu/rwatkins/CS2B/Lab Exercises/Orthogal Lists Lab.pdf">lab 
 exercise with four attributes</a>.
