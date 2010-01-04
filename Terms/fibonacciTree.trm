@@ -1,7 +1,10 @@
 # *created  "Mon Jun 21 11:33:11 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 11:44:30 2005" *by "Paul E. Black"
+# *modified "Mon Jan  4 09:18:14 2010" *by "Paul E. Black"
 
 # $Log: fibonacciTree.trm,v $
+# Revision 1.5  2010/01/04 14:19:01  black
+# Remove LINK to Ohio State pictures - access is forbidden.
+#
 # Revision 1.4  2005/01/10 16:44:47  black
 # Update ohio state (pcitures) URL
 #
@@ -45,9 +48,8 @@ order 0 Fibonacci tree has no {nodes}, and an order 1 tree has 1 node.
 $F(n)$ is the $n<sup>th</sup>$ {Fibonacci number}.  A Fibonacci tree
 is the most unbalanced {AVL tree} allowed.
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.cse.ohio-state.edu/~weide/sce/now/321/homeworks/hw02.html">pictures
-of Fibonacci trees</a> of various orders.
+@LINKS=
+
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
