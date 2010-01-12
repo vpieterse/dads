@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Aug 19 11:26:59 2005" *by "Paul E. Black"
+# *modified "Mon Jan 11 16:42:45 2010" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Revision 1.8  2010/01/11 21:44:01  black
+# Remove LINK to Joe Ganley's page - his web site moved, and I can't
+# find a new page.
+#
 # Revision 1.7  2009/01/05 21:49:52  black
 # Remove URL of GeoSteiner IMPL - page is gone, and I can't find a new place.
 #
@@ -21,7 +25,6 @@
 #
 # Revision 1.2  2003/10/14 18:59:59  black
 # Use a more regular plural of vertex
-#
 
 # entry name
 @NAME=Steiner tree
@@ -72,7 +75,7 @@ Steiner</a>.
 Some authors distinguish between Steiner trees and minimum Steiner
 trees.
 # further explanation (pure HTML)
-@LINKS=The <a href="http://ganley.org/steiner/">Steiner Tree page</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/steiner-tree.shtml">(C
