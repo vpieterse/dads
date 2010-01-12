@@ -1,7 +1,11 @@
 # *created  "Mon Mar  8 16:59:19 1999" *by "Paul E. Black"
-# *modified "Mon Jan  5 16:51:00 2009" *by "Paul E. Black"
+# *modified "Mon Jan 11 16:47:34 2010" *by "Paul E. Black"
 
 # $Log: euclidSteinerTree.trm,v $
+# Revision 1.4  2010/01/11 21:47:44  black
+# Remove LINK to Joe Ganley's page - his web site moved, and I can't
+# find a new page.
+#
 # Revision 1.3  2009/01/05 21:51:41  black
 # Remove URL for GeoSteiner IMPL - page is gone, and I can't find a new place.
 #
@@ -36,7 +40,7 @@ points other than the terminals, which are called
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=<a href="http://ganley.org/steiner/">Steiner Tree page</a>.
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
