@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Mon Aug 24 10:02:58 2009" *by "Paul E. Black"
+# *modified "Mon Jan 25 09:53:11 2010" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Revision 1.16  2010/01/25 14:53:56  black
+# Remove Mike Copley's IMPL (account is gone) and add Paulo Roma's IMPL.
+#
 # Revision 1.15  2009/08/24 14:03:02  black
 # Update Harrison's sorting demo URL root
 #
@@ -102,13 +105,14 @@ Lang's <a
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/heap/heapen.htm">definitions,
 explanations, diagrams, Java applet, and pseudo-code (C)</a>,
 <a
-href="http://people.cs.ubc.ca/~harrison/Java/HeapSortAlgorithm.java">(Java)</a>,
-<a href="http://www2.hawaii.edu/~copley/665/HSMain.html">(Java)</a>.
+href="http://people.cs.ubc.ca/~harrison/Java/HeapSortAlgorithm.java">(Java)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/heaps/heaps.html">heaps
 and heapsort tutorial
 and code (C++)</a>.
+Paulo Roma's
+<a href="http://pascalprog.blogspot.com/2008/06/heap-sort-algorithm.html">(Pascal)</a> implementation.
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/heapsort.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography,
