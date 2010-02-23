@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Wed Jul  9 09:56:13 2008" *by "Paul E. Black"
+# *modified "Tue Feb 23 10:00:59 2010" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Revision 1.7  2010/02/23 15:02:30  black
+# Correct historical note - Kwan is (probably) the family name, so he
+# (she?) should be shortened to Kwan, not K. Mei-Ko.
+#
 # Revision 1.6  2008/07/09 13:57:57  black
 # fix name in BIB.  Add Goldman's middle initial to Historical Note and
 # fix typo.
@@ -56,11 +60,11 @@ at least once.  Finding an optimal solution in a graph with both
 @BIB=
 <strong>Kwan Mei-Ko</strong>, <em>Graphic Programming Using Odd or
 Even Points</em>, Chinese Math., 1:273-277, 1962.
-# as given as K. Mei-Ko - Mei-Ko is the family name
+# as given as K. Mei-Ko - Kwan is (probably) the family name
 
 # Historical note 
 @HISTORY=
-K. Mei-Ko's article referred to optimizing a postman's route, was
+Kwan's article referred to optimizing a postman's route, was
 written by a Chinese author, and appeared in a Chinese math journal.  
 Based on this Alan J. Goldman suggested the name "Chinese Postman
 problem" to Jack Edmonds when Edmonds was in Goldman's Operations
