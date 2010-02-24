@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Fri Sep  4 10:31:10 2009" *by "Paul E. Black"
+# *modified "Tue Feb 23 14:20:59 2010" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.6  2010/02/23 19:22:20  black
+# Robinson's NOTE is gone - remove it.  Add Shail's NOTE.
+#
 # Revision 1.5  2009/09/04 15:40:35  black
 # cite Knuth with V:PP (volume number, colon, page number)
 #
@@ -80,9 +83,11 @@ He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 
 # further explanation (pure HTML)
 @LINKS=
-Henry Robinson's
-<a href="http://hnr.dnsalias.net/wordpress/?p=43">explanation of
-correctness</a>.
+Sahil's
+# Sahil Thaker? user name is sahilthaker
+<a
+href="http://blogs.msdn.com/spt/archive/2008/02/05/reservoir-sampling.aspx">explanation
+of correctness</a> and extension to distributed reservoir sampling.
 
 # author's initials (see authors.data)
 @AUTHOR=PEB
