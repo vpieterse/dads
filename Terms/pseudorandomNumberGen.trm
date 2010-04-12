@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec  7 10:40:08 2009" *by "Paul E. Black"
+# *modified "Mon Apr 12 13:23:16 2010" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.14  2010/04/12 17:23:42  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
 # Revision 1.13  2009/12/07 15:42:01  black
 # Summit's C FAQ is gone.  Add other, similar links.
 #
@@ -102,9 +105,6 @@ structures</a>.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
-Herbert Glarner's
-<a href="http://herbert.gandraxa.com/herbert/rng.asp">Mersenne Twister MT
-19937 (Linoleum)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get <a
