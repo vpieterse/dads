@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon Aug 18 09:24:45 2008" *by "Paul E. Black"
+# *modified "Mon Apr 12 13:29:20 2010" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.12  2010/04/12 17:29:30  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
 # Revision 1.11  2008/08/18 13:24:50  black
 # Remove Kaz's IMPL - it has been off line for at least a month.
 #
@@ -116,9 +119,6 @@ Contributions by Rob Stewart 16 March 2004.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
 Pascal, and Fortran)</a>.
-Herbert Glarner's
-<a href="http://herbert.gandraxa.com/herbert/dic.asp">Patricia tree
-(Linoleum)</a> implementation.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dictionary.trm,v $
