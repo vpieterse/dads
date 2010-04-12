@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Apr 28 14:59:52 2009" *by "Paul E. Black"
+# *modified "Mon Apr 12 13:32:24 2010" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Revision 1.12  2010/04/12 17:32:42  black
+# Remove Falconer's IMPL - page gone, and I can't find it.
+#
 # Revision 1.11  2009/04/28 19:04:42  black
 # NOTE consistent hashing in Wikipedia.
 #
@@ -100,8 +103,7 @@ arbitrary sets of buckets.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Charles B. Falconer's
-<a href="http://cbfalconer.home.att.net/download/">hashlib (C)</a>
+
 including several example applications.
 # author's initials
 @AUTHOR=PEB
