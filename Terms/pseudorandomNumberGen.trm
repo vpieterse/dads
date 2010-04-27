@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 12 13:23:16 2010" *by "Paul E. Black"
+# *modified "Tue Apr 27 13:32:06 2010" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.15  2010/04/27 17:35:18  black
+# link to Yarrow IMPL
+#
 # Revision 1.14  2010/04/12 17:23:42  black
 # Remove Glarner's Linoleum IMPL - page moved.
 #
@@ -105,6 +108,8 @@ structures</a>.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
+<a href="http://www.schneier.com/yarrow.html">Yarrow (C)</a>, a
+cryptographically secure pseudorandom number generator.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get <a
