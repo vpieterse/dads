@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Tue Apr 27 10:14:18 2010" *by "Paul E. Black"
+# *modified "Tue Apr 27 13:32:53 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.26  2010/04/27 17:33:12  black
+# change British spelling to American.
+#
 # Revision 1.25  2010/04/27 14:15:24  black
 # Add Annas IMPL
 #
@@ -192,7 +195,7 @@ Template Library (C)</a>,
 Library (C++)</a>.
 <a href="http://annas.googlecode.com/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
-libraries are Annas.Graph, graph manipulation and visualisation and
+libraries are Annas.Graph, graph manipulation and visualization and
 Annas.Math, comprehensive math functions.
 <a href="http://jung.sourceforge.net/">JUNG (Java)</a>, the Java
 Universal Network/Graph framework.
