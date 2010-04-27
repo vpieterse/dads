@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Aug  3 09:38:44 2009" *by "Paul E. Black"
+# *modified "Tue Apr 27 10:14:18 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.25  2010/04/27 14:15:24  black
+# Add Annas IMPL
+#
 # Revision 1.24  2009/08/03 13:39:20  black
 # update URL for IMPL at Simple Programming Tutorials, now Algorithms
 # and Data Structures.
@@ -186,7 +189,11 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 <a href="http://www.infosun.fim.uni-passau.de/br/lehrstuhl/Projekte/">GTL - the Graph
 Template Library (C)</a>,
 <a href="http://www.boost.org/doc/libs/1_35_0/libs/graph/doc/">BGL - the Boost Graph
-Library (C++)</a>
+Library (C++)</a>.
+<a href="http://annas.googlecode.com/">Annas (Java)</a>, for graph
+theory, AI, path finding, distributed systems, etc.  The main
+libraries are Annas.Graph, graph manipulation and visualisation and
+Annas.Math, comprehensive math functions.
 <a href="http://jung.sourceforge.net/">JUNG (Java)</a>, the Java
 Universal Network/Graph framework.
 <a href="http://www.jdsl.org/home.html">JDSL (Java)</a>, the Data
