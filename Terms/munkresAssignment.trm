@@ -1,7 +1,10 @@
 # *created  "Fri Nov 14 12:59:28 2003" *by "Paul E. Black"
-# *modified "Mon May 22 11:39:36 2006" *by "Paul E. Black"
+# *modified "Thu Apr 29 13:12:43 2010" *by "Paul E. Black"
 
 # $Log: munkresAssignment.trm,v $
+# Revision 1.5  2010/04/29 17:14:23  black
+# Link to the IMPL by the original author, instead of a copy.
+#
 # Revision 1.4  2006/05/22 15:40:52  black
 # Remove CLLIB IMPL - gone
 #
@@ -59,8 +62,8 @@ and unmarking entries and covering and uncovering rows and columns.
 @NOTES=
 # implementation(s) (pure HTML)
 @IMPL=
-Example of step-wise coding of the
-<a href="http://www.public.iastate.edu/~ddoty/HungarianAlgorithm.html">algorithm
+Bob Pilgram's example of step-wise coding of the
+<a href="http://csclab.murraystate.edu/bob.pilgrim/445/munkres.html">algorithm
 (Pascal)</a> from a description.
 # further explanation (pure HTML)
 @LINKS=
