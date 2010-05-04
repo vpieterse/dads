@@ -1,7 +1,11 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Fri Oct 19 14:19:55 2007" *by "Paul E. Black"
+# *modified "Tue May  4 15:38:51 2010" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.7  2010/05/04 19:39:09  black
+# Improve wording of similarity with insertion sort.  NOTE that Grune
+# thought of this some time before 2003.
+#
 # Revision 1.6  2007/10/19 18:20:29  black
 # fix grammar (which -> that)
 #
@@ -69,8 +73,8 @@ the beginning.
 <p>
 This can be seen as an {insertion sort} that only keeps track of the
 current item.  After having moved an item backward into place, it
-"walks" forward, checking the order of items as it goes, until it
-reaches the next item is out of place, which is beyond where
+"walks" forward (checking the order of items as it goes) until it
+reaches the next out-of-place item, which is beyond where
 progress left off.
 </p>
 
@@ -80,7 +84,11 @@ reverses direction, instead of making complete passes.
 </p>
 
 <p>
-Dick Grune, the inventor, calls this "the simplest sort algorithm."
+# on 4 May 2010, Dick Grune wrote
+# The earliest evidence [of inventing gnome sort] I can find is of
+# March 22, 2003, but I'm pretty sure I thought of the idea much earlier.
+Dick Grune, who thought of this before 2003, calls this "the simplest
+sort algorithm."
 # any historical notes
 @HISTORY=
 
