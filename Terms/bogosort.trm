@@ -1,7 +1,11 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Tue Sep  8 09:04:37 2009" *by "Paul E. Black"
+# *modified "Wed May  5 14:48:06 2010" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.10  2010/05/05 18:56:10  black
+# Since gnome sort was originally called stupid sort, change the WEB
+# alias to a NOTE and create a "stupid sort" disambiguation entry.
+#
 # Revision 1.9  2009/09/08 13:05:02  black
 # update URL for Gruber's paper
 #
@@ -42,7 +46,7 @@ order.
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=bogus sort, bogo-sort, stupid sort
+@WEB=bogus sort, bogo-sort
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -78,6 +82,10 @@ Note: the permutation subroutine given for Algorithm 1 is
 <a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
 shuffle</a>.  Also "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
+</p>
+
+<p>
+Also called "stupid sort".
 
 # implementation(s) (pure HTML)
 @IMPL=
