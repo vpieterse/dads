@@ -1,7 +1,11 @@
 # *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
-# *modified "Tue May  4 15:38:51 2010" *by "Paul E. Black"
+# *modified "Wed May  5 14:49:12 2010" *by "Paul E. Black"
 
 # $Log: gnomeSort.trm,v $
+# Revision 1.8  2010/05/05 18:55:02  black
+# add BIB for Sarbazi-Azad's publication of this algorithm in 2000,
+# which is earlier than Grune.  Other minor wording improvements.
+#
 # Revision 1.7  2010/05/04 19:39:09  black
 # Improve wording of similarity with insertion sort.  NOTE that Grune
 # thought of this some time before 2003.
@@ -60,14 +64,17 @@ item.
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
-#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
-#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# 5 May 2010 email from <hamid.sarbazi-azad@epfl.ch>
+<strong>Hamid Sarbazi-Azad</strong>, <em>Stupid Sort: A new sorting
+algorithm</em>, 
+Department of Computing Science Newsletter, University of Glasgow,
+599:4, 2 October 2000.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 Complexity is {O(n<sup>2</sup>)#big-O notation} for
-arbitrary data, but approaches O(n) if the list is nearly in order at
-the beginning.
+arbitrary data, but approaches O(n) if the input list is nearly in
+order.
 </p>
 
 <p>
@@ -87,10 +94,10 @@ reverses direction, instead of making complete passes.
 # on 4 May 2010, Dick Grune wrote
 # The earliest evidence [of inventing gnome sort] I can find is of
 # March 22, 2003, but I'm pretty sure I thought of the idea much earlier.
-Dick Grune, who thought of this before 2003, calls this "the simplest
-sort algorithm."
+Dick Grune calls this "the simplest sort algorithm."
 # any historical notes
 @HISTORY=
+Originally called "stupid sort".
 
 # implementation(s) (pure HTML)
 @IMPL=
