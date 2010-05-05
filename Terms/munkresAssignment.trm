@@ -1,7 +1,10 @@
 # *created  "Fri Nov 14 12:59:28 2003" *by "Paul E. Black"
-# *modified "Thu Apr 29 13:12:43 2010" *by "Paul E. Black"
+# *modified "Wed May  5 11:34:38 2010" *by "Paul E. Black"
 
 # $Log: munkresAssignment.trm,v $
+# Revision 1.6  2010/05/05 15:34:56  black
+# fix mispelling
+#
 # Revision 1.5  2010/04/29 17:14:23  black
 # Link to the IMPL by the original author, instead of a copy.
 #
@@ -62,7 +65,7 @@ and unmarking entries and covering and uncovering rows and columns.
 @NOTES=
 # implementation(s) (pure HTML)
 @IMPL=
-Bob Pilgram's example of step-wise coding of the
+Bob Pilgrim's example of step-wise coding of the
 <a href="http://csclab.murraystate.edu/bob.pilgrim/445/munkres.html">algorithm
 (Pascal)</a> from a description.
 # further explanation (pure HTML)
