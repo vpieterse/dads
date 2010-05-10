@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Tue Apr 27 13:32:53 2010" *by "Paul E. Black"
+# *modified "Mon May 10 12:48:49 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.27  2010/05/10 16:56:18  black
+# add bipartite graph as a VARIANT
+#
 # Revision 1.26  2010/04/27 17:33:12  black
 # change British spelling to American.
 #
@@ -114,7 +117,7 @@ If the graph does not allow {self-loops}, adjacency is {irreflexive}.
 # Specialization: "... is a kind of me."
 @VARIANT={directed graph}, {undirected graph}, {acyclic graph},
 {directed acyclic graph},
-{planar graph}, {biconnected graph}, {connected graph}, 
+{planar graph}, {connected graph}, {biconnected graph}, {bipartite graph}, 
 {complete graph}, {dense graph}, {sparse graph},
 {hypergraph}, {multigraph}, {labeled graph},
 {weighted graph}, 
