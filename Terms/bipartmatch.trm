@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:34:23 2004" *by "Paul E. Black"
+# *modified "Mon May 10 12:53:12 2010" *by "Paul E. Black"
 
 # $Log: bipartmatch.trm,v $
+# Revision 1.4  2010/05/10 16:54:19  black
+# fix grammar
+#
 # Revision 1.3  2004/04/19 18:34:30  black
 # Use the standard English plural of vertex
 #
@@ -17,7 +20,7 @@
 @AREA=graph
 # the definition
 @DEFN=(1) A {perfect matching} between {vertices#vertex} of a
-{bipartite graph}, that is, a {subgraph} which pairs every vertex
+{bipartite graph}, that is, a {subgraph} that pairs every vertex
 with exactly one other vertex.
 (2) The problem of finding such a matching.
 # formal definition or {cross reference} to an entry
