@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Thu Nov  9 08:59:31 2006" *by "Paul E. Black"
+# *modified "Tue Jun  1 11:43:28 2010" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Revision 1.6  2010/06/01 15:46:35  black
+# Update URL for Lippert's IMPL
+#
 # Revision 1.5  2009/08/24 14:22:50  black
 # Remove LINK to FSU example: not publicly accessible.
 #
@@ -51,7 +54,7 @@ that is, according to a {partial order}.
 # implementation(s) (pure HTML)
 @IMPL=
 Eric Lippert's narrative example and <a
-href="http://blogs.msdn.com/ericlippert/archive/2004/03/16/90851.aspx">solution
+href="http://blogs.msdn.com/b/ericlippert/archive/2004/03/16/90851.aspx">solution
 (JScript)</a>.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/topological-sorting.shtml">(C++,
