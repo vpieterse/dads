@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Tue Feb 23 14:20:59 2010" *by "Paul E. Black"
+# *modified "Tue Jun  1 11:38:03 2010" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.7  2010/06/01 15:41:57  black
+# Update LINK to Sahil's explanation
+#
 # Revision 1.6  2010/02/23 19:22:20  black
 # Robinson's NOTE is gone - remove it.  Add Shail's NOTE.
 #
@@ -86,7 +89,7 @@ He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 Sahil's
 # Sahil Thaker? user name is sahilthaker
 <a
-href="http://blogs.msdn.com/spt/archive/2008/02/05/reservoir-sampling.aspx">explanation
+href="http://blogs.msdn.com/b/spt/archive/2008/02/05/reservoir-sampling.aspx">explanation
 of correctness</a> and extension to distributed reservoir sampling.
 
 # author's initials (see authors.data)
