@@ -1,7 +1,10 @@
 # *created  "Mon Jul 14 16:47:42 2003" *by "Paul E. Black"
-# *modified "Tue Jun  1 11:34:46 2010" *by "Paul E. Black"
+# *modified "Fri Jun  4 08:20:58 2010" *by "Paul E. Black"
 
 # $Log: hamiltonianPath.trm,v $
+# Revision 1.6  2010/06/04 12:21:56  black
+# fix href to (copy of) Moscato's paper
+#
 # Revision 1.5  2010/06/01 15:35:13  black
 # Update LINK to Moscato's page
 #
@@ -60,7 +63,7 @@ biography</a>).
 # further explanation (pure HTML)
 @LINKS=
 Old copy of Pablo Moscato's <a
-href=http://alife.ccp14.ac.uk/memetic/~moscato/Hamilton.html"">Hamiltonian
+href="http://alife.ccp14.ac.uk/memetic/~moscato/Hamilton.html">Hamiltonian
 Page</a> with papers on many aspects of Hamiltonian cycles and paths.
 # author's initials (see authors.data)
 @AUTHOR=PEB
