@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Nov  4 09:04:01 2009" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:11:26 2010" *by "Paul E. Black"
 
 # $Log: divideAndConquer.trm,v $
+# Revision 1.10  2010/06/14 13:12:00  black
+# add HISTORY comments about origin of divide-and-conquer
+#
 # Revision 1.9  2009/11/04 14:04:19  black
 # remove IMPL - Geocities is gone
 #
@@ -88,6 +91,20 @@ Here is the translation of "divide and conquer" in different languages:
 <tr><td>Spanish</td>	<td>divide y vencer&aacute;s</td></tr>
 <tr><td></td>	<td></td></tr>
 </table>
+
+# any historical notes
+@HISTORY=
+# the earliest citation of a divide-and-conquer algorithm I can find is
+# Jon Louis Bentley and Michael Ian Shamos, "Divide-and-conquer in
+# multidimensional space", Proc. ACM Symposium on Theory of Computing
+# (STOC), pages 220-230, Hershey, Pennsylvania, 1976.  The term is
+# clearly well-known then.  Web searching before that is hard since
+# little is on-line and there are many errors in publication date
+# (e.g. 1900, 1776, etc.).  The term "divide-and-conquer" goes back a
+# few centuries.  Divide-and-conquer algorithms go back at least to an
+# 1805 Gauss paper or von Neumann's 1945 merge sort.
+
+
 # further explanation (pure HTML)
 @LINKS=<a
 href="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
