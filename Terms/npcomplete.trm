@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:56 2008" *by "Paul E. Black"
+# *modified "Tue Jul  6 12:14:13 2010" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.12  2010/07/06 17:42:30  black
+# Add number to XKCD cartoon image name.
+#
 # Revision 1.11  2008/08/14 16:15:01  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -115,7 +118,7 @@ Zoo</a>
 </p>
 
 <p>
-<img src="../Images/xkcd np_complete.png"><br />
+<img src="../Images/xkcd np_complete 287.png"><br />
 From <a href="http://xkcd.com/">xkcd</a> by
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
