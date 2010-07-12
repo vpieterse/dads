@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Wed Jun  9 10:43:39 2010" *by "Paul E. Black"
+# *modified "Mon Jul 12 10:52:55 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.29  2010/07/12 14:53:41  black
+# add trailing slash to Annas IMPL URL
+#
 # Revision 1.28  2010/06/09 14:44:47  black
 # update URL for Annas IMPL
 #
@@ -199,7 +202,7 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 Template Library (C)</a>,
 <a href="http://www.boost.org/doc/libs/1_35_0/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</a>.
-<a href="http://code.google.com/p/annas">Annas (Java)</a>, for graph
+<a href="http://code.google.com/p/annas/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
 libraries are Annas.Graph, graph manipulation and visualization and
 Annas.Math, comprehensive math functions.
