@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Mon Feb  9 07:51:39 2009" *by "Paul E. Black"
+# *modified "Mon Jul 12 10:57:27 2010" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Revision 1.9  2010/07/12 14:58:35  black
+# remove LINK to tella.com animations: access gets an error(?) page in a
+# Scandanavian(?) language.
+#
 # Revision 1.8  2009/02/09 12:53:16  black
 # Remove Grothmann's IMPL - it is only a heuristic solver (I think its
 # meant more to demonstrate graph drawing than solving TSP) and it
@@ -93,9 +97,7 @@ starts with a minimum spanning tree, but is more careful about
 converting the tree to a path with results closer to optimal.
 
 # further explanation (pure HTML)
-@LINKS=Several <a
-href="http://web.telia.com/~u85905224/tsp/TSP.htm">animations of
-different heuristics</a>.
+@LINKS=
 <a href="http://www.tsp.gatech.edu/">links to challenges,
 advances, etc.</a>.
 # implementation(s) (pure HTML)
