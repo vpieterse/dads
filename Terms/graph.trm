@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Jul 12 10:52:55 2010" *by "Paul E. Black"
+# *modified "Mon Aug  9 09:48:26 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.30  2010/08/09 13:49:19  black
+# Update Boost IMPL URL
+#
 # Revision 1.29  2010/07/12 14:53:41  black
 # add trailing slash to Annas IMPL URL
 #
@@ -200,7 +203,7 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 # this has (invalid) GTL links.  They should be valid in the future, I hope
 <a href="http://www.infosun.fim.uni-passau.de/br/lehrstuhl/Projekte/">GTL - the Graph
 Template Library (C)</a>,
-<a href="http://www.boost.org/doc/libs/1_35_0/libs/graph/doc/">BGL - the Boost Graph
+<a href="http://www.boost.org/doc/libs/1_43_0/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</a>.
 <a href="http://code.google.com/p/annas/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
