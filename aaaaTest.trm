@@ -1,5 +1,5 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Thu Dec 18 10:47:55 2003" *by "Paul E. Black"
+# *modified "Thu Aug 19 13:07:23 2010" *by "Paul E. Black"
 
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree TEST ENTRY
@@ -49,14 +49,14 @@ $\delta\bigtriangleup\Delta\left(\begin\{array}\{c}n\\2\end\{array}\right)$
 @AKA={test entry}, exercises all facilities
 # comma-separated list of {cross references}, i.e., See also ...
 @XREFS=Both ${\omega}(n)$ and {$\omega$}(n) should be found,
-{B-tree},   {P-tree(1)},{P-tree(2)},
+{B-tree},   {treesort (1)},{treesort (2)},
 {R<sup>+</sup>-tree},{R<sup>*</sup>-tree}, 
 {Merge sort} should be found--mkterms changes initial upper case to
 lower case
 {linked lists} should be ok--removes trailing s
 
 # Generalization: "I am a kind of ..."
-@IMA={aaaaTest}, {sort}
+@IMA={aaaaTest}, {man in a gorilla suit#sort}
 # Specialization: "... is a kind of me."
 @VARIANT={covering}
 # Aggregate parent: "I am a part of or used in ..."
