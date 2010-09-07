@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Thu Nov 13 12:00:23 2008" *by "Paul E. Black"
+# *modified "Tue Sep  7 09:19:57 2010" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Revision 1.16  2010/09/07 13:20:40  black
+# Remove LINK to Elaan's fast array algorithm - the picture is offensive.
+#
 # Revision 1.15  2008/11/13 17:00:47  black
 # improve grammar in DEFN: use "that" instead of "which".
 #
@@ -128,9 +131,7 @@ and only ${\Theta}(S)$ extra space.
 
 # further explanation (pure HTML)
 @LINKS=
-Jennifer E. Elaan's
-<a href="http://caladan.nanosoft.ca/fastarray.php">fast array
-algorithm</a>, equivalent to Knuth's.
+
 # implementation(s) (pure HTML)
 @IMPL=
 Sedgewick &amp; Wayne's
