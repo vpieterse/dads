@@ -1,7 +1,10 @@
 # *created  "Wed Feb 24 15:03:32 1999" *by "Paul E. Black"
-# *modified "Mon Apr 30 10:38:37 2007" *by "Paul E. Black"
+# *modified "Tue Sep  7 09:36:31 2010" *by "Paul E. Black"
 
 # $Log: randomizedBinarySearchTree.trm,v $
+# Revision 1.7  2010/09/07 13:37:30  black
+# Update URL for Kiselyov's IMPL
+#
 # Revision 1.6  2007/04/30 14:38:51  black
 # IMA treap
 #
@@ -71,7 +74,10 @@ search in a RBST of size $n$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Oleg Kiselyov's
-<a href="http://okmij.org/ftp/Scheme/treap.scm">(Scheme)</a>
+<a href="http://okmij.org/ftp/Scheme/lib/treap.scm">treap
+implementation (Scheme)</a> and
+<a href="http://okmij.org/ftp/Scheme/#treaps">verification code and
+other links</a>.
 # author's initials
 @AUTHOR=CM
 # end $Source: /home/black/Workspace/dads/Terms/RCS/randomizedBinarySearchTree.trm,v $
