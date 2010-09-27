@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
-# *modified "Tue Apr 14 12:39:04 2009" *by "Paul E. Black"
+# *modified "Mon Sep 27 13:02:26 2010" *by "Paul E. Black"
 
 # $Log: unboundedKnapsack.trm,v $
+# Revision 1.6  2010/09/27 17:02:27  black
+# Update DADS URLs
+#
 # Revision 1.5  2009/04/14 16:39:14  black
 # update LINK to paper in citeseer, now citeseerx.
 #
@@ -63,7 +66,7 @@ $\sum<sub>t=1</sub><sup>N</sup> n<sub>t</sub>v<sub>t</sub>$, is maximized.
 @LINKS=<a
 href="http://www.tutor.ms.unimelb.edu.au/knapsack_new/">demonstration
 solutions</a> using
-<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/dynamicprog.html">dynamic
+<a href="http://xw2k.nist.gov/dads/HTML/dynamicprog.html">dynamic
 programming</a>.
 <a
 href="http://www.irisa.fr/cosi/HOMEPAGE/Rajopadhye/knapsack.html">formal
