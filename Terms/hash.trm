@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Jul 26 15:34:48 2010" *by "Paul E. Black"
+# *modified "Mon Sep 27 13:02:01 2010" *by "Paul E. Black"
 
 # $Log: hash.trm,v $
+# Revision 1.31  2010/09/27 17:02:09  black
+# Update DADS URLs
+#
 # Revision 1.30  2010/07/26 19:35:12  black
 # www.octavian.org/cs IMPL gone.
 #
@@ -137,9 +140,9 @@ Functions</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 See the implementations at <a
-href="http://www.itl.nist.gov/div897/sqg/dads/HTML/minimalPerfectHash.html">minimal
+href="http://xw2k.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
 perfect hashing (C++ and C)</a> and <a
-href="http://www.itl.nist.gov/div897/sqg/dads/HTML/pearsonshash.html">Pearson's hash
+href="http://xw2k.nist.gov/dads/HTML/pearsonshash.html">Pearson's hash
 (C)</a>.
 Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
