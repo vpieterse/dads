@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Aug  9 09:48:26 2010" *by "Paul E. Black"
+# *modified "Mon Sep 27 15:16:57 2010" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.31  2010/09/27 19:26:15  black
+# Find alternate source for JDSL
+#
 # Revision 1.30  2010/08/09 13:49:19  black
 # Update Boost IMPL URL
 #
@@ -211,7 +214,7 @@ libraries are Annas.Graph, graph manipulation and visualization and
 Annas.Math, comprehensive math functions.
 <a href="http://jung.sourceforge.net/">JUNG (Java)</a>, the Java
 Universal Network/Graph framework.
-<a href="http://www.jdsl.org/home.html">JDSL (Java)</a>, the Data
+<a href="http://www.cs.brown.edu/cgc/jdsl/">JDSL (Java)</a>, the Data
 Structures Library in Java.
 Algorithms and Data Structures'
 <a
