@@ -1,7 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Wed May  5 14:48:06 2010" *by "Paul E. Black"
+# *modified "Mon Sep 27 13:01:49 2010" *by "Paul E. Black"
 
 # $Log: bogosort.trm,v $
+# Revision 1.11  2010/09/27 17:02:01  black
+# Update DADS URLs
+#
 # Revision 1.10  2010/05/05 18:56:10  black
 # Since gnome sort was originally called stupid sort, change the WEB
 # alias to a NOTE and create a "stupid sort" disambiguation entry.
@@ -79,7 +82,7 @@ Available at
 <a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
 <br />
 Note: the permutation subroutine given for Algorithm 1 is
-<a href="http://www.itl.nist.gov/div897/sqg/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
+<a href="http://xw2k.nist.gov/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
 shuffle</a>.  Also "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
 </p>
