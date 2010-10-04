@@ -1,7 +1,10 @@
 # *created  "Wed Sep  9 13:13:49 1998" *by "Paul E. Black"
-# *modified "Mon May 10 09:30:11 2010" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:55:40 2010" *by "Paul E. Black"
 
 # $Log: ackermann.trm,v $
+# Revision 1.13  2010/10/04 18:55:53  black
+# Update utexas URLs
+#
 # Revision 1.12  2010/05/10 13:30:42  black
 # remove Kosara's LISP IMPL - page removed.
 #
@@ -120,7 +123,7 @@ Robert Munafo's <a
 href="http://www.mrob.com/pub/math/ln-2deep.html">Versions
 of Ackermann's Function</a> and analysis.
 Cowles and Bailey <a
-href="http://userweb.cs.utexas.edu/users/boyer/ftp/nqthm/nqthm-1992/examples/basic/peter.events">Several
+href="http://www.cs.utexas.edu/users/boyer/ftp/nqthm/nqthm-1992/examples/basic/peter.events">Several
 Versions of Ackermann's function</a>.
 # implementation(s) (pure HTML)
 @IMPL=History of the function and
