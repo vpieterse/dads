@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Mon Mar 29 11:02:37 2010" *by "Paul E. Black"
+# *modified "Mon Oct  4 14:56:00 2010" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Revision 1.10  2010/10/04 18:56:03  black
+# Update utexas URLs
+#
 # Revision 1.9  2010/03/29 15:02:41  black
 # Update cs.utexas,edu user URLs
 #
@@ -72,7 +75,7 @@ SIAM Journal on Computing, 6(2):323-350, 1977.
 @LINKS=
 Series of pages explaining
 <a
-href="http://userweb.cs.utexas.edu/users/moore/best-ideas/string-searching/kpm-example.html">how
+href="http://www.cs.utexas.edu/users/moore/best-ideas/string-searching/kpm-example.html">how
 Knuth-Morris-Pratt works</a>.
 # implementation(s) (pure HTML)
 @IMPL=Christian Charras' and Thierry Lecroq's <a
