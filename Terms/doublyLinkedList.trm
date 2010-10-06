@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:05:14 1998" *by "Paul E. Black"
-# *modified "Wed Oct  6 10:47:51 2010" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:58:28 2010" *by "Paul E. Black"
 
 # $Log: doublyLinkedList.trm,v $
+# Revision 1.11  2010/10/06 15:04:28  black
+# Use curly bracket ({..}) cross refs since they work in NOTES.
+#
 # Revision 1.10  2010/10/06 14:51:04  black
 # Note that binary search only uses O(log n) comparisons.
 #
@@ -59,15 +62,14 @@ in constant time.
 @XREFS={jump list}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=See <a href="../terms.html">[Stand98, p. 91]</a>.
+@NOTES=See <a href="../terms.html#Stand98">[Stand98, p. 91]</a>.
 </p>
 
 <p>
-<a href="http://xw2k.nist.gov/dads/HTML/binarySearch.html">Binary
-search</a> may be effective with an 
-<a href="http://xw2k.nist.gov/dads/HTML/orderedLinkedList.html">ordered</a>
-doubly linked list.  The total number of traversals are O(n), but it only
-performs O(log n) comparisons.
+{Binary search} may be effective with an 
+{ordered#ordered linked list}, {doubly linked list}.
+It makes O(n) traversals, as does {linear search}, but it
+only performs O(log n) comparisons.
 For more explanation, see Tim Rolfe's
 <a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
 
