@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Aug  3 10:01:41 2009" *by "Paul E. Black"
+# *modified "Wed Oct  6 11:05:26 2010" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.14  2010/10/06 15:05:40  black
+# Add that binary search may be effective in some cases.
+#
 # Revision 1.13  2009/08/03 14:27:07  black
 # update URL for IMPL at Simple Programming Tutorials, now Algorithms
 # and Data Structures
@@ -76,10 +79,19 @@ accessed from a fixed location, called a ``head pointer.''
 An ordinary linked list must be searched with a 
 {linear search}.  Average search time may be improved using a 
 {move-to-front heuristic} or keeping it an
-{ordered linked list}.
+{ordered linked list}, in which binary search may be effective; see below.
 An {external index}, such as a {hash table}, {inverted index}, or
 auxiliary {search tree} may be used as a ``cross index'' to help find
 items quickly.
+</p>
+
+<p>
+{Binary search} may be effective with an 
+{ordered#ordered linked list}, {doubly linked list}.
+It makes O(n) traversals, as does linear search, but it
+only performs O(log n) comparisons.
+For more explanation, see Tim Rolfe's
+<a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
 </p>
 
 <p>
