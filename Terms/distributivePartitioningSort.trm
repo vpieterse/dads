@@ -1,7 +1,10 @@
 # *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
-# *modified "Tue Mar 28 15:04:24 2006" *by "Paul E. Black"
+# *modified "Fri Oct  8 13:46:13 2010" *by "Paul E. Black"
 
 # $Log: distributivePartitioningSort.trm,v $
+# Revision 1.4  2010/10/08 17:46:59  black
+# add comment that the article is attached to a 2006 email message
+#
 # Revision 1.3  2006/03/28 20:05:56  black
 # Clarify DEFN that there are n buckets and that buckets are compacted.
 # XREF linear probling sort.  NOTE that histogram sort talks about a
@@ -56,6 +59,7 @@ moving items until a final phase and to avoid bucket overflows.
 @BIB=
 <strong>Wlodzimierz Dobosiewicz</strong>, <em>Sorting by Distributive
 Partitioning</em>, Information Processing Letters, 7(1):1-7, January 1978.
+# scan of article is attached to 24 Mar 2006 email from Jesse Chisolm
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
