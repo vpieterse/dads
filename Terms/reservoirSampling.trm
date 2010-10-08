@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Tue Jun  1 11:38:03 2010" *by "Paul E. Black"
+# *modified "Fri Oct  8 12:23:02 2010" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Revision 1.8  2010/10/08 16:25:37  black
+# improve wording
+#
 # Revision 1.7  2010/06/01 15:41:57  black
 # Update LINK to Sahil's explanation
 #
@@ -31,10 +34,10 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=An algorithm to randomly select $k$ items from a stream of items
+@DEFN=Randomly select $k$ items from a stream of items
 of unknown length.  Save the first $k$ items in an {array} of size $k$.
 For each item $j$, $j &gt; k$, choose a random integer $M$ from 1 to
-$j$ (inclusive).  If $M \leq k$, replace element $M$ of the array with
+$j$ (inclusive).  If $M \leq k$, replace item $M$ of the array with
 item $j$.
 # formal definition or {cross reference} to an entry
 @FORML=
