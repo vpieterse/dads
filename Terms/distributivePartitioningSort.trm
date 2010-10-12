@@ -1,7 +1,10 @@
 # *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
-# *modified "Fri Oct  8 13:46:13 2010" *by "Paul E. Black"
+# *modified "Tue Oct 12 12:49:16 2010" *by "Paul E. Black"
 
 # $Log: distributivePartitioningSort.trm,v $
+# Revision 1.5  2010/10/12 16:49:36  black
+# improve wording and fix grammar.
+#
 # Revision 1.4  2010/10/08 17:46:59  black
 # add comment that the article is attached to a 2006 email message
 #
@@ -65,7 +68,7 @@ Partitioning</em>, Information Processing Letters, 7(1):1-7, January 1978.
 @NOTES=
 Shuffle sort estimates the distribution of the items to be sorted by
 examining the first $n/8$ items.  Distributive partitioning sort
-estimates the distribution by approximating the median and linearly
+estimates the distribution by linearly
 interpolating from the minimum to the median and from the median to
 the maximum.  Histogram sort counts the number of items in each
 (fixed) interval.  See the note at {histogram sort} on distributing
@@ -73,7 +76,7 @@ according to a rank function R.
 </p>
 
 <p>
-The implementation outline in the paper has a preparation step.  The
+The implementation outlined in the paper has a preliminary step.  The
 step finds the {median} and {partitions} around it, then sorts
 the lower half and the upper half with the defined algorithm.
 # any historical notes
