@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Wed Oct  6 11:05:26 2010" *by "Paul E. Black"
+# *modified "Tue Oct 12 12:53:19 2010" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.15  2010/10/12 16:54:14  black
+# remove David R. Musser's IMPL - account seems to be gone all together.
+#
 # Revision 1.14  2010/10/06 15:05:40  black
 # Add that binary search may be effective in some cases.
 #
@@ -105,8 +108,6 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/lists.html">introduction</a>
 a Java applet <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LinkListAppl.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.cs.rpi.edu/~musser/gp/lists.html">explanations,
-examples, iterators, sorting lists, etc. (C++)</a>.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/lists/lists.html">tutorial
