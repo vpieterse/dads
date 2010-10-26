@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jul  6 12:14:13 2010" *by "Paul E. Black"
+# *modified "Mon Oct 25 16:32:29 2010" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.13  2010/10/25 20:32:30  black
+# Update Scott Aaronson's Complexity Zoo URLs
+#
 # Revision 1.12  2010/07/06 17:42:30  black
 # Add number to XKCD cartoon image name.
 #
@@ -113,7 +116,7 @@ of NP optimization problems</a>.
 
 <p>
 Scott Aaronson's
-<a href="http://qwiki.stanford.edu/wiki/Complexity_Zoo">Complexity
+<a href="http://qwiki.stanford.edu/index.php/Complexity_Zoo">Complexity
 Zoo</a>
 </p>
 
