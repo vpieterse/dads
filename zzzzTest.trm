@@ -1,5 +1,11 @@
 # *created  "Tue Sep 15 16:48:57 1998" *by "Paul E. Black"
-# *modified "Mon Nov 26 15:54:32 2007" *by "Paul E. Black"
+# *modified "Wed Nov  3 11:53:00 2010" *by "Paul E. Black"
+
+# $Log: zzzzTest.trm,v $
+# Revision 1.7  2010/11/03 15:53:40  black
+# add test for unmatched HTML close-anchor and some RCS key words.
+#
+
 # entry name
 @NMAE=this tests audit functions
 @NAME=   
@@ -24,6 +30,7 @@ different from the text, for instance, the text must be capitalized or
 made plural, use the dual form like {these#this}.  The word "these"
 appears in the text, but the link is to "this".
 This has an unmatched open paren { at the end.
+This has an unmatched HTML close-anchor: </a>.
 @WEB=ends in period.
 @AKA=embedded {curly bracket},ends in blank 
 # further explanation (pure HTML)
@@ -32,4 +39,4 @@ This has an unmatched open paren { at the end.
 @IMPL=
 # author's initials
 @AUTHOR=NOBODY, BYU, PEB
-# end
+# end of $Source: /home/black/DADS/dads/RCS/zzzzTest.trm,v $
