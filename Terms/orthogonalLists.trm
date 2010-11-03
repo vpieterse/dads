@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 18 17:35:14 2009" *by "Paul E. Black"
+# *modified "Wed Nov  3 12:00:29 2010" *by "Paul E. Black"
 
 # $Log: orthogonalLists.trm,v $
+# Revision 1.5  2010/11/03 16:16:00  black
+# remove orphan HTML end-anchor.
+#
 # Revision 1.4  2009/12/18 22:35:46  black
 # Remove LINK to Sonnack's graphic of orthogonal lists implementing a
 # sparse matrix.
@@ -47,7 +50,7 @@ href="http://cs.saddleback.edu/rwatkins/CS2B/Lab Exercises/Orthogal Lists Lab.pd
 exercise with four attributes</a>.
 <a
 href="http://www.cise.ufl.edu/~sahni/cop3530/powerpoint/lec11.ppt">PowerPoint</a>
-lecture notes</a> of using orthogonal lists to implement a sparse matrix.
+lecture notes of using orthogonal lists to implement a sparse matrix.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
