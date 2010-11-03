@@ -1,7 +1,10 @@
 # *created  "Mon Feb  8 09:35:24 1999" *by "Paul E. Black"
-# *modified "Mon Mar 21 09:35:17 2005" *by "Paul E. Black"
+# *modified "Wed Nov  3 12:01:24 2010" *by "Paul E. Black"
 
 # $Log: transitiveReduction.trm,v $
+# Revision 1.6  2010/11/03 16:15:50  black
+# remove orphan HTML end-anchor.
+#
 # Revision 1.5  2005/03/21 14:37:44  black
 # Remove URL for abstract of Aho, Garey, and Ullman--server gone.  Fix
 # grammatical error in DEFN.  Change file name.
@@ -46,7 +49,7 @@ After abstract of
 <strong>A.
 V. Aho, M. R. Garey</strong>, and
 <strong>J. D. Ullman</strong>. <em>The transitive reduction of a
-directed graph</em>.</a> SIAM Journal on Computing, 1:131--137, 1972.
+directed graph</em>. SIAM Journal on Computing, 1:131--137, 1972.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
