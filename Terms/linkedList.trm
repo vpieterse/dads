@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Tue Oct 12 12:53:19 2010" *by "Paul E. Black"
+# *modified "Wed Nov  3 12:11:23 2010" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.16  2010/11/03 16:14:13  black
+# add see also skip list
+#
 # Revision 1.15  2010/10/12 16:54:14  black
 # remove David R. Musser's IMPL - account seems to be gone all together.
 #
@@ -73,7 +76,7 @@ to the next item.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={move-to-front heuristic}, 
+@XREFS={move-to-front heuristic}, {skip list},
 sort algorithms: {radix sort}, {strand sort}
 
 # any notes.  these will not be printed in the final dictionary
