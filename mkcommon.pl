@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.28 2009/02/04 16:03:50 black Exp $
+# $Id: mkcommon.pl,v 1.29 2010/11/04 19:46:44 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Wed Feb  4 11:01:05 2009" *by "Paul E. Black"
+# *modified "Thu Nov  4 15:43:01 2010" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -30,7 +30,8 @@ $WEB_DIR	="Target";
 # - The URL to the main directory, that is,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-*URL_DIR	=\"http://www.itl.nist.gov/div897/sqg/dads";
+#*URL_DIR	=\"http://www.itl.nist.gov/div897/sqg/dads";
+*URL_DIR	=\"http://xw2k.nist.gov/dads";
 
 #------------------------------------------------------------------------
 #	Input files, directories, etc.
@@ -357,7 +358,12 @@ sub readConfigFiles {
 	    if (/^(\S+)\s*(.*)/o) {
 		$pat = quoteREpatterns($1);
 		$replace = $2;
+		# use absolute, not relative, path for images, since images 
+		# like sim.gif appear in names at top level and in entries
+		$replace =~ s|"Images|"$URL_DIR/Images|g;
 		$replace = quoteREpatterns($replace);
+		# print "REPLACE $pat\n";
+		# print "with    $replace\n";
 		last SWITCH;
 	    }
 	    {
