@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 13 11:40:37 2009" *by "Paul E. Black"
+# *modified "Mon Nov  8 09:10:17 2010" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Revision 1.14  2010/11/08 14:13:55  black
+# correct URL of XKCD cartoon
+#
 # Revision 1.13  2009/07/13 15:45:15  black
 # Remove LINK to pictures of knapsacks - the domain name is gone.
 #
@@ -90,7 +93,7 @@ different values and volumes and a knapsack, is there a subset that
 exceeds a certain value?  The decision problem is {NP-complete}.
 # further explanation (pure HTML)
 @LINKS=
-<img src="../Images/xkcd np_complete.png"><br />
+<img src="../Images/xkcd np_complete 287.png"><br />
 From <a href="http://xkcd.com/">xkcd</a> by
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
