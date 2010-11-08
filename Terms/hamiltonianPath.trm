@@ -1,7 +1,10 @@
 # *created  "Mon Jul 14 16:47:42 2003" *by "Paul E. Black"
-# *modified "Fri Jun  4 08:20:58 2010" *by "Paul E. Black"
+# *modified "Mon Nov  8 09:05:00 2010" *by "Paul E. Black"
 
 # $Log: hamiltonianPath.trm,v $
+# Revision 1.7  2010/11/08 14:05:20  black
+# Remove LINK to Moscato's page - it is gone.
+#
 # Revision 1.6  2010/06/04 12:21:56  black
 # fix href to (copy of) Moscato's paper
 #
@@ -62,9 +65,7 @@ biography</a>).
 @IMPL=
 # further explanation (pure HTML)
 @LINKS=
-Old copy of Pablo Moscato's <a
-href="http://alife.ccp14.ac.uk/memetic/~moscato/Hamilton.html">Hamiltonian
-Page</a> with papers on many aspects of Hamiltonian cycles and paths.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/hamiltonianPath.trm,v $
