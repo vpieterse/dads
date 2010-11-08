@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Tue Jun  1 11:34:14 2010" *by "Paul E. Black"
+# *modified "Mon Nov  8 09:05:32 2010" *by "Paul E. Black"
 
 # $Log: hamiltonianCycle.trm,v $
+# Revision 1.7  2010/11/08 14:05:52  black
+# Remove LINK to Moscato's page - it is gone
+#
 # Revision 1.6  2010/06/01 15:34:35  black
 # Update LINK to Moscato's page
 #
@@ -62,9 +65,7 @@ each edge once.
 Also known as a Hamiltonian circuit.
 # further explanation (pure HTML)
 @LINKS=
-Old copy of Pablo Moscato's <a
-href="http://alife.ccp14.ac.uk/memetic/~moscato/Hamilton.html">Hamiltonian
-Page</a> with papers on many aspects of Hamiltonian cycles and paths.
+
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/hamiltonian-cycle.shtml">(Fortran,
