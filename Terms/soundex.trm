@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Dec 17 12:31:14 2007" *by "Paul E. Black"
+# *modified "Mon Dec 13 08:59:46 2010" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Revision 1.14  2010/12/13 14:00:13  black
+# Remove NARA and GIL links - the pages are gone (or moved).
+#
 # Revision 1.13  2007/12/17 17:31:49  black
 # Update URL for Bradley & Kathleen's IMPL.
 #
@@ -72,10 +75,6 @@ records.  The standard algorithm works best on European names.
 Variants have been devised for names from other cultures.
 # further explanation (pure HTML)
 @LINKS=
-NARA <a href="http://www.archives.gov/genealogy/census/soundex.html">Soundex
-Indexing System</a> (or <a
-href="http://www.archives.gov/publications/general-info-leaflets/55.html">GIL
-55</a>) with links to encoders and more information.
 <a href="http://bradandkathy.com/genealogy/overviewofsoundex.html">Overview
 of Soundex</a>.
 # implementation(s) (pure HTML)
