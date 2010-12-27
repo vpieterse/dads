@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Mon Jul 12 10:57:27 2010" *by "Paul E. Black"
+# *modified "Mon Dec 27 12:02:48 2010" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Revision 1.10  2010/12/27 17:03:23  black
+# Remove Moscato IMPL - page moved or deleted
+#
 # Revision 1.9  2010/07/12 14:58:35  black
 # remove LINK to tella.com animations: access gets an error(?) page in a
 # Scandanavian(?) language.
@@ -102,10 +105,6 @@ converting the tree to a path with results closer to optimal.
 advances, etc.</a>.
 # implementation(s) (pure HTML)
 @IMPL=
-Pablo Moscato's <a
-href="http://www.ing.unlp.edu.ar/cetad/mos/TSPBIB_home.html">TSPBIB
-Home Page</a> with links to software, papers, preprints, reports,
-etc., on-line on this and related problems.
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/traveling-salesman.shtml">(C,
 Fortran, Pascal, Mathematica, and C++)</a>.
