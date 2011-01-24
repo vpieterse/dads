@@ -1,7 +1,10 @@
 # *created  "Wed Sep 20 11:06:09 2006" *by "Paul E. Black"
-# *modified "Tue Feb 23 14:30:17 2010" *by "Paul E. Black"
+# *modified "Mon Jan 24 13:19:12 2011" *by "Paul E. Black"
 
 # $Log: JSort.trm,v $
+# Revision 1.7  2011/01/24 18:19:57  black
+# update Morrison's URL
+#
 # Revision 1.6  2010/02/23 19:31:29  black
 # update Morrison's URL to proton.scs.carleton.ca
 #
@@ -53,8 +56,7 @@ nearly-ordered array.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 The implementation attributes the algorithm to 
-<a href="http://proton.scs.carleton.ca/~morrison/">Jason Morrison</a>,
-Carleton University.
+<a href="http://home.cc.umanitoba.ca/~morrisoj/">Jason Morrison</a>.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
