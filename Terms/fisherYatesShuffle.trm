@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Fri Sep  4 10:22:21 2009" *by "Paul E. Black"
+# *modified "Mon Jan 24 13:04:03 2011" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.14  2011/01/24 18:14:22  black
+# Update Sedgewick & Wayne Princeton URL
+#
 # Revision 1.13  2009/09/04 15:40:54  black
 # cite Knuth with V:PP (volume number, colon, page number)
 #
@@ -106,9 +109,8 @@ Ben Pfaff's answer to
 <a href="http://www.stanford.edu/~blp/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
 An 
-<a href="http://www.cs.princeton.edu/introcs/14array/">implementation
-(Java)</a> due to Sedgewick and Wayne, including an explanation of
-unfair shuffle algorithms (search for Shuffling).
+<a href="http://introcs.cs.princeton.edu/14array/">implementation
+(Java)</a> due to Sedgewick and Wayne (search for Shuffling).
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
