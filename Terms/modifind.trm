@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 15:50:30 1999" *by "Paul E. Black"
-# *modified "Fri Jul 31 15:24:32 2009" *by "Paul E. Black"
+# *modified "Mon Jan 31 11:04:20 2011" *by "Paul E. Black"
 
 # $Log: modifind.trm,v $
+# Revision 1.5  2011/01/31 16:04:48  black
+# Remove Zabrodsky's IMPL - server not found.
+#
 # Revision 1.4  2009/07/31 19:25:16  black
 # Update IMPL URL and add author's name.  Improve DEFN.
 #
@@ -45,9 +48,7 @@ No. 6, pages 33-34, 1992
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Vladimir Zabrodsky's
-<a href="http://dhost.info/zabrodskyvlada/3alg.html">analysis
-and comparison (Rexx)</a>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/modifind.trm,v $
