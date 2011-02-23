@@ -1,7 +1,10 @@
 # *created  "Wed Nov 29 17:06:07 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:31 2004" *by "Paul E. Black"
+# *modified "Tue Feb 22 17:12:39 2011" *by "Paul E. Black"
 
 # $Log: pairingHeap.trm,v $
+# Revision 1.4  2011/02/22 22:13:09  black
+# Darius Bacon's IMPL gone - remove link to it.
+#
 # Revision 1.3  2004/12/17 17:28:31  black
 # Make more XHTML compliant.
 #
@@ -42,10 +45,7 @@ Algorithmica, 1(1):111-129, 1986.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Darius Bacon's
-<a
-href="http://www.accesscom.com/~darius/software/scheme-data-structures/pairing-heap.scm">functional
-implementation (Scheme)</a>.
+
 # author's initials (see authors.data)
 @AUTHOR=
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pairingHeap.trm,v $
