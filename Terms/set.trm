@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jan 11 16:15:44 2005" *by "Paul E. Black"
+# *modified "Tue Feb 22 17:11:14 2011" *by "Paul E. Black"
 
 # $Log: set.trm,v $
+# Revision 1.8  2011/02/22 22:11:28  black
+# Darius Bacon IMPL gone - remove link to it.
+#
 # Revision 1.7  2005/01/11 21:15:53  black
 # Specify that IMA ADT.
 #
@@ -84,10 +87,6 @@ The {predicate} isEmpty(S) may be defined with the following additional axioms.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/set-data-structures.shtml">(C++
 and Pascal)</a>.
-Darius Bacon's
-<a
-href="http://www.accesscom.com/~darius/software/scheme-data-structures/sets.scm">functional
-implementation (Scheme)</a>.
 
 # author's initials
 @AUTHOR=PR, PEB
