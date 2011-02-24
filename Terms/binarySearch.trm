@@ -1,7 +1,11 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Wed Oct  6 11:06:41 2010" *by "Paul E. Black"
+# *modified "Thu Feb 24 12:18:21 2011" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.20  2011/02/24 17:20:00  black
+# Rolfe's algorithm is for a (singly) linked list - a doubly linked list
+# is not necessary.
+#
 # Revision 1.19  2010/10/06 15:07:42  black
 # Note that binary search may be effective in ordered, doubly linked
 # lists.  Replace note in IMPL about 0-based indexing with a cross
@@ -116,7 +120,7 @@ Thanks to Colin D. Wright, 1 June 2005.
 
 <p>
 Binary search may be effective with an
-{ordered#ordered linked list}, {doubly linked list}.
+{ordered linked list}.
 It makes O(n) traversals, as does {linear search}, but it
 only performs O(log n) comparisons.
 For more explanation, see Tim Rolfe's
