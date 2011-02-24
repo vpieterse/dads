@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Wed Nov  3 12:11:23 2010" *by "Paul E. Black"
+# *modified "Thu Feb 24 12:20:50 2011" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.17  2011/02/24 17:22:40  black
+# Rolfe's algorithm needs only a (singly) linked list, not a boudly
+# linked list.
+#
 # Revision 1.16  2010/11/03 16:14:13  black
 # add see also skip list
 #
@@ -93,7 +97,7 @@ items quickly.
 
 <p>
 {Binary search} may be effective with an 
-{ordered#ordered linked list}, {doubly linked list}.
+{ordered linked list}.
 It makes O(n) traversals, as does linear search, but it
 only performs O(log n) comparisons.
 For more explanation, see Tim Rolfe's
