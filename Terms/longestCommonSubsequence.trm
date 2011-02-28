@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 27 13:02:09 2010" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:41 2011" *by "Paul E. Black"
 
 # $Log: longestCommonSubsequence.trm,v $
+# Revision 1.10  2011/02/28 14:12:43  black
+# change DADS URL root.  Again
+#
 # Revision 1.9  2010/09/27 17:02:19  black
 # Update DADS URLs
 #
@@ -74,7 +77,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 Dan Hirschberg's <a
 href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</a>
 as an example of <a
-href="http://xw2k.nist.gov/dads/HTML/dynamicprog.html">dynamic
+href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
 programming</a>.
 <a
 href="http://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-common
