@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Thu Feb 24 12:18:21 2011" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:21 2011" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Revision 1.21  2011/02/28 14:12:30  black
+# change DADS URL root.  Again
+#
 # Revision 1.20  2011/02/24 17:20:00  black
 # Rolfe's algorithm is for a (singly) linked list - a doubly linked list
 # is not necessary.
@@ -138,7 +141,7 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a>, which uses
-<a href="http://xw2k.nist.gov/dads/HTML/zeroBasedIndexing.html">0-based indexing</a>.
+<a href="http://www.nist.gov/dads/HTML/zeroBasedIndexing.html">0-based indexing</a>.
 Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Binary_search">explanation
