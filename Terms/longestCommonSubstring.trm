@@ -1,7 +1,10 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Mon Sep 27 13:02:19 2010" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:43 2011" *by "Paul E. Black"
 
 # $Log: longestCommonSubstring.trm,v $
+# Revision 1.6  2011/02/28 14:12:45  black
+# change DADS URL root.  Again
+#
 # Revision 1.5  2010/09/27 17:02:20  black
 # Update DADS URLs
 #
@@ -54,7 +57,7 @@ subsequence need not be.
 Dan Hirschberg's <a
 href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</a>
 as an example of <a
-href="http://xw2k.nist.gov/dads/HTML/dynamicprog.html">dynamic
+href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
 programming</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
