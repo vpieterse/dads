@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:51:37 1998" *by "Paul E. Black"
-# *modified "Mon Sep 27 13:02:20 2010" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:45 2011" *by "Paul E. Black"
 
 # $Log: perfecthash.trm,v $
+# Revision 1.9  2011/02/28 14:12:46  black
+# change DADS URL root.  Again
+#
 # Revision 1.8  2010/09/27 17:02:21  black
 # Update DADS URLs
 #
@@ -70,7 +73,7 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=See the implementations at <a
-href="http://xw2k.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
+href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
 perfect hashing (C++, C)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c">insert
