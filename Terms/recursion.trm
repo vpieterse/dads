@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Sep 27 13:02:21 2010" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:46 2011" *by "Paul E. Black"
 
 # $Log: recursion.trm,v $
+# Revision 1.11  2011/02/28 14:12:47  black
+# change DADS URL root.  Again
+#
 # Revision 1.10  2010/09/27 17:02:23  black
 # Update DADS URLs
 #
@@ -125,7 +128,7 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/dynamic.html#fibonacci">dyna
 algorithms</a> for an example of one trade-off between speed and
 clarity for a recursive vs. an iterative implementation.  
 See the notes for the 
-<a href="http://xw2k.nist.gov/dads/HTML/towersOfHanoi.html">towers of
+<a href="http://www.nist.gov/dads/HTML/towersOfHanoi.html">towers of
 Hanoi</a> puzzle for another recursive and iterative solution.
 Bro. David Carlson's
 <a
