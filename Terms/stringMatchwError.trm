@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 27 13:02:23 2010" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:47 2011" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Revision 1.11  2011/02/28 14:12:49  black
+# change DADS URL root.  Again
+#
 # Revision 1.10  2010/09/27 17:02:26  black
 # Update DADS URLs
 #
@@ -85,7 +88,7 @@ a {suffix tree}.
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
 @IMPL=See implementations at <a
-href="http://xw2k.nist.gov/dads/HTML/stringMatching.html">string
+href="http://www.nist.gov/dads/HTML/stringMatching.html">string
 matching</a>.  <a
 href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtml">(C
 and Pascal)</a>
