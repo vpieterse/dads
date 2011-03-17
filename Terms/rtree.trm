@@ -1,7 +1,11 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Mon Dec 17 12:28:10 2007" *by "Paul E. Black"
+# *modified "Thu Mar 17 10:47:24 2011" *by "Paul E. Black"
 
 # $Log: rtree.trm,v $
+# Revision 1.4  2011/03/17 14:50:15  black
+# Add Pavlata's C++ IMPL.  Remove Kollios' Java IMPL - not found.
+# Replace secondary BIB for (1) with original BIB.  Improve grammar.
+#
 # Revision 1.3  2007/12/17 17:28:28  black
 # Remove volny.cz IMPL - page is gone
 #
@@ -16,7 +20,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=(1) A {spatial access method} which splits space with
+@DEFN=(1) A {spatial access method} that splits space with
 hierarchically nested, and possibly overlapping, boxes.  The tree is
 height-balanced.
 (2) A {recursion tree}.
@@ -32,11 +36,15 @@ height-balanced.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={B-tree},{P-tree} (2),{P-tree} (3),
-
 {R<sup>+</sup>-tree},{R<sup>*</sup>-tree}
+
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
-@BIB=(1) After <a href="../terms.html#GG98">[GG98]</a>.
-Also found in Algorithms and Theory of Computation Handbook, page 18-24.
+@BIB=
+(1)
+<strong>A. Guttman</strong>, <em>R-trees: A Dynamic Index Structure
+for Spatial Searching</em>, Proc ACM SIGMOD Internationl Conference on
+Management of Data, 47-57, June 1984.
+<br />
 (2) Used in <a href="../terms.html#GCG92">[GCG92]</a>.  Suggested by
 Rama Maiti, 19 August 2001.
 # any notes.  these will not be printed in the final dictionary
@@ -45,7 +53,9 @@ Rama Maiti, 19 August 2001.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.cs.bu.edu/faculty/gkollios/rtrees.html">(Java)</a>.
+(1)
+Ondřej Pavlata's
+<a href="http://www.atalon.cz/r-tree/">Mg R-tree library(C++)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/rtree.trm,v $
