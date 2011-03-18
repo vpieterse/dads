@@ -1,7 +1,10 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Mon Jan 22 16:53:15 2007" *by "Paul E. Black"
+# *modified "Tue Feb 22 16:41:56 2011" *by "Paul E. Black"
 
 # $Log: arithmeticCoding.trm,v $
+# Revision 1.9  2011/03/18 13:35:57  black
+# Update URL for Mark Nelson's NOTE on theory
+#
 # Revision 1.8  2007/01/22 21:54:48  black
 # add BIB for Martin's Range encoding.  Add other references for range
 # encoding.  add URL for Abel's excellent site with IMPL
@@ -88,7 +91,8 @@ J&uuml;rgen Abel's excellent Range and <a
 href="http://www.data-compression.info/Algorithms/AC/">Arithmetic
 Coding resources (C, Java, C++)</a>, with links to papers, people, and
 implementations.
-<a href="http://dogma.net/markn/articles/arith/part1.htm">Theory
+Mark Nelson's article on
+<a href="http://marknelson.us/1991/02/01/arithmetic-coding-statistical-modeling-data-compression/">theory
 development and implementation (C)</a>.
 An <a href="http://www.nrbook.com/a/bookcpdf/c20-5.pdf">explanation and
 implementation (C)</a>: a PDF document of section 20.5 of
