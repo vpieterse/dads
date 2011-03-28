@@ -1,7 +1,10 @@
 # *created  "Fri Dec  3 10:31:39 2004" *by "Paul E. Black"
-# *modified "Mon Nov 23 16:50:06 2009" *by "Paul E. Black"
+# *modified "Mon Mar 28 11:15:56 2011" *by "Paul E. Black"
 
 # $Log: cordic.trm,v $
+# Revision 1.6  2011/03/28 15:16:19  black
+# remove Ken Turkowski's intro - not found
+#
 # Revision 1.5  2009/11/23 21:50:26  black
 # update dspGuru IMPL URL
 #
@@ -69,9 +72,7 @@ MATLAB)</a>.
 dspGuru's
 <a href="http://www.dspguru.com/dsp/faqs/cordic">introduction and
 code (C)</a>.
-Ken Turkowski's <a
-href="http://www.worldserver.com/turk/computergraphics/FixedPointTrigonometry.pdf">Introduction
-to the CORDIC Technique (C)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 The Internet Archive Wayback Machine copy of Shaoyun's <a
