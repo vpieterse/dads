@@ -1,7 +1,11 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Tue Dec 14 08:49:42 2010" *by "Paul E. Black"
+# *modified "Wed Apr 20 16:55:40 2011" *by "Paul E. Black"
 
 # $Log: completetree.trm,v $
+# Revision 1.5  2011/04/20 20:57:43  black
+# Fix DEFN (just follow complete binary tree definition).  Improve WEB,
+# IMA, and VARIANT references.  NOTE relation to a perfect k-ary tree.
+#
 # Revision 1.4  2010/12/14 13:51:03  black
 # Be specific: a complete binary tree is a VARIANT
 #
@@ -10,7 +14,6 @@
 #
 # Revision 1.2  2004/12/17 17:03:14  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
-#
 
 # entry name
 @NAME=complete tree
@@ -19,14 +22,17 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {tree} in which all {leaf} {nodes} are at some {depth} $n$ or
-$n-1$, and all leaves at depth n are toward the left.
+@DEFN=A {tree} in which every level, except possibly the deepest, is
+entirely filled.  At {depth} $n$, the {height} of the tree, all
+{nodes} are as far left as possible.
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=complete <strong>k</strong>-ary tree
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={tree}
 # Specialization: "... is a kind of me."
-@VARIANT={complete binary tree}
+@VARIANT={complete binary tree}, {perfect <strong>k</strong>-ary tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
@@ -36,6 +42,10 @@ $n-1$, and all leaves at depth n are toward the left.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+A complete tree may be viewed as a {perfect <strong>k</strong>-ary tree}
+possibly with additional {leaf} nodes at depth $n+1$, all toward the
+left.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
