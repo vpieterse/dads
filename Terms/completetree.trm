@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Wed Apr 20 16:55:40 2011" *by "Paul E. Black"
+# *modified "Wed Apr 20 17:01:19 2011" *by "Paul E. Black"
 
 # $Log: completetree.trm,v $
+# Revision 1.6  2011/04/20 21:03:00  black
+# NOTE that what CLR90 calls a complete tree is a perfect k-ary tree to us.
+#
 # Revision 1.5  2011/04/20 20:57:43  black
 # Fix DEFN (just follow complete binary tree definition).  Improve WEB,
 # IMA, and VARIANT references.  NOTE relation to a perfect k-ary tree.
@@ -45,6 +48,11 @@ entirely filled.  At {depth} $n$, the {height} of the tree, all
 A complete tree may be viewed as a {perfect <strong>k</strong>-ary tree}
 possibly with additional {leaf} nodes at depth $n+1$, all toward the
 left.
+</p>
+
+<p>
+What <a href="../terms.html#CLR90">[CLR90, page 95]</a> calls a
+complete tree, we call a {perfect <strong>k</strong>-ary tree}.
 
 # further explanation (pure HTML)
 @LINKS=
