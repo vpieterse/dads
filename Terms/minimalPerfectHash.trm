@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb  3 11:38:17 2009" *by "Paul E. Black"
+# *modified "Mon May  9 14:38:15 2011" *by "Paul E. Black"
 
 # $Log: minimalPerfectHash.trm,v $
+# Revision 1.10  2011/05/09 18:38:51  black
+# update LINK to Schmidt's gperf paper
+#
 # Revision 1.9  2009/02/03 16:39:15  black
 # XREF Pearson's hash.  Hyphenate name of order-preserving minimal
 # perfect hashing.
@@ -73,7 +76,7 @@ f(k) is $1\ldots |K|$.
 minimal perfect hash functions for large databases</a></em>, 
 CACM, 35(1):105-121, January 1992.
 <br />
-<a href="http://www.cs.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
+<a href="http://www1.cse.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
 Perfect Hash Function Generator</a> PDF document.
 # implementation(s) (pure HTML)
 @IMPL=
