@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:38 2008" *by "Paul E. Black"
+# *modified "Mon May 23 10:00:32 2011" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Revision 1.8  2011/05/23 14:00:52  black
+# update URL for Ben Pfaff's work
+#
 # Revision 1.7  2008/08/14 16:13:40  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -62,7 +65,7 @@ CACM, 29(9):902-908, September 1986.
 # further explanation (pure HTML)
 @LINKS=
 Example of
-<a href="http://www.stanford.edu/~blp/avl/libavl.html/Balancing-a-BST.html">balancing
+<a href="http://adtinfo.org/libavl.html/Balancing-a-BST.html">balancing
 a BST</a>.
 # implementation(s) (pure HTML)
 @IMPL=
