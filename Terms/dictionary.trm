@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon Apr 12 13:29:20 2010" *by "Paul E. Black"
+# *modified "Mon May 23 09:27:40 2011" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Revision 1.13  2011/05/23 14:24:31  black
+# Add Goleta's IMPL
+#
 # Revision 1.12  2010/04/12 17:29:30  black
 # Remove Glarner's Linoleum IMPL - page moved.
 #
@@ -119,6 +122,10 @@ Contributions by Rob Stewart 16 March 2004.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
 Pascal, and Fortran)</a>.
+Maksim Goleta's
+<a href="http://goletas.com/csharp-collections/">Collections
+(C#)</a> implementing stacks, queues, linked lists, binary search
+trees, AVL trees, and dictionaries.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/dictionary.trm,v $
