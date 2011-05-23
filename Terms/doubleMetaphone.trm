@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon May 23 09:36:21 2011" *by "Paul E. Black"
+# *modified "Mon May 23 09:44:11 2011" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.18  2011/05/23 14:25:46  black
+# update accessed date.
+#
 # Revision 1.17  2011/05/23 13:36:30  black
 # update URL for Dr. Dobbs
 #
@@ -86,7 +89,7 @@ spelling.
 Algorithm</em>, C/C++ Users Journal, June 2000.
 <a
 href="http://drdobbs.com/cpp/184401251">on-line article</a>
-accessed February 2010.
+accessed May 2011.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=This is an improved version of {metaphone}.  It returns two
