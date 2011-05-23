@@ -1,7 +1,10 @@
 # *created  "Wed May 17 12:57:37 2000" *by "Paul E. Black"
-# *modified "Mon Mar 29 10:53:22 2010" *by "Paul E. Black"
+# *modified "Mon May 23 09:36:30 2011" *by "Paul E. Black"
 
 # $Log: groversAlgo.trm,v $
+# Revision 1.8  2011/05/23 13:36:35  black
+# update URL for Dr. Dobbs
+#
 # Revision 1.7  2010/03/29 14:53:45  black
 # fix typo in Dr Dobbs URL
 #
@@ -50,7 +53,7 @@ Algorithms," page 46.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Grover's article in
-<a href="http://www.drdobbs.com/architecture-and-design/184404559">Dr.
+<a href="http://drdobbs.com/architecture-and-design/184404559">Dr.
 Dobb's Journal, April 2001 (C-like)</a>.
 # author's initials (see authors.data)
 @AUTHOR=
