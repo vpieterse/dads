@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:05:14 1998" *by "Paul E. Black"
-# *modified "Wed Oct  6 10:58:28 2010" *by "Paul E. Black"
+# *modified "Mon May 23 09:30:59 2011" *by "Paul E. Black"
 
 # $Log: doublyLinkedList.trm,v $
+# Revision 1.12  2011/05/23 14:25:27  black
+# Add Goleta's IMPL
+#
 # Revision 1.11  2010/10/06 15:04:28  black
 # Use curly bracket ({..}) cross refs since they work in NOTES.
 #
@@ -77,10 +80,6 @@ For more explanation, see Tim Rolfe's
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Maksim Goleta's
-<a href="http://goletas.com/solutions/collections/">Collections
-(C#)</a> implementing singly- and doubly-linked lists, binary search
-trees, and AVL trees.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/doublyLinkedList.trm,v $
