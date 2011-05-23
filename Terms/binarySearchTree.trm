@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon May 23 09:23:19 2011" *by "Paul E. Black"
+# *modified "Mon May 23 10:02:10 2011" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.25  2011/05/23 14:28:52  black
+# update URL of Pfaff's IMPL and what is in Goleta's collection.
+#
 # Revision 1.24  2011/05/23 13:23:48  black
 # update URL for Maksim Goleta's C# Collections
 #
@@ -109,12 +112,12 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BST.html">animation (Java)<
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's 
-<a href="http://www.stanford.edu/~blp/avl/libavl.html/Binary-Search-Trees.html">insert,
+<a href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</a>;
 Maksim Goleta's
 <a href="http://goletas.com/csharp-collections/">Collections
-(C#)</a> implementing singly- and doubly-linked lists, binary search
-trees, and AVL trees.
+(C#)</a> implementing stacks, queues, linked lists, binary search
+trees, AVL trees, and dictionaries.
 <a
 href="http://www.soe.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
