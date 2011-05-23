@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon Jan 24 13:04:03 2011" *by "Paul E. Black"
+# *modified "Mon May 23 09:50:27 2011" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Revision 1.15  2011/05/23 14:27:09  black
+# Update URLs for Pfaff's and Sedgewick and Wayne's IMPL
+#
 # Revision 1.14  2011/01/24 18:14:22  black
 # Update Sedgewick & Wayne Princeton URL
 #
@@ -106,10 +109,10 @@ Python, particularly v2.6.1.)
 # implementation(s) (pure HTML)
 @IMPL=
 Ben Pfaff's answer to
-<a href="http://www.stanford.edu/~blp/writings/clc/shuffle.html">how
+<a href="http://benpfaff.org/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
 An 
-<a href="http://introcs.cs.princeton.edu/14array/">implementation
+<a href="http://introcs.cs.princeton.edu/java/14array/">implementation
 (Java)</a> due to Sedgewick and Wayne (search for Shuffling).
 # further explanation (pure HTML)
 @LINKS=
