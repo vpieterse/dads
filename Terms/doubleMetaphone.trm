@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Fri Feb 12 14:09:22 2010" *by "Paul E. Black"
+# *modified "Mon May 23 09:36:21 2011" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.17  2011/05/23 13:36:30  black
+# update URL for Dr. Dobbs
+#
 # Revision 1.16  2010/02/12 19:12:05  black
 # Update Dr. Dobbs article URL
 #
@@ -82,7 +85,7 @@ spelling.
 <strong>Lawrence Philips</strong>, <em>The Double Metaphone Search
 Algorithm</em>, C/C++ Users Journal, June 2000.
 <a
-href="http://www.drdobbs.com/cpp/184401251">on-line article</a>
+href="http://drdobbs.com/cpp/184401251">on-line article</a>
 accessed February 2010.
 
 # any notes.  these are not printed in the final dictionary
