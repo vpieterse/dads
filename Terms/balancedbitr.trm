@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Oct 27 09:59:18 2005" *by "Paul E. Black"
+# *modified "Mon May 23 10:00:52 2011" *by "Paul E. Black"
 
 # $Log: balancedbitr.trm,v $
+# Revision 1.9  2011/05/23 14:01:03  black
+# update URL for Ben Pfaff's work
+#
 # Revision 1.8  2005/10/27 13:59:33  black
 # Update John Morris' URL
 #
@@ -61,7 +64,7 @@ explanation and example</a>
 <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/red_black.html">red-black
 tree analysis, explanation, examples, and code (C)</a>.
-Ben Pfaff's <a href="http://www.stanford.edu/~blp/avl/">AVL tree
+Ben Pfaff's <a href="http://adtinfo.org/">AVL tree
 explanation (C)</a>.
 # author's initials
 @AUTHOR=PEB
