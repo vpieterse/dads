@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Apr 25 10:11:18 2005" *by "Paul E. Black"
+# *modified "Thu May 26 15:55:51 2011" *by "Paul E. Black"
 
 # $Log: binomialheap.trm,v $
+# Revision 1.4  2011/05/26 19:55:59  black
+# Reference the new entry, level
+#
 # Revision 1.3  2005/04/25 14:13:05  black
 # Add IMA heap and IMIN priority queue and Dijkstra's algorithm.  Change
 # DEFN: this is a heap, not a priority queue (although it may be used as one).
@@ -46,7 +49,7 @@ operation is a constant {$\Theta(1)$#$\Theta$}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Binomial heaps are so called because the number of nodes at
-each level of each subtree is a binomial coefficient.  Sometimes
+each {level} of each subtree is a binomial coefficient.  Sometimes
 called a binomial queue.
 After LK.
 # further explanation (pure HTML)
