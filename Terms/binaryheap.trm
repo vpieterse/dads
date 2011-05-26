@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Tue Dec 14 10:36:40 2010" *by "Paul E. Black"
+# *modified "Thu May 26 15:56:57 2011" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Revision 1.11  2011/05/26 19:57:04  black
+# Reference the new entry, level
+#
 # Revision 1.10  2010/12/14 15:38:29  black
 # NOTE that the traditional implementation is inefficient with virtual
 # memory and refer to a VM efficient implementation: B-heap.
@@ -68,7 +71,7 @@ of nodes, the child does not exist.
 
 <p>
 The above implementation is inefficient with virtual memories because
-(almost) every level is in a different page.
+(almost) every {level} is in a different page.
 <a href="http://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
 subtrees to a single page for better virtual memory performance.
 </p>
