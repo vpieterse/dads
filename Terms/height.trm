@@ -1,7 +1,12 @@
 # *created  "Tue Dec 15 10:57:05 1998" *by "Paul E. Black"
-# *modified "Fri Jun  4 08:13:53 2010" *by "Paul E. Black"
+# *modified "Thu May 26 15:37:30 2011" *by "Paul E. Black"
 
 # $Log: height.trm,v $
+# Revision 1.5  2011/05/26 19:39:43  black
+# Improve the DEFN: don't use "leaf".  Move the NOTE that an empty tree
+# has no height to the DEFN.  NOTE that the height is also the maximum
+# depth.  XREF depth and level, which is new.
+#
 # Revision 1.4  2010/06/04 12:22:31  black
 # NOTE that the height of an empty tree is not defined.
 #
@@ -18,8 +23,9 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=The maximum distance of any {leaf} from the {root} of a {tree}.
+@DEFN=The maximum distance of any {node} from the {root}.
 If a tree has only one node (the root), the height is zero.  
+The height of an empty tree is not defined.
 # comma-separated list of pure names
 @AKA=
 
@@ -33,19 +39,20 @@ If a tree has only one node (the root), the height is zero.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={depth}, {level}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=The height of the figure at the definition of {tree} is two.
+@NOTES=
+An equivalent definition is: the height is the maximum {depth} of any
+node.
+</p>
+
+<p>
+The height of the figure at the definition of {tree} is two.
 </p>
 
 <p>
 The height of a tree is also known as the {order}.
-</p>
-
-<p>
-It makes no sense to talk of the height of an empty tree, that is, a
-tree with no nodes.
 
 # implementation(s) (pure HTML)
 @IMPL=
