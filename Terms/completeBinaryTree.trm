@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Thu Nov 20 16:10:09 2008" *by "Paul E. Black"
+# *modified "Thu May 26 15:53:37 2011" *by "Paul E. Black"
 
 # $Log: completeBinaryTree.trm,v $
+# Revision 1.6  2011/05/26 19:53:43  black
+# Reference the new entry, level
+#
 # Revision 1.5  2008/11/20 21:11:06  black
 # Fix refs to Knuth vol 1 and 2 to 1997
 #
@@ -23,7 +26,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {binary tree} in which every level, except possibly the
+@DEFN=A {binary tree} in which every {level}, except possibly the
 deepest, is completely filled.  At depth $n$, the {height} of the
 tree, all {nodes} must be as far left as possible.  
 # formal definition or {cross reference} to an entry
