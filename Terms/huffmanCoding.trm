@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb  1 16:59:40 2010" *by "Paul E. Black"
+# *modified "Thu May 26 15:52:01 2011" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.15  2011/05/26 19:52:18  black
+# Reference the new entry, level.  Improve DEFN a little.
+#
 # Revision 1.14  2010/02/01 22:01:15  black
 # update Alistair's IMPL URL
 #
@@ -54,14 +57,14 @@
 @AREA=crypt
 # the definition
 @DEFN=A minimal variable-length character coding based on the frequency of 
-each character.  First, each character becomes a trivial 
+each character.  First, each character becomes a one-node
 {binary tree}, with the
 character as the only {node}.  The character's frequency is the tree's
 frequency.  Two trees with the least frequencies are joined as the
 subtrees of a
 new root that is assigned the sum of their frequencies.
 Repeat until all characters are in one tree.  One code bit represents
-each level.  Thus more frequent characters are near the {root} and
+each {level}.  Thus more frequent characters are near the {root} and
 are coded with few bits, and rare characters are far from the root
 and are coded with many bits.
 # formal definition or {cross reference} to an entry
