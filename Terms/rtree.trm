@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Thu Mar 17 10:47:24 2011" *by "Paul E. Black"
+# *modified "Thu May 26 16:00:39 2011" *by "Paul E. Black"
 
 # $Log: rtree.trm,v $
+# Revision 1.5  2011/05/26 20:00:48  black
+# fix typo
+#
 # Revision 1.4  2011/03/17 14:50:15  black
 # Add Pavlata's C++ IMPL.  Remove Kollios' Java IMPL - not found.
 # Replace secondary BIB for (1) with original BIB.  Improve grammar.
@@ -42,7 +45,7 @@ height-balanced.
 @BIB=
 (1)
 <strong>A. Guttman</strong>, <em>R-trees: A Dynamic Index Structure
-for Spatial Searching</em>, Proc ACM SIGMOD Internationl Conference on
+for Spatial Searching</em>, Proc ACM SIGMOD International Conference on
 Management of Data, 47-57, June 1984.
 <br />
 (2) Used in <a href="../terms.html#GCG92">[GCG92]</a>.  Suggested by
