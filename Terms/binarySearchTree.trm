@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon May 23 10:02:10 2011" *by "Paul E. Black"
+# *modified "Mon Jun 20 09:51:04 2011" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Revision 1.26  2011/06/20 13:52:05  black
+# update UCSC IMPL URL.
+#
 # Revision 1.25  2011/05/23 14:28:52  black
 # update URL of Pfaff's IMPL and what is in Goleta's collection.
 #
@@ -119,7 +122,7 @@ Maksim Goleta's
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
 <a
-href="http://www.soe.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
+href="http://classes.soe.ucsc.edu/classes/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
