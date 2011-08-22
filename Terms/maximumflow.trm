@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:33:55 1998" *by "Paul E. Black"
-# *modified "Mon Dec 19 10:27:50 2005" *by "Paul E. Black"
+# *modified "Mon Aug 22 09:56:05 2011" *by "Paul E. Black"
 
 # $Log: maximumflow.trm,v $
+# Revision 1.7  2011/08/22 13:58:41  black
+# Update topcoder IMPL URL
+#
 # Revision 1.6  2005/12/19 15:38:06  black
 # Improve DEFN: it is a DIRECTED graph.  Add topcoder IMPL.
 #
@@ -50,7 +53,7 @@
 # implementation(s) (pure HTML)
 @IMPL=
 Problem <a
-href="http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=maxFlow">explanation
+href="http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=maxFlow">explanation
 and development of Ford-Fulkerson (pseudocode)</a>; including solving
 related problems, like multi-source, vertex capacity, bipartite
 matching, etc.
