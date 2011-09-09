@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 17 10:20:55 2007" *by "Paul E. Black"
+# *modified "Fri Sep  9 09:44:42 2011" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.10  2011/09/09 13:46:08  black
+# Add LINK to Sugita's article on random and pseudorandom numbers.
+#
 # Revision 1.9  2007/12/17 15:22:32  black
 # Remove LINK to Zeng's example of calculating Pi - mclab subdirectory
 # is empty.
@@ -78,6 +81,9 @@ An excellent
 <a
 href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
 introduction</a> with history.
+Hiroshi Sugita's mathematical foundation for the
+<a href="http://homepage.mac.com/hiroshi_sugita/mcm_E.html">use of random 
+and pseudorandom numbers</a> in the Monte Carlo method.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
