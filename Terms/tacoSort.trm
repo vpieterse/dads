@@ -1,7 +1,10 @@
 # *created  "Mon Apr 27 15:33:20 2009" *by "Paul E. Black"
-# *modified "Mon Apr 27 16:10:13 2009" *by "Paul E. Black"
+# *modified "Tue Oct 11 12:19:34 2011" *by "Paul E. Black"
 
 # $Log: tacoSort.trm,v $
+# Revision 1.3  2011/10/11 16:20:16  black
+# Remove Bernard's IMPL - no longer accessible
+#
 # Revision 1.2  2009/04/27 20:10:38  black
 # Add WEB entry of tacosort, the way the author spells it.
 #
@@ -57,9 +60,7 @@ The run time is the same as {exhaustive search}.
 
 # implementation(s) (pure HTML)
 @IMPL=
-Michael Benard's
-<a href="http://web.ics.purdue.edu/~mabernar/tacosort/">implementation
-and explanation (Java)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
