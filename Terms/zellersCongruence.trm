@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Wed Apr 29 09:26:31 2009" *by "Paul E. Black"
+# *modified "Tue Oct 11 12:21:13 2011" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.9  2011/10/11 16:22:16  black
+# fix URL for wikipedia entry
+#
 # Revision 1.8  2009/04/29 13:42:48  black
 # LINK to full ISO 8601 standard
 #
@@ -72,7 +75,7 @@ href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Zeller%27s_congruence">Zeller's
+<a href="http://en.wikipedia.org/wiki/Zeller's_congruence">Zeller's
 congruence</a>.
 A summary of the International Standard Date and Time Notation <a
 href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</a>.
