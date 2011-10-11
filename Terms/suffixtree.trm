@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:42 2008" *by "Paul E. Black"
+# *modified "Tue Oct 11 12:11:44 2011" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Revision 1.14  2011/10/11 16:13:58  black
+# improve URL of wikipedia article
+#
 # Revision 1.13  2008/12/03 19:49:06  black
 # remove LINK to McGill 1997 CS251 - appears to be completely gone
 #
@@ -75,7 +78,7 @@ tree construction algorithm</em>, Journal of the ACM, 23:262-272,
 <strong>Esko Ukkonen</strong>, <em>On-line construction of suffix
 trees</em>, Algorithmica, 14(3):249-260, September 1995.<br />
 A linear time, forward construction algorithm.  See
-<a href="http://en.wikipedia.org/wiki/Ukkonen%27s_algorithm">Wikipedia
+<a href="http://en.wikipedia.org/wiki/Ukkonen's_algorithm">Wikipedia
 entry</a> for links to PDF of Ukkonen's paper.
 
 # any notes.  these will not be printed in the final dictionary
