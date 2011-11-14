@@ -1,7 +1,10 @@
 # *created  "Tue May 25 08:56:47 1999" *by "Paul E. Black"
-# *modified "Mon Dec 15 09:39:57 2008" *by "Paul E. Black"
+# *modified "Mon Nov 14 12:10:38 2011" *by "Paul E. Black"
 
 # $Log: towersOfHanoi.trm,v $
+# Revision 1.9  2011/11/14 17:12:03  black
+# update URL for Javascript IMPL
+#
 # Revision 1.8  2008/12/15 14:41:46  black
 # Remove LINK to Puzzle Archive: it moved to www.puzzlearchive.com, a
 # wiki, and doesn't have an entry for Towers of Hanoi.
@@ -70,10 +73,10 @@ puzzle, algorithms, and proofs.
 href="http://brainyplanet.com/index.php/Hanoi Solution">Background
 and a recursive and an iterative solution</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://javascript.internet.com/games/hanoi.html">(JavaScript)</a>
-Mukundan's <a
-href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ToHdb.html">animation
+@IMPL=
+<a href="http://www.javascriptsource.com/games/hanoi.html">(JavaScript)</a>
+Mukundan's 
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ToHdb.html">animation
 (Java)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
