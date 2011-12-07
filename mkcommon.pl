@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.30 2011/02/28 13:59:20 black Exp $
+# $Id: mkcommon.pl,v 1.31 2011/12/06 21:25:11 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Mon Feb 28 08:55:37 2011" *by "Paul E. Black"
+# *modified "Tue Dec  6 15:10:07 2011" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -201,7 +201,7 @@ sub rewriteHrefs {
 	$xrefCGIQ =~ s|;|%3B|g; # exit_nist.cgi turns %3B into &
 	$xrefCGIQ =~ s|=|%3D|g;
 	$xrefCGIQ =~ s|~|%7E|g;
-	my($xrefExit) = "\"http://www.nist.gov/cgi-bin/exit_nist.cgi?url=$xrefCGIQ\"";
+	my($xrefExit) = "\"http://www.nist.gov/nist-exit-script.cfm?url=$xrefCGIQ\"";
 
 	# quote special RE characters
 	my $xrefQ = quoteREpatterns("\"$xref\"");
