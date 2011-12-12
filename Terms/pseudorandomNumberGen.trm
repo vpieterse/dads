@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jun 22 13:27:36 2010" *by "Paul E. Black"
+# *modified "Mon Dec 12 10:19:58 2011" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.17  2011/12/12 15:20:22  black
+# remove LINK to Entacher's review and comparison - server is gone.
+#
 # Revision 1.16  2010/06/22 17:31:17  black
 # Update LINK to Entacher's comparison.  Add pLab's generator page,
 # which has links to IMPLs.
@@ -104,10 +107,6 @@ and Testing</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
-Karl Entacher's thorough review and comparison of
-<a href="http://random.mat.sbg.ac.at/results/karl/server/">A
-collection of selected pseudorandom number generators with linear
-structures</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
