@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu May 26 15:52:01 2011" *by "Paul E. Black"
+# *modified "Mon Dec 12 10:04:35 2011" *by "Paul E. Black"
 
 # $Log: huffmanCoding.trm,v $
+# Revision 1.16  2011/12/12 15:05:23  black
+# Remove IMPL from Numerical Recipes in C - files are gone.
+#
 # Revision 1.15  2011/05/26 19:52:18  black
 # Reference the new entry, level.  Improve DEFN a little.
 #
@@ -143,9 +146,6 @@ coding</a>.
 <a
 href="http://www.csse.unimelb.edu.au/~alistair/abstracts/mk95:wads.html">build
 tree in array (C)</a> --  also computes entropy and efficiency.
-An <a href="http://www.nrbook.com/a/bookcpdf/c20-4.pdf">explanation and 
-implementation (C)</a>: a PDF document of section 20.4 of
-<em>Numerical Recipes in C</em>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/huffmanCoding.trm,v $
