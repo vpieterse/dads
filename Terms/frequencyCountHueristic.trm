@@ -1,7 +1,10 @@
 # *created  "Tue Jan 28 13:33:19 2003" *by "Paul E. Black"
-# *modified "Fri Dec 23 12:58:24 2011" *by "Paul E. Black"
+# *modified "Fri Dec 23 13:29:20 2011" *by "Paul E. Black"
 
 # $Log: frequencyCountHueristic.trm,v $
+# Revision 1.5  2011/12/23 18:30:25  black
+# since now IMA self-organizing heuristic, remove it from XREFS
+#
 # Revision 1.4  2011/12/23 17:59:49  black
 # IMA Wikipedia:Self-organising_heuristic
 #
@@ -38,7 +41,7 @@ number of times each element is the target of a {search}.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={self-organizing heuristic}, {self-organizing list}
+@XREFS={self-organizing list}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
