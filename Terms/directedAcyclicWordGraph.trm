@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Nov 13 14:41:14 2008" *by "Paul E. Black"
+# *modified "Fri Dec 30 14:36:56 2011" *by "Paul E. Black"
 
 # $Log: directedAcyclicWordGraph.trm,v $
+# Revision 1.6  2011/12/30 19:42:33  black
+# Move Adamovsky's page, since it is an IMPL, not just a LINK.
+#
 # Revision 1.5  2008/11/13 19:42:45  black
 # LINK to Adamovsky's page
 #
@@ -41,8 +44,8 @@ characters along a {path} from the {root} to a {node} are the
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={compact DAWG}, {suffix tree}, {trie}, {Patricia tree},
-
 {suffix automaton}
+
 # bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
 @BIB=(1) <strong>Andrew W. Appel and Guy J. Jacobson</strong>, <em>The
 World's Fastest Scrabble Program</em>, CACM, 31(5):572-578, May 1988.
@@ -79,12 +82,13 @@ coded with new characters, like a simplified {Huffman coding}.
 # and comments on implementations.
 # further explanation (pure HTML)
 @LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
 JohnPaul Adamovsky's
 <a href="http://www.pathcom.com/~vadco/dawg.html">Directed Acyclic
 Word Graph or DAWG</a> page with introduction, explanation, C
 implementation, and notes on optimization.
-# implementation(s) (pure HTML)
-@IMPL=
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/directedAcyclicWordGraph.trm,v $
