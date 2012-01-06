@@ -1,5 +1,5 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Fri Dec 23 13:21:07 2011" *by "Paul E. Black"
+# *modified "Fri Jan  6 11:14:23 2012" *by "Paul E. Black"
 
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree TEST ENTRY
@@ -99,8 +99,15 @@ need to remember to remove it.
 @LINKS=<A href="http://www.lds.org/">The Church of Jesus Christ of
 Latter Day Saints</A>
 <A href="http://nowhere.org/ %&+;=~blackfish">bad link</A>
+Rewrite <a href="gopher://sdf-eu.org/">gopher protocol links</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=
+No exit-nist rewrite for this
+<a href="http://samate.nist.gov/">internal NIST link</a>
+or this
+<a href="mailto:p.black@acm.org">mailto link</a>.
+
 # author's initials
 @AUTHOR=PEB
 # formal definition or {cross reference} to an entry
