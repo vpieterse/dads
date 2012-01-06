@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.31 2011/12/06 21:25:11 black Exp $
+# $Id: mkcommon.pl,v 1.32 2012/01/06 16:13:39 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Tue Dec  6 15:10:07 2011" *by "Paul E. Black"
+# *modified "Fri Jan  6 11:11:29 2012" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -186,7 +186,9 @@ sub rewriteLatex ($) {
 sub rewriteHrefs {
     foreach $xref (split /^.*?href="|".*?href="|".*?$|^.*$/i, $_[0]) {
 	next if ($xref eq ""); # above RE starts with a null split
-	next if $xref =~ /nist\.gov/ || $xref =~ /^[.][.]\//; # leave internal links
+	# don't rewrite internal links or mailto:
+	next if $xref =~ /nist\.gov\// || $xref =~ /^[.][.]\// 
+	       || $xref =~ /^mailto:/;
 	#print "\nFound $xref\n"; # for debugging
 
 	# quote special cgi characters
