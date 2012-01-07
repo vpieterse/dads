@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.32 2012/01/06 16:13:39 black Exp $
+# $Id: mkcommon.pl,v 1.33 2012/01/06 21:34:24 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Jan  6 11:11:29 2012" *by "Paul E. Black"
+# *modified "Fri Jan  6 16:30:42 2012" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -189,6 +189,12 @@ sub rewriteHrefs {
 	# don't rewrite internal links or mailto:
 	next if $xref =~ /nist\.gov\// || $xref =~ /^[.][.]\// 
 	       || $xref =~ /^mailto:/;
+	# NOTE: since we the check below nows skip anything which is not a
+	#       scheme, we probably don't need to explicitly skip ../ or the 
+	#       null case.  I'll leave those checks because they can't hurt 
+	#       and if I'm wrong, they'll prevent failures.
+	# Only rewrite scheme hrefs, e.g., ftp://...
+	next if not ($xref =~ /^\w+:/);
 	#print "\nFound $xref\n"; # for debugging
 
 	# quote special cgi characters
