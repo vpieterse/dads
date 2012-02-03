@@ -1,7 +1,7 @@
 #! /bin/csh -f
-set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.3 2007/12/18 21:22:17 black Exp $'
+set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.4 2012/02/03 14:56:39 black Exp $'
 #                  *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
-set versionMod = ' *modified "Tue Dec 18 16:21:49 2007" *by "Paul E. Black"'
+set versionMod = ' *modified "Fri Feb  3 09:55:56 2012" *by "Paul E. Black"'
 
 #------------------------------------------------------------------------
 #	Rename a term file and make other needed changes: RCS, Target
@@ -151,7 +151,7 @@ if ($doCmds) then
     rcsdiff $toTerm
 endif
 
-# remove any target HTML refering to it, so they will be regenerated
+# remove any target HTML referring to it, so they will be regenerated
 echo finding references to $baseFrom.  This may take a few seconds ...
 set fileList = `grep -l $baseFrom.html $targetDir/HTML/*`
 if ($showCmds) then
@@ -161,6 +161,6 @@ if ($doCmds) then
     rm $fileList
 endif
 
-echo Remember to ftp www-i.nist.gov, cd HTML, and delete $baseFrom.html
+echo Remember to ssh xlinux, cd dads/HTML, and rm $baseFrom.html
 
 # end of $Source: /home/black/DADS/dads/RCS/mvterm,v $
