@@ -1,9 +1,9 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.82 2011/12/23 18:23:28 black Exp $
+# $Id: mkterms,v 1.83 2012/02/07 21:28:38 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Fri Dec 23 13:21:53 2011" *by "Paul E. Black"
+# *modified "Tue Feb  7 16:27:14 2012" *by "Paul E. Black"
 #
-# Collect all terms and format them for web pages.
+# Collect all DADS terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
 #	http://hissa.nist.gov/~black/
 #
@@ -119,16 +119,25 @@ $now = localtime;
 # read/write by owner, readable by everyone else
 umask(0022);
 
-# Step I: read initialization and config files
+#------------------------------------------------------------------------
+#
+# Step I: read initialization and config files: types, areas, authors,
+#       and latex rewrite.  Compile the latex rewrites.
+#
+#------------------------------------------------------------------------
 &readConfigFiles;
 
-# Step II: read term entries
+#------------------------------------------------------------------------
+#
+# Step II: read term entries.  "Compile" names.  Add entries for AKA & WEB
+#
+#------------------------------------------------------------------------
 &readTermEntries;
 
 #------------------------------------------------------------------------
 #
-# Step III: start pages for main, two-level, and unified indices.  
-#	Write each entry to its own page and to appropriate indices.
+# Step III: start pages for main, two-level, and unified indexes.  
+#	Write each entry to its own page and to appropriate indexes.
 #
 #------------------------------------------------------------------------
 
@@ -168,7 +177,7 @@ sub rewriteXrefs {
     $_[0] =~ s|%P|%|go;
     #print "STEP 7: $_[0] \n"; # for debugging
 
-    # warn about a dangling open paren
+    # warn about any dangling open paren
     print "\nWarning: unmatched { in the following:\n$_[0]\n"
 	if $_[0] =~ /{[^}]*$/;
 
