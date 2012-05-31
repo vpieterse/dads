@@ -1,12 +1,15 @@
-# $Id: latex2html.data,v 1.21 2005/01/31 18:18:07 black Exp $
+# $Id: latex2html.data,v 1.22 2012/05/31 12:56:01 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Mon Jan 31 13:17:28 2005" *by "Paul E. Black"
+# *modified "Thu May 31 08:44:41 2012" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
 #
 
 # $Log: latex2html.data,v $
+# Revision 1.22  2012/05/31 12:56:01  black
+# Use tilde instead of sim.gif for \sim
+#
 # Revision 1.21  2005/01/31 18:18:07  black
 # Add natural logarithm, \ln
 #
@@ -78,7 +81,7 @@
 \leq	&le;
 # <	use &lt; for less than
 \ll	&lt;&lt;
-\sim	<img src="Images/sim.gif" border=0 height=5 width=13 alt="similar to">
+\sim	~
 \subseteq	&sube;
 \subset		&sub;
 \geq	&ge;
