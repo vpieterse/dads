@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:27:25 1999" *by "Paul E. Black"
-# *modified "Mon Mar 26 10:54:32 2012" *by "Paul E. Black"
+# *modified "Mon Jun  4 12:46:20 2012" *by "Paul E. Black"
 
 # $Log: linearProbingSort.trm,v $
+# Revision 1.7  2012/06/04 16:47:09  black
+# LINK to Polish translation of this entry.
+#
 # Revision 1.6  2012/03/26 14:55:32  black
 # LINK to Catalan translation of this entry, by David Leoney.
 #
@@ -56,6 +59,9 @@ The distribution phase may be seen as putting the elements in a
 # further explanation (pure HTML)
 @LINKS=
 <a href="http://www.fatcow.com/edu/xlinuxu-nist-ca/">Catalan
+translation</a> of this entry.
+<a
+href="http://www.autoteiledirekt.de/science/liniowy-rodzaj-sondowania">Polish
 translation</a> of this entry.
 
 # implementation(s) (pure HTML)
