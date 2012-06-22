@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Fri Sep  4 10:29:09 2009" *by "Paul E. Black"
+# *modified "Fri Jun 22 10:28:38 2012" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.20  2012/06/22 14:31:43  black
+# Update outer-court (Basic) IMPL
+#
 # Revision 1.19  2009/09/04 15:40:05  black
 # cite Knuth with V:PP (volume number, colon, page number)
 #
@@ -185,7 +188,7 @@ Analysts.  I was one of the many who got several pages of equations
 and turned them into code that would run via punched cards.  This was
 before Basic and Fortran.  The Systems Analysts wrote assemblers, ways
 to create buffers to make printing faster, etc.  I doubt that Don
-Shell even knew I who I was.  About 1959 we started using Fortran --
+Shell even knew who I was.  About 1959 we started using Fortran --
 just a little.
 </p>
 
@@ -277,7 +280,7 @@ for real time (WOOP/ADA)</a>, including bibliography;
 <a href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</a>,
 <a href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</a>,
 <a href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</a>,
-<a href="http://www.outer-court.com/basic/echo/T469.HTM">strings (Basic)</a>,
+<a href="http://outer-court.com/basic/echo/T469.HTM">strings (Basic)</a>,
 <a
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0475.html">initial
 increment is about 1/9n and decreases by thirds (Rexx)</a>;
