@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Mon Sep 27 15:16:57 2010" *by "Paul E. Black"
+# *modified "Mon Jul 16 09:38:28 2012" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Revision 1.32  2012/07/16 13:38:47  black
+# Update LINK for GTL - Graph Template Library
+#
 # Revision 1.31  2010/09/27 19:26:15  black
 # Find alternate source for JDSL
 #
@@ -203,11 +206,10 @@ and display directed and undirected graphs,
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">Graph
 generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
-# this has (invalid) GTL links.  They should be valid in the future, I hope
-<a href="http://www.infosun.fim.uni-passau.de/br/lehrstuhl/Projekte/">GTL - the Graph
-Template Library (C)</a>,
 <a href="http://www.boost.org/doc/libs/1_43_0/libs/graph/doc/">BGL - the Boost Graph
 Library (C++)</a>.
+<a href="http://freecode.com/projects/thegraphtemplatelibrary">GTL - the Graph
+Template Library (C)</a>.
 <a href="http://code.google.com/p/annas/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
 libraries are Annas.Graph, graph manipulation and visualization and
