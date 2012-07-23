@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon May 23 09:44:11 2011" *by "Paul E. Black"
+# *modified "Mon Jul 23 09:59:49 2012" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.19  2012/07/23 14:00:25  black
+# remove link to SAS IMPL - the-link-king.com domain is gone.
+#
 # Revision 1.18  2011/05/23 14:25:46  black
 # update accessed date.
 #
@@ -106,8 +109,6 @@ Apache codec implementations of
 and Double Metaphone (Java)</a>. 
 <a href="http://www.wbrogden.com/phonetic/index.html">applet
 for name lookup (Java)</a>.
-<a href="http://www.the-link-king.com/download.html">(SAS)</a> zip
-archive.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/doubleMetaphone.trm,v $
