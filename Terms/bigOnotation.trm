@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Oct  6 11:01:53 2010" *by "Paul E. Black"
+# *modified "Fri Aug 31 09:28:05 2012" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Revision 1.14  2012/08/31 13:39:48  black
+# Give a hint as to why n > 10 is not wrong.
+#
 # Revision 1.13  2010/10/06 15:03:02  black
 # add anchor to Standish citation.  Also grammar fix.
 #
@@ -95,8 +98,9 @@ Big Theta</em>, SIGACT News, 8(2):18-24, April-June 1976.
 @NOTES=
 As an example, $n<sup>2</sup> + 3n + 4$ is $O(n<sup>2</sup>)$,
 since n<sup>2</sup> + 3n + 4 &lt; 2n<sup>2</sup> for all $n
-&gt; 10$.  Strictly speaking, 3n + 4 is $O(n<sup>2</sup>)$, too, but
-big-O notation is often misused to mean equal to rather than less than.
+&gt; 10$ (and many smaller values of n).  
+Strictly speaking, 3n + 4 is $O(n<sup>2</sup>)$, too, but
+big-O notation is often misused to mean "equal to" rather than "less than".
 The notion of "equal to" is expressed by {$\Theta(n)$#\Theta}.
 </p>
 
