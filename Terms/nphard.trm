@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Oct 25 16:32:30 2010" *by "Paul E. Black"
+# *modified "Wed Sep  5 11:47:47 2012" *by "Paul E. Black"
 
 # $Log: nphard.trm,v $
+# Revision 1.10  2012/09/05 15:47:48  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.9  2010/10/25 20:32:31  black
 # Update Scott Aaronson's Complexity Zoo URLs
 #
@@ -82,7 +85,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
-href="http://www.cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="https://cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 </p>
 
