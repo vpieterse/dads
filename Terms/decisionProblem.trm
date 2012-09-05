@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Dec 12 08:07:40 2005" *by "Paul E. Black"
+# *modified "Wed Sep  5 11:47:32 2012" *by "Paul E. Black"
 
 # $Log: decisionProblem.trm,v $
+# Revision 1.5  2012/09/05 15:47:40  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.4  2005/12/12 13:09:49  black
 # Update U Waterloo comp.theory FAQ URL
 #
@@ -51,7 +54,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=History, definitions, examples, etc. given in <a
-href="http://www.cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
+href="https://cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 # implementation(s) (pure HTML)
 @IMPL=
