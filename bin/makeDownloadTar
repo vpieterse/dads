@@ -1,6 +1,6 @@
-# $Id: makeDownloadTar,v 1.4 2010/12/03 13:58:59 black Exp $
+# $Id: makeDownloadTar,v 1.5 2012/10/12 15:30:45 black Exp $
 # *created  "Wed Sep 29 11:33:32 2004" *by "Paul E. Black"
-# *modified "Fri Dec  3 08:58:13 2010" *by "Paul E. Black"
+# *modified "Fri Oct 12 11:30:16 2012" *by "Paul E. Black"
 
 ScratchDir=DADSDownload
 TarFile=dads.tar
@@ -11,8 +11,6 @@ cp -pr ~/DADS/Target/ $ScratchDir
 
 echo cleaning ...
 rm -f $ScratchDir/*~ $ScratchDir/*/*~
-# kde auxiliary files
-rm -f $ScratchDir/.directory $ScratchDir/*/.directory
 
 echo deleting copyrighted entries ...
 find $ScratchDir/HTML -exec grep --quiet CRC-A {} \; -print -exec rm {} \;
