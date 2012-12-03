@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Tue Oct 11 12:21:13 2011" *by "Paul E. Black"
+# *modified "Mon Dec  3 09:11:49 2012" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Revision 1.10  2012/12/03 14:12:30  black
+# The NIST exit script changed so # qualifiers in URLs don't work any more.
+#
 # Revision 1.9  2011/10/11 16:22:16  black
 # fix URL for wikipedia entry
 #
@@ -79,9 +82,16 @@ Wikipedia entry for
 congruence</a>.
 A summary of the International Standard Date and Time Notation <a
 href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</a>.
-The full
+Links to the full
 <a href="http://www.merlyn.demon.co.uk/datefmts.htm#ISO8601">ISO 
-8601:2004</a> standard.
+8601:2004</a> standard (or use
+<a href="http://www.merlyn.demon.co.uk/datefmts.htm">this link</a>
+then click ISO Standard 8601 if the above gets page not found).
+# 3 December 2012 apparently the NIST exit script changed, and I
+#       can't find any way around it.
+# If I change #ISO to %23ISO, the exit script encodes %
+# If I leave #ISO alone, the exit script cuts off #ISO
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/zellersCongruence.trm,v $
