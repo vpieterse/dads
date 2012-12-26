@@ -1,7 +1,10 @@
 # *created  "Tue Nov  3 16:42:25 1998" *by "Paul E. Black"
-# *modified "Mon Nov  8 09:05:32 2010" *by "Paul E. Black"
+# *modified "Wed Dec 26 09:16:00 2012" *by "Paul E. Black"
 
 # $Log: hamiltonianCycle.trm,v $
+# Revision 1.8  2012/12/26 14:21:56  black
+# Rewrite biography NOTE on Sir Hamilton since iupui.edu mathbios disappeared.
+#
 # Revision 1.7  2010/11/08 14:05:52  black
 # Remove LINK to Moscato's page - it is gone
 #
@@ -52,17 +55,19 @@ same {vertex} and includes every other vertex exactly once.
 {vehicle routing problem}, {perfect matching}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Named for <a
-href="http://www.engr.iupui.edu/~orr/webpages/cpt120/mathbios/hamil.htm">Sir
-William Rowan Hamilton (1805-1865)</a> (a <a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Hamilton.html">longer
-biography</a>).
+@NOTES=
 A Hamiltonian cycle includes each vertex once; an Euler cycle includes
 each edge once.
 </p>
 
 <p>
 Also known as a Hamiltonian circuit.
+</p>
+
+<p>
+Named for <a
+href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+William Rowan Hamilton (1805-1865)</a>.
 # further explanation (pure HTML)
 @LINKS=
 
