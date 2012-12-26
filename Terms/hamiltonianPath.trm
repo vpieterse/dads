@@ -1,7 +1,10 @@
 # *created  "Mon Jul 14 16:47:42 2003" *by "Paul E. Black"
-# *modified "Mon Nov  8 09:05:00 2010" *by "Paul E. Black"
+# *modified "Wed Dec 26 09:14:36 2012" *by "Paul E. Black"
 
 # $Log: hamiltonianPath.trm,v $
+# Revision 1.8  2012/12/26 14:21:36  black
+# Rewrite biography NOTE on Sir Hamilton since iupui.edu mathbios disappeared.
+#
 # Revision 1.7  2010/11/08 14:05:20  black
 # Remove LINK to Moscato's page - it is gone.
 #
@@ -57,10 +60,8 @@ the graph.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 Named for <a
-href="http://www.engr.iupui.edu/~orr/webpages/cpt120/mathbios/hamil.htm">Sir
-William Rowan Hamilton (1805-1865)</a> (a <a
-href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Hamilton.html">longer
-biography</a>).
+href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Hamilton.html">Sir
+William Rowan Hamilton (1805-1865)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
