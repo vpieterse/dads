@@ -1,7 +1,12 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Fri Sep  4 10:47:36 2009" *by "Paul E. Black"
+# *modified "Mon Dec 31 09:09:39 2012" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Revision 1.12  2012/12/31 14:10:34  black
+# Remove Portable Parallel C++ implementation. It is gone, and the
+# prof. in charge is listed as emeritus. I don't think the site is
+# coming back.
+#
 # Revision 1.11  2009/09/04 15:47:50  black
 # cite Knuth with V:PP (volume number, colon, page number)
 #
@@ -104,9 +109,6 @@ href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">referenc
 source code (C)</a> and in
 <a
 href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/streamit/">(Java)</a>.
-Section from 1994 User Manual for <a
-href="http://www.extreme.indiana.edu/sage/pcxx_ug/subsection3_6_2.html">Portable
-Parallel C++ (pC++)</a>.
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
