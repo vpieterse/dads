@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:27:25 1999" *by "Paul E. Black"
-# *modified "Thu Jul  5 14:14:46 2012" *by "Paul E. Black"
+# *modified "Mon Jan  7 11:51:16 2013" *by "Paul E. Black"
 
 # $Log: linearProbingSort.trm,v $
+# Revision 1.9  2013/01/07 16:51:30  black
+# Polish translation is gone - remove LINK.
+#
 # Revision 1.8  2012/07/05 18:15:09  black
 # remove LINK to Catalan translation - the page is gone.
 #
@@ -61,9 +64,6 @@ The distribution phase may be seen as putting the elements in a
 {hash function}.
 # further explanation (pure HTML)
 @LINKS=
-<a
-href="http://www.autoteiledirekt.de/science/liniowy-rodzaj-sondowania">Polish
-translation</a> of this entry.
 
 # implementation(s) (pure HTML)
 @IMPL=<a
