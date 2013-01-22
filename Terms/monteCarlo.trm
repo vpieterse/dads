@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Jul  5 14:18:22 2012" *by "Paul E. Black"
+# *modified "Tue Jan 22 11:54:40 2013" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Revision 1.12  2013/01/22 17:01:16  black
+# XREF rho-approximation algorithm
+#
 # Revision 1.11  2012/07/05 18:19:21  black
 # remove LINK to Sugita's paper (in English).  The entire MobileMe web
 # site is closed.  I couldn't find another copy of the paper in English.
@@ -57,7 +60,7 @@ with bounded error probability.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Las Vegas algorithm}, {RP}
+@XREFS={Las Vegas algorithm}, {RP}, {$\rho$-approximation algorithm}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
