@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Mar  1 10:18:47 2005" *by "Paul E. Black"
+# *modified "Tue Jan 22 11:56:02 2013" *by "Paul E. Black"
 
 # $Log: rhoapproxmtn.trm,v $
+# Revision 1.4  2013/01/22 17:00:53  black
+# XREF Monte Carlo algorithm
+#
 # Revision 1.3  2005/03/01 15:19:31  black
 # IMA approximation algorithm (for ontology).
 #
@@ -37,7 +40,7 @@ the algorithm.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={Monte Carlo algorithm}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
