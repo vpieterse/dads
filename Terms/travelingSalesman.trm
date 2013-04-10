@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Mon Dec 27 12:02:48 2010" *by "Paul E. Black"
+# *modified "Wed Apr 10 13:53:27 2013" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Revision 1.11  2013/04/10 17:53:50  black
+# change "which"s to "that"s.  Misc. formatting.
+#
 # Revision 1.10  2010/12/27 17:03:23  black
 # Remove Moscato IMPL - page moved or deleted
 #
@@ -43,7 +46,7 @@
 # basic, search, sort, graph, combin(atorial), etc.
 @AREA=graph
 # the definition
-@DEFN=Find a {path} through a {weighted graph} which starts and
+@DEFN=Find a {path} through a {weighted graph} that starts and
 ends at the same {vertex}, includes every other vertex exactly
 once, and minimizes the total cost of {edges}.
 # formal definition or {cross reference} to an entry
@@ -65,10 +68,10 @@ once, and minimizes the total cost of {edges}.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={bottleneck traveling salesman}, {Hamiltonian cycle},
-
 {optimization problem}, {Christofides algorithm},
 similar problems: {all pairs shortest path}, {minimum spanning tree}, 
 {vehicle routing problem}
+
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Less formally, find a path for a salesman to visit every listed
 city at the lowest total cost.
@@ -86,7 +89,7 @@ See <a href="../terms.html#CLR90">[CLR90, page 969]</a>.
 <p>
 If the triangle inequality does not hold, that is $d<sub>ik</sub> &gt;
 d<sub>ij</sub> + d<sub>jk</sub>$ for some i, j, k, there is no
-possible polynomial time algorithm which guarantees near-optimal
+possible polynomial time algorithm that guarantees near-optimal
 result (unless P=NP).
 </p>
 
