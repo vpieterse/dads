@@ -1,7 +1,11 @@
 # *created  "Mon Jun 14 09:53:49 2004" *by "Paul E. Black"
-# *modified "Mon Aug  3 10:33:15 2009" *by "Paul E. Black"
+# *modified "Wed Jun 12 10:15:02 2013" *by "Paul E. Black"
 
 # $Log: repeatedSquaring.trm,v $
+# Revision 1.9  2013/06/12 14:17:28  black
+# add LINK to interesting article on computing powers mod n using
+# repeated squaring.
+#
 # Revision 1.8  2009/08/03 14:33:48  black
 # update URL for UCSD IMPL
 #
@@ -25,8 +29,6 @@
 # two digits in the binary representation).  Refer to Theta in number of
 # steps.  Use a table instead of typewriter graphics and <pre></pre>.
 # Improve some wording.
-#
-#
 
 # entry name
 @NAME=repeated squaring
@@ -187,6 +189,8 @@ How do you
 <a
 href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf">compute
 1415^13 mod 2537 with a calculator?</a> (PDF).
+To work out 
+<a href="http://www.tricki.org/article/To_work_out_powers_mod_n_use_repeated_squaring">powers mod n</a>, use repeated squaring.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/repeatedSquaring.trm,v $
