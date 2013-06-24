@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon May 23 09:28:23 2011" *by "Paul E. Black"
+# *modified "Mon Jun 24 15:28:06 2013" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Revision 1.19  2013/06/24 19:31:31  black
+# Add Alexander Georgiev's IMPL
+#
 # Revision 1.18  2011/05/23 14:24:42  black
 # Add Goleta's IMPL
 #
@@ -130,6 +133,10 @@ Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Data_structures/Singly-linked_list">explanation
 (Java and C++)</a>.
+Alexander Georgiev's thread-safe
+<a
+href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">singly
+linked list (Java)</a>, including a merge and parallel merge sorts.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/linkedList.trm,v $
