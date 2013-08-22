@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Aug 14 12:11:44 2008" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:15:03 2013" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Revision 1.11  2013/08/22 19:16:30  black
+# update URL for Gilleland's IMPL
+#
 # Revision 1.10  2008/08/14 16:11:52  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -89,7 +92,10 @@ March 2003
 href="http://www.uni-bielefeld.de/(en)/ZIF/FG/2002Combinatorics/02-reception.html">pictures
 of Levenshtein</a> at a reception.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.merriampark.com/ld.htm">Levenshtein distance
+@IMPL=
+Michael Gilleland's 
+<a
+href="http://people.cs.pitt.edu/~kirk/cs1501/Pruhs/Spring2006/assignments/editdistance/Levenshtein Distance.htm">Levenshtein distance
 (Java, C++, Visual Basic)</a>, includes a great explanation and links
 to code in Perl, C, JavaScript, Python, and many more languages.
 Many implementations
