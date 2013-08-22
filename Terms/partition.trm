@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:08 2008" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:42:00 2013" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Revision 1.7  2013/08/22 19:42:01  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.6  2008/08/14 16:15:13  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -73,7 +76,7 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-partitions.shtml">generating
 partitions (Fortran, Mathematica, Pascal, and C)</a>,
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</a>
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/partition.trm,v $
