@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 15:58:00 2008" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:47 2013" *by "Paul E. Black"
 
 # $Log: factorial.trm,v $
+# Revision 1.10  2013/08/22 19:41:52  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.9  2008/07/28 19:58:31  black
 # Remove Grant's prime sieve IMPL - DNS entry is gone.
 #
@@ -72,7 +75,7 @@ Peter Luschny's
 href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm">
 fast factorial algorithms (Java and C#)</a> including benchmarks and
 advice.
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/factorial.trm,v $
