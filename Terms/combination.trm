@@ -1,7 +1,10 @@
 # *created  "Tue Jun  5 08:43:23 2001" *by "Paul E. Black"
-# *modified "Mon Nov 26 10:27:30 2007" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:22:57 2013" *by "Paul E. Black"
 
 # $Log: combination.trm,v $
+# Revision 1.4  2013/08/22 19:23:32  black
+# Gilleland's server is gone.
+#
 # Revision 1.3  2007/11/26 15:29:54  black
 # NOTE the number of combinations and show how it is derived from the
 # number of permutations.  Switch "n" and "m" in the DEFN adn NOTE so
@@ -60,9 +63,6 @@ so divide by $m!$, too.
 @IMPL=The Combinatorial Object Server's information on <a
 href="http://www.theory.csc.uvic.ca/~cos/inf/comb/CombinationsInfo.html">Combinations
 (Pascal and C)</a>;
-Michael Gilleland's
-<a href="http://www.merriampark.com/comb.htm">CombinationGenerator
-class (Java)</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/combination.trm,v $
