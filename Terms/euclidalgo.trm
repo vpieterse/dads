@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May 14 10:01:32 2007" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:42 2013" *by "Paul E. Black"
 
 # $Log: euclidalgo.trm,v $
+# Revision 1.5  2013/08/22 19:41:47  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.4  2007/05/14 14:01:33  black
 # Update URL to https for Woop
 #
@@ -52,7 +55,7 @@ Euclid(b, a mod b);}</tt>.  The run time complexity is
 @IMPL=Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/euclid.html">annotated
 for real time (WOOP/ADA)</a>,
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/gcd.html">(Scheme)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/gcd.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/euclidalgo.trm,v $
