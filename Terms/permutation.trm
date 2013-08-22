@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jan  9 17:12:58 2009" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:23:03 2013" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Revision 1.14  2013/08/22 19:23:22  black
+# Gilleland's server is gone.
+#
 # Revision 1.13  2009/01/09 22:15:14  black
 # Rename "perfect shuffle" to "ideal random shuffle".
 #
@@ -88,9 +91,6 @@ There are {$n!$#factorial} permutations of $n$ (distinguishable) elements.
 @IMPL=The (Combinatorial) Object Server's information on <a
 href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Permutations
 (Pascal and C)</a>;
-Michael Gilleland's
-<a href="http://www.merriampark.com/perm.htm">PermutationGenerator
-class (Java)</a>;
 <a
 href="http://www.cs.sunysb.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</a>;
