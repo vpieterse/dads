@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Fri Jun 22 10:28:38 2012" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:42:05 2013" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Revision 1.21  2013/08/22 19:42:06  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.20  2012/06/22 14:31:43  black
 # Update outer-court (Basic) IMPL
 #
@@ -277,7 +280,7 @@ Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography;
 <a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>;
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</a>,
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/shellsort.html">(Scheme)</a>,
 <a href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</a>,
 <a href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</a>,
 <a href="http://outer-court.com/basic/echo/T469.HTM">strings (Basic)</a>,
