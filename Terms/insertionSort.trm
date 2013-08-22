@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:15:12 2011" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:57 2013" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Revision 1.15  2013/08/22 19:41:58  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.14  2011/12/12 15:16:05  black
 # update Princeton IMPL URL
 #
@@ -110,7 +113,7 @@ and code (Java and C++)</a>.
 Other implementations may be available through the <a
 href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/insertion.html">(Scheme)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/insertion.html">(Scheme)</a>.
 <a href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</a>.
 # author's initials
 @AUTHOR=PEB
