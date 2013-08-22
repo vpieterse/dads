@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 13 11:30:47 2009" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:52 2013" *by "Paul E. Black"
 
 # $Log: fibonacciNumber.trm,v $
+# Revision 1.10  2013/08/22 19:41:56  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
 # Revision 1.9  2009/07/13 15:31:37  black
 # Remove LINK to Ron Knott's page on Fibonacci Numbers and the Golden
 # Section - the whole server is gone.
@@ -133,7 +136,7 @@ Inverses and fractional powers are given also.
 @IMPL=Worst-case behavior to <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/fibnum.html">generate
 nth number, annotated for real time (WOOP/ADA)</a>,
-<a href="http://www.math.grin.edu/~stone/events/scheme-workshop/fibonacci.html">(Scheme)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/fibonacci.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PR
 # end $Source: /home/black/Workspace/dads/Terms/RCS/fibonacciNumber.trm,v $
