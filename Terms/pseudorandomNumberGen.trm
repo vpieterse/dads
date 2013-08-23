@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb  1 13:01:14 2012" *by "Paul E. Black"
+# *modified "Thu Aug 22 16:24:10 2013" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.20  2013/08/22 20:26:13  black
+# Update URL for Summit's IMPL
+#
 # Revision 1.19  2012/02/01 18:01:56  black
 # Restore pLab's IMPL and comparison page - it's back
 #
@@ -129,7 +132,7 @@ href="http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=254771">
 numbers in a certain range (C)</a> is C FAQ question 13.16,
 <a href="http://www.lysator.liu.se/c/c-faq/c-12.html">C FAQ question
 12.9 as of 1995 (C)</a>, or
-<a href="http://c-faq.com/~scs/cclass/krnotes/sx10n.html">section
+<a href="http://www.eskimo.com/~scs/cclass/krnotes/sx10n.html">section
 7.8.7 (C)</a> of Steve Summit's Notes to Accompany <em>The C
 Programming Language</em>.
 # author's initials
