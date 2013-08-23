@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:49 2011" *by "Paul E. Black"
+# *modified "Thu Aug 22 16:10:31 2013" *by "Paul E. Black"
 
 # $Log: unboundedKnapsack.trm,v $
+# Revision 1.8  2013/08/22 20:10:43  black
+# update Sniedovich's LINK
+#
 # Revision 1.7  2011/02/28 14:12:50  black
 # change DADS URL root.  Again
 #
@@ -66,8 +69,9 @@ $\sum<sub>t=1</sub><sup>N</sup> n<sub>t</sub>v<sub>t</sub>$, is maximized.
 # implementation(s) (pure HTML)
 @IMPL=
 # further explanation (pure HTML)
-@LINKS=<a
-href="http://www.tutor.ms.unimelb.edu.au/knapsack_new/">demonstration
+@LINKS=
+Moshe Sniedovich's <a
+href="http://www.moshe-online.com/tutor/knapsack_new/">demonstration
 solutions</a> using
 <a href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
 programming</a>.
