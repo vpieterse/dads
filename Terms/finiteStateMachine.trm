@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May 12 09:16:51 2008" *by "Paul E. Black"
+# *modified "Thu Aug 22 16:00:30 2013" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Revision 1.10  2013/08/22 20:01:55  black
+# update Lutterkort's IMPL
+#
 # Revision 1.9  2008/05/12 13:17:11  black
 # add Lutterkort's IMPL
 #
@@ -91,7 +94,7 @@ Jan Daciuk's
 state utilities (C++)</a> including many links to other code, papers,
 etc.
 David Lutterkort's
-<a href="http://www.augeas.net/libfa/">Finite Automata library -
+<a href="http://augeas.net/libfa/">Finite Automata library -
 libfa (C)</a>, which is part of Augeas, supports many operations like
 "compile" a regular expression into a finite automaton, minimize,
 union, intersect, and minus.
