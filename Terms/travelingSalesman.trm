@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Wed Apr 10 13:53:27 2013" *by "Paul E. Black"
+# *modified "Wed Aug 28 09:41:20 2013" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Revision 1.12  2013/08/28 13:43:01  black
+# update LINK to tsp page
+#
 # Revision 1.11  2013/04/10 17:53:50  black
 # change "which"s to "that"s.  Misc. formatting.
 #
@@ -104,7 +107,7 @@ converting the tree to a path with results closer to optimal.
 
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://www.tsp.gatech.edu/">links to challenges,
+<a href="http://www.math.uwaterloo.ca/tsp/">links to challenges,
 advances, etc.</a>.
 # implementation(s) (pure HTML)
 @IMPL=
