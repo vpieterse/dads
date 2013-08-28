@@ -1,7 +1,10 @@
 # *created  "Wed May 17 12:57:37 2000" *by "Paul E. Black"
-# *modified "Mon May 23 09:52:18 2011" *by "Paul E. Black"
+# *modified "Wed Aug 28 09:48:29 2013" *by "Paul E. Black"
 
 # $Log: groversAlgo.trm,v $
+# Revision 1.10  2013/08/28 13:49:26  black
+# update LINK to Grover's article
+#
 # Revision 1.9  2011/05/23 14:27:29  black
 # add date of access
 #
@@ -56,7 +59,7 @@ Algorithms," page 46.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Grover's article in
-<a href="http://drdobbs.com/architecture-and-design/184404559">Dr.
+<a href="http://drdobbs.com/architecture-and-design/searching-with-quantum-computers/184404559">Dr.
 Dobb's Journal, April 2001 (C-like)</a>,
 accessed May 2011.
 # author's initials (see authors.data)
