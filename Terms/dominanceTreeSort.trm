@@ -1,7 +1,10 @@
 # *created  "Thu Mar 30 14:26:29 2006" *by "Paul E. Black"
-# *modified "Thu Mar 30 14:36:04 2006" *by "Paul E. Black"
+# *modified "Thu Sep  5 09:38:12 2013" *by "Paul E. Black"
 
 # $Log: dominanceTreeSort.trm,v $
+# Revision 1.2  2013/09/05 13:40:54  black
+# update URL of Harter's description and link to his IMPL, too.
+#
 # Revision 1.1  2006/03/30 19:37:23  black
 # Initial revision
 #
@@ -40,13 +43,20 @@
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
-Richard Harter's
-<a href="http://home.tiac.net/~cri/2004/domsort.html">description</a>.
+
 # any historical notes
 @HISTORY=
 
 # implementation(s) (pure HTML)
 @IMPL=
+Richard Harter's
+<a
+href="http://richardhartersworld.com/cri/2004/domsort.html">description</a>
+and 
+<a
+href="http://richardhartersworld.com/cri/2004/int_domsort.html">implementation
+(C)</a>.
+
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
