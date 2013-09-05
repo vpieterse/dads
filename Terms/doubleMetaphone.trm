@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Mon Jul 23 09:59:49 2012" *by "Paul E. Black"
+# *modified "Thu Sep  5 09:45:57 2013" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Revision 1.20  2013/09/05 13:46:07  black
+# update URL for Dr. Dobbs
+#
 # Revision 1.19  2012/07/23 14:00:25  black
 # remove link to SAS IMPL - the-link-king.com domain is gone.
 #
@@ -91,7 +94,7 @@ spelling.
 <strong>Lawrence Philips</strong>, <em>The Double Metaphone Search
 Algorithm</em>, C/C++ Users Journal, June 2000.
 <a
-href="http://drdobbs.com/cpp/184401251">on-line article</a>
+href="http://www.drdobbs.com/cpp/184401251">on-line article</a>
 accessed May 2011.
 
 # any notes.  these are not printed in the final dictionary
