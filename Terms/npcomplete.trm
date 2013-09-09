@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep  5 11:47:45 2012" *by "Paul E. Black"
+# *modified "Mon Sep  9 13:56:41 2013" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Revision 1.15  2013/09/09 17:56:43  black
+# update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.14  2012/09/05 15:47:47  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -119,7 +122,7 @@ of NP optimization problems</a>.
 
 <p>
 Scott Aaronson's
-<a href="http://qwiki.stanford.edu/index.php/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
 Zoo</a>
 </p>
 
