@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Sep  5 11:47:40 2012" *by "Paul E. Black"
+# *modified "Mon Sep  9 13:56:39 2013" *by "Paul E. Black"
 
 # $Log: np.trm,v $
+# Revision 1.12  2013/09/09 17:56:41  black
+# update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.11  2012/09/05 15:47:45  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -97,7 +100,7 @@ classes P and NP</a>.
 
 <p>
 Scott Aaronson's
-<a href="http://qwiki.stanford.edu/index.php/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
