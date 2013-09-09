@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Oct 25 16:32:23 2010" *by "Paul E. Black"
+# *modified "Mon Sep  9 13:56:26 2013" *by "Paul E. Black"
 
 # $Log: canonical.trm,v $
+# Revision 1.7  2013/09/09 17:56:37  black
+# update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.6  2010/10/25 20:32:27  black
 # Update Scott Aaronson's Complexity Zoo URLs
 #
@@ -49,7 +52,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 Scott Aaronson's
-<a href="http://qwiki.stanford.edu/index.php/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
