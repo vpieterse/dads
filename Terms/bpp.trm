@@ -1,7 +1,10 @@
 # *created  "Wed Jan 10 15:03:24 2001" *by "Paul E. Black"
-# *modified "Mon Oct 25 16:32:16 2010" *by "Paul E. Black"
+# *modified "Mon Sep  9 13:55:01 2013" *by "Paul E. Black"
 
 # $Log: bpp.trm,v $
+# Revision 1.7  2013/09/09 17:55:18  black
+# update URL for Aaronson's Complexity Zoo
+#
 # Revision 1.6  2010/10/25 20:32:23  black
 # Update Scott Aaronson's Complexity Zoo URLs
 #
@@ -58,7 +61,7 @@ After <a href="../terms.html#Hirv01">[Hirv01, page 19]</a>.
 # further explanation (pure HTML)
 @LINKS=
 Scott Aaronson's
-<a href="http://qwiki.stanford.edu/index.php/Complexity_Zoo">Complexity
+<a href="https://complexityzoo.uwaterloo.ca/Complexity_Zoo">Complexity
 Zoo</a>
 # implementation(s) (pure HTML)
 @IMPL=
