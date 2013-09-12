@@ -1,0 +1,62 @@
+# *created  "Fri Jan  7 16:18:10 2009" *by "Paul E. Black"
+# *modified "Fri Jan  9 17:37:16 2009" *by "Paul E. Black"
+
+# $Log: perfectShuffle.trm,v $
+# Revision 1.1  2009/01/09 22:37:58  black
+# Initial revision
+#
+
+# entry name
+@NAME=perfect shuffle
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=combin
+# the definition
+@DEFN=Split a list of elements (or deck of cards) exactly in half then
+precisely interleave the two halves.
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={deterministic algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={ideal random shuffle}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+
+@NOTES=
+
+# any historical notes
+@HISTORY=
+For several years I defined "perfect shuffle" to mean an algorithm that
+randomly shuffles (permutes) elements with a uniform chance of getting
+any particular permutation.  I now call that an "ideal random
+shuffle", after Oleg, since "perfect shuffle" has been far more widely
+used for decades to mean the above (see for instance, Donald E. Knuth,
+"The Art of Computer Programming", 2nd edition, Vol 3, Exercises for
+Sect. 5.3.4, number 13, page 237).
+
+
+# implementation(s) (pure HTML)
+@IMPL=
+
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/perfectShuffle.trm,v $

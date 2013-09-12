@@ -1,0 +1,130 @@
+# *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:42:03 2013" *by "Paul E. Black"
+
+# $Log: selectionSort.trm,v $
+# Revision 1.18  2013/08/22 19:42:04  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
+# Revision 1.17  2009/08/24 14:09:24  black
+# Update Harrison's demo URL.  Link to "stable" the first time it is
+# mentioned.
+#
+# Revision 1.16  2009/08/03 13:36:03  black
+# update URL for IMPL at Simple Programming Tutorials, now Algorithms
+# and Data Structures.
+#
+# Revision 1.15  2009/01/22 15:57:58  black
+# Add Simple programming tutorials' IMPL.
+#
+# Revision 1.14  2007/04/23 13:21:30  black
+# Update URL for Mukundan's Java demos and code
+#
+# Revision 1.13  2006/03/15 22:11:54  black
+# Correct DEFN: n is number of elements, not comparisons.
+#
+# Revision 1.12  2006/03/13 14:13:10  black
+# Update Thomas Baudel's LINK
+#
+# Revision 1.11  2005/02/04 13:56:14  black
+# XREF Fisher-Yates shuffle
+#
+# Revision 1.10  2005/01/10 16:58:50  black
+# Update Thomas Baudel's (links) URL.
+#
+# Revision 1.9  2004/12/17 17:24:37  black
+# Make more XHTML compliant.
+#
+# Revision 1.8  2004/11/30 15:14:23  black
+# Note similarity between selection sort and heap sort.  Improve some wording.
+#
+# Revision 1.7  2004/08/25 13:15:35  black
+# Refine XREFS into IMA, etc. and classify xrefs.  Clarify wording for
+# the stable version of the algorithm a little.
+#
+# Revision 1.6  2004/04/02 20:38:24  black
+# Refer to bingo sort, a variant of selection sort.  Note that the
+# algorithm is not stable.
+#
+# Revision 1.5  2004/01/12 15:22:57  black
+# Add RCS Log and Source.  Make the note about stable sorting more accurate.
+#
+
+# entry name
+@NAME=selection sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm that repeatedly looks through
+remaining items to find the least one and moves it to its final
+location.  The run time is {$\Theta(n<sup>2</sup>)$#\Theta}, where $n$
+is the number of elements.  The number of swaps is 
+{$O(n)$#big-O notation}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT={bingo sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={strand sort}, {heapsort}, {Fisher-Yates shuffle}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Sorting can be done {in place#in-place sort} by swapping
+the least remaining item with the item in the next position to be
+filled.  However, this implementation of the algorithm is not {stable}.
+</p>
+
+<p>
+If the (first) least remaining item is inserted, that is, all
+intervening items moved down (instead of swapping), this algorithm is
+stable.
+However, if the items are in an array, rather than, say a {linked
+list}, the number of moves is {$O(n<sup>2</sup>)$#big-O notation}.
+The algorithm is then like {bubble sort} with a more complicated control
+structure.
+</p>
+
+# Careful selection of the least item does NOT work, since it may swap
+# items so they are out of order.  For instance,
+#	{ 3a, 3b, 2 }
+# find 2 and swap it into place
+#	{  2, 3b, 3a }
+# no more swaps will be done
+
+<p>
+{Heapsort} can be seen as a variant of selection sort in which 
+sorted items are arranged (in a {heap}) to quickly find the next item.
+
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/SSort.html">animation (Java)</a>.
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">animation
+and code (Java)</a>.
+Thomas Baudel's <a
+href="http://thomas.baudel.name/Visualisation/VisuTri/selectionsort.html">links
+to animation (Java)</a>.
+Simple Programming Tutorials'
+<a
+href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
+(Java and C++)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>.
+<a
+href="http://www.sci.csuhayward.edu/~billard/cs3240/node29.html">Questions
+and example (C)</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/selectionSort.trm,v $

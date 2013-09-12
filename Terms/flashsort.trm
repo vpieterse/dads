@@ -1,0 +1,50 @@
+# *created  "Thu Mar  9 13:33:29 2000" *by "Paul E. Black"
+# *modified "Mon May 24 11:22:06 2004" *by "Paul E. Black"
+
+# $Log: flashsort.trm,v $
+# Revision 1.2  2004/05/24 15:22:28  black
+# Change pp. to pages.
+#
+
+# entry name
+@NAME=flash sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>J. H. Reif and L. G. Valiant</strong>, <em>A logarithmic time
+sort for linear size networks</em>, Proc. 15th Annual STOC, pages 10-16, 1983.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=It is "a randomized parallel sorting algorithm, similar in a
+lot of ways to quicksort with lots of pivots used simultaneously.
+-- Steve Tate, srt@cs.unt.edu, comp.theory, 25 Feb 2000.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=
+# end $Source: /export/home/black/DADS/Terms/RCS/flashsort.trm,v $

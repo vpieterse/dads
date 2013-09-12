@@ -1,0 +1,64 @@
+# *created  "Wed Feb  3 10:05:33 1999" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:48 2008" *by "Paul E. Black"
+
+# $Log: vanemdeboas.trm,v $
+# Revision 1.5  2008/08/14 16:16:50  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.4  2005/12/14 14:00:45  black
+# Change pp to pages
+#
+# Revision 1.3  2004/12/20 16:10:05  black
+# Add initial def'n, BIB, NOTES, etc.  Remove IMPL since it is pseudo-code.
+#
+# Revision 1.2  2004/12/17 16:55:27  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=van Emde-Boas priority queue
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=An efficient implementation of {priority queues} where insert,
+delete, get minimum, get maximum, etc. take 
+{O(log log N)#big-O notation} time, where N is the total possible
+number of {keys}.  Depending on the circumstance, the implementation
+is null (if the queue is empty), an integer (if the queue has one
+integer), a {bit vector} of size N (if N is small), or a special {data
+structure}: an {array} of priority queues, called the bottom queues,
+and one more priority queue of array indexes of the bottom queues.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={priority queue}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={bit vector}, {array}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# copied from GBY91
+<strong>P. van Emde-Boas, R. Kass, and E. Zijlstra</strong>, 
+<em>Design and Implementation of an Efficient Priority Queue</em>,
+Mathematical Systems Theory, 10:99-127, 1977.<br />
+<strong>P. van Emde-Boas</strong>, <em>Preserving Order in a Forest in
+Less than Logarithmic Time and Linear Space</em>,
+Inf. Proc. Letters, 6(3):80-82, June 1977.
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <a href="../terms.html#GBY91">[GBY91, pages 216-217]</a>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/vanemdeboas.trm,v $

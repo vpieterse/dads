@@ -1,0 +1,38 @@
+# *created  "Tue Feb 29 09:26:25 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:05:46 2004" *by "Paul E. Black"
+
+# $Log: negation.trm,v $
+# Revision 1.2  2004/12/17 17:05:46  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=negation
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=The negation of 0 is 1; the negation of 1 is 0.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={not}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/negation.trm,v $

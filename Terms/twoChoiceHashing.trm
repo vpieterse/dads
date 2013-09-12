@@ -1,0 +1,78 @@
+# *created  "Fri Jan 28 16:25:04 2005" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:16:42 2008" *by "Paul E. Black"
+
+# $Log: twoChoiceHashing.trm,v $
+# Revision 1.2  2008/08/14 16:16:45  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.1  2005/01/31 17:42:12  black
+# Initial revision
+#
+
+# entry name
+@NAME=2-choice hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A variant of a {hash table} in which {keys} are added by hashing
+with two {hash functions}.  The key is put in the {array} position
+with the fewer (colliding) keys.  
+Some {collision resolution scheme} is needed, unless keys are kept in
+{buckets}.  The {average-case cost} of a successful search is
+${O(2 + (m-1)/n)#big-O notation}$, where m is the number of keys and n
+is the size of the array.
+The most collisions is $\log<sub>2</sub> \ln n + {\Theta}(m/n)$ with high
+probability.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=2-way chaining, d-random scheme, ABKU hashing, uniform greedy algorithm
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={hash table}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={dictionary}
+# Aggregate child: "... is a part of or used in me."
+@INME={array}, {hash function}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={2-left hashing}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Yossi Azar</strong>, <strong>Andrei Z. Broder</strong>, 
+<strong>Anna R. Karlin</strong>, <strong>Eli Upfal</strong>, 
+<em>Balanced Allocations</em>, SIAM J. Comput. 29(1):180-200,
+1999.<br />
+An earlier version appeared in STOC 1994.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Called "2-way chaining" in the paper.<br />
+Although the average lookup time is similar to a table with a single
+hash function, the maximum number of collisions is exponentially
+smaller.  This make using buckets or use in real-time systems far more
+practical.  Additional hash functions only decrease the maximum by a
+constant factor.<br />
+Buckets or lists can be searched in parallel.
+</p>
+
+<p>
+Michael Mitzenmacher extensively studied and analyzed 2-left and
+2-choice hashing.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/twoChoiceHashing.trm,v $

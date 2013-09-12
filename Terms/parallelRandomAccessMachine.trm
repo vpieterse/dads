@@ -1,0 +1,50 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri Feb 27 15:11:02 2004" *by "Paul E. Black"
+
+# $Log: parallelRandomAccessMachine.trm,v $
+# Revision 1.2  2004/02/27 20:19:40  black
+# Refine XREFS into IMA, etc.  Refer to "shared memory".
+#
+
+# entry name
+@NAME=parallel random-access machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=para
+# the definition
+@DEFN=A {shared memory} {model of computation}, where typically the
+processors all execute the same instruction synchronously, and access
+to any memory location occurs in unit time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=PRAM
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={shared memory}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={work-depth model}, {multiprocessor model}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 47-3,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end $Source: /export/home/black/DADS/Terms/RCS/parallelRandomAccessMachine.trm,v $

@@ -1,0 +1,47 @@
+# *created  "Tue Apr 11 11:30:54 2000" *by "Paul E. Black"
+# *modified "Tue Jul  6 09:10:31 2004" *by "Paul E. Black"
+
+# $Log: viterbiAlgorithm.trm,v $
+# Revision 1.2  2004/07/06 13:11:12  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Remove HMM URL:
+# pages no longer render in Mozilla, etc.
+#
+
+# entry name
+@NAME=Viterbi algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=An algorithm to compute the optimal (most likely) state sequence in
+a {hidden Markov model} given a sequence of observed outputs.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Viterbi search
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={hidden Markov model}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Baum Welch algorithm}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Also used to decode, i.e. remove noise from, linear error-correcting
+codes.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/viterbiAlgorithm.trm,v $

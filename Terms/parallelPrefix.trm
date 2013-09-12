@@ -1,0 +1,66 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jan 25 10:22:06 2010" *by "Paul E. Black"
+
+# $Log: parallelPrefix.trm,v $
+# Revision 1.4  2010/01/25 15:22:53  black
+# update HTML command: <br /> instead of (old style) <br>
+#
+# Revision 1.3  2007/03/15 21:22:14  black
+# Fix error in DEFN code: loop goes to lg(n)-1.  Improve wording of
+# DEFN.  NOTE write-after-read hazard.
+#
+# Revision 1.2  2004/12/17 17:06:17  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=parallel prefix computation
+# _A_lgorithm, _D_ef'n, _P_roblem, data _S_tructure, or algo. _T_echnique
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=para
+# the definition
+@DEFN=Calculate an {associative} function, f, on all prefixes of an
+$n$-element
+array, that is, $s[0], f(s[0], s[1]), f(s[0], f(s[1], s[2])),
+\ldots, f(s[0], f(s[1], \ldots f(s[n-2], s[n-1])\ldots))$, 
+using {$\Theta(n)$#$\Theta$} processors in $\Theta(\log n)$ time.
+The algorithm is
+<pre>
+for j := 0 to lg(n)-1 do <br />
+    for i := $2<sup>j</sup>$ to n-1 parallel-do<br />
+        s[i] := f(s[i-$2<sup>j</sup>$], s[i])
+</pre>
+where lg is the logarithm base 2, and parallel-do does the innermost
+computations in parallel.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In particular, this calculates any associative function, such
+as sum, maximum, or concatenate, over a list of values in
+{logarithmic} time.  Note the write-after-read hazards in the
+parallel-do loop: old values of $s[2<sup>j</sup>] to
+s[n-1-2<sup>j</sup>]$ must be read before being overwritten.  
+Since this algorithm overwrites the initial values, the $n$
+processors can copy input values to a result array in parallel in
+one additional step.
+<br />
+From Yair Tuaff (r56409@email.sps.mot.com), 29 December 1999.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/parallelPrefix.trm,v $

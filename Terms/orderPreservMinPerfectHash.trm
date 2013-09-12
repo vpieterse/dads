@@ -1,0 +1,66 @@
+# *created  "Mon Dec 27 15:56:58 1999" *by "Paul E. Black"
+# *modified "Tue Apr 14 15:02:14 2009" *by "Paul E. Black"
+
+# $Log: orderPreservMinPerfectHash.trm,v $
+# Revision 1.8  2009/04/14 19:10:51  black
+# IMA Las Vegas algorithm
+#
+# Revision 1.7  2009/04/14 16:37:02  black
+# update LINK to paper in citeseer, now citeseerx.
+#
+# Revision 1.6  2009/02/04 16:08:17  black
+# Update DADS URL root
+#
+# Revision 1.5  2009/02/03 16:37:58  black
+# XREF Pearon's hash.  Hyphenate name.
+#
+# Revision 1.4  2006/07/17 17:17:41  black
+# Add IMA linear hash.  Add full citation for Czech, Havas, and
+# Majewski, and add that it is a Las Vegas algorithm.
+#
+# Revision 1.3  2005/08/12 17:57:47  black
+# LINK to an article on generating min. perf. hash fns.  Change file name.
+#
+# Revision 1.2  2004/12/17 17:06:09  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=order-preserving minimal perfect hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {minimal perfect hashing} function for keys in $S$ such that if
+$k1, k2 \in S$ and $k1 &gt; k2$, then $f(k1) &gt; f(k2)$.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={minimal perfect hashing}, {linear hash}, {Las Vegas algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Pearson's hash}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For example, if the keys are stored in order in an {array}, the
+array offsets are an order preserving minimal perfect hash of the
+keys.
+# further explanation (pure HTML)
+@LINKS=
+<strong>Zbigniew J. Czech, George Havas</strong>, and <strong>Bohdan
+S. Majewski</strong>, <em>An Optimal Algorithm for Generating Minimal
+Perfect Hash Functions</em>, Information Processing Letters,
+43(5):257-264, October 1992.  Available at <a
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566">http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.51.5566</a>.  
+"It uses expected linear time and ... runs very fast in practice."
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=BJ
+# end $Source: /home/black/DADS/Terms/RCS/orderPreservMinPerfectHash.trm,v $

@@ -1,0 +1,55 @@
+# *created  "Wed Feb  3 09:37:44 1999" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:16 2009" *by "Paul E. Black"
+
+# $Log: externalQuicksort.trm,v $
+# Revision 1.4  2009/11/16 14:52:17  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
+# Revision 1.3  2009/09/30 17:20:41  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
+# Revision 1.2  2004/12/15 18:56:09  black
+# Add initial def'n.  Refine XREFS into IMA, etc. and fill in.  Add RCS
+# keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=external quicksort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=Read the $M/2$ first and last elements into a buffer (the buffer
+acts like the pivot in {quicksort}), and sort them.  Read the next
+element from the beginning or end to balance writing.  If the next
+element is less than the least of the buffer, write it to available
+space at the beginning.  If greater than the greatest, write it to the
+end.  Otherwise write the greatest or least of the buffer, and put the
+next element in the buffer.  Keep the maximum lower and minimum upper
+{keys} written to avoid resorting middle elements that are in order.  
+When done, write the buffer.  {Recursively#recursion} sort the
+smaller partition, and loop to sort the remaining partition.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={external sort}, {in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={partition}, {divide and conquer}, {recursion}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={quicksort}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Performance is terrible if the external memory does not have
+random (direct) access.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/446.sort.c">(C)</a>
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/externalQuicksort.trm,v $

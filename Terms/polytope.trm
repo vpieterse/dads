@@ -1,0 +1,38 @@
+# *created  "Mon Nov 23 09:47:31 1998" *by "Paul E. Black"
+# *modified "Mon Jun 28 11:07:20 2004" *by "Paul E. Black"
+
+# $Log: polytope.trm,v $
+# Revision 1.2  2004/06/28 16:21:20  black
+# Refine XREFS into IMA, etc., and RCS keywords.  Add that simplex is a
+# variant and I'M IN P-tree.
+#
+
+# entry name
+@NAME=polytope
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A closed, bounded N-dimensional figure whose faces are
+hyperplanes.
+Informally, a multidimensional solid with flat sides.  A
+generalization of polyhedron.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={simplex}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={P-tree}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/polytope.trm,v $

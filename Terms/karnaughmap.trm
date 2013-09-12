@@ -1,0 +1,108 @@
+# *created  "Thu Feb 11 16:27:49 1999" *by "Paul E. Black"
+# *modified "Mon Sep 24 09:55:26 2012" *by "Paul E. Black"
+
+# $Log: karnaughmap.trm,v $
+# Revision 1.12  2012/09/24 13:56:10  black
+# be more specific about URL
+#
+# Revision 1.11  2012/09/17 13:53:22  black
+# update LINK to tutorial
+#
+# Revision 1.10  2010/07/19 15:02:30  black
+# update LINK to primer article
+#
+# Revision 1.9  2009/03/09 14:16:29  black
+# Update IMPL URL.
+#
+# Revision 1.8  2009/03/02 19:31:07  black
+# Remove LINK to Dillon's practicer - account gone.
+#
+# Revision 1.7  2008/08/14 16:14:44  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.6  2005/09/29 15:04:26  black
+# LINK directly to Dillon's Karnaugh map page.
+#
+# Revision 1.5  2005/09/28 20:17:15  black
+# Dillon's flash is more a practice aid than a minimizer.
+#
+# Revision 1.4  2005/09/28 20:10:25  black
+# LINK to Dillon's flash simulator.
+#
+# Revision 1.3  2004/12/17 17:28:17  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/02/25 17:39:37  black
+# Refine XREFS into IMA, etc.  Add link to primer and remove dead link.
+#
+
+# entry name
+@NAME=Karnaugh map
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A method for minimizing a {boolean expression}, usually aided by
+a rectangular map of the value of the expression for all possible input
+values.  Input values are arranged in a {Gray code}.  Maximal
+rectangular groups that cover the inputs where the expression is true
+give a minimum implementation.
+<br />
+<img src="../Images/karnaugh.gif" height="225" width="221">
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=Veitch diagram, KV diagram
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={Gray code}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Venn diagram}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# copy of article in Mnemo 5.  Paper covers don't-cares, negative
+# expressions, factoring, etc.
+<strong>Maurice Karnaugh</strong>, <em>The Map Method for Synthesis of
+Combinational Logic Circuits</em>, Trans. AIEE. pt I, 72(9):593-599,
+November 1953.
+# any notes.  these will not be printed in the final dictionary
+@NOTES="Karnaugh" is pronounced "car-no". 
+<!-- pronunciation confirmed by a phone call to Polytechnic
+University, NJ, the school where he taught until recently.
+Paul E. Black 18 Dec 2000 -->
+</p>
+
+<p>
+In the example, "*" means "don't care", that is, it doesn't
+matter what the function value is for those inputs.  This expression
+may be realized as AB' + AD + BC'D + B'CD'.  Some expressions may be
+implemented more compactly by grouping 
+the zeros, possibly including "don't care" cells, and negating the
+final output.  The positive implementation is smaller for this
+expression.
+# further explanation (pure HTML)
+@LINKS=
+<a
+href="http://www.embedded.com/electronics-blogs/programmer-s-toolbox/4024897/A-primer-on-Karnaugh-maps">A
+primer on Karnaugh maps</a> motivated by minimizing logic.
+An <a
+href="http://homepages.wmich.edu/~johnson/ece250/Quiz5/quiz.html">interactive
+quiz</a>.
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://tams-www.informatik.uni-hamburg.de/applets/kvd/">(Java)</a>
+applet demonstrating minimization.
+# author's initials
+@AUTHOR=SKS
+# end $Source: /home/black/DADS/Terms/RCS/karnaughmap.trm,v $

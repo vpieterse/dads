@@ -1,0 +1,51 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jul 11 09:52:32 2005" *by "Paul E. Black"
+
+# $Log: superimposedCode.trm,v $
+# Revision 1.3  2005/07/11 13:55:02  black
+# Update URL for Det. Superimposed Coding paper, move to BIB, and add
+# more detail to citation.
+#
+# Revision 1.2  2004/12/17 16:55:00  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=superimposed code
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=crypt
+# the definition
+@DEFN=A set of bit vectors such that no vector is a subset of a
+bitwise {or} of a small number of others.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Piotr Indyk</strong>, <em>Deterministic Superimposed Coding
+with Applications to Pattern Matching</em>, 
+<a
+href="http://doi.ieeecomputersociety.org/10.1109/SFCS.1997.646101">Proc.
+38th FOCS, pages 127-136</a>, IEEE, 1997.
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/superimposedCode.trm,v $

@@ -1,0 +1,116 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Jun 14 09:11:26 2010" *by "Paul E. Black"
+
+# $Log: divideAndConquer.trm,v $
+# Revision 1.10  2010/06/14 13:12:00  black
+# add HISTORY comments about origin of divide-and-conquer
+#
+# Revision 1.9  2009/11/04 14:04:19  black
+# remove IMPL - Geocities is gone
+#
+# Revision 1.8  2009/08/03 13:18:50  black
+# remove LINK to parallel sorting (hwloidl) - account no longer found
+#
+# Revision 1.7  2005/12/30 16:31:08  black
+# NOTE Karatsuba's Fast Algorithms page.
+#
+# Revision 1.6  2005/10/26 20:42:01  black
+# Add easy/hard split/merge as VARIANT.  XREF recursion and greedy algorithm.
+#
+# Revision 1.5  2005/03/07 14:04:23  black
+# Improve wording of definition and explanation of why binary search is
+# divide-and-conquer.
+#
+# Revision 1.4  2005/01/11 20:56:55  black
+# Remove leading redundant phrase in DEFN.  Improve the rest of the
+# definition.
+#
+# Revision 1.3  2005/01/03 21:59:04  black
+# Remove notes which are no longer accessible.
+#
+# Revision 1.2  2004/12/17 16:49:50  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=divide and conquer
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=Solve a problem, either directly
+because solving that instance is easy (typically, because the instance
+is small) or by <em>dividing</em> it into two or more smaller
+instances.  Each of these smaller instances is 
+{recursively#recursion} solved, and the solutions are combined to
+produce a solution for the original instance.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={easy split, hard merge}, {hard split, easy merge}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={heapify}, {merge sort}, {quicksort}, {binary search}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={recursion}, {greedy algorithm}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The technique is named "divide and conquer" because a
+problem is conquered by dividing it into several smaller problems.
+</p>
+
+<p>
+This technique yields elegant, simple and quite often very efficient
+algorithms.  Well-known examples include {heapify},
+{merge sort}, {quicksort}, Strassen's fast matrix multiplication,
+fast multiplication (in O(n log n log log n), see E. A. Karatsuba's
+<a href="http://www.ccas.ru/personal/karatsuba/algen.htm">Fast
+Algorithms</a>),
+the Fast Fourier Transform (FFT), and {binary search}.  (Why is binary
+search included?  The dividing part picks which segment
+to search, and "the solutions are combined" trivially: take the answer
+from the segment searched.  Segments not searched are "recursively
+solved" by the null operation: they are ignored.)  A similar
+principle is at
+the heart of several important data structures such as 
+{binary search tree}, {multiway search trees}, {tries}, {skip lists},
+multidimensional search trees ({k-d trees}, {quadtrees}),
+etc.
+</p>
+
+<p>
+Here is the translation of "divide and conquer" in different languages:
+<table>
+<tr><td>French</td>	<td>diviser pour r&eacute;gner</td></tr>
+<tr><td>German</td>	<td>teile und herrsche</td></tr>
+<tr><td>Latin</td>	<td>divide et impera</td></tr>
+<tr><td>Spanish</td>	<td>divide y vencer&aacute;s</td></tr>
+<tr><td></td>	<td></td></tr>
+</table>
+
+# any historical notes
+@HISTORY=
+# the earliest citation of a divide-and-conquer algorithm I can find is
+# Jon Louis Bentley and Michael Ian Shamos, "Divide-and-conquer in
+# multidimensional space", Proc. ACM Symposium on Theory of Computing
+# (STOC), pages 220-230, Hershey, Pennsylvania, 1976.  The term is
+# clearly well-known then.  Web searching before that is hard since
+# little is on-line and there are many errors in publication date
+# (e.g. 1900, 1776, etc.).  The term "divide-and-conquer" goes back a
+# few centuries.  Divide-and-conquer algorithms go back at least to an
+# 1805 Gauss paper or von Neumann's 1945 merge sort.
+
+
+# further explanation (pure HTML)
+@LINKS=<a
+href="http://www.ics.uci.edu/~eppstein/161/960118.html">Three divide
+and conquer sorting algorithms</a>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB,CM
+# end $Source: /home/black/DADS/Terms/RCS/divideAndConquer.trm,v $

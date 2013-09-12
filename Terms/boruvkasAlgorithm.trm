@@ -1,0 +1,64 @@
+# *created  "Tue Jan 25 14:27:37 2005" *by "Paul E. Black"
+# *modified "Wed Apr 19 13:15:42 2006" *by "Paul E. Black"
+
+# $Log: boruvkasAlgorithm.trm,v $
+# Revision 1.3  2006/04/19 17:16:21  black
+# LINK to Eppstein's lecture.
+#
+# Revision 1.2  2005/10/05 20:05:52  black
+# Fix spelling.
+#
+# Revision 1.1  2005/01/25 19:46:48  black
+# Initial revision
+#
+
+# entry name
+@NAME=Boruvka's algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=Compute a {minimum spanning tree}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Kruskal's algorithm}, {Prim-Jarnik algorithm}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>O. Boruvka</strong>, <em>O jistem problemu minimalnim</em>,
+Praca Moravske Prirodovedecke Spolecnosti, 3:37-58, 1926. (in Czech)
+(The u in Boruvka has a small o above it.)
+# bib in Goodrich & Tamassia, page 625, has typo (bAruvka, not bOruvka)
+# web citations in Google Scholar agree spelling is Boruvka
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+Eppstein's lecture 
+<a href="http://www.ics.uci.edu/~eppstein/161/960206.html">outlining
+and contrasting MST algorithms</a>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/boruvkasAlgorithm.trm,v $

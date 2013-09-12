@@ -1,0 +1,119 @@
+# *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
+# *modified "Wed Dec  1 12:41:25 2010" *by "Paul E. Black"
+
+# $Log: patriciatree.trm,v $
+# Revision 1.18  2010/12/01 17:42:43  black
+# Remove LINK to U Freiburg 1999 Report129 "Dictionary Automaton in
+# Optimal Space" - no longer at that URL.
+#
+# Revision 1.17  2010/04/12 17:24:22  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
+# Revision 1.16  2009/11/16 14:52:42  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
+# Revision 1.15  2009/09/30 17:20:59  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
+# Revision 1.14  2008/12/03 19:50:20  black
+# remove LINK to McGill 1997 CS251 - appears to be completely gone
+#
+# Revision 1.13  2007/12/18 21:15:10  black
+# improve grammar in DEFN
+#
+# Revision 1.12  2007/05/21 12:44:23  black
+# Update URL for Herbert Glarner's IMPL
+#
+# Revision 1.11  2006/12/08 14:02:37  black
+# Add Glarner's IMPL in Linoleum
+#
+# Revision 1.10  2006/09/11 13:50:06  black
+# Correctly fix py-radix IMPL URL
+#
+# Revision 1.9  2006/09/11 13:39:58  black
+# Update URL for py-radix, a Python IMPL.
+#
+# Revision 1.8  2006/05/11 13:58:22  black
+# The cprops IMPL needs many files - just refer to the main page.
+#
+# Revision 1.7  2006/05/11 13:02:30  black
+# Add cprops IMPL.
+#
+# Revision 1.6  2005/08/15 13:26:11  black
+# Remove LINK to ajf's drivingtest Haskell document - gone from site.
+#
+# Revision 1.5  2005/06/21 14:35:23  black
+# Improve wording of DEFN.
+#
+# Revision 1.4  2005/06/21 14:22:37  black
+# Fix DEFN: single-child nodes are merged with their child, not parent.
+# AKA radix tree.  Add BIB, new IMPLs, and LINK.
+#
+# Revision 1.3  2004/12/17 17:28:33  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/02/10 18:15:08  black
+# Refine XREFS into IMA, etc.  Add RCS Log, etc.  Remove dead link, and
+# add link to McGill's tries and suffix trees.
+#
+
+# entry name
+@NAME=Patricia tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A compact representation of a {trie}
+in which any {node} that is an only {child} is merged with its 
+{parent}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=radix tree
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={trie}
+# Specialization: "... is a kind of me."
+@VARIANT={suffix tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={compact DAWG}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Donald R. Morrison</strong>, <em>PATRICIA - Practical
+Algorithm to Retrieve Information Coded in Alphanumeric</em>, 
+Journal of the ACM, 15(4):514-534, October 1968.
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A compact {directed acyclic word graph} (DAWG) merges common
+suffix trees to save additional space.
+</p>
+
+<p>
+A radix tree is taken to be a binary Patricia tree.
+
+# Knuth, Vol 3, pp 498-507
+
+# further explanation
+@LINKS=
+
+# implementation(s): pure HTML
+@IMPL=
+<a href="http://search.cpan.org/dist/Net-Patricia/">Net-Patricia (Perl
+and C)</a> is a C implementation with a Perl API.
+C prototyping tools,
+<a href="http://cprops.sourceforge.net/">cprops (C)</a>, is a threaded
+implementation (find trie.c).
+<a href="http://www.mindrot.org/projects/py-radix/">py-radix (Python)</a>.
+<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
+# author's initials
+@AUTHOR=SE
+# end $Source: /home/black/DADS/Terms/RCS/patriciatree.trm,v $

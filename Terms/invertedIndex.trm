@@ -1,0 +1,91 @@
+# *created  "Tue Mar 16 16:31:33 1999" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:40 2008" *by "Paul E. Black"
+
+# $Log: invertedIndex.trm,v $
+# Revision 1.4  2008/08/14 16:14:41  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.3  2006/10/13 17:18:42  black
+# move appropriate XREFS to VARIANT.  Add BIB for Zobel & Moffat 2006.
+# NOTE that word number, weights, etc. may be in the index.
+#
+# Revision 1.2  2004/12/17 16:52:33  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=inverted index
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=search
+# the definition
+@DEFN=An index into a set of {texts} of the words in the texts.
+The index is accessed by some {search} method.
+Each index entry gives the 
+word and a list of texts, possibly with locations 
+within the text, where the word occurs.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=inverted file
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={block addressing index}, {full inverted index}, {inverted file index}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={index file}, {external index}, {forward index}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong>Nivio Ziviani, Edleno Silva de Moura, Gonzalo Navarro,
+and Ricardo Baeza-Yates</strong>, <em>Compression: A Key for
+Next-Generation Text Retrieval Systems</em>, IEEE Computer,
+33(11):37-44, November 2000, (page 42).
+</p>
+
+<p>
+<strong>Justin Zobel and Alistair Moffat</strong>, <em>Inverted Files
+for Text Search Engines</em>, ACM Computing Surveys, 38(2), article 6,
+July 2006.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Suppose we want to search the texts "i love you," "god is
+love," "love is blind," and "blind justice." (The words of the text
+are all lower case for simplicity.)  If we index by (text, character
+within the text), the index with location in text is:
+<pre>
+blind   (3,8);(4,0)<br />
+god     (2,0)<br />
+i       (1,0)<br />
+is      (2,4);(3,5)<br />
+justice (4,6)<br />
+love    (1,2);(2,7);(3,0)<br />
+you     (1,7)
+</pre>
+The word "blind" is in document 3 ("love is blind") starting at
+character 8, so has an entry <code>(3,8)</code>.
+To find, for instance, documents with both "is" and "love," first
+look up the words in the index, then find the
+intersection of the texts in each list.  In this case, documents 2 and
+3 have both words.  We can quickly find documents where the words
+appear close to each other by comparing the character within the
+text.
+</p>
+
+<p>
+The index may have the word number, instead of the character number.
+It may also have weights, frequencies, or other indicators.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/invertedIndex.trm,v $

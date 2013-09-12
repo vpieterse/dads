@@ -1,0 +1,102 @@
+# *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:30 2011" *by "Paul E. Black"
+
+# $Log: bogosort.trm,v $
+# Revision 1.12  2011/02/28 14:12:35  black
+# change DADS URL root.  Again
+#
+# Revision 1.11  2010/09/27 17:02:01  black
+# Update DADS URLs
+#
+# Revision 1.10  2010/05/05 18:56:10  black
+# Since gnome sort was originally called stupid sort, change the WEB
+# alias to a NOTE and create a "stupid sort" disambiguation entry.
+#
+# Revision 1.9  2009/09/08 13:05:02  black
+# update URL for Gruber's paper
+#
+# Revision 1.8  2009/04/27 20:09:19  black
+# XREF new algo: tac sort
+#
+# Revision 1.7  2009/04/14 16:21:00  black
+# remove NOTE of FOLDOC entry - web site is off-line
+#
+# Revision 1.6  2009/03/23 20:34:08  black
+# fix misspelling
+#
+# Revision 1.5  2009/03/20 18:34:28  black
+# NOTE paper that analyzes run time.
+#
+# Revision 1.4  2009/03/20 17:11:49  black
+# IMA Las Vegas algorithm
+#
+# Revision 1.3  2005/12/05 15:39:26  black
+# Update FOLDOC URL
+#
+# Revision 1.2  2004/12/17 16:48:36  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=bogosort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A terribly inefficient {sort} algorithm that repeatedly
+generates a random {permutation} of the items until the items are in
+order.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=bogus sort, bogo-sort
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={Las Vegas algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={taco sort}, {bozo sort}, {stooge sort}, {lucky sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
+anybody would be so thoughtless to write/do/say/believe that, and I
+just can't let it pass without objecting."
+</p>
+
+<p>
+Fastest run time is $\Theta(n)$.  Average run time is 
+$\Omega(n \times n!)$. From <br />
+<strong>Hermann Gruber, Markus Holzer</strong>, and <strong>Oliver
+Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
+awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
+pp. 183-197, 2007.
+Available at 
+<a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
+<br />
+Note: the permutation subroutine given for Algorithm 1 is
+<a href="http://www.nist.gov/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
+shuffle</a>.  Also "Supercalifragilisticexpialidocious" is misspelled
+on the sixth page, although it is spelled correctly in the footnote.
+</p>
+
+<p>
+Also called "stupid sort".
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bogosort.trm,v $

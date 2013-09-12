@@ -1,0 +1,42 @@
+# *created  "Tue May  4 17:16:56 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:59 2004" *by "Paul E. Black"
+
+# $Log: subgraphiso.trm,v $
+# Revision 1.2  2004/12/17 16:54:59  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=subgraph isomorphism
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=graph
+# the definition
+@DEFN=Decide if there is a {subgraph} of one {graph} which is 
+{isomorphic} to another graph.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is known to be {NP-complete}.  
+After <a href="../terms.html#ATCH99">[ATCH99, page 6-21]</a>.
+# further explanation (pure HTML)
+@LINKS=A large 
+<a href="http://www.ics.uci.edu/~eppstein/bibs/subiso.bib">bibtex
+bibliography</a>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/subgraphiso.trm,v $

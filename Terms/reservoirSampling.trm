@@ -1,0 +1,100 @@
+# *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
+# *modified "Fri Oct  8 12:23:02 2010" *by "Paul E. Black"
+
+# $Log: reservoirSampling.trm,v $
+# Revision 1.8  2010/10/08 16:25:37  black
+# improve wording
+#
+# Revision 1.7  2010/06/01 15:41:57  black
+# Update LINK to Sahil's explanation
+#
+# Revision 1.6  2010/02/23 19:22:20  black
+# Robinson's NOTE is gone - remove it.  Add Shail's NOTE.
+#
+# Revision 1.5  2009/09/04 15:40:35  black
+# cite Knuth with V:PP (volume number, colon, page number)
+#
+# Revision 1.4  2009/09/04 14:36:06  black
+# refer to algorithm "name" in Knuth with section context, as he does.
+#
+# Revision 1.3  2009/03/06 15:30:01  black
+# Fix defn.  Improve wording of NOTE citing Knuth.
+#
+# Revision 1.2  2009/01/14 20:13:38  black
+# fix latex and HTML "break" typos.
+#
+# Revision 1.1  2009/01/14 20:01:40  black
+# Initial revision
+#
+
+# entry name
+@NAME=reservoir sampling
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Randomly select $k$ items from a stream of items
+of unknown length.  Save the first $k$ items in an {array} of size $k$.
+For each item $j$, $j &gt; k$, choose a random integer $M$ from 1 to
+$j$ (inclusive).  If $M \leq k$, replace item $M$ of the array with
+item $j$.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={randomized algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+Vitter's algorithms X, Y, and Z use far fewer random numbers by
+choosing how many items to skip, rather than deciding whether or not
+to skip each item.<br />
+<strong>Jeffrey Scott Vitter</strong>, <em>Random Sampling with a
+Reservoir</em>, ACM Transactions on Mathematical Software (TOMS),
+11(1):37-57, March 1985.<br />
+Available on-line, for instance at
+<a href="http://www.cs.umd.edu/~samir/498/vitter.pdf">http://www.cs.umd.edu/~samir/498/vitter.pdf</a>.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Each possible selection of $k$ items has an equal probability of
+occurring.
+</p>
+
+<p>
+This algorithm is an in-memory variant of Knuth's Algorithm 3.4.2R
+<a href="../terms.html#Knuth97">[Knuth97, 2:144]</a>.
+He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://webkist.wordpress.com/2008/10/01/reservoir-sampling-in-perl/">(Perl)</a>.
+
+# further explanation (pure HTML)
+@LINKS=
+Sahil's
+# Sahil Thaker? user name is sahilthaker
+<a
+href="http://blogs.msdn.com/b/spt/archive/2008/02/05/reservoir-sampling.aspx">explanation
+of correctness</a> and extension to distributed reservoir sampling.
+
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/reservoirSampling.trm,v $

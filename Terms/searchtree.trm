@@ -1,0 +1,47 @@
+# *created  "Tue Feb  2 15:38:33 1999" *by "Paul E. Black"
+# *modified "Wed Dec 14 11:15:46 2005" *by "Paul E. Black"
+
+# $Log: searchtree.trm,v $
+# Revision 1.3  2005/12/14 16:16:13  black
+# Add VARIANT ternary search tree.
+#
+# Revision 1.2  2004/10/06 15:03:43  black
+# Use "key" instead of "value".  Refine XREFS into IMA, etc.  Add RCS
+# keywords.
+#
+
+# entry name
+@NAME=search tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {tree} where every {subtree} of a {node} has {keys} less than
+any other subtree of the node to its right.  The keys in a {node}
+are conceptually between subtrees and are greater than any keys in
+subtrees to
+its left and less than any keys in subtrees to its right.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={binary search tree}, {B-tree}, {($a,b$)-tree}, 
+{ternary search tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={search tree property}, {move-to-root heuristic}, {k-d tree}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A search tree that is also a {binary tree} is a binary search tree.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/searchtree.trm,v $

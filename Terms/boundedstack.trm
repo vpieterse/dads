@@ -1,0 +1,34 @@
+# *created  "Tue Dec  1 11:26:43 1998" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:02:41 2004" *by "Paul E. Black"
+
+# $Log: boundedstack.trm,v $
+# Revision 1.2  2004/12/17 17:02:42  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=bounded stack
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=A {stack} limited to a fixed number of items.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={bounded queue}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/boundedstack.trm,v $

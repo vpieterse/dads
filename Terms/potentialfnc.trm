@@ -1,0 +1,52 @@
+# *created  "Tue Feb  2 15:48:53 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:06:41 2004" *by "Paul E. Black"
+
+# $Log: potentialfnc.trm,v $
+# Revision 1.2  2004/12/17 17:06:41  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=potential function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=theory
+# the definition
+@DEFN=A measure of a data structure whose change after an operation
+corresponds to the time cost of the operation.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={amortized cost}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong>R. E. Tarjan</strong>, <em>Amortized computational
+complexity</em>, SIAM Journal on Algebraic and Discrete Methods,
+6(2):306-318, 1985.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If an inexpensive operation results in an increase of
+the potential function, but the increase of the potential function is
+within a constant factor of the actual cost of the operation, the
+amortized cost of the operation is unchanged.  Meanwhile, if an
+expensive operation results in a decrease of the potential function
+that offsets the cost of the expensive operation, the amortized
+cost of the expensive operation may be small.  For such an analysis to
+remain valid, the potential function must stay nonnegative, and begin
+with a value of zero.  For more on amortized analysis and its origins
+see Tarjan.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end $Source: /home/black/DADS/Terms/RCS/potentialfnc.trm,v $

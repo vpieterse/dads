@@ -1,0 +1,51 @@
+# *created  "Tue Nov 17 08:57:05 1998" *by "Paul E. Black"
+# *modified "Wed Feb  4 10:39:11 2009" *by "Paul E. Black"
+
+# $Log: linearhash.trm,v $
+# Revision 1.4  2009/02/04 15:45:15  black
+# Hyphenate name
+#
+# Revision 1.3  2005/02/02 21:28:49  black
+# XREF linear hashing: name is similar, but its quite different.
+#
+# Revision 1.2  2004/02/10 20:19:29  black
+# Refine XREFS into IMA, etc.  Add RCS Log, etc.  Add formal definition
+# and AKA order preserving hash.  I don't know any literature that uses
+# "order preserving hash", but since there is "order preserving minimal
+# perfect hash", I thought this should in the dictionary, too.
+#
+
+# entry name
+@NAME=linear hash
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A numeric function that maintains the order of input {keys}
+while changing their spacing.
+# formal definition or {cross reference} to an entry
+@FORML=A {hash function} $f$ for keys in $S$ such that
+$k1, k2 \in S \wedge k1 &gt; k2 \rightarrow f(k1) &gt; f(k2)$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=order-preserving hash
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={hash function}
+# Specialization: "... is a kind of me."
+@VARIANT={order-preserving minimal perfect hashing}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={grid file}, {hash heap}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={linear hashing}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/linearhash.trm,v $

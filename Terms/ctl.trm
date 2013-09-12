@@ -1,0 +1,42 @@
+# *created  "Wed Sep 22 16:38:12 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:25 2004" *by "Paul E. Black"
+
+# $Log: ctl.trm,v $
+# Revision 1.2  2004/12/17 17:03:25  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=CTL
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=verf
+# the definition
+@DEFN=A propositional, branching-time temporal logic for which
+formulas can be checked in {linear} time.  An acronym for Computation 
+Tree Logic.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=CTL differs from CTL* in that in CTL path quantifiers (E and A)
+always appear with temporal operators (F, G, X, U, etc.).  Therefore
+CTL formulas are <em>state</em> formulas.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/ctl.trm,v $

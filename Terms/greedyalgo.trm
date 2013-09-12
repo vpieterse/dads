@@ -1,0 +1,63 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Feb  2 15:14:06 2005" *by "Paul E. Black"
+
+# $Log: greedyalgo.trm,v $
+# Revision 1.5  2005/02/02 20:53:19  black
+# Fix grammatical error.
+#
+# Revision 1.4  2005/01/25 19:42:17  black
+# Change Prim's to Prim-Jarnik.  Put algos under VARIANT.
+#
+# Revision 1.3  2004/12/17 17:23:55  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/11/01 16:56:36  black
+# Change encoding to coding
+#
+
+# entry name
+@NAME=greedy algorithm
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=An algorithm that always takes the best immediate, or local,
+solution while finding an answer.  Greedy algorithms find
+the overall, or globally, {optimal solution} for some {optimization
+problems}, but may
+find less-than-optimal solutions for some instances of other problems.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={Dijkstra's algorithm}, {Huffman coding}, 
+{Kruskal's algorithm}, {optimal merge}, {Prim-Jarnik algorithm}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={greedy heuristic}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES={Prim-Jarnik algorithm} and {Kruskal's algorithm} are greedy
+algorithms that find the globally optimal solution, a {minimum
+spanning tree}.  In contrast, any known greedy algorithm to find a
+{Hamiltonian cycle} might not find the shortest path, that is, a solution
+to the {traveling salesman} problem.
+</p>
+
+<p>
+If there is no greedy algorithm that always finds the optimal
+solution for a problem, one may have to search (exponentially) many
+possible solutions to find the optimum.  Greedy algorithms are usually
+quicker, since they don't consider the details of possible alternatives.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/greedyalgo.trm,v $

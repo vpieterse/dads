@@ -1,0 +1,83 @@
+# *created  "Mon Jun 19 10:04:01 2006" *by "Paul E. Black"
+# *modified "Mon Jun 19 10:52:41 2006" *by "Paul E. Black"
+
+# $Log: rapidSort.trm,v $
+# Revision 1.1  2006/06/19 14:53:27  black
+# Initial revision
+#
+
+# entry name
+@NAME=rapid sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=A 2-pass {sort} algorithm that is efficient when the range of
+{keys} is approximately equal to the number of items and only keys are
+sorted.
+The first pass counts the occurrences of each key in an auxiliary
+{array}.
+The second pass goes over the auxiliary array writing the counted
+number of keys to the destination.
+
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={pigeonhole sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={counting sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Rapid sort only sorts keys.  In other words, items to be sorted
+consist solely of the key; there is no additional data in items.
+</p>
+
+<p>
+More formally, the algorithm is efficient if the range of key is
+{$O(number of items)$#big-O notation}, that is, less than or equal to
+the number of items, with a possible constant multiplier.  If the
+range is much larger than the number of keys, the second pass is
+inefficient.
+</p>
+
+<p>
+Pigeonhole sort moves items, that is, the key and additional data.
+Since rapid sort sorts keys, it "moves items" by counting or
+writing occurrences.
+Counting sort counts the number of occurrences in an auxiliary array
+then uses the array to compute each item's final destination.  
+In contrast, rapid sort uses the auxiliary array to write the keys in
+the final destination.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+Patrick Eberhart's
+<a href="http://academia.wikia.com/wiki/Check_sort">description and
+illustration (Visual Basic and C++)</a>.
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/rapidSort.trm,v $

@@ -1,0 +1,56 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Nov 29 11:34:32 2004" *by "Paul E. Black"
+
+# $Log: omega.trm,v $
+# Revision 1.2  2004/11/29 16:33:50  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=$\omega$
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=A theoretical measure of the execution of an {algorithm},
+usually the time or memory needed, given the problem size $n$,
+which is usually the number of items.  Informally, saying some equation
+$f(n) = \omega (g(n))$ means $g(n)$ becomes insignificant relative to
+$f(n)$ as $n$ goes to infinity.  
+# formal definition or {cross reference} to an entry
+@FORML=
+$f(n) = \omega (g(n))$
+means that for any
+positive constant $c$, 
+there exists a constant $k$, such that 
+$0 \leq cg(n) &lt; f(n)$ for all 
+$n \geq k$.
+The value of $k$ must not depend on $n$, but may depend on $c$.
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={$\Omega(n)$#$\Omega$}, {little-o notation}, 
+{big-O notation}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=This is the Greek letter Omega.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/omega.trm,v $

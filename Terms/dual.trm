@@ -1,0 +1,87 @@
+# *created  "Wed Sep 29 12:09:06 1999" *by "Paul E. Black"
+# *modified "Mon Dec 27 11:40:18 2010" *by "Paul E. Black"
+
+# $Log: dual.trm,v $
+# Revision 1.12  2010/12/27 16:42:42  black
+# fix HTML reference to figure - there is no longer a link to the Images
+# directory in the HTML directory
+#
+# Revision 1.11  2009/08/17 18:59:59  black
+# remove LINK to Herman Servatius' article.  It moved to
+# http://aleph0.clarku.edu/~hservatius/self1.html, but it is about
+# self-dual maps ON THE SPHERE, not in a plane.
+#
+# Revision 1.10  2007/03/19 16:54:19  black
+# Remove G&G/articles/Torus.pdf algorithm for finding dual - web site gone.
+#
+# Revision 1.9  2006/03/13 13:57:32  black
+# Remove LINK to dual of a Venn diagram - connection timeout since Aug 2005.
+#
+# Revision 1.8  2005/09/06 16:30:57  black
+# update hservat's LINK on self-dual maps.
+#
+# Revision 1.7  2004/12/17 17:50:49  black
+# Make IMG XHTML compliant.
+#
+# Revision 1.6  2004/12/17 17:28:02  black
+# Make more XHTML compliant.
+#
+# Revision 1.5  2004/04/19 18:37:40  black
+# Use the standard English plural of vertex
+#
+# Revision 1.4  2004/02/04 21:40:44  black
+# Refine XREFS into IMA, etc. and add planar graph.  Add link to
+# Torus.pdf with an algorithm for finding a dual.  Remove dead link, a
+# 2nd link to Venn diagram.
+#
+# Revision 1.3  2003/10/16 16:42:17  black
+# Regularize hyperlinks
+#
+# Revision 1.2  2003/10/16 16:39:55  black
+# Use a more regular plural of vertex
+#
+
+# entry name
+@NAME=dual
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=The dual of a {planar graph}, G, is a {graph} with a
+{vertex} for each region in G and an {edge} between vertices for
+each pair of adjacent regions.  The new edge crosses the edge in G
+which is the boundary between the adjacent regions.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={planar graph}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=<img src="../Images/dual.gif" height=266 width=303 align=right>
+</p>
+
+<p>
+The dual of a planar graph is also planar.  The original graph
+is the dual of the dual.  That is, they are duals of each other.
+</p>
+
+<p>
+In the accompanying figure, the black circles and solid lines are one
+planar graph.  The white squares and dotted lines are another planar
+graph.  Each is the dual of the other.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/dual.trm,v $

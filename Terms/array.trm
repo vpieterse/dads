@@ -1,0 +1,164 @@
+# *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
+# *modified "Mon May 23 09:02:43 2011" *by "Paul E. Black"
+
+# $Log: array.trm,v $
+# Revision 1.18  2011/05/23 14:14:01  black
+# *** empty log message ***
+#
+# Revision 1.17  2011/03/18 13:34:41  black
+# update URL of Sedgewick & Wayne's introduction and tutorial to arrays
+#
+# Revision 1.16  2010/09/07 13:20:40  black
+# Remove LINK to Elaan's fast array algorithm - the picture is offensive.
+#
+# Revision 1.15  2008/11/13 17:00:47  black
+# improve grammar in DEFN: use "that" instead of "which".
+#
+# Revision 1.14  2008/11/03 15:24:20  black
+# Represent a lone ampersand in standard HTML.
+#
+# Revision 1.13  2008/08/26 12:58:21  black
+# Update Morris' URL.  Fix typos in Sedgewick link and put it before Morris'.
+#
+# Revision 1.12  2008/08/26 12:45:52  black
+# Add Sedgewick & Wayne's introduction and tutorial to IMPL
+#
+# Revision 1.11  2008/05/15 16:22:49  black
+# Restate DEFN without using "set".  Add a FORML definition.
+#
+# Revision 1.10  2007/11/02 21:19:18  black
+# XREF huge sparse array and NOTE its use.  NOTE skip list as a faster
+# data structure.
+#
+# Revision 1.9  2006/09/11 14:04:00  black
+# Update tutorial IMPL URL
+#
+# Revision 1.8  2005/11/03 15:34:01  black
+# XREF matrix
+#
+# Revision 1.7  2005/10/27 13:59:04  black
+# Update John Morris' URL
+#
+# Revision 1.6  2005/01/13 20:02:22  black
+# NOTE Knuth's algorithm on fast array access and LINK to Elaan write-up.
+#
+# Revision 1.5  2005/01/12 14:21:45  black
+# Separate IMPLs with a period.
+#
+# Revision 1.4  2004/12/17 17:27:42  black
+# Make more XHTML compliant.
+#
+# Revision 1.3  2004/03/18 15:53:24  black
+# Reference 1- and 0-based indexing
+#
+# Revision 1.2  2004/03/08 15:29:18  black
+# Refine XREFS into IMA, etc.  Add reference to sorted array.
+
+# entry name
+@NAME=array
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=An assemblage of items that are randomly accessible by
+integers, the index.
+
+# formal definition or {cross reference} to an entry
+@FORML=Ignoring size an array may be seen as an {abstract data type}
+with the operations new(), set(i, v, A), and get(i, A),  where i is a
+numeric index, v is a value, and A is an array.  The operations may be
+defined with {axiomatic semantics} as follows.
+<ol>
+<li>new() returns an array
+<li>get(i, set(i, v, A)) = v
+<li>$get(i, set(j, v, A)) = get(i, A) if i \neq j$
+</ol>
+Compare this with a {dictionary} using integers as keys.
+</p>
+
+<p>
+If the contents of a new array are set to some implicit initial value
+$v<sub>i</sub>$, we could add the following rule for get.
+<ol start="4">
+<li>get(i, new()) = $v<sub>i</sub>$
+</ol>
+
+<p>
+Typically arrays have a fixed size and use either {0-based indexing}
+or {one-based indexing}.  Fixed initial size and 0-based indexing may
+incorporated as follows.
+<ol>
+<li>new(s) returns an array, which has a size s
+<li>size(new(s)) = s
+<li>size(set(i, v, A)) = size(A)
+<li>$get(i, set(i, v, A)) = v if 0 \leq i &lt; size(A)$
+<li>$get(i, set(j, v, A)) = get(i, A) if i \neq j$
+</ol>
+One-based or other indexing may be defined similarly.
+</p>
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={dynamic array}, {sorted array}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={array index}, {one-based indexing}, {0-based indexing}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={associative array}, {matrix}, {huge sparse array}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=An unordered array must be searched with a {linear search}.
+Average search time may be improved using a {move-to-front heuristic}
+in some cases.
+An {external index}, such as a {hash table} or {inverted index} may
+help make an {array search} quicker and speed overall processing if
+the array is not changed often.
+If the array is kept sorted, a {binary search} or {interpolation
+search} is faster.
+</p>
+
+<p>
+Inserting into an array takes ${\Theta}(n)$ time.  If that's too slow,
+use a {balanced tree}, {skip list}, or a {linked list}.  
+Knuth uses a balanced tree with a RANK field that supports 
+${\Theta}(\log n)$ access by index and ${\Theta}(\log n)$ insert and
+delete.
+<a href="../terms.html#Knuth98">[Knuth98, 3:471, Sect. 6.2.3]</a>
+</p>
+
+<p>
+If it takes too long to initialize a big array of size S, a 
+{huge sparse array} takes time proportional to the number of accesses
+and only ${\Theta}(S)$ extra space.
+
+# further explanation (pure HTML)
+@LINKS=
+
+# implementation(s) (pure HTML)
+@IMPL=
+Sedgewick &amp; Wayne's
+<a href="http://introcs.cs.princeton.edu/java/14array/">introduction
+and tutorial to arrays (Java)</a>.
+John Morris'
+# morris@ee.uwa.edu.au
+<a
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/arrays.html">Data
+Structures - Arrays(C)</a>.
+Bro. David Carlson's
+<a
+href="http://cis.stvincent.edu/html/tutorials/swd/arrays/arrays.html">search,
+access, complexity, etc. tutorial and code (C++)</a>.
+Hudak, Peterson, and Fasel's 
+# "Gentle Introduction to Haskell", 1997
+# http://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/
+section on <a
+href="http://www.cs.auckland.ac.nz/references/haskell/haskell-intro-html/arrays.html">arrays (Haskell)</a>.
+<a href="http://gams.nist.gov/serve.cgi/Class/N1">Read and write
+different arrays (Fortran, C++)</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/array.trm,v $

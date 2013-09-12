@@ -1,0 +1,93 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Tue Feb 22 17:11:14 2011" *by "Paul E. Black"
+
+# $Log: set.trm,v $
+# Revision 1.8  2011/02/22 22:11:28  black
+# Darius Bacon IMPL gone - remove link to it.
+#
+# Revision 1.7  2005/01/11 21:15:53  black
+# Specify that IMA ADT.
+#
+# Revision 1.6  2005/01/11 20:09:14  black
+# Change TYPE to data Structure so it shows up in the ontology
+#
+# Revision 1.5  2004/12/17 17:28:39  black
+# Make more XHTML compliant.
+#
+# Revision 1.4  2004/03/22 17:35:01  black
+# Reference the new entry axiomatic semantics.
+#
+# Revision 1.3  2004/01/12 15:14:29  black
+# Add RCS Log.  Refine XREFS to IMA, etc.  Add Darius Bacon's implementation.
+#
+# Revision 1.2  2003/10/01 14:22:44  black
+# Change the formal definition to parallel that in bag: define the
+# effect of remove() on sets, rather than isIn() on removes.  This also
+# allows us to easily add the predicate isEmpty().
+#
+
+# entry name
+@NAME=set
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=basic
+# the definition
+@DEFN=An unordered collection of values where each value occurs at
+most once.
+A group of elements with three properties: (1) all elements
+belong to a {universe}, (2) either each element is a <em>member</em> of
+the set or it is not, and (3) the elements are unordered.
+# formal definition or {cross reference} to an entry
+@FORML=As an {abstract data type}, a set has a single query function,
+isIn(v, S), which tells whether an element is a member of the set or
+not, and two modifier functions, add(v, S) and remove(v, S).
+These may be defined with {axiomatic semantics} as follows.
+<ol>
+<li>$new()$ returns a set
+<li>$isIn(v, new()) = false$
+<li>$isIn(v, add(v, S)) = true$
+<li>$isIn(v, add(u, S)) = isIn(v , S) if v \neq u$
+<li>$remove(v, new()) = new()$
+<li>$remove(v, add(v, S)) = remove(v, S)$
+<li>$remove(v, add(u, S)) = add(u, remove(v, S)) if v \neq u$
+</ol>
+where S is a set and $u$ and $v$ are elements.
+</p>
+
+<p>
+The {predicate} isEmpty(S) may be defined with the following additional axioms.
+<ol start="8">
+<li>isEmpty(new()) = true
+<li>isEmpty(add(v, S)) = false
+</ol>
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={bag}, {abstract data type}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={intersection}, {union}, {complement},
+{difference}, {list}, {set cover}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://www.cs.sunysb.edu/~algorith/files/set-data-structures.shtml">(C++
+and Pascal)</a>.
+
+# author's initials
+@AUTHOR=PR, PEB
+# end $Source: /home/black/DADS/Terms/RCS/set.trm,v $

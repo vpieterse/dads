@@ -1,0 +1,62 @@
+# *created  "Thu Nov 16 16:52:51 2000" *by "Paul E. Black"
+# *modified "Tue Sep  7 09:32:37 2010" *by "Paul E. Black"
+
+# $Log: treap.trm,v $
+# Revision 1.4  2010/09/07 13:33:39  black
+# Update URL for Kiselyov's IMPL
+#
+# Revision 1.3  2007/04/30 14:39:32  black
+# RBST is a VARIANT.  NOTE that RBST is sometimes called a treap.
+#
+# Revision 1.2  2006/09/11 14:01:24  black
+# misc. updates and improvements
+#
+
+# entry name
+@NAME=treap
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} in which {nodes} have another
+{key}, called the priority.  Operations also keep the nodes
+{heap ordered#heap property} with regard to the priority.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary search tree}
+# Specialization: "... is a kind of me."
+@VARIANT={randomized binary search tree}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# copy in Mnemo 5
+<strong>Raimund G. Seidel</strong> and <strong>Cecilia R. Aragon</strong>, 
+<em>Randomized Search Trees</em>, Algorithmica, 16:464-497 (1996).  
+Also in 30th Annual
+Symposium on Foundations of Computer Science, pages 540-545, Research
+Triangle Park, North Carolina, 30 October-1 November 1989. IEEE.
+# any notes.  these are not printed in the final dictionary
+@NOTES=The name comes from "{tree}" and "{heap}".
+</p>
+
+<p>
+Some call "randomized binary search trees" treaps, but strictly a
+treap does not define how priorities are assigned.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=Oleg Kiselyov's
+<a href="http://okmij.org/ftp/Scheme/lib/treap.scm">(Scheme)</a> and
+<a href="http://okmij.org/ftp/Scheme/#treaps">verification code and
+other links</a>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/treap.trm,v $

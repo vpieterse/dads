@@ -1,0 +1,58 @@
+# *created  "Thu Nov 13 11:57:12 2008" *by "Paul E. Black"
+# *modified "Thu Nov 13 12:18:08 2008" *by "Paul E. Black"
+
+# $Log: randomSearch.trm,v $
+# Revision 1.1  2008/11/13 17:19:17  black
+# Initial revision
+#
+
+# entry name
+@NAME=random search
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Repeatedly check items in an {array} at random until successful.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={search}, {Las Vegas algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={skip list}, {linear search}, {binary search}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+This definition after
+<strong>Kenneth A. Berman</strong> and <strong>Jerome L. Paul</strong>, 
+<em>Fundamentals of Sequential and Parallel Algorithms</em>,
+Sect. 18.4, pages 639-640, PWS Publishing Co., Boston, MA, 1996.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=If any item with a certain value is needed and there are many
+items with that value, a random search has lower expected time than
+linear search.  If parallel processing is available, random search is
+fault tolerant (processors may stop working without causing failure)
+and reasonably efficient.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/randomSearch.trm,v $

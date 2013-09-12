@@ -1,0 +1,120 @@
+# *created  "Fri Sep 18 13:28:22 1998" *by "Paul E. Black"
+# *modified "Thu Nov 20 09:21:52 2008" *by "Paul E. Black"
+
+# $Log: directedGraph.trm,v $
+# Revision 1.10  2008/11/20 14:22:26  black
+# XREF Schorr-Waite graph marking algorithm
+#
+# Revision 1.9  2007/10/18 20:10:15  black
+# fix DEFN: E is a SUBSET of pairs of vertices.
+#
+# Revision 1.8  2007/10/09 15:43:35  black
+# Remove Jonathan Brown's IMPL - gone.
+#
+# Revision 1.7  2006/01/23 16:04:05  black
+# Update St. Andrews' mathematician biography URL
+#
+# Revision 1.6  2004/12/17 17:23:40  black
+# Make more XHTML compliant.
+#
+# Revision 1.5  2004/10/19 12:44:24  black
+# Remove citation of "best modern reference".  Make NOTE more neutral.
+#
+# Revision 1.4  2004/04/19 18:37:38  black
+# Use the standard English plural of vertex
+#
+# Revision 1.3  2004/03/19 18:28:09  black
+# Refine XREFS into IMA, etc.  Add strongly connected graph, source, and
+# sink.  Put Warfield's historical comment in HISTORY.
+#
+# Revision 1.2  2003/10/14 17:17:21  black
+# Use more regular plural of vertex.  Add href for name.
+#
+
+# entry name
+@NAME=directed graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {graph} whose {edges} are <em>ordered</em> pairs of 
+{vertices#vertex}.  That is, each edge can be followed from one vertex
+to another vertex.
+# formal definition or {cross reference} to an entry
+@FORML=A graph G is a pair (V,E), where V is a set
+of vertices, and E is a set of edges between the vertices
+$E \subseteq \{(u,v) | u, v \in V}$. 
+If the graph does not allow {self-loops}, adjacency is {irreflexive},
+that is
+$E \subseteq \{(u,v) | u, v \in V \wedge u \neq v}$. 
+# comma-separated list of pure names
+@AKA=digraph, oriented graph
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={graph}
+# Specialization: "... is a kind of me."
+@VARIANT={directed acyclic graph}, {weighted, directed graph},
+{strongly connected graph}, {arborescence}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={source}, {sink}, {in-degree}, {out-degree}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={undirected graph}, {hypergraph}, {multigraph},
+{Schorr-Waite graph marking algorithm}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+In contrast, undirected graphs merely connect the vertices, without
+any consideration for direction.  For example, a map of streets in a
+neighborhood is an undirected graph, but a map that shows the
+postman's route through that neighborhood is a directed graph.
+A directed graph may be thought of as a neighborhood of one-way
+streets: the map must show the allowed direction of travel on each
+street.  A regular two-way street may be thought of as two one-way
+streets.
+
+# any historical notes
+@HISTORY=
+John N. Warfield &lt;Jnwarfield@aol.com&gt; provides the following
+history of digraphs.
+</p>
+<p>
+In the Harvard-Oxford books on Aristotle, one of the translators
+suggests that Aristotle actually used something akin to digraphs in
+his teachings, but this was pure speculation.
+</p>
+<p>
+Augustus De Morgan invented the Theory of Relations and published the
+key work in 1847---the same year in which Boole published his key
+book in which he credited De Morgan for essentially teaching Boole
+about logic.
+</p>
+<p>
+Since the Theory of Relations offers essentially the algebraic form of the 
+digraph, it is unlikely that there was any formal use before 1847.
+</p>
+<p>
+<a href="http://www-history.mcs.st-andrews.ac.uk/Mathematicians/Peirce_Charles.html">Charles
+Sanders Peirce</a> made clear the use of structural patterns in doing
+basic work, but his own graphics were not very useful in extended form, 
+though some modern enthusiasts have extolled his "existential graphs".
+</p>
+<p>
+The earliest actual drawing of a digraph as connected to De
+Morgan that I have been able to find occurs in the 1919 book by
+Bertrand Russell titled  "Introduction to Mathematical Philosophy".
+</p>
+<p>
+If you find an earlier digraph, please contact me, 
+<a href="mailto:Jnwarfield@aol.com">John N. Warfield</a>.
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/directedGraph.trm,v $

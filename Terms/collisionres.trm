@@ -1,0 +1,46 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Wed Dec  1 16:20:18 2004" *by "Paul E. Black"
+
+# $Log: collisionres.trm,v $
+# Revision 1.2  2004/12/01 21:47:23  black
+# Make summary of open ad. more precise and refer to chaining in general
+# (instead of specifics).  Move mention of prefect hashing to "hash
+# table".  Refine XREFS into IMA, etc.  Add RCS keywords.  Note that the
+# overflow can be any DS.
+#
+
+# entry name
+@NAME=collision resolution scheme
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A way of handling {collisions}, that is, when two or more
+items should be kept in the same location, especially in a {hash table}.
+The general ways are keeping subsequent items within the table and
+computing possible locations ({open addressing}), keeping {lists} for
+items that collide ({chaining}), or keeping one special overflow area.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={direct chaining}, {open addressing}, {separate chaining}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={hash table}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The special overflow area can be any searchable data structure,
+even another (smaller) hash table.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/collisionres.trm,v $

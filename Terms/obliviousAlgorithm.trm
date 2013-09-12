@@ -1,0 +1,65 @@
+# *created  "Wed Jan 10 10:28:06 2007" *by "Paul E. Black"
+# *modified "Wed Jan 10 13:51:32 2007" *by "Paul E. Black"
+
+# $Log: obliviousAlgorithm.trm,v $
+# Revision 1.1  2007/01/10 18:51:59  black
+# Initial revision
+#
+
+# entry name
+@NAME=oblivious algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=
+# the definition
+@DEFN=An algorithm whose behavior, by design, is independent of
+some property that influences a typical algorithm for the same
+problem.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT={bitonic sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=For example, an oblivious sort algorithm always makes the same
+comparisons, regardless of the input.  This is useful for {external
+sorts}, since there is a fixed I/O schedule, or parallel algorithms,
+like {bitonic sort}.
+</p>
+
+<p>
+Other types of oblivious algorithms are cache oblivious, which are not
+dependent on hardware parameters like cache size and cache-line
+length,
+and oblivious routing, which route packets independent of the network
+topology, the history of traffic flow, or the congestion.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/obliviousAlgorithm.trm,v $

@@ -1,0 +1,158 @@
+# *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:27 2013" *by "Paul E. Black"
+
+# $Log: binarySearch.trm,v $
+# Revision 1.22  2013/08/22 19:41:42  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
+# Revision 1.21  2011/02/28 14:12:30  black
+# change DADS URL root.  Again
+#
+# Revision 1.20  2011/02/24 17:20:00  black
+# Rolfe's algorithm is for a (singly) linked list - a doubly linked list
+# is not necessary.
+#
+# Revision 1.19  2010/10/06 15:07:42  black
+# Note that binary search may be effective in ordered, doubly linked
+# lists.  Replace note in IMPL about 0-based indexing with a cross
+# reference to the DADS entry.
+#
+# Revision 1.18  2009/11/16 14:52:01  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
+# Revision 1.17  2009/09/30 17:19:50  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
+# Revision 1.16  2009/08/03 13:40:42  black
+# update URL for IMPL at Simple Programming Tutorials, now Algorithms
+# and Data Structures.
+#
+# Revision 1.15  2009/01/22 16:27:21  black
+# Add Simple programming tutorials' IMPL.
+#
+# Revision 1.14  2007/05/14 14:01:29  black
+# Update URL to https for Woop
+#
+# Revision 1.13  2007/04/23 13:44:34  black
+# fix typo
+#
+# Revision 1.12  2007/04/23 13:43:24  black
+# Update URL for Mukundan's IMPL
+#
+# Revision 1.11  2005/10/27 13:59:46  black
+# Update John Morris' URL
+#
+# Revision 1.10  2005/08/16 20:42:19  black
+# Clarify that valid indexes run from 0 to n (not n-1 as a C programmer
+# might assume).
+#
+# Revision 1.9  2005/06/02 16:24:43  black
+# Acknowledge Colin Wright.
+#
+# Revision 1.8  2005/06/01 15:19:09  black
+# NOTE how to find mid without overflow.
+#
+# Revision 1.7  2004/12/17 17:23:14  black
+# Make more XHTML compliant.
+#
+# Revision 1.6  2004/08/27 16:38:03  black
+# Change Fibonacci to Fibonaccian, following the original author.
+#
+# Revision 1.5  2004/03/18 15:55:04  black
+# Reference new term, 0-based indexing.  Rewrite math statements in IMPL
+# section in HTML, since IMPL doesn't do Latex rewrites.
+#
+# Revision 1.4  2004/03/09 15:21:47  black
+# Fix spelling.
+#
+# Revision 1.3  2004/03/08 14:54:57  black
+# Refine XREFS into IMA, etc.  Enrich the cross references.  Add notes
+# about the Baeza implementation.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
+
+# entry name
+@NAME=binary search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=search
+# the definition
+@DEFN=Search a {sorted array} by repeatedly dividing the search
+interval in half.  Begin with an interval covering the whole array.
+If the value of the search {key} is less than
+the item in the middle of the interval, narrow the interval to the
+lower half.  Otherwise narrow it to the upper half.  Repeatedly check
+until the value is found or the interval is empty.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=bsearch
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={dichotomic search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={binary insertion sort}, {ideal merge}, {suffix array}
+# Aggregate child: "... is a part of or used in me."
+@INME={divide and conquer}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={linear search}, {interpolation search}, {Fibonaccian search},
+{jump search}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Run time is {O(ln n)#big-O notation}.
+</p>
+
+<p>
+Finding the middle is often coded as
+<pre>
+    mid = (high + low)/2;
+</pre>
+This overflows if high and low are close to the largest expressible
+integer.  The following gives the same result and never overflows, if
+high and low are non-negative.
+<pre>
+    mid = low + (high - low)/2;
+</pre>
+Thanks to Colin D. Wright, 1 June 2005.
+</p>
+
+<p>
+Binary search may be effective with an
+{ordered linked list}.
+It makes O(n) traversals, as does {linear search}, but it
+only performs O(log n) comparisons.
+For more explanation, see Tim Rolfe's
+<a href="http://penguin.ewu.edu/~trolfe/Nifty2010/LinkedListBinarySearch/Asg2.html">Searching in a Sorted Linked List</a>.
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+<a
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html#binary-search">explanation</a>
+# implementation(s) (pure HTML)
+@IMPL=
+Mukundan's <a
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
+(Java)</a>. 
+<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
+(C)</a>, which uses
+<a href="http://www.nist.gov/dads/HTML/zeroBasedIndexing.html">0-based indexing</a>.
+Algorithms and Data Structures'
+<a
+href="http://www.algolist.net/Algorithms/Binary_search">explanation
+(Java and C++)</a>.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/binary-search.html">(Scheme)</a>,
+Worst-case behavior <a
+href="https://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated
+for real time (WOOP/ADA)</a>, including bibliography.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/binarySearch.trm,v $

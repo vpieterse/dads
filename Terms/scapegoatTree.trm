@@ -1,0 +1,42 @@
+# *created  "Fri Nov 24 10:25:19 2000" *by "Paul E. Black"
+# *modified "Mon May 24 11:22:47 2004" *by "Paul E. Black"
+
+# $Log: scapegoatTree.trm,v $
+# Revision 1.2  2004/05/24 15:23:00  black
+# Change pp. to pages.
+#
+
+# entry name
+@NAME=scapegoat tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A {binary search tree} that needs no {balance} information.
+Search time is {logarithmic}, and the {amortized cost} of update is
+{logarithmic}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=<strong>I. Galperin and R. L. Rivest</strong>, <em>Scapegoat
+trees</em>, Proc. 4th ACM-SIAM Symp. on Discrete Algorithms (SODA),
+1993, pages 165-174.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/scapegoatTree.trm,v $

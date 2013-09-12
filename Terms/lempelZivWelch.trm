@@ -1,0 +1,68 @@
+# *created  "Mon Sep 27 08:55:03 1999" *by "Paul E. Black"
+# *modified "Fri Nov  9 11:30:49 2012" *by "Paul E. Black"
+
+# $Log: lempelZivWelch.trm,v $
+# Revision 1.5  2012/11/09 16:43:41  black
+# Use Nelson's updated explanation in NOTE.
+#
+# Revision 1.4  2006/07/24 12:59:08  black
+# Update IMPL URL
+#
+# Revision 1.3  2004/12/17 17:24:12  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/11/01 16:57:50  black
+# Change encoding to coding
+#
+
+# entry name
+@NAME=Lempel-Ziv-Welch
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=A compression algorithm that codes strings of characters with
+codes of a fixed number of bits.  Every new string in the input is
+added to a table until it is full.  The codes of existing strings are
+output instead of the strings.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=LZW compression
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Lempel-Ziv, Lempel-Ziv-Welch data compression
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={algorithm BSTW}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong>J. Ziv and A. Lempel</strong>, <em>A Universal Algorithm
+for Sequential Data Compression</em>, IEEE Transactions on Information
+Theory, May 1977.
+</p>
+
+<p>
+<strong>Terry Welch</strong>, <em>A Technique for High-Performance
+Data Compression</em>, Computer, June 1984.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=<a href="http://www.ics.uci.edu/~dan/pubs/DC-Sec5.html">survey
+of data compression</a>
+# implementation(s) (pure HTML)
+@IMPL=
+Mark Nelson's article with an <a
+href="http://marknelson.us/2011/11/08/lzw-revisited/">explanation (C++)</a>
+# author's initials (see authors.data)
+@AUTHOR=GS
+# end $Source: /home/black/DADS/Terms/RCS/lempelZivWelch.trm,v $

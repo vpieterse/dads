@@ -1,0 +1,76 @@
+# *created  "Fri Dec 30 15:50:31 2005" *by "Paul E. Black"
+# *modified "Fri Feb 11 13:41:58 2011" *by "Paul E. Black"
+
+# $Log: DTree.trm,v $
+# Revision 1.4  2011/02/11 18:42:53  black
+# remove URL for SIAM abstract and article - the page is gone, and I
+# don't want to bother finding where they moved it.
+#
+# Revision 1.3  2006/06/08 17:53:21  black
+# Add spatial access method def'n of D-tree.
+#
+# Revision 1.2  2006/01/09 15:31:04  black
+# link to on-line Mehlhorn article.
+#
+# Revision 1.1  2005/12/30 21:01:15  black
+# Initial revision
+#
+
+# entry name
+@NAME=D-tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=(1) A {BB($\alpha$) tree} where the weights are the number of
+searches down that path.  
+(2) A {height-balanced#height-balanced tree} {binary tree} that
+divides regions along their boundaries to serve as a 
+{spatial access method}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=(1) {BB($\alpha$) tree}
+(2) {binary tree}, {spatial access method}, {height-balanced tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+(1) <strong>Kurt Mehlhorn</strong>, <em>Dynamic Binary Search</em>,
+SIAM Journal on Computing, 8(2):175-198, May 1979.
+</p>
+
+<p>
+(2) <strong>Jianliang Xu, Baibua Zheng, Wang-Chien Lee</strong>, and
+<strong>Dik Lun Lee</strong>, <em>The D-tree: An Index Structure for
+Planar Point Queries in Location-Based Wireless Services</em>,
+IEEE Transactions on Knowledge and Data Engineering, 16(12):1526-
+1542, December 2004.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=(1) Short for "dynamic tree".
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/DTree.trm,v $

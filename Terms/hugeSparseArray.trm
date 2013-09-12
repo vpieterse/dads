@@ -1,0 +1,103 @@
+# *created  "Thu Jun  8 16:45:23 2006" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:36 2008" *by "Paul E. Black"
+
+# $Log: hugeSparseArray.trm,v $
+# Revision 1.3  2008/08/14 16:14:39  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.2  2007/11/05 15:38:03  black
+# Rename variables and change wording in DEFN to be clearer.
+# IMA array.  Confirm and refine HISTORY.
+#
+# Revision 1.1  2006/06/27 14:11:07  black
+# Initial revision
+#
+
+# entry name
+@NAME=huge sparse array
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=Let $N$ be the number of items to store and $R$ be the size of
+the {range} of {key} values; $R \gg N$.  
+Allocate, but don't initialize, two arrays: an item array I,
+where $|I|&ge;N$, and a location array L, where $|L|=R$.
+Initialize a variable, next, the number of items, to zero (with
+{0-based indexing}).
+To insert an item, put it in the next place in the item array
+and save where to find it in the location array.
+<pre>
+  I[next] = item;<br />
+  L[item.key] = next;<br />
+  next++;
+</pre>
+To look up an item by key, get the index from the location array.  If
+the index is invalid or refers to the wrong item, the item is not
+found.
+<pre>
+  index = L[key];<br />
+  if (index &lt; 0 OR index &gt;= next) return NOTFOUND;<br />
+  if (I[index].key != key) return NOTFOUND;<br />
+  return I[index];
+</pre>
+Inserting $N$ items takes {$\Theta(N)$#\Theta} total time, assuming
+allocation takes constant time.
+Retrieving an item by key (or responding "not found") takes
+constant time.
+Listing all items takes $\Theta(N)$ time using I.
+
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={array}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={sparse matrix}, {hash table}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Keys must be unique.  Duplicate keys could be handled with
+{collision resolution schemes}.  
+This data structure is usually impractical since the range is
+enormous.
+</p>
+
+<p>
+This effectively allocates a huge array without explicitly
+initializing it, at the cost of $\Theta(N)$ space and a little
+time for each access.
+</p>
+
+<p>
+This is what {hash tables} want to be: constant time for insertion and
+look up.
+# any historical notes
+@HISTORY=
+Motivating problem first posed as exercise 2.12 in <strong>Alfred V. Aho, 
+John E. Hopcroft</strong>, and <strong>Jeffrey D. Ullman</strong>,
+<em>The Design and Analysis of Computer Algorithms</em>,
+page 71, Addison-Wesley, 1974.
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/hugeSparseArray.trm,v $

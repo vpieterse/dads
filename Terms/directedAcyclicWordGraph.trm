@@ -1,0 +1,94 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 30 14:36:56 2011" *by "Paul E. Black"
+
+# $Log: directedAcyclicWordGraph.trm,v $
+# Revision 1.6  2011/12/30 19:42:33  black
+# Move Adamovsky's page, since it is an IMPL, not just a LINK.
+#
+# Revision 1.5  2008/11/13 19:42:45  black
+# LINK to Adamovsky's page
+#
+# Revision 1.4  2005/06/21 14:35:59  black
+# Fix description of compact DAWG.
+#
+# Revision 1.3  2004/12/17 17:23:39  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/11/01 16:55:58  black
+# Change encoding to coding
+#
+
+# entry name
+@NAME=directed acyclic word graph
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=(1) A {directed acyclic graph} representing the {suffixes} of a
+given {string} in which each {edge} is labeled with a character.  The
+characters along a {path} from the {root} to a {node} are the
+{substring} which the {node} represents.
+(2) A {finite state machine} that recognizes a set of words.
+# comma-separated list of pure names
+@AKA=DAWG
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={compact DAWG}, {suffix tree}, {trie}, {Patricia tree},
+{suffix automaton}
+
+# bib refs, eg, to defining articles (pure HTML).  printed within <p>..</p>.
+@BIB=(1) <strong>Andrew W. Appel and Guy J. Jacobson</strong>, <em>The
+World's Fastest Scrabble Program</em>, CACM, 31(5):572-578, May 1988.
+Good description and comparison with a trie.
+#			copy in Mnemo 5.
+</p>
+<p>
+<strong>M. Crochemore and R. Verin</strong>,
+<em>Direct Construction of Compact Directed Acyclic Word Graphs</em>,
+8th Annual Symposium, CPM 97, Aarhus, Denmark, 116-129, 1997.
+</p>
+<p>
+(2) <strong>J. Aoe, K. Morimoto, M. Shishibori and K-H. Park</strong>,
+<em>A Trie Compaction Algorithm for a Large Set of Keys</em>,
+IEEE Trans. Knowledge and Data Engineering, 8(3):476-491, 1996. 
+</p>
+<p>
+<strong>D. Perrin</strong>,
+<em>Finite Automata</em>, in: J. van Leeuwen, ed., Handbook of
+Theoretical Computer Science, Elsevier, Amsterdam, Vol. A, 3-57, 1990.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+A variant, the compact DAWG, labels the edges with strings, not just
+single characters.  In the compact DAWG, any {node} which is an only
+{child} 
+is merged with its {parent} and the edge labels are concatenated.
+Another variant is the morphic DAWG, where some substrings are
+coded with new characters, like a simplified {Huffman coding}.
+#
+# See "Word Graphs" by Robert W. P. Luk (copy in Mnemo 5), a review
+# paper for the Computer Journal I received in March 2000.  It
+# explains DAWG, directed acyclic word graph, compact DAWG, morphic
+# DAWG, and compact morphic DAWG.  Compares space and time tradeoffs
+# and comments on implementations.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+JohnPaul Adamovsky's
+<a href="http://www.pathcom.com/~vadco/dawg.html">Directed Acyclic
+Word Graph or DAWG</a> page with introduction, explanation, C
+implementation, and notes on optimization.
+
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/directedAcyclicWordGraph.trm,v $

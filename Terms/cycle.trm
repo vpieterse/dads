@@ -1,0 +1,99 @@
+# *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
+# *modified "Wed Nov  4 09:05:00 2009" *by "Paul E. Black"
+
+# $Log: cycle.trm,v $
+# Revision 1.11  2009/11/04 14:05:15  black
+# remove IMPL - Geocities is gone
+#
+# Revision 1.10  2008/09/09 18:32:49  black
+# Fix DEFN: must have at least 1 edge.  Move stuff around: simple path
+# and cycle finding to NOTE, "graph" to IMIN, and Euler Cycle to
+# VARIANT.  Add "closed path" as a WEB-only name.
+#
+# Revision 1.9  2006/05/30 20:44:58  black
+# Add "closed path" as another name cycle is known as.
+#
+# Revision 1.8  2004/12/17 17:23:32  black
+# Make more XHTML compliant.
+#
+# Revision 1.7  2004/09/29 20:04:02  black
+# Remove WEB def'n of circuit, since circuit already has an entry.
+# Instead add a NOTE that a cycle is also known as a circuit.
+#
+# Revision 1.6  2004/09/29 16:04:06  black
+# Add circuit as a variant for the WEB.  Correct: Euler cycle is an
+# XREFS, not (generally) a variant.
+#
+# Revision 1.5  2004/04/19 18:36:44  black
+# Use the standard English plural of vertex
+#
+# Revision 1.4  2004/02/26 20:26:25  black
+# Note that you can find *a* cycle with DFS.
+#
+# Revision 1.3  2004/02/26 19:53:44  black
+# Refine XREFS into IMA, etc.  Add that a cycle is a (nonsimple) path.
+# Add that to find cycles, find strongly connected components.
+#
+# Revision 1.2  2003/10/16 17:02:06  black
+# Use a more regular plural of vertex
+#
+
+# entry name
+@NAME=cycle
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=A {path} that starts and ends at the
+same {vertex} and includes at least one {edge}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=closed path
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=(nonsimple) {path}
+# Specialization: "... is a kind of me."
+@VARIANT={Hamiltonian cycle}, {Euler cycle}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={graph}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Also known as "circuit" or "closed path".
+# "closed path" from Jack Edmonds, "Paths, Trees, and Flowers",
+# Canad. J. Math. 17, 449-467, 1965.
+</p>
+
+<p>
+A cycle is usually assumed to be a {simple path} ignoring the start
+(and end) vertex.  That is, it include vertices other than the
+start/end at most once.
+</p>
+
+<p>
+Having at least one edge means that there are at least two vertices in
+the path: the start/end and one other.  It also means the path length
+is at least one.
+</p>
+
+<p>
+One way to find a cycle is to do a {depth-first search}, checking for
+repeated vertices.  One step in finding all
+cycles is to look for {strongly connected components}.
+
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/cycle.trm,v $

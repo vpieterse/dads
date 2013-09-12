@@ -1,0 +1,46 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:31 2004" *by "Paul E. Black"
+
+# $Log: setcover.trm,v $
+# Revision 1.2  2004/12/17 16:54:31  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=set cover
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=combin
+# the definition
+@DEFN=A {set} of sets whose {union} has all members of the union of
+all sets.  The set cover problem is to find a minimum size set.
+# formal definition or {cross reference} to an entry
+@FORML=Given a set $S$ of sets, choose $c \subseteq S$ such that 
+$\bigcup<sub>i=1</sub> c<sub>i</sub> = \bigcup<sub>i=1</sub> S<sub>i</sub>$.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=set covering problem
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={covering}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a href="http://www.cs.sunysb.edu/~algorith/files/set-cover.shtml">(Pascal)</a>
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/setcover.trm,v $

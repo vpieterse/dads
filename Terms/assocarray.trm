@@ -1,0 +1,43 @@
+# *created  "Fri Sep 18 09:56:57 1998" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:47:48 2004" *by "Paul E. Black"
+
+# $Log: assocarray.trm,v $
+# Revision 1.2  2004/12/17 16:47:49  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=associative array
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial)
+@AREA=basic
+# the definition
+@DEFN=A collection of items that are randomly accessible by a {key},
+often a {string}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={array}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Implementation: the access method must essentially search for a
+match.  The simplest, but slowest, implementation is to do a
+{linear search} over the array for a match.
+</p>
+
+<p>
+If that is too slow, and you access the array by number, too,
+you must create and maintain an index into the array.  The index is a
+{dictionary}, organized by the content, of indexes into the array.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/assocarray.trm,v $

@@ -1,0 +1,51 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon Mar  8 09:59:13 2004" *by "Paul E. Black"
+
+# $Log: jumpsearch.trm,v $
+# Revision 1.2  2004/03/08 15:26:42  black
+# Refine XREFS into IMA, etc.  Improve wording of definition.  Remove
+# "doing smaller jumps"-that's alluded to in the note.  Add author (me,
+# since I can't find a trace that anyone else did it).
+#
+
+# entry name
+@NAME=jump search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=Search a {sorted array} by checking every $j<sup>th</sup>$ item
+until the right area is found, then doing a {linear
+search}.  The optimum for $n$ items is when $j=\sqrt n$.
+# comma-sep of pure names or {cross references} that this is Also Known As.
+@AKA=block search
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=block searching
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={interpolation search}, {binary search}, {linear search}
+
+# bib refs, eg, to defining articles (pure HTML).  printed within <P>..</P>.
+@BIB=<strong>Ben Shneiderman</strong>, <em>Jump Searching: A Fast
+Sequential Search Technique</em>, CACM, 21(10):831-834, October 1978.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=If there will be two levels of jumping, the optimum is 
+$j=n<sup>2/3</sup>$ for the first jumps and $j=n<sup>1/3</sup>$ for
+the second level of jumps.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/jumpsearch.trm,v $

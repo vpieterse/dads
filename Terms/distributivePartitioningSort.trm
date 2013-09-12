@@ -1,0 +1,91 @@
+# *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
+# *modified "Tue Oct 12 12:49:16 2010" *by "Paul E. Black"
+
+# $Log: distributivePartitioningSort.trm,v $
+# Revision 1.5  2010/10/12 16:49:36  black
+# improve wording and fix grammar.
+#
+# Revision 1.4  2010/10/08 17:46:59  black
+# add comment that the article is attached to a 2006 email message
+#
+# Revision 1.3  2006/03/28 20:05:56  black
+# Clarify DEFN that there are n buckets and that buckets are compacted.
+# XREF linear probling sort.  NOTE that histogram sort talks about a
+# rank function R.
+#
+# Revision 1.2  2006/03/28 18:01:49  black
+# Remove preparatory median-and-partition from DEFN.  Find median (not
+# median of medians).  Add select kth and linked list INME.  XREF
+# histogram sort.  NOTE constrast between shuffle, DP, and histogram
+# sorts.
+#
+# Revision 1.1  2006/03/27 20:55:32  black
+# Initial revision
+#
+
+# entry name
+@NAME=distributive partitioning sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=
+Step 1: find the {median} {key}.
+Step 2: distribute the $n$ items into $n/2$ {buckets} linearly
+covering the interval from the minimum to the median and $n/2$ buckets
+linearly covering the interval from the median to the maximum.  
+Step 3: compact the buckets, removing empty buckets.  Recursively
+start again at step 1 for any bucket
+with multiple items.  {Linked lists#linked list} are used to avoid
+moving items until a final phase and to avoid bucket overflows.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={bucket sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={select k<sup>th</sup> element}, {linked list}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={shuffle sort}, {histogram sort}, {linear probing sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Wlodzimierz Dobosiewicz</strong>, <em>Sorting by Distributive
+Partitioning</em>, Information Processing Letters, 7(1):1-7, January 1978.
+# scan of article is attached to 24 Mar 2006 email from Jesse Chisolm
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Shuffle sort estimates the distribution of the items to be sorted by
+examining the first $n/8$ items.  Distributive partitioning sort
+estimates the distribution by linearly
+interpolating from the minimum to the median and from the median to
+the maximum.  Histogram sort counts the number of items in each
+(fixed) interval.  See the note at {histogram sort} on distributing
+according to a rank function R.
+</p>
+
+<p>
+The implementation outlined in the paper has a preliminary step.  The
+step finds the {median} and {partitions} around it, then sorts
+the lower half and the upper half with the defined algorithm.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/distributivePartitioningSort.trm,v $

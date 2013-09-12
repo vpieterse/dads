@@ -1,0 +1,39 @@
+# *created  "Mon Jan 31 15:31:47 2000" *by "Paul E. Black"
+# *modified "Mon Aug  9 15:48:17 2004" *by "Paul E. Black"
+
+# $Log: tractable.trm,v $
+# Revision 1.2  2004/08/09 19:48:39  black
+# Change "decidable" to "decidable problem".  Add RCS keywords.
+#
+
+# entry name
+@NAME=tractable
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A problem which has an {algorithm} which computes all instances
+of it in {polynomial time}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={intractable}, {decidable problem}, {solvable}, {computable}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/tractable.trm,v $

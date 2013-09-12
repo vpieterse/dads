@@ -1,0 +1,46 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Wed Sep 29 16:09:32 2004" *by "Paul E. Black"
+
+# $Log: circuit.trm,v $
+# Revision 1.2  2004/09/29 20:11:17  black
+# Add 2nd defn: a cycle.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=circuit
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=(1) An {acyclic#acyclic graph} network of inputs, logic gates,
+and outputs.  Contrasted with a {Turing machine}, it has no memory.
+(2) A {cycle} in a {graph}.
+# ... or is it a path that starts and ends at the same vertex?  That
+# is, can nodes be revisited?
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 27-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A, PEB
+# end $Source: /home/black/DADS/Terms/RCS/circuit.trm,v $

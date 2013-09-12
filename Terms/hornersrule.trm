@@ -1,0 +1,45 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:04:39 2004" *by "Paul E. Black"
+
+# $Log: hornersrule.trm,v $
+# Revision 1.2  2004/12/17 17:04:39  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=Horner's rule
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=numeric
+# the definition
+@DEFN=A polynomial $A(x) = a<sub>0</sub> + a<sub>1</sub>x +
+a<sub>2</sub>x<sup>2</sup> + a<sub>3</sub>x<sup>3</sup> + \ldots$ may
+be written as $A(x) = a<sub>0</sub> + x(a<sub>1</sub> +
+x(a<sub>2</sub> + x(a<sub>3</sub> + \ldots)))$.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A polynomial may be evaluated at a point $x'$, that is $A(x')$
+computed, in {$\Theta(n)$#$\Theta$} time using Horner's rule.  That
+is, repeated multiplications and additions, rather than the naive
+methods of raising $x$ to powers, multiplying by the coefficient, and
+accumulating.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/hornersrule.trm,v $

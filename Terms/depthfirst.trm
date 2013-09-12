@@ -1,0 +1,193 @@
+# *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
+# *modified "Tue Jul  6 13:48:30 2010" *by "Paul E. Black"
+
+# $Log: depthfirst.trm,v $
+# Revision 1.18  2010/07/06 17:48:59  black
+# Add XKCD DFS cartoon as a LINK
+#
+# Revision 1.17  2009/11/24 14:08:12  black
+# update URL for IMPL at Algorithms and Data Structures again
+#
+# Revision 1.16  2009/08/03 14:38:41  black
+# fix typo in URL just changed
+#
+# Revision 1.15  2009/08/03 13:56:14  black
+# update URL for IMPL at Simple Programming Tutorials, now Algorithms
+# and Data Structures.
+#
+# Revision 1.14  2009/01/22 16:12:42  black
+# Add Simple programming tutorials' IMPL.
+#
+# Revision 1.13  2008/11/20 14:23:16  black
+# XREF Schorr-Waite graph marking algorithm
+# add comments about early references to depth-first search.
+#
+# Revision 1.12  2007/12/18 19:51:09  black
+# Add BIB references of early uses of depth-first search.  Add other bib
+# references, commented out, for later research into the origin of
+# "depth-first search".
+#
+# Revision 1.11  2007/12/07 13:59:16  black
+# pre-, in-, and postorder traversals are VARIANTs
+#
+# Revision 1.10  2007/11/02 18:17:30  black
+# Add "child" and "sibling" to DEFN.  NOTE that DFS can be pre-, in-, or
+# postorder traversal.
+#
+# Revision 1.9  2007/04/23 13:20:22  black
+# Update URL for Mukundan's Java demos and code
+#
+# Revision 1.8  2005/04/18 13:03:34  black
+# Remove LINK to Mitchell's (1998) lecture notes - account gone.
+#
+# Revision 1.7  2005/04/11 15:36:54  black
+# Remove Resources on Search and Game Playing IMPLs: time out for two weeks.
+#
+# Revision 1.6  2005/04/11 15:34:19  black
+# Remove Resources on Search and Game Playing LINK: time out for two weeks.
+#
+# Revision 1.5  2004/12/17 17:23:34  black
+# Make more XHTML compliant.
+#
+# Revision 1.4  2004/08/25 13:43:55  black
+# Update Mukundan's demonstration URL.  Improve language in defn slightly.
+#
+# Revision 1.3  2004/04/19 18:37:20  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 16:57:30  black
+# Use a more regular plural of vertex
+#
+
+# entry name
+@NAME=depth-first search
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=graph
+# the definition
+@DEFN=(1) Any search algorithm that considers outgoing {edges}
+({children#child}) of a {vertex} before any of the vertex's
+{siblings}, that is, outgoing 
+edges of the vertex's predecessor in the search.  Extremes are searched
+first.  This is easily implemented with {recursion}.  (2) An algorithm
+that marks all vertices in a {directed graph} in the order they are
+discovered and finished, partitioning the graph into a {forest}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=DFS
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={preorder traversal}, {in-order traversal}, {postorder traversal}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={breadth-first search}, {best-first search},
+{Schorr-Waite graph marking algorithm}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+An early mention of depth-first search:<br />
+<strong>C. Cordell Green</strong> and <strong>Bertram Raphael</strong>,
+<em>The use of theorem-proving techniques in question-answering systems</em>,
+Proc. 1968 23rd ACM national conference, pages 169-181, 1968.
+# http://doi.acm.org/10.1145/800186.810578 
+<br />
+Uses just "depth-first search" in the body (page 5), but contrasts
+depth-first with breadth-first search in a footnote.  
+# This suggests the usage is somewhat new.  Institution is Stanford
+# Research Institute, Menlo Park, California.
+
+#Nils J. Nilsson, Problem-solving methods in Artificial Intelligence, 
+#McGraw-Hill, 1971
+#defines and contrasts depth-first and breadth-first search starting
+# on page 44 (Sect. 3-1) and continuing through Sect 3-2 Breadth-first
+# methods, Sect 3-3 Depth-first Method page 50.
+# There are bib references on page 76, including Golomb and Baumert, below
+
+#<br />
+#          an early use of depth-first AND breadth-first search
+# Ira Pohl, "Bi-directional and Heuristic Search in Path Problems",
+# SLAC-104, UC-32, May 1969.  Stanford Linear Accelerator Center,
+# Stanford University, Stanford, California.
+# "If instead our tie-break rule was first-in/first-out (FIFO) we would
+# have parallel search.  Last-in/first-out (LIFO) would be a depth first
+# rule."   page 63 (pdf 76 0f 170) (and page 67 (pdf 80)
+# "exhaustive parallel or breadth first search" page 60 (pdf 73)
+
+#<br />
+#         an early mention of a backtracking algorithm
+# Robert W. Floyd, "Nondeterministic algorithms", Journal of the ACM,
+# 14(4):636-644, (Oct 1967).
+#<br />
+# Shows how to convert a multi-value ("nondeterministic", as he calls
+# it) algorithm into a deterministic ("backtracking", as he calls it)
+# algorithm, that can be implemented in standard languages.  The
+# backtracking algorithm is a depth-first search.  "It is also possible
+# to simulate a multiprocessing machine which replicates itself at each
+# choice point ..."  So it should be possible to mechically convert
+# nondeterministic programs into breadth-first search, too.  The tone of
+# the paper is laying the groundwork for possible programming language
+# constructs.
+# The paper cites Golomb and Baumert, below
+
+<br /><br />
+An earlier description of what we would call depth-first search with
+pruning of infeasible solutions.
+# see {prune and search} and {feasbile solution} in DADS
+<br />
+<strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
+<em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
+# "This rather universal method was named ''backtrack'' by Professor
+# D. H. Lehmer of the University of California at Berkeley.  Backtrack
+# has been independently "discovered" and applied by many people.  A
+# fairly general exposition of backtrack was given by R. J. Walker [11]."
+# [4] Hall, M., and Knuth, D. E. Combinatorial analysis and
+# computers.  Herbert Ellsworth Slaught memorial Papers, No. 10
+# (Suppl., Amer. Math. Mon., 1965).
+# [11] Walker, R. L. An enumerative technique for a class of
+# combinatorial problems.  Amer. Math. Soc. Proc. Symp. Appl Math. 10
+# (1960), 91-94.
+#   Mathematic Society Procedings of Symposium in Applied Mathematics
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+Depth-first search doesn't specify if a vertex is considered before,
+during, or after its outgoing edges or children.  Thus it can be
+{preorder#preorder traversal}, {in-order#in-order traversal}, or
+{postorder traversal}.
+</p>
+
+<p>
+<a href="../terms.html#CLR90">[CLR90, pages 477-485]</a>
+# further explanation (pure HTML)
+@LINKS=
+Lecture notes from Design and Analysis of Algorithms on <a
+href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
+search and depth-first search</a>.
+An <a
+href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (Java)</a>.
+
+<p>
+<img src="../Images/xkcd dfs 761.png"><br />
+From <a href="http://xkcd.com/">xkcd</a> by
+<a href="http://xkcd.com/license.html">Creative Commons
+Attribution-NonCommercial 2.5 License</a>.
+
+# implementation(s) (pure HTML)
+@IMPL=
+Algorithms and Data Structures'
+<a
+href="http://www.algolist.net/Algorithms/Graph/Undirected/Depth-first_search">explanation
+and implementation (Java and C++)</a> for undirected graphs.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/depthfirst.trm,v $

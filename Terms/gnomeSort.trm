@@ -1,0 +1,135 @@
+# *created  "Mon Mar 15 13:23:12 2004" *by "Paul E. Black"
+# *modified "Wed Oct  6 10:16:10 2010" *by "Paul E. Black"
+
+# $Log: gnomeSort.trm,v $
+# Revision 1.9  2010/10/06 14:17:33  black
+# Add Rolfe's note how and rewrite showing more clearly how this is a
+# variant of insertion sort.
+#
+# Revision 1.8  2010/05/05 18:55:02  black
+# add BIB for Sarbazi-Azad's publication of this algorithm in 2000,
+# which is earlier than Grune.  Other minor wording improvements.
+#
+# Revision 1.7  2010/05/04 19:39:09  black
+# Improve wording of similarity with insertion sort.  NOTE that Grune
+# thought of this some time before 2003.
+#
+# Revision 1.6  2007/10/19 18:20:29  black
+# fix grammar (which -> that)
+#
+# Revision 1.5  2007/06/19 16:55:04  black
+# fix grammar error
+#
+# Revision 1.4  2005/08/24 14:23:56  black
+# XREF bidirectional bubble sort, instead of bubble sort, and NOTE why
+# it is similar.  Also NOTE compexity.  Clarify NOTE on similarity to
+# insertion sort.
+#
+# Revision 1.3  2004/12/17 17:23:53  black
+# Make more XHTML compliant.
+#
+# Revision 1.2  2004/08/25 14:04:10  black
+# Note that IMA stable sort.  Improve wording slightly.
+#
+# Revision 1.1  2004/03/15 18:45:02  black
+# Initial revision
+#
+
+# entry name
+@NAME=gnome sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=Put items in order by comparing the current item with the
+previous item.  If they are in order, move to the next item (or stop
+if the end is reached).  If they are out of order, swap them and move
+to the previous item.  If there is no previous item, move to the next
+item.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={stable} {sort}, {in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={insertion sort}, {bidirectional bubble sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# 5 May 2010 email from <hamid.sarbazi-azad@epfl.ch>
+<strong>Hamid Sarbazi-Azad</strong>, <em>Stupid Sort: A new sorting
+algorithm</em>, 
+Department of Computing Science Newsletter, University of Glasgow,
+599:4, 2 October 2000.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Complexity is {O(n<sup>2</sup>)#big-O notation} for
+arbitrary data, but approaches O(n) if the input list is nearly in
+order.
+</p>
+
+<p>
+This can be seen as an {insertion sort} that only keeps track of the
+current item.  After having moved an item backward into place, it
+"walks" forward (checking the order of items as it goes) until it
+reaches the next out-of-place item, which is beyond where
+progress left off.
+</p>
+
+<p>
+# from a 5 October 2010 email
+Timothy Rolfe finds it "convenient to think of [gnome sort] as 'a
+variant of insertion sort that hides the logic in a single loop.'"
+This can be seen by commenting a minor rewrite, after Rolfe, of Dick
+Grune's implementation:
+<pre>
+void gnomesort(int n, int ar[]) \{              <br />
+    for (int i = 0; i < n; ) \{                 <br />
+        if (i == 0 || ar[i-1] <= ar[i]) \{      <br />
+            // Outer loop functionality --- scan to larger index  <br />
+            i++;                               <br />
+	} else \{                               <br />
+	    // Inner loop functionality --- move to smaller index <br />
+	    int tmp = ar[i]; ar[i] = ar[i-1]; ar[--i] = tmp;      <br />
+	}                                      <br />
+    }                                          <br />
+}
+</pre>
+</p>
+
+<p>
+This can also be seen as a {bidirectional bubble sort} that intelligently
+reverses direction, instead of making complete passes.
+</p>
+
+<p>
+Dick Grune calls this "the simplest sort algorithm."
+# any historical notes
+@HISTORY=
+Originally called "stupid sort".
+# on 4 May 2010, 
+Dick Grune wrote, "The earliest evidence [of inventing gnome sort] I
+can find is of March 22, 2003, but I'm pretty sure I thought of the
+idea much earlier."
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://www.cs.vu.nl/~dick/gnomesort.html">(C)</a>
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/gnomeSort.trm,v $

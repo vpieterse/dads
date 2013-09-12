@@ -1,0 +1,56 @@
+# *created  "Tue Sep  7 12:05:29 2004" *by "Paul E. Black"
+# *modified "Mon Jan 25 10:40:57 2010" *by "Paul E. Black"
+
+# $Log: ubtree.trm,v $
+# Revision 1.1  2006/09/11 14:00:01  black
+# Initial revision
+#
+
+# entry name
+@NAME=universal B-tree
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={point access method}, {B-tree}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={unlimited branching tree}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Rudolf Bayer</strong>, <em>The Universal B-Tree for
+multidimensional Indexing</em>,
+Technical Report TUM-I9637, November 1996.
+Access to <a
+href="http://wwwbayer.in.tum.de/cgi-webcon/webcon/lehrstuhldb/details/Veroeffentlichungen/num/54/1">PDF file</a>.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+"UB-tree" refers to this definition or unlimited branching tree.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=
+# end $Source: /home/black/DADS/Terms/RCS/ubtree.trm,v $

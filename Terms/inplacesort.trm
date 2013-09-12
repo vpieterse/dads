@@ -1,0 +1,52 @@
+# *created  "Fri Jan 29 09:01:44 1999" *by "Paul E. Black"
+# *modified "Mon Mar 15 13:25:21 2004" *by "Paul E. Black"
+
+# $Log: inplacesort.trm,v $
+# Revision 1.3  2004/03/15 18:25:44  black
+# Add gnome sort
+#
+# Revision 1.2  2003/12/18 20:10:41  black
+# Separate XREFS into new, more precise fieds.
+#
+
+# entry name
+@NAME=in-place sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm in which the sorted items occupy the
+same storage as the original ones.  These algorithms may use 
+{o(n)#little-o notation} additional memory for bookkeeping, but at most
+a constant number of items are kept in auxiliary memory at any time.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=sort in place
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=sort in-place
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={sort}
+# Specialization: "... is a kind of me."
+@VARIANT={American flag sort}, {quicksort}, {insertion sort}, 
+{selection sort}, {Shell sort}, {diminishing increment sort}, 
+{J sort}, {gnome sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB, CM
+# end $Source: /export/home/black/DADS/Terms/RCS/inplacesort.trm,v $

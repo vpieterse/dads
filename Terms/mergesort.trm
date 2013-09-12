@@ -1,0 +1,133 @@
+# *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:59 2013" *by "Paul E. Black"
+
+# $Log: mergesort.trm,v $
+# Revision 1.15  2013/08/22 19:42:00  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
+# Revision 1.14  2013/06/26 14:22:27  black
+# Georgiev's IMPL is not thread-safe
+#
+# Revision 1.13  2013/06/24 19:31:15  black
+# Add Alexander Georgiev's IMPL
+#
+# Revision 1.12  2009/08/24 14:03:08  black
+# Update Harrison's sorting demo URL root
+#
+# Revision 1.11  2007/05/14 14:01:44  black
+# Update URL to https for Woop
+#
+# Revision 1.10  2007/04/23 13:20:48  black
+# Update URL for Mukundan's Java demos and code
+#
+# Revision 1.9  2005/04/18 13:18:37  black
+# Remove link to David Neto's recurrence relation analysis and IMPL -
+# account gone.
+#
+# Revision 1.8  2005/01/03 16:58:11  black
+# Remove Somani's C++ snippet code.  It is only available from
+# https://sourceforge.net/projects/snippets/ as one piece of a huge file
+# and is no longer maintained (as of Sept 2004).
+#
+# Revision 1.7  2004/12/17 17:24:16  black
+# Make more XHTML compliant.
+#
+# Revision 1.6  2004/10/28 12:38:03  black
+# Fix spelling of Sielaff's name.
+#
+# Revision 1.5  2004/10/21 20:19:43  black
+# Add Sielaff's IMPL.
+#
+# Revision 1.4  2004/06/17 16:32:43  black
+# Remove AKA sort merge - I don't think its really used.  Refine XREFS
+# into IMA, etc.  Refer to article comparing sort routines.
+#
+# Revision 1.3  2003/11/25 17:35:03  black
+# Add xref to k-way merge sort.  Remove dead link.  Correct another link.
+#
+# Revision 1.2  2003/09/04 21:25:33  black
+# Remove a site no longer found anywhere that I could find
+#
+
+# entry name
+@NAME=merge sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=sort
+# the definition
+@DEFN=A {sort} algorithm that splits the items to be sorted into two
+groups, {recursively#recursion} sorts each group, and 
+{merges} them into a final, sorted sequence.  
+Run time is {$\Theta$}(n log n).
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=mergesort
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={sort}
+# Specialization: "... is a kind of me."
+@VARIANT={k-way merge sort}, {balanced k-way merge sort},
+{polyphase merge sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={divide and conquer}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={external sort}, {bitonic sort}, {strand sort}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=There seem to be some references to linear-time
+{in-place#in-place sort} merging; look for papers by Geffert,
+Katajainen &amp; Pasanen.
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
+that needs <a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
+merge (C)</a> or <a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
+merge (C)</a>,
+<a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
+that needs <a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
+merge (Pascal)</a> or <a
+href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
+merge (Pascal)</a>;
+<a
+href="http://people.cs.ubc.ca/~harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</a>;
+Demo and code of <a
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">in-place
+and double merge sort (Java)</a>;
+Worst-case behavior <a
+href="https://www.auto.tuwien.ac.at/~blieb/woop/merge.html">annotated
+for real time (WOOP/ADA)</a>, including bibliography.
+John David Stone's
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</a>.
+Siegfried Sielaff's description and code of an <a
+href="http://www.siegfried.sielaff.at/">in-place, stable variant he
+calls Swap Sort (C)</a> (click the British flag for an English
+translation).
+Other implementations may be available through the <a
+href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
+Brook Algorithm Repository, Sorting</a>.
+Alexander Georgiev's
+<a
+href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">
+merge sort (Java)</a> implemented as part of a linked-list package.
+Includes a parallel merge sort, too.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/mergesort.trm,v $

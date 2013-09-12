@@ -1,0 +1,43 @@
+# *created  "Fri Feb 23 10:26:38 2001" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:04:21 2004" *by "Paul E. Black"
+
+# $Log: forwardIndex.trm,v $
+# Revision 1.2  2004/12/17 17:04:21  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=forward index
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=An index into a set of {texts}.  This is usually created as the
+first step to making an {inverted index}.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/forwardIndex.trm,v $

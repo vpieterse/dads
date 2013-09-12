@@ -1,0 +1,42 @@
+# *created  "Thu Jan 21 16:38:20 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:07:35 2004" *by "Paul E. Black"
+
+# $Log: shadowheap.trm,v $
+# Revision 1.2  2004/12/17 17:07:35  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=shadow heap
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {heap}, implemented in an {array}, adjacent to an
+unordered table.  The <em>shadow</em> is the table {nodes}
+and all their (recursive) {parents}, by array index, in the
+heap.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={shadow merge insert}, {shadow merge}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Personal communication from Chris L. Kuszmaul
+&lt;fyodor@nas.nasa.gov&gt;, January 1999.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=CLK
+# end $Source: /home/black/DADS/Terms/RCS/shadowheap.trm,v $

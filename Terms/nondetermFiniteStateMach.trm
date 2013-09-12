@@ -1,0 +1,48 @@
+# *created  "Wed Apr  5 09:10:56 2000" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:19 2004" *by "Paul E. Black"
+
+# $Log: nondetermFiniteStateMach.trm,v $
+# Revision 1.2  2004/12/17 16:53:19  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=nondeterministic finite state machine
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=autom
+# the definition
+@DEFN=A {finite state machine} whose {transition function} maps inputs
+symbols and {states} to a (possibly empty) set of {next states}.  The
+transition function also may map the null symbol (no input symbol
+needed) and states to next states.
+# comma-sep of pure names or {cross references} that this is Also Known As.
+@AKA=NFA, nondeterministic finite automaton
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={deterministic finite state machine}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any such machine may be converted to a {deterministic finite
+state machine}, although the number of states may increase by an
+{exponential} amount.
+<p>
+Thanks to Thorsten Jens (thojens@gmx.de) and Yaacov Yesha
+(yayesha@cs.umbc.edu) for correcting this entry.  17 January 2001.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/nondetermFiniteStateMach.trm,v $

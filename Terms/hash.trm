@@ -1,0 +1,172 @@
+# *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
+# *modified "Mon Feb 28 09:12:35 2011" *by "Paul E. Black"
+
+# $Log: hash.trm,v $
+# Revision 1.32  2011/02/28 14:12:41  black
+# change DADS URL root.  Again
+#
+# Revision 1.31  2010/09/27 17:02:09  black
+# Update DADS URLs
+#
+# Revision 1.30  2010/07/26 19:35:12  black
+# www.octavian.org/cs IMPL gone.
+#
+# Revision 1.29  2010/04/12 17:29:02  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
+# Revision 1.28  2010/03/29 14:57:11  black
+# update MurmurHash URL
+#
+# Revision 1.27  2009/11/16 14:52:17  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
+# Revision 1.26  2009/10/13 15:16:56  black
+# Remove Mulvey's site - no longer found.  Can't find any place it moved.
+#
+# Revision 1.25  2009/09/30 17:20:42  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
+# Revision 1.24  2009/09/22 14:22:28  black
+# Serice wrote "to retract [his] criticism of MurmurHash".  Remove link
+# to his page: he suggests that it "can probably be ignored" since he
+# "changed the focus".
+#
+# Revision 1.23  2009/08/31 13:52:04  black
+# move Appleby's MurmurHash to the bottom of IMPL since Serice reports
+# that it some implementations are flawed.
+#
+# Revision 1.22  2009/08/24 14:24:43  black
+# Remove LINK to FSU explanation: not publicly accessible.
+#
+# Revision 1.21  2009/02/04 16:07:59  black
+# Update DADS URL root
+#
+# Revision 1.20  2009/02/04 15:45:26  black
+# Hyphenate name.
+#
+# Revision 1.19  2008/11/17 18:55:27  black
+# Update Mulvey's IMPL URL
+#
+# Revision 1.18  2008/11/17 17:52:26  black
+# Remove Kazlib IMPL - its been gone at least 3 months.
+#
+# Revision 1.17  2008/09/02 12:47:47  black
+# Update Mulvey's URL
+#
+# Revision 1.16  2008/05/16 20:18:08  black
+# I'M IN locality-sensitive hashing.
+#
+# Revision 1.15  2008/03/10 18:14:45  black
+# note that Appleby's pages include avalanche diagrams.
+#
+# Revision 1.14  2008/03/10 18:08:54  black
+# Add Appleby's MurmurHash.
+#
+# Revision 1.13  2007/12/17 17:01:41  black
+# Update Mulvey's IMPL URL.  Combine Partow's IMPL URLs.
+#
+# Revision 1.12  2007/05/21 12:44:45  black
+# Update URL for Herbert Glarner's IMPL
+#
+# Revision 1.11  2007/02/05 14:59:09  black
+# Add Partow's IMPL of many hash functions in many languages.
+#
+# Revision 1.10  2006/07/17 16:39:58  black
+# Add Mulvey's tutorial, implementations, and comparisons page.
+# Explicitly credit Bob Jenkins.
+#
+# Revision 1.9  2006/07/17 13:12:50  black
+# Add Glarner's IMPL
+#
+# Revision 1.8  2006/03/13 14:02:14  black
+# Add http:// to Partow's IMPL
+#
+# Revision 1.7  2005/11/23 16:54:30  black
+# Add IMIN Bloom filter.  Add Partow's IMPL.
+#
+# Revision 1.6  2005/10/27 14:00:26  black
+# Update John Morris' URL
+#
+# Revision 1.5  2004/12/17 17:28:10  black
+# Make more XHTML compliant.
+#
+# Revision 1.4  2004/05/14 16:45:35  black
+# Improve wording of IMPLs a little.
+#
+# Revision 1.3  2004/02/11 17:35:49  black
+# Add a link to Bob Jenkin's hash function and comparison page.
+#
+# Revision 1.2  2004/02/10 20:17:50  black
+# Refine XREFS into IMA, etc.  Add RCS Log.  Add link for FNV hash.
+#
+
+# entry name
+@NAME=hash function
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A function that maps {keys} to integers, usually to
+get an even distribution on a smaller set of values.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=hash
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=different kinds: {linear hash}, {perfect hashing}, 
+{minimal perfect hashing}, {order-preserving minimal perfect hashing}, 
+specific functions: {Pearson's hash}, {multiplication method}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={hash table}, {uniform hashing}, {universal hashing}, 
+{Bloom filter}, {locality-sensitive hashing}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={simple uniform hashing}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The range of integers is typically $[0\ldots m-1]$ where $m$ is
+a prime number or a power of 2.
+# further explanation (pure HTML)
+@LINKS=
+# John Morris morris@ee.uwa.edu.au
+<a
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/hash_func.html">Hashing
+Functions</a>.
+
+# implementation(s) (pure HTML)
+@IMPL=
+See the implementations at <a
+href="http://www.nist.gov/dads/HTML/minimalPerfectHash.html">minimal
+perfect hashing (C++ and C)</a> and <a
+href="http://www.nist.gov/dads/HTML/pearsonshash.html">Pearson's hash
+(C)</a>.
+Bob Jenkins' fast, parameterizable, broadly applicable
+<a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
+(C)</a> including code for and evaluations of many other hash
+functions.
+A review and comparison of many
+<a href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</a>.
+<a href="http://www.isthe.com/chongo/tech/comp/fnv/">Fowler/Noll/Vo or
+FNV hash function (C)</a>.
+Arash Partow's implementations of various
+<a href="http://www.partow.net/programming/hashfunctions/#Download">General
+Hash Functions (C, C++, Pascal, Object Pascal, Java, Ruby, Python)</a>
+and Bloom filter for strings.
+Hash functions for strings
+# This implementation is okay - PEB 6 April 1999
+<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c">(C)</a>.
+Austin Appleby's fast
+<a href="http://sites.google.com/site/murmurhash/">MurmurHash (C)</a>,
+including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
+lookup3, Murmur, Bernstein, FNV, and modified FNV.  
+
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/hash.trm,v $

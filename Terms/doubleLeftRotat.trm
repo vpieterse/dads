@@ -1,0 +1,38 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:44 2004" *by "Paul E. Black"
+
+# $Log: doubleLeftRotat.trm,v $
+# Revision 1.2  2004/12/17 17:03:45  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=double left rotation
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=
+# the definition
+@DEFN=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=
+# end $Source: /home/black/DADS/Terms/RCS/doubleLeftRotat.trm,v $

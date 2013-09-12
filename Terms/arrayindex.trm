@@ -1,0 +1,40 @@
+# *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
+# *modified "Thu Mar 18 09:47:18 2004" *by "Paul E. Black"
+
+# $Log: arrayindex.trm,v $
+# Revision 1.2  2004/03/18 15:54:00  black
+# Refine XREFS into IMA, etc.  Reference new terms: 1- and 0-based indexing.
+#
+
+# entry name
+@NAME=array index
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=The location of an item in an {array}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={one-based indexing}, {0-based indexing}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=In most programming languages, the first array index is 0 or 1,
+and indexes continue through the natural numbers.  The upper bound
+of an array is generally language and possibly system specific.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PR
+# end $Source: /export/home/black/DADS/Terms/RCS/arrayindex.trm,v $

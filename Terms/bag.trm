@@ -1,0 +1,81 @@
+# *created  "Thu Jan 14 13:44:16 1999" *by "Paul E. Black"
+# *modified "Tue Jan 11 16:17:02 2005" *by "Paul E. Black"
+
+# $Log: bag.trm,v $
+# Revision 1.6  2005/01/11 21:17:19  black
+# Specify that IMA ADT.
+#
+# Revision 1.5  2005/01/11 20:09:50  black
+# Change TYPE to data Structure so it shows up in the ontology
+#
+# Revision 1.4  2004/12/17 17:27:42  black
+# Make more XHTML compliant.
+#
+# Revision 1.3  2004/03/22 19:46:24  black
+# Refine XREFS into IMA, etc.  Reference new entry axiomatic semantics.
+#
+# Revision 1.2  2003/10/01 14:21:20  black
+# Add a formal definition.
+#
+
+# entry name
+@NAME=bag
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=An unordered collection of values that may have duplicates.
+# formal definition or {cross reference} to an entry
+@FORML=
+A bag has a single query function,
+numberIn(v, B), which tells how many copies of an element are in the
+bag, and two modifier functions, add(v, B) and remove(v, B).
+These may be defined with {axiomatic semantics} as follows.
+<ol>
+<li>$new()$ returns a bag
+<li>$numberIn(v, new()) = 0$
+<li>$numberIn(v, add(v, B)) = 1 + numberIn(v, B)$
+<li>$numberIn(v, add(u, B)) = numberIn(v, B) if v \neq u$
+<li>$remove(v, new()) = new()$
+<li>$remove(v, add(v, B)) = B$
+<li>$remove(v, add(u, B)) = add(u, remove(v, B)) if v \neq u$
+</ol>
+where B is a bag and $u$ and $v$ are elements.
+</p>
+
+<p>
+The {predicate} isEmpty(B) may be defined with the following additional axioms.
+<ol start="8">
+<li>isEmpty(new()) = true
+<li>isEmpty(add(v, B)) = false
+</ol>
+# comma-separated list of pure names
+@AKA=multi-set
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=multiset
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={abstract data type}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={set}, {list}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A bag, or multi-set, is a set where values may be repeated.  Inserting
+2, 1, 2 into an empty set gives the set \{1, 2}.  Inserting those
+values into an empty bag gives \{1, 2, 2}.  From another point of
+view, a <em>set</em> is unordered, too, but has each value at most once.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bag.trm,v $

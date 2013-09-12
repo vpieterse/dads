@@ -1,0 +1,100 @@
+# *created  "Mon Oct 19 14:50:33 1998" *by "Paul E. Black"
+# *modified "Mon Nov 16 09:52:11 2009" *by "Paul E. Black"
+
+# $Log: bucketsort.trm,v $
+# Revision 1.9  2009/11/16 14:52:12  black
+# Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
+#
+# Revision 1.8  2009/09/30 17:20:34  black
+# Update domain name of Raul Baeza's Handbook of Algorithms and Data Structures
+#
+# Revision 1.7  2006/03/27 20:36:14  black
+# add VARIANT distributive partitioning sort
+#
+# Revision 1.6  2005/11/14 14:22:07  black
+# add VARIANT postman's sort.
+#
+# Revision 1.5  2005/10/27 14:00:12  black
+# Update John Morris' URL
+#
+# Revision 1.4  2005/03/16 19:00:02  black
+# Add IMA distribution sort
+#
+# Revision 1.3  2004/12/17 15:57:23  black
+# Add top-down radix sort as VARIANT.  NOTE that a bucket sort may use a
+# list per bucket.
+#
+# Revision 1.2  2004/12/17 14:50:47  black
+# NOTE the contrast between bucket, histogram, and counting sorts.
+# Refine XREFS into IMA, etc.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=bucket sort
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=sort
+# the definition
+@DEFN=A {distribution sort} where input elements are initially 
+distributed to several {buckets} based on an interpolation
+of the element's {key}.
+Each bucket is sorted if necessary, and the buckets' contents
+are concatenated.
+# Also Known As.  Adds an entry which is a cross reference here
+@AKA=bin sort
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={distribution sort}
+# Specialization: "... is a kind of me."
+@VARIANT={histogram sort}, {counting sort}, {top-down radix sort},
+{postman's sort}, {distributive partitioning sort}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={range sort}, {radix sort}, 
+{hash heap}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=A bucket sort uses fixed-size buckets (or a {list} per bucket).
+A histogram sort
+sets up buckets of exactly the right size in a first pass.  A
+counting sort uses one bucket per key.
+</p>
+
+<p>
+The space required is one
+bucket for every few possible key value, but is {O(n log log n)#big-O
+notation} taking into account a distribution of keys.  That is, some
+buckets will have a lot of keys.
+</p>
+
+<p>
+Bucket sorts work well for data sets where the possible key values are
+known and relatively small and there are on average just a few
+elements per bucket.  This means the cost of sorting the contents of
+each bucket can be reduced toward zero.  The ideal result is if the
+order in each bucket is uninteresting or trivial, for instance, when
+each bucket holds a single key.  The buckets may be arranged so the
+concatenation phase is not needed, for instance, the buckets are
+contiguous parts of an array.
+</p>
+
+<p>
+Bucket sorts can be {stable}.  
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# John Morris morris@ee.uwa.edu.au
+<a
+href="http://www.cs.auckland.ac.nz/software/AlgAnim/binsort.html">analysis,
+explanation, and code (C)</a>, and
+<a
+href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/423.sort.c">(C)</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bucketsort.trm,v $

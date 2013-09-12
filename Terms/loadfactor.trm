@@ -1,0 +1,42 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:58 2004" *by "Paul E. Black"
+
+# $Log: loadfactor.trm,v $
+# Revision 1.2  2004/12/17 16:52:59  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=load factor
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=The number of elements in a {hash table} divided by the
+number of slots.  Usually written $\alpha$ (alpha).
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The higher the load factor, the slower the retrieval.  With 
+{open addressing}, the load factor cannot exceed 1.  With 
+{chaining}, the load factor often exceeds 1.
+After <a href="../terms.html#CLR90">[CLR90, page 224]</a>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/loadfactor.trm,v $

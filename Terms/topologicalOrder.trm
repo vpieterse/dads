@@ -1,0 +1,47 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Mon Apr 19 14:57:34 2004" *by "Paul E. Black"
+
+# $Log: topologicalOrder.trm,v $
+# Revision 1.3  2004/04/19 18:57:41  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/14 17:13:57  black
+# Use a more regular plural of vertex
+#
+
+# entry name
+@NAME=topological order
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A numbering of the {vertices#vertex} of a {directed acyclic graph} such
+that every {edge} from a vertex numbered $i$ to a vertex numbered $j$
+satisfies $i&lt;j$.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={topological sort}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 6-21,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and Technology,
+Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end $Source: /export/home/black/DADS/Terms/RCS/topologicalOrder.trm,v $

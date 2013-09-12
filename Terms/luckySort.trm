@@ -1,0 +1,53 @@
+# *created  "Wed Apr 24 13:06:59 2002" *by "Paul E. Black"
+# *modified "Thu Nov  3 09:01:09 2005" *by "Paul E. Black"
+
+# $Log: luckySort.trm,v $
+# Revision 1.3  2005/11/03 14:01:36  black
+# Explicitly say that time complexity is 0.
+#
+# Revision 1.2  2004/12/17 17:05:21  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=lucky sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=The best possible {sort} algorithm: it is so lucky that the
+input is already sorted, and it need do nothing!
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=lucksort, luckysort
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={bogosort}, {bozo sort}, {stooge sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+# any notes.  these are not printed in the final dictionary
+@NOTES=Defined more for humorous, rather than serious, purposes.
+Time complexity is $\Theta(0)$ (zero): it takes no time.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/luckySort.trm,v $

@@ -1,0 +1,140 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 22 16:24:10 2013" *by "Paul E. Black"
+
+# $Log: pseudorandomNumberGen.trm,v $
+# Revision 1.20  2013/08/22 20:26:13  black
+# Update URL for Summit's IMPL
+#
+# Revision 1.19  2012/02/01 18:01:56  black
+# Restore pLab's IMPL and comparison page - it's back
+#
+# Revision 1.18  2011/12/12 15:22:05  black
+# remove pLab's IMPL - server is gone.
+#
+# Revision 1.17  2011/12/12 15:20:22  black
+# remove LINK to Entacher's review and comparison - server is gone.
+#
+# Revision 1.16  2010/06/22 17:31:17  black
+# Update LINK to Entacher's comparison.  Add pLab's generator page,
+# which has links to IMPLs.
+#
+# Revision 1.15  2010/04/27 17:35:18  black
+# link to Yarrow IMPL
+#
+# Revision 1.14  2010/04/12 17:23:42  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
+# Revision 1.13  2009/12/07 15:42:01  black
+# Summit's C FAQ is gone.  Add other, similar links.
+#
+# Revision 1.12  2007/05/21 12:44:05  black
+# Update URL for Herbert Glarner's IMPL
+#
+# Revision 1.11  2006/10/16 16:23:28  black
+# Remove Rhoads' IMPL - not at Rutgers, and Google doesn't find a new URL
+#
+# Revision 1.10  2006/07/24 18:21:21  black
+# linear congruential generator is a VARIANT (not just XREF)
+#
+# Revision 1.9  2006/07/17 13:27:25  black
+# Add Glarner's IMPL
+#
+# Revision 1.8  2006/01/03 15:49:45  black
+# Update URL for C FAQ IMPL.
+#
+# Revision 1.7  2005/12/27 14:53:12  black
+# Update URL for C FAQ IMPL.
+#
+# Revision 1.6  2005/10/28 13:17:16  black
+# NOTE not to use PRNG for security.  Link to Wheeler's page on random numbers.
+#
+# Revision 1.5  2005/06/20 13:01:40  black
+# Update Rhoad's URL
+#
+# Revision 1.4  2004/12/15 19:31:03  black
+# Remove XREF to deleted term, spectral test.  Make more XHTML compliant.
+#
+# Revision 1.3  2004/06/16 16:52:27  black
+# Link to Entacher's review and comparison.
+#
+# Revision 1.2  2004/02/09 18:05:43  black
+# Add a link to the C FAQ (generate random numbers in a range).  Add RCS
+# Log, etc.
+#
+
+# entry name
+@NAME=pseudo-random number generator
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=crypt
+# the definition
+@DEFN=A {deterministic algorithm} to generate a sequence of numbers
+with little or no discernible pattern in the numbers, except for broad
+statistical properties.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=PRNG
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=pseudorandom number
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={linear congruential generator}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={randomized algorithm}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Any computer program is likely to generate pseudo-random
+numbers, not actually random numbers.  This is important when, say,
+simulations are sensitive to subtle patterns in the ``random'' numbers
+used.  Hardware-based random number generators are built from parts
+with naturally random events, such as noise in a diode.
+</p>
+
+<p>
+A generator may be ``seeded'', or initialized, with a random event,
+such as the current time in milliseconds, to give different sequences
+every time it is used.
+</p>
+
+<p>
+Do <strong>NOT</strong> use typical ``random'' number generators for
+security or cryptographic purposes.
+<a
+href="http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
+Numbers</a> from David Wheeler's <em>Secure Programming for Linux and
+Unix HOWTO</em>, Section 11.3, gives suggestions and guidelines.
+# further explanation (pure HTML)
+@LINKS=<a href="http://csrc.nist.gov/rng/">Random Number Generation
+and Testing</a> with links to reports, standard tests, and on-going
+research.
+<a href="http://www.fourmilab.ch/random/">ent</a>: a program to
+test the randomness of bytes in a file.
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
+C, and Fortran)</a>.
+pLab's page on
+<a href="http://random.mat.sbg.ac.at/generators/">generators</a>
+including links to software and papers.
+<a href="http://www.schneier.com/yarrow.html">Yarrow (C)</a>, a
+cryptographically secure pseudorandom number generator.
+GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
+# Summit's C FAQ http://c-faq.com/lib/randrange.html
+Using C libraries to get <a
+href="http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=254771">random
+numbers in a certain range (C)</a> is C FAQ question 13.16,
+<a href="http://www.lysator.liu.se/c/c-faq/c-12.html">C FAQ question
+12.9 as of 1995 (C)</a>, or
+<a href="http://www.eskimo.com/~scs/cclass/krnotes/sx10n.html">section
+7.8.7 (C)</a> of Steve Summit's Notes to Accompany <em>The C
+Programming Language</em>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/pseudorandomNumberGen.trm,v $

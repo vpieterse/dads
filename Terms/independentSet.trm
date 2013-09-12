@@ -1,0 +1,47 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:28:13 2004" *by "Paul E. Black"
+
+# $Log: independntst.trm,v $
+# Revision 1.4  2004/12/17 17:28:14  black
+# Make more XHTML compliant.
+#
+# Revision 1.3  2004/04/19 18:39:50  black
+# Use the standard English plural of vertex
+#
+# Revision 1.2  2003/10/16 17:03:28  black
+# Use a more regular plural of vertex
+#
+
+# entry name
+@NAME=independent set
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=graph
+# the definition
+@DEFN=A set of {vertices#vertex} in a {graph} such that for any pair
+of vertices, there is no {edge} between them.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={maximal independent set}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://www.cs.sunysb.edu/~algorith/files/independent-set.shtml">(Fortran
+and C)</a>
+# author's initials
+@AUTHOR=SKS
+# end $Source: /home/black/DADS/Terms/RCS/independntst.trm,v $

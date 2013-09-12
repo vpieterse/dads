@@ -1,0 +1,83 @@
+# *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
+# *modified "Wed Dec  2 17:09:28 2009" *by "Paul E. Black"
+
+# $Log: americanFlagSort.trm,v $
+# Revision 1.8  2009/12/02 22:10:55  black
+# Use the DOI of the right paper for the IMPL
+#
+# Revision 1.7  2009/04/14 16:26:59  black
+# update LINK to paper in citeseer, now citeseerx.
+#
+# Revision 1.6  2007/03/19 16:49:45  black
+# Remove Ranjan Sinha IMPL - he moved to U Melbourne (cs.mu.oz) and his
+# old pages are gone (or inaccessible).
+#
+# Revision 1.5  2005/04/25 13:11:10  black
+# Remove shef.ac.uk LINK - page is gone.
+#
+# Revision 1.4  2004/12/17 17:23:03  black
+# Make more XHTML compliant.
+#
+# Revision 1.3  2004/10/14 18:15:26  black
+# Update Citeseer URL.  Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+# Revision 1.2  2004/04/16 14:18:01  black
+# Update Sinha URL.
+#
+
+# entry name
+@NAME=American flag sort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=An efficient, {in-place#in-place sort} variant of {radix sort}
+that distributes items into hundreds of {buckets}.  
+The first step
+counts the number of items in each bucket, and the second step
+computes where each bucket will start in the array.  The last step
+cyclically {permutes#permutation} items to their proper bucket.  Since
+the buckets are in order in the array, there is no collection step.
+The name comes by analogy with the {Dutch national flag} problem in
+the last step: efficiently partition the array into many "stripes".
+Using some efficiency techniques, it is twice as fast as
+{quicksort} for large sets of strings.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={histogram sort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=<strong>Peter M. McIlroy</strong>, <strong>Keith Bostic</strong>,
+and <strong>M. Douglas McIlroy</strong>, <em>Engineering Radix Sort</em>,
+Computing Systems, 6(1):5-27, 1993.
+# any notes.  these are not printed in the final dictionary
+@NOTES=This works especially well when sorting a byte at a time,
+using 256 buckets.
+# implementation(s) (pure HTML)
+@IMPL=
+It is <a
+href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.6990">program C (C)</a>
+in the McIlroy, Bostic, and McIlroy paper.
+# further explanation (pure HTML)
+@LINKS=The flag of the 
+<a href="http://www.workmall.com/flags/united_states_flag.html">United States
+of America</a>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/americanFlagSort.trm,v $

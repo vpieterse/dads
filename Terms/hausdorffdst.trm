@@ -1,0 +1,43 @@
+# *created  "Fri Jun 18 10:32:24 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:21 2004" *by "Paul E. Black"
+
+# $Log: hausdorffdst.trm,v $
+# Revision 1.2  2004/12/17 16:52:21  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=Hausdorff distance
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=geom
+# the definition
+@DEFN=A measure of the resemblance of two (fixed) sets of geometric
+points $P$ and $Q$, defined as
+$H(P,Q)=\max\{\max<sub>a\in P</sub> \min<sub>b\in Q</sub> d(a,b),
+\max<sub>a\in Q</sub> \min<sub>b\in P</sub> d(a,b)}$ where
+$d(\cdot,\cdot)$ is the distance metric, usually the {Euclidean
+distance}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Adapted from <a href="../terms.html#AS98">[AS98, page 437]</a>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/hausdorffdst.trm,v $

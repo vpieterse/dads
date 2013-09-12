@@ -1,0 +1,42 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Fri Dec 17 12:04:51 2004" *by "Paul E. Black"
+
+# $Log: interactvprf.trm,v $
+# Revision 1.2  2004/12/17 17:04:51  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=interactive proof system
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=A protocol in which one or more provers try to convince another party, called the verifier, that the prover(s) possess certain true knowledge, such as the membership of a {string} $x$ in a given {language}, often with the goal of revealing no further details about this knowledge.  The prover(s) and verifier are formally defined as {probabilistic Turing machines} with special ``interaction tapes'' for exchanging messages.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={probabilistically checkable proof}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+From Algorithms and Theory of Computation Handbook, page 29-20,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end $Source: /home/black/DADS/Terms/RCS/interactvprf.trm,v $

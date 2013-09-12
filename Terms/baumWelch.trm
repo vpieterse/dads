@@ -1,0 +1,52 @@
+# *created  "Thu Aug  1 16:42:06 2002" *by "Paul E. Black"
+# *modified "Wed Jul  7 12:11:13 2004" *by "Paul E. Black"
+
+# $Log: baumWelch.trm,v $
+# Revision 1.3  2004/07/07 16:12:08  black
+# Add hidden Markov model as an aggregate child, like in Viterbi algo.
+#
+# Revision 1.2  2004/07/06 13:10:05  black
+# Refine XREFS into IMA, etc. and add RCS keywords.  Remove HMM link;
+# pages now renders only in Microsoft Internet Explorer.
+#
+
+# entry name
+@NAME=Baum Welch algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=graph
+# the definition
+@DEFN=An algorithm to find {hidden Markov model} parameters A, B, and
+$\Pi$ with the maximum likelihood of generating the given symbol
+sequence in the observation vector.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={hidden Markov model}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Viterbi algorithm}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+# any notes.  these are not printed in the final dictionary
+@NOTES=Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/baumWelch.trm,v $

@@ -1,0 +1,78 @@
+# *created  "Fri Apr  6 11:56:18 2007" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:15:36 2008" *by "Paul E. Black"
+
+# $Log: starEncoding.trm,v $
+# Revision 1.2  2008/08/14 16:15:37  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.1  2007/04/06 16:55:44  black
+# Initial revision
+#
+
+# entry name
+@NAME=star encoding
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=crypt
+# the definition
+@DEFN=Using a fixed {dictionary}, encode words in text with strings
+having many repeated characters, typically an asterisk or "star" (*).
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Huffman coding}, {Burrows-Wheeler transform}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Holger Kruse</strong> and <strong>Amar Mukherjee</strong>,
+<em>Data compression using text encryption</em>,
+Proc. Data Compression Conference, Snowbird, Utah, USA, pp 447-, 
+March 1997.
+<br />
+<strong>Holger Kruse</strong> and <strong>Amar Mukherjee</strong>  
+<em>Preprocessing text to improve compression ratios</em>,
+Proc. Data Compression Conference, Snowbird, Utah, USA, pp 556-464,
+April 1998.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=This transformation does not compress the text, but prepares it
+for compression.  With many runs of stars, the encoded text may be
+much more compressible than the original text.  The sender and the
+receiver must communicate the dictionary somehow.
+</p>
+
+<p>
+The code string for a word is the same length as the word.
+Kruse and Mukherjee constructed a dictionary "from a large set
+of reference texts" and assigned codes solely by frequency.
+Mark Nelson built the dictionary from the input text and assigned
+codes based on the word.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+Mark Nelson's 2002 <a
+href="http://marknelson.us/2002/08/01/star-encoding-in-cpp/">Star-Encoding
+(C++)</a>, includes a similar algorithm that assigns shorter codes to
+more frequent words.
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/starEncoding.trm,v $

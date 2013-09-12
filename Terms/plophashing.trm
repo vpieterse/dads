@@ -1,0 +1,37 @@
+# *created  "Tue Nov 17 17:03:04 1998" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:53:39 2004" *by "Paul E. Black"
+
+# $Log: plophashing.trm,v $
+# Revision 1.2  2004/12/17 16:53:39  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=PLOP-hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=Piecewise linear order-preserving (PLOP) hashing is a {spatial
+access method} which splits space into a nonperiodic grid.  Each
+spatial dimension is divided by nodes of a {binary tree}.  Object
+are stored in the grid cell of their {centroid}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={grid file}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/plophashing.trm,v $

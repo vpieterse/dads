@@ -1,0 +1,43 @@
+# *created  "Thu Aug 19 08:36:01 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:24 2004" *by "Paul E. Black"
+
+# $Log: search.trm,v $
+# Revision 1.2  2004/12/17 16:54:24  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=search
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=To look for a value or item in a data structure.  There are
+dozens of algorithms, data structures, and approaches.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={array}, {binary search}, {B-tree}, {dictionary}, {hash table},
+
+{heap}, {inverted index}, {linked list},
+{quadtree}, {select k<sup>th</sup> element}, {linear search}, {string
+matching}, {select and partition}
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For more information, see the data structure in question or
+<a href="../termsArea.html#search">terms related to searching</a>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/search.trm,v $

@@ -1,0 +1,45 @@
+# *created  "Wed Jul  7 08:39:12 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:33 2004" *by "Paul E. Black"
+
+# $Log: shiftOr.trm,v $
+# Revision 1.2  2004/12/17 16:54:33  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=Shift-Or
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A {string matching} algorithm which keeps an {array} of bits, R,
+showing if {prefixes} of the {pattern} don't match at the current
+place.  Before searching, mismatch arrays are computed for each
+character in the {alphabet} and saved in an array, S.  For the next
+position, with the character c, $R = shift(R) {or} S[c]$.  If the
+last bit of R is 0, the pattern matches.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://www-igm.univ-mlv.fr/~lecroq/string/node6.html">explanation
+and code (C)</a>
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/shiftOr.trm,v $

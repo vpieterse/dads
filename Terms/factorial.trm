@@ -1,0 +1,81 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Thu Aug 22 15:41:47 2013" *by "Paul E. Black"
+
+# $Log: factorial.trm,v $
+# Revision 1.10  2013/08/22 19:41:52  black
+# update URL for Alex Lopez-Ortiz at U waterloo
+#
+# Revision 1.9  2008/07/28 19:58:31  black
+# Remove Grant's prime sieve IMPL - DNS entry is gone.
+#
+# Revision 1.8  2007/11/26 15:14:01  black
+# Luschny's IMPL is on-line again.  Remove Ericson's IMPL - URL is bad,
+# and cannot find a new one.  IMIN permutation and combination.
+#
+# Revision 1.7  2007/05/29 13:39:36  black
+# Remove Luschny's IMPL - server has been "under construction" for over
+# a month.
+#
+# Revision 1.6  2006/03/17 18:47:49  black
+# Fix IMPL reference: Luschny's page now has more than 14 implementations.
+#
+# Revision 1.5  2004/12/17 17:23:46  black
+# Make more XHTML compliant.
+#
+# Revision 1.4  2004/11/08 14:10:58  black
+# Add link to Peter Luschny's IMPLs in C# and Java.  Clarify that
+# factorial is only defined for non-negative integers.  Refine XREFS
+# into IMA, etc.
+#
+# Revision 1.3  2003/11/12 17:23:45  black
+# Add link to Calum Grant's fast factorial implementation
+#
+# Revision 1.2  2003/11/10 17:36:32  black
+# Add link to Christer Ericson's fast factorial algorithm
+
+# entry name
+@NAME=factorial
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=numeric
+# the definition
+@DEFN=The factorial of an integer $n \geq 0$, written n!, is $n \times
+n-1 \times \ldots \times 2 \times 1$.  In particular, 0! = 1.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={gamma function}
+# Specialization: "... is a kind of me."
+@VARIANT={Stirling's approximation}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={permutation}, {combination}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=For instance 5! = 120.  Factorial is often used as a (poor)
+example of {recursion}, since $n! = n \times (n-1)!$ for n
+&gt; 1, however a simple loop is usually faster and just as clear.
+</p>
+
+<p>
+Why is 0! = 1?  Using the {gamma function} definition, $0! =
+\Gamma(0+1) = \int <sub>0</sub><sup>\infty</sup>
+e<sup>-x</sup>x<sup>1-1</sup>dx = \int <sub>0</sub><sup>\infty</sup>
+e<sup>-x</sup>dx = 1$.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+Peter Luschny's
+<a
+href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm">
+fast factorial algorithms (Java and C#)</a> including benchmarks and
+advice.
+<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/factorials.html">(Scheme)</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/factorial.trm,v $

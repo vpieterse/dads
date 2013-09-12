@@ -1,0 +1,131 @@
+# *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
+# *modified "Mon May 23 09:27:40 2011" *by "Paul E. Black"
+
+# $Log: dictionary.trm,v $
+# Revision 1.13  2011/05/23 14:24:31  black
+# Add Goleta's IMPL
+#
+# Revision 1.12  2010/04/12 17:29:30  black
+# Remove Glarner's Linoleum IMPL - page moved.
+#
+# Revision 1.11  2008/08/18 13:24:50  black
+# Remove Kaz's IMPL - it has been off line for at least a month.
+#
+# Revision 1.10  2007/05/21 12:44:36  black
+# Add Herbert Glarner's IMPL
+#
+# Revision 1.9  2005/01/11 21:15:27  black
+# Specify that IMA ADT.
+#
+# Revision 1.8  2004/12/17 17:23:36  black
+# Make more XHTML compliant.
+#
+# Revision 1.7  2004/10/15 20:43:15  black
+# Add AKA map, IMA binary relation, and a NOTE explaining it.  Make
+# associative array a VARIANT.
+#
+# Revision 1.6  2004/10/14 18:32:46  black
+# Explain a little more about kazlib.
+#
+# Revision 1.5  2004/03/22 18:06:42  black
+# Rewrite the definition to emphasize storing values (not keys).  Use k
+# for k in formal definition.
+#
+# Revision 1.4  2004/03/22 17:37:33  black
+# Refine XREFS into IMA, etc.  Improve the definition, after Rob
+# Stewart.  Reference the new entry axiomatic semantics.
+#
+# Revision 1.3  2003/10/01 14:45:11  black
+# Change the formal definition to have delete() separately defined.
+# This parallels the formal definition of set, and leads to a single,
+# independent definition of find(i, new()).
+#
+# Revision 1.2  2003/09/25 16:00:57  black
+# Add jump list, an implementation of a dictionary.  Add directory and
+# database as (web) aliases for dictionary.
+#
+
+# entry name
+@NAME=dictionary
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=An {abstract data type} storing items, or values.  A value is
+accessed by an associated {key}.
+Basic operations are new, insert, find and delete.
+# formal definition or {cross reference} to an entry
+@FORML=The operations new(), insert(k, v, D), and find(k, D) may be
+defined with {axiomatic semantics} as follows.
+<ol>
+<li>new() returns a dictionary
+<li>find(k, insert(k, v, D)) = v
+<li>$find(k, insert(j, v, D)) = find(k, D) if k \neq j$
+</ol>
+where k and j are keys, v is a value, and D is a dictionary.
+</p>
+
+<p>
+The modifier function delete(k, D) may be defined as follows.
+<ol start="4">
+<li>$delete(k, new()) = new()$
+<li>$delete(k, insert(k, v, D)) = delete(k, D)$
+<li>$delete(k, insert(j, v, D)) = insert(j, v, delete(k, D)) if k \neq j$
+</ol>
+</p>
+
+<p>
+If we want find to be a {total function}, we could define 
+find(k, new()) using a special value: <em>fail</em>.
+This only changes the return type of find.
+<ol start="7">
+<li>find(k, new()) = <em>fail</em>
+</ol>
+# comma-sep list of pure names that this is Also Known As.
+@AKA=association list, map, property list
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=assoc list, prop list, directory, database, data base
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={binary relation}, {abstract data type}
+# Specialization: "... is a kind of me."
+@VARIANT={associative array}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={total order}, {set}
+Some implementations: {linked list}, {hash table}, {B-tree}, 
+{jump list}, {directed acyclic word graph}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The terms ``association list'' and ``property list'' are used with
+LISP-like languages and in the area of Artificial Intelligence.  These
+suggest a relatively small number of items, whereas a dictionary may
+be quite large.  Professionals in the Data Management area have
+specialized semantics for "dictionary" and related terms.
+</p>
+
+<p>
+A dictionary defines a {binary relation} that maps keys to values.
+The keys of a dictionary are a {set}.
+</p>
+
+<p>
+Contributions by Rob Stewart 16 March 2004.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=<a
+href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
+Pascal, and Fortran)</a>.
+Maksim Goleta's
+<a href="http://goletas.com/csharp-collections/">Collections
+(C#)</a> implementing stacks, queues, linked lists, binary search
+trees, AVL trees, and dictionaries.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/dictionary.trm,v $

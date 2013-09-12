@@ -1,0 +1,82 @@
+# *created  "Fri Sep 18 12:10:28 1998" *by "Paul E. Black"
+# *modified "Tue Dec 14 10:33:18 2010" *by "Paul E. Black"
+
+# $Log: heap.trm,v $
+# Revision 1.9  2010/12/14 15:34:20  black
+# LINK to a VM efficient implementation: B-heap.
+#
+# Revision 1.8  2006/09/11 14:03:52  black
+# Update tutorial IMPL URL
+#
+# Revision 1.7  2004/09/22 12:57:34  black
+# Correct spelling of Fibonacci
+#
+# Revision 1.6  2004/04/06 18:46:49  black
+# Add that IMIN heapsort and priority queue.  Add bib reference.
+#
+# Revision 1.5  2004/02/19 18:08:56  black
+# Add Fib heap as a variant.
+#
+# Revision 1.4  2004/01/07 18:16:32  black
+# Correct definition: a heap is a complete tree (a binary heap is a
+# complete binary tree).  Move most of the xrefs, notes, implementation
+# links, etc. to binary heap, since most of them apply to binary heaps.
+# Refine XREFS into IMA, IMIN, etc.  Add a note about OS heaps.
+#
+# Revision 1.3  2003/09/05 14:35:08  black
+# Note that a heap may be efficiently implemented as an array - copy the
+# note from complete binary tree.
+#
+# Revision 1.2  2003/09/05 14:25:13  black
+# Be more specific - a heap is a complete binary tree.
+#
+
+# entry name
+@NAME=heap
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {complete tree} where every {node} has a {key} more
+extreme (greater or less) than or equal to the key of its {parent}.
+Usually understood to be a {binary heap}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names or {cross refs} that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={complete tree}
+# Specialization: "... is a kind of me."
+@VARIANT={binary heap}, {k-ary heap}, {binomial heap}, {Fibonacci heap}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={heapsort}, {priority queue}
+# Aggregate child: "... is a part of or used in me."
+@INME={heap property}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=<strong>J. W. J. Williams</strong>, <em>Algorithm 232 Heapsort</em>,
+CACM, 7(6):378-348, June 1964.
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Speaking about operating systems, "heap" refers to
+memory from which chunks can be allocated.
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
+subtrees to a single page for better virtual memory performance.
+
+# implementation(s) (pure HTML)
+@IMPL=
+Bro. David Carlson's
+<a
+href="http://cis.stvincent.edu/html/tutorials/swd/heaps/heaps.html">heaps
+and heapsort tutorial and code (C++)</a>.
+# author's initials
+@AUTHOR=CLK
+# end $Source: /home/black/DADS/Terms/RCS/heap.trm,v $

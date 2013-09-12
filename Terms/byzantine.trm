@@ -1,0 +1,108 @@
+# *created  "Tue Sep 15 16:57:11 1998" *by "Paul E. Black"
+# *modified "Wed Jan 21 15:45:48 2009" *by "Paul E. Black"
+
+# $Log: byzantine.trm,v $
+# Revision 1.8  2009/01/21 20:46:33  black
+# Update Lamport's pub page URL
+#
+# Revision 1.7  2008/08/14 16:14:13  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.6  2007/11/15 15:21:19  black
+# Link from "available" instead of "PDF" - more meaningful.
+#
+# Revision 1.5  2007/06/18 12:58:39  black
+# Update URL for cs.wisc.edu
+#
+# Revision 1.4  2006/02/24 14:12:33  black
+# Add first paper on subject, by Akkoyunlu, Ekanadham, and Huber in 1975.
+#
+# Revision 1.3  2005/09/08 16:42:51  black
+# Correct the definition, from the naming paper.  Add the paper that
+# first described the problem (without naming it).
+#
+# Revision 1.2  2004/12/17 16:49:04  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=Byzantine generals
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=P
+# basic, search, sort, graph, combin(atorial), etc.
+@AREA=basic
+# the definition
+@DEFN=The problem of reaching a consensus among distributed units if
+some of them give misleading answers.  To be memorable, the problem is
+couched in terms of generals deciding on a common plan of attack.
+Some traitorous generals may lie about whether they
+will support a particular plan and what other generals told them.
+Exchanging only messages, what decision making {algorithm} should the
+generals use to reach a consensus?
+What percentage of liars can the algorithm tolerate
+and still correctly determine a consensus?
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=Byzantine Agreement Problem, Byzantine generals problem
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>E. A. Akkoyunlu, K. Ekanadham, and R. V. Huber</strong>,
+<em>Some constraints and tradeoffs in the design of network
+communications</em>, Proc. 5th ACM Symposium on Operating Systems
+Principles, pages 67-74, 1975.
+<br />
+
+<strong>Marshall Pease, Robert Shostak, and Leslie Lamport</strong>, 
+<em>Reaching Agreement in the Presence of Faults</em>, Journal of the
+ACM 27(2):228-234, 1980.
+<br />
+<strong>Leslie Lamport, Robert Shostak and Marshall Pease</strong>, 
+<em>The Byzantine Generals Problem</em>,
+ACM Transactions on Programming Languages and Systems, 4(3):382-401,
+July 1982. 
+<br />Both
+<a
+href="http://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html">available</a>
+in PDF.
+# Lamport's pub page can be found by searching for the string obtained
+# by removing the - characters from all-lamports-pubs-on-the-web
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=The 1975 paper is the first published consideration of the
+problem of consensus in the presence of faults that I know of, but the
+1982 paper names the
+problem.
+</p>
+
+<p>
+One
+variant is: suppose two separated generals will win if both attack at
+the same time and lose if either attacks alone, but messengers may be
+captured.  If one decides to 
+attack, how can that general be sure that the message has reached the
+other general and the other general will attack, too?
+# further explanation (pure HTML)
+@LINKS=Summary of the 1982 <a
+href="http://pages.cs.wisc.edu/~sschang/OS-Qual/reliability/byzantine.htm">paper
+by Lamport, Shostak, and Pease</a>.
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/byzantine.trm,v $

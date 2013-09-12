@@ -1,0 +1,41 @@
+# *created  "Tue Apr 20 09:26:29 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 12:03:53 2004" *by "Paul E. Black"
+
+# $Log: efficiency.trm,v $
+# Revision 1.2  2004/12/17 17:03:53  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=efficiency
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic theory numeric search sort tree graph combin para (see areas.data)
+@AREA=basic
+# the definition
+@DEFN=The resources an {algorithm} used to
+find an answer.  It is usually measured in terms of the theoretical
+computations, such as comparisons or data moves, the memory used, the
+number of messages passed, the number of disk accesses, etc.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={big-O notation}, {best case}, {worst case}, {average case}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/efficiency.trm,v $

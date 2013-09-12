@@ -1,0 +1,93 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Mon May  9 14:38:15 2011" *by "Paul E. Black"
+
+# $Log: minimalPerfectHash.trm,v $
+# Revision 1.10  2011/05/09 18:38:51  black
+# update LINK to Schmidt's gperf paper
+#
+# Revision 1.9  2009/02/03 16:39:15  black
+# XREF Pearson's hash.  Hyphenate name of order-preserving minimal
+# perfect hashing.
+#
+# Revision 1.8  2008/08/14 16:14:54  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.7  2006/07/17 16:46:13  black
+# fix typo
+#
+# Revision 1.6  2005/03/21 14:27:02  black
+# Replace caltech gperf URL (no longer found) with Gnu URL.
+#
+# Revision 1.5  2005/01/10 16:22:00  black
+# Update metalab.unc (mph) URL to ibiblio.org.
+#
+# Revision 1.4  2004/12/17 17:28:26  black
+# Make more XHTML compliant.
+#
+# Revision 1.3  2004/02/10 19:35:30  black
+# Correct the formal definition.
+#
+# Revision 1.2  2004/02/10 18:52:38  black
+# Refine XREFS into IMA, etc.  Add link to a good article.  Add RCS Log, etc.
+#
+
+# entry name
+@NAME=minimal perfect hashing
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=search
+# the definition
+@DEFN=A {perfect hashing} function that maps each different {key} to
+a distinct integer and has the same number of possible integers as
+keys.
+# formal definition or {cross reference} to an entry
+@FORML=A function f is a minimal perfect hash function for a set of
+keys K iff
+$\forall j, k \in K f(j) = f(k) \rightarrow j = k$ and the {range} of
+f(k) is $1\ldots |K|$.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={perfect hashing}, {hash function}
+# Specialization: "... is a kind of me."
+@VARIANT={order-preserving minimal perfect hashing}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Pearson's hash}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After BJ.
+# further explanation (pure HTML)
+@LINKS=
+<strong>Edward A. Fox, Lenwood S. Heath, Qi Fan Chen</strong> and
+<strong>Amjad M. Daoud</strong>,
+<em><a href="http://doi.acm.org/10.1145/129617.129623">Practical
+minimal perfect hash functions for large databases</a></em>, 
+CACM, 35(1):105-121, January 1992.
+<br />
+<a href="http://www1.cse.wustl.edu/~schmidt/PDF/gperf.pdf">GPERF: A
+Perfect Hash Function Generator</a> PDF document.
+# implementation(s) (pure HTML)
+@IMPL=
+Description and code for <a
+href="http://burtleburtle.net/bob/hash/perfect.html">minimal perfect
+hashing (C)</a>,
+<a href="http://www.ibiblio.org/pub/Linux/devel/lang/c/!INDEX.short.html">
+mph: minimal perfect hash function generator (C)</a>.
+<a href="http://www.gnu.org/software/gperf/gperf.html">gperf: a
+near-minimal perfect hashing (C++)</a>, click on GNU mirror, click on a
+nearby server, then gperf.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/minimalPerfectHash.trm,v $

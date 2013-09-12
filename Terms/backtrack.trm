@@ -1,0 +1,107 @@
+# *created  "Mon Nov 23 10:46:18 1998" *by "Paul E. Black"
+# *modified "Mon Nov 10 13:26:54 2008" *by "Paul E. Black"
+
+# $Log: backtrack.trm,v $
+# Revision 1.12  2009/04/14 16:21:34  black
+# remove LINK to FOLDOC entry - web site is off-line
+#
+# Revision 1.11  2008/11/10 18:27:53  black
+# update URL in LINK to James Allen's explanation
+#
+# Revision 1.10  2008/08/14 16:13:38  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.9  2008/06/06 15:15:45  black
+# Fix punctuation.
+#
+# Revision 1.8  2008/04/01 18:55:09  black
+# Update Allen's freepages.genealogy URL and improve the text.
+#
+# Revision 1.7  2007/12/18 19:57:57  black
+# add BIB entry of Golomb and Baumert, including a quote attributing the
+# name to one Lehmer.
+#
+# Revision 1.6  2007/12/17 14:32:16  black
+# Remove www.siteexperts.com LINK - "can't connect to host"
+#
+# Revision 1.5  2005/12/05 15:54:36  black
+# Update FOLDOC URL
+#
+# Revision 1.4  2005/01/11 20:58:11  black
+# Remove leading redundant phrase in DEFN.
+#
+# Revision 1.3  2004/12/17 16:57:34  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+# Revision 1.2  2003/10/14 17:55:05  black
+# Add link to tutorial
+#
+
+# entry name
+@NAME=backtracking
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=basic
+# the definition
+@DEFN=Find a solution by trying one of
+several choices.  If the choice proves incorrect, computation
+<em>backtracks</em> or restarts at the point of choice and tries
+another choice.  It is often convenient to maintain choice points and
+alternate choices using {recursion}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+An early exposition of this technique:
+# We'd call this depth-first search with pruning of infeasible solutions.
+<br />
+<strong>Solomon W. Golomb</strong> and <strong>Leonard D. Baumert</strong>,
+<em>Backtrack Programming</em>, Journal of ACM, 12(4):516-524, Oct 1965.
+<br />
+"This rather universal method was named 'backtrack' by Professor
+D. H. Lehmer of the University of California at Berkeley."
+# article goes on to say "Backtrack
+# has been independently 'discovered' and applied by many people.  A
+# fairly general exposition of backtrack was given by R. J. Walker [11]."
+#
+# [4] Hall, M., and Knuth, D. E. Combinatorial analysis and
+# computers.  Herbert Ellsworth Slaught memorial Papers, No. 10
+# (Suppl., Amer. Math. Mon., 1965).
+# [11] Walker, R. L. An enumerative technique for a class of
+# combinatorial problems.  Amer. Math. Soc. Proc. Symp. Appl Math. 10
+# (1960), 91-94.
+#   Mathematic Society Procedings of Symposium in Applied Mathematics
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Conceptually, a backtracking algorithm does a {depth-first
+search} of a {tree} of possible (partial) solutions.  Each choice is a
+{node} in the tree.
+# further explanation (pure HTML)
+@LINKS=Explanation with the <a
+href="http://students.ceid.upatras.gr/~papagel/project/kef5_8.htm">8-queens</a>
+problems.
+<a
+href="http://gaia.ecs.csus.edu/~wang/backtrack/maze/maze1/mazetraversal.html">maze
+solving Java applet</a>.
+James D. Allen's
+<a
+href="http://fabpedigree.com/james/lesson9.htm">short
+explanation</a>.
+
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/backtrack.trm,v $

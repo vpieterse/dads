@@ -1,0 +1,51 @@
+# *created  "Wed Feb 17 12:34:08 1999" *by "Paul E. Black"
+# *modified "Thu Aug 14 12:14:04 2008" *by "Paul E. Black"
+
+# $Log: bruteforce.trm,v $
+# Revision 1.3  2008/08/14 16:14:07  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.2  2004/12/16 13:58:14  black
+# Add Dragon Tails comic illustrating a brute force solution.  Refine
+# XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=brute force
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=T
+# basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
+@AREA=basic
+# the definition
+@DEFN=An {algorithm} that inefficiently solves a
+problem, often by trying every one of a wide range of possible
+solutions.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT={exhaustive search}, {brute force string search}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After LK.
+</p>
+
+<p>
+<img src="../Images/dt brute force 030616.jpg"><br />
+From <a href="http://www.dragon-tails.com/">Dragon Tails</a>.
+Used by permission.  Copyright &copy; 2003 Tim Dawson.
+
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bruteforce.trm,v $

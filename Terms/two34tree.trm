@@ -1,0 +1,36 @@
+# *created  "Mon Nov 16 13:53:08 1998" *by "Paul E. Black"
+# *modified "Fri Jan 23 09:54:00 2004" *by "Paul E. Black"
+
+# $Log: two34tree.trm,v $
+# Revision 1.2  2004/01/23 14:56:33  black
+# Rephrase defn to resemble 2-3 tree.  Add IMA (B-tree) link.  Link to
+# "internal node", not just "node".
+#
+
+# entry name
+@NAME=2-3-4 tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A {B-tree} of order 4, that is, {internal nodes} have two,
+three, or four {children#child}.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={B-tree} with $m=4$
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={2-3 tree}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /export/home/black/DADS/Terms/RCS/two34tree.trm,v $

@@ -1,0 +1,60 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Aug  1 10:14:11 2008" *by "Paul E. Black"
+
+# $Log: bucketTrie.trm,v $
+# Revision 1.3  2008/08/01 14:17:49  black
+# Add NOTE on pronunciation.
+#
+# Revision 1.2  2004/01/08 18:10:26  black
+# Fill in empty entry.
+#
+
+# entry name
+@NAME=bucket trie
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=A variant of a {trie} in which {leaf} nodes are {buckets} which
+hold up to $k$ strings.  Usually implies fixed sized buckets.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={trie}
+# Specialization: "... is a kind of me."
+@VARIANT={elastic-bucket trie}
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+@BIB=
+<strong>Edward H. Sussenguth, Jr.</strong>, <em>Use of Tree Structures
+for Processing Files</em>, CACM, 6(5):272-279, May 1963.
+# On pages 277 and 278 he talks about terminating branching in regular
+# trees to eliminate long, sparse chains.  This necessitates "blocks
+# of items" or buckets, although he skips allocation, etc. issues.
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=Combining terminal strings can greatly shorten branches.
+For instance, "extraordinarily", "extraordinariness", and
+"extraordinary" can be stored in one bucket at the end of a short
+branch distinguishing them from extran... and extrap... rather than a
+long branch for the common substring ...ordinar...
+</p>
+
+<p>
+The name comes from re<strong>TRIE</strong>val and is
+pronounced, "tree."  See the historical note at {trie}.
+
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bucketTrie.trm,v $

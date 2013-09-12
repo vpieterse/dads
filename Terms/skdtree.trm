@@ -1,0 +1,38 @@
+# *created  "Mon Nov 23 09:22:28 1998" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:54:39 2004" *by "Paul E. Black"
+
+# $Log: skdtree.trm,v $
+# Revision 1.2  2004/12/17 16:54:39  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=skd-tree
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# basic, numeric, search, sort, graph, combin(atorial), tree, theory
+@AREA=tree
+# the definition
+@DEFN=The spatial {k-d tree} is a {spatial access method} where
+successive levels are split
+along different dimensions.  Objects are indexed by their {centroid},
+and the {minimum bounding box} of objects in a node are stored in
+the node.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={extended k-d tree}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=After <a href="../terms.html#GG98">[GG98]</a>.
+# author's initials
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/skdtree.trm,v $

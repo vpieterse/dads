@@ -1,0 +1,46 @@
+# *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
+# *modified "Fri Dec 17 11:52:25 2004" *by "Paul E. Black"
+
+# $Log: internalnode.trm,v $
+# Revision 1.2  2004/12/17 16:52:25  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
+#
+
+# entry name
+@NAME=internal node
+# _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# basic numeric search sort graph combin(atorial) tree theory para(llel)
+@AREA=tree
+# the definition
+@DEFN=A {node} of a {tree} that has one or more {child} nodes,
+equivalently, one that is not a {leaf}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=nonterminal node
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=interior node
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={parent}, {root}
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=See <a href="../terms.html#CLR90">[CLR90, page 93]</a>
+or <a href="../terms.html#HS83">[HS83, page 220]</a>.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials
+@AUTHOR=LJW,PEB
+# end $Source: /home/black/DADS/Terms/RCS/internalnode.trm,v $

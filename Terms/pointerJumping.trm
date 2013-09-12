@@ -1,0 +1,60 @@
+# *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
+# *modified "Thu Aug 14 12:15:13 2008" *by "Paul E. Black"
+
+# $Log: pointerJumping.trm,v $
+# Revision 1.4  2008/08/14 16:15:15  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.3  2005/02/04 16:00:51  black
+# Rename file to pointerJumping.  Add AKA recursive doubling (and the
+# NOTE about why its called that), and remove recursive doubling as a
+# separate term.
+#
+# Revision 1.2  2004/12/17 17:06:30  black
+# Refine XREFS into IMA, etc.  Add RCS keywords.
+#
+
+# entry name
+@NAME=pointer jumping
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=para
+# the definition
+@DEFN=In a linked structure, replacing a pointer with the pointer it
+points to.  Used for various algorithms on {lists} and {trees}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=recursive doubling, shortcutting
+# other cross-listings solely for the web, such as word or spelling variants
+@WEB=short cutting
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# any notes.  these will not be printed in the final dictionary
+@NOTES=
+The name "recursive doubling" comes the fact that if all the pointers
+are jumped at every step, the pointers cover double the distance with
+each {recursion}.<br />
+From Algorithms and Theory of Computation Handbook, page 47-40,
+Copyright &copy; 1999 by CRC Press LLC.
+Appearing in the Dictionary of Computer Science, Engineering and
+Technology, Copyright &copy; 2000 CRC Press LLC.
+# further explanation (pure HTML)
+@LINKS=
+# implementation(s) (pure HTML)
+@IMPL=
+# author's initials (see authors.data)
+@AUTHOR=CRC-A
+# end $Source: /home/black/DADS/Terms/RCS/pointerJumping.trm,v $

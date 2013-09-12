@@ -1,0 +1,127 @@
+# *created  "Mon Jun 12 16:25:09 2000" *by "Paul E. Black"
+# *modified "Tue Apr 14 12:29:01 2009" *by "Paul E. Black"
+
+# $Log: bresenham.trm,v $
+# Revision 1.12  2009/04/14 16:29:52  black
+# Remove link to paper on-line: IBM no longer allows free on-line access.
+#
+# Revision 1.11  2009/03/30 13:08:23  black
+# update URL for LINK to Dedu's page
+#
+# Revision 1.10  2009/03/02 19:26:49  black
+# update Dedu's LINK
+#
+# Revision 1.9  2008/11/03 15:20:17  black
+# fix typo
+#
+# Revision 1.8  2008/10/20 16:47:26  black
+# Add LINK to Dedu's implementation of a supercover line algorithm.
+#
+# Revision 1.7  2008/08/25 13:03:15  black
+# update URL for original paper
+#
+# Revision 1.6  2008/08/14 19:02:50  black
+# Bresenham's seminal paper is (now) on-line.  NOTE his paper on
+# "anomalies" in such algorithms.
+#
+# Revision 1.5  2008/08/14 16:14:04  black
+# Update HTML line break (br) tags to be XML/XHMTL compatible
+#
+# Revision 1.4  2004/12/17 17:11:06  black
+# Refine XREFS into IMA, etc.  Make more XHTML compliant.
+#
+# Revision 1.3  2004/11/01 18:18:17  black
+# Bresenham is no longer with Winthrop.  Remove dead java applet LINK.
+# Add Autocoder IMPL.
+#
+# Revision 1.2  2003/12/18 18:54:23  black
+# Break out historical note to a new, separate field.
+#
+
+# entry name
+@NAME=Bresenham's algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+#	Really, graphics
+@AREA=geom
+# the definition
+@DEFN=An efficient algorithm to render a line with pixels.  The long
+dimension is incremented for each pixel, and the fractional slope is
+accumulated.
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Jack E. Bresenham</strong>, <em>Algorithm for Computer Control 
+of a Digital Plotter</em>, IBM Systems Journal, 4(1):25-30, 1965.
+<br />
+Reprinted in <em>Interactive Computer Graphics</em>, Herbert Freeman ed., 
+1980, and
+<em>Seminal Graphics: Pioneering Efforts That Shaped The Field</em>,
+Rosalee Wolfe ed., ACM SIGGRAPH, 1998.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Bresenham discusses implementation issues and design choices, such as
+arise drawing lines beginning at either end point of a line or
+approximating a circle with a polygon, in
+<br />
+<strong>Jack Bresenham</strong>,
+<em>Ambiguities in incremental line rastering</em>, IEEE Computer
+Graphics and Applications, 7(5):31-43, May, 1987.  
+
+# any historical notes
+@HISTORY=
+# Jack E. Bresenham retired from Winthrop University in May 2003.
+# His email is j.bresenham@computer.org (Nov 2004)
+In November 2001 Jack E. Bresenham wrote, "I was working in
+the computation lab at 
+IBM's San Jose development lab.  A Calcomp plotter had been attached to
+an IBM 1401 via the 1407 typewriter console.  [The algorithm] was in 
+production use
+by summer 1962, possibly a month or so earlier.  Programs in those days
+were freely exchanged among corporations so Calcomp (Jim Newland and
+Calvin Hefte) had copies.  When I returned to Stanford in Fall 1962, I
+put a copy in the Stanford comp center library.
+</p>
+
+<p>
+A description of the line drawing routine was accepted for
+presentation at the 1963 ACM national convention in Denver, Colorado.
+It was a year in which no proceedings were published, only the agenda of
+speakers and topics in an issue of Communications of the ACM.  A person
+from the IBM Systems Journal asked me after I made my presentation if
+they could publish the paper.  I happily agreed, and they printed it in
+1965."
+# further explanation (pure HTML)
+@LINKS=
+An <a
+href="http://www.cs.helsinki.fi/group/goa/mallinnus/lines/bresenh.html">explanation</a>.
+</p>
+
+<p>
+Eugen Dedu's implementation of a
+<a href="http://lifc.univ-fcomte.fr/home/~ededu/projects/bresenham/">Bresenham-based
+supercover line algorithm</a>.  It marks all the squares a line passes
+through, not just the least error squares.  It may help with dithered
+lines or checking for obstacles.
+# implementation(s) (pure HTML)
+@IMPL=
+The original IBM 1401 <a
+href="http://www.bitsavers.org/1401/progs/bresenham/bresenham.s">implementation
+(Autocoder)</a> from 1962.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/Terms/RCS/bresenham.trm,v $
