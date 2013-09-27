@@ -1,5 +1,5 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:41:27 2013" *by "Paul E. Black"
+# *modified "Fri Sep 27 14:55:10 2013" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
 # Revision 1.22  2013/08/22 19:41:42  black
@@ -144,7 +144,7 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a>, which uses
-<a href="http://www.nist.gov/dads/HTML/zeroBasedIndexing.html">0-based indexing</a>.
+{0-based indexing}.
 Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Binary_search">explanation
@@ -155,4 +155,4 @@ href="https://www.auto.tuwien.ac.at/~blieb/woop/binsearc.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
 # author's initials
 @AUTHOR=PEB
-# end $Source: /home/black/Workspace/dads/Terms/RCS/binarySearch.trm,v $
+# end $Source: /home/black/DADS/Terms/RCS/binarySearch.trm,v $
