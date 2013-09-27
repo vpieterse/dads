@@ -1,8 +1,6 @@
 <html>
 <head>
-<style>
-body  {font-family:"Verdana", "Arial", "Helvetica", sans-serif;} 
-</style>
+<link rel="stylesheet" type="text/css" href="../Styles/dads.css">
 </head>
 <body>
 <center>
@@ -18,8 +16,8 @@ alt="Viewable With Any Browser" border="0"></a>
 DADS bears the "Viewable with any Browser" icon because the authors of
 DADS agree with this campaign.  We are participating in this effort by
 avoiding tricks that may influence the transportability of this
-website. We are aware that it may look better in some browsers than
-others, but are confident they are readable by the vast majority of
+website. We are aware that some pages may look better in some browsers than
+others, but are confident all our pages are readable with the vast majority of
 browsers in use.
 </p>
 <p>The following highlits some unavoidable problems and how we address
@@ -46,14 +44,14 @@ them:</p>
 your preferred way, we would like to know about it. include(`Pages/bitsFixDefn.m4')</p>
 
 <p>The following is a list of other things we do to support the
-viewability of this site:</p>
+cross-platform and cross-browser viewability of this site:</p>
 <ul> 
 <li>Formatting specific settings are set in a cascading style sheet. If a
   browser does not support cascading style sheets, the page will be
-  rendered with default settings for all tags, whis is in most cases
-  acceptable.
+  rendered with default settings for all tags, which is in most cases
+  the safest option.
 <li>Formatting specific settings are kept to a minimum and only used
-  when we have conformation that it is supported by most browsers. A
+  when we have confirmation that it is supported by most browsers. A
   good reference we use for this purpose is at:
   <a href="http://reference.sitepoint.com/css"
   traget="_blank">http://reference.sitepoint.com/css</a>
@@ -63,18 +61,24 @@ viewability of this site:</p>
   image is not shown. We use only JPEG format because it seems to be
   the most widely supported image format that is not limited by
   copyright issues.
+<li>We do not use tables. Often tables are unreadble in browsers that
+  do not support tables. Instead we display tabular information as
+  preformatted text using mono-spaced fonts. 
 <li>We consistently use only lower case in HTML tags. Although, HTML
   is not case sensitive, XHTML requires all tags to be in
-  lowercase. This helps to have more portable code.
-<li>Reserved characters in URL's specified in outgoing links are
-  encoded using their hexadecimal format.
+  lowercase. This improves the readability as well as the portability
+  of our code.
+<li>We use only alphabetical characters and digits when naming our
+  directories and files to minimize errors when other sites point to
+  our site. We also encode reserved characters in URL's specified in
+  outgoing links using their hexadecimal formats.
 </ul>
 
 <HR>
 <center>
 <p>
 <small>Updated 
-Wed Sep 25 15:40:16 2013
+Fri Sep 27 12:52:54 2013
 by <a href="http://www.cs.up.ac.za/cs/vpieterse">Vreda Pieterse
 </a></small></p></center>
 </body>
