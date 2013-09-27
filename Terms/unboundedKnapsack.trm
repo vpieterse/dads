@@ -1,5 +1,5 @@
 # *created  "Wed Apr 24 09:00:22 2002" *by "Paul E. Black"
-# *modified "Thu Aug 22 16:10:31 2013" *by "Paul E. Black"
+# *modified "Fri Sep 27 15:48:42 2013" *by "Paul E. Black"
 
 # $Log: unboundedKnapsack.trm,v $
 # Revision 1.8  2013/08/22 20:10:43  black
@@ -73,8 +73,7 @@ $\sum<sub>t=1</sub><sup>N</sup> n<sub>t</sub>v<sub>t</sub>$, is maximized.
 Moshe Sniedovich's <a
 href="http://www.moshe-online.com/tutor/knapsack_new/">demonstration
 solutions</a> using
-<a href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
-programming</a>.
+{dynamic programming}.
 <a
 href="http://www.irisa.fr/cosi/HOMEPAGE/Rajopadhye/knapsack.html">formal
 definition and links to papers</a>.
