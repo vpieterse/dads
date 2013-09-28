@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-# $Id: mkterms,v 1.84 2013/01/31 19:44:20 black Exp $
+# $Id: mkterms,v 1.85 2013/09/27 20:18:35 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Thu Jan 31 14:04:13 2013" *by "Paul E. Black"
+# *modified "Fri Sep 27 15:49:34 2013" *by "Paul E. Black"
 #
 # Collect all DADS terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -276,8 +276,13 @@ open(TMP2LEV, "> $twolevtemp")
 print TMP2LEV << "TWO_LEVEL_BEGINNING";
 <ul>
 TWO_LEVEL_BEGINNING
-$optimNumbPages = int(.5 + 1.42127 * sqrt $numEntriesInIndex);
-$optimEntriesPerPage = $numEntriesInIndex / $optimNumbPages;
+$optimNumbPages = 1.42127 * sqrt $numEntriesInIndex;
+$optimEntriesPerPage = int(.5 + $numEntriesInIndex / $optimNumbPages);
+#print "\n=============================================\n";
+#print "number of entries in index is $numEntriesInIndex\n";
+#print "optimal number of pages is $optimNumbPages\n";
+#print "optimal entries per page is $optimEntriesPerPage\n";
+#print "=============================================\n";
 $entriesInPage = 0; # how many entries written in this page?
 $indexPageName = "t00";
 
@@ -427,7 +432,7 @@ TABLE_NEXT_COLUMN
 
 	# finish the current index page if needed
 	$entriesInPage++;
-	if ($entriesInPage > $optimEntriesPerPage) {
+	if ($entriesInPage >= $optimEntriesPerPage) {
 	    # finish the current index page
 	    &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
 	    close SUB2LEV;
@@ -631,6 +636,8 @@ NO_DEFN_MESSAGE
 	my($eimpls) = $thisEntry{IMPL};
 	# rewrite HREFs with exit_nist script
 	&rewriteHrefs($eimpls);
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($eimpls, $ename);
 	# SKIMP write plural if more than one
 	print TERMPAGE "<h2>Implementation</h2>\n$eimpls\n";
     }
@@ -642,6 +649,8 @@ NO_DEFN_MESSAGE
 	my($elinks) = $thisEntry{LINKS};
 	# rewrite HREFs with exit_nist script
 	&rewriteHrefs($elinks);
+	# convert cross references ({...}) to href's
+	&rewriteXrefs($elinks, $ename);
 	print TERMPAGE "<p>\n$elinks\n</p>\n";
     }
     if (defined $thisEntry{BIB}) {
