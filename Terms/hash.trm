@@ -1,6 +1,7 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Sep 30 13:36:39 2013" *by "Vreda Pieterse"
+# *modified "Mon Sep 30 13:40:22 2013" *by "Vreda Pieterse"
 #
+# $Log: hash.trm,v $
 # Revision "Mon Sep 30 10:01:37 2013" *by "Vreda Pieterse"
 # Use {minimal perfect hashing} and {Pearson's hash} in IMPL instead of hard-coded link to DADS. 
 #
