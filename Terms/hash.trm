@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Sep 30 13:40:22 2013" *by "Vreda Pieterse"
+# *modified "Mon Sep 30 16:39:52 2013" *by "Vreda Pieterse"
 #
 # $Log: hash.trm,v $
+# Revision "Mon Sep 30 16:35:16 2013" *by "Vreda Pieterse"
+# Add missing .html to IMPL Link to Gonnet and Baeza-Yates's implementation
+#
 # Revision "Mon Sep 30 10:01:37 2013" *by "Vreda Pieterse"
 # Use {minimal perfect hashing} and {Pearson's hash} in IMPL instead of hard-coded link to DADS. 
 #
@@ -144,7 +147,7 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/hash_func.html">Hashing
 Functions</a>.
 
 # implementation(s) (pure HTML)
-@IMPL
+@IMPL=
 See the implementations at {minimal perfect hashing} and {Pearson's hash}.
 Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
@@ -158,9 +161,9 @@ Arash Partow's implementations of various
 <a href="http://www.partow.net/programming/hashfunctions/#Download">General
 Hash Functions (C, C++, Pascal, Object Pascal, Java, Ruby, Python)</a>
 and Bloom filter for strings.
-Hash functions for strings
 # This implementation is okay - PEB 6 April 1999
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c">(C)</a>.
+Gonnet and Baeza-Yates's 
+<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c.html">hash functions for strings.(C)</a>.
 Austin Appleby's fast
 <a href="http://sites.google.com/site/murmurhash/">MurmurHash (C)</a>,
 including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
