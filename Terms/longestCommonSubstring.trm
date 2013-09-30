@@ -1,8 +1,8 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Mon Sep 30 10:16:34 2013" *by "Vreda Pieterse"
+# *modified "Mon Sep 30 13:49:31 2013" *by "Vreda Pieterse"
 
 # Revision "Mon Sep 30 10:12:07 2013" *by "Vreda Pieterse"
-# Use {0-based index} in LINKS instead of hard-coded link to DADS. 
+# Use {dynamic programming} in LINKS instead of hard-coded link to DADS. 
 # 
 # Revision 1.6  2011/02/28 14:12:45  black
 # change DADS URL root.  Again
