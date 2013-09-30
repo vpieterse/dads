@@ -1,6 +1,7 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Mon Sep 30 13:49:31 2013" *by "Vreda Pieterse"
+# *modified "Mon Sep 30 14:42:38 2013" *by "Vreda Pieterse"
 
+# $Log: longestCommonSubstring.trm,v $
 # Revision "Mon Sep 30 10:12:07 2013" *by "Vreda Pieterse"
 # Use {dynamic programming} in LINKS instead of hard-coded link to DADS. 
 # 
