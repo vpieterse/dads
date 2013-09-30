@@ -1,6 +1,9 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:30 2011" *by "Paul E. Black"
-
+# *modified "Mon Sep 30 10:36:09 2013" *by "Vreda Pieterse"
+#
+# Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
+# Use {0-based index} in NOTES instead of hard-coded link to DADS. 
+#
 # $Log: bogosort.trm,v $
 # Revision 1.12  2011/02/28 14:12:35  black
 # change DADS URL root.  Again
@@ -85,8 +88,7 @@ Available at
 <a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
 <br />
 Note: the permutation subroutine given for Algorithm 1 is
-<a href="http://www.nist.gov/dads/HTML/fisherYatesShuffle.html">Fisher-Yates
-shuffle</a>.  Also "Supercalifragilisticexpialidocious" is misspelled
+{Fisher-Yates shuffle}.  Also "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
 </p>
 
