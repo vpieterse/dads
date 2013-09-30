@@ -1,7 +1,9 @@
 # *created  "Wed Nov 19 09:25:46 2003" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:43 2011" *by "Paul E. Black"
+# *modified "Mon Sep 30 10:16:34 2013" *by "Vreda Pieterse"
 
-# $Log: longestCommonSubstring.trm,v $
+# Revision "Mon Sep 30 10:12:07 2013" *by "Vreda Pieterse"
+# Use {0-based index} in LINKS instead of hard-coded link to DADS. 
+# 
 # Revision 1.6  2011/02/28 14:12:45  black
 # change DADS URL root.  Again
 #
@@ -56,9 +58,7 @@ subsequence need not be.
 @LINKS=
 Dan Hirschberg's <a
 href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</a>
-as an example of <a
-href="http://www.nist.gov/dads/HTML/dynamicprog.html">dynamic
-programming</a>.
+as an example of {dynamic programming}
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
