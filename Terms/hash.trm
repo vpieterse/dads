@@ -1,8 +1,8 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Sep 30 10:35:44 2013" *by "Vreda Pieterse"
+# *modified "Mon Sep 30 13:36:39 2013" *by "Vreda Pieterse"
 #
 # Revision "Mon Sep 30 10:01:37 2013" *by "Vreda Pieterse"
-# Use {0-based index} in IMPL instead of hard-coded link to DADS. 
+# Use {minimal perfect hashing} and {Pearson's hash} in IMPL instead of hard-coded link to DADS. 
 #
 # Revision 1.32  2011/02/28 14:12:41  black
 # change DADS URL root.  Again
@@ -143,7 +143,7 @@ href="http://www.cs.auckland.ac.nz/software/AlgAnim/hash_func.html">Hashing
 Functions</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=
+@IMPL
 See the implementations at {minimal perfect hashing} and {Pearson's hash}.
 Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
