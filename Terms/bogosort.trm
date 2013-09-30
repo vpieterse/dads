@@ -1,10 +1,10 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Sep 30 10:36:09 2013" *by "Vreda Pieterse"
-#
-# Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
-# Use {0-based index} in NOTES instead of hard-coded link to DADS. 
+# *modified "Mon Sep 30 13:29:50 2013" *by "Vreda Pieterse"
 #
 # $Log: bogosort.trm,v $
+# Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
+# Use {Fisher-Yates shuffle} in NOTES instead of hard-coded link to DADS. 
+#
 # Revision 1.12  2011/02/28 14:12:35  black
 # change DADS URL root.  Again
 #
