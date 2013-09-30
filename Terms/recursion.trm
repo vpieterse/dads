@@ -1,7 +1,9 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 28 09:12:46 2011" *by "Paul E. Black"
-
-# $Log: recursion.trm,v $
+# *modified "Mon Sep 30 10:25:10 2013" *by "Vreda Pieterse"
+#
+# Revision "Mon Sep 30 10:22:13 2013" *by "Vreda Pieterse"
+# Use {0-based index} in LINKS instead of hard-coded link to DADS. 
+#
 # Revision 1.11  2011/02/28 14:12:47  black
 # change DADS URL root.  Again
 #
@@ -127,9 +129,7 @@ See <a
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/dynamic.html#fibonacci">dynamic
 algorithms</a> for an example of one trade-off between speed and
 clarity for a recursive vs. an iterative implementation.  
-See the notes for the 
-<a href="http://www.nist.gov/dads/HTML/towersOfHanoi.html">towers of
-Hanoi</a> puzzle for another recursive and iterative solution.
+See the notes for {towers of Hanoi}, a puzzle that has another recursive and iterative solution.
 Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/recur/recur.html">tutorial
