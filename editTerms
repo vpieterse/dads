@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
-$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.13 2009/01/22 16:18:01 black Exp $';
+$versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.14 2013/10/01 13:36:05 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Thu Jan 22 11:15:30 2009" *by "Paul E. Black"';
+$versionMod=' *modified "Mon Sep  9 13:54:44 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -28,8 +28,8 @@ $typUse = "./editTerms `grep -l vertices Terms/*.trm`";
 #	Command line handling
 #------------------------------------------------------------------------------
 
-$reason = "Fix refs to Knuth vol 1 and 2 to 1997";
-#           search for SPECIFIC EDITS
+$reason = "update URL for Aaronson's Complexity Zoo";
+#           search for SPECIFIC EDIT
 $editor = "Paul E. Black"; # for *modified line
 # check that hard-coded date is current to reduce chance of 
 # using old reason and old edits
@@ -45,7 +45,8 @@ while ($#ARGV >= 0) {
 	print "\t--        End of options (e.g., term begins with -)\n";
 	print "    Check out and edit each file.  Do rcsdiff, so you can review changes, and\n";
 	print "    ask if you want to commit them.  Your options are:\n";
-	print "\ty - Yes; check in changes, with the hard-coded \"reason\"\n";
+	print "\ty - Yes; check in changes, with this \"reason\":\n";
+	print "\t\t$reason\n";
 	print "\tl - Leave changes, but don't check in\n";
 	print "\tn - No; unlock the file and revert to the previous version\n";
 	print "\tq - Quit; unlock the file and revert, then quit\n";
@@ -86,7 +87,7 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Thu Nov 20/) {
+if ($checkDate && localtime() !~ /Mon Sep  9/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -152,13 +153,13 @@ foreach $term_file_name (@ARGV) {
 
 		#----------------------------------------------------
 		#
-		#	HERE ARE THE SPECIFIC EDITS WE WANT
+		#	HERE IS THE SPECIFIC EDIT(S) WE WANT
 		#
 		# Remember to change the check-in reason
 		#
 		#----------------------------------------------------
 
-		$line =~ s/Knuth98/Knuth97/g;
+		$line =~ s|http://qwiki.stanford.edu/index.php/|https://complexityzoo.uwaterloo.ca/|g;
 
 		print TERM $line;
 	    }
