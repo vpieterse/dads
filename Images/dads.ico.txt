@@ -1,0 +1,57 @@
+Return-Path: info@coolnettricks.com 
+Date: Tue, 11 Sep 2001 09:24:07 -0400 (EDT)
+From: "Favicon.com - java icon editor" <info@coolnettricks.com>
+To: paul.black@nist.gov
+Subject: ** Favicon **
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_7751_8008384.1000214647842"
+
+------=_Part_7751_8008384.1000214647842
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+
+
+        Attached is the Favicon.ico you created at
+http://www.favicon.com.  You need to add the
+favicon.ico file to the same directory as your
+html file(s). If you can not put them in the
+same directory as your page(s) (ie index.html),
+use the optional <LINK> tag below in the HEAD
+section of your web document.  Make sure to
+replace the path to favicon.com's favicon to your own!
+
+
+<LINK REL="SHORTCUT ICON" href="http://favicon.com/favicon.ico">
+
+
+NOTE:  DO NOT BE FOOLED BY YOUR OPERATING SYSTEM.
+THIS IS AN ICO FILE - RENAME IT 'favicon.ico' (lowercase).
+
+We can offer many other services to you to
+help you promote/develop your site, feel free to
+check out the links in this email!
+
+**********************************************************
+http://www.coolnettricks.com/?ref=femail
+- CoolNetTricks.com has free online tools for webmasters,
+graphics designers, Internet enthusiasts involved in web
+site development, marketing, promotion. Also has editors
+for the authoring of buddy icons, email icons, and mobile 
+phone logos.  
+**********************************************************
+
+
+------=_Part_7751_8008384.1000214647842
+Content-Type: application/octet-stream; name=favicon.ico
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=favicon.ico
+
+AAABAAEAEBAQAAEAAwAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAEAAA
+ABAAAAAAAAAAgAAAAACAAACAgAAAAACAAIAAgAAAgIAAwMDAAICAgAD/AAAAAP8AAP//AAAAAP8A
+/wD/AAD//wD///8A///////////5/5//uZH/n/n5+f8f/x+f+fn5/x/x/5/5+fn/Hx//n/+f+f8f
+8ZmZ////////////////////////////////8A/w8PAPcA/w8PDw8PD/8PDw8ADw8P8P8PDw8PDw
+8P/wD/8P8A//AP////////////////////8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/
+/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//
+------=_Part_7751_8008384.1000214647842--

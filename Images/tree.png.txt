@@ -1,0 +1,7 @@
+ Figure by Joshua O'Madadhain <jmadden@ics.uci.edu> 6 October 2005.
+
+"I've attached a similar diagram which uses color to indicate root and  
+leaves (so that people don't get confused and think that leaves can  
+only occur at maximum depth, which is a mistake I've seen before in  
+my students).  You're welcome to use it if you like (credit would be  
+appreciated)."
