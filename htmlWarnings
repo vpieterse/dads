@@ -1,0 +1,254 @@
+UNDERSCORE
+Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in baumWelch.html
+BACKSLASH, CARET, or DOLLAR SIGN
+                 /|\          <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+                / | \         <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+               /  |  \        <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             / \      |       <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+                     / \      <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             / \              <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \   \            <br /> in binaryTreeRepofTree.html
+BACKSLASH, CARET, or DOLLAR SIGN
+               \              <br /> in binaryTreeRepofTree.html
+UNDERSCORE
+ <strong>Prosenjit Bose, Hua Guo, Evangelos Kranakis, Anil Maheshwari, Pat Morin, Jason Morrison, Michiel Smid, and Yihui Tang</strong>, <em>On the False-Positive Rate of Bloom Filters</em>, Technical Report TR-07-07, Carleton University - School of Computer Science, 1 March 2007.  Available at http://www.scs.carleton.ca/research/tech_reports/index.php?Abstract=tr-07-07_0007 <br /> in bloomFilter.html
+UNDERSCORE
+<p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in bradfordsLaw.html
+BACKSLASH, CARET, or DOLLAR SIGN
+         printf("%d\n", head(l));<br /> in collectiveRecursion.html
+UNDERSCORE
+<pre>          ____________	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3_________	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3_________	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+ </pre> Coming up with the next "divisor" is more involved than for  <a href="squareRoot.html"><em>square roots</em></a>.  First bring down 3 times the square of the number on top (3 &times; 3&sup2;=27) leaving room for two more digits (27_ _).  in cubeRoot.html
+UNDERSCORE
+<pre>          __3_________	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+     27_ _) 28742	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___9_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+     27_ _) 28742	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___9_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+     27_ _) 28742	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+ </pre> We are ready to start over on the next digit.  Bring down the next three digits.  The divisor starts as 3 times the square of the number on top (3 &times; 38&sup2;=4332) leaving room for two more digits (4332_ _).  in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8_____	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+     4332_ _) 870968	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8___2_	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+     4332_ _) 870968	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8___2_	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<pre>          __3___8___2_	<br /> in cubeRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+        \/ 55,742,968.	<br /> in cubeRoot.html
+UNDERSCORE
+<p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in cyclicRedundancyCheck.html
+BACKSLASH, CARET, or DOLLAR SIGN
+<pre> 	(1,0)^N = (F(N),F(N-1)) </pre> which can be computed in log N steps by <a href="repeatedSquaring.html"><em>repeated squaring</em></a>. </p>  in fibonacciNumber.html
+BACKSLASH, CARET, or DOLLAR SIGN
+<pre> 		       b^pow   pow	<br /> in fibonacciNumber.html
+BACKSLASH, CARET, or DOLLAR SIGN
+<pre> 	(1,1)(1,1) = (3,2)			b^2 * b^2 = b^4	<br /> in fibonacciNumber.html
+BACKSLASH, CARET, or DOLLAR SIGN
+ 	(3,2)(3,2) = (9+6+6,9+4) = (21,13)	b^4 * b^4 = b^8	<br /> in fibonacciNumber.html
+BACKSLASH, CARET, or DOLLAR SIGN
+ 	(1,1)(5,3) = (5+3+5,5+3) = (13,8)	b^2 * b^5 = b^7	<br /> in fibonacciNumber.html
+UNDERSCORE
+<a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in frequencyCountHueristic.html
+UNDERSCORE
+<p> Thanks to Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002. </p>  in hiddenMarkovModel.html
+UNDERSCORE
+     inorder(tree.left_subtree);<br /> in inorderTraversal.html
+UNDERSCORE
+     inorder(tree.right_subtree);<br /> in inorderTraversal.html
+UNDERSCORE
+         levelorderAux(tree.left_subtree, level-1);<br /> in levelOrderTraversal.html
+UNDERSCORE
+         levelorderAux(tree.right_subtree, level-1);<br /> in levelOrderTraversal.html
+UNDERSCORE
+<a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in movefront.html
+BACKSLASH, CARET, or DOLLAR SIGN
+  / \								<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    /  \							<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+  / \							<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    /  \        /  \				<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+  / \						<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+   /  \           /  \			<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /  \				<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    / \					<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+   /  \           /  \         /  \	<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /  \				<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    / \					<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+       /    \              /  \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /      \           15    17	<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+   /  \      /  \			<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /  \				<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    / \					<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             /    \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+            /      \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+           /        \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+       /    \       /  \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /      \    15    17	<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+   /  \      /  \		<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+      /  \			<br /> in optimalMerge.html
+BACKSLASH, CARET, or DOLLAR SIGN
+    / \				<br /> in optimalMerge.html
+UNDERSCORE
+     postorder(tree.left_subtree);<br /> in postorderTraversal.html
+UNDERSCORE
+     postorder(tree.right_subtree);<br /> in postorderTraversal.html
+UNDERSCORE
+     preorder(tree.left_subtree);<br /> in preorderTraversal.html
+UNDERSCORE
+     preorder(tree.right_subtree);<br /> in preorderTraversal.html
+UNDERSCORE
+<li>Write a function to compute the integer square root of a non-negative integer using square_root(4x) = 2*square_root(x). (after "ML for the Working Programmer", pages 48 and 49). </ol></em> in recursion.html
+BACKSLASH, CARET, or DOLLAR SIGN
+         = x<sup>(1*2^3 + 1*2^2 + 0*2^1 + 1*2^0)</sup>		<br /> in repeatedSquaring.html
+BACKSLASH, CARET, or DOLLAR SIGN
+         = x<sup>1*2^3</sup>* x<sup>1*2^2</sup>* x<sup>0*2^1</sup>* x<sup>1*2^0</sup>		<br /> in repeatedSquaring.html
+BACKSLASH, CARET, or DOLLAR SIGN
+         = x<sup>2^3</sup>  * x<sup>2^2</sup>  *  1    * x<sup>2^0</sup> <br /> in repeatedSquaring.html
+BACKSLASH, CARET, or DOLLAR SIGN
+How do you <a href="http://ai.eecs.umich.edu/people/rounds/Winter02Slides/LectureApril4.pdf" target="_blank">compute 1415^13 mod 2537 with a calculator?</a> (PDF). To work out  <a href="http://www.tricki.org/article/To_work_out_powers_mod_n_use_repeated_squaring" target="_blank">powers mod n</a>, use repeated squaring. in repeatedSquaring.html
+UNDERSCORE
+<pre>               ___________	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+<pre>               __2________	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+ </pre> Now bring down the next two digits (65).  The next "divisor" is double the number on top (2x2=4) and some other digit in the units position (4_).  in squareRoot.html
+UNDERSCORE
+<pre>               __2________	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+             4_ ) 265		<br /> in squareRoot.html
+UNDERSCORE
+<pre>               __2__6_____	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+<pre>               __2__5_____	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+<pre>               __2__5_____	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+             50_ ) 4064		<br /> in squareRoot.html
+UNDERSCORE
+<pre>               __2__5__8__	<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+             \/  6,65,64.	<br /> in squareRoot.html
+UNDERSCORE
+<pre>       __1__6.8_4_0_4_2_7_5_...<br /> in squareRoot.html
+BACKSLASH, CARET, or DOLLAR SIGN
+     \/  2,83.6		<br /> in squareRoot.html
+UNDERSCORE
+<pre> int max_list(list l, int max_so_far)<br /> in tailRecursion.html
+UNDERSCORE
+         return max_so_far;<br /> in tailRecursion.html
+UNDERSCORE
+     if (max_so_far < head(l)) {<br /> in tailRecursion.html
+UNDERSCORE
+         return max_list(tail(l), head(l));<br /> in tailRecursion.html
+UNDERSCORE
+         return max_list(tail(l), max_so_far);<br /> in tailRecursion.html
+UNDERSCORE
+<p> The return value of the current invocation is just the return value of the recursive call.  A compiler could optimize it something like the following so it doesn't allocate new space for l and max_so_far on each invocation or tear down the stack on the returns.  in tailRecursion.html
+UNDERSCORE
+ int max_list(list l, int max_so_far)<br /> in tailRecursion.html
+UNDERSCORE
+         return max_so_far;<br /> in tailRecursion.html
+UNDERSCORE
+     if (max_so_far < head(l)) {<br /> in tailRecursion.html
+UNDERSCORE
+         max_so_far = head(l);<br /> in tailRecursion.html
+UNDERSCORE
+         max_so_far = max_so_far;<br /> in tailRecursion.html
+UNDERSCORE
+<p> Of course, if a compiler is good enough to find and rewrite tail recursion, it will also collapse the loop test, eliminate the assignment of max_so_far to itself, and hoist the assignment of l after the test giving the following:  in tailRecursion.html
+UNDERSCORE
+ int max_list(list l, int max_so_far)<br /> in tailRecursion.html
+UNDERSCORE
+     if (max_so_far < head(l)) {<br /> in tailRecursion.html
+UNDERSCORE
+         max_so_far = head(l);<br /> in tailRecursion.html
+UNDERSCORE
+   return max_so_far;<br /> in tailRecursion.html
+UNDERSCORE
+<a href="linearSearch.html" target="_blank"><em>linear search</em></a>, <a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in transposeSeqSearch.html
