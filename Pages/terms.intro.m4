@@ -4,7 +4,7 @@
 <!-- 		  EDIT terms.intro.m4 NOT terms.intro			-->
 
 dnl *created  "Fri Sep  4 16:39:08 1998" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 16:36:15 2013" *by "Paul E. Black"
+dnl *modified "Thu Oct 17 16:01:47 2013" *by "Paul E. Black"
 dnl
 dnl $Log: terms.intro.m4,v $
 dnl Revision 2.2  2013/09/20  14:16:11 vreda
@@ -84,7 +84,8 @@ include(`Pages/bitsImageLogos.m4')
 
 <p>
 This web site is hosted by
-include(`Pages/bitsHostedBy.m4'). Development of this dictionary started in 1998 
+include(`Pages/bitsHostedBy.m4')
+Development of this dictionary started in 1998 
 under the editorship of Paul E. Black. </p>
 
 <p>
