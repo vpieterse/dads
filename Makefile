@@ -1,6 +1,6 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Wed Oct 16 16:23:44 2013" *by "Paul E. Black"
+# *modified "Thu Oct 17 14:55:51 2013" *by "Paul E. Black"
 #
 # Revision 2.0
 # - Replaced cp --forced and --protected with -f and -p for UNIX compatibility 
@@ -241,7 +241,7 @@ tar:
 
 # tar enough files to compile and audit terms
 taraudit:
-	tar -cf audit.tar auterms mkauthors.pl mkcommon.pl \
+	tar -cf audit.tar auterms mkauthors mkcommon.pl \
 		${PAGES} Makefile *Test.trm *.data
 
 # find .trm files newer than the tar file, that is, needing to be tar'd
