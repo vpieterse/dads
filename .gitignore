@@ -1,0 +1,39 @@
+# DADS files to ignore during git status
+# *created  "Wed Oct 16 14:25:16 2013" *by "Paul E. Black"
+# *modified "Wed Oct 16 16:28:01 2013" *by "Paul E. Black"
+
+# emacs backup file
+*~
+\#*\#
+
+# particular files
+Pages/bitsImageLogos.m4
+Pages/bitsHostedBy.m4
+Pages/bitsHOSTis.m4
+htmlWarnings.new
+
+# these are created from .m4 files
+Pages/HTMLindex.html
+Pages/bibliography
+Pages/contrib.concl
+Pages/contrib.intro
+Pages/creditNotice.html
+Pages/entry.concl
+Pages/entry.intro
+Pages/terms.concl
+Pages/terms.intro
+Pages/terms2.concl
+Pages/terms2.intro
+Pages/terms2page.concl
+Pages/terms2page.intro
+Pages/termsArea.concl
+Pages/termsArea.intro
+Pages/termsImpl.concl
+Pages/termsImpl.intro
+Pages/termsType.concl
+Pages/termsType.intro
+Pages/twolevelExplain.html
+Pages/ui.concl
+Pages/ui.intro
+
+# end of file
