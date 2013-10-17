@@ -1,6 +1,3 @@
-dnl *modified "Wed Oct 16 14:59:30 2013" *by "Paul E. Black"
-<hr>
-This web site is hosted by
-include(`Pages/bitsHostedBy.m4')
+dnl *modified "Thu Oct 17 15:34:45 2013" *by "Paul E. Black"
 </body>
 </html>
