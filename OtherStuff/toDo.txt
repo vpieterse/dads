@@ -1,13 +1,19 @@
-# *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
-# *modified "Fri Oct 18 10:07:15 2013" *by "Vreda Pieterse"
+ *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
+ *modified "Fri Oct 18 11:05:22 2013" *by "Paul E. Black"
 
-# *modification  "Fri Oct 18 10:04:33 2013" *by "Vreda Pieterse"
+ *modified "Fri Oct 18 11:00:32 2013" *by "Paul E. Black"
+add a few more items and refine some items
+
+ *modified "Fri Oct 18 10:04:33 2013" *by "Vreda Pieterse"
 Initial list of todos
 
 -------------------------------------------------------------------
                           CONTENT AND STYLE
 -------------------------------------------------------------------
 * Add more terms
+* check that the Google search box works
+  - on the NIST site, and
+  - on the Fastar site
 * Style sheet refinements
   - tag for formulas
   - tag for code
@@ -19,28 +25,36 @@ Initial list of todos
 -------------------------------------------------------------------
                              TOOLS
 -------------------------------------------------------------------
-* make common makecommon
-* Refine .emacs
-  - macro to stage a file for commit that inserts a comment of the
-    specific change to the file in the file
-  - update HTML footers more specifically
-* Auto configure
+* make common mkcommon.pl
+* write a new script, gcommit, to
+    (1) put diffs in a file
+    (2) start an editor in which user can add comments
+    (3) (after editor exits) get comment
+    (4) add that comment to the file and approve change (like editterm)
+    (5) git commit using that comment
+* move chkhtml out of the Makefile to a stand-alone perl script and
+    run it on Other and Target dirs, in addition to Target/HTML dir.
+* update .emacs to search for "by <a href=" and change there,
+      instead of searching for "href="
+* Start using an issue tracker
+* cron script to gather and save visiting statistics
+* Auto configure script
   - create the appropriate bits* files
   - add a new make configure* to make
   - make changes to linkchecker 
-* Start using an issue tracker
-* cron script to gather and save visiting statistics
 
 -------------------------------------------------------------------
                           DOCUMENTATION
 -------------------------------------------------------------------
 * How to guides (including notes on basic use)
   - setup GIT to collaborate 
+      Step 1 $ git clone https://github.com/vpieterse/dads
+        this step creates a dads directory
   - the files needed and changes needed to create a new configuration
   - setup linkchecking and fixing broken links
-  - setup emacs 
+  - setup emacs, e.g., to update files upon save
 
-* Confrenece/Journal publications
+* Conferenece/Journal publications
   - rework of TN that did not succeed 
   - some ideas arising from analysis of visiting stats
   - some ideas arising from update stats
@@ -48,8 +62,8 @@ Initial list of todos
 -------------------------------------------------------------------
                              DESIGN
 -------------------------------------------------------------------
-Change HTML folder name to Terms
-?? Have a Tools folder on git
+* Change HTML folder name to Terms
+* Have a Tools (bin, in Unix terminology) folder on git
 
 -------------------------------------------------------------------
                             COMMUNITY
