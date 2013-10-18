@@ -1,0 +1,58 @@
+# *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
+# *modified "Fri Oct 18 10:07:15 2013" *by "Vreda Pieterse"
+
+# *modification  "Fri Oct 18 10:04:33 2013" *by "Vreda Pieterse"
+Initial list of todos
+
+-------------------------------------------------------------------
+                          CONTENT AND STYLE
+-------------------------------------------------------------------
+* Add more terms
+* Style sheet refinements
+  - tag for formulas
+  - tag for code
+  - streamline formatting parameters from hard-coded HTML-tags 
+     @ Remove any use of the <font> tag 
+     @ Remove remaining modifiers as far as possible. 
+     @ Redefine modifiers through using 'clever' style definitions. 
+
+-------------------------------------------------------------------
+                             TOOLS
+-------------------------------------------------------------------
+* make common makecommon
+* Refine .emacs
+  - macro to stage a file for commit that inserts a comment of the
+    specific change to the file in the file
+  - update HTML footers more specifically
+* Auto configure
+  - create the appropriate bits* files
+  - add a new make configure* to make
+  - make changes to linkchecker 
+* Start using an issue tracker
+* cron script to gather and save visiting statistics
+
+-------------------------------------------------------------------
+                          DOCUMENTATION
+-------------------------------------------------------------------
+* How to guides (including notes on basic use)
+  - setup GIT to collaborate 
+  - the files needed and changes needed to create a new configuration
+  - setup linkchecking and fixing broken links
+  - setup emacs 
+
+* Confrenece/Journal publications
+  - rework of TN that did not succeed 
+  - some ideas arising from analysis of visiting stats
+  - some ideas arising from update stats
+
+-------------------------------------------------------------------
+                             DESIGN
+-------------------------------------------------------------------
+Change HTML folder name to Terms
+?? Have a Tools folder on git
+
+-------------------------------------------------------------------
+                            COMMUNITY
+-------------------------------------------------------------------
+* Recruit collaborators
+* Set up a generic fastar e-mail for queries from the public
