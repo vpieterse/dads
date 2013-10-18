@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 11:39:04 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:07:23 2004" *by "Paul E. Black"
+# *modified "Fri Oct 18 10:32:09 2013" *by "Paul E. Black"
 
 # $Log: roughgraph.trm,v $
+# 2013/10/18 10:31:07  black
+# Fix typo?
+#
 # Revision 1.2  2004/12/17 17:07:23  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -28,7 +31,7 @@
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=see? "Rough Sets", CACM Nov 1995, p 89, "Myths about Rough
+@NOTES=See "Rough Sets", CACM Nov 1995, p 89, "Myths about Rough
 Set Theory", CACM Nov 1998, p 102, and "Evidence for RST claims", CACM
 Mar 1999, p 31.
 # author's initials
