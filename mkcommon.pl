@@ -1,6 +1,6 @@
-# $Id: mkcommon.pl,v 1.33 2012/01/06 21:34:24 black Exp $
+# $Id: mkcommon.pl,v 1.34 2013/08/23 13:18:35 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Jan  6 16:30:42 2012" *by "Paul E. Black"
+# *modified "Fri Oct 18 12:49:16 2013" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -17,6 +17,9 @@
 #
 #------------------------------------------------------------------------
 
+# site-specific variables and routines are here
+require 'mksite.pl';
+
 # CONFIGURATION SECTION:
 # set the following appropriately
 
@@ -27,10 +30,6 @@
 # - The file system path of the web pages.
 #$WEB_DIR	="TargetInternal";
 $WEB_DIR	="Target";
-# - The URL to the main directory, that is,
-#	$URL_DIR/$WEBPAGE.html is the URL for the main page and
-#	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-*URL_DIR	=\"http://www.nist.gov/dads";
 
 #------------------------------------------------------------------------
 #	Input files, directories, etc.
@@ -99,7 +98,7 @@ $WEB_DIR	="Target";
 	LINKS	=> 1
 );
 
-# copy the file to the file handle
+# copy the file to the file handle, replacing variables as appropriate
 # example: append the contents of $TEMP_FILE to $target
 #	open(TARGET, "> $target");
 #	&concatenate($TEMP_FILE, TARGET);
@@ -108,7 +107,10 @@ sub concatenate {
     my($filename, $handle) = @_;
     open(FHANDLE, "< $filename")
 	|| die("Cannot open $filename\n");
-    while (<FHANDLE>) {print $handle $_};
+    while (<FHANDLE>) {
+	s/\$ROOTDIR/$URL_DIR/g;
+	print $handle $_
+    };
     close(FHANDLE);
 }
 
@@ -181,41 +183,65 @@ sub rewriteLatex ($) {
     }
 }
 
-# Rewrite external HREFs to use the NIST "exit script" described at
-#	http://webservices.nist.gov/exit_nist.htm
+# Rewrite anchors (<a href= ...>) as needed
 sub rewriteHrefs {
-    foreach $xref (split /^.*?href="|".*?href="|".*?$|^.*$/i, $_[0]) {
-	next if ($xref eq ""); # above RE starts with a null split
-	# don't rewrite internal links or mailto:
-	next if $xref =~ /nist\.gov\// || $xref =~ /^[.][.]\// 
-	       || $xref =~ /^mailto:/;
-	# NOTE: since we the check below nows skip anything which is not a
-	#       scheme, we probably don't need to explicitly skip ../ or the 
-	#       null case.  I'll leave those checks because they can't hurt 
-	#       and if I'm wrong, they'll prevent failures.
-	# Only rewrite scheme hrefs, e.g., ftp://...
-	next if not ($xref =~ /^\w+:/);
-	#print "\nFound $xref\n"; # for debugging
+    # The most general regex for anchors is <a [^>]+> however we have
+    # <a href="http://www.jstor.org/sici? ... <282:GOPBAT>2.0.CO;2-E">
+    # which has close angle (>) within double quotes ("). The [^T] keeps
+    # the first regex from matching incorrectly, and the second regex
+    # matches that link (and most other links).
+    foreach $anchor ($_[0] =~ m/(<a [^>]+[^T]>|<a href="[^"]*">)/ig) {
+	# ... in case of other links with embedded angle brackets (>)
+	print STDERR "\nAnchor with unmatched \"\n    $anchor\n" if $anchor =~ /^[^"]+("[^"]+"[^"]*)*"[^"]*$/;
 
-	# quote special cgi characters
-	my($xrefCGIQ) = $xref;
-	$xrefCGIQ =~ s|%|%25|g;
-	$xrefCGIQ =~ s| |%20|g;
-	$xrefCGIQ =~ s|"|%22|g;
-	$xrefCGIQ =~ s|\#|%23|g;
-	$xrefCGIQ =~ s|&|%26|g;
-	$xrefCGIQ =~ s|\+|%2B|g;
-	#$xrefCGIQ =~ s|/|%2F|g; # not necessary
-	$xrefCGIQ =~ s|;|%3B|g; # exit_nist.cgi turns %3B into &
-	$xrefCGIQ =~ s|=|%3D|g;
-	$xrefCGIQ =~ s|~|%7E|g;
-	my($xrefExit) = "\"http://www.nist.gov/nist-exit-script.cfm?url=$xrefCGIQ\"";
+	# pull out the href string
+	$anchor =~ /href="([^"]+)"/;
+	$url = $1;
 
-	# quote special RE characters
-	my $xrefQ = quoteREpatterns("\"$xref\"");
+	# $anchor is the whole anchor, e.g., 
+	#	<a  href="http://www.merlyn.demon.co.uk/zeller-c.htm">
+	#	<a href="../terms.html#GG98">
+	#	<a href="mailto:Jnwarfield@aol.com">
+	#	<a href="ftp://ftp.cs.cmu.edu/user/sleator/splaying/">
+	# $url is the string in the href double quotes, e.g.,
+	#	http://www.merlyn.demon.co.uk/zeller-c.htm
+	#	../terms.html#GG98
+	#	mailto:Jnwarfield@aol.com
+	#	ftp://ftp.cs.cmu.edu/user/sleator/splaying/
 
-	#print "subs is /$xrefQ/$xrefExit/\n"; # for debugging
-	$_[0] =~ s/$xrefQ/$xrefExit/;
+	#print "Working on $anchor\n"; # for debugging
+
+	# skip all mailto: anchors
+	next if $url =~ /^mailto:/;
+
+	# skip partly done curly bracket (e.g. {list}) references. 
+	# These occur when there is an external reference, for instance
+	# {..Wikipedia:Self-organising_heuristic}, which leads rewriteXrefs
+	# to call this subroutine which processes the whole paragraph.
+	next if $url =~/^#/;
+
+	# if link is outside DADS, ...
+	if ($url !~ $URL_DIR && $url !~ /^[.][.]/) {
+	    #
+	    #           Add target="_blank" to open in new window
+	    #
+	    # form the anchor to be rewritten - quote special RE characters
+	    my $anchorQ = quoteREpatterns("$anchor");
+
+	    # form the anchor with target... in it
+	    my $anchorTarg = $anchor;
+	    $anchorTarg =~ s/>$/ target="_blank">/;
+
+	    #print "substitute is /$anchorQ/$anchorTarg/\n"; # for debugging
+	    $_[0] =~ s/$anchorQ/$anchorTarg/;
+
+	    # if link is outside local domain, ...
+	    if ($url !~ $LOCAL_DOMAIN) {
+		#print "\nFound $url\n"; # for debugging
+
+		rewriteOutsideURL($_[0], $url);
+	    }
+	}
     }
 }
 
@@ -719,4 +745,4 @@ sub readTermEntries {
     print "$numEntriesRead terms read.  $numEntriesInIndex in main indices.  $totalEntries terms total.\n";
 }
 
-# end of $Source: /home/black/DADS/dads/RCS/mkcommon.pl,v $
+# end of $Source: /home/black/DADS/RCS/mkcommon.pl,v $
