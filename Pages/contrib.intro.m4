@@ -1,5 +1,5 @@
 dnl *created  "Wed Jan  9 12:03:53 2002" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 13:03:00 2013" *by "Paul E. Black"
+dnl *modified "Mon Oct 21 10:54:15 2013" *by "Vreda Pieterse"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
@@ -32,7 +32,7 @@ include(`Pages/bitsImageLogos.m4')
 
 <p>
 This is a list of most of those defining the over 1100 terms in the
-<a href="$ROOTDIR">Dictionary of Algorithms and Data
+<a href="$ROOTDIR/">Dictionary of Algorithms and Data
 Structures</a>.  In addition, we received corrections and
 suggestions from many others not listed here.  The quality and breadth of the
 Dictionary wouldn't be possible without them.  We are grateful.
