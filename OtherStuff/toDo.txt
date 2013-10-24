@@ -1,5 +1,5 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Mon Oct 21 15:38:37 2013" *by "Paul E. Black"
+ *modified "Thu Oct 24 11:54:26 2013" *by "Paul E. Black"
 
  *modified "Fri Oct 18 11:00:32 2013" *by "Paul E. Black"
 add a few more items and refine some items
@@ -25,12 +25,6 @@ Initial list of todos
 -------------------------------------------------------------------
                              TOOLS
 -------------------------------------------------------------------
-* write a new script, gcommit, to
-    (1) put diffs in a file
-    (2) start an editor in which user can add comments
-    (3) (after editor exits) get comment
-    (4) add that comment to the file and approve change (like editterm)
-    (5) git commit using that comment
 * move chkhtml out of the Makefile to a stand-alone perl script and
     run it on Other and Target dirs, in addition to Target/HTML dir.
 * update .emacs to search for "by <a href=" and change at that point,
