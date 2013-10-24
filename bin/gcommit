@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Thu Oct 24 10:47:00 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Oct 24 11:57:37 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,9 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Thu Oct 24 12:04:04 2013  Paul E. Black
+# properly "escape" dollar sign ($) in message to user
+# 
 
 #------------------------------------------------------------------------------
 #	Command line handling
@@ -261,7 +264,7 @@ if (defined $commentLine) {
     # this is an assertion
     die "Answer was not Yes, stopped" if $ans !~ /^[y]/i;
 } else {
-    print "No \$Log$ line found\n";
+    print "No \$Log\$ line found\n";
 }
 
 
