@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Thu Oct 24 11:57:37 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Oct 24 12:41:40 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,9 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Thu Oct 24 12:45:09 2013  Paul E. Black
+# make the new file have the same permission (esp. execute) as the original
+# 
 # Thu Oct 24 12:04:04 2013  Paul E. Black
 # properly "escape" dollar sign ($) in message to user
 # 
@@ -201,8 +204,10 @@ if (defined $commentLine) {
 
     # write back a version with the message inserted after the $Log line
     if (! open EDITFILE, "> $filenameEDIT") {
-	die "Message not added: cannot open $filenameEDIT to write, stopped";
+	die "Message not added: cannot create $filenameEDIT, stopped";
     }
+    # copy the original file permissions to the edit file
+    system "chmod --reference=$filename $filenameEDIT";
     $commentAdded = 0;
     foreach $line (@file_contents) {
 	# always print this line
