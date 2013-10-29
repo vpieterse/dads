@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Thu Sep  5 09:49:51 2013" *by "Paul E. Black"
+# *modified "Tue Oct 29 09:12:31 2013" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Tue Oct 29 09:14:18 2013  Paul E. Black
+# Modify Terms/doubleMetaphone.trm
+# 
 # Revision 1.21  2013/09/05 13:51:09  black
 # update accessed date.
 #
@@ -65,7 +68,6 @@
 # with implementation (wbrogden.com).  Add another impl at Apache
 # codec.  Change C/C++ User Journal article from comment to BIB entry.
 #
-#
 
 # entry name
 @NAME=double metaphone
@@ -76,7 +78,10 @@
 # the definition
 @DEFN=An algorithm to code English words (and foreign words often
 heard in the United States) phonetically by reducing them
-to 12 consonant sounds.  This reduces matching problems from wrong
+to a combination of 12 consonant sounds.  
+It returns two codes if a word has two plausible pronunciations, such
+as a foreign word.
+This reduces matching problems from wrong
 spelling.
 
 #    These are all comma-separated lists of {cross references}
@@ -97,13 +102,11 @@ spelling.
 <strong>Lawrence Philips</strong>, <em>The Double Metaphone Search
 Algorithm</em>, C/C++ Users Journal, June 2000.
 <a
-href="http://www.drdobbs.com/cpp/184401251">on-line article</a>
-accessed September 2013.
+href="http://www.drdobbs.com/the-double-metaphone-search-algorithm/184401251">on-line article</a>
+accessed October 2013.
 
 # any notes.  these are not printed in the final dictionary
-@NOTES=This is an improved version of {metaphone}.  It returns two
-keys if a word has two feasible pronunciations, such as a foreign
-word.
+@NOTES=This is an improved version of {metaphone}.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
