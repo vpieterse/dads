@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Thu Oct 24 12:41:40 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Oct 30 11:11:34 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,12 +31,15 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Wed Oct 30 11:13:33 2013  Paul E. Black
+# If no $Log line is found, get user approval before continuing. That
+# way user can stop, add a $Log line, then gcommit again.
+# 
 # Thu Oct 24 12:45:09 2013  Paul E. Black
 # make the new file have the same permission (esp. execute) as the original
 # 
 # Thu Oct 24 12:04:04 2013  Paul E. Black
 # properly "escape" dollar sign ($) in message to user
-# 
 
 #------------------------------------------------------------------------------
 #	Command line handling
@@ -270,6 +273,28 @@ if (defined $commentLine) {
     die "Answer was not Yes, stopped" if $ans !~ /^[y]/i;
 } else {
     print "No \$Log\$ line found\n";
+
+    # get user approval to continue
+    while (1) {
+	print "Continue to commit? [ynh](n): ";
+	$ans = <STDIN>;
+	if ($ans =~ /^[yn]/i || $ans =~ /^$/) {
+	    last;
+	} else {
+	    # unrecognized response
+	    print "Yes: continue to commit; Help: show this message\n";
+	    print "No: exit\n";
+	}
+    }
+
+    if ($ans =~ /^[n]/i || $ans =~ /^$/) {
+	print "ok, exiting\n";
+	# if we looped through many files, "no" would execute next, not exit.
+	exit;
+    }
+
+    # this is an assertion
+    die "Answer was not Yes, stopped" if $ans !~ /^[y]/i;
 }
 
 
