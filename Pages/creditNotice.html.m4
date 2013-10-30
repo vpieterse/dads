@@ -1,7 +1,7 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 12:54:15 2013" *by "Paul E. Black"
+dnl *modified "Wed Oct 30 10:35:39 2013" *by "Paul E. Black"
 dnl
 dnl Revision 2.0  Fri Jul 13 11:11:32 SAST 2012  vreda
 dnl Remove NIST exit script bit and used bits for top image and people
@@ -67,11 +67,10 @@ appreciate a note expressing how valuable it is.
 Here is a print citation.
 <pre>
     Dictionary of Algorithms and Data Structures, Vreda Pieterse and Paul E. 
-    Black eds., FASTAR and U.S. National Institute of Standards and 
-    Technology, $ROOTDIR/, (ACCESS DATE).
+    Black eds., $ROOTDIR/, (ACCESS DATE).
 </pre>
 Put the latest date you accessed DADS in parentheses, for instance, 
-2 July 2012.
+30 October 2013.
 </p>
 
 
@@ -80,7 +79,9 @@ Here is an HTML citation.
 <pre>
 In &lt;a href="$ROOTDIR/"&gt;Dictionary of 
 Algorithms and Data Structures&lt;/a&gt; hosted by
-&lt;a href="http://www.fastar.org/"&gt;FASTAR&lt;/a&gt;.
+&lt;a href="http://www.fastar.org/"&gt;FASTAR&lt;/a&gt; and
+&lt;a href="http://www.nist.gov/"&gt;National Institute of
+Standards and Technology&lt;/a&gt;.
 </pre>
 </p>
 
@@ -96,10 +97,10 @@ Here is a bibtex citation for
   howpublished = {in \emph{Dictionary of Algorithms and Data Structures} [online], Vreda Pieterse and Paul E. Black eds.},
   month = {17 December}, % ENTRY MODIFIED DATE
   year = {2004},
-  note =  {Available from: $ROOTDIR/HTML/rootedtree.html (accessed 19 April 2006)}, % LAST ACCESS DATE 
+  note =  {Available from: $ROOTDIR/HTML/rootedtree.html (accessed 4 July 2013)}, % LAST ACCESS DATE 
 </pre>
 The result should be something like this:<br><br>
-Sant, Paul M. rooted tree. In <em>Dictionary of Algorithms and Data Structures</em> [online], Paul E. Black and Vreda Pieterse eds. 17 December 2004. Available from: $ROOTDIR/HTML/rootedtree.html. (accessed 19 April 2006)
+Sant, Paul M. rooted tree. In <em>Dictionary of Algorithms and Data Structures</em> [online], Paul E. Black and Vreda Pieterse eds., 17 December 2004. Available from: $ROOTDIR/HTML/rootedtree.html. (accessed 4 July 2013)
 </p>
 
 <H3>Citation References</H3>
@@ -123,7 +124,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Wed Oct 16 12:54:15 2013
+Wed Oct 30 10:35:39 2013
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
