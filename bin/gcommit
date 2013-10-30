@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Wed Oct 30 11:11:34 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Oct 30 14:10:48 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,9 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Wed Oct 30 14:12:18 2013  Paul E. Black
+# Use .bak for the suffix of the backup file like other DADS scripts.
+# 
 # Wed Oct 30 11:13:33 2013  Paul E. Black
 # If no $Log line is found, get user approval before continuing. That
 # way user can stop, add a $Log line, then gcommit again.
@@ -237,7 +240,7 @@ if (defined $commentLine) {
     close EDITFILE || print "Cannot close EDITFILE after writing!?!\n";
 
     # replace original file with edited file
-    $filenameBACKUP = "$filename.BACKUP";
+    $filenameBACKUP = "$filename.bak";
     rename $filename, $filenameBACKUP || die "Cannot create backup file $filenameBACKUP, stopped";
     rename $filenameEDIT, $filename || die "Cannot move edited file ($filenameEDIT) to original, stopped";
 
