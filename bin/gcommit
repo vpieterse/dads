@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Wed Oct 30 14:10:48 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Nov  6 12:06:15 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,10 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Wed Nov  6 12:41:47 2013  Paul E. Black
+# exit instead of die when there are the wrong number of operands.  Die
+# should be used only for serious (system) error, not user (understood) errors.
+# 
 # Wed Oct 30 14:12:18 2013  Paul E. Black
 # Use .bak for the suffix of the backup file like other DADS scripts.
 # 
@@ -86,7 +90,7 @@ $numberOfOperands = 1 + $#ARGV;
 if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
     print "Wrong number of operands\n";
     print "$useMsg\n";
-    die;
+    exit 1;
 }
 $filename = $ARGV[0];
 
