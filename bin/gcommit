@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Wed Nov  6 12:06:15 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Nov  7 09:22:58 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,9 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Thu Nov  7 09:37:08 2013  Paul E. Black
+# Add several checks: the file exists, is a file, and is readble.
+# 
 # Wed Nov  6 12:41:47 2013  Paul E. Black
 # exit instead of die when there are the wrong number of operands.  Die
 # should be used only for serious (system) error, not user (understood) errors.
@@ -94,7 +97,19 @@ if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
 }
 $filename = $ARGV[0];
 
-# SKIMP check that file exists and other validation (is writable, etc.)
+# check that the "file" is ok
+if (! -e $filename) {
+    print "Not found: $filename\n";
+    exit 1;
+}
+if (! -f $filename || -l $filename) {
+    print "Not a file: $filename\n";
+    exit 1;
+}
+if (! -r $filename) {
+    print "File not readable: $filename\n";
+    exit 1;
+}
 
 ###############################################################################
 #	program proper
