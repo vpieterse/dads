@@ -1,6 +1,10 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 16:39:20 2013" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:26:42 2013" *by "Paul E. Black"
 dnl
+dnl $Log$
+dnl Fri Nov  8 13:56:49 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Add $Log$ and end of file lines.
+dnl 
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD W3 HTML 2.0//EN">
 <html lang="en-US">
 <head>
@@ -11,6 +15,7 @@ dnl
 <!-- turn off Microsoft's added smart tags -->
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 
@@ -67,3 +72,4 @@ Java is a trademark of Sun Microsystems, Inc.
 
 <!-- this is joined with indexes and a conclusion to make a complete page -->
 <!-- end of termsImpl.intro -->
+dnl end of $Source$
