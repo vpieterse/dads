@@ -1,15 +1,25 @@
 # DADS files to ignore during git status
 # *created  "Wed Oct 16 14:25:16 2013" *by "Paul E. Black"
-# *modified "Fri Oct 18 13:10:17 2013" *by "Paul E. Black"
+# *modified "Fri Nov  8 16:42:29 2013" *by "Paul E. Black"
 
-# emacs backup file
+# $Log$
+# Fri Nov  8 16:44:44 2013  Paul E. Black
+# Ignore new generic file, bitsReqHeadStuff, and gcommit backups, *.bak.
+# Add $Log$ line.
+# 
+
+# emacs backup files
 *~
 \#*\#
+
+# gcommit backup files
+*.bak
 
 # generic files copied from site-specific files
 Pages/bitsImageLogos.m4
 Pages/bitsHostedBy.m4
 Pages/bitsHOSTis.m4
+Pages/bitsReqHeadStuff.m4
 mksite.pl
 
 # particular files
