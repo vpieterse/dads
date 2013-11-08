@@ -1,8 +1,11 @@
 dnl $Id: HTMLindex.html.m4,v 1.9 2011/12/06 20:58:02 black Exp $
 dnl *created  "Thu Oct  3 09:04:38 2002" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 12:54:38 2013" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:28:09 2013" *by "Paul E. Black"
 dnl
 dnl $Log: HTMLindex.html.m4,v $
+dnl Fri Nov  8 13:48:51 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Add end of file line.
+dnl 
 dnl Revision 2.0  Fri Jul 13 12:42:44 SAST 2012  vreda
 dnl Remove NIST exit script bit, and introduced other bits
 dnl
@@ -14,7 +17,6 @@ dnl Replace hardcoded DADS URL root with included file.  Make created and
 dnl modified into m4 "comments", instead of HTML comments, so they don't
 dnl appear in the final HTML page.
 dnl
-dnl
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en-US">
 <head>
@@ -23,6 +25,7 @@ dnl
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <meta http-equiv="refresh" content="15; URL=$ROOTDIR/">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 include(`Pages/bitsImageLogos.m4')
@@ -56,7 +59,7 @@ Thu Oct  3 09:06:12 2002
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Wed Oct 16 12:54:38 2013
+Fri Nov  8 13:28:09 2013
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
@@ -69,3 +72,4 @@ include(`Pages/bitsHOSTis.m4')
 
 </body>
 </html>
+dnl end of $Source$
