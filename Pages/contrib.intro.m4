@@ -1,9 +1,13 @@
 dnl *created  "Wed Jan  9 12:03:53 2002" *by "Paul E. Black"
-dnl *modified "Mon Oct 21 10:54:15 2013" *by "Vreda Pieterse"
+dnl *modified "Fri Nov  8 13:27:58 2013" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
+dnl $Log$
+dnl Fri Nov  8 13:49:35 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Add $Log$ and end of file lines.
+dnl 
 dnl Revision 2.0  Fri Jul 13 09:26:43 SAST 2012  vreda
 dnl Use another file for image at the top of the page
 dnl
@@ -23,6 +27,7 @@ dnl
 <!-- turn off Microsoft's added smart tags -->
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 include(`Pages/bitsImageLogos.m4')
@@ -40,4 +45,4 @@ Dictionary wouldn't be possible without them.  We are grateful.
 
 <!-- this is joined with authors from authors.data and a conclusion to make a
 	complete page -->
-
+dnl end of $Source$
