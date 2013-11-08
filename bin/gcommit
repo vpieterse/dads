@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Thu Nov  7 09:22:58 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Thu Nov  7 13:34:10 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,10 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Fri Nov  8 16:48:18 2013  Paul E. Black
+# Dont "echo" (print) the git commit command. Things seem to be running
+# fine, and it is a lot of text to read.
+# 
 # Thu Nov  7 09:37:08 2013  Paul E. Black
 # Add several checks: the file exists, is a file, and is readble.
 # 
@@ -333,7 +337,7 @@ if ($gitaddFile) {
 }
 
 chomp $message; # remove trailing newline
-print "commiting: git commit -m '$message' $filename\n";
+#print "commiting: git commit -m '$message' $filename\n";
 system "git commit -m '$message' $filename\n";
 # SKIMP check for git failure
 
