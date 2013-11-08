@@ -1,12 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html lang="en-US">
-
-<!-- 		  EDIT terms.intro.m4 NOT terms.intro			-->
-
 dnl *created  "Fri Sep  4 16:39:08 1998" *by "Paul E. Black"
-dnl *modified "Thu Oct 17 16:01:47 2013" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:27:39 2013" *by "Paul E. Black"
 dnl
 dnl $Log: terms.intro.m4,v $
+dnl Fri Nov  8 13:52:54 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Move all HTML stuff
+dnl *after* the m4-commented-out header stuff.  Add end of file line.
+dnl 
 dnl Revision 2.2  2013/09/20  14:16:11 vreda
 dnl Used double quotes for the 'target = "_blank"' anchor
 dnl
@@ -62,6 +61,10 @@ dnl Update FOLDOC URL
 dnl
 dnl Revision 1.28  2006/03/20 18:10:50  black
 dnl Add m4 macro header so RCS inserts log comments
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-US">
+
+<!-- 		  EDIT terms.intro.m4 NOT terms.intro			-->
 
 <head>
 <title>Dictionary of Algorithms and Data Structures</title>
@@ -76,6 +79,7 @@ salesman, sorting, searching, tree, hash, graph">
 <link rel="SHORTCUT ICON"
 	href="$ROOTDIR/favicon.ico">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 
@@ -129,6 +133,7 @@ Glossary of Computer Oriented Abbreviations and Acronyms</a>.
 include(`Pages/bitsSearch.m4')
 
 <hr>
-
 dnl This is run through m4 then joined with the entries and a conclusion to 
 dnl make a complete page
+dnl
+dnl end of $Source$
