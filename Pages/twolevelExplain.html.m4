@@ -1,8 +1,11 @@
 dnl $Id: twolevelExplain.html.m4,v 1.21 2011/12/06 20:59:23 black Exp $
 dnl *created  "Thu Oct 26 11:47:46 2000" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 16:41:30 2013" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:26:29 2013" *by "Paul E. Black"
 dnl
 dnl $Log: twolevelExplain.html.m4,v $
+dnl Fri Nov  8 13:47:57 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Add end of file line.
+dnl 
 dnl Revision 2.0  Fri Jul 13 11:11:32 SAST 2012  vreda
 dnl Remove NIST exit script bit, and used other bits for people
 dnl >>>>> The number of terms in DADS might also be replaced by a bit.
@@ -14,7 +17,6 @@ dnl Revision 1.20  2010/05/03 16:31:36  black
 dnl move privacy policy link to bitsNISTis.m4.  Add RCS Id, Log, and
 dnl Source keywords.  Make created and modified lines m4 comments, instead
 dnl of HTML comments, so that they no longer appear in the HTML at all.
-dnl
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en-US">
 <head>
@@ -22,6 +24,7 @@ dnl
 <!-- turn off Microsoft's added smart tags -->
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 
@@ -98,7 +101,7 @@ Thu Oct 26 12:03:12 2000
 include(`Pages/bitsPaul.m4')
 dnl following lines are updated by emacs macros
 <em>Updated
-Wed Oct 16 16:41:30 2013
+Fri Nov  8 13:26:29 2013
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
@@ -110,3 +113,4 @@ This page's URL is
 
 </body>
 </html>
+dnl end of $Source$
