@@ -1,9 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
-dnl
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Wed Oct 30 10:41:55 2013" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:27:53 2013" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Fri Nov  8 13:48:25 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Add end of file line.
+dnl 
 dnl Wed Oct 30 10:42:24 2013  Paul E. Black
 dnl Add the $Log line back
 dnl 
@@ -40,6 +42,7 @@ dnl
 <!-- turn off Microsoft's added smart tags -->
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 include(`Pages/bitsImageLogos.m4')
@@ -132,7 +135,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Wed Oct 30 10:41:55 2013
+Fri Nov  8 13:27:53 2013
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
@@ -150,3 +153,4 @@ include(`Pages/bitsHOSTis.m4')
 
 </body>
 </html>
+dnl end of $Source$
