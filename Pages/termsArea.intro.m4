@@ -1,8 +1,15 @@
+dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
+dnl *modified "Fri Nov  8 13:26:46 2013" *by "Paul E. Black"
+dnl
+dnl $Log$
+dnl Fri Nov  8 13:56:20 2013  Paul E. Black
+dnl Include bits of required HTML <head> stuff.  Move *created and
+dnl *modified lines from HTML to m4 comment (dnl) area.  Add $Log$ and end
+dnl of file line.
+dnl 
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD W3 HTML 2.0//EN">
 <html lang="en-US">
 <head>
-<!-- *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black" -->
-<!-- *modified "Wed Oct 16 12:51:18 2013" *by "Paul E. Black" -->
 <title>Terms and Definitions Index by Area</title>
 <meta name="description"
   content="Index by area to definitions of algorithms, data
@@ -10,6 +17,7 @@ structures, and CS problems">
 <!-- turn off Microsoft's added smart tags -->
 <meta name="MSSmartTagsPreventParsing" content="TRUE">
 <link rel="stylesheet" type="text/css" href="$ROOTDIR/dads.css">
+include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 
@@ -35,3 +43,4 @@ You are welcome to make suggestions to expand and improve the DADS.
 
 <!-- this is joined with indexes and a conclusion to make a complete page -->
 <!-- end of termsType.intro -->
+dnl end of $Source$
