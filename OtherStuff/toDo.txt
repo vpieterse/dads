@@ -1,5 +1,9 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Thu Oct 24 11:54:26 2013" *by "Paul E. Black"
+ *modified "Fri Nov  8 15:17:51 2013" *by "Paul E. Black"
+
+$Log$
+Fri Nov  8 15:19:02 2013  Paul E. Black
+Adding a Tools (bin) directory is done; remove it.  Add a $Log$ line.
 
  *modified "Fri Oct 18 11:00:32 2013" *by "Paul E. Black"
 add a few more items and refine some items
@@ -63,7 +67,6 @@ Initial list of todos
                              DESIGN
 -------------------------------------------------------------------
 * Change HTML folder name to Terms
-* Have a Tools (bin, in Unix terminology) folder on git
 
 -------------------------------------------------------------------
                             COMMUNITY
