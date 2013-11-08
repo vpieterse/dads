@@ -1,11 +1,17 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Fri Oct 18 13:02:32 2013" *by "Paul E. Black"
+# *modified "Fri Nov  8 16:36:11 2013" *by "Paul E. Black"
 #
+# $Log$
+# Fri Nov  8 16:40:36 2013  Paul E. Black
+# change for new (NIST mandated) required HTML <head> stuff: bitsReqHeadStuff.m4
+# add or improve explanation in some places.  Add $Log$ line.
+# Since there is no longer an RCS subdirectory under Terms, we can tar
+# Terms, instead of specifying Terms/*.trm
+# 
 # Revision 2.0
 # - Replaced cp --forced and --protected with -f and -p for UNIX compatibility 
 # - Updated dependencies of the files in PAGES
-#
 
 TARFILE=dads.tar
 PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl mksiteNIST.pl mksiteFaster.pl
@@ -42,16 +48,19 @@ site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
 terms: 
 	./mkterms
 
-# because bitsFixDefn.m4 includes bitsEmail.m4, 
+# because bitsFixDefn.m4 includes bitsEmail.m4 and bitsFixDefn.m4 is
+# included by other files. So a change to bitsEmail isn't noticed by make.
 ${PAGES}/bitsFixDefn.m4: ${PAGES}/bitsEmail.m4
 	touch --reference=$^ $@
 
-# because bitsDemarcate.m4 includes bitsFixDefn.m4
+# because bitsDemarcate.m4 includes bitsFixDefn.m4 and bitsDemarcate.m4 is
+# included by other files. So a change to bitsFixDefn isn't noticed by make.
 ${PAGES}/bitsDemarcate.m4: ${PAGES}/bitsFixDefn.m4
 	touch --reference=$^ $@
 
 # create or copy other files
 ${PAGES}/entry.intro: ${PAGES}/entry.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsImageLogos.m4
 	m4 $@.m4 > $@
 
@@ -61,6 +70,7 @@ ${PAGES}/entry.concl: ${PAGES}/entry.concl.m4 \
 
 ${PAGES}/terms.intro: ${PAGES}/terms.intro.m4 \
 		${PAGES}/bitsDemarcate.m4 ${PAGES}/bitsHostedBy.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsSearch.m4  \
 		${PAGES}/bitsImageLogos.m4
 	m4 $@.m4 > $@
@@ -71,13 +81,15 @@ ${PAGES}/terms.concl: ${PAGES}/terms.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/terms2.intro: ${PAGES}/terms2.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsImageLogos.m4
 	m4 $@.m4 > $@
 
 ${PAGES}/terms2.concl: ${PAGES}/terms2.concl.m4
 	m4 $@.m4 > $@
 
-${PAGES}/terms2page.intro: ${PAGES}/terms2page.intro.m4
+${PAGES}/terms2page.intro: ${PAGES}/terms2page.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4
 	m4 $@.m4 > $@
 
 ${PAGES}/terms2page.concl: ${PAGES}/terms2page.concl.m4 \
@@ -85,6 +97,7 @@ ${PAGES}/terms2page.concl: ${PAGES}/terms2page.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/termsArea.intro: ${PAGES}/termsArea.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsFixDefn.m4
 	m4 $@.m4 > $@
 
@@ -93,6 +106,7 @@ ${PAGES}/termsArea.concl: ${PAGES}/termsArea.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/termsImpl.intro: ${PAGES}/termsImpl.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsFixDefn.m4
 	m4 $@.m4 > $@
 
@@ -102,6 +116,7 @@ ${PAGES}/termsImpl.concl: ${PAGES}/termsImpl.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/termsType.intro: ${PAGES}/termsType.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsFixDefn.m4
 	m4 $@.m4 > $@
 
@@ -111,6 +126,7 @@ ${PAGES}/termsType.concl: ${PAGES}/termsType.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/ui.intro: ${PAGES}/ui.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsImageLogos.m4 ${PAGES}/bitsFixDefn.m4
 	m4 $@.m4 > $@
 
@@ -120,12 +136,14 @@ ${PAGES}/ui.concl: ${PAGES}/ui.concl.m4 \
 	m4 $@.m4 > $@
 
 ${PAGES}/creditNotice.html: ${PAGES}/creditNotice.html.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsPaul.m4 \
 		${PAGES}/bitsImageLogos.m4 \
 		${PAGES}/bitsHOSTis.m4 
 	m4 $@.m4 > $@
 
 ${PAGES}/HTMLindex.html: ${PAGES}/HTMLindex.html.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsPaul.m4 \
 		${PAGES}/bitsImageLogos.m4 \
 		${PAGES}/bitsHOSTis.m4 
@@ -133,12 +151,14 @@ ${PAGES}/HTMLindex.html: ${PAGES}/HTMLindex.html.m4 \
 
 ${PAGES}/twolevelExplain.html: ${PAGES}/twolevelExplain.html.m4 \
 		${PAGES}/bitsDemarcate.m4 ${PAGES}/bitsHostedBy.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsSearch.m4  \
 		${PAGES}/bitsPaul.m4 \
 		${PAGES}/bitsImageLogos.m4 		
 	m4 $@.m4 > $@
 
 ${PAGES}/contrib.intro: ${PAGES}/contrib.intro.m4 \
+		${PAGES}/bitsReqHeadStuff.m4 \
 		${PAGES}/bitsImageLogos.m4
 	m4 $@.m4 > $@
 
@@ -189,21 +209,30 @@ images:
 #=========================================================================
 
 ${PAGES}/bitsImageLogos.m4: ${PAGES}/bitsImageLogosFastar.m4 ${PAGES}/bitsImageLogosNIST.m4
-	$(error YOU SHOULD RUN make configFastar OR make configNIST)
+	$(error RUN make configFastar OR make configNIST - bitsImageLogos)
 
 ${PAGES}/bitsHostedBy.m4: ${PAGES}/bitsHostedByFastar.m4 ${PAGES}/bitsHostedByNIST.m4
-	$(error YOU SHOULD RUN make configFastar OR make configNIST)
+	$(error RUN make configFastar OR make configNIST - bitsHostedBy)
 
 ${PAGES}/bitsHOSTis.m4: ${PAGES}/bitsHOSTisFastar.m4 ${PAGES}/bitsHOSTisNIST.m4
-	$(error YOU SHOULD RUN make configFastar OR make configNIST)
+	$(error RUN make configFastar OR make configNIST - bitsHOSTis)
+
+${PAGES}/bitsReqHeadStuff.m4: ${PAGES}/bitsReqHeadStuffFastar.m4 ${PAGES}/bitsReqHeadStuffNIST.m4
+	$(error RUN make configFastar OR make configNIST - bitsReqHeadStuff)
 
 mksite.pl: mksiteFastar.pl mksiteNIST.pl
-	$(error YOU SHOULD RUN make configFastar OR make configNIST)
+	$(error RUN make configFastar OR make configNIST - mksite)
 
+# Note: copy all files, which gives them a recent time stamp.  Don't use
+# cp -p: if you're changing from one site to another, you may install a
+# *newer* version, which breaks the above checks.  Also don't make these
+# copies time-dependent, since you may want to isntall another site's
+# version, which may a *newer* version.
 configFastar:
 	cp ${PAGES}/bitsImageLogosFastar.m4 ${PAGES}/bitsImageLogos.m4
 	cp ${PAGES}/bitsHostedByFastar.m4 ${PAGES}/bitsHostedBy.m4
 	cp ${PAGES}/bitsHOSTisFastar.m4 ${PAGES}/bitsHOSTis.m4
+	cp ${PAGES}/bitsReqHeadStuffFastar.m4 ${PAGES}/bitsReqHeadStuff.m4
 	cp mksiteFastar.pl mksite.pl
 	@echo done
 
@@ -211,6 +240,7 @@ configNIST:
 	cp ${PAGES}/bitsImageLogosNIST.m4 ${PAGES}/bitsImageLogos.m4
 	cp ${PAGES}/bitsHostedByNIST.m4 ${PAGES}/bitsHostedBy.m4
 	cp ${PAGES}/bitsHOSTisNIST.m4 ${PAGES}/bitsHOSTis.m4
+	cp ${PAGES}/bitsReqHeadStuffNIST.m4 ${PAGES}/bitsReqHeadStuff.m4
 	cp mksiteNIST.pl mksite.pl
 	@echo done
 
@@ -240,7 +270,7 @@ spell:
 	-diff dads.spell.new dads.spell | grep '^<'
 
 tar:
-	tar -cf ${TARFILE} ${PROGRAMS} ${FILES} ${DIRS} Terms/*.trm
+	tar -cf ${TARFILE} ${PROGRAMS} ${FILES} ${DIRS} Terms
 
 # tar enough files to compile and audit terms
 taraudit:
