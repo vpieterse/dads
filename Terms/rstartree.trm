@@ -1,7 +1,10 @@
 # *created  "Fri Nov 20 16:32:24 1998" *by "Paul E. Black"
-# *modified "Tue Feb 23 13:28:29 2010" *by "Paul E. Black"
+# *modified "Mon Nov 25 15:29:38 2013" *by "Paul E. Black"
 
 # $Log: rstartree.trm,v $
+# Mon Nov 25 15:34:36 2013  Paul E. Black
+# Update URL of Hadjieleftherious IMPL
+# 
 # Revision 1.5  2010/02/23 18:35:48  black
 # update URL for Hadjieleftheriou's Spatial Index library IMPL
 #
@@ -13,7 +16,6 @@
 #
 # Revision 1.2  2004/12/17 16:54:22  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
-#
 
 # entry name
 @NAME=R<sup>*</sup>-tree
@@ -46,7 +48,7 @@ upon overflow, rather than splitting.
 # implementation(s) (pure HTML)
 @IMPL=
 In Marios Hadjieleftheriou's <a
-href="http://www2.research.att.com/~marioh/spatialindex/">Spatial Index
+href="http://libspatialindex.github.io/">Spatial Index
 Library (C++)</a>
 # author's initials
 @AUTHOR=PEB
