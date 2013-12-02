@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Thu Nov  7 13:34:10 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Mon Dec  2 10:38:05 2013" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,13 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Mon Dec  2 10:43:08 2013  Paul E. Black
+# Add a reminder to put commit messages after the "Modify" line.  Exit
+# if the first line is not the "Modify" line after user edits.
+# Improve various comments.
+# Remove first line for Log message ONLY if it starts with "Modify".
+# This should be redundant given the above added check, but it shouldnt hurt.
+# 
 # Fri Nov  8 16:48:18 2013  Paul E. Black
 # Dont "echo" (print) the git commit command. Things seem to be running
 # fine, and it is a lot of text to read.
@@ -135,13 +142,7 @@ if (! defined $fullname || $fullname eq "") {
 #
 #------------------------------------------------------------------------------
 
-use File::Temp qw/ tempfile /;
-# safely get a temporary file handle and name
-my ($DIFF_FH, $diffFile) = tempfile("diffFileXXXXXX", DIR => "/tmp");
-
-#print "diff file is $diffFile\n";
-
-# true to git add later
+# true means do "git add" later
 $gitaddFile = 0;
 
 # find differences between current contents and latest index(?)
@@ -154,10 +155,10 @@ if ($differences eq "") {
     $gitaddFile = 1;
 
     # create a stub
-    $differences = "+++ b/$filename\nfile not in git or not changed? Add commit message above\n";
+    $differences = "+++ b/$filename\nfile not in git or not changed?\n";
 }
 
-# remove lines we don't want. Here's a short, example file:
+# remove lines we don't want.  Here's short example content:
 #   diff --git a/fileone b/fileone
 #   index 2d5ae8a..ce162fd 100644
 #   --- a/fileone
@@ -168,13 +169,21 @@ $differences =~ s/^diff [^\n]*\n//; # remove 1st line
 $differences =~ s/^index [^\n]*\n//; # remove 2nd line
 $differences =~ s|^--- a/[^\n]*\n||; # remove 3rd line
 $differences =~ s|^\+\+\+ b/|Modify |; # change 4th line to a label
-    # REMEMBER: code that adds the comment to the file ASSUMES a label line
+   # REMEMBER: code that adds the comment to the file ASSUMES a label line first
 $differences =~ s/(\n@@ [^@]+ @@) [^\n]*/$1/g; # remove change contexts
-# Add DIFF: before each line to later remove lines (add 8 chars for tabs)
+# Add DIFF: before each line to later remove them.  This adds exactly
+# 8 more characters, including the + or - from diff, so tabs come out right
 $differences =~ s/\n/\nDIFF:  /g;
 $differences =~ s/DIFF:  $//; #remove DIFF after last newline
+$differences =~ s/^(Modify .*\n)/$1DIFF: ADD COMMIT MESSAGE LINES BELOW\n/; # remind user to add AFTER Modify line
 
 #print $differences;
+
+use File::Temp qw/ tempfile /;
+# safely get a temporary file handle and name
+my ($DIFF_FH, $diffFile) = tempfile("diffFileXXXXXX", DIR => "/tmp");
+
+#print "diff file is $diffFile\n";
 
 # put differences in a file
 print $DIFF_FH "$differences";
@@ -184,11 +193,20 @@ close $DIFF_FH;
 # start an editor so the user can add a commit message
 system "emacs $diffFile";
 
-# get just added text (and file name) as commit message
+# get the text that was just added (and file name) as commit message
 my $message = `grep -v "^DIFF: " $diffFile`;
-$message =~ s/\'//g; # remove single quotes so git command isn't ruined
+$message =~ s/\'//g; # remove any single quotes so git command isn't ruined
 
 unlink $diffFile;
+
+# check that Modify line is (still) the first line
+if (! ($message =~ /^Modify /)) {
+    print "The Modify line must be first.  Please add the commit message after that line.\n";
+    print "The commit message would be:\n";
+    print $message;
+    exit;
+}
+
 
 
 #------------------------------------------------------------------------------
@@ -254,7 +272,7 @@ if (defined $commentLine) {
 	    my $filemessage = $message;
 	    $filemessage =~ s/\n/\n$commentString/g;
 	    # remove the first (Modify filename) line
-	    $filemessage =~ s/^[^\n]*\n//;
+	    $filemessage =~ s/^Modify .*\n//;
 	    print EDITFILE "$filemessage\n";
 
 	    $commentAdded = 1;
