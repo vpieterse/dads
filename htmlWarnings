@@ -251,4 +251,4 @@ UNDERSCORE
 UNDERSCORE
    return max_so_far;<br /> in tailRecursion.html
 UNDERSCORE
-<a href="linearSearch.html" target="_blank"><em>linear search</em></a>, <a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in transposeSeqSearch.html
+<a href="linearSearch.html"><em>linear search</em></a>, <a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in transposeSeqSearch.html
