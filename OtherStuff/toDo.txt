@@ -1,14 +1,19 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Fri Nov  8 15:17:51 2013" *by "Paul E. Black"
+ *modified "Fri Dec 20 10:32:45 2013" *by "Paul E. Black"
 
 $Log$
+Fri Dec 20 10:36:30 2013  Paul E. Black
+Note that Google search does not work on the NIST site and how it
+might be fixed.  Add a bug about no way to NOT have a space after a
+LaTeX-like command.  Reformat previous Log lines.
+
 Fri Nov  8 15:19:02 2013  Paul E. Black
 Adding a Tools (bin) directory is done; remove it.  Add a $Log$ line.
 
- *modified "Fri Oct 18 11:00:32 2013" *by "Paul E. Black"
+Fri Oct 18 11:00:32 2013  Paul E. Black
 add a few more items and refine some items
 
- *modified "Fri Oct 18 10:04:33 2013" *by "Vreda Pieterse"
+Fri Oct 18 10:04:33 2013  Vreda Pieterse
 Initial list of todos
 
 -------------------------------------------------------------------
@@ -18,6 +23,15 @@ Initial list of todos
 * check that the Google search box works
   - on the NIST site, and
   - on the Fastar site
+      Google search does NOT work on the NIST site.  The search
+      specifies the site as ROOTDIR, which is www.nist.gov, but Google
+      treats that as (almost) empty, so searches are not productive.
+      The following works:
+      <input type=radio name=sitesearch value="http://xlinux.nist.gov/dads" checked> DADS <br />
+      To use that, we'd have to define a new bitsSearchRoot so it can
+      be different for NIST and Fastar.  We COULD add another radio
+      button and hard-code them all.  It could look like this
+	        (o) Web  (o) DADS/NIST  (o) DADS/Fastar
 * Style sheet refinements
   - tag for formulas
   - tag for code
@@ -46,6 +60,15 @@ Initial list of todos
     collisions when it writes the unified index, but would not report
     if, say, alice and bob had AKA eve and *eve (which alphabetize as
     EVE and STAREVE, but both use eve.html).
+* bug: there is no way to have a pseudo-LaTeX command followed
+    immediately by a letter.  For example, in btree (B-tree), we have
+        $\lceil m/2\rceil$
+    which leaves a blank between the lceil and the m.  LaTeX handles
+    this by throwing away spaces following any command, and if one
+    *wants* a space, one uses \ , e.g., \cup\ \in.  There are 136
+    terms with a space after a command, and a quick review shows that
+    most (if not all) of them want a space.  So it would be a big job
+    to fix all those places to use \ .
 
 -------------------------------------------------------------------
                           DOCUMENTATION
