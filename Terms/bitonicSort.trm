@@ -1,7 +1,11 @@
 # *created  "Wed Jun  4 12:59:25 2003" *by "Paul E. Black"
-# *modified "Mon Dec 31 09:09:39 2012" *by "Paul E. Black"
+# *modified "Tue Mar 25 10:47:31 2014" *by "Paul E. Black"
 
 # $Log: bitonicSort.trm,v $
+# Tue Mar 25 10:48:30 2014  Paul E. Black
+# Dont refer to sample IMPL as "reference" - it may cause confusion.
+# Add a sentence suggesting the parallel nature of the algorithm.
+# 
 # Revision 1.12  2012/12/31 14:10:34  black
 # Remove Portable Parallel C++ implementation. It is gone, and the
 # prof. in charge is listed as emeritus. I don't think the site is
@@ -94,6 +98,8 @@ Batcher sort for four elements:
     compareAndSwap(1, 2);
 </pre>
 where compareAndSwap(i,j) is if (a[i] &lt; a[j]) Swap(a[i], a[j]).
+Notice that the first pair of operations, (0, 1) and (2, 3),
+can be performed in parallel, as can the second pair (0, 2) and (1, 3).
 </p>
 
 <p>
@@ -104,9 +110,9 @@ Knuth calls this <a href="../terms.html#Knuth98">Algorithm 5.2.2M
 <a
 href="http://www.iti.fh-flensburg.de/lang/algorithmen/sortieren/bitonic/bitonicen.htm">explanation,
 analysis, bibliography, etc. (Java)</a>.
-<a
-href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">reference
-source code (C)</a> and in
+Other implementations in <a
+href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/c/">(C)</a>
+and in
 <a
 href="http://groups.csail.mit.edu/cag/streamit/results/bitonic/code/streamit/">(Java)</a>.
 # further explanation (pure HTML)
