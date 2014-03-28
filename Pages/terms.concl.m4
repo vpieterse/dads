@@ -1,14 +1,16 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Fri Mar 28 15:30:37 2014" *by "Paul E. Black"
+dnl *modified "Fri Mar 28 15:48:28 2014" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Fri Mar 28 15:49:58 2014  Paul E. Black
+dnl Update links to Sphere Online (program) Judge and Fun with Algorithms (FUN).
+dnl 
 dnl Fri Mar 28 15:31:22 2014  Paul E. Black
 dnl Remove Google Code U link: no more algorithm courses.  Add $Log$ line back.
 dnl 
-dnl
 dnl Revision 2.0  Thu Jul 12 14:56:06 SAST 2012  vreda
 dnl Remove NIST exit script bit and changed author to
 dnl use the Author bit, instead of hardcoding it.
@@ -93,8 +95,7 @@ of Mathematics</a> or MathWorld.
 </p>
 
 <p>
-The <a
-href="http://www.spoj.pl/">Sphere
+The <a href="http://www.spoj.com/">Sphere
 online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and 
 900 contests.  Even nicer it automatically assesses your programs written in 
 40 languages.
@@ -103,9 +104,9 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 <p>
 The <a
 href="http://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
-Sixth International Conference on 
-<a href="http://www.dsi.unive.it/~fun2012">Fun
-With Algorithms</a> (FUN 2012).  The conference "is
+Seventh International Conference on 
+<a href="http://www.dsi.unive.it/fun14/">Fun
+With Algorithms</a> (FUN 2014).  The conference "is
 dedicated to the use, design, and analysis of algorithms and data
 structures, focusing on results that provide amusing, witty but
 nonetheless original and scientifically profound contributions to the
@@ -140,7 +141,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Fri Mar 28 15:30:37 2014
+Fri Mar 28 15:48:28 2014
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
