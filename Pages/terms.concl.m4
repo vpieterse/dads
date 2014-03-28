@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Fri Mar 28 15:48:28 2014" *by "Paul E. Black"
+dnl *modified "Fri Mar 28 15:53:12 2014" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Fri Mar 28 15:53:52 2014  Paul E. Black
+dnl Correctly update link to FUN 2014.
+dnl 
 dnl Fri Mar 28 15:49:58 2014  Paul E. Black
 dnl Update links to Sphere Online (program) Judge and Fun with Algorithms (FUN).
 dnl 
@@ -105,7 +108,7 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 The <a
 href="http://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
 Seventh International Conference on 
-<a href="http://www.dsi.unive.it/fun14/">Fun
+<a href="http://www.di.unipi.it/fun14/">Fun
 With Algorithms</a> (FUN 2014).  The conference "is
 dedicated to the use, design, and analysis of algorithms and data
 structures, focusing on results that provide amusing, witty but
@@ -141,7 +144,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Fri Mar 28 15:48:28 2014
+Fri Mar 28 15:53:12 2014
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
