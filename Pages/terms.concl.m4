@@ -1,8 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Tue Oct 15 14:20:43 2013" *by "Paul E. Black"
+dnl *modified "Fri Mar 28 15:30:37 2014" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
+dnl
+dnl $Log$
+dnl Fri Mar 28 15:31:22 2014  Paul E. Black
+dnl Remove Google Code U link: no more algorithm courses.  Add $Log$ line back.
+dnl 
 dnl
 dnl Revision 2.0  Thu Jul 12 14:56:06 SAST 2012  vreda
 dnl Remove NIST exit script bit and changed author to
@@ -75,12 +80,6 @@ implementations.
 </p>
 
 <p>
-Google Code University has two
-<a href="http://code.google.com/edu/algorithms/">courses
-on algorithms</a>, including algorithm analysis.
-</p>
-
-<p>
 <a href="http://www.cs.auckland.ac.nz/software/AlgAnim/ds_ToC.html">Data
 Structures and Algorithms</a> is a wonderful site with illustrations,
 explanations, analysis, and code taking the student from arrays and
@@ -141,7 +140,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Tue Oct 15 14:20:43 2013
+Fri Mar 28 15:30:37 2014
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
