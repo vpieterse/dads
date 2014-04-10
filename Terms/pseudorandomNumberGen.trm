@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 22 16:24:10 2013" *by "Paul E. Black"
+# *modified "Thu Apr 10 10:16:47 2014" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Thu Apr 10 10:18:25 2014  Paul E. Black
+# NOTE the term Deterministic Random Bit Generator (DRBG).  Add link to
+# NIST SP 800-90 series: random bit generators.
+# 
 # Revision 1.20  2013/08/22 20:26:13  black
 # Update URL for Summit's IMPL
 #
@@ -98,8 +102,13 @@ with naturally random events, such as noise in a diode.
 </p>
 
 <p>
+Pseudorandom number generators are often based on a 
+Deterministic Random Bit Generator (DRBG).
+</p>
+
+<p>
 A generator may be ``seeded'', or initialized, with a random event,
-such as the current time in milliseconds, to give different sequences
+such as the current time in microseconds, to give different sequences
 every time it is used.
 </p>
 
@@ -110,6 +119,7 @@ security or cryptographic purposes.
 href="http://www.dwheeler.com/secure-programs/Secure-Programs-HOWTO/random-numbers.html">Random
 Numbers</a> from David Wheeler's <em>Secure Programming for Linux and
 Unix HOWTO</em>, Section 11.3, gives suggestions and guidelines.
+
 # further explanation (pure HTML)
 @LINKS=<a href="http://csrc.nist.gov/rng/">Random Number Generation
 and Testing</a> with links to reports, standard tests, and on-going
@@ -125,6 +135,12 @@ pLab's page on
 including links to software and papers.
 <a href="http://www.schneier.com/yarrow.html">Yarrow (C)</a>, a
 cryptographically secure pseudorandom number generator.
+NIST SP
+<a href="http://csrc.nist.gov/publications/PubsDrafts.html">800-90
+Series: Random Bit Generators</a> has recommendations for random
+number generation using deterministic random bit generators,
+recommendations for the entropy sources, and recommendations for
+random bit generator (RBG) constructions.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get <a
