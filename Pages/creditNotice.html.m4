@@ -1,8 +1,13 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:27:53 2013" *by "Paul E. Black"
+dnl *modified "Mon Apr 21 12:19:24 2014" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Apr 21 12:26:40 2014  Paul E. Black
+dnl Replace header tags that were used for formatting with format tags.
+dnl Note: formatting should go in CSS.  Fix header nesting, e.g., <h2>
+dnl under <h1> instead of <h3> under <h1>.
+dnl 
 dnl Fri Nov  8 13:48:25 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Add end of file line.
 dnl 
@@ -46,7 +51,7 @@ include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
 include(`Pages/bitsImageLogos.m4')
-<center><h2>Dictionary of Algorithms and Data Structures</h2></center>
+<center><font size="+1"><strong>Dictionary of Algorithms and Data Structures</strong></font></center>
 <center><h1>Citation and Credit Notice</h1></center>
 
 <p>
@@ -72,7 +77,7 @@ acknowledgment.  If this site or the definitions are helpful, we would
 appreciate a note expressing how valuable it is.
 </p>
 
-<H3>Citing the Dictionary</H3>
+<h2>Citing the Dictionary</h2>
 
 <p>
 Here is a print citation.
@@ -96,7 +101,7 @@ Standards and Technology&lt;/a&gt;.
 </pre>
 </p>
 
-<H3>Citing an Entry</H3>
+<h2>Citing an Entry</h2>
 
 <p>
 Here is a bibtex citation for 
@@ -114,7 +119,7 @@ The result should be something like this:<br><br>
 Sant, Paul M. rooted tree. In <em>Dictionary of Algorithms and Data Structures</em> [online], Paul E. Black and Vreda Pieterse eds., 17 December 2004. Available from: $ROOTDIR/HTML/rootedtree.html. (accessed 4 July 2013)
 </p>
 
-<H3>Citation References</H3>
+<h2>Citation References</h2>
 
 <p>
 These try to follow ISO 690-2 Information and documentation -- Bibliographic references -- Part 2: Electronic documents or parts thereof, upon which
@@ -135,7 +140,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Fri Nov  8 13:27:53 2013
+Mon Apr 21 12:19:24 2014
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
