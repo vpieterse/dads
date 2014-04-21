@@ -1,7 +1,11 @@
 dnl *created  "Thu Jan 17 10:05:27 2002" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:26:23 2013" *by "Paul E. Black"
+dnl *modified "Mon Apr 21 12:23:03 2014" *by "Paul E. Black"
 dnl
 dnl $Log: ui.intro.m4,v $
+dnl Mon Apr 21 12:24:49 2014  Paul E. Black
+dnl Replace header (<h1></h1> etc) tags, which are used for formatting,
+dnl with format tags.  Note: formatting should be in the CSS.
+dnl 
 dnl Fri Nov  8 13:57:24 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Add end of file line.
 dnl 
@@ -23,9 +27,10 @@ include(`Pages/bitsReqHeadStuff.m4')
 include(`Pages/bitsImageLogos.m4')
  
 <center>
-<h1>Unified Index</h1>
-<h3>of the</h3>
-<h1>Dictionary of Algorithms and Data Structures</h1> </center>
+<font size="+2"><strong>Unified Index</strong></font><br />
+<strong>of the</strong><br />
+<font size="+2"><strong>Dictionary of Algorithms and Data Structures</strong></font> 
+</center>
 
 <p>
 This is a unified index of <strong>all</strong> terms in the
