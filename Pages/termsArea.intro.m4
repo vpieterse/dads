@@ -1,7 +1,11 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:26:46 2013" *by "Paul E. Black"
+dnl *modified "Mon Apr 21 12:30:50 2014" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Apr 21 12:33:32 2014  Paul E. Black
+dnl Replace header tags used for formatting with format tags.  Note:
+dnl format tags should be in CSS.
+dnl 
 dnl Fri Nov  8 13:56:20 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Move *created and
 dnl *modified lines from HTML to m4 comment (dnl) area.  Add $Log$ and end
@@ -22,7 +26,7 @@ include(`Pages/bitsReqHeadStuff.m4')
 <body>
 
 <center> <h1>Index by Area</h1> </center>
-<center> <h3>of</h3> </center>
+<center> <strong>of</strong> </center>
 <center> <h1><a href="terms.html">Algorithms and Data Structures</a></h1> </center>
 
 <hr>
