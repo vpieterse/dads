@@ -1,7 +1,11 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:26:37 2013" *by "Paul E. Black"
+dnl *modified "Mon Apr 21 12:30:39 2014" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Apr 21 12:34:16 2014  Paul E. Black
+dnl Replace header tags used for formatting with format tags.  Note:
+dnl format tags should be in CSS.
+dnl 
 dnl Fri Nov  8 13:57:07 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Add $Log$ and end of file lines.
 dnl 
@@ -20,7 +24,7 @@ include(`Pages/bitsReqHeadStuff.m4')
 <body>
 
 <center> <h1>Index by Type</h1> </center>
-<center> <h3>of</h3> </center>
+<center> <strong>of</strong> </center>
 <center> <h1><a href="terms.html">Algorithms and Data Structures</a></h1> </center>
 
 <hr>
