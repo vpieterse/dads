@@ -1,7 +1,10 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Mon Apr 21 12:30:45 2014" *by "Paul E. Black"
+dnl *modified "Tue May  6 13:19:25 2014" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Tue May  6 13:46:29 2014  Paul E. Black
+dnl Remove second include of bits Fix Defn.  Put first include on its own line.
+dnl 
 dnl Mon Apr 21 12:34:04 2014  Paul E. Black
 dnl Replace header tags used for formatting with format tags.  Note:
 dnl format tags should be in CSS.  Improve the English a bit ("that"
@@ -46,7 +49,8 @@ Don't use this site to cheat.  Teachers, contact us if we can help.
 </p>
 
 <p>
-We need people to contribute. include(`Pages/bitsFixDefn.m4'). 
+We need people to contribute. 
+include(`Pages/bitsFixDefn.m4')
 You are welcome to make suggestions to expand and improve the DADS.
 </p>
 
@@ -58,7 +62,6 @@ drawn because some sites are referenced, or not, from this
 page. There may be other web sites that are more appropriate for your
 purpose.  We do not necessarily endorse the views expressed, or
 concur with the facts presented on these sites.
-include(`Pages/bitsFixDefn.m4')
 </p>
 
 <p>
