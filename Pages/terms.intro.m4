@@ -1,7 +1,12 @@
 dnl *created  "Fri Sep  4 16:39:08 1998" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:27:39 2013" *by "Paul E. Black"
+dnl *modified "Tue May  6 13:29:56 2014" *by "Paul E. Black"
 dnl
 dnl $Log: terms.intro.m4,v $
+dnl Tue May  6 13:45:32 2014  Paul E. Black
+dnl Put the need-help anchor by itself, instead of wrapping it around the
+dnl include, in order to remove nested anchors.  Also include bits Fix
+dnl Defn here explicitly, rather than doing it through bits Demarcate.
+dnl 
 dnl Fri Nov  8 13:52:54 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Move all HTML stuff
 dnl *after* the m4-commented-out header stuff.  Add end of file line.
@@ -114,9 +119,9 @@ Don't use this site to cheat.  Teachers, contact us if we can help.
 </p>
 
 <p>
-<a name="needHelp">
 include(`Pages/bitsDemarcate.m4')
-</a>
+<a name="needHelp"><!-- entries without definitions link here --></a>
+include(`Pages/bitsFixDefn.m4')
 </p>
 
 <p>
