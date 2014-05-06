@@ -1,8 +1,12 @@
 dnl $Id: twolevelExplain.html.m4,v 1.21 2011/12/06 20:59:23 black Exp $
 dnl *created  "Thu Oct 26 11:47:46 2000" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:26:29 2013" *by "Paul E. Black"
+dnl *modified "Tue May  6 12:55:27 2014" *by "Paul E. Black"
 dnl
 dnl $Log: twolevelExplain.html.m4,v $
+dnl Tue May  6 13:47:20 2014  Paul E. Black
+dnl Include bits Fix Defn, to explain how to make suggestions, explicitly
+dnl here, instead of implicitly through bits Demarcate.
+dnl 
 dnl Fri Nov  8 13:47:57 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Add end of file line.
 dnl 
@@ -73,6 +77,7 @@ as well as many others who offered suggestions and corrections.
 
 <p>
 include(`Pages/bitsDemarcate.m4')
+include(`Pages/bitsFixDefn.m4')
 </p>
 
 <p>
@@ -101,7 +106,7 @@ Thu Oct 26 12:03:12 2000
 include(`Pages/bitsPaul.m4')
 dnl following lines are updated by emacs macros
 <em>Updated
-Fri Nov  8 13:26:29 2013
+Tue May  6 12:55:27 2014
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
