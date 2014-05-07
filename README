@@ -1,0 +1,49 @@
+Descriptions of files and directories in DADS.  This is not complete.
+
+ *created  "Wed Feb  8 09:46:31 2012" *by "Paul E. Black"
+ *modified "Wed May  7 16:40:08 2014" *by "Paul E. Black"
+
+FILES
+
+mkterms
+mkcommon.pl
+  a utility file
+mksite.pl
+  This is a copy of or link to mksiteNIST.pl or mksiteFastar.pl
+mksiteNIST.pl
+  configuration everything for NIST
+mksiteFastar.pl
+  configuration everything for FASTAR
+information files
+  areas.data
+  authors.data
+  types.data
+conversion files
+  latex2html.data
+  html2latex.data (used to create source for printing)
+expected output/known "errors"
+  dads.spell
+  htmlWarnings
+  reference.checklink
+test cases
+  aaaaTest.trm
+    every legal construct
+  aaaaTestScript and aaaaTestDir
+    a self-test script and directory with expected output
+  zzzzTest.trm
+    every error
+  Some comments/documentation are in the files themselves
+template.trm
+  an empty file for new definitions
+
+DIRECTORIES
+  Pages 
+    introduction and conclusion pieces for various indexes and files
+  Terms
+    the term files
+  Target
+    where the web-ready files end up - may be linked to a remote
+    directory on the web server
+  Sources
+    permissions, sources for files, etc.
+
