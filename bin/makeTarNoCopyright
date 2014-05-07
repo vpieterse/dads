@@ -1,0 +1,31 @@
+# $Id: makeDownloadTar,v 1.5 2012/10/12 15:30:45 black Exp $
+# *created  "Wed Sep 29 11:33:32 2004" *by "Paul E. Black"
+# *modified "Wed May  7 16:43:37 2014" *by "Paul E. Black"
+
+# make a tar file of the DADS site except the copyright material
+#
+# $Log$
+# Wed May  7 16:44:29 2014  Paul E. Black
+# Add comment to explain purpose of script.  Add Log line.  Improve file
+# and directory names.
+# 
+
+ScratchDir=DADSNoCopyright
+TarFile=dadsNoCopyright.tar
+
+echo copying ...
+rm -rf $ScratchDir
+cp -pr ~/DADS/Target/ $ScratchDir
+
+echo cleaning ...
+rm -f $ScratchDir/*~ $ScratchDir/*/*~
+
+echo deleting copyrighted entries ...
+find $ScratchDir/HTML -exec grep --quiet CRC-A {} \; -print -exec rm {} \;
+# Dragon Tails comics
+rm -f $ScratchDir/Images/dt*
+
+tar -cvf $TarFile $ScratchDir/
+zip $TarFile.zip $TarFile
+
+# end of $Source: /home/black/DADS/dads/bin/makeDownloadTar,v $
