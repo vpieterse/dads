@@ -1,8 +1,15 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Fri Nov  8 16:36:11 2013" *by "Paul E. Black"
+# *modified "Wed May  7 16:23:29 2014" *by "Paul E. Black"
 #
 # $Log$
+# Wed May  7 16:33:53 2014  Paul E. Black
+# Fix misspelling and typo.  Remove mention of chklatex in default: it
+# will probably never be used again.  Remove dependency of bits
+# Demarcate.m4 on bits Fix Defn.m4 since it doesnt include it anymore.
+# Remove taraudit rule: I dont think it will be useful - auterms is
+# gone.  Add (better) comments to two rules.
+# 
 # Fri Nov  8 16:40:36 2013  Paul E. Black
 # change for new (NIST mandated) required HTML <head> stuff: bitsReqHeadStuff.m4
 # add or improve explanation in some places.  Add $Log$ line.
@@ -14,7 +21,7 @@
 # - Updated dependencies of the files in PAGES
 
 TARFILE=dads.tar
-PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl mksiteNIST.pl mksiteFaster.pl
+PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl mksiteNIST.pl mksiteFastar.pl
 PAGES=Pages
 DIRS=Images Sources ${PAGES} bin
 FILES=Makefile *Test.trm *.data dads.css dads.spell htmlWarnings .gitignore
@@ -24,7 +31,7 @@ OTHERDIR=${OUTDIR}/Other
 IMAGESDIR=${OUTDIR}/Images
 
 default:
-	@echo targets are site, spell, chkhtml, tar, chklatex, undefs, configFastar, and configNIST
+	@echo targets are site, spell, chkhtml, tar, undefs, configFastar, and configNIST
 
 # various rules to update pieces of the Dictionary site
 site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
@@ -48,14 +55,10 @@ site: ${PAGES}/entry.intro ${PAGES}/entry.concl \
 terms: 
 	./mkterms
 
-# because bitsFixDefn.m4 includes bitsEmail.m4 and bitsFixDefn.m4 is
-# included by other files. So a change to bitsEmail isn't noticed by make.
+# This rule is here because bitsFixDefn.m4 includes bitsEmail.m4 and 
+# bitsFixDefn.m4 is included by other files.  If not for this rule,
+# a change to bitsEmail wouldn't be noticed by make.
 ${PAGES}/bitsFixDefn.m4: ${PAGES}/bitsEmail.m4
-	touch --reference=$^ $@
-
-# because bitsDemarcate.m4 includes bitsFixDefn.m4 and bitsDemarcate.m4 is
-# included by other files. So a change to bitsFixDefn isn't noticed by make.
-${PAGES}/bitsDemarcate.m4: ${PAGES}/bitsFixDefn.m4
 	touch --reference=$^ $@
 
 # create or copy other files
@@ -226,7 +229,7 @@ mksite.pl: mksiteFastar.pl mksiteNIST.pl
 # Note: copy all files, which gives them a recent time stamp.  Don't use
 # cp -p: if you're changing from one site to another, you may install a
 # *newer* version, which breaks the above checks.  Also don't make these
-# copies time-dependent, since you may want to isntall another site's
+# copies time-dependent, since you may want to install another site's
 # version, which may a *newer* version.
 configFastar:
 	cp ${PAGES}/bitsImageLogosFastar.m4 ${PAGES}/bitsImageLogos.m4
@@ -254,7 +257,7 @@ configNIST:
 undefs:
 	@cd Terms; perl -nwe 'if(/NAME=(.*)/){$$nam=$$1;if(length($$nam)<8){$$nmtabs="\t\t\t"}elsif(length($$nam)<16){$$nmtabs="\t\t"}else{$$nmtabs="\t"};if(length($$ARGV)<15){$$tabs="\t\t"}else{$$tabs="\t"}};if (/DEFN=/){$$nodefn = /DEFN=$$/};print "$$ARGV:$$tabs$$nam$$nmtabs$$1\n" if ($$nodefn && /AUTHOR=(.*)/)' *.trm
 
-# perl removes
+# the perl command removes
 #	* comment lines
 #	* WEB= lines since they often have "misspellings"
 #	* URL's (stuff in href's or src's)
@@ -271,11 +274,6 @@ spell:
 
 tar:
 	tar -cf ${TARFILE} ${PROGRAMS} ${FILES} ${DIRS} Terms
-
-# tar enough files to compile and audit terms
-taraudit:
-	tar -cf audit.tar auterms mkauthors mkcommon.pl \
-		${PAGES} Makefile *Test.trm *.data
 
 # find .trm files newer than the tar file, that is, needing to be tar'd
 findnew:
@@ -298,6 +296,7 @@ chkhtml:
 	(cd ${HTMLDIR};perl -pwe 's/(<LI>|(?=.)<P>|<PRE>|<TR)/ in $$ARGV\n$$1/gi;s|(<BR ?/?>)|$$1 in $$ARGV\n|gi;s/(.)\n$$/$$1 in $$ARGV\n/' *.html) | perl -nwe 'print "BACKSLASH, CARET, or DOLLAR SIGN\n$$_" if /[\\^\$$]/o;print "UNDERSCORE\n$$_" if /_[^"]*("[^"]+"[^"]*)*$$/o;print "DOUBLED QUOTES\n$$_" if /(``|\047\047)/o;print "DOUBLED PERIODS\n$$_" if /[^".][.][.][^.a-z]/o;print "LONE AMPERSAND\n$$_" if /&[^a-zA-Z]/o;print "DANGLING HREF ($$$$)\n$$_" if /href="\#/o; print "BAD URL\n$$_" if (/url=(?!(https?|ftp|gopher):)/)' > htmlWarnings.new
 	-diff -b htmlWarnings.new htmlWarnings
 
+# This rule was used when sending the terms to Taz for the print Dictionary
 # check the final LaTeX for any problems
 #    look for angle brackets (<>), carets (^), or underscores (_)
 #    that are not in dollar signs (math mode) or for ampersands (&)
