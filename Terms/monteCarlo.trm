@@ -1,7 +1,11 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Jan 22 11:54:40 2013" *by "Paul E. Black"
+# *modified "Mon May 19 08:52:37 2014" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Mon May 19 09:04:29 2014  Paul E. Black
+# Update URL for LINK to The Monte Carlo Method, "Value-at-Risk: Theory
+# and Practice", second edition.
+# 
 # Revision 1.12  2013/01/22 17:01:16  black
 # XREF rho-approximation algorithm
 #
@@ -86,7 +90,7 @@ time is indeterminate.
 @LINKS=
 An excellent
 <a
-href="http://www.riskglossary.com/articles/monte_carlo_method.htm">tutorial
+href="http://value-at-risk.net/the-monte-carlo-method/">tutorial
 introduction</a> with history.
 # implementation(s) (pure HTML)
 @IMPL=
