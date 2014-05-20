@@ -1,8 +1,13 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Wed May  7 16:23:29 2014" *by "Paul E. Black"
+# *modified "Tue May 20 11:13:55 2014" *by "Paul E. Black"
 #
 # $Log$
+# Tue May 20 11:15:40 2014  Paul E. Black
+# Dont spell check m4 macro files: many comments and file names.
+# Besides any content appears in other files eventually, which are
+# checked.  Fix typo.
+# 
 # Wed May  7 16:33:53 2014  Paul E. Black
 # Fix misspelling and typo.  Remove mention of chklatex in default: it
 # will probably never be used again.  Remove dependency of bits
@@ -259,17 +264,18 @@ undefs:
 
 # the perl command removes
 #	* comment lines
+#	* any m4 macro file (files ending with .m4)
 #	* WEB= lines since they often have "misspellings"
 #	* URL's (stuff in href's or src's)
 #	* email addresses (stuff around @ signs)
 #	* HTML escapes (&...;) (&?acute; into ? and &?uml; into ?e)
 #	* LaTeX macros (\macroName)
 # and breaks input into words: apostrophes (\047) and letters.
-# Remove any trailing 's on words -- its probably a possessive
+# Remove any trailing 's on (long) words -- it's probably a possessive.
 # There are so many entries we must pass spell just a simple list of words
 # The '-' before diff means ignore "error" when grep finds no misspellings
 spell:
-	perl -nwe 'next if /^#/;next if /^\@WEB=/;s/(href|src)="[^"]*"//gio;s/[-\w\d.]+@[-\w\d.]+//go;s/&(.)acute;/$$1/go;s/&(.)uml;/$$1e/go;s/&[^;]+;//go;s/\\\w*//go;tr/\047a-zA-Z/\012/cs;print;' ${PAGES}/* *.data Terms/*.trm | perl -pwe "s/'s// if /[a-zA-Z][a-zA-Z][a-zA-Z]'s$$/" | sort --ignore-case -u | spell > dads.spell.new
+	perl -nwe 'next if /^#/;next if $$ARGV=~/[.]m4$$/;next if /^\@WEB=/;s/(href|src)="[^"]*"//gio;s/[-\w\d.]+@[-\w\d.]+//go;s/&(.)acute;/$$1/go;s/&(.)uml;/$$1e/go;s/&[^;]+;//go;s/\\\w*//go;tr/\047a-zA-Z/\012/cs;print;' ${PAGES}/* *.data Terms/*.trm | perl -pwe "s/'s// if /[a-zA-Z][a-zA-Z][a-zA-Z]'s$$/" | sort --ignore-case -u | spell > dads.spell.new
 	-diff dads.spell.new dads.spell | grep '^<'
 
 tar:
