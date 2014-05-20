@@ -1,7 +1,6 @@
 aA
 Aarhus
 Aaronson
-AbstractDataType
 Abu
 Ackermann
 ACM
@@ -11,7 +10,6 @@ Adelson
 ADT
 AFIPS
 Agarwal
-aggregateChild
 Agrafiotis
 Aho
 AIEE
@@ -22,11 +20,9 @@ Alen
 algoritham
 algorithim
 Algorithmica
-AlgorithmicTechnique
 algorithum
 algorithym
 algorythm
-AlgoVista
 Alkalai
 Amalapurapu
 Amar
@@ -43,7 +39,6 @@ Annalen
 Annas
 Antal
 antichain
-anyURI
 Aoe
 API
 Apostolico
@@ -53,13 +48,11 @@ ar
 Aragon
 Arash
 arborescence
-archetypical
 Arvind
 ary
 asymptotics
 Atallah
 ATCH
-atl
 Auf
 Aufbau
 Augeas
@@ -90,7 +83,6 @@ Benford
 Berman
 Berthold
 Bertolazzi
-bgcolor
 BGL
 bibtex
 biconnected
@@ -98,12 +90,6 @@ Binstock
 bintree
 Bitner
 bitonic
-bitsDADSroot
-bitsFixDefn
-bitsHostedBy
-bitsNISTExit
-bitsNISTis
-bitsSearch
 bitwise
 BJ
 BKP
@@ -153,7 +139,6 @@ CCS
 Celis
 cellpadding
 cellspacing
-cfm
 ChainedHashtable
 Chakrabarti
 Chandran
@@ -184,10 +169,7 @@ Combinatorics
 Combinatory
 Commentz
 compareAndSwap
-ComplexityMeasure
 Comput
-computedBy
-concl
 Conf
 confluently
 constructible
@@ -207,6 +189,7 @@ cri
 Crochemore
 crystallizations
 CSP
+css
 CTL
 ctst
 Cumeni
@@ -214,11 +197,8 @@ CX
 Cybernetica
 Cyrene
 Daciuk
-dads'dnl
 Daoud
 dataexp
-DataStructure
-DatatypeProperty
 DAWG
 ddd
 de
@@ -251,7 +231,6 @@ diviser
 dk
 DM
 DNAME
-dnl
 Dobb
 Dobosiewicz
 Doclady
@@ -260,6 +239,7 @@ doi
 Dokladi
 Doklady
 DPDA
+DRBG
 Driscoll
 DS
 dspGuru
@@ -318,7 +298,6 @@ FASTAR
 feasibled
 Fellegi
 Ferragina
-FFFFFF
 FFT
 FGK
 Fiaschi
@@ -326,11 +305,9 @@ Fibonaccian
 fibsrch
 Fienberg
 finitary
-FirstGov
 FNC
 FNV
 FOCS
-FOLDOC
 Forcade
 Formeln
 FORML
@@ -378,7 +355,6 @@ Granfilade
 GraphEd
 Graphviz
 GreaterThan
-Greenspun
 Gries
 Grillo
 Grossi
@@ -400,8 +376,6 @@ Haim
 Hakmem
 Halleux
 Hancart
-hardcoded
-hardcoding
 Harter
 HASE
 hashbelt
@@ -430,12 +404,10 @@ homomorphic
 Hopcroft
 Horner
 Horspool
-howdoi
 howpublished
 HOWTO
 hsadelta
 Hsieh
-HTMLindex
 http
 Hua
 Hudak
@@ -445,7 +417,6 @@ hyperedges
 hypergraph
 i'i
 ibn
-ICRA
 ICS
 ie
 IEEE
@@ -461,12 +432,9 @@ img
 IMIN
 impera
 IMPL
-implementationLanguage
-implementationURL
 Incerpi
 Indices
 Indyk
-inet
 infinitary
 Informatica
 Ingo
@@ -482,7 +450,6 @@ isIn
 ist
 Itai
 ith
-itl
 Iverson
 j'j
 Ja'far
@@ -504,7 +471,7 @@ joeganley
 Joerg
 JohnPaul
 Jozsa
-jQuery
+js
 JScript
 JSort
 jstor
@@ -528,7 +495,6 @@ KmpSkip
 Knoppers
 Knott
 Ko
-kodiak
 Koehler
 Koenigsberg
 Kolmogorov
@@ -579,7 +545,6 @@ Litwin
 LJW
 LK
 LLC
-lmco
 lmu
 ln
 LNCS
@@ -617,7 +582,6 @@ Masao
 matchings
 Matematico
 Mathematica
-MathematicalThing
 Mathematik
 Mathematische
 MathWorld
@@ -706,7 +670,6 @@ Nicos
 Nievergelt
 Nikolaevich
 Nilo
-nist
 Nivio
 nk
 nm
@@ -727,7 +690,6 @@ nonterminal
 NORs
 NOTFOUND
 nr
-ns
 nt
 nullary
 numberIn
@@ -737,7 +699,6 @@ O'Madadhain
 O'Reilly
 OBDD
 Obershelp
-ObjectProperty
 OCaml
 octree
 od
@@ -767,7 +728,6 @@ Pagh
 Pai
 Palo
 Pankaj
-pao
 Papadakis
 parallelized
 parameterizable
@@ -835,7 +795,7 @@ Prosenjit
 pseudocode
 pseudograph
 pseudoprime
-pseudorandom
+Pseudorandom
 psu
 PTAS
 pth
@@ -865,11 +825,9 @@ Rasmus
 rastering
 Ratcliff
 Ravikumar
+RBG
 RBSL
 RBST
-RCS
-rdf
-rdfs
 Reals
 rebalance
 Rebalancing
@@ -885,7 +843,6 @@ Rexx
 Ricci
 Rivest
 RNG
-roadmap
 robability
 ROBDD
 Rodler
@@ -893,6 +850,7 @@ Roel
 Rohloff
 Rohnert
 Rokicki
+ROOTDIR
 rootedtree
 Rosalee
 Roura
@@ -924,7 +882,6 @@ Schorr
 scs
 sdu
 searchable
-searchcode
 SecondString
 Sedgewick
 Seeger
@@ -976,7 +933,6 @@ SPL
 SPMD
 SPOJ
 Spolecnosti
-sqg
 SRC
 Srinivasan
 SSSR
@@ -995,9 +951,9 @@ Strmat
 strncmp
 Strother
 strstr
+stylesheet
 subadditive
 subbuckets
-subClassOf
 subcollection
 subexpressions
 subgraph
@@ -1020,8 +976,6 @@ Sund
 Sundell
 Sunter
 Supercalifragilisticexpialidocious
-superceded
-superclass
 supercomputational
 supercover
 SuperFastHash
@@ -1145,7 +1099,7 @@ Weisstein
 Welch
 Wier
 Wieringa
-wikipedia
+Wikipedia
 Wilf
 Winkler
 Witten
@@ -1157,14 +1111,11 @@ x's
 XAC
 xdelta
 XG
-XHTML
 Xiao
 xkcd
 xlinux
-XMLSchema
 xp
 Xu
-xw
 Yaacov
 YAC
 Yair
