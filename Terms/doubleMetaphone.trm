@@ -1,7 +1,10 @@
 # *created  "Fri May 19 09:55:48 2000" *by "Paul E. Black"
-# *modified "Tue Oct 29 09:12:31 2013" *by "Paul E. Black"
+# *modified "Tue May 27 14:56:35 2014" *by "Paul E. Black"
 
 # $Log: doubleMetaphone.trm,v $
+# Tue May 27 14:57:56 2014  Paul E. Black
+# NOTE the existence of a newer version, Metaphone 3.
+# 
 # Tue Oct 29 09:14:18 2013  Paul E. Black
 # Modify Terms/doubleMetaphone.trm
 # 
@@ -107,6 +110,9 @@ accessed October 2013.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=This is an improved version of {metaphone}.
+In 2009 Lawrence Philips produced 
+<a href="http://www.amorphics.com/">Metaphone 3</a>,
+which reportedly "increases the accuracy of phonetic encoding".
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
