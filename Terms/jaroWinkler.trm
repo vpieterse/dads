@@ -1,7 +1,10 @@
 # *created  "Fri May  3 14:21:44 2002" *by "Paul E. Black"
-# *modified "Wed Dec 26 09:32:57 2012" *by "Paul E. Black"
+# *modified "Tue May 27 14:27:19 2014" *by "Paul E. Black"
 
 # $Log: jaroWinkler.trm,v $
+# Tue May 27 14:29:09 2014  Paul E. Black
+# Correct BIB entry for "Advances" and move it before the 1976 entry.
+# 
 # Revision 1.9  2012/12/26 14:36:43  black
 # NIST exit script changes caused some problem accessing census.gov
 # listing by author.  Remove LINKS to Winkler and Thibaudeau, and move
@@ -76,15 +79,14 @@ href="http://www.census.gov/srd/www/abstract/rr91-9.html">abstract</a>
 href="http://www.census.gov/srd/papers/pdf/rr91-9.pdf">full paper</a>
 (PDF).
 <br />
-
+<strong>Matthew A. Jaro</strong>, <em>Advances in Record-Linkage
+Methodology as Applied to Matching the 1985 Census of Tampa,
+Florida</em>, Journal of the American Statistical Association,
+84(406):414-420, June 1989.
+<br />
 <strong>Matthew A. Jaro</strong>, <em>UNIMATCH: A Record Linkage
 System: User's Manual</em>, Technical Report, U.S. Bureau of the
 Census, Washington, D.C., 1976.
-<br />
-<strong>Matthew A. Jaro</strong>, <em>Advances in Record-linkage
-Methodology a Applied to Matching the 1985 Census of Tampa,
-Florida</em>, Journal of the American Statistical Association,
-89:414-420. 
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=For "piecewise function", see the
