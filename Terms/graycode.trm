@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:05:44 2011" *by "Paul E. Black"
+# *modified "Sat Jun  7 11:45:40 2014" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Sat Jun  7 11:54:35 2014  Paul E. Black
+# Remove "See links" NOTE since there are no more LINKs to conversion algorithms.
+# 
 # Revision 1.20  2011/12/12 15:06:07  black
 # Remove IMPL from Numerical Recipes in C - files are gone.
 #
@@ -130,7 +133,7 @@ more information.
 </p>
 
 <p>
-See the links for {polynomial}-time algorithms to convert between
+There are {polynomial}-time algorithms to convert between
 binary numbers and certain Gray codes.
 
 # further explanation (pure HTML)
