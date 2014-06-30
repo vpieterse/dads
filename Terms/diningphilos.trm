@@ -1,7 +1,10 @@
 # *created  "Wed Feb 17 12:42:53 1999" *by "Paul E. Black"
-# *modified "Mon Jan 10 11:45:04 2005" *by "Paul E. Black"
+# *modified "Mon Jun 30 09:15:57 2014" *by "Paul E. Black"
 
 # $Log: diningphilos.trm,v $
+# Mon Jun 30 09:18:50 2014  Paul E. Black
+# Remove Siefast IMPL: all Siefast simulator pages are gone.
+# 
 # Revision 1.4  2005/01/10 16:45:24  black
 # Update Ohio State (siefat) URLs
 #
@@ -49,13 +52,7 @@ prevents deadlock, starvation, etc.
 @IMPL=
 <a
 href="http://www.math-cs.gordon.edu/courses/cs322/projects/p2/dp/">code
-Shared Memory and Semaphores (C and C++)</a>,
-One <a
-href="http://www.cse.ohio-state.edu/siefast/simulator/examples/siefast_example_dining_philosophers.html">example
-(Siefast)</a> for the
-<a
-href="http://www.cse.ohio-state.edu/siefast/simulator/">Siefast
-simulator</a>.
+Shared Memory and Semaphores (C and C++)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/diningphilos.trm,v $
