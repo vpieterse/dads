@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Apr 10 10:16:47 2014" *by "Paul E. Black"
+# *modified "Tue Jul  1 11:37:18 2014" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Tue Jul  1 11:41:33 2014  Paul E. Black
+# Add deterministic random bit generator and DRBG.  Add that 
+# IMA deterministic algorithm.  Improve reference to NIST SP 800-90A.
+# 
 # Thu Apr 10 10:18:25 2014  Paul E. Black
 # NOTE the term Deterministic Random Bit Generator (DRBG).  Add link to
 # NIST SP 800-90 series: random bit generators.
@@ -77,13 +81,13 @@
 with little or no discernible pattern in the numbers, except for broad
 statistical properties.
 # comma-sep list of pure names that this is Also Known As.
-@AKA=PRNG
+@AKA=PRNG, deterministic random bit generator, DRBG
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=pseudorandom number
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA=deterministic algorithm
 # Specialization: "... is a kind of me."
 @VARIANT={linear congruential generator}
 # Aggregate parent: "I am a part of or used in ..."
@@ -107,8 +111,9 @@ Deterministic Random Bit Generator (DRBG).
 </p>
 
 <p>
-A generator may be ``seeded'', or initialized, with a random event,
-such as the current time in microseconds, to give different sequences
+A generator is often ``seeded'', or initialized, from sources of entropy,
+such as the current time in microseconds, response time to a disk
+seek, or other random events to give different sequences
 every time it is used.
 </p>
 
@@ -126,6 +131,7 @@ and Testing</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
+
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
@@ -135,12 +141,6 @@ pLab's page on
 including links to software and papers.
 <a href="http://www.schneier.com/yarrow.html">Yarrow (C)</a>, a
 cryptographically secure pseudorandom number generator.
-NIST SP
-<a href="http://csrc.nist.gov/publications/PubsDrafts.html">800-90
-Series: Random Bit Generators</a> has recommendations for random
-number generation using deterministic random bit generators,
-recommendations for the entropy sources, and recommendations for
-random bit generator (RBG) constructions.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get <a
@@ -151,6 +151,19 @@ numbers in a certain range (C)</a> is C FAQ question 13.16,
 <a href="http://www.eskimo.com/~scs/cclass/krnotes/sx10n.html">section
 7.8.7 (C)</a> of Steve Summit's Notes to Accompany <em>The C
 Programming Language</em>.
+</p>
+
+<p>
+<em>Recommendation for Random Number Generation Using Deterministic 
+Random Bit Generators</em>, NIST SP 800-90A, January 2012
+has recommendations for generating (pseudo)random numbers using
+deterministic random bit generators, for entropy sources, and for
+implementation.
+Available at 
+<a href="http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf"
+>http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf</a>.
+Note: Rev. 1 is in draft, as of April 2014.  
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/pseudorandomNumberGen.trm,v $
