@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Mon May 23 09:27:40 2011" *by "Paul E. Black"
+# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Mon Jul  7 09:37:00 2014  Paul E. Black
+# Update Goletas C# Collections IMPL URL
+# 
 # Revision 1.13  2011/05/23 14:24:31  black
 # Add Goleta's IMPL
 #
@@ -123,7 +126,7 @@ Contributions by Rob Stewart 16 March 2004.
 href="http://www.cs.sunysb.edu/~algorith/files/dictionaries.shtml">(C++,
 Pascal, and Fortran)</a>.
 Maksim Goleta's
-<a href="http://goletas.com/csharp-collections/">Collections
+<a href="http://goletas.com/csharp-collections">Collections
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
 # author's initials
