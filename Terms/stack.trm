@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:06 2013" *by "Paul E. Black"
+# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Mon Jul  7 09:37:31 2014  Paul E. Black
+# Update Goletas C# Collections IMPL URL
+# 
 # Revision 1.17  2013/08/22 19:42:07  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -127,7 +130,7 @@ list</a> implementations.
 # implementation(s) (pure HTML)
 @IMPL=
 Maksim Goleta's
-<a href="http://goletas.com/csharp-collections/">Collections
+<a href="http://goletas.com/csharp-collections">Collections
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
 Bro. David Carlson's
