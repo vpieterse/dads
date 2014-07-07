@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:11:39 2011" *by "Paul E. Black"
+# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Mon Jul  7 09:36:32 2014  Paul E. Black
+# Update Goletas C# Collections IMPL URL
+# 
 # Revision 1.27  2011/12/12 15:12:08  black
 # update IMPL URL for Spring97 UCSC slide
 #
@@ -121,7 +124,7 @@ Ben Pfaff's
 <a href="http://adtinfo.org/libavl.html/Binary-Search-Trees.html">insert,
 delete, search, copy, etc. (literate C)</a>;
 Maksim Goleta's
-<a href="http://goletas.com/csharp-collections/">Collections
+<a href="http://goletas.com/csharp-collections">Collections
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
 # class slides of Dr. Michael E. Gross
