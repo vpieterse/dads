@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:03 2013" *by "Paul E. Black"
+# *modified "Mon Jul 21 09:13:04 2014" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Mon Jul 21 09:20:13 2014  Paul E. Black
+# Remove Ted Billards IMPL - page gone.  Improve wording of DEFN a little.
+# 
 # Revision 1.18  2013/08/22 19:42:04  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -47,7 +50,6 @@
 #
 # Revision 1.5  2004/01/12 15:22:57  black
 # Add RCS Log and Source.  Make the note about stable sorting more accurate.
-#
 
 # entry name
 @NAME=selection sort
@@ -56,7 +58,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=sort
 # the definition
-@DEFN=A {sort} algorithm that repeatedly looks through
+@DEFN=A {sort} algorithm that repeatedly searches
 remaining items to find the least one and moves it to its final
 location.  The run time is {$\Theta(n<sup>2</sup>)$#\Theta}, where $n$
 is the number of elements.  The number of swaps is 
@@ -122,9 +124,6 @@ Simple Programming Tutorials'
 href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
 <a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>.
-<a
-href="http://www.sci.csuhayward.edu/~billard/cs3240/node29.html">Questions
-and example (C)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/selectionSort.trm,v $
