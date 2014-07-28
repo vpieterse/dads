@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Jul  1 11:37:18 2014" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:20 2014" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Jul 28 16:24:07 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Tue Jul  1 11:41:33 2014  Paul E. Black
 # Add deterministic random bit generator and DRBG.  Add that 
 # IMA deterministic algorithm.  Improve reference to NIST SP 800-90A.
@@ -134,7 +137,7 @@ test the randomness of bytes in a file.
 
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/random-numbers.shtml">(C++,
+href="http://www.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
 pLab's page on
 <a href="http://random.mat.sbg.ac.at/generators/">generators</a>
