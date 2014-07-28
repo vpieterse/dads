@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:03 2004" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:07 2014" *by "Paul E. Black"
 
 # $Log: edgeConnectivity.trm,v $
+# Mon Jul 28 16:19:42 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.4  2004/12/17 17:28:03  black
 # Make more XHTML compliant.
 #
@@ -42,7 +45,7 @@ deletion will separate $s$ from $t$.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/edge-vertex-connectivity.shtml">(Mathematica,
+href="http://www.cs.stonybrook.edu/~algorith/files/edge-vertex-connectivity.shtml">(Mathematica,
 C, and Pascal)</a>
 # author's initials
 @AUTHOR=GS
