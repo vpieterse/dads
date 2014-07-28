@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 30 14:43:33 2013" *by "Vreda Pieterse"
+# *modified "Mon Jul 28 16:13:17 2014" *by "Paul E. Black"
 #
 # $Log: longestCommonSubsequence.trm,v $
+# Mon Jul 28 16:22:30 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision "Mon Sep 30 10:09:00 2013" *by "Vreda Pieterse"
 # Use {dynamic programming} in LINKS instead of hard-coded link to DADS. 
 #
@@ -85,7 +88,7 @@ href="http://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-c
 subsequence problem</a> in Wikipedia.
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/longest-common-substring.shtml">(C
+href="http://www.cs.stonybrook.edu/~algorith/files/longest-common-substring.shtml">(C
 and Mathematica)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
