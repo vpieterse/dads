@@ -1,7 +1,10 @@
 # *created  "Mon Feb  8 09:35:24 1999" *by "Paul E. Black"
-# *modified "Wed Nov  3 12:01:24 2010" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:22 2014" *by "Paul E. Black"
 
 # $Log: transitiveReduction.trm,v $
+# Mon Jul 28 16:26:01 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.6  2010/11/03 16:15:50  black
 # remove orphan HTML end-anchor.
 #
@@ -54,7 +57,7 @@ directed graph</em>. SIAM Journal on Computing, 1:131--137, 1972.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/transitive-closure.shtml">on
+href="http://www.cs.stonybrook.edu/~algorith/files/transitive-closure.shtml">on
 a graph (C++ and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB
