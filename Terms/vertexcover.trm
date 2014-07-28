@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Feb  8 09:10:37 2007" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:23 2014" *by "Paul E. Black"
 
 # $Log: vertexcover.trm,v $
+# Mon Jul 28 16:26:32 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.5  2007/02/08 14:11:01  black
 # add an example of vertex cover as a NOTE
 #
@@ -60,7 +63,7 @@ Also, no street goes straight through an intersection.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/vertex-cover.shtml">(C,
+href="http://www.cs.stonybrook.edu/~algorith/files/vertex-cover.shtml">(C,
 Fortran, and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB
