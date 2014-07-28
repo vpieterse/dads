@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:41:59 2013" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:19 2014" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Mon Jul 28 16:23:22 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.15  2013/08/22 19:42:00  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -93,18 +96,18 @@ quicksort, heapsort, and merge sort</a> on modern processors.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.c">(C)</a>
 that needs <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.c">list
 merge (C)</a> or <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.c">array
 merge (C)</a>,
 <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/421.sort.p">(Pascal)</a> 
 that needs <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/431.merge.p">list
 merge (Pascal)</a> or <a
-href="http://www.cs.sunysb.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
+href="http://www.cs.stonybrook.edu/~algorith/implement/handbook/distrib/handbook/algs/4/432.merge.p">array
 merge (Pascal)</a>;
 <a
 href="http://people.cs.ubc.ca/~harrison/Java/ExtraStorageMergeSortAlgorithm.java">(Java)</a>;
@@ -121,7 +124,7 @@ href="http://www.siegfried.sielaff.at/">in-place, stable variant he
 calls Swap Sort (C)</a> (click the British flag for an English
 translation).
 Other implementations may be available through the <a
-href="http://www.cs.sunysb.edu/~algorith/files/sorting.shtml">Stony
+href="http://www.cs.stonybrook.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
 Alexander Georgiev's
 <a
