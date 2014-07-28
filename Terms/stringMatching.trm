@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu May  5 09:35:30 2005" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Mon Jul 28 16:25:08 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.7  2005/05/05 13:35:49  black
 # grammatical improvement
 #
@@ -67,7 +70,7 @@ Christian Charras' and Thierry Lecroq's <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
 Matching Algorithms (C)</a>,
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/string-matching.shtml">(C++
+href="http://www.cs.stonybrook.edu/~algorith/files/string-matching.shtml">(C++
 and Pascal)</a>,
 <a href="http://www.cs.ucdavis.edu/~gusfield/strmat.html">Strmat
 (C)</a> - a collection of string matching and pattern discovery
