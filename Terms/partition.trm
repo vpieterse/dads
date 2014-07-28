@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:00 2013" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:19 2014" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Mon Jul 28 16:23:48 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.7  2013/08/22 19:42:01  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -74,7 +77,7 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/generating-partitions.shtml">generating
+href="http://www.cs.stonybrook.edu/~algorith/files/generating-partitions.shtml">generating
 partitions (Fortran, Mathematica, Pascal, and C)</a>,
 <a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</a>
 # author's initials
