@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov  8 09:10:17 2010" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:17 2014" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Mon Jul 28 16:22:19 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.14  2010/11/08 14:13:55  black
 # correct URL of XKCD cartoon
 #
@@ -99,7 +102,7 @@ From <a href="http://xkcd.com/">xkcd</a> by
 Attribution-NonCommercial 2.5 License</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/knapsack.shtml">(Fortran
+href="http://www.cs.stonybrook.edu/~algorith/files/knapsack.shtml">(Fortran
 and Pascal)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Class/G2c3/">Class G2c3
 (Fortran)</a>.
