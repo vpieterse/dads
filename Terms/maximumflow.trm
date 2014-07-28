@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:33:55 1998" *by "Paul E. Black"
-# *modified "Mon Aug 22 09:56:05 2011" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:18 2014" *by "Paul E. Black"
 
 # $Log: maximumflow.trm,v $
+# Mon Jul 28 16:23:09 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.7  2011/08/22 13:58:41  black
 # Update topcoder IMPL URL
 #
@@ -58,7 +61,7 @@ and development of Ford-Fulkerson (pseudocode)</a>; including solving
 related problems, like multi-source, vertex capacity, bipartite
 matching, etc.
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/network-flow.shtml">description
+href="http://www.cs.stonybrook.edu/~algorith/files/network-flow.shtml">description
 and links to implementations (C, Fortran, C++, Pascal, and Mathematica)</a>.
 # author's initials
 @AUTHOR=PEB
