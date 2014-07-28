@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Feb 22 17:11:14 2011" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:20 2014" *by "Paul E. Black"
 
 # $Log: set.trm,v $
+# Mon Jul 28 16:24:15 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.8  2011/02/22 22:11:28  black
 # Darius Bacon IMPL gone - remove link to it.
 #
@@ -85,7 +88,7 @@ The {predicate} isEmpty(S) may be defined with the following additional axioms.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/set-data-structures.shtml">(C++
+href="http://www.cs.stonybrook.edu/~algorith/files/set-data-structures.shtml">(C++
 and Pascal)</a>.
 
 # author's initials
