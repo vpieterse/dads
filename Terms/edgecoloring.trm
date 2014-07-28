@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:49:55 2004" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:13 2014" *by "Paul E. Black"
 
 # $Log: edgecoloring.trm,v $
+# Mon Jul 28 16:19:51 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.2  2004/12/17 16:49:56  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -39,7 +42,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/edge-coloring.shtml">(C++,
+href="http://www.cs.stonybrook.edu/~algorith/files/edge-coloring.shtml">(C++,
 Mathematica, and C)</a>
 # author's initials
 @AUTHOR=PEB, CRC-A
