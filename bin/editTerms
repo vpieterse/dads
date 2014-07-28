@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 $versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.14 2013/10/01 13:36:05 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Mon Sep  9 13:54:44 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Mon Jul 28 15:30:19 2014" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -24,12 +24,19 @@ $typUse = "./editTerms `grep -l vertices Terms/*.trm`";
 #
 #-----------------------------------------------------------------------------
 
+# $Log$
+# Mon Jul 28 15:31:47 2014  Paul E. Black
+# Change code since we now use git for version control.  Add a $Log$ line.
+# Exit if a file cannot be opened, written, or closed.  It may signify
+# serious problems.
+# 
+
 #------------------------------------------------------------------------------
 #	Command line handling
 #------------------------------------------------------------------------------
 
-$reason = "update URL for Aaronson's Complexity Zoo";
-#           search for SPECIFIC EDIT
+$reason = "update URL for Skiena's Stony Brook Algorithm Respository IMPLs";
+#           search for SPECIFIC EDIT and change hard-coded date
 $editor = "Paul E. Black"; # for *modified line
 # check that hard-coded date is current to reduce chance of 
 # using old reason and old edits
@@ -87,7 +94,7 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Mon Sep  9/) {
+if ($checkDate && localtime() !~ /Mon Jul 28/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -99,17 +106,18 @@ if ($checkDate && localtime() !~ /Mon Sep  9/) {
 foreach $term_file_name (@ARGV) {
     #print "==} $term_file_name\n";
 
-    # make sure the writable file is the same as the latest RCS version
-    system "rcsdiff $term_file_name > /dev/null 2>&1";
+    # make sure the file is the same as the latest index(?)
+    # -b ignores changes in whitespace
+    # --unified=0 gives no context lines
+    my $differences = `git diff -b --unified=0 $term_file_name`;
     if ($?) {
-	print "$term_file_name differs from RCS version; skipping!\n";
+	print "$term_file_name is not in git (or some other error); skipping!\n";
 	next;
     }
-
-    # (try to) check it out: lock & get writable file
-    system "echo n | co -l $term_file_name > /dev/null 2>&1";
-    if ($?) {
-	print "Could not check out $term_file_name; skipping!\n";
+    if ($differences ne "") {
+	print "$term_file_name differs from git version. Here are the differences:\n";
+	print "$differences";
+	print "skipping $term_file_name!\n";
 	next;
     }
 
@@ -159,21 +167,33 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s|http://qwiki.stanford.edu/index.php/|https://complexityzoo.uwaterloo.ca/|g;
+		$line =~ s|http://www.cs.sunysb.edu/~algorith/|://www.cs.stonybrook.edu/~algorith/|g;
 
 		print TERM $line;
 	    }
 
 	    close TERM || print "Cannot close TERM after writing!?!\n";
+	    exit;
 	} else {
 	    print "Cannot open $term_file_name to write!?!\n";
+	    exit;
 	}
     } else {
 	print "Cannot open $term_file_name!?!\n";
+	exit;
     }
 
     # review any changes
-    system "rcsdiff $term_file_name";
+    # -b ignores changes in whitespace
+    # --unified=0 gives no context lines
+    system "git diff -b --unified=0 $term_file_name";
+
+    ###########################################################################
+    #
+    print               "REMEMBER TO gcommit $term_file_name\n";
+    next;
+    #
+    ###########################################################################
 
     while (1) {
 	print "Commit (check in)? [ynhlq](n): ";
