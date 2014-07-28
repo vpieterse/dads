@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:00:58 1998" *by "Paul E. Black"
-# *modified "Tue Oct 11 12:11:44 2011" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:22 2014" *by "Paul E. Black"
 
 # $Log: suffixtree.trm,v $
+# Mon Jul 28 16:25:41 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.14  2011/10/11 16:13:58  black
 # improve URL of wikipedia article
 #
@@ -107,7 +110,7 @@ Mark Nelson's great
 String Searching With Suffix Trees (C++)</a> explains Ukkonen's
 linear-time algorithm.  Dr. Dobb's Journal, August, 1996.
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/suffix-trees.shtml">(C++
+href="http://www.cs.stonybrook.edu/~algorith/files/suffix-trees.shtml">(C++
 and Pascal)</a>.
 # author's initials
 @AUTHOR=SE
