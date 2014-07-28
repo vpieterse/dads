@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 11 16:42:45 2010" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Mon Jul 28 16:25:01 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.8  2010/01/11 21:44:01  black
 # Remove LINK to Joe Ganley's page - his web site moved, and I can't
 # find a new page.
@@ -78,7 +81,7 @@ trees.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/steiner-tree.shtml">(C
+href="http://www.cs.stonybrook.edu/~algorith/files/steiner-tree.shtml">(C
 and Pascal)</a>.
 # author's initials
 @AUTHOR=JLG
