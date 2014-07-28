@@ -1,7 +1,10 @@
 # *created  "Fri Jul 23 16:34:11 2004" *by "Vadim Okun"
-# *modified "Thu Sep 21 13:00:16 2006" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:12:45 2014" *by "Paul E. Black"
 
 # $Log: ahoCorasick.trm,v $
+# Mon Jul 28 16:18:24 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.3  2006/09/21 17:09:00  black
 # XREF Commentz-Walter
 #
@@ -24,7 +27,7 @@
 the machine to locate all occurrences of the keywords in a body of text.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=
@@ -54,7 +57,7 @@ by the machine is independent of the number of keywords.
 # implementation(s) (pure HTML)
 @IMPL=Bruce Watson's 
 <a
-href="http://www.cs.sunysb.edu/~algorith/implement/watson/implement.shtml">SPARE
+href="http://www.cs.stonybrook.edu/~algorith/implement/watson/implement.shtml">SPARE
 Parts, a string pattern recognition toolkit (C++)</a>.
 # further explanation (pure HTML)
 @LINKS=
