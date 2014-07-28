@@ -1,10 +1,13 @@
 dnl $Id: bitsSearch.m4,v 1.11 2009/06/04 19:26:18 black Exp $
 dnl *created  "Wed Mar 26 11:04:15 2003" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 13:12:15 2013" *by "Paul E. Black"
+dnl *modified "Mon Jul 28 15:20:22 2014" *by "Paul E. Black"
 dnl
 dnl	A paragraph with explanation and HTML form for the search box
 dnl
 dnl $Log: bitsSearch.m4,v $
+dnl Mon Jul 28 16:30:11 2014  Paul E. Black
+dnl Change HTML directives to recommended lower case.
+dnl 
 dnl Revision 1.11  2009/06/04 19:26:18  black
 dnl update Google URL
 dnl
@@ -45,22 +48,22 @@ button.
 
 dnl instructions at http://services.google.com/searchcode2.html?accept=on
 <!-- Google SafeSearch -->
-<FORM method=GET action="http://www.google.com/search">
+<form method=GET action="http://www.google.com/search">
 <input type=hidden name=ie value=UTF-8>
 <input type=hidden name=oe value=UTF-8>
-<TABLE><tr><td>
-<A HREF="http://www.google.com/webhp?safe=vss">
-<IMG SRC="http://www.google.com/logos/Google_Safe.gif" 
+<table><tr><td>
+<a href="http://www.google.com/webhp?safe=vss">
+<img src="http://www.google.com/logos/Google_Safe.gif" 
 border="0" ALT="Google"></A>
 </td>
 <td>
-<INPUT TYPE=text name=q size=31 maxlength=255 value="">
-<INPUT type=hidden name=safe value=strict>
-<INPUT type=submit name=btnG VALUE="Google Search">
+<input type=text name=q size=31 maxlength=255 value="">
+<input type=hidden name=safe value=strict>
+<input type=submit name=btnG value="Google Search">
 <small>
 <input type=hidden name=domains value="$ROOTDIR"><br /><input type=radio name=sitesearch value=""> Web <input type=radio name=sitesearch value="$ROOTDIR" checked> DADS <br />
 </small>
-</td></tr></TABLE>
-</FORM>
+</td></tr></table>
+</form>
 <!-- Google SafeSearch -->
 dnl end of $Source: /home/black/DADS/Pages/RCS/bitsSearch.m4,v $
