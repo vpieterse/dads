@@ -1,7 +1,10 @@
 # *created  "Wed Nov 19 09:57:24 2003" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:12:55 2004" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
 
 # $Log: shortestCommonSuperstring.trm,v $
+# Mon Jul 28 16:24:35 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.2  2004/12/17 17:12:56  black
 # Refine XREFS into IMA, etc.  Make more XHTML compliant.
 #
@@ -46,7 +49,7 @@
 @NOTES=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/shortest-common-superstring.shtml">(C)</a>
+href="http://www.cs.stonybrook.edu/~algorith/files/shortest-common-superstring.shtml">(C)</a>
 # further explanation (pure HTML)
 @LINKS=
 # author's initials (see authors.data)
