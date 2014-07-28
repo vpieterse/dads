@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:28:13 2004" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:17 2014" *by "Paul E. Black"
 
 # $Log: independentSet.trm,v $
+# Mon Jul 28 16:21:37 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.4  2004/12/17 17:28:14  black
 # Make more XHTML compliant.
 #
@@ -40,7 +43,7 @@ of vertices, there is no {edge} between them.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.sunysb.edu/~algorith/files/independent-set.shtml">(Fortran
+href="http://www.cs.stonybrook.edu/~algorith/files/independent-set.shtml">(Fortran
 and C)</a>
 # author's initials
 @AUTHOR=SKS
