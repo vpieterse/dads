@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 11:46:37 1998" *by "Paul E. Black"
-# *modified "Tue Jun  1 11:43:28 2010" *by "Paul E. Black"
+# *modified "Mon Jul 28 16:13:22 2014" *by "Paul E. Black"
 
 # $Log: topologicalSort.trm,v $
+# Mon Jul 28 16:25:48 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision 1.6  2010/06/01 15:46:35  black
 # Update URL for Lippert's IMPL
 #
@@ -57,7 +60,7 @@ Eric Lippert's narrative example and <a
 href="http://blogs.msdn.com/b/ericlippert/archive/2004/03/16/90851.aspx">solution
 (JScript)</a>.
 <a
-href="http://www.cs.sunysb.edu/~algorith/files/topological-sorting.shtml">(C++,
+href="http://www.cs.stonybrook.edu/~algorith/files/topological-sorting.shtml">(C++,
 Mathematica, C, and Pascal)</a>
 # author's initials
 @AUTHOR=PEB
