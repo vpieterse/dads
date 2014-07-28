@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep 30 14:33:48 2013" *by "Vreda Pieterse"
+# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Mon Jul 28 16:25:15 2014  Paul E. Black
+# update URL for Skienas Stony Brook Algorithm Respository IMPLs
+# 
 # Revision "Mon Sep 30 10:27:53 2013" *by "Vreda Pieterse"
 # Use {string matching} in IMPL instead of hard-coded link to DADS. 
 
@@ -91,7 +94,7 @@ a {suffix tree}.
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
 @IMPL=See implementations at {string matching}. <a
-href="http://www.cs.sunysb.edu/~algorith/files/approximate-pattern-matching.shtml">(C
+href="http://www.cs.stonybrook.edu/~algorith/files/approximate-pattern-matching.shtml">(C
 and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
