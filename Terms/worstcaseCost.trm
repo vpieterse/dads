@@ -1,10 +1,12 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Dec 17 12:08:45 2004" *by "Paul E. Black"
+# *modified "Tue Aug 12 11:25:54 2014" *by "Paul E. Black"
 
 # $Log: worstcaseCost.trm,v $
+# Tue Aug 12 11:31:25 2014  Paul E. Black
+# XREF new term: worst-case execution time
+# 
 # Revision 1.2  2004/12/17 17:08:45  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
-#
 
 # entry name
 @NAME=worst-case cost
@@ -26,7 +28,8 @@ occurs for the most pessimistic, or worst possible, input.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={average-case cost}, {best-case cost}, {amortized cost}, {adversary}
+@XREFS={average-case cost}, {best-case cost}, {amortized cost}, 
+{worst-case execution time}, {adversary}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
