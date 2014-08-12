@@ -1,7 +1,10 @@
 # *created  "Wed Dec 22 08:58:02 1999" *by "Paul E. Black"
-# *modified "Thu Jun  2 12:13:29 2005" *by "Paul E. Black"
+# *modified "Tue Aug 12 11:24:25 2014" *by "Paul E. Black"
 
 # $Log: worstcase.trm,v $
+# Tue Aug 12 11:29:10 2014  Paul E. Black
+# XREF new term: worst-case execution time
+# 
 # Revision 1.3  2005/06/02 16:16:13  black
 # Fix reference to BB(alpha) tree.
 #
@@ -19,6 +22,8 @@
 @DEFN=(1) The situation or input that forces an {algorithm} or {data
 structure} to take the most time or resources.
 (2) Having to do with this situation or input.
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -30,7 +35,8 @@ structure} to take the most time or resources.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={best case}, {average case}, {worst-case cost}, {amortized cost},
+@XREFS={best case}, {average case}, {worst-case cost}, 
+{worst-case execution time}, {amortized cost},
 {complexity}, {randomized algorithm}, {worst-case minimum access},
 {adversary}
 
