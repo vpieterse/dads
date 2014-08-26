@@ -1,7 +1,10 @@
 # *created  "Wed Nov 18 10:12:27 1998" *by "Paul E. Black"
-# *modified "Thu Oct 18 16:11:56 2007" *by "Paul E. Black"
+# *modified "Tue Aug 26 12:53:11 2014" *by "Paul E. Black"
 
 # $Log: hypergraph.trm,v $
+# Tue Aug 26 12:54:10 2014  Paul E. Black
+# minor grammar fix.
+# 
 # Revision 1.5  2007/10/18 20:12:14  black
 # fix DEFN: E is a SUBSET of tuples.
 #
@@ -49,7 +52,7 @@ $E \subseteq \{\{u, v, \ldots} \in 2<sup>V</sup>}$.
 If each person is a vertex, a family hyperedge connects the father,
 the mother,
 and all of their children.  So G = (people, family) is a hypergraph.
-Contrast this with the {binary relations}
+Contrast this with the {binary relation}
 ``married to,'' which connects a man and a woman, or ``child of,''
 which is directed from a child to his or her father or mother.
 # author's initials
