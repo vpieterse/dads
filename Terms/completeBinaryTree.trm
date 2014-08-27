@@ -1,7 +1,11 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Thu May 26 15:53:37 2011" *by "Paul E. Black"
+# *modified "Wed Aug 27 15:13:26 2014" *by "Paul E. Black"
 
 # $Log: completeBinaryTree.trm,v $
+# Wed Aug 27 15:13:44 2014  Paul E. Black
+# Clarify that level means depth. Perfect binary tree is a VARIANT, not
+# just an XREF.
+# 
 # Revision 1.6  2011/05/26 19:53:43  black
 # Reference the new entry, level
 #
@@ -26,7 +30,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=tree
 # the definition
-@DEFN=A {binary tree} in which every {level}, except possibly the
+@DEFN=A {binary tree} in which every {level} (depth), except possibly the
 deepest, is completely filled.  At depth $n$, the {height} of the
 tree, all {nodes} must be as far left as possible.  
 # formal definition or {cross reference} to an entry
@@ -40,13 +44,13 @@ tree, all {nodes} must be as far left as possible.
 # Generalization: "I am a kind of ..."
 @IMA={complete tree}, {binary tree}
 # Specialization: "... is a kind of me."
-@VARIANT={binary heap}
+@VARIANT={binary heap}, {perfect binary tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={full binary tree}, {perfect binary tree}, {extendible
+@XREFS={full binary tree}, {extendible
 hashing}, {heap}
 
 # any notes.  these will not be printed in the final dictionary
