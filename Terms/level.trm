@@ -1,7 +1,10 @@
 # *created  "Thu May 26 15:30:21 2011" *by "Paul E. Black"
-# *modified "Thu May 26 15:40:39 2011" *by "Paul E. Black"
+# *modified "Wed Aug 27 15:05:49 2014" *by "Paul E. Black"
 
 # $Log: level.trm,v $
+# Wed Aug 27 15:14:22 2014  Paul E. Black
+# Add a second DEFN: level means depth.
+# 
 # Revision 1.1  2011/05/26 19:45:08  black
 # Initial revision
 #
@@ -13,7 +16,8 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=tree
 # the definition
-@DEFN=All the {nodes} of a {tree} with the same {depth}.
+@DEFN=(1) All the {nodes} of a {tree} with the same {depth}.
+(2) Of a node, the depth.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
