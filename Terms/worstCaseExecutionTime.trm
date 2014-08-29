@@ -1,0 +1,49 @@
+# *created  "Tue Aug 12 11:17:14 2014" *by "Paul E. Black"
+# *modified "Tue Aug 12 11:24:56 2014" *by "Paul E. Black"
+
+# $Log$
+
+# entry name
+@NAME=worst-case execution time
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=The execution time of an {algorithm} in the {worst case}.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=WCET
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={worst-case cost}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
