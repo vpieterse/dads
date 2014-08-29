@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:03:43 1998" *by "Paul E. Black"
-# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
+# *modified "Fri Aug 29 13:40:38 2014" *by "Paul E. Black"
 
 # $Log: linkedList.trm,v $
+# Fri Aug 29 13:57:26 2014  Paul E. Black
+# IMIN jelly-fish and separate chaining.
+# 
 # Mon Jul  7 09:37:10 2014  Paul E. Black
 # Update Goletas C# Collections IMPL URL
 # 
@@ -88,7 +91,7 @@ to the next item.
 # Specialization: "... is a kind of me."
 @VARIANT={doubly linked list}, {ordered linked list}, {circular list}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={jelly-fish}, {separate chaining}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
