@@ -1,0 +1,70 @@
+# *created  "Fri Aug 29 12:47:52 2014" *by "Paul E. Black"
+# *modified "Fri Aug 29 13:33:05 2014" *by "Paul E. Black"
+
+# $Log$
+
+# entry name
+@NAME=jelly-fish
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=A theoretical data structure for $n$ items. It starts with a 
+{balanced binary search tree} of about $\sqrt\{n}$ nodes.  
+The {leaf} nodes lead to "tentacles" or {linked lists}, each of
+about $\sqrt\{n}$ nodes.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=jellyfish data structure, jelly fish structure
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={balanced binary search tree}, {linked list}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Lawrence Snyder</strong>, <em>On Uniquely Represented Data
+Structures</em>,
+Proc. 18th Annual Symposium on Foundations of Computer Science (FOCS),
+pp 142-146, 1977.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=It is described to prove a theorem, not as a useful data
+structure.  
+</p>
+
+<p>
+Synder says the tentacles may be ordered, unordered, or semi-ordered.
+For faster access to the end of the tentacle for updates, there can be
+links from the beginning ({head}) to the end ({tail}).
+</p>
+
+<p>
+This note gives more details to justify the counts above.  The body
+consists of about $\sqrt\{n}$ nodes, of which about $\sqrt\{n}/2$ would
+otherwise be considered leaf nodes.  Since each node has two subtrees,
+there are about $2 \times\sqrt\{n}/2 = \sqrt\{n}$ tentacles.
+Therefore each tentacle has about 
+$(n - \sqrt\{n}) /\sqrt\{n} = \sqrt\{n}-1$ nodes.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
