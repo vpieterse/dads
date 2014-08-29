@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 15:46:43 1999" *by "Paul E. Black"
-# *modified "Mon May 23 10:00:32 2011" *by "Paul E. Black"
+# *modified "Fri Aug 29 13:40:01 2014" *by "Paul E. Black"
 
 # $Log: balancedbist.trm,v $
+# Fri Aug 29 13:56:36 2014  Paul E. Black
+# IMIN jelly-fish, a new entry.  Fix HTML markings on bibliographical NOTE.
+# 
 # Revision 1.8  2011/05/23 14:00:52  black
 # update URL for Ben Pfaff's work
 #
@@ -42,7 +45,7 @@
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={jelly-fish}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
@@ -58,7 +61,7 @@ searching, and binary.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Usually "balanced" means "height balanced".
 <br />
-<strong>Quentin F. Stout</strong> and </strong>Bette L. Warren,</strong>,
+<strong>Quentin F. Stout</strong> and <strong>Bette L. Warren</strong>,
 <em>Tree Rebalancing in Optimal Time and Space</em>,
 CACM, 29(9):902-908, September 1986.
 
