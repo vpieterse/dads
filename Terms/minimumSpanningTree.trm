@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:40:43 1998" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:19 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:44:21 2014" *by "Paul E. Black"
 
 # $Log: minimumSpanningTree.trm,v $
+# Tue Sep  2 08:44:27 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:23:31 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -90,7 +93,7 @@ Eppstein's lecture
 and contrasting MST algorithms</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/minimum-spanning-tree.shtml">(C++,
+href="http://www3.cs.stonybrook.edu/~algorith/files/minimum-spanning-tree.shtml">(C++,
 Pascal, Fortran, C, and Mathematica)</a>.
 CALGO <a href="http://www.netlib.org/toms/613">Algorithm 613 (Fortran)</a>.
 # author's initials
