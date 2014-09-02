@@ -1,7 +1,10 @@
 # *created  "Wed Dec 12 15:13:56 2001" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:18 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:43:35 2014" *by "Paul E. Black"
 
 # $Log: maximallyConnectedComponent.trm,v $
+# Tue Sep  2 08:43:41 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:22:59 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -60,7 +63,7 @@ graph.  Also know as "connected component", with the "maximal"
 property understood.
 # further explanation (pure HTML)
 @LINKS=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
+href="http://www3.cs.stonybrook.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</a>
 # implementation(s) (pure HTML)
 @IMPL=
