@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:17 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:42:55 2014" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Tue Sep  2 08:43:01 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:22:19 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -102,7 +105,7 @@ From <a href="http://xkcd.com/">xkcd</a> by
 Attribution-NonCommercial 2.5 License</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/knapsack.shtml">(Fortran
+href="http://www3.cs.stonybrook.edu/~algorith/files/knapsack.shtml">(Fortran
 and Pascal)</a>.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Class/G2c3/">Class G2c3
 (Fortran)</a>.
