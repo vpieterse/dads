@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:07 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:36:59 2014" *by "Paul E. Black"
 
 # $Log: binpacking.trm,v $
+# Tue Sep  2 08:37:10 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:18:48 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -60,7 +63,7 @@ Thanks to Frank A. Adrian &lt;fadrian@symantec.com&gt;, 28 January 2000.
 and references</a>.
 Suggestions on
 <a
-href="http://www.cs.stonybrook.edu/~algorith/files/bin-packing.shtml">books
+href="http://www3.cs.stonybrook.edu/~algorith/files/bin-packing.shtml">books
 and related topics</a>.
 # implementation(s) (pure HTML)
 @IMPL=
