@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Fri Mar 28 15:53:12 2014" *by "Paul E. Black"
+dnl *modified "Tue Sep  2 08:24:32 2014" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Tue Sep  2 08:56:14 2014  Paul E. Black
+dnl Change www.cs.sunysb.edu to www3.cs.stonybrook.edu for Stony Brook URL
+dnl 
 dnl Fri Mar 28 15:53:52 2014  Paul E. Black
 dnl Correctly update link to FUN 2014.
 dnl 
@@ -78,7 +81,7 @@ Here are some references on algorithms and data structures.
 </p>
 
 <p>
-The <a href="http://www.cs.sunysb.edu/~algorith/">Stony Brook
+The <a href="http://www3.cs.stonybrook.edu/~algorith/">Stony Brook
 Algorithm Repository</a>, which has algorithms organized by type,
 succinct, illustrated definitions, and ratings of sites with
 implementations.
@@ -144,7 +147,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Fri Mar 28 15:53:12 2014
+Tue Sep  2 08:24:32 2014
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
