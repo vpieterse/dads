@@ -1,7 +1,10 @@
 dnl *created  "Wed Nov 18 08:51:04 1998" *by "Paul E. Black"
-dnl *modified "Tue May  6 13:19:25 2014" *by "Paul E. Black"
+dnl *modified "Tue Sep  2 08:24:19 2014" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Tue Sep  2 08:56:48 2014  Paul E. Black
+dnl Change www.cs.sunysb.edu to www3.cs.stonybrook.edu for Stony Brook URL
+dnl 
 dnl Tue May  6 13:46:29 2014  Paul E. Black
 dnl Remove second include of bits Fix Defn.  Put first include on its own line.
 dnl 
@@ -67,7 +70,7 @@ concur with the facts presented on these sites.
 <p>
 A great source of implementations, organized by area and reviewed for
 quality, is the
-<a href="http://www.cs.sunysb.edu/~algorith/">Stony Brook
+<a href="http://www3.cs.stonybrook.edu/~algorith/">Stony Brook
 Algorithm Repository</a>.  A great source of implementations of
 mathematical functions is the NIST
 <a href="http://gams.nist.gov/">Guide to Available Mathematical
