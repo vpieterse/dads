@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:47:26 2014" *by "Paul E. Black"
 
 # $Log: steinertree.trm,v $
+# Tue Sep  2 08:47:29 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:25:01 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -81,7 +84,7 @@ trees.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/steiner-tree.shtml">(C
+href="http://www3.cs.stonybrook.edu/~algorith/files/steiner-tree.shtml">(C
 and Pascal)</a>.
 # author's initials
 @AUTHOR=JLG
