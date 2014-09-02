@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:22 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:49:17 2014" *by "Paul E. Black"
 
 # $Log: vertexcolor.trm,v $
+# Tue Sep  2 08:49:23 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:26:26 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -53,7 +56,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/vertex-coloring.shtml">(Fortran,
+href="http://www3.cs.stonybrook.edu/~algorith/files/vertex-coloring.shtml">(Fortran,
 C, Pascal, C++, and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB, CRC-A
