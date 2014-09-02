@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Mon Dec  2 10:38:05 2013" *by "Paul E. Black"';
+$versionMod=' *modified "Tue Sep  2 08:53:14 2014" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,9 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Tue Sep  2 08:59:09 2014  Paul E. Black
+# Start emacs with cursor at line 3, where comments should begin
+# 
 # Mon Dec  2 10:43:08 2013  Paul E. Black
 # Add a reminder to put commit messages after the "Modify" line.  Exit
 # if the first line is not the "Modify" line after user edits.
@@ -191,7 +194,8 @@ print $DIFF_FH "$differences";
 close $DIFF_FH;
 
 # start an editor so the user can add a commit message
-system "emacs $diffFile";
+#    +3 moves the cursor to line 3, where comments should begin
+system "emacs +3 $diffFile";
 
 # get the text that was just added (and file name) as commit message
 my $message = `grep -v "^DIFF: " $diffFile`;
