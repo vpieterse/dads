@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:19 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:44:47 2014" *by "Paul E. Black"
 
 # $Log: partition.trm,v $
+# Tue Sep  2 08:44:53 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:23:48 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -77,7 +80,7 @@ Thanks to Julio A. Cartaya &lt;jac@puma.mt.att.com&gt;.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/generating-partitions.shtml">generating
+href="http://www3.cs.stonybrook.edu/~algorith/files/generating-partitions.shtml">generating
 partitions (Fortran, Mathematica, Pascal, and C)</a>,
 <a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/partition.html">(Scheme)</a>
 # author's initials
