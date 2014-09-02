@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:47:56 2014" *by "Paul E. Black"
 
 # $Log: stronglyConnectedGraph.trm,v $
+# Tue Sep  2 08:48:02 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:25:30 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -54,7 +57,7 @@ Appearing in the Dictionary of Computer Science, Engineering and Technology, Cop
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
+href="http://www3.cs.stonybrook.edu/~algorith/files/dfs-bfs.shtml">(C++, C,
 Pascal, Mathematica, and Fortran)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
