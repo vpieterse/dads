@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:15 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:41:15 2014" *by "Paul E. Black"
 
 # $Log: graphPartition.trm,v $
+# Tue Sep  2 08:41:22 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:21:07 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -45,7 +48,7 @@ spanning {edges} low.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.cs.stonybrook.edu/~algorith/files/graph-partition.shtml">(C++)</a>
+href="http://www3.cs.stonybrook.edu/~algorith/files/graph-partition.shtml">(C++)</a>
 explanation of problem with links to implementations.
 <a href="http://glaros.dtc.umn.edu/gkhome/views/metis/metis/">METIS</a>
 is a set of programs for partitioning graphs, etc.
