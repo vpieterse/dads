@@ -1,7 +1,10 @@
 # *created  "Fri Jul 23 16:34:11 2004" *by "Vadim Okun"
-# *modified "Mon Jul 28 16:12:45 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:35:23 2014" *by "Paul E. Black"
 
 # $Log: ahoCorasick.trm,v $
+# Tue Sep  2 08:36:26 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:18:24 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -56,8 +59,7 @@ the text string in a single pass.  The number of transitions made
 by the machine is independent of the number of keywords.
 # implementation(s) (pure HTML)
 @IMPL=Bruce Watson's 
-<a
-href="http://www.cs.stonybrook.edu/~algorith/implement/watson/implement.shtml">SPARE
+<a href="http://www3.cs.stonybrook.edu/~algorith/implement/watson/implement.shtml">SPARE
 Parts, a string pattern recognition toolkit (C++)</a>.
 # further explanation (pure HTML)
 @LINKS=
