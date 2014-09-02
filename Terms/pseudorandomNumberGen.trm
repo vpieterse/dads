@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:20 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:45:18 2014" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Tue Sep  2 08:45:29 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:24:07 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -137,7 +140,7 @@ test the randomness of bytes in a file.
 
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
+href="http://www3.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
 pLab's page on
 <a href="http://random.mat.sbg.ac.at/generators/">generators</a>
