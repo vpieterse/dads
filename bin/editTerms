@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 $versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.14 2013/10/01 13:36:05 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Mon Jul 28 16:15:07 2014" *by "Paul E. Black"';
+$versionMod=' *modified "Tue Sep  2 08:33:27 2014" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -9,7 +9,7 @@ $versionMod=' *modified "Mon Jul 28 16:15:07 2014" *by "Paul E. Black"';
 #
 $useMsg = "use: editTerms [--help] [--version] [--force] *.trm";
 $minOperands = 1;
-$typUse = "for f in `grep -l vertices Terms/*.trm`; editTerms \$f; done";
+$typUse = "for f in `grep -l vertices Terms/*.trm`; do editTerms \$f; gcommit \$f; done";
 #
 # This software was developed at the National Institute of Standards 
 # and Technology by employees of the Federal Government in the course 
@@ -25,6 +25,10 @@ $typUse = "for f in `grep -l vertices Terms/*.trm`; editTerms \$f; done";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Tue Sep  2 08:58:17 2014  Paul E. Black
+# Fix typical use message, include "do".  Also improve message to show
+# how to invoke gcommit.
+# 
 # Mon Jul 28 16:43:32 2014  Paul E. Black
 # Improve the "typical use" message, since editTerms, which uses
 # gcommit, does not work well with multiple input files.  Update help
@@ -38,7 +42,6 @@ $typUse = "for f in `grep -l vertices Terms/*.trm`; editTerms \$f; done";
 # Change code since we now use git for version control.  Add a $Log$ line.
 # Exit if a file cannot be opened, written, or closed.  It may signify
 # serious problems.
-# 
 
 #------------------------------------------------------------------------------
 #	Command line handling
@@ -103,7 +106,7 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Mon Jul 28/) {
+if ($checkDate && localtime() !~ /Tue Sep  2/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -176,8 +179,7 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s|://www.cs.stonybrook.edu/|http://www.cs.stonybrook.edu/|g;
-		$line =~ s|http://www.cs.sunysb.edu/|http://www.cs.stonybrook.edu/|g;
+		$line =~ s|://www.cs.stonybrook.edu/|://www3.cs.stonybrook.edu/|g;
 
 		print TERM $line;
 	    }
