@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:22 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:48:30 2014" *by "Paul E. Black"
 
 # $Log: transitiveClosure.trm,v $
+# Tue Sep  2 08:54:26 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:25:54 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -45,7 +48,7 @@ Vreda Pieterse's explanation of binary relations and transitive
 closure with links to <a
 href="http://www.cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">implementations (C++)</a>;
 Stony Brook's explanation and links to <a
-href="http://www.cs.stonybrook.edu/~algorith/files/transitive-closure.shtml">implementations
+href="http://www3.cs.stonybrook.edu/~algorith/files/transitive-closure.shtml">implementations
 (C++ and Mathematica)</a>.
 # author's initials
 @AUTHOR=SKS
