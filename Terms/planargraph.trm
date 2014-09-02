@@ -1,7 +1,10 @@
 # *created  "Tue Mar  9 08:38:47 1999" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:20 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:45:07 2014" *by "Paul E. Black"
 
 # $Log: planargraph.trm,v $
+# Tue Sep  2 08:45:12 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:24:01 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -54,7 +57,7 @@ complete {bipartite graph} with 3 vertices in each partition.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/planar-drawing.shtml">draw
+href="http://www3.cs.stonybrook.edu/~algorith/files/planar-drawing.shtml">draw
 a planar graph such that no edges cross (C, C++, and Mathematica)</a>
 # author's initials
 @AUTHOR=JLG
