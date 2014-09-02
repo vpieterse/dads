@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:47:38 2014" *by "Paul E. Black"
 
 # $Log: stringMatchwError.trm,v $
+# Tue Sep  2 08:47:44 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:25:15 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -94,7 +97,7 @@ a {suffix tree}.
 String Comparison</em></a> 2001.
 # implementation(s) (pure HTML)
 @IMPL=See implementations at {string matching}. <a
-href="http://www.cs.stonybrook.edu/~algorith/files/approximate-pattern-matching.shtml">(C
+href="http://www3.cs.stonybrook.edu/~algorith/files/approximate-pattern-matching.shtml">(C
 and Pascal)</a>
 # author's initials (see authors.data)
 @AUTHOR=CRC-A
