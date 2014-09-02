@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:15:04 1998" *by "Paul E. Black"
-# *modified "Mon Jul 28 16:13:21 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:47:11 2014" *by "Paul E. Black"
 
 # $Log: shortestpath.trm,v $
+# Tue Sep  2 08:47:15 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:24:48 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -61,7 +64,7 @@ backward until you reach i.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/shortest-path.shtml">(C,
+href="http://www3.cs.stonybrook.edu/~algorith/files/shortest-path.shtml">(C,
 C++, Pascal, Fortran, and Mathematica)</a>
 # author's initials
 @AUTHOR=PEB
