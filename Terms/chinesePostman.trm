@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jul 28 16:13:07 2014" *by "Paul E. Black"
+# *modified "Tue Sep  2 08:37:18 2014" *by "Paul E. Black"
 
 # $Log: chinesePostman.trm,v $
+# Tue Sep  2 08:37:27 2014  Paul E. Black
+# Change stonybrook.edu URL in IMPL
+# 
 # Mon Jul 28 16:19:02 2014  Paul E. Black
 # update URL for Skienas Stony Brook Algorithm Respository IMPLs
 # 
@@ -96,7 +99,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.cs.stonybrook.edu/~algorith/files/eulerian-cycle.shtml">(C++,
+href="http://www3.cs.stonybrook.edu/~algorith/files/eulerian-cycle.shtml">(C++,
 Mathematica
 and Fortran)</a>
 # author's initials (see authors.data)
