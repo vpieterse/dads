@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:53:51 2004" *by "Paul E. Black"
+# *modified "Mon Sep 29 09:06:55 2014" *by "Paul E. Black"
 
 # $Log: qmsort.trm,v $
+# Mon Sep 29 09:07:03 2014  Paul E. Black
+# update URL for Pat Morins sorting algorithm visualizations
+# 
 # Revision 1.2  2004/12/17 16:53:52  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -38,7 +41,7 @@
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
+@IMPL=<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/qmsort.trm,v $
