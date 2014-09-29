@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:45:18 2014" *by "Paul E. Black"
+# *modified "Mon Sep 29 09:27:38 2014" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Sep 29 09:29:54 2014  Paul E. Black
+# Find another URL for C FAQ question 13.16 to get random numbers in a range
+# 
 # Tue Sep  2 08:45:29 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -149,8 +152,8 @@ including links to software and papers.
 cryptographically secure pseudorandom number generator.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
-Using C libraries to get <a
-href="http://www.avrfreaks.net/index.php?name=PNphpBB2&file=viewtopic&p=254771">random
+Using C libraries to get 
+<a href="http://c-faq.com/lib/randrange.html">random
 numbers in a certain range (C)</a> is C FAQ question 13.16,
 <a href="http://www.lysator.liu.se/c/c-faq/c-12.html">C FAQ question
 12.9 as of 1995 (C)</a>, or
