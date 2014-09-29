@@ -1,7 +1,10 @@
 # *created  "Wed Sep 20 11:06:09 2006" *by "Paul E. Black"
-# *modified "Mon Jan 24 13:19:12 2011" *by "Paul E. Black"
+# *modified "Mon Sep 29 09:04:47 2014" *by "Paul E. Black"
 
 # $Log: JSort.trm,v $
+# Mon Sep 29 09:06:09 2014  Paul E. Black
+# update URL for Pat Morins sorting algorithm visualizations
+# 
 # Revision 1.7  2011/01/24 18:19:57  black
 # update Morrison's URL
 #
@@ -61,7 +64,7 @@ The implementation attributes the algorithm to
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://cg.scs.carleton.ca/~morin/misc/sortalg/">Demonstration and source code (Java)</a>.
+<a href="http://cglab.ca/~morin/misc/sortalg/">Demonstration and source code (Java)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/JSort.trm,v $
