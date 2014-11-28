@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Jun  2 14:30:49 2006" *by "Paul E. Black"
+# *modified "Fri Nov 28 14:40:05 2014" *by "Paul E. Black"
 
 # $Log: countingsort.trm,v $
+# Fri Nov 28 14:53:12 2014  Paul E. Black
+# Generalize/clarify when counting sort is efficient
+# 
 # Revision 1.5  2006/06/02 18:33:25  black
 # Counting sort is not a simplistic radix sort - there are many subtle
 # approximations.  XREF pigeonhole sort and NOTE the contrast with it.
@@ -25,8 +28,8 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=sort
 # the definition
-@DEFN=A 2-pass {sort} algorithm that is efficient when the range
-of {keys} is small and there many duplicate keys.  The first
+@DEFN=A 2-pass {sort} algorithm that is efficient when the number of
+distinct {keys} is small compared to the number of items.  The first
 pass counts the occurrences of each key in an auxiliary {array}, and
 then makes a running total so each auxiliary entry is the number of
 preceding keys.  The second pass puts each item in its final place
