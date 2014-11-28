@@ -1,7 +1,11 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:02 2013" *by "Paul E. Black"
+# *modified "Fri Nov 28 14:36:48 2014" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Fri Nov 28 14:55:14 2014  Paul E. Black
+# Add that counting sort may be INME.  Improve formatting of example.
+# Remove NOTE about an in-place variant of radix sort.  It is NOT in-place.
+# 
 # Revision 1.13  2013/08/22 19:42:03  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -40,7 +44,6 @@
 # Revision 1.2  2004/12/17 15:51:26  black
 # Add XREF top-down radix sort.  Refine XREFS into IMA, etc.  Add RCS
 # keywords.  Make more XHTML compliant.
-#
 
 # entry name
 @NAME=radix sort
@@ -64,7 +67,7 @@ significant part of the key.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={counting sort} may be an appropriate algorithm for each pass.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={postman's sort}, {bucket sort},
 {American flag sort}, {top-down radix sort}
@@ -73,35 +76,32 @@ significant part of the key.
 @NOTES=
 Here is a simple example of the sort.  Suppose the input keys are
 34, 12, 42, 32, 44, 41, 34, 11, 32, and 23.  Four buckets are
-appropriate, since there are four different digits.
+appropriate, since there are four different digits (1, 2, 3, and 4).
 The first pass distributes the keys into buckets by the least
 significant digit.  Half way through the first pass, the buckets
 contain the following, where each line is a bucket.<br />
+B1: <br />
+B2: 12 42 32<br />
+B3: <br />
+B4: 34 44<br />
 <br />
-12 42 32<br />
-<br />
-34 44<br />
 When the first pass is done, we have the following.<br />
-41 11<br />
-12 42 32 32<br />
-23<br />
-34 44 34<br />
+B1: 41 11<br />
+B2: 12 42 32 32<br />
+B3: 23<br />
+B4: 34 44 34<br />
+<br />
 We collect these, keeping their relative order: 
 41 11 12 42 32 32 23 34 44 34.
 Now we distribute by the next most significant digit, which is the
 highest digit, and we get the following.<br />
-11 12<br />
-23<br />
-32 32 34 34<br />
-41 42 44<br />
+B1: 11 12<br />
+B2: 23<br />
+B3: 32 32 34 34<br />
+B4: 41 42 44<br />
+<br />
 When we collect them, they are in order: 
 11 12 23 32 32 34 34 41 42 44.
-</p>
-
-<p>
-<a href="../terms.html#CLR90">[CLR90, page 179]</a> gives an
-{in-place#in-place sort} variant of radix sort which
-uses a {stable} sort on each digit of the key.
 </p>
 
 <p>
