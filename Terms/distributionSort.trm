@@ -1,7 +1,10 @@
 # *created  "Wed Mar  3 16:25:25 1999" *by "Paul E. Black"
-# *modified "Fri Jun  2 14:18:48 2006" *by "Paul E. Black"
+# *modified "Fri Nov 28 14:38:27 2014" *by "Paul E. Black"
 
 # $Log: distributionSort.trm,v $
+# Fri Nov 28 14:53:49 2014  Paul E. Black
+# Improve wording.
+# 
 # Revision 1.5  2006/06/02 18:19:12  black
 # Histogram sort is not a distribution sort, according to the definition.
 #
@@ -23,8 +26,8 @@
 # basic theory numeric search sort tree graph combin(atorial) para(llel) crypt
 @AREA=sort
 # the definition
-@DEFN=Any {sort} algorithm where data is distributed from
-its input to multiple intermediate structures 
+@DEFN=Any {sort} algorithm where items are distributed from
+the input to multiple intermediate structures,
 which are then gathered and placed on the output.
 
 #    These are all comma-separated lists of {cross references}
