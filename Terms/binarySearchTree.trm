@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
+# *modified "Mon Jan 26 10:34:12 2015" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Mon Jan 26 10:36:06 2015  Paul E. Black
+# Update URL of IMPL in Michael Gross slides
+# 
 # Mon Jul  7 09:36:32 2014  Paul E. Black
 # Update Goletas C# Collections IMPL URL
 # 
@@ -129,7 +132,7 @@ Maksim Goleta's
 trees, AVL trees, and dictionaries.
 # class slides of Dr. Michael E. Gross
 <a
-href="http://classes.soe.ucsc.edu/cmps012b/Spring97/Lecture16/sld013.htm">insert
+href="https://classes.soe.ucsc.edu/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
