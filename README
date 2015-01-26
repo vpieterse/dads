@@ -1,7 +1,7 @@
 Descriptions of files and directories in DADS.  This is not complete.
 
  *created  "Wed Feb  8 09:46:31 2012" *by "Paul E. Black"
- *modified "Wed May  7 16:40:08 2014" *by "Paul E. Black"
+ *modified "Mon Jan 26 11:02:00 2015" *by "Paul E. Black"
 
 FILES
 
@@ -11,9 +11,9 @@ mkcommon.pl
 mksite.pl
   This is a copy of or link to mksiteNIST.pl or mksiteFastar.pl
 mksiteNIST.pl
-  configuration everything for NIST
+  configure everything for NIST
 mksiteFastar.pl
-  configuration everything for FASTAR
+  configure everything for FASTAR
 information files
   areas.data
   authors.data
