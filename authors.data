@@ -1,4 +1,4 @@
-# $Id: authors.data,v 1.23 2011/04/25 20:46:47 black Exp $
+# $Id$
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
@@ -6,7 +6,13 @@
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Wed Oct 16 11:10:59 2013" *by "Paul E. Black"
+# *modified "Mon Jan 26 10:57:19 2015" *by "Paul E. Black"
+#
+# $Log$
+# Mon Jan 26 10:57:59 2015  Paul E. Black
+# Update Conrado Martinez URL. Add Log line and remove out-of-date Id info.
+# 
+#
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
 PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
@@ -20,7 +26,7 @@ BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
 ASK	Art S. Kagel	kagel@bloomberg.net
 CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
 KSL	Kim Skak Larsen	kslarsen@imada.sdu.dk, http://www.imada.sdu.dk/~kslarsen/
-CM	Conrado Martinez	Conrado.Martinez@lsi.upc.es, http://www.lsi.upc.edu/~conrado/
+CM	Conrado Martinez	Conrado.Martinez@lsi.upc.es, http://www.cs.upc.edu/~conrado/
 JM	Jason McCabe	Jason.McCabe@wcom.com
 DM	David Monniaux	David.Monniaux@ens.fr.cuckoo-to-be-removed
 VO	Vadim Okun	vokun.okun@nist.gov
