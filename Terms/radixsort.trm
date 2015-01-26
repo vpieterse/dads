@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Fri Nov 28 14:36:48 2014" *by "Paul E. Black"
+# *modified "Mon Jan 26 11:05:00 2015" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Mon Jan 26 11:11:39 2015  Paul E. Black
+# Remove trailing period (.) of INME line - formatting adds one.
+# 
 # Fri Nov 28 14:55:14 2014  Paul E. Black
 # Add that counting sort may be INME.  Improve formatting of example.
 # Remove NOTE about an in-place variant of radix sort.  It is NOT in-place.
@@ -67,7 +70,7 @@ significant part of the key.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={counting sort} may be an appropriate algorithm for each pass.
+@INME={counting sort} may be an appropriate algorithm for each pass
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={postman's sort}, {bucket sort},
 {American flag sort}, {top-down radix sort}
