@@ -1,7 +1,10 @@
 # *created  "Wed Jan 14 09:48:02 2009" *by "Paul E. Black"
-# *modified "Fri Oct  8 12:23:02 2010" *by "Paul E. Black"
+# *modified "Mon Jan 26 10:49:54 2015" *by "Paul E. Black"
 
 # $Log: reservoirSampling.trm,v $
+# Mon Jan 26 10:50:56 2015  Paul E. Black
+# Update wordpress IMPL URL
+# 
 # Revision 1.8  2010/10/08 16:25:37  black
 # improve wording
 #
@@ -85,7 +88,7 @@ He credits Alan G. Waterman.  This algorithm is suggested in exercise 10.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://webkist.wordpress.com/2008/10/01/reservoir-sampling-in-perl/">(Perl)</a>.
+<a href="https://webkist.wordpress.com/2008/10/01/reservoir-sampling-in-perl/">(Perl)</a>.
 
 # further explanation (pure HTML)
 @LINKS=
