@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:27:38 2014" *by "Paul E. Black"
+# *modified "Mon Jan 26 10:46:48 2015" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Jan 26 10:48:41 2015  Paul E. Black
+# Update LINK to NISTs Random Number Generation page
+# 
 # Mon Sep 29 09:29:54 2014  Paul E. Black
 # Find another URL for C FAQ question 13.16 to get random numbers in a range
 # 
@@ -135,8 +138,9 @@ Numbers</a> from David Wheeler's <em>Secure Programming for Linux and
 Unix HOWTO</em>, Section 11.3, gives suggestions and guidelines.
 
 # further explanation (pure HTML)
-@LINKS=<a href="http://csrc.nist.gov/rng/">Random Number Generation
-and Testing</a> with links to reports, standard tests, and on-going
+@LINKS=
+<a href="http://csrc.nist.gov/groups/ST/toolkit/random_number.html">Random 
+Number Generation</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
