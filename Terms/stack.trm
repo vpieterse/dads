@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:55:08 1998" *by "Paul E. Black"
-# *modified "Mon Jul  7 09:34:40 2014" *by "Paul E. Black"
+# *modified "Mon Feb  9 09:02:04 2015" *by "Paul E. Black"
 
 # $Log: stack.trm,v $
+# Mon Feb  9 09:02:43 2015  Paul E. Black
+# Remove Grinnell IMPL: cannot access.
+# 
 # Mon Jul  7 09:37:31 2014  Paul E. Black
 # Update Goletas C# Collections IMPL URL
 # 
@@ -137,8 +140,6 @@ Bro. David Carlson's
 <a
 href="http://cis.stvincent.edu/html/tutorials/swd/stacks/stacks.html">tutorial
 and code (C++)</a>.
-<a
-href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/stacks.html">(Scheme)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/stack.trm,v $
