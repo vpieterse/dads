@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:01 2013" *by "Paul E. Black"
+# *modified "Mon Mar  2 15:52:51 2015" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Mar  2 15:59:48 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
 # Revision 1.17  2013/08/22 19:42:02  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -121,8 +124,6 @@ Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 (Java and C++)</a>.
-<a
-href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/quicksort.html">(Scheme)</a>.
 <a
 href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
 compare (Rexx)</a>, 
