@@ -1,7 +1,10 @@
 # *created  "Fri Apr 28 09:42:41 2000" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:42 2008" *by "Paul E. Black"
+# *modified "Mon Mar  2 16:10:17 2015" *by "Paul E. Black"
 
 # $Log: johnsonTrotter.trm,v $
+# Mon Mar  2 16:12:23 2015  Paul E. Black
+# Remove Combinatorial Object Server IMPL - all of COS is gone.
+# 
 # Revision 1.7  2008/08/14 16:14:43  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -68,9 +71,7 @@ or
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Information on
-Permutations (Pascal and C)</a>, look for Transposition Order.
+@IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/johnsonTrotter.trm,v $
