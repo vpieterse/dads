@@ -1,7 +1,10 @@
 # *created  "Tue Jun  5 08:43:23 2001" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:22:57 2013" *by "Paul E. Black"
+# *modified "Mon Mar  2 16:10:27 2015" *by "Paul E. Black"
 
 # $Log: combination.trm,v $
+# Mon Mar  2 16:11:34 2015  Paul E. Black
+# Remove Combinatorial Object Server IMPL - all of COS is gone.
+# 
 # Revision 1.4  2013/08/22 19:23:32  black
 # Gilleland's server is gone.
 #
@@ -60,9 +63,7 @@ so divide by $m!$, too.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=The Combinatorial Object Server's information on <a
-href="http://www.theory.csc.uvic.ca/~cos/inf/comb/CombinationsInfo.html">Combinations
-(Pascal and C)</a>;
+@IMPL=
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/combination.trm,v $
