@@ -1,7 +1,10 @@
 # *created  "Mon Apr 12 14:18:14 1999" *by "Paul E. Black"
-# *modified "Thu Aug 22 15:42:03 2013" *by "Paul E. Black"
+# *modified "Mon Mar  2 15:52:39 2015" *by "Paul E. Black"
 
 # $Log: selectAndPartition.trm,v $
+# Mon Mar  2 16:00:09 2015  Paul E. Black
+# Remove John David Stone (Grinnell) IMPL - Stones account is entirely gone.
+# 
 # Revision 1.5  2013/08/22 19:42:03  black
 # update URL for Alex Lopez-Ortiz at U waterloo
 #
@@ -51,8 +54,7 @@ element.
 @IMPL=
 Vladimir Zabrodsky's
 <a href="http://dhost.info/zabrodskyvlada/3alg.html">analysis
-and comparison (Rexx)</a>,
-<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/kth-least.html">(Scheme)</a>
+and comparison (Rexx)</a>
 # author's initials
 @AUTHOR=VZ
 # end $Source: /home/black/Workspace/dads/Terms/RCS/selectAndPartition.trm,v $
