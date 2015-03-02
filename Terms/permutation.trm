@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:44:57 2014" *by "Paul E. Black"
+# *modified "Mon Mar  2 16:09:50 2015" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Mon Mar  2 16:12:44 2015  Paul E. Black
+# Remove Combinatorial Object Server IMPL - all of COS is gone.
+# 
 # Tue Sep  2 08:45:03 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -94,9 +97,7 @@ There are {$n!$#factorial} permutations of $n$ (distinguishable) elements.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=The (Combinatorial) Object Server's information on <a
-href="http://www.theory.csc.uvic.ca/~cos/inf/perm/PermInfo.html">Permutations
-(Pascal and C)</a>;
+@IMPL=
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</a>;
