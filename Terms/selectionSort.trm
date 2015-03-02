@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Jul 21 09:13:04 2014" *by "Paul E. Black"
+# *modified "Mon Mar  2 15:53:37 2015" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Mon Mar  2 16:00:31 2015  Paul E. Black
+# Remove John David Stone (Grinnell) IMPL - his account is entirely gone.
+# 
 # Mon Jul 21 09:20:13 2014  Paul E. Black
 # Remove Ted Billards IMPL - page gone.  Improve wording of DEFN a little.
 # 
@@ -123,7 +126,6 @@ Simple Programming Tutorials'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
-<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/selection.html">(Scheme)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/selectionSort.trm,v $
