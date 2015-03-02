@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:48:04 2014" *by "Paul E. Black"
+# *modified "Mon Mar  2 16:07:08 2015" *by "Paul E. Black"
 
 # $Log: subset.trm,v $
+# Mon Mar  2 16:12:56 2015  Paul E. Black
+# Remove Combinatorial Object Server IMPL - all of COS is gone.
+# 
 # Tue Sep  2 08:54:56 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -55,9 +58,7 @@ A combination is a subset with exactly $n$ elements.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=The Combinatorial Object Server's information on <a
-href="http://www.theory.csc.uvic.ca/~cos/inf/comb/SubsetInfo.html">subsets
-(Pascal and C)</a>;
+@IMPL=
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/generating-subsets.shtml">generating
 subsets (Fortran, Mathematica, and Pascal)</a>
