@@ -1,7 +1,10 @@
 # *created  "Wed Jun 21 12:45:09 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:49:36 2004" *by "Paul E. Black"
+# *modified "Mon Mar  2 16:10:03 2015" *by "Paul E. Black"
 
 # $Log: derangement.trm,v $
+# Mon Mar  2 16:11:53 2015  Paul E. Black
+# Remove Combinatorial Object Server LINK - all of COS is gone.
+# 
 # Revision 1.2  2004/12/17 16:49:37  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -31,8 +34,7 @@ position.
 # any notes.  these are not printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
-@LINKS=The (Combinatorial) Object Server's information on <a
-href="http://www.theory.csc.uvic.ca/~cos/inf/perm/Derangements.html">Derangements</a>
+@LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
