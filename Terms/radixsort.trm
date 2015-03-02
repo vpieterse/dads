@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Mon Jan 26 11:05:00 2015" *by "Paul E. Black"
+# *modified "Mon Mar  2 15:53:52 2015" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Mon Mar  2 15:59:55 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
 # Mon Jan 26 11:11:39 2015  Paul E. Black
 # Remove trailing period (.) of INME line - formatting adds one.
 # 
@@ -115,9 +118,7 @@ list point to the {head} of the next list.  (After <strong>Steven
 Pigeon</strong>, <em>QuickSort and Radix Sorts on Lists</em>,
 Dr. Dobb's Journal, May 2002, pages 89-94.)
 # implementation(s) (pure HTML)
-@IMPL=<a
-href="http://www.cs.grinnell.edu/~stone/courses/fundamentals/radix-sorting.html">Explanation
-and code (Pascal)</a>.
+@IMPL=
 <a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/424.sort.c">(C
 and Pascal)</a>.
