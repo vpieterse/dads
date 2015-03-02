@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:44:02 2014" *by "Paul E. Black"
+# *modified "Mon Mar  2 15:53:02 2015" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Mon Mar  2 15:59:29 2015  Paul E. Black
+# Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
+# 
 # Tue Sep  2 08:44:18 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -120,8 +123,6 @@ and double merge sort (Java)</a>;
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/merge.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
-John David Stone's
-<a href="http://www.cs.grinnell.edu/~stone/events/scheme-workshop/mergesort.html">(Scheme)</a>.
 Siegfried Sielaff's description and code of an <a
 href="http://www.siegfried.sielaff.at/">in-place, stable variant he
 calls Swap Sort (C)</a> (click the British flag for an English
