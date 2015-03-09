@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  2 16:09:50 2015" *by "Paul E. Black"
+# *modified "Mon Mar  9 13:31:16 2015" *by "Paul E. Black"
 
 # $Log: permutation.trm,v $
+# Mon Mar  9 13:32:02 2015  Paul E. Black
+# Add Bostocks IMPL and animations of different permutation algorithms.
+# 
 # Mon Mar  2 16:12:44 2015  Paul E. Black
 # Remove Combinatorial Object Server IMPL - all of COS is gone.
 # 
@@ -102,6 +105,9 @@ There are {$n!$#factorial} permutations of $n$ (distinguishable) elements.
 href="http://www3.cs.stonybrook.edu/~algorith/files/generating-permutations.shtml">(Pascal,
 Fortran, Mathematica, and C)</a>;
 <a href="http://gams.nist.gov/serve.cgi/Class/N8">(Fortran)</a>.
+Mike Bostock's animations of different
+<a href="http://bost.ocks.org/mike/shuffle/">permutation algorithms
+with code (JavaScript)</a>.
 <a
 href="http://okmij.org/ftp/Haskell/perfect-shuffle.txt">Perfect
 shuffle (Haskell)</a>.
