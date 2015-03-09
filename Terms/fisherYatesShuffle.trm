@@ -1,7 +1,10 @@
 # *created  "Fri Jul 30 12:27:00 2004" *by "Paul E. Black"
-# *modified "Mon May 23 09:50:27 2011" *by "Paul E. Black"
+# *modified "Mon Mar  9 13:28:07 2015" *by "Paul E. Black"
 
 # $Log: fisherYatesShuffle.trm,v $
+# Mon Mar  9 13:29:07 2015  Paul E. Black
+# Add Bostocks IMPL and animations of different shuffling algorithms.
+# 
 # Revision 1.15  2011/05/23 14:27:09  black
 # Update URLs for Pfaff's and Sedgewick and Wayne's IMPL
 #
@@ -111,6 +114,9 @@ Python, particularly v2.6.1.)
 Ben Pfaff's answer to
 <a href="http://benpfaff.org/writings/clc/shuffle.html">how
 can I shuffle the contents of an array? (C)</a>.
+Mike Bostock's
+<a href="http://bost.ocks.org/mike/shuffle/">animations with code
+(JavaScript)</a>.
 An 
 <a href="http://introcs.cs.princeton.edu/java/14array/">implementation
 (Java)</a> due to Sedgewick and Wayne (search for Shuffling).
