@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Fri Nov  2 14:39:11 2007" *by "Paul E. Black"
+# *modified "Mon Mar 23 10:34:40 2015" *by "Paul E. Black"
 
 # $Log: dynamicprog.trm,v $
+# Mon Mar 23 10:35:31 2015  Paul E. Black
+# Remove LINK to Dan Hirschbergs example - no longer accessible.
+# 
 # Revision 1.8  2007/11/02 18:39:40  black
 # Remove trailing period (.) in XREFS
 #
@@ -59,11 +62,6 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-Dan Hirschberg's example of using dynamic programming for
-<a
-href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">matrix
-multiplication and longest common substring and subsequence</a>,
-including pseudocode.
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's tutorial to using
