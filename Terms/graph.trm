@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 13:26:31 1998" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:40:56 2014" *by "Paul E. Black"
+# *modified "Mon Apr 13 11:27:10 2015" *by "Paul E. Black"
 
 # $Log: graph.trm,v $
+# Mon Apr 13 11:34:31 2015  Paul E. Black
+# update LINK for Journal of Combinatorics surveys and also Annas IMPL
+# 
 # Tue Sep  2 08:41:12 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -193,8 +196,8 @@ February 2000
 
 # further explanation (pure HTML)
 @LINKS=Journal of Combinatorics dynamic surveys DS8 and DS9 are 
-<a href="http://www.combinatorics.org/Surveys/">a bibliography and
-glossary of graphs</a>.
+<a href="http://www.combinatorics.org/issue/view/Surveys">a bibliography (DS8)
+and glossary (DS9) of graphs</a>.
 <strong>Deepayan Chakrabarti</strong> and <strong>Christos
 Faloutsos</strong>, <em>Graph Mining: Laws, Generators, and
 Algorithms</em>,  ACM Computing Surveys, Vol. 38, March 2006, Article 2.
@@ -219,7 +222,7 @@ generating (C, Mathematica, Pascal, C++, and Fortran)</a>,
 Library (C++)</a>.
 <a href="http://freecode.com/projects/thegraphtemplatelibrary">GTL - the Graph
 Template Library (C)</a>.
-<a href="http://code.google.com/p/annas/">Annas (Java)</a>, for graph
+<a href="http://github.com/gt4j/annas/">Annas (Java)</a>, for graph
 theory, AI, path finding, distributed systems, etc.  The main
 libraries are Annas.Graph, graph manipulation and visualization and
 Annas.Math, comprehensive math functions.
