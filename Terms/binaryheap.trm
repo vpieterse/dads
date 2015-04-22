@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Tue Sep 10 09:28:58 2013" *by "Paul E. Black"
+# *modified "Wed Apr 22 08:53:13 2015" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Wed Apr 22 09:46:56 2015  Paul E. Black
+# Add XKCD cartoon 835 mentioning heaps as a LINK
+# 
 # Revision 1.12  2013/09/10 13:29:54  black
 # update URL for Fortran IMPL
 #
@@ -86,6 +89,12 @@ Two {binomial heaps} can be merged in O(ln n).
 Two {Fibonacci heaps} can be merged in $\Theta(1)$.
 # further explanation (pure HTML)
 @LINKS=
+<img src="../Images/xkcd 0835 tree.png"><br />
+"... you just KNOW Billy's going to open the root present first, and
+then everyone will have to wait while the heap is rebuilt."<br />
+From <a href="http://xkcd.com/">xkcd</a> by
+<a href="http://xkcd.com/license.html">Creative Commons
+Attribution-NonCommercial 2.5 License</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
