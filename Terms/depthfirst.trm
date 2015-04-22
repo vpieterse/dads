@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Tue Jul  6 13:48:30 2010" *by "Paul E. Black"
+# *modified "Wed Apr 22 08:48:25 2015" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Wed Apr 22 09:47:43 2015  Paul E. Black
+# change file name of XKCD cartoon
+# 
 # Revision 1.18  2010/07/06 17:48:59  black
 # Add XKCD DFS cartoon as a LINK
 #
@@ -175,9 +178,10 @@ href="http://www.ics.uci.edu/~eppstein/161/960215.html">Breadth-first
 search and depth-first search</a>.
 An <a
 href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (Java)</a>.
+</p>
 
 <p>
-<img src="../Images/xkcd dfs 761.png"><br />
+<img src="../Images/xkcd 0761 dfs.png"><br />
 From <a href="http://xkcd.com/">xkcd</a> by
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
