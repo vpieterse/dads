@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon May 19 08:52:37 2014" *by "Paul E. Black"
+# *modified "Mon May 18 09:31:37 2015" *by "Paul E. Black"
 
 # $Log: monteCarlo.trm,v $
+# Mon May 18 09:45:10 2015  Paul E. Black
+# Update URL of LINK for tutorial.
+# 
 # Mon May 19 09:04:29 2014  Paul E. Black
 # Update URL for LINK to The Monte Carlo Method, "Value-at-Risk: Theory
 # and Practice", second edition.
@@ -90,7 +93,7 @@ time is indeterminate.
 @LINKS=
 An excellent
 <a
-href="http://value-at-risk.net/the-monte-carlo-method/">tutorial
+href="http://www.value-at-risk.net/the-monte-carlo-method/">tutorial
 introduction</a> with history.
 # implementation(s) (pure HTML)
 @IMPL=
