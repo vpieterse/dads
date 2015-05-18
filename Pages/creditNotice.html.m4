@@ -1,8 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Mon Mar  2 15:45:23 2015" *by "Paul E. Black"
+dnl *modified "Mon May 18 09:33:21 2015" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon May 18 09:45:56 2015  Paul E. Black
+dnl Update URL for CRC permissions. Again.
+dnl 
 dnl Mon Mar  2 15:46:14 2015  Paul E. Black
 dnl Update CRC permissions web page, again.
 dnl 
@@ -61,7 +64,7 @@ include(`Pages/bitsImageLogos.m4')
 Some definitions are copyright CRC Press, such as
 <a href="$ROOTDIR/HTML/depoissonization.html">depoissonization</a>.
 You must get 
-<a href="http://www.crcpress.com/contactus/rightspermissions">CRC Press
+<a href="https://www.crcpress.com/contactus/rightspermissions">CRC Press
 permission</a>
 for those.  All others are public domain.
 </p>
@@ -143,7 +146,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Mon Mar  2 15:45:23 2015
+Mon May 18 09:33:21 2015
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
