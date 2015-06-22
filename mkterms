@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id: mkterms,v 1.85 2013/09/27 20:18:35 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Tue May  6 13:39:12 2014" *by "Paul E. Black"
+# *modified "Mon Jun 15 09:50:07 2015" *by "Paul E. Black"
 #
 # Collect all DADS terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -26,6 +26,9 @@ $maxOperands = 0;
 # Paul E. Black paul.black@nist.gov
 #
 # $Log$
+# Mon Jun 22 11:56:32 2015  Paul E. Black
+# Access external link to wikipedia with https.
+# 
 # Tue May  6 13:39:58 2014  Paul E. Black
 # Close the anchor tag for letters.  Add Log line.
 # 
@@ -172,7 +175,7 @@ sub rewriteXrefs {
 	# add citation
 	$_[0] =~ s|(href="\#([^:"}]+):[^<]+<em>[^<]+)</em>|$1 [$2]</em>|go;
 	# rewrite external source
-	$_[0] =~ s|href="\#Wikipedia:|href="http://en.wikipedia.org/wiki/|go;
+	$_[0] =~ s|href="\#Wikipedia:|href="https://en.wikipedia.org/wiki/|go;
 
 	# SKIMP: only reports the first one
 	if ($_[0] =~ /href="\#([^:"}]+):/) {
