@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Sep 30 16:39:52 2013" *by "Vreda Pieterse"
+# *modified "Mon Jul 20 14:26:49 2015" *by "Paul E. Black"
 #
 # $Log: hash.trm,v $
+# Mon Jul 20 14:30:04 2015  Paul E. Black
+# Remove LINK to Thomas Wangs review and comparison - whole subtree is gone.
+# 
 # Revision "Mon Sep 30 16:35:16 2013" *by "Vreda Pieterse"
 # Add missing .html to IMPL Link to Gonnet and Baeza-Yates's implementation
 #
@@ -153,8 +156,6 @@ Bob Jenkins' fast, parameterizable, broadly applicable
 <a href="http://burtleburtle.net/bob/hash/doobs.html">hash function
 (C)</a> including code for and evaluations of many other hash
 functions.
-A review and comparison of many
-<a href="http://www.concentric.net/~Ttwang/tech/inthash.htm">integer hash functions (C)</a>.
 <a href="http://www.isthe.com/chongo/tech/comp/fnv/">Fowler/Noll/Vo or
 FNV hash function (C)</a>.
 Arash Partow's implementations of various
