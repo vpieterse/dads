@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Mon Mar  2 15:52:27 2015" *by "Paul E. Black"
+# *modified "Mon Aug 10 10:53:49 2015" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Mon Aug 10 10:57:44 2015  Paul E. Black
+# describe how to find the Shellsort in the Fortran IMPL.
+# 
 # Mon Mar  2 16:00:40 2015  Paul E. Black
 # Remove John David Stone (Grinnell) IMPL - his account is entirely gone.
 # 
@@ -286,7 +289,8 @@ Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/shell.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography;
 <a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>;
-<a href="http://lib.stat.cmu.edu/apstat/304">(Fortran)</a>,
+<a href="http://lib.stat.cmu.edu/apstat/304">scroll down to ALGORITHM
+AS 304.8 (Fortran)</a>,
 <a href="http://www.complang.tuwien.ac.at/forth/ftp.dei.isep.ipp.pt/pub/forth/docs/4thsort.txt">(Forth)</a>,
 <a href="http://outer-court.com/basic/echo/T469.HTM">strings (Basic)</a>,
 <a
