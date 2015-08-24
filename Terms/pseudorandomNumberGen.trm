@@ -1,7 +1,13 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 26 10:46:48 2015" *by "Paul E. Black"
+# *modified "Mon Aug 24 09:30:17 2015" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
+# Mon Aug 24 09:35:56 2015  Paul E. Black
+# Replace Schneiers Yarrow with his Fortuna, upon recommendation in
+# Yarrows web page.  Move Fortuna (Yarrow) and NISTs Special Pub on
+# Random Number Generation from IMPL to LINK, since they dont directly
+# lead to implementations.
+# 
 # Mon Jan 26 10:48:41 2015  Paul E. Black
 # Update LINK to NISTs Random Number Generation page
 # 
@@ -144,16 +150,32 @@ Number Generation</a> with links to reports, standard tests, and on-going
 research.
 <a href="http://www.fourmilab.ch/random/">ent</a>: a program to
 test the randomness of bytes in a file.
+Niels Ferguson and Bruce Schneier's
+<a href="https://www.schneier.com/fortuna.html">Fortuna</a> is a
+cryptographically strong pseudorandom number generator.  The 
+<a href="https://www.schneier.com/fortuna.pdf">description of
+Fortuna</a>, Sect. 9.3 of Ferguson, Schneier, and Kohno's
+"Cryptography Engineering: Design Principles and Practical
+Applications", explains trade-offs and cautions.
+</p>
+
+<p>
+<em>Recommendation for Random Number Generation Using Deterministic 
+Random Bit Generators</em>, NIST SP 800-90A, Revision 1, June 2015
+has recommendations for generating (pseudo)random numbers using
+deterministic random bit generators, for entropy sources, and for
+implementation.
+Available at 
+<a href="http://dx.doi.org/10.6028/NIST.SP.800-90Ar1">http://dx.doi.org/10.6028/NIST.SP.800-90Ar1</a>.
 
 # implementation(s) (pure HTML)
-@IMPL=<a
+@IMPL=
+<a
 href="http://www3.cs.stonybrook.edu/~algorith/files/random-numbers.shtml">(C++,
 C, and Fortran)</a>.
 pLab's page on
 <a href="http://random.mat.sbg.ac.at/generators/">generators</a>
 including links to software and papers.
-<a href="http://www.schneier.com/yarrow.html">Yarrow (C)</a>, a
-cryptographically secure pseudorandom number generator.
 GAMS <a href="http://gams.nist.gov/serve.cgi/Module/C/SERV/11669">(C)</a>.
 # Summit's C FAQ http://c-faq.com/lib/randrange.html
 Using C libraries to get 
@@ -164,18 +186,6 @@ numbers in a certain range (C)</a> is C FAQ question 13.16,
 <a href="http://www.eskimo.com/~scs/cclass/krnotes/sx10n.html">section
 7.8.7 (C)</a> of Steve Summit's Notes to Accompany <em>The C
 Programming Language</em>.
-</p>
-
-<p>
-<em>Recommendation for Random Number Generation Using Deterministic 
-Random Bit Generators</em>, NIST SP 800-90A, January 2012
-has recommendations for generating (pseudo)random numbers using
-deterministic random bit generators, for entropy sources, and for
-implementation.
-Available at 
-<a href="http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf"
->http://csrc.nist.gov/publications/nistpubs/800-90A/SP800-90A.pdf</a>.
-Note: Rev. 1 is in draft, as of April 2014.  
 
 # author's initials
 @AUTHOR=PEB
