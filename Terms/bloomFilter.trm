@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Mar  9 13:45:23 2015" *by "Paul E. Black"
+# *modified "Mon Aug 24 09:03:37 2015" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Mon Aug 24 09:05:25 2015  Paul E. Black
+# Jason Davies LINK is now https.
+# 
 # Mon Mar  9 13:46:06 2015  Paul E. Black
 # Add LINK to Davies animation.
 # 
@@ -122,8 +125,8 @@ minus sign; exponent should be ... e<sup>-kn/m</sup>.
 href="http://www.perl.com/pub/2004/04/08/bloom_filters.html">Using
 Bloom filters</a>.  Language is Perl.
 Jason Davies' 
-<a href="http://www.jasondavies.com/bloomfilter/">interactive
-animation</a> helps people understand how it works.
+<a href="https://www.jasondavies.com/bloomfilter/">interactive
+animation</a> helps people understand how a Bloom filter works.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bloomFilter.trm,v $
