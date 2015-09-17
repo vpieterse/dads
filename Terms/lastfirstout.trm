@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:05:07 2004" *by "Paul E. Black"
+# *modified "Thu Sep 17 16:43:24 2015" *by "Paul E. Black"
 
 # $Log: lastfirstout.trm,v $
+# Thu Sep 17 16:51:29 2015  Paul E. Black
+# Add WEB reference of Last-Come First-Served and LCFS.  Add LCFS
+# hashing to XREFS.
+# 
 # Revision 1.2  2004/12/17 17:05:07  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -15,6 +19,8 @@
 # the definition
 @DEFN=A policy that the most recently arrived item is processed first.
 A {stack} implements this.
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=Last-Come First-Served, LCFS
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -26,7 +32,7 @@ A {stack} implements this.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={first-in, first-out}
+@XREFS={first-in, first-out}, {LCFS hashing}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A {depth-first search} checks newly encountered nodes
