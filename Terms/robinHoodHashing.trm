@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Jan 25 10:17:16 2010" *by "Paul E. Black"
+# *modified "Thu Sep 17 16:38:17 2015" *by "Paul E. Black"
 
 # $Log: robinHoodHashing.trm,v $
+# Thu Sep 17 16:50:31 2015  Paul E. Black
+# Fill in TYPE and AREA. Add LCFS hashing. Improve NOTE about what
+# happens to a displaced item.
+# 
 # Revision 1.1  2013/09/24 17:19:01  black
 # Initial revision
 #
@@ -9,9 +13,9 @@
 # entry name
 @NAME=Robin Hood hashing
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=
+@TYPE=A
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
-@AREA=
+@AREA=search
 # the definition
 @DEFN=In case of {collision}, the item with the longer {probe sequence}
 stays in the position.  The other item is moved.  This tends to equalize
@@ -33,7 +37,7 @@ the length of probe sequences.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={cuckoo hashing}
+@XREFS={LCFS hashing}, {cuckoo hashing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
@@ -49,8 +53,8 @@ Proc. 26th IEEE Symp. on Foundations of Comp. Sci., 1985, 281-288.
 @NOTES=
 An item that was previously placed in a position may be displaced by a
 later arrival.  The displaced item is then moved along.  It may find
-an empty position, displace another item and take its position, or
-leave the other item and check the next position.
+an empty position, may displace another item and take its position, or
+may not disturb the other item and check the next position.
 
 # any historical notes
 @HISTORY=
