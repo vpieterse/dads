@@ -1,10 +1,9 @@
 #! /bin/csh -f
-set versionRCS = '$Header: /home/black/DADS/dads/RCS/mvterm,v 1.5 2013/04/12 19:05:14 black Exp $'
 #                  *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
-set versionMod = ' *modified "Fri Apr 12 15:04:45 2013" *by "Paul E. Black"'
+set versionMod = ' *modified "Wed Feb 24 11:11:11 2016" *by "Paul E. Black"'
 
 #------------------------------------------------------------------------
-#	Rename a term file and make other needed changes: RCS, Target
+#	Rename a term file and make other needed changes: git, Target
 #	HTML, etc.
 #
 set programName = "mvterm"
@@ -26,6 +25,11 @@ set maxOperands = 2
 #
 #------------------------------------------------------------------------
 
+# $Log$
+# Wed Feb 24 11:11:39 2016  Paul E. Black
+# Change versioning from RCS to git.  Add $Log$ line.
+# 
+
 # set defaults
 set errorStatus = 2
 set termDir = "Terms"
@@ -43,7 +47,7 @@ while ($optind <= $#argv)
 	  case --h*:
     echo $useMsg:q
     echo "	-n	No changes; just print what would be done"
-    echo "	--verbose print what is done"
+    echo "	--verbose print what is done as it is done"
     echo "	--version print Version information"
     echo "	--	End of options (e.g., currentName begins with -)"
 	    exit 0
@@ -61,7 +65,6 @@ while ($optind <= $#argv)
 
 	  case --vers*:
 	    @ optind++
-	    echo $versionRCS:q
 	    echo $versionMod:q
 	    exit 0
 
@@ -123,32 +126,21 @@ if ($baseFrom:q == $baseTo:q) then
     exit $errorStatus
 endif
 
-# rename term file
+# rename version file
 if ($showCmds) then
-    echo mv $fromTerm $toTerm
+    echo git mv $fromTerm $toTerm
+    echo "  note: 'git mv' renames the term file, too"
 endif
 if ($doCmds) then
-    mv $fromTerm $toTerm
+    git mv $fromTerm $toTerm
 endif
-
-# rename RCS file
-set fromRCS = "$termDir/RCS/$baseFrom.trm,v"
-set toRCS   = "$termDir/RCS/$baseTo.trm,v"
-if ($showCmds) then
-    echo mv $fromRCS $toRCS
-endif
-if ($doCmds) then
-    mv $fromRCS $toRCS
-endif
-
-# SKIMP - should have option to co new file (to fix RCS keywords)
 
 # make sure they match
 if ($showCmds) then
-    echo rcsdiff $toTerm
+    echo git diff $toTerm
 endif
 if ($doCmds) then
-    rcsdiff $toTerm
+    git diff $toTerm
 endif
 
 # remove any target HTML referring to it, so they will be regenerated
