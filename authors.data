@@ -1,14 +1,17 @@
-# $Id$
+# *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
+# *modified "Wed Feb 24 11:09:42 2016" *by "Paul E. Black"
+#
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
 #    Format is
 #	Initials<tab>Name<tab>(comma separated
 #	e-mails [with @] or URLs)
 #    Names may include HTML for non-English letters
-# *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Mon Jan 26 10:57:19 2015" *by "Paul E. Black"
 #
 # $Log$
+# Wed Feb 24 11:12:20 2016  Paul E. Black
+# Add Vreda Pieterse
+# 
 # Mon Jan 26 10:57:59 2015  Paul E. Black
 # Update Conrado Martinez URL. Add Log line and remove out-of-date Id info.
 # 
@@ -41,6 +44,7 @@ PS	Paul Steffas	Paul_Steffas@amat.com
 PHS	Per H&aring;kan Sundell	phs@cs.chalmers.se
 PJT	Paul J. Tanenbaum	pjt@ARL.MIL
 LJW	Lawrence J. Wobker	ljwobker@pobox.com
+VP	Vreda Pieterse	vreda.pieterse@up.ac.za
 VZ	Vladimir Zabrodsky	zabrodskyvlada@yahoo.com
 YZ	Yuming Zou	zou@fas.harvard.edu
 CRC-A	Algorithms and Theory of Computation Handbook, CRC Press LLC, 1999
