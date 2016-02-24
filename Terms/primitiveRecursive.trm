@@ -1,7 +1,10 @@
 # *created  "Thu May  6 08:55:42 1999" *by "Paul E. Black"
-# *modified "Wed Feb 24 10:45:41 2016" *by "Paul E. Black"
+# *modified "Wed Feb 24 11:20:34 2016" *by "Paul E. Black"
 
 # $Log: primitiveRecursive.trm,v $
+# Wed Feb 24 11:25:58 2016  Paul E. Black
+# Improve grammar and spelling.
+# 
 # Wed Feb 24 10:47:03 2016  Paul E. Black
 # Improve grammar.
 # 
@@ -34,8 +37,8 @@ loops.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES={Ackermann's function} is {computable}, but is not
-primitive recursive.  Primitive recursion functions always
-terminate.  More powerful languages have some functions which cannot
+primitive recursive.  Primitive recursive functions always
+terminate.  More powerful languages have some functions that cannot
 be proved to either terminate or run forever.
 </p>
 
