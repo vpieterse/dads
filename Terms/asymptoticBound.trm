@@ -1,7 +1,11 @@
 # *created  "Sat Aug 28 14:01:40 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:02:16 2004" *by "Paul E. Black"
+# *modified "Wed Feb 24 12:13:21 2016" *by "Paul E. Black"
 
 # $Log: asymptoticBound.trm,v $
+# Wed Feb 24 12:17:11 2016  Paul E. Black
+# The asymptotic upper and lower bounds are O and \omega, respectively.
+# Refer to those entries.
+# 
 # Revision 1.2  2004/12/17 17:02:16  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -27,7 +31,8 @@ may or may not intersect the bounding curve.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={asymptotic upper bound}, {asymptotic lower bound}
+@XREFS={asymptotic upper bound or O#big-O notation}, 
+{asymptotic lower bound or $\omega$#\omega}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=After Ben Podoll &lt;benjamin.podoll@und.nodak.edu&gt; 28
