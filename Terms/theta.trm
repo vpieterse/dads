@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:47 2008" *by "Paul E. Black"
+# *modified "Wed Feb 24 11:51:49 2016" *by "Paul E. Black"
 
 # $Log: theta.trm,v $
+# Wed Feb 24 12:24:54 2016  Paul E. Black
+# Make asymptotically tight bound AKA instead of XREF since it is just
+# another name for this (\Theta).
+# 
 # Revision 1.7  2008/08/14 16:15:49  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -45,9 +49,9 @@ $f$ and must not depend on $n$.
 <img src="../Images/thetaGraph.gif" height="264" width="443" alt="graph
 showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names that this is Also Known As.
-@AKA=theta
+@AKA=asymptotically tight bound, theta
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=
+@WEB=asymptotic tight bound
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -59,7 +63,7 @@ showing relation between a function, f, and the limit function, g">
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={$\sim$}, {asymptotically tight bound}
+@XREFS={$\sim$}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
