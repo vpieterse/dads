@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:01 2008" *by "Paul E. Black"
+# *modified "Wed Feb 24 12:11:10 2016" *by "Paul E. Black"
 
 # $Log: omegaCapital.trm,v $
+# Wed Feb 24 12:20:53 2016  Paul E. Black
+# Remove asymptotic lower bound since it is just another name for
+# \omega, which is already listed.
+# 
 # Revision 1.4  2008/08/14 16:15:05  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -49,8 +53,7 @@ $f$ and must not depend on $n$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={$\omega(n)$#$\omega$}, 
-{asymptotic lower bound}
+@XREFS={$\omega(n)$#$\omega$}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
