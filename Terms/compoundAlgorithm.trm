@@ -1,0 +1,53 @@
+# *created  "Sun Jan 24  2:49:00 2016" *by "Vreda Pieterse"
+# *modified "Wed Feb 24 11:17:15 2016" *by "Paul E. Black"
+
+# $Log: compoundAlgorithm.trm,v $
+
+# entry name
+@NAME=compound algorithm
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=An {algorithm} in which one or more of the computable steps is a
+call to execute another algorithm.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={algorithm}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={primitive algorithm}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Vreda Pieterse</strong>, <em>Topic Maps for
+Specifying Algorithm Taxonomies: A Case using Transitive Closure
+Algorithms</em>, doctoral dissertation, University of Pretoria, 2016.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Any {algorithm} is either a {primitive algorithm} or a
+{compound algorithm}.  The distinction between primitive and compound
+is somewhat subjective.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=VP
+# end 

@@ -1,0 +1,59 @@
+# *created  "Thu Sep 17 16:25:09 2015" *by "Paul E. Black"
+# *modified "Thu Sep 17 16:47:07 2015" *by "Paul E. Black"
+
+# $Log: lcfsHashing.trm,v $
+
+# entry name
+@NAME=LCFS hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=In case of {collision}, move the existing item to another
+position, dictated by the {open addressing} scheme used.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=Last-Come First-Served Hashing
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={open addressing}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Robin Hood hashing}, {cuckoo hashing}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# see http://cglab.ca/~morin/teaching/5408/notes/hashing.pdf 
+# Pat Morin, Sect. 1.3.9, pages 1-13 to 1-14. Accessed 17 Sept 2015
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Items that were previously placed in a position are displaced by a
+later arrival.  The displaced item is then moved along to the next
+position in the open addressing scheme.  It may find
+an empty position or will displace another item and take its
+position.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
