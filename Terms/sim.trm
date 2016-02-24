@@ -1,7 +1,11 @@
 # *created  "Tue Feb  1 15:23:26 2000" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:07:40 2004" *by "Paul E. Black"
+# *modified "Wed Feb 24 11:55:13 2016" *by "Paul E. Black"
 
 # $Log: sim.trm,v $
+# Wed Feb 24 12:22:02 2016  Paul E. Black
+# Remove asymptotically tight bound, since it is just another name for
+# \Theta, which is already listed.
+# 
 # Revision 1.2  2004/12/17 17:07:40  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -38,9 +42,8 @@ $lim<sub>x \rightarrow \infty</sub>f(x)/g(x) = 1$.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={big-O notation}, {$\Theta(n)$#$\Theta$}, {asymptotically tight
+@XREFS={big-O notation}, {$\Theta(n)$#$\Theta$}
 
-bound}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
