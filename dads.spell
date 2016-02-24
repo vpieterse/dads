@@ -112,6 +112,7 @@ booleans
 Boruvka
 Borwein
 Bostic
+Bostock
 bplus
 bplustree
 BPP
@@ -183,7 +184,6 @@ Colussi
 combin
 Combinational
 Combinatorial
-Combinatorics
 Combinatory
 Commentz
 comparators
@@ -214,7 +214,6 @@ cryptographic
 cryptographically
 crystallizations
 CSP
-csrc
 css
 CTL
 ctst
@@ -243,7 +242,6 @@ depoissonization
 deque
 dequeue
 der
-Derangements
 Deutsch
 DFA
 DFS
@@ -353,6 +351,7 @@ FORML
 Formulae
 Fortnow
 Fortran
+Fortuna
 Francon
 Fredkin
 Fredman
@@ -439,7 +438,6 @@ Hirv
 Hirvensalo
 hissa
 Hkan
-Hoare
 Hoffmann
 Holger
 Holzer
@@ -523,7 +521,6 @@ joeganley
 Joerg
 JohnPaul
 Jozsa
-js
 JScript
 JSort
 jstor
@@ -551,6 +548,7 @@ Knott
 Ko
 Koehler
 Koenigsberg
+Kohno
 Kolmogorov
 Kozen
 Kranakis
@@ -612,7 +610,6 @@ Lourakis
 Lov
 Lovrencic
 LRU
-lsi
 Luhn
 Lun
 Luschny
@@ -726,10 +723,10 @@ NFA
 NFSM
 NFTA
 Nicos
+Niels
 Nievergelt
 Nikolaevich
 Nilo
-nistpubs
 Nivio
 nk
 nm
@@ -903,7 +900,6 @@ rastering
 Ratcliff
 Ravid
 Ravikumar
-RBSL
 RBST
 rebalance
 rebalanced
@@ -960,8 +956,8 @@ satisfiable
 Savio
 Saxe
 SBB
-Scheper
 Schlegel
+Schneier
 Schorr
 scs
 sdu
