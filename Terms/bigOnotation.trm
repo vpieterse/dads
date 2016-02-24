@@ -1,7 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Aug 31 09:28:05 2012" *by "Paul E. Black"
+# *modified "Wed Feb 24 12:01:10 2016" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Wed Feb 24 12:18:39 2016  Paul E. Black
+# Remove asymptotic upper bound: it is just another name for this.
+# Remove asymptotically tight bound, since it is another name for
+# \Omega, which is already listed.
+# 
 # Revision 1.14  2012/08/31 13:39:48  black
 # Give a hint as to why n > 10 is not wrong.
 #
@@ -68,9 +73,9 @@ $f$ and must not depend on $n$.
 <img src="../Images/bigOGraph.gif" height="261" width="453" alt="graph
 showing relation between a function, f, and the limit function, g">
 # comma-sep list of pure names that this is Also Known As.
-@AKA=O
+@AKA=O, asymptotic upper bound
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=O notation, Landau symbol
+@WEB=Oh notation, O notation, Landau symbol
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -84,8 +89,7 @@ showing relation between a function, f, and the limit function, g">
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={$\Omega(n)$#\Omega},{$\omega(n)$#\omega},
 {$\Theta(n)$#\Theta}, {$\sim$},
-{little-o notation}, {asymptotic upper bound}, 
-{asymptotically tight bound}, {NP}, {complexity}, {model of computation}
+{little-o notation}, {NP}, {complexity}, {model of computation}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
