@@ -1,7 +1,12 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:07:08 2014" *by "Paul E. Black"
+# *modified "Fri Mar 25 08:48:32 2016" *by "Paul E. Black"
 
 # $Log: qsort.trm,v $
+# Fri Mar 25 08:53:56 2016  Paul E. Black
+# Add DEFN per David C. Rankin.  Move sort from XREFS to IMA.  Add that
+# quicksort and insertion sort are INME.  Add GNU libc and Apple
+# implementations.
+# 
 # Mon Sep 29 09:07:24 2014  Paul E. Black
 # update URL for Pat Morin sorting algorithm visualizations
 # 
@@ -16,7 +21,9 @@
 # basic, numeric, search, sort, graph, combin(atorial)
 @AREA=sort
 # the definition
-@DEFN=
+@DEFN=The {quicksort} implementation in many libraries. It is generally
+a combination of quicksort, for large partitions, and {insertion sort},
+for small partitions.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -26,22 +33,29 @@
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={sort}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={quicksort}, {insertion sort}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={sort}
+@XREFS=
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and source code (Java)</a>.
+@IMPL=
+<a href="http://cglab.ca/~morin/misc/sortalg/">demonstration and
+source code (Java)</a>,
+<a href="http://code.metager.de/source/raw/gnu/glibc/stdlib/qsort.c">GNU
+libc qsort (C)</a>,
+<a href="http://www.opensource.apple.com/source/xnu/xnu-1456.1.26/bsd/kern/qsort.c">Apple
+Opensource qsort (C)</a>.
+
 # author's initials
-@AUTHOR=PEB
+@AUTHOR=DCR
 # end $Source: /home/black/Workspace/dads/Terms/RCS/qsort.trm,v $
