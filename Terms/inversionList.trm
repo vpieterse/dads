@@ -1,0 +1,87 @@
+# *created  "Fri Mar 25 09:41:35 2016" *by "Paul E. Black"
+# *modified "Fri Mar 25 10:27:15 2016" *by "Paul E. Black"
+
+# $Log: inversionList.trm $
+
+# entry name
+@NAME=inversion list
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=A set of non-overlapping numeric ranges, stored in an {array} in
+increasing order.  Items in odd indexes begin ranges, and items in
+even indexes are the first number after the ends.
+</p>
+
+<p>
+Use a form of {binary search} to determine if a number is in any of
+the ranges. If the search ends on an odd index (a beginning), the
+number is in the set.  If the search ends on an even index (a
+just-after-end) or outside the array, it is not in the set.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={set}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={array}, {binary search}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={inverted index}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+For example, to represent the ranges 10-14, 25, and 37-42, the
+inversion list would be:</ br>
+10 15 25 26 37 43
+</p>
+
+<p>
+There are linear algorithms for union, intersection, set difference,
+negation, etc.
+</p>
+
+<p>
+The term inversion list is also used to refer to storing a sequence of
+bits as the numeric position of each switch between 0 and 1 bits. See
+<a
+href="http://search.cpan.org/~teodor/Algorithm-InversionList-0.03/InversionList.pm">Teodor
+Ziatanov's InversionList</a> in Perl.
+Some authors refer to {inverted index} as inversion list.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a href="http://www.perlmonks.org/bare/?node_id=600394">prototype code
+with tests (Perl)</a>,
+<a href="https://github.com/perl6/nqp-inversion-list">NQP
+implementation (Perl)</a>.
+
+# further explanation (pure HTML)
+@LINKS=
+Definition adapted from {Wikipedia:Inversion list}.  
+More explanation and code in 
+<strong>Richard Gillam</strong>, <em>Unicode Demystified: A Practical
+Programmer's Guide to the Encoding Standard</em>, chapter 13, page 504ff,
+Addison-Wesley Professional, 2002.
+
+
+
+# author's initials (see authors.data)
+@AUTHOR=JH
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
