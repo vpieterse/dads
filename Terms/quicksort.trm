@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Mar  2 15:52:51 2015" *by "Paul E. Black"
+# *modified "Fri Mar 25 08:47:24 2016" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Fri Mar 25 08:54:18 2016  Paul E. Black
+# IMIN q sort
+# 
 # Mon Mar  2 15:59:48 2015  Paul E. Black
 # Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
 # 
@@ -63,7 +66,8 @@
 remaining elements into those greater than and less
 than this pivot, and {recursively#recursion} sort the partitions.
 There are many variants of the basic scheme above: to select the pivot,
-to partition the array, to stop the recursion on small partitions, etc.
+to partition the array, to stop the recursion or switch to another
+algorithm for small partitions, etc.
 # other cross-listings solely for the web, such as word or spelling variants
 @WEB=quick sort
 
@@ -74,7 +78,7 @@ to partition the array, to stop the recursion on small partitions, etc.
 @VARIANT={balanced quicksort}, {multikey Quicksort}, 
 {introspective sort}
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={q sort}
 # Aggregate child: "... is a part of or used in me."
 @INME={partition}, {divide and conquer}, {recursion}, {Select},
 {sublinear time algorithm}
