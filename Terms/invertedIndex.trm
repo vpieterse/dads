@@ -1,7 +1,10 @@
 # *created  "Tue Mar 16 16:31:33 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:40 2008" *by "Paul E. Black"
+# *modified "Fri Mar 25 10:25:40 2016" *by "Paul E. Black"
 
 # $Log: invertedIndex.trm,v $
+# Fri Mar 25 10:29:35 2016  Paul E. Black
+# NOTE that some author refer to this as an inversion list.
+# 
 # Revision 1.4  2008/08/14 16:14:41  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -82,6 +85,11 @@ text.
 <p>
 The index may have the word number, instead of the character number.
 It may also have weights, frequencies, or other indicators.
+</p>
+
+<p>
+Some authors refer to inverted index as {inversion list}.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
