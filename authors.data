@@ -1,5 +1,5 @@
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Wed Feb 24 11:09:42 2016" *by "Paul E. Black"
+# *modified "Fri Mar 25 08:40:13 2016" *by "Paul E. Black"
 #
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
@@ -9,6 +9,9 @@
 #    Names may include HTML for non-English letters
 #
 # $Log$
+# Fri Mar 25 08:54:57 2016  Paul E. Black
+# Add David C. Rankin.
+# 
 # Wed Feb 24 11:12:20 2016  Paul E. Black
 # Add Vreda Pieterse
 # 
@@ -34,6 +37,7 @@ JM	Jason McCabe	Jason.McCabe@wcom.com
 DM	David Monniaux	David.Monniaux@ens.fr.cuckoo-to-be-removed
 VO	Vadim Okun	vokun.okun@nist.gov
 JP	John Phillips	johnp@grammatech.com
+DCR	David C. Rankin	drankinatty@suddenlinkmail.com
 PR	Patrick Rodgers	rodgerpk@jmu.edu
 IR	Ingo Rohloff	rohloff@in.tum.de
 SKS	Sandeep Kumar Shukla
