@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 24 13:27:43 2016" *by "Paul E. Black"
+# *modified "Fri Mar 25 10:23:59 2016" *by "Paul E. Black"
 
 # $Log: set.trm,v $
+# Fri Mar 25 10:30:08 2016  Paul E. Black
+# NOTE some implementation data structures.
+# 
 # Wed Feb 24 13:31:34 2016  Paul E. Black
 # Add attribution for poset.
 # 
@@ -93,6 +96,9 @@ The {predicate} isEmpty(S) may be defined with the following additional axioms.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
+Sets may be implemented with an {array} of bits.  A set that is many
+ranges may be efficiently implemented as an {inversion list}.
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
