@@ -1,5 +1,5 @@
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 08:40:13 2016" *by "Paul E. Black"
+# *modified "Fri Mar 25 09:56:27 2016" *by "Paul E. Black"
 #
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
@@ -9,6 +9,9 @@
 #    Names may include HTML for non-English letters
 #
 # $Log$
+# Fri Mar 25 10:30:25 2016  Paul E. Black
+# Add Jarkko Hietaniemi
+# 
 # Fri Mar 25 08:54:57 2016  Paul E. Black
 # Add David C. Rankin.
 # 
@@ -28,6 +31,7 @@ SE	Stefan Edelkamp	stefan.edelkamp@cs.uni-dortmund.de
 ME	Mustafa Ege	ege@eti.cc.hun.edu.tr
 JLG	Joseph L. Ganley	http://joeganley.com/
 LH	Leslie Hastings
+JH	Jarkko Hietaniemi	jhi@iki.fi, jhietaniemi@gmail.com
 BJ	Bob Jenkins	bob_jenkins@burtleburtle.net, http://burtleburtle.net/bob/
 ASK	Art S. Kagel	kagel@bloomberg.net
 CLK	Chris L. Kuszmaul	fyodor@nas.nasa.gov
