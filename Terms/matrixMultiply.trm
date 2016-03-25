@@ -1,0 +1,59 @@
+# *created  "Tue Mar 22 02:42:04 2016" *by "Vreda Pieterse"
+# *modified "Fri Mar 25 10:47:34 2016" *by "Paul E. Black"
+
+# $Log: matrixMultiply.trm $
+
+# entry name
+@NAME=matrix multiplication
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=basic
+# the definition
+@DEFN=A binary operation that takes a pair of {matrices#matrix}. The
+number of columns in the first matrix must be equal to the number of
+rows in the second matrix.
+
+# formal definition or {cross reference} to an entry
+@FORML=
+If A is an $n \times m$ matrix and B is an $m \times p$ matrix, their
+product AB is an $n \times p$ matrix in which
+$AB<sub>ij</sub> = \Sigma<sub>k=1</sub><sup>m</sup> (A<sub>ik</sub>
+\times B<sub>kj</sub>)$.
+
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=VP
+# end
+
