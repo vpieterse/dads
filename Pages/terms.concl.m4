@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Tue Sep  2 08:24:32 2014" *by "Paul E. Black"
+dnl *modified "Mon Jun  6 08:48:05 2016" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Jun  6 08:50:19 2016  Paul E. Black
+dnl update FASTAR URL
+dnl 
 dnl Tue Sep  2 08:56:14 2014  Paul E. Black
 dnl Change www.cs.sunysb.edu to www3.cs.stonybrook.edu for Stony Brook URL
 dnl 
@@ -72,7 +75,8 @@ as well as many others who offered suggestions and corrections.
 </p>
 
 <p>
-After more than a decade of service as author of the DADS, Paul Black co-opted Vreda Pieterse of the <a href="http://www.fastar.org/">FASTAR
+After more than a decade of service as author of the DADS, Paul Black 
+co-opted Vreda Pieterse of the <a href="http://fastar.org/">FASTAR
 group</a> at Stellenbosch University (South Africa), University of Pretoria, and Eindhoven University (Netherlands) as co-author. This site currently runs as a mirror of the original DADS that is still hosted at <a href="http://xlinux.nist.gov/dads/">http://xlinux.nist.gov/dads/</a>. The older URL http://www.nist.gov/dads/ is an alias which should continue to refer to this URL. We regret any inconvenience this may cause.  
 </p>
 
@@ -147,7 +151,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Tue Sep  2 08:24:32 2014
+Mon Jun  6 08:48:05 2016
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
