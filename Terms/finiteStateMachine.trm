@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Thu Aug 22 16:00:30 2013" *by "Paul E. Black"
+# *modified "Mon Jun  6 08:35:05 2016" *by "Paul E. Black"
 
 # $Log: finiteStateMachine.trm,v $
+# Mon Jun  6 08:36:19 2016  Paul E. Black
+# Update FASTAR URL
+# 
 # Revision 1.10  2013/08/22 20:01:55  black
 # update Lutterkort's IMPL
 #
@@ -84,7 +87,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-The <a href="http://www.fastar.org/">FASTAR</a> (Finite Automata
+The <a href="http://fastar.org/">FASTAR</a> (Finite Automata
 Systems - Theoretical and Applied Research) group site links to
 some papers, conferences, and projects.
 # implementation(s) (pure HTML)
