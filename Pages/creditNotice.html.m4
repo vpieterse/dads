@@ -1,8 +1,11 @@
 dnl $Id: creditNotice.html.m4,v 1.14 2011/12/06 20:58:45 black Exp $
 dnl *created  "Thu Jun  2 11:17:54 2005" *by "Paul E. Black"
-dnl *modified "Mon May 18 09:33:21 2015" *by "Paul E. Black"
+dnl *modified "Mon Jun  6 08:46:34 2016" *by "Paul E. Black"
 dnl
 dnl $Log$
+dnl Mon Jun  6 08:50:52 2016  Paul E. Black
+dnl update FASTAR URL
+dnl 
 dnl Mon May 18 09:45:56 2015  Paul E. Black
 dnl Update URL for CRC permissions. Again.
 dnl 
@@ -101,7 +104,7 @@ Here is an HTML citation.
 <pre>
 In &lt;a href="$ROOTDIR/"&gt;Dictionary of 
 Algorithms and Data Structures&lt;/a&gt; hosted by
-&lt;a href="http://www.fastar.org/"&gt;FASTAR&lt;/a&gt; and
+&lt;a href="http://fastar.org/"&gt;FASTAR&lt;/a&gt; and
 &lt;a href="http://www.nist.gov/"&gt;National Institute of
 Standards and Technology&lt;/a&gt;.
 </pre>
@@ -146,7 +149,7 @@ Thu Jun  2 11:21:13 2005
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Mon May 18 09:33:21 2015
+Mon Jun  6 08:46:34 2016
 </em>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
