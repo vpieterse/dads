@@ -1,7 +1,10 @@
 # *created  "Thu Aug 19 08:36:01 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 11:54:24 2004" *by "Paul E. Black"
+# *modified "Thu Jun  9 09:43:04 2016" *by "Paul E. Black"
 
 # $Log: search.trm,v $
+# Thu Jun  9 09:51:08 2016  Paul E. Black
+# Move many XREFS to VARIANT. Add some that werent listed at all.
+# 
 # Revision 1.2  2004/12/17 16:54:24  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.  Make more XHTML compliant.
 #
@@ -13,24 +16,25 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=search
 # the definition
-@DEFN=To look for a value or item in a data structure.  There are
+@DEFN=Look for a value or item in a data structure.  There are
 dozens of algorithms, data structures, and approaches.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={binary search}, {linear search}, {string matching},
+{depth-first search}, {Bond Sequential Search}, {jump search}
+
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={array}, {binary search}, {B-tree}, {dictionary}, {hash table},
-
+@XREFS={array}, {B-tree}, {dictionary}, {hash table},
 {heap}, {inverted index}, {linked list},
-{quadtree}, {select k<sup>th</sup> element}, {linear search}, {string
-matching}, {select and partition}
+{quadtree}, {select k<sup>th</sup> element}, 
+{select and partition}
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For more information, see the data structure in question or
 <a href="../termsArea.html#search">terms related to searching</a>.
