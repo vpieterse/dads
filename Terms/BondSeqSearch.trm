@@ -1,0 +1,56 @@
+# *created  "Thu Jun  9 09:21:52 2016" *by "Paul E. Black"
+# *modified "Thu Jun  9 09:34:11 2016" *by "Paul E. Black"
+
+# $Log$
+
+# entry name
+@NAME=Bond Sequential Search
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Search an {array} or {list} for two {keys} at once by using the
+bitwise {or} of the keys as the search key.  When a possible match is
+found, compare against each key against the item.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=BSS
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={linear search}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Omer H. Abu El Haija</strong> and <strong>Azmi Alazzam</strong>, 
+<em>Bond-Sequential Search (BSS)</em>,
+Proc. World Congress on Engineering and Computer Science (WCECS) 2012,
+Vol I, San Francisco, California, USA, October 2012.
+<a href="http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf">http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf<a/>
+accessed 9 June 2016.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Since one pass can find two keys, the amortized run time is
+about half that of {linear search}.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
