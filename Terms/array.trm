@@ -1,7 +1,11 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Mon May 23 09:02:43 2011" *by "Paul E. Black"
+# *modified "Thu Jun  9 09:17:54 2016" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Thu Jun  9 09:20:13 2016  Paul E. Black
+# Insert takes O(n), not \Theta(n).  That is, it takes no more than
+# linear time, but may take less.
+# 
 # Revision 1.18  2011/05/23 14:14:01  black
 # *** empty log message ***
 #
@@ -122,7 +126,7 @@ search} is faster.
 </p>
 
 <p>
-Inserting into an array takes ${\Theta}(n)$ time.  If that's too slow,
+Inserting into an array takes {$O(n)$#big-O notation} time.  If that's too slow,
 use a {balanced tree}, {skip list}, or a {linked list}.  
 Knuth uses a balanced tree with a RANK field that supports 
 ${\Theta}(\log n)$ access by index and ${\Theta}(\log n)$ insert and
