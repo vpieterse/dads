@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Jun  6 08:48:05 2016" *by "Paul E. Black"
+dnl *modified "Fri Sep  2 08:40:47 2016" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Fri Sep  2 08:45:18 2016  Paul E. Black
+dnl Update since FASTAR no longer hosts the new web site.  Other misc. updates.
+dnl 
 dnl Mon Jun  6 08:50:19 2016  Paul E. Black
 dnl update FASTAR URL
 dnl 
@@ -53,7 +56,7 @@ dnl Replace hardcoded reference to DADS root URL with included file.
 dnl
 dnl Revision 1.42  2007/12/03 16:47:54  black
 dnl Remove link to Greenspun's Problem Set 4.  That problem set seems to
-dnl have been superceded some time ago.
+dnl have been superseded some time ago.
 dnl
 dnl Revision 1.41  2007/02/12 16:47:05  black
 dnl Remove ICRA/Pics label - they updated the format and site, and I don't
@@ -75,9 +78,12 @@ as well as many others who offered suggestions and corrections.
 </p>
 
 <p>
-After more than a decade of service as author of the DADS, Paul Black 
-co-opted Vreda Pieterse of the <a href="http://fastar.org/">FASTAR
-group</a> at Stellenbosch University (South Africa), University of Pretoria, and Eindhoven University (Netherlands) as co-author. This site currently runs as a mirror of the original DADS that is still hosted at <a href="http://xlinux.nist.gov/dads/">http://xlinux.nist.gov/dads/</a>. The older URL http://www.nist.gov/dads/ is an alias which should continue to refer to this URL. We regret any inconvenience this may cause.  
+After more than a decade of service as editor of DADS, Paul Black 
+was joined by Vreda Pieterse of the <a href="http://fastar.org/">FASTAR
+group</a> at Stellenbosch University (South Africa), University of
+Pretoria, and Eindhoven University (Netherlands) as co-editor.
+The URL http://www.nist.gov/dads/ is an alias which should continue
+to refer to DADS.  We regret any inconvenience this may cause.
 </p>
 
 <p>
@@ -114,9 +120,12 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 <p>
 The <a
 href="http://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
-Seventh International Conference on 
-<a href="http://www.di.unipi.it/fun14/">Fun
-With Algorithms</a> (FUN 2014).  The conference "is
+</p>
+
+<p>
+Eighth International Conference on 
+<a href="http://www2.idsia.ch/cms/fun16/">Fun
+With Algorithms</a> (FUN 2016).  The conference "is
 dedicated to the use, design, and analysis of algorithms and data
 structures, focusing on results that provide amusing, witty but
 nonetheless original and scientifically profound contributions to the
@@ -151,7 +160,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Jun  6 08:48:05 2016
+Fri Sep  2 08:40:47 2016
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
