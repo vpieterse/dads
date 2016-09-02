@@ -1,8 +1,12 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Tue May 20 11:13:55 2014" *by "Paul E. Black"
+# *modified "Thu Jun  9 10:01:24 2016" *by "Paul E. Black"
 #
 # $Log$
+# Fri Sep  2 08:55:34 2016  Paul E. Black
+# Remove m4 comment lines, which start with dnl, before extracting words
+# to check spelling.
+# 
 # Tue May 20 11:15:40 2014  Paul E. Black
 # Dont spell check m4 macro files: many comments and file names.
 # Besides any content appears in other files eventually, which are
@@ -263,7 +267,7 @@ undefs:
 	@cd Terms; perl -nwe 'if(/NAME=(.*)/){$$nam=$$1;if(length($$nam)<8){$$nmtabs="\t\t\t"}elsif(length($$nam)<16){$$nmtabs="\t\t"}else{$$nmtabs="\t"};if(length($$ARGV)<15){$$tabs="\t\t"}else{$$tabs="\t"}};if (/DEFN=/){$$nodefn = /DEFN=$$/};print "$$ARGV:$$tabs$$nam$$nmtabs$$1\n" if ($$nodefn && /AUTHOR=(.*)/)' *.trm
 
 # the perl command removes
-#	* comment lines
+#	* comment lines (start with # or dnl)
 #	* any m4 macro file (files ending with .m4)
 #	* WEB= lines since they often have "misspellings"
 #	* URL's (stuff in href's or src's)
@@ -275,7 +279,7 @@ undefs:
 # There are so many entries we must pass spell just a simple list of words
 # The '-' before diff means ignore "error" when grep finds no misspellings
 spell:
-	perl -nwe 'next if /^#/;next if $$ARGV=~/[.]m4$$/;next if /^\@WEB=/;s/(href|src)="[^"]*"//gio;s/[-\w\d.]+@[-\w\d.]+//go;s/&(.)acute;/$$1/go;s/&(.)uml;/$$1e/go;s/&[^;]+;//go;s/\\\w*//go;tr/\047a-zA-Z/\012/cs;print;' ${PAGES}/* *.data Terms/*.trm | perl -pwe "s/'s// if /[a-zA-Z][a-zA-Z][a-zA-Z]'s$$/" | sort --ignore-case -u | spell > dads.spell.new
+	perl -nwe 'next if /^#/||/^dnl /;next if $$ARGV=~/[.]m4$$/;next if /^\@WEB=/;s/(href|src)="[^"]*"//gio;s/[-\w\d.]+@[-\w\d.]+//go;s/&(.)acute;/$$1/go;s/&(.)uml;/$$1e/go;s/&[^;]+;//go;s/\\\w*//go;tr/\047a-zA-Z/\012/cs;print;' ${PAGES}/* *.data Terms/*.trm | perl -pwe "s/'s// if /[a-zA-Z][a-zA-Z][a-zA-Z]'s$$/" | sort --ignore-case -u | spell > dads.spell.new
 	-diff dads.spell.new dads.spell | grep '^<'
 
 tar:
