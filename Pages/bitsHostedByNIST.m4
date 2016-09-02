@@ -1,17 +1,18 @@
 dnl $Id$
 dnl *created  "Wed Oct 16 14:55:33 2013" *by "Paul E. Black"
-dnl *modified "Tue Jun 21 08:53:28 2016" *by "Paul E. Black"
+dnl *modified "Fri Sep  2 08:41:13 2016" *by "Paul E. Black"
 dnl
 dnl A paragraph crediting the hosting organization(s) specialized for NIST.
 dnl
 dnl $Log$
+dnl Fri Sep  2 08:46:14 2016  Paul E. Black
+dnl Update since FASTAR no longer hosts the new web site.
+dnl 
 dnl Tue Jun 21 08:57:06 2016  Paul E. Black
 dnl Update FASTAR URL.  Add Log and end of source lines.
 dnl 
 the
 <a href="http://www.nist.gov/itl/ssd/">Software and Systems Division</a>,
 <a href="http://www.nist.gov/itl/">Information Technology Laboratory</a>,
-<a href="http://www.nist.gov/">NIST</a>
-in collaboration with the
-<a href="http://fastar.org">FASTAR group</a>.
+<a href="http://www.nist.gov/">NIST</a>.
 dnl end of $Source$
