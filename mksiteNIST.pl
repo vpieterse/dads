@@ -1,6 +1,6 @@
 # $Id: mkcommon.pl $
 # *created  "Fri Oct 18 11:46:42 2013" *by "Paul E. Black"
-# *modified "Fri Oct 18 12:46:50 2013" *by "Paul E. Black"
+# *modified "Mon Oct  3 15:03:10 2016" *by "Paul E. Black"
 #
 # Site specific definitions and routines for format and indexing terms.
 #
@@ -17,6 +17,12 @@
 #
 #------------------------------------------------------------------------
 
+# $Log$
+# Mon Oct  3 15:03:42 2016  Paul E. Black
+# Update NIST access method to be https.  Add log line.
+# 
+#
+
 # Note: the *name=\value is a Perl 5.0-ism which says name refers to 
 # value, and the reference cannot be changed.  Equivalent to declaring
 # the name to be a constant or immutable.
@@ -29,7 +35,7 @@
 # - The URL to the main directory, for instance,
 #	$URL_DIR/$WEBPAGE.html is the URL for the main page and
 #	$URL_DIR/$OUT_DIR/termFile.html is the URL for termFile.trm
-*URL_DIR	=\"http://www.nist.gov/dads";
+*URL_DIR	=\"https://www.nist.gov/dads";
 
 # It seems logical that URL_DIR must be in the LOCAL_DOMAIN
 # Note: rewriteHrefs (mkcommon.pl) depends on URL_DIR being in LOCAL_DOMAIN
