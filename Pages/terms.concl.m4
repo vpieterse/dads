@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Fri Sep  2 08:40:47 2016" *by "Paul E. Black"
+dnl *modified "Mon Oct  3 08:39:50 2016" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Oct  3 08:40:37 2016  Paul E. Black
+dnl Update link to arxiv.org: use https, not http.
+dnl 
 dnl Fri Sep  2 08:45:18 2016  Paul E. Black
 dnl Update since FASTAR no longer hosts the new web site.  Other misc. updates.
 dnl 
@@ -119,7 +122,7 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 
 <p>
 The <a
-href="http://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
+href="https://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
 </p>
 
 <p>
@@ -160,7 +163,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Fri Sep  2 08:40:47 2016
+Mon Oct  3 08:39:50 2016
 </em><address>
 by <a href="http://hissa.nist.gov/~black/">Paul E. Black
 </a>
