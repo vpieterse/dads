@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 08:47:24 2016" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:54:46 2016" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Tue Nov  8 14:05:27 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
 # Fri Mar 25 08:54:18 2016  Paul E. Black
 # IMIN q sort
 # 
@@ -140,6 +143,16 @@ Java applet
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/QSort.html">animation (Java)</a>.
 <a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
 quicksort, heapsort, and merge sort</a> on modern processors.
+
+<br />
+
+<br />
+Quicksort illustrated through a
+<a href="https://www.youtube.com/watch?v=ywWBy6J5gz8">Hungarian folk
+dance: K&uuml;k&uuml;ll&#337;menti leg&eacute;nyes</a>.  
+Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/ywWBy6J5gz8" frameborder="0" allowfullscreen></iframe>
 # author's initials
 @AUTHOR=CM
 # end $Source: /home/black/Workspace/dads/Terms/RCS/quicksort.trm,v $
