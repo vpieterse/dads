@@ -1,8 +1,11 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Thu Jun  9 10:01:24 2016" *by "Paul E. Black"
+# *modified "Tue Nov  8 14:06:57 2016" *by "Paul E. Black"
 #
 # $Log$
+# Tue Nov  8 14:08:57 2016  Paul E. Black
+# Change chkhtml. & followed by # is ok - it is a hex encoding.
+# 
 # Fri Sep  2 08:55:34 2016  Paul E. Black
 # Remove m4 comment lines, which start with dnl, before extracting words
 # to check spelling.
@@ -303,7 +306,7 @@ findnew:
 #	it shows up in every run.
 #   * invalid URL in NIST exit script
 chkhtml:
-	(cd ${HTMLDIR};perl -pwe 's/(<LI>|(?=.)<P>|<PRE>|<TR)/ in $$ARGV\n$$1/gi;s|(<BR ?/?>)|$$1 in $$ARGV\n|gi;s/(.)\n$$/$$1 in $$ARGV\n/' *.html) | perl -nwe 'print "BACKSLASH, CARET, or DOLLAR SIGN\n$$_" if /[\\^\$$]/o;print "UNDERSCORE\n$$_" if /_[^"]*("[^"]+"[^"]*)*$$/o;print "DOUBLED QUOTES\n$$_" if /(``|\047\047)/o;print "DOUBLED PERIODS\n$$_" if /[^".][.][.][^.a-z]/o;print "LONE AMPERSAND\n$$_" if /&[^a-zA-Z]/o;print "DANGLING HREF ($$$$)\n$$_" if /href="\#/o; print "BAD URL\n$$_" if (/url=(?!(https?|ftp|gopher):)/)' > htmlWarnings.new
+	(cd ${HTMLDIR};perl -pwe 's/(<LI>|(?=.)<P>|<PRE>|<TR)/ in $$ARGV\n$$1/gi;s|(<BR ?/?>)|$$1 in $$ARGV\n|gi;s/(.)\n$$/$$1 in $$ARGV\n/' *.html) | perl -nwe 'print "BACKSLASH, CARET, or DOLLAR SIGN\n$$_" if /[\\^\$$]/o;print "UNDERSCORE\n$$_" if /_[^"]*("[^"]+"[^"]*)*$$/o;print "DOUBLED QUOTES\n$$_" if /(``|\047\047)/o;print "DOUBLED PERIODS\n$$_" if /[^".][.][.][^.a-z]/o;print "LONE AMPERSAND\n$$_" if /&[^a-zA-Z#]/o;print "DANGLING HREF ($$$$)\n$$_" if /href="\#/o; print "BAD URL\n$$_" if (/url=(?!(https?|ftp|gopher):)/)' > htmlWarnings.new
 	-diff -b htmlWarnings.new htmlWarnings
 
 # This rule was used when sending the terms to Taz for the print Dictionary
