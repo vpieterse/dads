@@ -1,9 +1,12 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jun 10 14:32:00 2010" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:56:46 2016" *by "Paul E. Black"
 
 # $Log: dynamicHashing.trm,v $
+# Tue Nov  8 14:04:19 2016  Paul E. Black
+# Fix spelling in comment.
+# 
 # Revision 1.13  2010/06/10 18:32:25  black
-# Remove line left from preceeding deletion.
+# Remove line left from preceding deletion.
 #
 # Revision 1.12  2010/04/12 17:32:42  black
 # Remove Falconer's IMPL - page gone, and I can't find it.
