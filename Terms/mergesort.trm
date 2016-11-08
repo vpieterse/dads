@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Mon Mar  2 15:53:02 2015" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:55:04 2016" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Tue Nov  8 14:05:14 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
 # Mon Mar  2 15:59:29 2015  Paul E. Black
 # Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
 # 
@@ -93,11 +96,6 @@ Run time is {$\Theta$}(n log n).
 @NOTES=There seem to be some references to linear-time
 {in-place#in-place sort} merging; look for papers by Geffert,
 Katajainen &amp; Pasanen.
-# further explanation (pure HTML)
-@LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
-<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
-quicksort, heapsort, and merge sort</a> on modern processors.
 
 # implementation(s) (pure HTML)
 @IMPL=
@@ -135,6 +133,23 @@ Alexander Georgiev's
 href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">
 merge sort (Java)</a> implemented as part of a linked-list package.
 Includes a parallel merge sort, too.
+
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/MSort.html">animation (Java)</a>.
+<a href="http://www.azillionmonkeys.com/qed/sort.html">Comparison of
+quicksort, heapsort, and merge sort</a> on modern processors.
+
+<br />
+
+<br />
+Merge sort illustrated through a
+<a
+href="https://www.youtube.com/watch?v=XaqR3G_NVoo">Transylvanian-saxon
+(German) folk dance</a>. Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/XaqR3G_NVoo" frameborder="0" allowfullscreen></iframe>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/mergesort.trm,v $
