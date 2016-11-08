@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 08:43:11 2016" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:54:24 2016" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Tue Nov  8 14:04:55 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
 # Fri Mar 25 08:52:20 2016  Paul E. Black
 # IMIN q sort
 # 
@@ -105,14 +108,7 @@ the number of comparisons needed to find where the item should be
 inserted, then open a space by moving all later items down one.
 However a binary search is likely to make this not a {stable} sort.
 # further explanation (pure HTML)
-@LINKS=
-<a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
-of several sort algorithms, with particular emphasis on insertion
-sort; more <a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">demonstrations</a>;
-a
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ISort.html">animation (Java)</a>
-of insertion sort.
+
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://people.cs.ubc.ca/~harrison/Java/InsertionSortAlgorithm.java">(Java)</a>.
 An 
@@ -126,6 +122,25 @@ Other implementations may be available through the <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
 <a href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</a>.
+
+@LINKS=
+<a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
+of several sort algorithms, with particular emphasis on insertion
+sort; more <a
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">demonstrations</a>;
+a
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/ISort.html">animation (Java)</a>
+of insertion sort.
+
+<br />
+
+<br />
+Insertion sort illustrated through a
+<a href="https://www.youtube.com/watch?v=ROalU379l3U">Romanian folk
+dance</a>. Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/ROalU379l3U" frameborder="0" allowfullscreen></iframe>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/insertionSort.trm,v $
