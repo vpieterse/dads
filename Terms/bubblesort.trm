@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Mon Aug 24 10:02:34 2009" *by "Paul E. Black"
+# *modified "Tue Nov  8 14:03:36 2016" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Tue Nov  8 14:03:58 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
 # Revision 1.12  2009/08/24 14:02:50  black
 # Update Harrison's sorting demo URL root
 #
@@ -91,11 +94,6 @@ The name "sinking sort" comes from elements sinking down to their
 proper position.
 Contributed by Ken Tata (Ken.Tata@onsemi.com) 22 December 2000.
 After LK.
-# further explanation (pure HTML)
-@LINKS=<a
-href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">animation
-of many sorting algorithms</a>;
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSort.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a
@@ -107,6 +105,22 @@ Algorithms and Data Structures'
 href="http://www.algolist.net/Algorithms/Sorting/Bubble_sort">explanation
 (Java and C++)</a>.
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
+
+# further explanation (pure HTML)
+@LINKS=<a
+href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">animation
+of many sorting algorithms</a>;
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSort.html">animation (Java)</a>.
+
+<br />
+
+<br />
+Bubble sort illustrated through a
+<a href="https://www.youtube.com/watch?v=lyZQPjUT5B4">Hungarian folk
+dance: Cs&aacute;ng&oacute;</a>.
+Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/lyZQPjUT5B4" frameborder="0" allowfullscreen></iframe>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/bubblesort.trm,v $
