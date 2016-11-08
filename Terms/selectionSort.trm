@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Mon Mar  2 15:53:37 2015" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:55:19 2016" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Tue Nov  8 14:05:35 2016  Paul E. Black
+# LINK to sort illustrated through dance.
+# 
 # Mon Mar  2 16:00:31 2015  Paul E. Black
 # Remove John David Stone (Grinnell) IMPL - his account is entirely gone.
 # 
@@ -112,9 +115,6 @@ structure.
 {Heapsort} can be seen as a variant of selection sort in which 
 sorted items are arranged (in a {heap}) to quickly find the next item.
 
-# further explanation (pure HTML)
-@LINKS=
-<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/SSort.html">animation (Java)</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">animation
@@ -126,6 +126,21 @@ Simple Programming Tutorials'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
+
+# further explanation (pure HTML)
+@LINKS=
+<a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/SSort.html">animation (Java)</a>.
+
+<br />
+
+<br />
+Selection sort illustrated through a
+<a
+href="https://www.youtube.com/watch?v=Ns4TPTC8whw">Gypsy folk
+dance</a>. Created at Sapientia University.
+<br />
+<iframe src="https://www.youtube.com/embed/Ns4TPTC8whw" frameborder="0" allowfullscreen></iframe>
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/selectionSort.trm,v $
