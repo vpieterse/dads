@@ -1,13 +1,16 @@
 # *created  "Thu Mar 18 09:38:10 2004" *by "Paul E. Black"
-# *modified "Thu Mar 18 09:44:49 2004" *by "Paul E. Black"
+# *modified "Wed Nov 16 13:54:07 2016" *by "Paul E. Black"
 
 # $Log: oneBasedIndexing.trm,v $
+# Wed Nov 16 16:53:36 2016  Paul E. Black
+# Change "one-based indexing" to "1-based indexing".
+# 
 # Revision 1.1  2004/03/18 15:52:17  black
 # Initial revision
 #
 
 # entry name
-@NAME=one-based indexing
+@NAME=1-based indexing
 # _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
 @TYPE=D
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
@@ -19,7 +22,7 @@
 # comma-sep list of pure names or {cross refs} that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
-@WEB=1-based array
+@WEB=1-based array, one-based indexing
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
