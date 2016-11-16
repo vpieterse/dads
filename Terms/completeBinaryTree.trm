@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:41:38 1998" *by "Paul E. Black"
-# *modified "Wed Aug 27 15:13:26 2014" *by "Paul E. Black"
+# *modified "Wed Nov 16 13:59:27 2016" *by "Paul E. Black"
 
 # $Log: completeBinaryTree.trm,v $
+# Wed Nov 16 16:51:06 2016  Paul E. Black
+# Change "one-based indexing" to "1-based indexing".
+# 
 # Wed Aug 27 15:13:44 2014  Paul E. Black
 # Clarify that level means depth. Perfect binary tree is a VARIANT, not
 # just an XREF.
@@ -59,7 +62,7 @@ hashing}, {heap}
 nodes altogether.
 It can be efficiently implemented as an {array}, where a node at index
 $i$ has children at indexes $2i$ and $2i+1$ and a
-parent at index $i/2$, with {one-based indexing}.  
+parent at index $i/2$, with {1-based indexing}.  
 If child index is greater than the number
 of nodes, the child does not exist.
 </p>
