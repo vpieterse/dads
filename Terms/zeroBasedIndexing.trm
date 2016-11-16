@@ -1,7 +1,10 @@
 # *created  "Thu Mar 18 09:38:13 2004" *by "Paul E. Black"
-# *modified "Thu Jul  6 16:14:51 2006" *by "Paul E. Black"
+# *modified "Wed Nov 16 13:54:34 2016" *by "Paul E. Black"
 
 # $Log: zeroBasedIndexing.trm,v $
+# Wed Nov 16 16:55:25 2016  Paul E. Black
+# Change "one-based indexing" to "1-based indexing".
+# 
 # Revision 1.2  2006/07/06 20:16:57  black
 # IMIN array, like one-based indexing.
 #
@@ -34,7 +37,7 @@
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={one-based indexing}
+@XREFS={1-based indexing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
 @BIB=
