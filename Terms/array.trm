@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 09:53:42 1998" *by "Paul E. Black"
-# *modified "Thu Jun  9 09:17:54 2016" *by "Paul E. Black"
+# *modified "Wed Nov 16 13:59:00 2016" *by "Paul E. Black"
 
 # $Log: array.trm,v $
+# Wed Nov 16 16:49:23 2016  Paul E. Black
+# Change one-based indexing to 1-based indexing.
+# 
 # Thu Jun  9 09:20:13 2016  Paul E. Black
 # Insert takes O(n), not \Theta(n).  That is, it takes no more than
 # linear time, but may take less.
@@ -90,7 +93,7 @@ $v<sub>i</sub>$, we could add the following rule for get.
 
 <p>
 Typically arrays have a fixed size and use either {0-based indexing}
-or {one-based indexing}.  Fixed initial size and 0-based indexing may
+or {1-based indexing}.  Fixed initial size and 0-based indexing may
 incorporated as follows.
 <ol>
 <li>new(s) returns an array, which has a size s
@@ -110,7 +113,7 @@ One-based or other indexing may be defined similarly.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={array index}, {one-based indexing}, {0-based indexing}
+@INME={array index}, {1-based indexing}, {0-based indexing}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={associative array}, {matrix}, {huge sparse array}
 
