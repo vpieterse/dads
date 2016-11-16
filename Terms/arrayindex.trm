@@ -1,7 +1,10 @@
 # *created  "Wed Mar 22 13:18:31 2000" *by "Patrick Rodgers"
-# *modified "Thu Mar 18 09:47:18 2004" *by "Paul E. Black"
+# *modified "Wed Nov 16 13:59:27 2016" *by "Paul E. Black"
 
 # $Log: arrayindex.trm,v $
+# Wed Nov 16 16:49:41 2016  Paul E. Black
+# Change one-based indexing to 1-based indexing.
+# 
 # Revision 1.2  2004/03/18 15:54:00  black
 # Refine XREFS into IMA, etc.  Reference new terms: 1- and 0-based indexing.
 #
@@ -23,7 +26,7 @@
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME={one-based indexing}, {0-based indexing}
+@INME={1-based indexing}, {0-based indexing}
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
