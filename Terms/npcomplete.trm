@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Apr 22 08:46:26 2015" *by "Paul E. Black"
+# *modified "Mon Dec  5 10:46:18 2016" *by "Paul E. Black"
 
 # $Log: npcomplete.trm,v $
+# Mon Dec  5 11:02:26 2016  Paul E. Black
+# Add alt caption to and improve citation of xkcd comic.
+# 
 # Wed Apr 22 09:48:36 2015  Paul E. Black
 # change file name of XKCD cartoon
 # 
@@ -130,8 +133,13 @@ Zoo</a>
 </p>
 
 <p>
-<img src="../Images/xkcd 0287 np_complete.png"><br />
-From <a href="http://xkcd.com/">xkcd</a> by
+<img src="../Images/xkcd 0287 np_complete.png"
+  alt="Caption: My hobby embedding NP-complete problems in restaurant
+  orders. Left panel is a menu.  In the right panel, person ordering
+  says, 'We'd like exactly $15.05 worth of appetizers, please.'
+  followed by a discussion of knapsack and other np-complete problems.">
+<br />
+From <a href="http://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
 
