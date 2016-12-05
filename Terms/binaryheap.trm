@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Wed Nov 16 13:59:27 2016" *by "Paul E. Black"
+# *modified "Mon Dec  5 10:52:44 2016" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Mon Dec  5 11:03:47 2016  Paul E. Black
+# Improve citation of xkcd comic.
+# 
 # Wed Nov 16 16:50:26 2016  Paul E. Black
 # Change "one-based indexing" to "1-based indexing".
 # 
@@ -95,9 +98,10 @@ Two {Fibonacci heaps} can be merged in $\Theta(1)$.
 <img src="../Images/xkcd 0835 tree.png"><br />
 "... you just KNOW Billy's going to open the root present first, and
 then everyone will have to wait while the heap is rebuilt."<br />
-From <a href="http://xkcd.com/">xkcd</a> by
+From <a href="http://xkcd.com/835/">xkcd 835</a> by Randall Munroe.
 <a href="http://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
+
 # implementation(s) (pure HTML)
 @IMPL=<a
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
