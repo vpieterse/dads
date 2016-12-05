@@ -1,4 +1,6 @@
 UNDERSCORE
+<strong>Omer H. Abu El Haija</strong> and <strong>Azmi Alazzam</strong>,  <em>Bond-Sequential Search (BSS)</em>, Proc. World Congress on Engineering and Computer Science (WCECS) 2012, Vol I, San Francisco, California, USA, October 2012. <a href="http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf" target="_blank">http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf<a/> accessed 9 June 2016. in BondSeqSearch.html
+UNDERSCORE
 Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in baumWelch.html
 BACKSLASH, CARET, or DOLLAR SIGN
                  /|\          <br /> in binaryTreeRepofTree.html
@@ -20,6 +22,10 @@ UNDERSCORE
  <strong>Prosenjit Bose, Hua Guo, Evangelos Kranakis, Anil Maheshwari, Pat Morin, Jason Morrison, Michiel Smid, and Yihui Tang</strong>, <em>On the False-Positive Rate of Bloom Filters</em>, Technical Report TR-07-07, Carleton University - School of Computer Science, 1 March 2007.  Available at http://www.scs.carleton.ca/research/tech_reports/index.php?Abstract=tr-07-07_0007 <br /> in bloomFilter.html
 UNDERSCORE
 <p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in bradfordsLaw.html
+BACKSLASH, CARET, or DOLLAR SIGN
+  &nbsp; BWT[i] = T[SA[i]-1], if SA[i] &gt; 1, otherwise $ <br /> in burrowsWheelerTransform.html
+BACKSLASH, CARET, or DOLLAR SIGN
+ (using <a href="oneBasedIndexing.html"><em>1-based indexing</em></a>) where T is the string,  SA is the <a href="suffixarray.html"><em>suffix array</em></a> of T, and $ is the special character indicating the end of string. in burrowsWheelerTransform.html
 BACKSLASH, CARET, or DOLLAR SIGN
          printf("%d\n", head(l));<br /> in collectiveRecursion.html
 UNDERSCORE
@@ -101,7 +107,7 @@ BACKSLASH, CARET, or DOLLAR SIGN
 BACKSLASH, CARET, or DOLLAR SIGN
  	(1,1)(5,3) = (5+3+5,5+3) = (13,8)	b^2 * b^5 = b^7	<br /> in fibonacciNumber.html
 UNDERSCORE
-<a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in frequencyCountHueristic.html
+<a href="https://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in frequencyCountHueristic.html
 UNDERSCORE
 <p> Thanks to Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002. </p>  in hiddenMarkovModel.html
 UNDERSCORE
@@ -113,7 +119,9 @@ UNDERSCORE
 UNDERSCORE
          levelorderAux(tree.right_subtree, level-1);<br /> in levelOrderTraversal.html
 UNDERSCORE
-<a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in movefront.html
+<a href="https://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in movefront.html
+BACKSLASH, CARET, or DOLLAR SIGN
+<p> <img src="../Images/xkcd 0287 np_complete.png"   alt="Caption: My hobby embedding NP-complete problems in restaurant   orders. Left panel is a menu.  In the right panel, person ordering   says, 'We'd like exactly $15.05 worth of appetizers, please.'   followed by a discussion of knapsack and other np-complete problems."> <br /> in npcomplete.html
 BACKSLASH, CARET, or DOLLAR SIGN
   / \								<br /> in optimalMerge.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -251,4 +259,4 @@ UNDERSCORE
 UNDERSCORE
    return max_so_far;<br /> in tailRecursion.html
 UNDERSCORE
-<a href="linearSearch.html"><em>linear search</em></a>, <a href="http://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in transposeSeqSearch.html
+<a href="linearSearch.html"><em>linear search</em></a>, <a href="https://en.wikipedia.org/wiki/Self-organising_heuristic" target="_blank"><em>Self-organising_heuristic [Wikipedia]</em></a>. in transposeSeqSearch.html
