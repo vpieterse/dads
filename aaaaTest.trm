@@ -1,5 +1,11 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Fri Jan  6 11:14:23 2012" *by "Paul E. Black"
+# *modified "Mon Dec  5 11:41:34 2016" *by "Paul E. Black"
+
+# $Log$
+# Mon Dec  5 11:42:30 2016  Paul E. Black
+# Add Log line.  Change close paragraph marks to use lower case.  Note
+# how to enter lone dollar signs.
+# 
 
 # entry name
 @NAME=aaa $\alpha<sub>\omega</sub><sup>2</sup>$ R-tree TEST ENTRY
@@ -19,9 +25,9 @@ some {B-trees} are big.  {P-tree}(2),
 # Unknown HyperREFerence to "this is not found"
 {R<sup>+</sup>-tree} {some%D%L%R%Pings} {this is
 not found}
-</P>
+</p>
 
-<P>
+<p>
 Entering LaTeX commands takes some work.  Anything between dollar
 signs is considered to be a LaTeX expression and subject to
 substitution.  All open curly brackets must be escaped (preceeded by a
@@ -30,17 +36,22 @@ Subscripts (underline) and superscripts (caret) must be replaced by
 the HTML sub...end-sub and sup...end-sup.  Less than and greater than
 must be entered with the HTML &amp;lt; and &amp;gt;, otherwise trying
 to replace them would mess up sup/end-sup.
-</P>
+</p>
 
-<P>
+<p>
 You can surround phrases with ``LaTeX-style doubled quotes'' or
 "doublequotes" it doesn't matter: there is a hard-wired conversion
 from LaTeX-style doubled quotes into doublequotes. 
 Putting $``LaTeX-style doubled quotes''$ in math mode markers (paired
 dollar signs) should make them doublequotes, too. 
-</P>
+</p>
 
-<P>
+<p>
+Enter dollar sign by doubling it: $$. This is a hack, but parsing is
+getting very complicated.
+</p>
+
+<p>
 Here is a sample:
 $\int\sqrt\{5} < \rho \div \left\{ \overline\{S}<sup>T</sup> \right\} \pm \mu$
 but in the limiting case we have
@@ -78,9 +89,9 @@ lower case
 Plants, or, What Kind of Terminal Could a Tulip Use?</em>, to be
 published in Deep Thoughts, Proceedings of Life, the Universe,
 &amp; Everything XV, Provo, Utah, USA, February 1997.
-</P>
+</p>
 
-<P>
+<p>
 <strong>Jon L. Bentley and Robert Sedgewick</strong>, <em>Algorithms
 for Sorting and Searching Strings</em>, Proc. 8th Annual ACM-SIAM
 Symposium on Discrete Algorithms (SODA), January 1997.
