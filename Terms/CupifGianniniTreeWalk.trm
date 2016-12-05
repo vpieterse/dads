@@ -1,0 +1,91 @@
+# *created  "Thu Oct 13 15:29:41 2016" *by "Paul E. Black"
+# *modified "Tue Nov  8 13:57:08 2016" *by "Paul E. Black"
+
+# $Log$
+# Mon Dec  5 12:01:13 2016  Paul E. Black
+# new file
+# 
+#
+
+# entry name
+@NAME=Cupif-Giannini tree walk
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=tree
+# the definition
+@DEFN=Visit every {leaf} of a {perfect binary tree} with maximum
+dispersion (see note).  For a tree of {height} $n$, use an $n$-bit
+"count" integer. 
+The least significant bit of count indicates whether to go to the left
+or right {child} from the {root}. Each more significant bit indicates
+whether to go left or right.  Regular binary counting generates the
+list of $2<sup>n</sup>$ {paths} to the leaves.
+</p>
+
+<p>
+To randomly {permute#permutation} the order of leaf visits, choose a
+random $n$-bit "key" at the beginning. Use the {xor} of the key and
+the count to indicate which child to visit.
+
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=The visits are a {depth-first search}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>J&eacute;r&ocirc;me Fran&ccedil;ois, Abdelkader Lahmadi,
+Valentin Giannini, Damien Cupif, Frederic Beck</strong>, and
+<strong>Bertrand Wallrich</strong>,
+<em>Optimizing internet scanning for assessing industrial systems exposure</em>,
+2016 International Wireless Communications and Mobile Computing
+Conference (IWCMC), pp. 516-522, 2016.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES="Dispersion" means the next leaf visited is as far from
+other leaves visited as possible.  More formally, the next leaf has
+the maximum {shortest path} to the preceding leaf (with less
+importance given to be far from more distantly preceeding leaves).
+</p>
+
+<p>
+It doesn't matter to the dispersion whether a 0 bit means left (and 1
+means right) or 0 means right (and 0 means left).  Also the initial
+value of count doesn't matter.
+</p>
+
+<p>
+To picture the algorithm, consider starting with a count of 000...00,
+indicating going down all left branches to the first leaf. 
+The next count is 000...01, which has a shortest path distance of
+$2n$: from the first leaf, go up to the root, take the right branch,
+then down to the second leaf.  The next count is 000...10. This third
+leaf is $2n$ from the immediately preceding leaf (the second one) and
+$2n-1$ from the first leaf: up to one below the root, then down to the
+first leaf.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $
