@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Aug 24 09:03:37 2015" *by "Paul E. Black"
+# *modified "Mon Dec  5 11:34:19 2016" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Mon Dec  5 11:37:51 2016  Paul E. Black
+# Use special "new" Wikipedia: citation, instead of hard-coded URL.
+# 
 # Mon Aug 24 09:05:25 2015  Paul E. Black
 # Jason Davies LINK is now https.
 # 
@@ -112,8 +115,7 @@ Arash Partow's
 @LINKS=
 The Bose, Guo, Kranakis, et. al. paper below shows that "The actual
 false-positive rate is strictly larger than" Bloom's formula. <br />
-<a href="http://en.wikipedia.org/wiki/Bloom_filter">Wikipedia
-entry</a>, which gives many variants and extensions.
+{Wikipedia:Bloom filter} gives many variants and extensions.
 <a href="http://cap-lore.com/code/BloomTheory.html">Trade-offs and
 engineering techniques</a> with links to sites with recent papers,
 hash functions, etc.
