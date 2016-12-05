@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 14:06:47 1999" *by "Paul E. Black"
-# *modified "Mon Dec  2 09:37:10 2013" *by "Paul E. Black"
+# *modified "Mon Dec  5 10:15:03 2016" *by "Paul E. Black"
 
 # $Log: randomnumgen.trm,v $
+# Mon Dec  5 11:03:04 2016  Paul E. Black
+# Move Dragon Tail comic to Pseudo Random Number Generation.
+# 
 # Mon Dec  2 09:39:54 2013  Paul E. Black
 # Remove URL for Dragon Tails - no longer on-line
 # 
@@ -48,20 +51,7 @@
 numbers, not actually random numbers.  This is important when, say,
 simulations are sensitive to subtle patterns in the ``random'' numbers
 or security depends on the numbers being unpredictable.
-</p>
 
-<p>
-<table cellspacing="0" cellpadding="0" border="0">
-<tr><td>
-<img
-src="../Images/dt random 040112.jpg" border="0" 
-alt="comic with the lines 'lets do something random'
-'Sorry, living creatures are notoriously terrible at generating true
-random numbers.'">
-</td></tr>
-</table>
-From Dragon Tails.
-Used by permission.  Copyright &copy; 2004 Tim Dawson.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
