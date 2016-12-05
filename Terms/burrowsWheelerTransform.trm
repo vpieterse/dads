@@ -1,7 +1,12 @@
 # *created  "Tue Jan 20 16:45:15 2004" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:07 2008" *by "Paul E. Black"
+# *modified "Mon Dec  5 11:32:18 2016" *by "Paul E. Black"
 
 # $Log: burrowsWheelerTransform.trm,v $
+# Mon Dec  5 11:39:20 2016  Paul E. Black
+# Improve DEFN (use "permute" instead of rarrange).  Add a note relating
+# the output array and suffix array.  Use special "new" Wikipedia:
+# citation, instead of hard-coded URL.
+# 
 # Revision 1.4  2008/08/14 16:14:10  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -13,7 +18,6 @@
 #
 # Revision 1.1  2004/01/20 22:18:34  black
 # Initial revision
-#
 
 # entry name
 @NAME=Burrows-Wheeler transform
@@ -22,12 +26,15 @@
 # autom basic theory search sort tree graph combin numeric etc. see areas.data
 @AREA=crypt
 # the definition
-@DEFN=Rearrange a {string} so repeated {substrings} lead to repeated
-characters in the rearranged string, which is easier to compress.
+@DEFN={Permute#permutation} a {string}. Repeated {substrings} lead
+to repeated 
+characters in the permuted string, which is easier to compress.
 Knowing which character was last in the original string, the original
 can be reconstructed from the rearranged string.
+
 # formal definition or {cross reference} to an entry
 @FORML=
+
 # comma-sep list of pure names that this is Also Known As.
 @AKA=BWT
 # other cross-listings solely for the web, such as name or spelling variants
@@ -56,9 +63,18 @@ This transform is algorithm C in the paper.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
+The transform may be defined in relation to the {suffix array} as follows.
+The result is an {array} BWT such that 
+<br />
+ &nbsp; &nbsp; BWT[i] = T[SA[i]-1], if SA[i] &gt; 1, otherwise $$
+<br />
+where T is the original string,
+i goes from 1 ({1-based indexing}) to the length of T,
+SA is the suffix array of T, and
+$$ is the special character indicating the end of string.
+
 # any historical notes
 @HISTORY=
-
 # implementation(s) (pure HTML)
 @IMPL=
 Mark Nelson's great 
@@ -67,9 +83,7 @@ the Burrows-Wheeler Transform (C++)</a> explains the algorithm.
 Dr. Dobb's Journal, September, 1996.
 # further explanation (pure HTML)
 @LINKS=
-Wikipedia entry for <a
-href="http://en.wikipedia.org/wiki/Burrows-Wheeler_transform">Burrows-Wheeler
-transform</a>.
+{Wikipedia:Burrows-Wheeler transform}.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/burrowsWheelerTransform.trm,v $
