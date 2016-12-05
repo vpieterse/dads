@@ -1,6 +1,7 @@
 aA
 Aarhus
 Aaronson
+Abdelkader
 Abu
 Ackermann
 ACM
@@ -29,6 +30,7 @@ algorithym
 algorythm
 Alkalai
 allocatable
+allowfullscreen
 Alon
 Amalapurapu
 Amar
@@ -102,10 +104,6 @@ Binstock
 bintree
 Bitner
 bitonic
-bitsHOSTis
-bitsImageLogos
-bitsPaul
-bitsReqHeadStuff
 bitwise
 BJ
 BKP
@@ -220,11 +218,13 @@ Crochemore
 cryptographic
 cryptographically
 crystallizations
+Csango
 CSP
 css
 CTL
 ctst
 Cumeni
+Cupif
 CX
 Cybernetica
 Cyrene
@@ -268,7 +268,6 @@ diviser
 dk
 DM
 DNAME
-dnl
 Dobb
 Dobosiewicz
 Doclady
@@ -361,7 +360,9 @@ Formulae
 Fortnow
 Fortran
 Fortuna
+frameborder
 Francon
+Franois
 Fredkin
 Fredman
 Friche
@@ -483,6 +484,7 @@ IETF
 iff
 ifi
 IFIP
+iframe
 ij
 ik
 IMA
@@ -514,6 +516,7 @@ ist
 Itai
 ith
 Iverson
+IWCMC
 j'j
 Ja'far
 Jagadish
@@ -526,6 +529,7 @@ jb
 JDSL
 Jenkin
 Jens
+Jerme
 JGraphT
 JH
 Jianliang
@@ -578,10 +582,12 @@ Kruskal
 KSL
 kslarsen
 kth
+Kuekuellmenti
 Kumar
 Kuszmaul
 KV
 Lagarias
+Lahmadi
 Lamport
 Landis
 lang
@@ -590,6 +596,7 @@ LCFS
 LCS
 Lecroq
 Leeuwen
+legenyes
 Lehmer
 Leighton
 Leiser
@@ -865,6 +872,7 @@ PQ
 Praca
 pre
 precalculating
+preceeding
 Preiss
 Preiss
 preorder
@@ -970,6 +978,7 @@ Samet
 samir
 Sandeep
 Sant
+Sapientia
 Sarbazi
 Sarnak
 Sartaj
@@ -977,6 +986,7 @@ satisfiability
 satisfiable
 Savio
 Saxe
+saxon
 SBB
 Schlegel
 Schneier
@@ -1129,6 +1139,7 @@ TNAME
 Torsten
 tradeoffs
 transversal
+Transylvanian
 Traub
 travelling
 treap
@@ -1205,6 +1216,7 @@ vu
 vu
 Vuillemin
 VZ
+Wallrich
 Warfield
 Warshall
 Waterman
@@ -1230,7 +1242,6 @@ xdelta
 XG
 Xiao
 xkcd
-xlinux
 xp
 Xu
 Yaacov
