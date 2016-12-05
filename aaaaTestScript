@@ -1,9 +1,14 @@
 # *created  "Thu Aug 19 13:03:30 2010" *by "Paul E. Black"
-# *modified "Fri Jan  6 10:48:28 2012" *by "Paul E. Black"
+# *modified "Mon Dec  5 11:46:46 2016" *by "Paul E. Black"
 
 # check that aaaaTest is handled the way it was before.
 
 # diff the latest produced files with files produced some time ago.
+
+# $Log$
+# Mon Dec  5 11:47:38 2016  Paul E. Black
+# Expand expression to cover more years to remove more date stamps.
+# 
 
 # (1) cp aaaaTest.trm Terms
 # (2) make site
@@ -18,6 +23,6 @@ for f in *.html */*.html
 do
     echo $f
     diff $f ../Target/$f
-done | egrep -v " 20(03|09|10|11|12)" # remove date stamps
+done | egrep -v " 20(0[239]|1[0123456])" # remove date stamps
 
 # end of $Source$
