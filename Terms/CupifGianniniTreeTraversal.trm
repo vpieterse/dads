@@ -1,7 +1,12 @@
 # *created  "Thu Oct 13 15:29:41 2016" *by "Paul E. Black"
-# *modified "Fri Feb 10 13:38:52 2017" *by "Paul E. Black"
+# *modified "Fri Feb 10 13:46:16 2017" *by "Paul E. Black"
 
 # $Log$
+# Fri Feb 10 13:49:35 2017  Paul E. Black,,,
+# Make depth-first search an XREF, not IMA. Since this does not visit
+# internal nodes, it is not a traversal in the same sense as preorder
+# and postorder traversals are.
+# 
 # Fri Feb 10 13:39:56 2017  Paul E. Black,,,
 # Rename to be tree *traversal* (from tree walk) for consistency with
 # preorder traversal, etc.  Add pseudocode.
@@ -41,7 +46,7 @@ the count to indicate which child to visit.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=The visits are a {depth-first search}
+@IMA=
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
@@ -49,7 +54,7 @@ the count to indicate which child to visit.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={depth-first search}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
