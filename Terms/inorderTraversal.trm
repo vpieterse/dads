@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:14:39 2008" *by "Paul E. Black"
+# *modified "Fri Feb 10 12:35:10 2017" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
+# Fri Feb 10 13:35:02 2017  Paul E. Black,,,
+# XREF Cupif-Giannini tree traversal, too.
+# 
 # Revision 1.8  2008/08/14 16:14:40  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -53,7 +56,7 @@ the right subtree.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={postorder traversal}, {preorder traversal}, 
-{level-order traversal}
+{level-order traversal}, {Cupif-Giannini tree traversal}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
