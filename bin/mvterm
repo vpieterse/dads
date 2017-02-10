@@ -1,17 +1,16 @@
-#! /bin/csh -f
-#                  *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
-set versionMod = ' *modified "Wed Feb 24 11:11:11 2016" *by "Paul E. Black"'
+#!/bin/sh -f
+#            *created  "Mon Dec 19 09:04:56 2005" *by "Paul E. Black"
+versionMod=' *modified "Fri Feb 10 12:30:33 2017" *by "Paul E. Black"'
 
 #------------------------------------------------------------------------
 #	Rename a term file and make other needed changes: git, Target
 #	HTML, etc.
 #
-set programName = "mvterm"
-set useMsg = \
-	"Usage: $programName [-nh] [--verbose] currentName newName"
-set options = ""
-set minOperands = 2
-set maxOperands = 2
+programName="mvterm"
+useMsg="Usage: $programName [-nh] [--verbose] currentName newName"
+options=""
+minOperands=2
+maxOperands=2
 #
 # This software was developed at the National Institute of Standards 
 # and Technology by employees of the Federal Government in the course 
@@ -26,133 +25,173 @@ set maxOperands = 2
 #------------------------------------------------------------------------
 
 # $Log$
+# Fri Feb 10 13:32:43 2017  Paul E. Black,,,
+# Run in shell (sh) instead of C shell (csh).  Change the user interface
+# and operand checking code to work in sh.  I have not changed the
+# operational code, yet.
+# 
+# Fri Feb 10 13:30:44 2017  Paul E. Black,,,
+# Run in shell (sh) instead of C shell. Change the user interface and
+# operand checking code, but none of the operational code.
+# 
 # Wed Feb 24 11:11:39 2016  Paul E. Black
 # Change versioning from RCS to git.  Add $Log$ line.
 # 
 
 # set defaults
-set errorStatus = 2
-set termDir = "Terms"
-set targetDir = "Target"
-set doCmds = 1 # if true, execute commands
-set showCmds = 0 # if true, print what is (or would be) done
+errorStatus=2
+termDir="Terms"
+targetDir="Target"
+showCmds=0 # if true, print what is (or would be) done
+doCmds=1 # if true, execute commands
 
-# SEE ~aftg/bin/mugent FOR CODE TO HANDLE OPTIONS
-
-set optind = 1
-while ($optind <= $#argv)
-	set option = $argv[$optind]
-	switch ($option)
-	  case -h*:
-	  case --h*:
-    echo $useMsg:q
+while [ $# -gt 0 ]; do
+    option=$1
+    #echo DEBUG: option is $option # TEMP
+    case "$option" in
+	-h*|--h*)
+    echo $useMsg
     echo "	-n	No changes; just print what would be done"
     echo "	--verbose print what is done as it is done"
     echo "	--version print Version information"
     echo "	--	End of options (e.g., currentName begins with -)"
 	    exit 0
+	;;
 
-	  case -n:
-	    @ optind++
-	    set doCmds = 0
-	    set showCmds = 1
+	-n)
+	    shift
+	    doCmds=0
+	    showCmds=1
+	;;
+
+	--verb*)
+	    shift
+	    showCmds=1
 	    break
+	;;
 
-	  case --verb*:
-	    @ optind++
-	    set showCmds = 1
-	    break
-
-	  case --vers*:
-	    @ optind++
-	    echo $versionMod:q
+	--vers*)
+	    shift
+	    echo $versionMod
 	    exit 0
+	;;
 
-	  case -v*:
-	  case --v*:
-	    @ optind++
+	-v*|--v*)
+	    shift
 	    echo "ambiguous: use --verb[ose] or --vers[ion] (or --help)"
-	    echo $useMsg:q
+	    echo $useMsg
 	    exit 0
+	;;
 
 	  # this branch must always be present to detect end-of-options
-	  case --:
-	    @ optind++
+	--)
+	    shift
 	    break
+	;;
 
-	  case -*:
+	-*)
 	    echo Unknown option: $option
-	    echo $useMsg:q
+	    echo $useMsg
 	    exit $errorStatus
+	;;
 
-	  default:
-	    # must be an operand
+	*)
+	    # this must be an operand
 	    break
-	endsw # on option
+	;;
+    esac; # on option
 
-	@ optind++
-end # while options to process
+    shift
+done # while options to process
+#   echo DEBUG: END OF WHILE # TEMP
 
-@ numberOfOperands = 1 + $#argv - $optind
-if ($numberOfOperands < $minOperands || $numberOfOperands > $maxOperands) then
+numberOfOperands=$#
+if [ $numberOfOperands -lt $minOperands ] || [ $numberOfOperands -gt $maxOperands ]; then
 	echo $programName\: Wrong number of operands
-	echo $useMsg:q
+	echo $useMsg
 	exit $errorStatus
-endif
+fi
+
+# check that the Terms directory exists and is writable
+if [ ! -d $termDir ]; then
+    echo $programName\: directory not found: $termDir
+    echo $useMsg
+    exit $errorStatus
+fi
+if [ ! -w $termDir ]; then
+    echo $programName\: directory not writable: $termDir
+    echo $useMsg
+    exit $errorStatus
+fi
 
 # get "from" or current term file name
-set baseFrom = `basename "$argv[$optind]" .trm`
-@ optind++
-set fromTerm = "$termDir/$baseFrom.trm"
-if (! -e $fromTerm || ! -r $fromTerm) then
-    echo $programName\: cannot read $fromTerm
-    echo $useMsg:q
+baseFrom=`basename "$1" .trm`
+shift
+fromTerm="$termDir/$baseFrom.trm"
+if [ ! -e $fromTerm ]; then
+    echo $programName\: file not found: $fromTerm
+    echo $useMsg
     exit $errorStatus
-endif
+fi
+if [ ! -f $fromTerm ] || [ -h $fromTerm ]; then
+    echo $programName\: not a regular file: $fromTerm
+    echo $useMsg
+    exit $errorStatus
+fi
+if [ ! -r $fromTerm ]; then
+    echo $programName\: file not readable: $fromTerm
+    echo $useMsg
+    exit $errorStatus
+fi
 
 # get new term file name
-set baseTo = `basename "$argv[$optind]" .trm`
-@ optind++
-set toTerm = "$termDir/$baseTo.trm"
-if (-e $toTerm) then
-    echo $programName\: $toTerm exists
-    echo $useMsg:q
+baseTo=`basename "$1" .trm`
+shift
+toTerm="$termDir/$baseTo.trm"
+if [ -e $toTerm ]; then
+    echo $programName\: '"to"' file already exists: $toTerm
+    echo $useMsg
     exit $errorStatus
-endif
+fi
 
 # since from MUST exist and to CANNOT exist, this should never happen
-if ($baseFrom:q == $baseTo:q) then
+if ($baseFrom == $baseTo); then
     echo $programName\: "$baseFrom and $baseTo are the same" 
     exit $errorStatus
-endif
+fi
+
+echo =========================================================================
+echo OPERATION NOT TESTED; ABORTING
+echo =========================================================================
+exit
 
 # rename version file
-if ($showCmds) then
+if ($showCmds); then
     echo git mv $fromTerm $toTerm
     echo "  note: 'git mv' renames the term file, too"
-endif
-if ($doCmds) then
+fi
+if ($doCmds); then
     git mv $fromTerm $toTerm
-endif
+fi
 
 # make sure they match
-if ($showCmds) then
+if ($showCmds); then
     echo git diff $toTerm
-endif
-if ($doCmds) then
+fi
+if ($doCmds); then
     git diff $toTerm
-endif
+fi
 
 # remove any target HTML referring to it, so they will be regenerated
 # SKIMP - should search for @WEB and @AKA names, too
 echo finding references to $baseFrom.  This may take a few seconds ...
-set fileList = `grep -l $baseFrom.html $targetDir/HTML/*`
-if ($showCmds) then
+fileList=`grep -l $baseFrom.html $targetDir/HTML/*`
+if ($showCmds); then
     echo rm $fileList
-endif
-if ($doCmds) then
+fi
+if ($doCmds); then
     rm $fileList
-endif
+fi
 
 echo Remember to ssh xlinux, cd dads/HTML, and rm $baseFrom.html
 
