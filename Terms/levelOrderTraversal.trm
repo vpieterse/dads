@@ -1,7 +1,11 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu May 26 15:48:58 2011" *by "Paul E. Black"
+# *modified "Fri Feb 10 12:38:50 2017" *by "Paul E. Black"
 
 # $Log: levelOrderTraversal.trm,v $
+# Fri Feb 10 13:36:03 2017  Paul E. Black,,,
+# XREF Cupif-Giannini tree traversal, too.  Indicate which definition of
+# level we mean.
+# 
 # Revision 1.5  2011/05/26 19:49:50  black
 # XREF the new entry, level
 #
@@ -36,8 +40,8 @@ then the {children#child} of the root, etc.  Equivalent to a
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={postorder traversal}, {preorder traversal}, {tree traversal},
-{level}
+@XREFS={postorder traversal}, {preorder traversal}, {tree traversal}, 
+{Cupif-Giannini tree traversal}, {level} (1)
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
