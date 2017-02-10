@@ -1,7 +1,10 @@
 # *created  "Thu Oct 13 15:29:41 2016" *by "Paul E. Black"
-# *modified "Fri Feb 10 13:46:16 2017" *by "Paul E. Black"
+# *modified "Fri Feb 10 16:03:01 2017" *by "Paul E. Black"
 
 # $Log$
+# Fri Feb 10 16:03:23 2017  Paul E. Black,,,
+# Clarify the pseudocode. Fix a tiny typo.
+# 
 # Fri Feb 10 13:49:35 2017  Paul E. Black,,,
 # Make depth-first search an XREF, not IMA. Since this does not visit
 # internal nodes, it is not a traversal in the same sense as preorder
@@ -91,14 +94,14 @@ first leaf.
 
 <p>
 Here is pseudocode for an inefficient Cupif-Giannini tree traversal
-with Xor "randomization":
+with Xor "randomization" (** is the power operator, and ^ is xor):
 <pre>
 visitNode(tree, nodeNumber, bitNumber)<br />
 begin<br />
     if isLeaf(tree), then<br />
         print(tree.root);<br />
     else<br />
-        if getBit(bitNumber, nodeNumber) is 1, then<br />
+        if the bitNumber-th bit of nodeNumber is 1, then<br />
             visitNode(tree.left_subtree, nodeNumber, bitNumber+1);<br />
         else<br />
             visitNode(tree.right_subtree, nodeNumber, bitNumber+1);<br />
@@ -110,7 +113,7 @@ cupifGiannini(tree)<br />
 begin<br />
     key = random();<br />
     for n = 0 to 2**height(tree)-1<br />
-        vistNode(tree, n ^ key, 1);<br />
+        visitNode(tree, n ^ key, 1);<br />
     endfor<br />
 end
 </pre>
