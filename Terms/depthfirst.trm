@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:51:15 2016" *by "Paul E. Black"
+# *modified "Fri Feb 10 08:46:46 2017" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Fri Feb 10 13:34:23 2017  Paul E. Black,,,
+# XREF Cupif-Giannini tree traversal, too.
+# 
 # Mon Dec  5 11:03:20 2016  Paul E. Black
 # Add alt caption to and improve citation of xkcd comic.
 # 
@@ -90,7 +93,8 @@ discovered and finished, partitioning the graph into a {forest}.
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT={preorder traversal}, {in-order traversal}, {postorder traversal}
+@VARIANT={preorder traversal}, {in-order traversal},
+  {postorder traversal}, {Cupif-Giannini tree traversal}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
