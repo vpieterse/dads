@@ -1,7 +1,12 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Fri Feb 10 08:46:46 2017" *by "Paul E. Black"
+# *modified "Fri Feb 10 13:44:45 2017" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Fri Feb 10 13:51:26 2017  Paul E. Black,,,
+# Since Cupif-Giannini tree traversal does not visit internal nodes, it
+# is not strictly a traversal, like preorder or postorder traversals
+# are.  So it is an XREF, not a VARIANT.
+# 
 # Fri Feb 10 13:34:23 2017  Paul E. Black,,,
 # XREF Cupif-Giannini tree traversal, too.
 # 
@@ -94,14 +99,15 @@ discovered and finished, partitioning the graph into a {forest}.
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={preorder traversal}, {in-order traversal},
-  {postorder traversal}, {Cupif-Giannini tree traversal}
+  {postorder traversal}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={breadth-first search}, {best-first search},
-{Schorr-Waite graph marking algorithm}
+{Schorr-Waite graph marking algorithm}, 
+{Cupif-Giannini tree traversal}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=
