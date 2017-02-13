@@ -1,7 +1,10 @@
 # *created  "Thu Oct 13 15:29:41 2016" *by "Paul E. Black"
-# *modified "Fri Feb 10 16:03:01 2017" *by "Paul E. Black"
+# *modified "Mon Feb 13 16:44:25 2017" *by "Paul E. Black"
 
 # $Log$
+# Mon Feb 13 16:46:17 2017  Paul E. Black,,,
+# Correct typo in note, and expand one explanation.
+# 
 # Fri Feb 10 16:03:23 2017  Paul E. Black,,,
 # Clarify the pseudocode. Fix a tiny typo.
 # 
@@ -77,8 +80,8 @@ importance given to be far from more distantly preceeding leaves).
 
 <p>
 It doesn't matter to the dispersion whether a 0 bit means left (and 1
-means right) or 0 means right (and 0 means left).  Also the initial
-value of count doesn't matter.
+means right) or 0 means right (and 1 means left).  Also the initial
+value of count doesn't matter, as long as overflow is handled.
 </p>
 
 <p>
