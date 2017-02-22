@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id: mkterms,v 1.85 2013/09/27 20:18:35 black Exp $
 # *created  "Tue Sep  8 11:36:37 1998" *by "Paul E. Black"
-# *modified "Mon Jun 15 09:50:07 2015" *by "Paul E. Black"
+# *modified "Wed Feb 22 15:11:34 2017" *by "Paul E. Black"
 #
 # Collect all DADS terms and format them for web pages.
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -26,6 +26,10 @@ $maxOperands = 0;
 # Paul E. Black paul.black@nist.gov
 #
 # $Log$
+# Wed Feb 22 15:19:57 2017  Paul E. Black,,,
+# Open parens ({) in regexs need to be escaped. Having them stand alone
+# is deprecated.  Add a close-list-item (</li>) for every list-item (<li>).
+# 
 # Mon Jun 22 11:56:32 2015  Paul E. Black
 # Access external link to wikipedia with https.
 # 
@@ -161,12 +165,12 @@ sub rewriteXrefs {
     # rewrite cross references ({...}) as href's (to entries, not files)
     #print "STEP 1: $_[0] \n"; # for debugging
     $_[0] =~ s|%|%P|go; # preserve our escape character
-    $_[0] =~ s|\\{|%R|go; # escape {'s in HTML markup
+    $_[0] =~ s|\\\{|%R|go; # escape {'s in HTML markup
     #print "STEP 3: $_[0] \n"; # for debugging
     # rewrite complex references ( {text#xref} ) first
-    $_[0] =~ s|{([^}]+)\#([^}]+)}|<a href="\#$2"><em>$1</em></a>|go;
+    $_[0] =~ s|\{([^}]+)\#([^}]+)}|<a href="\#$2"><em>$1</em></a>|go;
     # now rewrite simple references ( {textref} )
-    $_[0] =~ s|{(.+?)}|<a href="\#$1"><em>$1</em></a>|go;
+    $_[0] =~ s|\{(.+?)}|<a href="\#$1"><em>$1</em></a>|go;
     # cite and rewrite href for external sources
     if ($_[0] =~ /href="\#[^:"}]+:/) {
 	#print "External source: $_[0] \n" ;
@@ -455,7 +459,7 @@ TABLE_NEXT_COLUMN
 	    &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
 	    close SUB2LEV;
 
-	    print TMP2LEV "$latestdname</a>\n";
+	    print TMP2LEV "$latestdname</a></li>\n";
 
 	    $entriesInPage = 0;
 	}
@@ -465,7 +469,7 @@ TABLE_NEXT_COLUMN
     # Write an entry in the unified index
     ###########################################################
 
-    print TMPUNIFI "<li><a href=\"$termpage\">$dname</a>\n";
+    print TMPUNIFI "<li><a href=\"$termpage\">$dname</a></li>\n";
     # detect some cases of using the same file for two different entries
     if ($termpage eq $prevtermpageUI) {
 	print "\n    *****Reused file name: $termpage ($thisEntry{SRCFILE} and $prevfile)\n";
@@ -769,7 +773,7 @@ if ($entriesInPage > 0) {
     &concatenate("$PAGES/${TWOLEVEL}page.concl", SUB2LEV);
     close SUB2LEV;
 
-    print TMP2LEV "$latestdname</a>\n";
+    print TMP2LEV "$latestdname</a></li>\n";
 }
 
 print TMP2LEV "</ul>\n\n";
@@ -830,7 +834,7 @@ for $ent (@sortedentries) {
     my $dname = $thisEntry{DNAME};
     my $eimpls = $thisEntry{IMPL};
     my $erelurl = pageURLrel($thisEntry{SRCFILE});
-    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>: $eimpls\n";
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>: $eimpls</li>\n";
 }
 print TMPPAGE "</ul>\n\n";
 
@@ -870,10 +874,10 @@ print TMPPAGE "<p>\nRun on $now\n";
 # Add links to each area for fast access
 print TMPPAGE "\n<h3>Areas</h3>\n<ul>\n";
 for $area (sort keys %areas) {
-    print TMPPAGE "<li><a href=\"\#$area\">$areas{$area}</a>\n";
+    print TMPPAGE "<li><a href=\"\#$area\">$areas{$area}</a></li>\n";
 }
 # add link to no area
-print TMPPAGE "<li><a href=\"\#noarea\">Entries with No Area</a>\n";
+print TMPPAGE "<li><a href=\"\#noarea\">Entries with No Area</a></li>\n";
 print TMPPAGE "</ul>\n";
 
 # Step VIIc: write areas and entries
@@ -890,7 +894,7 @@ sub printAreaEntry {
 	my $etype = $thisEntry{TYPE};
 	print TMPPAGE " [<strong>$etype</strong>]";
     }
-    print TMPPAGE "\n";
+    print TMPPAGE "</li>\n";
 }
 
 for $area (sort keys %areas) {
@@ -952,10 +956,10 @@ print TMPPAGE "<p>\nRun on $now\n";
 # Add links to each section for fast access
 print TMPPAGE "\n<h3>Types</h3>\n<ul>\n";
 for $tent (keys %types) {
-    print TMPPAGE "<li><a href=\"\#$tent\">$types{$tent}</a>\n";
+    print TMPPAGE "<li><a href=\"\#$tent\">$types{$tent}</a></li>\n";
 }
 # add link to unclassified entries
-print TMPPAGE "<li><a href=\"\#notype\">Entries with No Type</a>\n";
+print TMPPAGE "<li><a href=\"\#notype\">Entries with No Type</a></li>\n";
 print TMPPAGE "</ul>\n";
 
 # Step VIIIc: write types and entries
@@ -967,7 +971,7 @@ sub printTypeEntry {
     return if $thisEntry{ENTCLASS} eq "WEB";
     my $dname = $thisEntry{DNAME};
     my $erelurl = pageURLrel($thisEntry{SRCFILE});
-    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a>\n";
+    print TMPPAGE "<li><a href=\"$erelurl\">$dname</a></li>\n";
 }
 
 for $tent (keys %types) {
