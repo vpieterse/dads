@@ -1,7 +1,10 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Fri Dec 20 10:32:45 2013" *by "Paul E. Black"
+ *modified "Wed Feb 22 13:27:41 2017" *by "Paul E. Black"
 
 $Log$
+Wed Feb 22 15:20:51 2017  Paul E. Black,,,
+Fix Google search by hardcoding it.
+
 Fri Dec 20 10:36:30 2013  Paul E. Black
 Note that Google search does not work on the NIST site and how it
 might be fixed.  Add a bug about no way to NOT have a space after a
@@ -20,17 +23,11 @@ Initial list of todos
                           CONTENT AND STYLE
 -------------------------------------------------------------------
 * Add more terms
-* check that the Google search box works
-  - on the NIST site, and
-  - on the Fastar site
-      Google search does NOT work on the NIST site.  The search
-      specifies the site as ROOTDIR, which is www.nist.gov, but Google
-      treats that as (almost) empty, so searches are not productive.
-      The following works:
-      <input type=radio name=sitesearch value="http://xlinux.nist.gov/dads" checked> DADS <br />
-      To use that, we'd have to define a new bitsSearchRoot so it can
-      be different for NIST and Fastar.  We COULD add another radio
-      button and hard-code them all.  It could look like this
+* make the Google search box parameterized.  Currently it is hardcoded
+  (in bitsSearch.m4) to use http://xlinux.nist.gov/dads.  We could
+  define a new "search root" macro, instead of ROOTDIR, so it can be
+  different for NIST and Fastar.  We COULD add another radio button
+  and hard-code them all.  It could look like this 
 	        (o) Web  (o) DADS/NIST  (o) DADS/Fastar
 * Style sheet refinements
   - tag for formulas
