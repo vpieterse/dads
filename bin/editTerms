@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 $versionRCS='$Header: /home/black/DADS/dads/RCS/editTerms,v 1.14 2013/10/01 13:36:05 black Exp $';
 #	      *created  "Wed Oct 15 10:37:48 2003" *by "Paul E. Black"
-$versionMod=' *modified "Tue Sep  2 08:33:27 2014" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Nov 16 13:57:09 2016" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -25,6 +25,10 @@ $typUse = "for f in `grep -l vertices Terms/*.trm`; do editTerms \$f; gcommit \$
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Wed Feb 22 15:31:09 2017  Paul E. Black
+# Latest updates. I did this commit to test gcommits handling of name
+# of person executing.
+# 
 # Tue Sep  2 08:58:17 2014  Paul E. Black
 # Fix typical use message, include "do".  Also improve message to show
 # how to invoke gcommit.
@@ -47,7 +51,7 @@ $typUse = "for f in `grep -l vertices Terms/*.trm`; do editTerms \$f; gcommit \$
 #	Command line handling
 #------------------------------------------------------------------------------
 
-$reason = "update URL for Skiena's Stony Brook Algorithm Respository IMPLs";
+$reason = "change one-based indexing to 1-based indexing";
 #           search for SPECIFIC EDIT and change hard-coded date
 $editor = "Paul E. Black"; # for *modified line
 # check that hard-coded date is current to reduce chance of 
@@ -106,7 +110,7 @@ if ($numberOfOperands < $minOperands) {
 #------------------------------------------------------------------------------
 
 # make sure the program is not accidentally rerun without being updated
-if ($checkDate && localtime() !~ /Tue Sep  2/) {
+if ($checkDate && localtime() !~ /Wed Nov 16/) {
     print "The (hard coded) check-in reason is:\n";
     print "\t$reason\n";
     print "REMEMBER TO CHANGE THE CHECK-IN REASON!\n";
@@ -179,7 +183,7 @@ foreach $term_file_name (@ARGV) {
 		#
 		#----------------------------------------------------
 
-		$line =~ s|://www.cs.stonybrook.edu/|://www3.cs.stonybrook.edu/|g;
+		$line =~ s|one-based indexing|1-based indexing|g;
 
 		print TERM $line;
 	    }
