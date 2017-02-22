@@ -1,8 +1,12 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Tue Nov  8 14:06:57 2016" *by "Paul E. Black"
+# *modified "Wed Feb 22 14:46:28 2017" *by "Paul E. Black"
 #
 # $Log$
+# Wed Feb 22 15:17:48 2017  Paul E. Black,,,
+# If index.html is older than terms.html or is missing, make it a link
+# to terms.html.
+# 
 # Tue Nov  8 14:08:57 2016  Paul E. Black
 # Change chkhtml. & followed by # is ok - it is a hex encoding.
 # 
@@ -188,8 +192,9 @@ ${OTHERDIR}/creditNotice.html: ${PAGES}/creditNotice.html
 ${OTHERDIR}/contrib.html: ${PAGES}/contrib.intro ${PAGES}/contrib.concl authors.data
 	./mkauthors
 
-# link from index.html to terms.html if necessary
-${OUTDIR}/index.html:
+# make sure index.html is a link to terms.html
+${OUTDIR}/index.html: ${OUTDIR}/terms.html
+	rm $@
 	ln -s terms.html $@
 
 # make sure favicon.ico is present and up-to-date
