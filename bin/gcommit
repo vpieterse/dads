@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id$
 #             *created  "Mon Oct 21 15:41:50 2013" *by "Paul E. Black"
-$versionMod=' *modified "Tue Sep  2 08:53:14 2014" *by "Paul E. Black"';
+$versionMod=' *modified "Wed Feb 22 15:30:36 2017" *by "Paul E. Black"';
 
 #-----------------------------------------------------------------------------
 #
@@ -31,6 +31,10 @@ $typUse = "gcommit mkterms";
 #-----------------------------------------------------------------------------
 
 # $Log$
+# Wed Feb 22 15:32:55 2017  Paul E. Black
+# Remove any room or telephone numbers (stuff after a comma) from the
+# full name, which comes from /etc/passwd.
+# 
 # Tue Sep  2 08:59:09 2014  Paul E. Black
 # Start emacs with cursor at line 3, where comments should begin
 # 
@@ -133,6 +137,7 @@ if (! -r $filename) {
 my $fullname = (getpwuid($<))[6];
 # here's an alternative
 #my $person = $ENV{LOGNAME} || $ENV{USER} || getlogin || getpwuid($<);
+$fullname =~ s|,.*$||; # remove any room or telephone number in name
 if (! defined $fullname || $fullname eq "") {
     $fullname = "unknown";
 }
