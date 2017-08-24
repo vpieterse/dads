@@ -103,6 +103,7 @@ bimodal
 Binstock
 bintree
 Bitner
+bitNumber
 bitonic
 bitwise
 BJ
@@ -225,6 +226,7 @@ CTL
 ctst
 Cumeni
 Cupif
+cupifGiannini
 CX
 Cybernetica
 Cyrene
@@ -369,6 +371,7 @@ Friche
 Friedhelm
 Fritze
 Fulkerson
+funtion
 Gaede
 Galil
 Galperin
@@ -466,6 +469,7 @@ HOWTO
 hsadelta
 Hsieh
 http
+https
 Hua
 Hudak
 Huet
@@ -497,7 +501,6 @@ Incerpi
 incompressible
 incrementing
 Indyk
-infeasible
 infinitary
 Informatica
 Ingo
@@ -511,6 +514,7 @@ isa
 isEmpty
 isFull
 isIn
+isLeaf
 isomorphism
 ist
 Itai
@@ -729,6 +733,7 @@ multiway
 Munafo
 Munkres
 Munkres
+Munroe
 MurmurHash
 Musser
 Mustafa
@@ -755,6 +760,7 @@ Nilo
 Nivio
 nk
 nm
+nodeNumber
 Noll
 nonbalanced
 nonbinary
@@ -768,7 +774,6 @@ nonnegative
 nonoverlapping
 nonperiodic
 nonrectangular
-nonsimple
 nonterminal
 NORs
 NOTFOUND
@@ -967,7 +972,6 @@ Rozsa
 RST
 Ruepp
 RUNDATE
-sa
 Saad
 SafeSearch
 Sahil
@@ -1201,6 +1205,7 @@ Viewable
 viewdoc
 Vinokur
 Vishwanathan
+visitNode
 Viterbi
 Vitt
 Vitter
@@ -1242,6 +1247,7 @@ xdelta
 XG
 Xiao
 xkcd
+xlinux
 xp
 Xu
 Yaacov
