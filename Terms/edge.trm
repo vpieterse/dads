@@ -1,5 +1,5 @@
 # *created  "Fri Sep 18 13:25:44 1998" *by "Paul E. Black"
-# *modified "Mon Apr 19 14:37:40 2004" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:11:54 2017" *by "Paul E. Black"
 
 # $Log: edge.trm,v $
 # Revision 1.4  2004/04/19 18:37:45  black
@@ -20,7 +20,7 @@
 @AREA=graph
 # the definition
 @DEFN=A connection between two {vertices#vertex} of a {graph}.  In
-a {weighted graph}, each edge has an number, called a "weight."  In
+a {weighted graph}, each edge has an number, called a "weight".  In
 a {directed graph}, an edge goes from one vertex, the {source}, to
 another, the {target}, and hence
 makes connection in only one direction.

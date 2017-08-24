@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jul 29 09:49:06 2004" *by "Paul E. Black"
+# *modified "Thu Aug 24 08:33:18 2017" *by "Paul E. Black"
 
 # $Log: simplepath.trm,v $
 # Revision 1.2  2004/07/29 13:49:41  black
@@ -14,23 +14,28 @@
 # basic numeric search sort graph combin(atorial) tree theory para(llel)
 @AREA=graph
 # the definition
-@DEFN=A {path} that repeats no {vertex}.
+@DEFN=A {path} that repeats no {vertex}, except that the first and last
+may be the same vertex.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
 @IMA=
 # Specialization: "... is a kind of me."
-@VARIANT=
+@VARIANT={Hamiltonian path}, {cycle}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Hamiltonian path}, {cycle}, 
+@XREFS=
 enumerate {all simple paths} between two vertices
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=
+@NOTES=In August 2017 the definition changed to allow the first and
+last vertex to be the same, consistent with Knuth 
+<a href="../terms.html#Knuth98">[Knuth98, 1:363]</a>.  Before, the
+definition was "A path that repeats no vertex."
+
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)

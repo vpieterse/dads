@@ -1,5 +1,5 @@
 # *created  "Tue Nov  3 16:31:06 1998" *by "Paul E. Black"
-# *modified "Wed Nov  4 09:05:00 2009" *by "Paul E. Black"
+# *modified "Thu Aug 24 08:44:57 2017" *by "Paul E. Black"
 
 # $Log: cycle.trm,v $
 # Revision 1.11  2009/11/04 14:05:15  black
@@ -56,7 +56,7 @@ same {vertex} and includes at least one {edge}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=(nonsimple) {path}
+@IMA={path}
 # Specialization: "... is a kind of me."
 @VARIANT={Hamiltonian cycle}, {Euler cycle}
 # Aggregate parent: "I am a part of or used in ..."
@@ -64,7 +64,7 @@ same {vertex} and includes at least one {edge}.
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS=
+@XREFS={circuit} (2)
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
@@ -74,8 +74,7 @@ Also known as "circuit" or "closed path".
 </p>
 
 <p>
-A cycle is usually assumed to be a {simple path} ignoring the start
-(and end) vertex.  That is, it include vertices other than the
+A cycle includes vertices other than the
 start/end at most once.
 </p>
 

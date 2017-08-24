@@ -1,5 +1,5 @@
 # *created  "Tue Nov  3 16:40:39 1998" *by "Paul E. Black"
-# *modified "Thu Jul 29 10:01:56 2004" *by "Paul E. Black"
+# *modified "Thu Aug 24 08:27:58 2017" *by "Paul E. Black"
 
 # $Log: path.trm,v $
 # Revision 1.4  2004/07/29 14:04:01  black
@@ -21,7 +21,7 @@
 @AREA=graph
 # the definition
 @DEFN=A list of {vertices#vertex} of a {graph} where each vertex
-has an {edge} from it to the next vertex.
+has an {edge} between it and the next vertex.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -39,6 +39,11 @@ has an {edge} from it to the next vertex.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=A path is usually assumed to be a {simple path}, unless
 otherwise defined.
+</p>
+
+<p>
+In a {directed graph}, each vertex has an edge from it to the next vertex.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/path.trm,v $
