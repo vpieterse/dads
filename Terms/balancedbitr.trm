@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon May 23 10:00:52 2011" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:14:51 2017" *by "Paul E. Black"
 
 # $Log: balancedbitr.trm,v $
 # Revision 1.9  2011/05/23 14:01:03  black
@@ -36,7 +36,7 @@
 # the definition
 @DEFN=A {binary tree} where no {leaf} is more than a certain
 amount farther from the {root} than any other.  After inserting or
-deleting a {node}, the tree may rebalanced with "rotations."
+deleting a {node}, the tree may rebalanced with {rotations}.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."

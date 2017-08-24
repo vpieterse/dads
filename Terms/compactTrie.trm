@@ -1,5 +1,5 @@
 # *created  "Tue Feb 10 12:51:49 2004" *by "Paul E. Black"
-# *modified "Fri Aug  1 10:13:41 2008" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:12:03 2017" *by "Paul E. Black"
 
 # $Log: compactTrie.trm,v $
 # Revision 1.4  2008/12/03 19:50:44  black
@@ -50,7 +50,7 @@ are cut off.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."  See the historical note at {trie}.
+pronounced, "tree".  See the historical note at {trie}.
 
 # any historical notes
 @HISTORY=

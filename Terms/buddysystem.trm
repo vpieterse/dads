@@ -1,5 +1,5 @@
 # *created  "Wed Feb 17 12:40:41 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:02:47 2004" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:12:31 2017" *by "Paul E. Black"
 
 # $Log: buddysystem.trm,v $
 # Revision 1.2  2004/12/17 17:02:47  black
@@ -15,7 +15,7 @@
 # the definition
 @DEFN=A memory allocation strategy which recursively divides
 allocatable {blocks} of memory into pairs of adjacent equal-sized blocks
-called "buddies."
+called "buddies".
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -30,7 +30,7 @@ called "buddies."
 @XREFS=
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=This is included to minimize confusion with a {buddy tree}.
+@NOTES=This term is included to minimize confusion with a {buddy tree}.
 After LK.
 # further explanation (pure HTML)
 @LINKS=

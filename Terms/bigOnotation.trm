@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 24 12:01:10 2016" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:20:52 2017" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
 # Wed Feb 24 12:18:39 2016  Paul E. Black
@@ -139,9 +139,8 @@ disk accesses, memory used, or elapsed ("wall clock") time.
 <a href="../terms.html#HS83">[HS83, page 31]</a>, and
 <a href="../terms.html#Stand98">[Stand98, page 466]</a> use
 $|f(n)| \leq c|g(n)|$.  
-In <a
-href="http://en.wikipedia.org/wiki/Computational_complexity_theory">computational
-complexity theory</a> "only positive functions are considered, so the
+In {Wikipedia:computational complexity theory} "only positive
+functions are considered, so the
 absolute value bars may be left out." (Wikipedia, "Big O notation").
 This definition after
 <a href="../terms.html#CLR90">[CLR90, page 26]</a>.

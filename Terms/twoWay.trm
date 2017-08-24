@@ -1,5 +1,5 @@
 # *created  "Wed Jul  7 08:45:41 1999" *by "Paul E. Black"
-# *modified "Wed Feb  2 11:34:55 2005" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:15:32 2017" *by "Paul E. Black"
 
 # $Log: twoWay.trm,v $
 # Revision 1.4  2005/02/02 16:36:25  black
@@ -49,7 +49,7 @@ matches, compare $x<sub>l</sub>$ right to left.
 July 1991.
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=[It] "can be viewed as an intermediate between the classical
+@NOTES=It "can be viewed as an intermediate between the classical
 algorithms of Knuth, Morris, and Pratt on the one hand and Boyer and
 Moore, on the other hand."
 # further explanation (pure HTML)

@@ -1,5 +1,5 @@
 # *created  "Tue Mar 16 16:31:33 1999" *by "Paul E. Black"
-# *modified "Fri Mar 25 10:25:40 2016" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:17:44 2017" *by "Paul E. Black"
 
 # $Log: invertedIndex.trm,v $
 # Fri Mar 25 10:29:35 2016  Paul E. Black
@@ -60,7 +60,7 @@ for Text Search Engines</em>, ACM Computing Surveys, 38(2), article 6,
 July 2006.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Suppose we want to search the texts "i love you," "god is
-love," "love is blind," and "blind justice." (The words of the text
+love," "love is blind," and "blind justice". (The words of the text
 are all lower case for simplicity.)  If we index by (text, character
 within the text), the index with location in text is:
 <pre>

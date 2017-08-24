@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:46:16 2016" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:26:50 2017" *by "Paul E. Black"
 
 # $Log: pseudorandomNumberGen.trm,v $
 # Mon Dec  5 11:01:43 2016  Paul E. Black
@@ -161,7 +161,7 @@ Used by permission.  Copyright &copy; 2004 Tim Dawson.
 
 <p>
 <img src="../Images/xkcd 0221 random_number.png"
-  alt="a C funtion, named get random number, that always returns 
+  alt="a C function, named get random number, that always returns 
   the number 4.  It has comments 'chosen by fair dice roll.' and
   'guaranteed to be random.'">
 <br />

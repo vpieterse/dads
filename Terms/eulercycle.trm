@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:38:47 2014" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:11:40 2017" *by "Paul E. Black"
 
 # $Log: eulercycle.trm,v $
 # Tue Sep  2 08:38:58 2014  Paul E. Black
@@ -50,7 +50,7 @@ same {vertex} and includes every {edge} exactly once.
 @XREFS={Hamiltonian cycle}, {Chinese postman problem}
 # any notes.  these will not be printed in the final dictionary
 
-@NOTES="Euler" is pronounced "oil-er."  A Hamiltonian cycle includes
+@NOTES="Euler" is pronounced "oil-er".  A Hamiltonian cycle includes
 each vertex once; an Euler cycle includes each edge once.
 # any historical notes
 @HISTORY=

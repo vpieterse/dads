@@ -1,5 +1,5 @@
 # *created  "Tue Dec 18 16:07:56 2007" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:53 2008" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:19:51 2017" *by "Paul E. Black"
 
 # $Log: blindTrie.trm,v $
 # Revision 1.2  2008/08/14 16:13:59  black
@@ -63,7 +63,7 @@ arrays}.
 
 <p>
 The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."  See the historical note at {trie}.
+pronounced, "tree".  See the historical note at {trie}.
 
 # any historical notes
 @HISTORY=

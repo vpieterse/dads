@@ -1,5 +1,5 @@
 # *created  "Tue Feb  2 16:52:28 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:46 2009" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:07:33 2017" *by "Paul E. Black"
 
 # $Log: quadtrie.trm,v $
 # Revision 1.8  2009/11/16 14:52:47  black
@@ -52,7 +52,7 @@ of the {key}, typically a character.
 
 <p>
 The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."  See the historical note at {trie}.
+pronounced, "tree".  See the historical note at {trie}.
 
 # further explanation (pure HTML)
 @LINKS=

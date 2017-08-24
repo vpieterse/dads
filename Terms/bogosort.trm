@@ -1,5 +1,5 @@
 # *created  "Wed Apr 16 13:06:51 2003" *by "Paul E. Black"
-# *modified "Mon Sep 30 13:29:50 2013" *by "Vreda Pieterse"
+# *modified "Thu Aug 24 09:19:41 2017" *by "Paul E. Black"
 #
 # $Log: bogosort.trm,v $
 # Revision "Mon Sep 30 09:56:41 2013" *by "Vreda Pieterse"
@@ -74,7 +74,7 @@ order.
 # any notes.  these are not printed in the final dictionary
 @NOTES=From the slang "bogus" meaning "bad" as in "I can't believe
 anybody would be so thoughtless to write/do/say/believe that, and I
-just can't let it pass without objecting."
+just can't let it pass without objecting".
 </p>
 
 <p>

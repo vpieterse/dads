@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Feb 10 12:35:24 2017" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:07:57 2017" *by "Paul E. Black"
 
 # $Log: postorderTraversal.trm,v $
 # Fri Feb 10 13:35:22 2017  Paul E. Black,,,
@@ -53,7 +53,7 @@ processing all subtrees, then finally processing the {root}.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
-printed as "(first subtree) (second subtree) ... (last subtree) root."
+printed as "(first subtree) (second subtree) ... (last subtree) root".
 Here is pseudocode for a {binary tree}:
 <pre>
 postorder(tree)<br />

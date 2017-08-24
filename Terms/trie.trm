@@ -1,5 +1,5 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Tue Feb 22 17:07:59 2011" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:07:05 2017" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
 # Revision 1.11  2011/02/22 22:10:32  black
@@ -73,7 +73,7 @@ CACM, 3(9):490-499, September 1960.
 #	Fundamentals of Data Structures, Horowitz and Sahni, pp 517-525
 # any notes.  these will not be printed in the final dictionary
 @NOTES=The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."  See the historical note.
+pronounced, "tree".  See the historical note.
 <p>
 
 </p> 

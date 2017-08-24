@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Aug  1 10:14:11 2008" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:19:24 2017" *by "Paul E. Black"
 
 # $Log: bucketTrie.trm,v $
 # Revision 1.3  2008/08/01 14:17:49  black
@@ -49,7 +49,7 @@ long branch for the common substring ...ordinar...
 
 <p>
 The name comes from re<strong>TRIE</strong>val and is
-pronounced, "tree."  See the historical note at {trie}.
+pronounced, "tree".  See the historical note at {trie}.
 
 # further explanation (pure HTML)
 @LINKS=

@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:04:12 2004" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:11:21 2017" *by "Paul E. Black"
 
 # $Log: firstcome.trm,v $
 # Revision 1.2  2004/12/17 17:04:12  black
@@ -28,8 +28,8 @@
 @XREFS={last-in, first-out}
 
 # any notes.  these will not be printed in the final dictionary
-@NOTES=Written more fully this is, "the FIRST item to COME here is the
-FIRST one SERVED."
+@NOTES=Written more fully, this is, "the FIRST item to COME here is the
+FIRST one SERVED".
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)

@@ -1,5 +1,5 @@
 # *created  "Fri Apr 16 07:59:55 2004" *by "Paul E. Black"
-# *modified "Mon Feb 26 11:19:13 2007" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:19:16 2017" *by "Paul E. Black"
 
 # $Log: caverphone.trm,v $
 # Revision 1.7  2007/02/26 16:20:40  black
@@ -64,7 +64,7 @@ customized for the Caversham data
 set (names and accents in the southern part of Dunedin, New Zealand in
 1893-1938).
 The updated algorithm, 2.0, is a "general purpose English phonetic
-matching system."
+matching system".
 # any historical notes
 @HISTORY=
 

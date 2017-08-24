@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Feb 10 12:34:49 2017" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:16:38 2017" *by "Paul E. Black"
 
 # $Log: preorderTraversal.trm,v $
 # Fri Feb 10 13:34:44 2017  Paul E. Black,,,
@@ -56,7 +56,7 @@
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
-printed as "root (first subtree) (second subtree) ... (last subtree)."
+printed as "root (first subtree) (second subtree) ... (last subtree)".
 Here is pseudocode for a {binary tree}:
 <pre>
 preorder(tree)<br />

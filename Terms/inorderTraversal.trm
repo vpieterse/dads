@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Feb 10 12:35:10 2017" *by "Paul E. Black"
+# *modified "Thu Aug 24 09:17:51 2017" *by "Paul E. Black"
 
 # $Log: inorderTraversal.trm,v $
 # Fri Feb 10 13:35:02 2017  Paul E. Black,,,
@@ -60,7 +60,7 @@ the right subtree.
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=For instance, if the "processing" is just printing, a tree is
-printed as "(left subtree) root (right subtree)."
+printed as "(left subtree) root (right subtree)".
 Here is pseudocode for a {binary tree}:
 <pre>
 inorder(tree)<br />
