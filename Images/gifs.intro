@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD W3 HTML 2.0//EN">
+<!-- *created  "Mon Sep 18 09:37:48 2017" *by "Paul E. Black" -->
+<!-- *modified "Mon Sep 18 09:39:55 2017" *by "Paul E. Black" -->
+<!--
+  $Log$
+ -->
+<html lang="en-US">
+<head>
+<title>Images in dads/Images</title>
+
+<!-- describe the document, avoid context sensitive descriptions -->
+<meta name="description" 
+      value="Images in dads/Images">
+
+<!-- keywords for the document -->
+<meta name="keywords"
+     value="images">
+
+<!-- should be "document" unless providing a search, then "service" -->
+<meta name="resource-type" value="document">
+
+<!--  use global for documents to be indexed outside this site -->
+<meta name="distribution" value="local">
+</head>
+<body>
+<h1>Images in dads/Images</h1>
+<p>
+These are gifs and other viewable images in the dads/Images directory.
+</p>
+
+<!-- end of gifs.intro -->
