@@ -1,6 +1,6 @@
 dnl $Id: twolevelExplain.html.m4,v 1.21 2011/12/06 20:59:23 black Exp $
 dnl *created  "Thu Oct 26 11:47:46 2000" *by "Paul E. Black"
-dnl *modified "Tue May  6 12:55:27 2014" *by "Paul E. Black"
+dnl *modified "Mon Sep 18 10:15:52 2017" *by "Paul E. Black"
 dnl
 dnl $Log: twolevelExplain.html.m4,v $
 dnl Tue May  6 13:47:20 2014  Paul E. Black
@@ -106,9 +106,9 @@ Thu Oct 26 12:03:12 2000
 include(`Pages/bitsPaul.m4')
 dnl following lines are updated by emacs macros
 <em>Updated
-Tue May  6 12:55:27 2014
+Mon Sep 18 10:15:52 2017
 </em>
-by <a href="http://hissa.nist.gov/~black/">Paul E. Black
+by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
 
 <p>

@@ -1,6 +1,6 @@
 dnl $Id: HTMLindex.html.m4,v 1.9 2011/12/06 20:58:02 black Exp $
 dnl *created  "Thu Oct  3 09:04:38 2002" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:28:09 2013" *by "Paul E. Black"
+dnl *modified "Mon Sep 18 10:08:07 2017" *by "Paul E. Black"
 dnl
 dnl $Log: HTMLindex.html.m4,v $
 dnl Fri Nov  8 13:48:51 2013  Paul E. Black
@@ -59,9 +59,9 @@ Thu Oct  3 09:06:12 2002
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Fri Nov  8 13:28:09 2013
+Mon Sep 18 10:08:07 2017
 </em>
-by <a href="http://hissa.nist.gov/~black/">Paul E. Black
+by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
 
 <center>

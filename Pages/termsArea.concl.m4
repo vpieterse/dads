@@ -1,5 +1,5 @@
 dnl *created  "Tue Nov 17 13:41:10 1998" *by "Paul E. Black"
-dnl *modified "Wed Oct 16 16:37:38 2013" *by "Paul E. Black"
+dnl *modified "Mon Sep 18 10:12:11 2017" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
@@ -21,9 +21,9 @@ include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 dnl following lines are updated by emacs macros
 <em>Updated
-Wed Oct 16 16:37:38 2013
+Mon Sep 18 10:12:11 2017
 </em>
-by <a href="http://hissa.nist.gov/~black/">Paul E. Black
+by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
 
 <p>

@@ -1,5 +1,5 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Oct  3 08:39:50 2016" *by "Paul E. Black"
+dnl *modified "Mon Sep 18 10:12:55 2017" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
@@ -85,7 +85,7 @@ After more than a decade of service as editor of DADS, Paul Black
 was joined by Vreda Pieterse of the <a href="http://fastar.org/">FASTAR
 group</a> at Stellenbosch University (South Africa), University of
 Pretoria, and Eindhoven University (Netherlands) as co-editor.
-The URL http://www.nist.gov/dads/ is an alias which should continue
+The URL https://www.nist.gov/dads/ is an alias which should continue
 to refer to DADS.  We regret any inconvenience this may cause.
 </p>
 
@@ -163,9 +163,9 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Oct  3 08:39:50 2016
+Mon Sep 18 10:12:55 2017
 </em><address>
-by <a href="http://hissa.nist.gov/~black/">Paul E. Black
+by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
 &nbsp;(<a href="mailto:paul.black@nist.gov">paul.black@nist.gov</a>)
 </address>
