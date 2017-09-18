@@ -1,5 +1,5 @@
 # *created  "Wed Sep  9 10:59:28 1998" *by "Paul E. Black"
-# *modified "Fri Mar 25 09:56:27 2016" *by "Paul E. Black"
+# *modified "Mon Sep 18 10:17:29 2017" *by "Paul E. Black"
 #
 #    Tables of contributors and definition authors and their
 #	initials, and optionally e-mail addresses and URLs
@@ -9,6 +9,9 @@
 #    Names may include HTML for non-English letters
 #
 # $Log$
+# Mon Sep 18 10:39:31 2017  Paul E. Black
+# Update my (Paul Black) URL to have https
+# 
 # Fri Mar 25 10:30:25 2016  Paul E. Black
 # Add Jarkko Hietaniemi
 # 
@@ -24,7 +27,7 @@
 #
 AL	Alen Lovrencic	alovrenc@foi.hr
 SB	Sterling Bates	SterlingB@bdt.net
-PEB	Paul E. Black	paul.black@nist.gov, http://hissa.nist.gov/~black/
+PEB	Paul E. Black	paul.black@nist.gov, https://hissa.nist.gov/~black/
 BB	Bob Bockholt	bbockholt@yahoo.com
 AB	Andrew Boniface	bonifaceaw@yahoo.com
 SE	Stefan Edelkamp	stefan.edelkamp@cs.uni-dortmund.de
