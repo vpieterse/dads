@@ -1,8 +1,11 @@
 # DADS files to ignore during git status
 # *created  "Wed Oct 16 14:25:16 2013" *by "Paul E. Black"
-# *modified "Tue May 20 11:18:13 2014" *by "Paul E. Black"
+# *modified "Mon Sep 18 10:04:51 2017" *by "Paul E. Black"
 
 # $Log$
+# Mon Sep 18 10:34:18 2017  Paul E. Black
+# Ignore Images/gifs.html: it is recreated by mkgifspage
+# 
 # Tue May 20 11:18:40 2014  Paul E. Black
 # Ignore dads.spell.new
 # 
@@ -58,5 +61,8 @@ Pages/termsType.intro
 Pages/twolevelExplain.html
 Pages/ui.concl
 Pages/ui.intro
+
+# this is created from gifs.intro and gifs.concl by mkgifpage
+Images/gifs.html
 
 # end of file
