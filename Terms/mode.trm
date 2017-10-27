@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:05:34 2004" *by "Paul E. Black"
+# *modified "Fri Oct 27 15:30:15 2017" *by "Paul E. Black"
 
 # $Log: mode.trm,v $
+# Fri Oct 27 15:52:54 2017  Paul E. Black
+# Improve wording: "that" instead of "which".
+# 
 # Revision 1.2  2004/12/17 17:05:34  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -13,7 +16,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=numeric
 # the definition
-@DEFN=The value which occurs most often.  If no value is repeated,
+@DEFN=The value that occurs most often.  If no value is repeated,
 there is no mode.  If more than one value occurs with the same
 greatest frequency, each value is a mode.
 
