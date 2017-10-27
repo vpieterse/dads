@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:28 2009" *by "Paul E. Black"
+# *modified "Fri Oct 27 15:30:42 2017" *by "Paul E. Black"
 
 # $Log: median.trm,v $
+# Fri Oct 27 15:52:35 2017  Paul E. Black
+# Improve wording: "that" instead of "which".
+# 
 # Revision 1.5  2009/11/16 14:52:28  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -22,7 +25,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=numeric
 # the definition
-@DEFN=The value which has an equal number of values
+@DEFN=The value that has an equal number of values
 greater and less than it.  For an even number of values, it is the
 {mean} of the two middle values.
 
