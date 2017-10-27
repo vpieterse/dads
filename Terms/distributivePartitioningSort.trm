@@ -1,7 +1,10 @@
 # *created  "Mon Mar 27 14:52:17 2006" *by "Paul E. Black"
-# *modified "Tue Oct 12 12:49:16 2010" *by "Paul E. Black"
+# *modified "Fri Oct 27 15:50:05 2017" *by "Paul E. Black"
 
 # $Log: distributivePartitioningSort.trm,v $
+# Fri Oct 27 15:51:59 2017  Paul E. Black
+# NOTE that the second step is like a radix sort.
+# 
 # Revision 1.5  2010/10/12 16:49:36  black
 # improve wording and fix grammar.
 #
@@ -73,6 +76,15 @@ interpolating from the minimum to the median and from the median to
 the maximum.  Histogram sort counts the number of items in each
 (fixed) interval.  See the note at {histogram sort} on distributing
 according to a rank function R.
+</p>
+
+<p>
+The second step, where the items are distributed, corresponds to a
+single-pass {radix sort} using the entire key as one huge "digit." For
+the first interval, the mapping to buckets is roughly<br />
+ &nbsp; &nbsp; bucket = n/2 * (key - minimum)/(median - minimum)<br />
+For the second interval, the mapping is roughly<br />
+ &nbsp; &nbsp; bucket = n/2 * (key - median)/(maximum - median)<br />
 </p>
 
 <p>
