@@ -1,0 +1,70 @@
+# *created  "Mon Nov 27 10:44:04 2017" *by "Paul E. Black"
+# *modified "Mon Nov 27 11:07:12 2017" *by "Paul E. Black"
+
+# $Log: dualPivotQuicksort.trm,v $
+#
+
+# entry name
+@NAME=dual-pivot quicksort
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=sort
+# the definition
+@DEFN=Pick two elements from the {array} to be sorted (the pivots),
+partition the remaining elements into (i) those less than the lesser
+pivot, (ii) those between the pivots, and (iii) those greater than the
+greater pivot, and recursively sort these partitions.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={in-place sort}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={quicksort}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Vladimir Yaroslavskiy</strong>, <em>Dual-Pivot Quicksort
+algorithm</em>, February 2009.  Available at
+<a href="http://codeblab.com/wp-content/uploads/2009/09/DualPivotQuicksort.pdf">http://codeblab.com/wp-content/uploads/2009/09/DualPivotQuicksort.pdf</a>.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=Dual-pivot quicksort is consistently faster than {quicksort} in
+practice, although classical analysis suggests that it should be
+slower.  Sebastian Wild offers a plausible explanation why in
+<strong>Sebastian Wild</strong>, <em>Why Is Dual-Pivot Quicksort Fast?</em>,
+<a href="https://arxiv.org/pdf/1511.01138.pdf">arXiv:1511.01138</a> v2
+28 Sep 2016.
+
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+<a
+href="http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/DualPivotQuicksort.java">Yaroslavskiy,
+Bentley, and Bloch (Java)</a> used in JDK,
+<a
+href="https://algs4.cs.princeton.edu/23quicksort/QuickDualPivot.java.html">Sedgewick
+and Wayne (Java)</a>,
+<a href="http://www.geeksforgeeks.org/dual-pivot-quicksort/">(C)</a>.
+# further explanation (pure HTML)
+@LINKS=
+B.F. Lyon's <a href="https://learnforeverlearn.com/yaro_web/">animation showing
+partitioning</a>.
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

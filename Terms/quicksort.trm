@@ -1,5 +1,5 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Tue Nov  8 13:54:46 2016" *by "Paul E. Black"
+# *modified "Mon Nov 27 10:43:47 2017" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
 # Tue Nov  8 14:05:27 2016  Paul E. Black
@@ -86,7 +86,7 @@ algorithm for small partitions, etc.
 @INME={partition}, {divide and conquer}, {recursion}, {Select},
 {sublinear time algorithm}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={external quicksort}
+@XREFS={external quicksort}, {dual-pivot quicksort}
 
 # any notes.  these will not be printed in the final dictionary
 @NOTES=Quicksort has running time 
@@ -100,6 +100,11 @@ $O(n \log n)$ in the worst case.
 <p>
 {Select} can be used to always pick good pivots, thus giving a
 variant with {$O(n \log n)$#big-O notation} worst-case running time.
+</p>
+
+<p>
+Newer variants, such as {dual-pivot quicksort}, are faster because
+they access less memory.
 
 # M. Douglas McIlroy
 # A Killer Adversary for Quicksort
