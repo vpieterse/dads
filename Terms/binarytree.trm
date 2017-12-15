@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 14:49:50 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:13:48 2008" *by "Paul E. Black"
+# *modified "Fri Dec 15 15:53:00 2017" *by "Paul E. Black"
 
 # $Log: binarytree.trm,v $
+# Fri Dec 15 17:46:51 2017  Paul E. Black
+# New term, Merkle tree, ISA binary tree.
+# 
 # Revision 1.15  2008/08/14 16:13:49  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -72,7 +75,7 @@
 # Specialization: "... is a kind of me."
 @VARIANT={complete binary tree}, {full binary tree}, 
 {binary search tree}, {binary heap}, {balanced binary tree},
-{threaded tree},
+{threaded tree}, {Merkle tree},
 {Fibonacci tree}, {extended binary tree}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
