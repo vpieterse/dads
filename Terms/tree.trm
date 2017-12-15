@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:00:00 1998" *by "Paul E. Black"
-# *modified "Thu Aug 14 12:15:49 2008" *by "Paul E. Black"
+# *modified "Fri Dec 15 15:52:08 2017" *by "Paul E. Black"
 
 # $Log: tree.trm,v $
+# Fri Dec 15 17:48:21 2017  Paul E. Black
+# Merkle tree, a new term, ISA tree.
+# 
 # Revision 1.8  2008/08/14 16:15:50  black
 # Update HTML line break (br) tags to be XML/XHMTL compatible
 #
@@ -57,7 +60,9 @@ The subtrees are ordered.
 @IMA=
 # Specialization: "... is a kind of me."
 @VARIANT={heap}, {B-tree}, {binary tree}, {balanced tree},
-{multiway tree}, {complete tree}, {search tree}, {digital tree}
+{multiway tree}, {complete tree}, {search tree}, {digital tree},
+{Merkle tree}
+
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
