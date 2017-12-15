@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Mon Jul 20 14:26:49 2015" *by "Paul E. Black"
+# *modified "Fri Dec 15 15:49:18 2017" *by "Paul E. Black"
 #
 # $Log: hash.trm,v $
+# Fri Dec 15 17:47:45 2017  Paul E. Black
+# hash ISIN Merkle tree, a new term.  Change hash to be AKA, not just WEB.
+# 
 # Mon Jul 20 14:30:04 2015  Paul E. Black
 # Remove LINK to Thomas Wangs review and comparison - whole subtree is gone.
 # 
@@ -121,9 +124,9 @@ get an even distribution on a smaller set of values.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
-@AKA=
+@AKA=hash
 # other cross-listings solely for the web, such as word or spelling variants
-@WEB=hash
+@WEB=
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
@@ -134,7 +137,7 @@ get an even distribution on a smaller set of values.
 specific functions: {Pearson's hash}, {multiplication method}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN={hash table}, {uniform hashing}, {universal hashing}, 
-{Bloom filter}, {locality-sensitive hashing}
+{Bloom filter}, {Merkle tree}, {locality-sensitive hashing}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
