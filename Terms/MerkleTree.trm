@@ -1,7 +1,11 @@
 # *created  "Fri Dec 15 11:01:02 2017" *by "Paul E. Black"
-# *modified "Fri Dec 15 17:39:26 2017" *by "Paul E. Black"
+# *modified "Mon Dec 18 11:06:55 2017" *by "Paul E. Black"
 
 # $Log$
+# Mon Dec 18 11:10:22 2017  Paul E. Black
+# NOTE a difference between Merkles paper and the definition.  LINK a
+# page with complexity of operations.
+# 
 # Fri Dec 15 17:42:28 2017  Paul E. Black
 # New term
 # 
@@ -24,7 +28,7 @@ block of information it represents.  All leaf nodes are at the same
 <p>
 To add a block (leaf) to a {full#full binary tree} tree, a new {root}
 is created with the old root as its left child.  Its right child is a
-degenerate tree reaching all the way to the leaf level.
+degenerate tree (only left subtrees) all the way to the leaf level.
 # formal definition or {cross reference} to an entry
 @FORML=
 # comma-sep list of pure names that this is Also Known As.
@@ -67,6 +71,13 @@ can be a {k-ary tree}.
 </p>
 
 <p>
+Merkle's paper describes a conceptually infinite (binary) tree with
+blocks (documents) at each internal node. To add a new block, use the
+next node in a {level-order traversal}.  (A level-order traversal is
+the same order as a {breadth-first search} from the root.)
+</p>
+
+<p>
 Given two copies of possibly-the-same information represented by
 Merkle trees, one can check whether the copies are the same by
 just comparing the hashes at the root.  A single difference between
@@ -84,8 +95,13 @@ every level is filled.
 
 # implementation(s) (pure HTML)
 @IMPL=
+
 # further explanation (pure HTML)
 @LINKS=
+Average 
+<a href="https://brilliant.org/wiki/merkle-tree/">space required and
+complexity</a> for search, traversal, insert, delete, and synchronize.
+
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/DADS/dads/RCS/template.trm,v $
