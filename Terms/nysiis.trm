@@ -1,7 +1,10 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Mon Mar  9 11:37:31 2009" *by "Paul E. Black"
+# *modified "Fri Dec 22 15:00:18 2017" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Fri Dec 22 15:01:49 2017  Paul E. Black
+# Report was December of 1970.
+# 
 # Revision 1.13  2009/03/09 15:37:55  black
 # Remove NOTE about algorithm review - document is gone.
 #
@@ -72,7 +75,7 @@
 @BIB=
 <strong>Robert L. Taft</strong>, <em>Name Search Techniques</em>,
 New York State Identification and Intelligence System, Special Report
-No. 1, Albany, New York, 1970.
+No. 1, Albany, New York, December 1970.
 
 # any notes.  these are not printed in the final dictionary
 @NOTES=
