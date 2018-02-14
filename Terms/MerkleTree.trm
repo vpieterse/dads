@@ -1,7 +1,10 @@
 # *created  "Fri Dec 15 11:01:02 2017" *by "Paul E. Black"
-# *modified "Mon Dec 18 11:06:55 2017" *by "Paul E. Black"
+# *modified "Mon Feb  5 15:30:44 2018" *by "Paul E. Black"
 
 # $Log$
+# Wed Feb 14 13:24:45 2018  Paul E. Black
+# Replace strange back quote with HTML code.  Improve wording.
+# 
 # Mon Dec 18 11:10:22 2017  Paul E. Black
 # NOTE a difference between Merkles paper and the definition.  LINK a
 # page with complexity of operations.
@@ -61,7 +64,7 @@ enter 4309569 and click Search.
 <br />
 <strong>Ralph C. Merkle</strong>,
 <em>A Digital Signature Based on a Conventional Encryption Function</em>,
-in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO ’87.
+in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO &rsquo;87.
 Lecture Notes in Computer Science, 293:369-378, 1987.
 <a href="https://doi.org/10.1007/3-540-48184-2_32">doi:10.1007/3-540-48184-2_32</a>
 
@@ -81,7 +84,7 @@ the same order as a {breadth-first search} from the root.)
 Given two copies of possibly-the-same information represented by
 Merkle trees, one can check whether the copies are the same by
 just comparing the hashes at the root.  A single difference between
-the copies can be found by just comparing the hashes at interior nodes
+the copies can be found by just comparing the hashes at internal nodes
 on a path to the different leaf.  This is logarithmic in the number of
 leaves.
 </p>
