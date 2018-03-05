@@ -1,7 +1,10 @@
 # *created  "Fri Dec 15 11:01:02 2017" *by "Paul E. Black"
-# *modified "Mon Feb  5 15:30:44 2018" *by "Paul E. Black"
+# *modified "Fri Feb 23 10:05:21 2018" *by "Paul E. Black"
 
 # $Log$
+# Mon Mar  5 10:57:55 2018  Paul E. Black
+# small correction to bib reference
+# 
 # Wed Feb 14 13:24:45 2018  Paul E. Black
 # Replace strange back quote with HTML code.  Improve wording.
 # 
@@ -65,7 +68,7 @@ enter 4309569 and click Search.
 <strong>Ralph C. Merkle</strong>,
 <em>A Digital Signature Based on a Conventional Encryption Function</em>,
 in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO &rsquo;87.
-Lecture Notes in Computer Science, 293:369-378, 1987.
+Lecture Notes in Computer Science 293:369-378, 1988.
 <a href="https://doi.org/10.1007/3-540-48184-2_32">doi:10.1007/3-540-48184-2_32</a>
 
 # any notes.  these are not printed in the final dictionary
