@@ -1,5 +1,15 @@
 UNDERSCORE
 <strong>Omer H. Abu El Haija</strong> and <strong>Azmi Alazzam</strong>,  <em>Bond-Sequential Search (BSS)</em>, Proc. World Congress on Engineering and Computer Science (WCECS) 2012, Vol I, San Francisco, California, USA, October 2012. <a href="http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf" target="_blank">http://www.iaeng.org/publication/WCECS2012/WCECS2012_pp194-198.pdf<a/> accessed 9 June 2016. in BondSeqSearch.html
+BACKSLASH, CARET, or DOLLAR SIGN
+<p> Here is pseudocode for an inefficient Cupif-Giannini tree traversal with Xor "randomization" (** is the power operator, and ^ is xor):  in CupifGianniniTreeTraversal.html
+UNDERSCORE
+             visitNode(tree.left_subtree, nodeNumber, bitNumber+1);<br /> in CupifGianniniTreeTraversal.html
+UNDERSCORE
+             visitNode(tree.right_subtree, nodeNumber, bitNumber+1);<br /> in CupifGianniniTreeTraversal.html
+BACKSLASH, CARET, or DOLLAR SIGN
+         visitNode(tree, n ^ key, 1);<br /> in CupifGianniniTreeTraversal.html
+UNDERSCORE
+ <strong>Ralph C. Merkle</strong>, <em>A Digital Signature Based on a Conventional Encryption Function</em>, in C. Pomerance (ed) Advances in Cryptology &mdash; CRYPTO &rsquo;87. Lecture Notes in Computer Science 293:369-378, 1988. <a href="https://doi.org/10.1007/3-540-48184-2_32" target="_blank">doi:10.1007/3-540-48184-2_32</a> in MerkleTree.html
 UNDERSCORE
 Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in baumWelch.html
 BACKSLASH, CARET, or DOLLAR SIGN
@@ -23,9 +33,9 @@ UNDERSCORE
 UNDERSCORE
 <p> Contributed by Arvind &lt;uk_arvind@mail.utexas.edu&gt; May 2002.</em> in bradfordsLaw.html
 BACKSLASH, CARET, or DOLLAR SIGN
-  &nbsp; BWT[i] = T[SA[i]-1], if SA[i] &gt; 1, otherwise $ <br /> in burrowsWheelerTransform.html
+  &nbsp; &nbsp; BWT[i] = T[SA[i]-1], if SA[i] &gt; 1, otherwise $ <br /> in burrowsWheelerTransform.html
 BACKSLASH, CARET, or DOLLAR SIGN
- (using <a href="oneBasedIndexing.html"><em>1-based indexing</em></a>) where T is the string,  SA is the <a href="suffixarray.html"><em>suffix array</em></a> of T, and $ is the special character indicating the end of string. in burrowsWheelerTransform.html
+ where T is the original string, i goes from 1 (<a href="oneBasedIndexing.html"><em>1-based indexing</em></a>) to the length of T, SA is the suffix array of T, and $ is the special character indicating the end of string.</em> in burrowsWheelerTransform.html
 BACKSLASH, CARET, or DOLLAR SIGN
          printf("%d\n", head(l));<br /> in collectiveRecursion.html
 UNDERSCORE

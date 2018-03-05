@@ -218,8 +218,10 @@ CRCW
 creditNotice
 cri
 Crochemore
+CRYPTO
 cryptographic
 cryptographically
+Cryptology
 crystallizations
 Csango
 CSP
@@ -272,9 +274,9 @@ diviser
 dk
 DM
 DNAME
-dnl
 Dobb
 Dobosiewicz
+Docid
 Doclady
 DOCTYPE
 doi
@@ -471,6 +473,7 @@ howpublished
 HOWTO
 hsadelta
 Hsieh
+htm
 http
 https
 Hua
@@ -688,6 +691,7 @@ Mei
 Melhorn
 memoization
 memoize
+Merkle
 metaheuristic
 metaphone
 METIS
@@ -749,6 +753,7 @@ Navl
 nd
 nded
 needHelp
+netahtml
 Neumaier
 Newcomb
 Newell
@@ -808,7 +813,6 @@ ondeterministic
 ONJava
 ood
 Opensource
-oplus
 optimality
 optimizations
 oracleRandom
@@ -816,7 +820,6 @@ ordinar
 ordinating
 organising
 orthogonally
-otimes
 Ottmann
 ouble
 ounded
@@ -833,10 +836,12 @@ parameterizable
 Partow
 Parville
 Pasanen
+patft
 Paulo
 Pavlata
 PDA
 pdf
+pdfpiw
 Peano
 Pease
 PEB
@@ -855,6 +860,7 @@ Piotr
 pipelined
 Pippenger
 Pittenger
+piw
 PJT
 pLab
 planarity
@@ -870,6 +876,7 @@ polylogarithmic
 polyphase
 polytope
 polytopes
+Pomerance
 POOMfilade
 popOff
 Porat
@@ -1056,6 +1063,7 @@ SPOJ
 Spolecnosti
 Springer
 SRC
+srchnum
 Srinivasan
 SSSR
 Stanislaw
@@ -1190,6 +1198,7 @@ unvisited
 unweighted
 upc
 Upfal
+uspto
 UTF
 valign
 Vazirani
