@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Mar  5 10:21:09 2018" *by "Paul E. Black"
+# *modified "Mon Mar  5 11:00:22 2018" *by "Paul E. Black"
 
 # $Log: omegaCapital.trm,v $
+# Mon Mar  5 11:01:17 2018  Paul E. Black
+# Add a graph to illustrate this definition, like \Theta and O have.
+# 
 # Wed Feb 24 12:20:53 2016  Paul E. Black
 # Remove asymptotic lower bound since it is just another name for
 # \omega, which is already listed.
