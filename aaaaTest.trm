@@ -1,5 +1,5 @@
 # *created  "Tue Nov 17 17:00:47 1998" *by "Paul E. Black"
-# *modified "Mon Dec  5 11:41:34 2016" *by "Paul E. Black"
+# *modified "Mon Mar  5 09:46:28 2018" *by "Paul E. Black"
 
 # $Log$
 # Mon Dec  5 11:42:30 2016  Paul E. Black
@@ -59,6 +59,8 @@ $42\lambda \cdot \infty \in \{\cal Q}\cup\{\bf P}\mbox\{and}\log\Re$.
 Here is an example of the crude math array handling.  This is supposed
 to be combination (n over 2): 
 $\delta\bigtriangleup\Delta\left(\begin\{array}\{c}n\\2\end\{array}\right)$
+More math symbol:
+$ 3 \oplus 1 \sim \lceil 5 \rceil \otimes \lfloor 6 \rfloor \ldots $
 # comma-separated list of pure names or {cross references}
 @AKA={test entry}, exercises all facilities
 # comma-separated list of {cross references}, i.e., See also ...

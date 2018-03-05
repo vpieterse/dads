@@ -1,6 +1,6 @@
 # $Id: latex2html.data,v 1.22 2012/05/31 12:56:01 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Thu May 31 08:44:41 2012" *by "Paul E. Black"
+# *modified "Mon Mar  5 09:40:26 2018" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
@@ -74,14 +74,14 @@
 \cup	&cup;
 \wedge	&and;
 \bigtriangleup &Delta;
-\oplus	<img src="Images/smearth.gif" border=0 height=7 width=7  alt="oplus">
-\otimes	<img src="Images/otimes.gif" border=0 height=10 width=10 alt="otimes">
+\oplus	&oplus;
+\otimes	&otimes;
 #    Table 3.5: Relation Symbols
 #\not	not		must follow \notin to not mess it up
 \leq	&le;
 # <	use &lt; for less than
 \ll	&lt;&lt;
-\sim	~
+\sim	&sim;
 \subseteq	&sube;
 \subset		&sub;
 \geq	&ge;
@@ -97,7 +97,7 @@
 \rightarrow	&rarr;
 \mapsto		|&rarr;
 #    Table 3.7: Miscellaneous Symbols
-\Re	<em>R</em>
+\Re	$Real;
 \prime		&prime;
 \Prime		&Prime;
 \emptyset	&oslash;
@@ -116,16 +116,16 @@
 \min	min
 \bmod	mod
 #    Table 3.10: Delimiters
-\lceil	<img src="Images/lceiling.gif" border=0 height=15 width=4 alt="ceiling(">
-\rceil	<img src="Images/rceiling.gif" border=0 height=15 width=4 alt=")">
-\lfloor	<img src="Images/lfloor.gif"   border=0 height=15 width=4 alt="floor(">
-\rfloor	<img src="Images/rfloor.gif"   border=0 height=15 width=4 alt=")">
+\lceil	&lceil;
+\rceil	&rceil;
+\lfloor	&lfloor;
+\rfloor	&rfloor;
 # \left and \right are modifiers, Sect. 3.3.4, page 48
 \left
 \right.
 \right
 #    Other
-\ldots	...
+\ldots	&hellip;
 # these have hard-wired conversions since they occur outside math expressions
 #``	"
 #''	"
