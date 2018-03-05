@@ -1,5 +1,5 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Feb 24 12:11:10 2016" *by "Paul E. Black"
+# *modified "Mon Mar  5 10:21:09 2018" *by "Paul E. Black"
 
 # $Log: omegaCapital.trm,v $
 # Wed Feb 24 12:20:53 2016  Paul E. Black
@@ -38,6 +38,10 @@ $0 \leq cg(n) \leq f(n)$ for all
 $n \geq k$.
 The values of $c$ and $k$ must be fixed for the function
 $f$ and must not depend on $n$.
+<br />
+<img src="../Images/omegaGraph.gif" height="264" width="443" alt="graph
+showing relation between a function, f, and the limit function, g">
+
 # comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as word or spelling variants
