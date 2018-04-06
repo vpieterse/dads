@@ -1,7 +1,10 @@
  *created  "Thu Oct 17 16:41:56 2013" *by "Vreda Pieterse"
- *modified "Wed Feb 22 13:27:41 2017" *by "Paul E. Black"
+ *modified "Wed Mar  7 16:44:01 2018" *by "Paul E. Black"
 
 $Log$
+Fri Apr  6 11:20:20 2018  Paul E. Black
+Update URL
+
 Wed Feb 22 15:20:51 2017  Paul E. Black,,,
 Fix Google search by hardcoding it.
 
@@ -24,7 +27,7 @@ Initial list of todos
 -------------------------------------------------------------------
 * Add more terms
 * make the Google search box parameterized.  Currently it is hardcoded
-  (in bitsSearch.m4) to use http://xlinux.nist.gov/dads.  We could
+  (in bitsSearch.m4) to use http://samate.nist.gov/other/dads.  We could
   define a new "search root" macro, instead of ROOTDIR, so it can be
   different for NIST and Fastar.  We COULD add another radio button
   and hard-code them all.  It could look like this 
@@ -92,6 +95,5 @@ Initial list of todos
                             COMMUNITY
 -------------------------------------------------------------------
 * Recruit collaborators
-* Set up a generic fastar e-mail for queries from the public
 
 	   --------------- end of toDo.txt ---------------
