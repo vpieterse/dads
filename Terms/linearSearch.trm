@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 11:32:20 1998" *by "Paul E. Black"
-# *modified "Thu Jun  9 09:28:31 2016" *by "Paul E. Black"
+# *modified "Fri Apr  6 11:13:12 2018" *by "Paul E. Black"
 
 # $Log: linearSearch.trm,v $
+# Fri Apr  6 11:18:03 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
 # Thu Jun  9 09:50:01 2016  Paul E. Black
 # IMIN Bond Sequential Search
 # 
@@ -67,7 +70,9 @@ found.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html">expected time</a>.
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LSearch.html">Demonstration</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>
+@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>.
+<a href="http://www.flowerbrackets.com/linear-search-in-java/">(Java)</a>.
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/linearSearch.trm,v $
