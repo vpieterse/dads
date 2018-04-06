@@ -1,10 +1,13 @@
 dnl $Id: bitsSearch.m4,v 1.11 2009/06/04 19:26:18 black Exp $
 dnl *created  "Wed Mar 26 11:04:15 2003" *by "Paul E. Black"
-dnl *modified "Wed Feb 22 13:25:06 2017" *by "Paul E. Black"
+dnl *modified "Wed Mar  7 16:44:58 2018" *by "Paul E. Black"
 dnl
 dnl	A paragraph with explanation and HTML form for the search box
 dnl
 dnl $Log: bitsSearch.m4,v $
+dnl Fri Apr  6 11:19:16 2018  Paul E. Black
+dnl Update values for the search
+dnl 
 dnl Wed Feb 22 15:34:27 2017  Paul E. Black
 dnl Hard code the URL for Google search.  Otherwise, Google search doesnt
 dnl find anything.  In the future, the URL may need to be in a "bits" file.
@@ -65,7 +68,7 @@ border="0" ALT="Google"></A>
 <input type=hidden name=safe value=strict>
 <input type=submit name=btnG value="Google Search">
 <small>
-<input type=hidden name=domains value="https://xlinux.nist.gov/dads"><br /><input type=radio name=sitesearch value=""> Web <input type=radio name=sitesearch value="https://xlinux.nist.gov/dads" checked> DADS <br />
+<input type=hidden name=domains value="https://samate.nist.gov/other/dads"><br /><input type=radio name=sitesearch value=""> Web <input type=radio name=sitesearch value="https://samate.nist.gov/other/dads" checked> DADS <br />
 </small>
 </td></tr></table>
 </form>
