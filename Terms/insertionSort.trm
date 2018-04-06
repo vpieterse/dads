@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Tue Nov  8 13:54:24 2016" *by "Paul E. Black"
+# *modified "Fri Apr  6 11:02:08 2018" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Fri Apr  6 11:17:17 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
 # Tue Nov  8 14:04:55 2016  Paul E. Black
 # LINK to sort illustrated through dance.
 # 
@@ -122,6 +125,10 @@ Other implementations may be available through the <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
 <a href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</a>.
+Flower Brackets using <a
+href="http://www.flowerbrackets.com/insertion-sort-in-java/">scanners,
+objects, and recursion (Java)</a>. 
+
 
 @LINKS=
 <a href="http://cs.smith.edu/~thiebaut/java/sort/demo.html">demonstration</a>
