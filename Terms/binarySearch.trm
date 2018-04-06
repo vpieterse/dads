@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Thu Jun  9 09:43:26 2016" *by "Paul E. Black"
+# *modified "Fri Apr  6 11:07:00 2018" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Fri Apr  6 11:17:52 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
 # Thu Jun  9 09:49:23 2016  Paul E. Black
 # IMA search
 # 
@@ -157,6 +160,9 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
 href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a>, which uses
 {0-based indexing}.
+Flower Brackets <a
+href="http://www.flowerbrackets.com/binary-search-program-java/">explanation
+(Java)</a>. 
 Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Binary_search">explanation
