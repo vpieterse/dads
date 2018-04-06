@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Dec 17 12:05:09 2004" *by "Paul E. Black"
+# *modified "Fri Apr  6 11:03:58 2018" *by "Paul E. Black"
 
 # $Log: leastCommonMultiple.trm,v $
+# Fri Apr  6 11:17:37 2018  Paul E. Black
+# Add Flower Brackets IMPL
+# 
 # Revision 1.2  2004/12/17 17:05:09  black
 # Refine XREFS into IMA, etc.  Add RCS keywords.
 #
@@ -40,6 +43,9 @@ instance, LCM(6, 10) = 30.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
+Flower Brackets <a
+href="http://www.flowerbrackets.com/java-program-to-find-gcd-and-lcm-of-two-numbers/">(Java)</a>. 
+
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/leastCommonMultiple.trm,v $
