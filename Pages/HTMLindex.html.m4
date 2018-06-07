@@ -1,8 +1,11 @@
 dnl $Id: HTMLindex.html.m4,v 1.9 2011/12/06 20:58:02 black Exp $
 dnl *created  "Thu Oct  3 09:04:38 2002" *by "Paul E. Black"
-dnl *modified "Mon Sep 18 10:08:07 2017" *by "Paul E. Black"
+dnl *modified "Mon May 21 08:29:14 2018" *by "Paul E. Black"
 dnl
 dnl $Log: HTMLindex.html.m4,v $
+dnl Thu Jun  7 13:05:45 2018  Paul E. Black
+dnl Update URL for aynbrowser campaign
+dnl 
 dnl Fri Nov  8 13:48:51 2013  Paul E. Black
 dnl Include bits of required HTML <head> stuff.  Add end of file line.
 dnl 
@@ -45,7 +48,7 @@ a download of about 1/20th the size.
 
 <center>
 <p>
-<a href="http://www.anybrowser.org/campaign/"> 
+<a href="https://anybrowser.org/campaign/"> 
 <img src="../Images/anybrowser4.gif" width="88" height="31" 
  alt="Viewable With Any Browser" BORDER="0"></a>
 </p>
@@ -59,7 +62,7 @@ Thu Oct  3 09:06:12 2002
 include(`Pages/bitsPaul.m4')
 dnl following lines updated by emacs macros
 <em>Updated
-Mon Sep 18 10:08:07 2017
+Mon May 21 08:29:14 2018
 </em>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
