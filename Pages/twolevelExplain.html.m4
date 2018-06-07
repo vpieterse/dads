@@ -1,8 +1,11 @@
 dnl $Id: twolevelExplain.html.m4,v 1.21 2011/12/06 20:59:23 black Exp $
 dnl *created  "Thu Oct 26 11:47:46 2000" *by "Paul E. Black"
-dnl *modified "Mon Sep 18 10:15:52 2017" *by "Paul E. Black"
+dnl *modified "Mon May 21 08:28:55 2018" *by "Paul E. Black"
 dnl
 dnl $Log: twolevelExplain.html.m4,v $
+dnl Thu Jun  7 13:05:03 2018  Paul E. Black
+dnl Update URL for anybrowser campaign
+dnl 
 dnl Tue May  6 13:47:20 2014  Paul E. Black
 dnl Include bits Fix Defn, to explain how to make suggestions, explicitly
 dnl here, instead of implicitly through bits Demarcate.
@@ -92,7 +95,7 @@ include(`Pages/bitsSearch.m4')
 
 <center>
 <p>
-<a href="http://www.anybrowser.org/campaign/"> 
+<a href="https://anybrowser.org/campaign/"> 
 <img src="Images/anybrowser4.gif" width="88" height="31" 
  alt="Viewable With Any Browser" border="0"></a>
 </p>
@@ -106,7 +109,7 @@ Thu Oct 26 12:03:12 2000
 include(`Pages/bitsPaul.m4')
 dnl following lines are updated by emacs macros
 <em>Updated
-Mon Sep 18 10:15:52 2017
+Mon May 21 08:28:55 2018
 </em>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
