@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Sep 18 10:12:55 2017" *by "Paul E. Black"
+dnl *modified "Mon May 21 08:28:34 2018" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Thu Jun  7 13:04:29 2018  Paul E. Black
+dnl Update URL for anybrowser campaign link.
+dnl 
 dnl Mon Oct  3 08:40:37 2016  Paul E. Black
 dnl Update link to arxiv.org: use https, not http.
 dnl 
@@ -151,7 +154,7 @@ Robots, please index
 </p>
 
 <p align="center">
-<a href="http://www.anybrowser.org/campaign/"><img
+<a href="https://anybrowser.org/campaign/"><img
 src="Images/anybrowser4.gif" width="88" height="31"
 alt="Viewable With Any Browser" border="0"></a>
 <hr>
@@ -163,7 +166,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Sep 18 10:12:55 2017
+Mon May 21 08:28:34 2018
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
