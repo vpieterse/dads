@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 13:01:38 1999" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:37:53 2014" *by "Paul E. Black"
+# *modified "Fri Jun  8 10:14:36 2018" *by "Paul E. Black"
 
 # $Log: dictionary.trm,v $
+# Fri Jun  8 10:25:04 2018  Paul E. Black
+# New VARIANT: invertible Bloom lookup table
+# 
 # Tue Sep  2 08:37:58 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -100,7 +103,8 @@ This only changes the return type of find.
 # Generalization: "I am a kind of ..."
 @IMA={binary relation}, {abstract data type}
 # Specialization: "... is a kind of me."
-@VARIANT={associative array}
+@VARIANT={associative array}, {invertible Bloom lookup table} with
+high probability
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
