@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Mon Dec  5 11:34:19 2016" *by "Paul E. Black"
+# *modified "Fri Jun  8 09:45:23 2018" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Fri Jun  8 10:24:27 2018  Paul E. Black
+# New XREF: invertible Bloom lookup table
+# 
 # Mon Dec  5 11:37:51 2016  Paul E. Black
 # Use special "new" Wikipedia: citation, instead of hard-coded URL.
 # 
@@ -59,11 +62,12 @@
 # entry name
 @NAME=Bloom filter
 # _A_lgorithm, _D_efinition, _P_roblem, or data _S_tructure
-@TYPE=A
+@TYPE=S
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=A {probabilistic algorithm} to quickly test membership in a
+@DEFN=A data structure with a {probabilistic algorithm} to quickly
+test membership in a 
 large set using multiple {hash functions} into a single 
 {array} of bits.
 # formal definition or {cross reference} to an entry
@@ -83,7 +87,7 @@ large set using multiple {hash functions} into a single
 # Aggregate child: "... is a part of or used in me."
 @INME={array} of bits, {hash function}
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={locality-sensitive hashing}
+@XREFS={invertible Bloom lookup table}, {locality-sensitive hashing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>Burton Bloom</strong>, <em>Space/time trade-offs in hash
