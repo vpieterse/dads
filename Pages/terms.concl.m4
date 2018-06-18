@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon May 21 08:28:34 2018" *by "Paul E. Black"
+dnl *modified "Mon Jun 18 09:05:19 2018" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Mon Jun 18 09:05:49 2018  Paul E. Black
+dnl SPOJ is now https
+dnl 
 dnl Thu Jun  7 13:04:29 2018  Paul E. Black
 dnl Update URL for anybrowser campaign link.
 dnl 
@@ -117,7 +120,7 @@ of Mathematics</a> or MathWorld.
 </p>
 
 <p>
-The <a href="http://www.spoj.com/">Sphere
+The <a href="https://www.spoj.com/">Sphere
 online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and 
 900 contests.  Even nicer it automatically assesses your programs written in 
 40 languages.
@@ -166,7 +169,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon May 21 08:28:34 2018
+Mon Jun 18 09:05:19 2018
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
