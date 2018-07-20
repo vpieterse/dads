@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Jun  9 09:44:00 2016" *by "Paul E. Black"
+# *modified "Fri Jul 20 16:28:30 2018" *by "Paul E. Black"
 
 # $Log: stringMatching.trm,v $
+# Fri Jul 20 16:37:49 2018  Paul E. Black
+# Add strsrch as a VARIANT
+# 
 # Thu Jun  9 09:51:35 2016  Paul E. Black
 # IMA search
 # 
@@ -52,7 +55,8 @@ efficient searching.
 @VARIANT={brute force string search}, {Knuth-Morris-Pratt algorithm}, 
 {Boyer-Moore}, {Zhu-Takaoka}, {quick search}, 
 {deterministic finite automata string search}, 
-{Karp-Rabin}, {Shift-Or}, {Aho-Corasick}, {Smith algorithm}
+{Karp-Rabin}, {Shift-Or}, {Aho-Corasick}, {Smith algorithm},
+{strsrch}
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
