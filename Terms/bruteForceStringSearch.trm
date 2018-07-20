@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:12:01 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:10 2009" *by "Paul E. Black"
+# *modified "Fri Jul 20 16:26:53 2018" *by "Paul E. Black"
 
 # $Log: bruteForceStringSearch.trm,v $
+# Fri Jul 20 16:37:03 2018  Paul E. Black
+# Make the DEFN shorter.  Add IMA brute force and IMIN strsrch.
+# 
 # Revision 1.5  2009/11/16 14:52:11  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -22,7 +25,7 @@
 # basic, numeric, search, sort, graph, combin(atorial), tree, theory
 @AREA=search
 # the definition
-@DEFN=An algorithm to find a {string} within another string or body
+@DEFN=Find a {string} in another string or body
 of text by trying each position one at a time.  There are many far
 faster {string matching} algorithms.
 # comma-separated list of pure names
@@ -30,11 +33,11 @@ faster {string matching} algorithms.
 
 #    These are all comma-separated lists of {cross references}
 # Generalization: "I am a kind of ..."
-@IMA=
+@IMA={string matching}, {brute force}
 # Specialization: "... is a kind of me."
 @VARIANT=
 # Aggregate parent: "I am a part of or used in ..."
-@IMIN=
+@IMIN={strsrch}
 # Aggregate child: "... is a part of or used in me."
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
