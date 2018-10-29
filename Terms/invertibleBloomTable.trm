@@ -1,0 +1,73 @@
+# *created  "Thu Jun  7 16:48:19 2018" *by "Paul E. Black"
+# *modified "Fri Jun  8 10:19:23 2018" *by "Paul E. Black"
+
+# $Log: invertibleBloomTable $
+
+# entry name
+@NAME=invertible Bloom lookup table
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=S
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Algorithms and an {array} of cells to store key/value pairs.
+Each cell has a <em>count</em> of how many pairs are mapped to the
+cell, the <em>sum</em> of the keys mapped to it, and the <em>sum</em>
+of the values mapped to it.  Using $k$ {hash functions}, each pair is
+mapped to $T[h<sub>1</sub>(k)]$, $T[h<sub>2</sub>(k)]$, ...,
+$T[h<sub>k</sub>(k)]$.
+# formal definition or {cross reference} to an entry
+@FORML=
+
+# comma-sep list of pure names that this is Also Known As.
+@AKA=IBLT
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={dictionary} plus a listEntries() operation and the ability to
+handle duplicate keys with some implementations
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={array}, {hash function}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Bloom filter}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Michael T. Goodrich</strong> and <strong>Michael Mitzenmacher</strong>,
+<em>Invertible Bloom Lookup Tables</em>, 2011. (V3 is October 2015.)
+Available at
+<a href="https://arxiv.org/pdf/1101.2245.pdf">https://arxiv.org/pdf/1101.2245.pdf</a>.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=The implementation details guarantee that with high
+probability, each key/value pair has at least one cell to itself,
+which has a count of 1.  The value and key can be retrieved from that
+cell.
+</p>
+
+<p>
+Special care must be taken to either (a) not insert keys multiple
+times or delete keys that are not present or (b) elaborate the
+algorithms and data structure.
+</p>
+
+<p>
+listEntries() reports the key/value pair in each cell
+with a count of 1, and then removes that key/value pair.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

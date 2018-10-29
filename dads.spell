@@ -51,6 +51,7 @@ antichain
 antisymmetric
 Aoe
 API
+APL
 Apostolico
 Appel
 Appleby
@@ -452,6 +453,7 @@ Heiner
 Helaman
 Hermann
 herrsche
+Hersh
 Hietaniemi
 Hilbertschen
 Hirschberg
@@ -486,6 +488,7 @@ hypergraph
 hyperplanes
 i'i
 iaeng
+IBLT
 ibn
 ICS
 ie
@@ -515,6 +518,7 @@ inorder
 interweaved
 introsort
 InversionList
+invertible
 irreflexive
 isa
 isEmpty
@@ -629,6 +633,7 @@ libstree
 lim
 Lior
 Lippert
+listEntries
 Litwin
 LJW
 LK
@@ -1086,6 +1091,7 @@ strcmp
 Strmat
 strncmp
 Strother
+strsrch
 strstr
 stylesheet
 subadditive

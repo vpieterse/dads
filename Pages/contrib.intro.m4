@@ -1,5 +1,5 @@
 dnl *created  "Wed Jan  9 12:03:53 2002" *by "Paul E. Black"
-dnl *modified "Fri Nov  8 13:27:58 2013" *by "Paul E. Black"
+dnl *modified "Mon Oct 29 13:46:36 2018" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
@@ -30,7 +30,11 @@ dnl
 include(`Pages/bitsReqHeadStuff.m4')
 </head>
 <body>
-include(`Pages/bitsImageLogos.m4')
+<center>
+<a href="https://www.nist.gov/" target="_blank"><img
+src="../Images/webidblue_1linecentr.gif" border=0 height=43 width=229
+alt="NIST"></a>
+</center>
 <center> <h1>Contributors</h1> </center>
 <center> <h2>to the</h2> </center>
 <center> <h1>Dictionary of Algorithms and Data Structures</h1> </center>

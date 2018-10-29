@@ -1,0 +1,59 @@
+# *created  "Fri Jul 20 15:53:35 2018" *by "Paul E. Black"
+# *modified "Fri Jul 20 16:31:21 2018" *by "Paul E. Black"
+
+# $Log: strsrch.trm,v $
+
+# entry name
+@NAME=strsrch
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Find occurrences of a {substring} in a target {string} by trying
+the substring at each possible location in the string.  Execution time
+is $\Theta(mn)$, where m is length of the target string and n is the
+length of the substring.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA={string matching}
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={brute force string search}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Sanford J. Hersh</strong>, <em>String Searching in C</em>,
+Computer Language, 5(12):63-65, December 1988.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=This is a C implementation of an APL routine.  There are far
+faster algorithms at {string matching}.
+</p>
+
+<p>
+As written, the routine uses a fixed size array (15 in the article) to
+return matching locations.  Hence it only returns the first 15
+locations.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

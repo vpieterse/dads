@@ -1,15 +1,16 @@
 Descriptions of files and directories in DADS.  This is not complete.
 
  *created  "Wed Feb  8 09:46:31 2012" *by "Paul E. Black"
- *modified "Mon Jan 26 11:02:00 2015" *by "Paul E. Black"
+ *modified "Fri Aug 24 09:47:58 2018" *by "Paul E. Black"
 
 FILES
 
 mkterms
+  compile terms and intro/conclusion pieces to make static HTML pages
 mkcommon.pl
   a utility file
 mksite.pl
-  This is a copy of or link to mksiteNIST.pl or mksiteFastar.pl
+  This is a copy of or link to either mksiteNIST.pl or mksiteFastar.pl
 mksiteNIST.pl
   configure everything for NIST
 mksiteFastar.pl
@@ -24,7 +25,6 @@ conversion files
 expected output/known "errors"
   dads.spell
   htmlWarnings
-  reference.checklink
 test cases
   aaaaTest.trm
     every legal construct
@@ -34,7 +34,7 @@ test cases
     every error
   Some comments/documentation are in the files themselves
 template.trm
-  an empty file for new definitions
+  an empty file to be copied for new definitions
 
 DIRECTORIES
   Pages 
@@ -46,4 +46,5 @@ DIRECTORIES
     directory on the web server
   Sources
     permissions, sources for files, etc.
-
+  Images
+    gifs and pictures

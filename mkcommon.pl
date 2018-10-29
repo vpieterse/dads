@@ -1,6 +1,6 @@
 # $Id: mkcommon.pl,v 1.34 2013/08/23 13:18:35 black Exp $
 # *created  "Tue Apr  3 15:51:02 2001" *by "Paul E. Black"
-# *modified "Fri Oct 18 12:49:16 2013" *by "Paul E. Black"
+# *modified "Mon Oct 29 13:51:50 2018" *by "Paul E. Black"
 #
 # Common definitions and routines for format and indexing terms.
 #
@@ -18,7 +18,7 @@
 #------------------------------------------------------------------------
 
 # site-specific variables and routines are here
-require 'mksite.pl';
+require './mksite.pl';
 
 # CONFIGURATION SECTION:
 # set the following appropriately

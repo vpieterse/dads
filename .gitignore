@@ -1,6 +1,6 @@
 # DADS files to ignore during git status
 # *created  "Wed Oct 16 14:25:16 2013" *by "Paul E. Black"
-# *modified "Mon Sep 18 10:04:51 2017" *by "Paul E. Black"
+# *modified "Fri Jun  8 10:26:41 2018" *by "Paul E. Black"
 
 # $Log$
 # Mon Sep 18 10:34:18 2017  Paul E. Black
@@ -64,5 +64,7 @@ Pages/ui.intro
 
 # this is created from gifs.intro and gifs.concl by mkgifpage
 Images/gifs.html
+# this is just a link to gifs.html
+Images/index.html
 
 # end of file

@@ -1,0 +1,71 @@
+# *created  "Thu Jun  7 10:49:37 2018" *by "Paul E. Black"
+# *modified "Fri Jul 20 16:29:05 2018" *by "Paul E. Black"
+
+# $Log: tabulationHashing.trm,v $
+
+# entry name
+@NAME=tabulation hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=The hash value is the {xor} of values from tables ({arrays})
+indexed by characters.
+# formal definition or {cross reference} to an entry
+@FORML=
+$h(c) = \oplus<sup>n</sup><sub>i=1</sub> T<sub>i</sub>[c<sub>i</sub>]$,
+where $\oplus$ is the {xor} operation,
+T<sub>i</sub> is the i<sup>th</sup> table, and
+$c<sub>i</sub>$ is the i<sup>th</sup> character.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=simple tabulation hash function, Zobrist hashing
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=hash function
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN={twisted tabulation hashing}
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS={Pearson's hash},
+{Zobrist hashing#Wikipedia:Zobrist hashing}
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Albert L. Zobrist</strong>, 
+<em>A New Hashing Method With Application for Game Playing</em>,
+University of Wisconsin-Madison Department of Computer Sciences, TR88,
+1970.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+The typical hash function is the xor of the representation of
+characters, that is,
+$h(c) = \oplus<sup>n</sup><sub>i=1</sub> c<sub>i</sub>$.
+</p>
+
+<p>
+The tables may be filled with random values or may have values chosen
+to avoid {collisions} or for other properties.
+</p>
+
+<p>
+For games, e.g. chess, "characters" are pieces, like pawn, knight, and
+queen.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

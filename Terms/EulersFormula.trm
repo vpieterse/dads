@@ -1,0 +1,58 @@
+# *created  "Mon May 14 10:47:58 2018" *by "Paul E. Black"
+# *modified "Mon May 14 11:03:23 2018" *by "Paul E. Black"
+
+# $Log: EulersFormula $
+
+# entry name
+@NAME=Euler's formula
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=D
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=theory
+# the definition
+@DEFN=For convex polyhedron, $V - E + F = 2$, where V is the number of
+vertices, E is the number of edges, and F is the number of faces.
+# formal definition or {cross reference} to an entry
+@FORML=
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME=
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+#<strong>Paul E. Black</strong>, <em>Hypothetical Intelligence</em>,
+#Proc. Everything XV, Provo, Utah, USA, 2(7):30-32, February 1997.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+Ernst Steinitz gave two inequalities that, if met, guarantee the
+existence of a polyhedron for three positive integers satisfying Euler's
+formula.
+</p>
+
+<p>
+(As of 2012) no one has found an equivalent formula for
+four-dimensional polyhedrons.
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/EulersFormula.trm,v $

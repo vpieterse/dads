@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 # $Id: mkauthors,v 1.3 2004/12/10 21:26:53 black Exp $
 # *created  "Wed Jan  9 10:35:13 2002" *by "Paul E. Black"
-# *modified "Fri Dec 10 16:25:54 2004" *by "Paul E. Black"
+# *modified "Mon Oct 29 13:52:18 2018" *by "Paul E. Black"
 #
 # Create authors page
 #	Paul E. Black <paul.black@nist.gov> or <p.black@acm.org>
@@ -37,7 +37,7 @@ $maxOperands = 0;
 #
 
 # CONFIGURATION SECTION:
-require 'mkcommon.pl';
+require './mkcommon.pl';
 
 #------------------------------------------------------------------------
 #

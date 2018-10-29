@@ -1,0 +1,76 @@
+# *created  "Thu Jun  7 11:43:56 2018" *by "Paul E. Black"
+# *modified "Thu Jun  7 12:50:32 2018" *by "Paul E. Black"
+
+# $Log: twistedTabulationHashing.trm,v $
+
+# entry name
+@NAME=twisted tabulation hashing
+# _A_lgorithm, algo _T_echnique, _D_efinition, _P_roblem, or data _S_tructure
+@TYPE=A
+# autom basic theory search sort tree graph combin numeric etc. see areas.data
+@AREA=search
+# the definition
+@DEFN=Similar to {tabulation hashing}, except that the last table is
+indexed by the xor of the last character and a twister value from the
+rest of the string.
+# formal definition or {cross reference} to an entry
+@FORML=
+<br />
+$(t, h<sub>r</sub>(c)) = \oplus<sup>n</sup><sub>i=2</sub>
+	T*<sub>i</sub>[c<sub>i</sub>]$ 
+<br />
+$h(c) = h<sub>r</sub>(c) \oplus 
+	T<sub>1</sub>[c<sub>1</sub> \oplus t]$
+<br />
+where $\oplus$ is the {xor} operation,
+T*<sub>i</sub> is the i<sup>th</sup> table, and
+$c<sub>i</sub>$ is the i<sup>th</sup> character.
+# comma-sep list of pure names that this is Also Known As.
+@AKA=
+# other cross-listings solely for the web, such as name or spelling variants
+@WEB=
+
+#    These are all comma-separated lists of {cross references}
+# Generalization: "I am a kind of ..."
+@IMA=
+# Specialization: "... is a kind of me."
+@VARIANT=
+# Aggregate parent: "I am a part of or used in ..."
+@IMIN=
+# Aggregate child: "... is a part of or used in me."
+@INME={tabulation hashing}
+# Other cross references that don't fit the above.  printed as "See also ..."
+@XREFS=
+
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
+@BIB=
+<strong>Mihai P&abreve;tra&scedil;cu</strong> and <strong>Mikkel Thorup</strong>,
+<em>Twisted Tabulation Hashing</em>,
+Proc. 24th annual ACM-SIAM Symposium On Discrete Algorithms (SODA '13),
+Pages 209-228, 2013.
+
+# any notes.  these are not printed in the final dictionary
+@NOTES=
+The twister value and the intermediate hash value can be accumulated
+in the same integer, since the combining operation is xor.
+</p>
+
+<p>
+The tables have additional twister values, compared to tables used in
+{tabulation hashing}.
+</p>
+
+<p>
+It doesn't matter whether it is the first or the last character that
+is treated specially.
+
+# any historical notes
+@HISTORY=
+
+# implementation(s) (pure HTML)
+@IMPL=
+# further explanation (pure HTML)
+@LINKS=
+# author's initials (see authors.data)
+@AUTHOR=PEB
+# end $Source: /home/black/DADS/dads/RCS/template.trm,v $

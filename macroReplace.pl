@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 # *created  "Wed Oct 16 11:38:59 2013" *by "Paul E. Black"
-# *modified "Wed Oct 16 11:49:58 2013" *by "Paul E. Black"
+# *modified "Mon Oct 29 13:53:18 2018" *by "Paul E. Black"
 #
 # Rewrite global macros in the given file.  Output on stdout
 #
@@ -25,7 +25,7 @@ $maxOperands = 1;
 #------------------------------------------------------------------------
 
 # CONFIGURATION SECTION:
-require 'mkcommon.pl';
+require './mkcommon.pl';
 
 #------------------------------------------------------------------------------
 #       Command line handling
