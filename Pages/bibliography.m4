@@ -1,17 +1,21 @@
 dnl *created  "Tue Dec  5 11:11:34 2006" *by "Paul E. Black"
-dnl *modified "Thu Jul 12 14:56:06 SAST 2012 *by Vreda Pieterse"
+dnl *modified "Mon Dec 10 08:19:17 2018" *by "Paul E. Black"
 dnl
-dnl Revision 2.0 Thu Jul 12 14:56:06 SAST 2012
+dnl $Log: bibliography.m4,v $
+dnl Mon Dec 10 08:31:45 2018  Paul E. Black
+dnl Update LEDA URL (https instead of http). Regularize Log entries and
+dnl *modified line.  Add end-of-file line.
+dnl 
+dnl Revision 2.0 Thu Jul 12 14:56:06 SAST 2012 Vreda Pieterse
 dnl Removed the NIST exit script bit. 
 dnl Kept the remainder as is for the moment. 
 dnl The idea is to use a file in bibtex format and write a script
 dnl to generate this page. 
 dnl
-dnl Revision 1.4 "Tue Dec  6 15:33:12 2011" *by "Paul E. Black"
+dnl Revision 1.4 Tue Dec  6 15:33:12 2011 Paul E. Black
 dnl The DADS bibliography.  Eventually this will be a separate page 
 dnl with its own format and processing, like authors.data.
 dnl
-dnl $Log: bibliography.m4,v $
 dnl Revision 1.3  2011/12/06 20:58:11  black
 dnl Include new NIST exit script bit, instead of hardcoding the URL
 dnl
@@ -21,7 +25,6 @@ dnl Make "and" in authors field not strong.
 dnl
 dnl Revision 1.1  2006/12/05 16:28:25  black
 dnl Initial revision
-dnl
 dnl
 
 <p>
@@ -111,7 +114,7 @@ Programming</em>, Addison-Wesley, volume 3, 2<sup>nd</sup> edition, 1998.
 
 <p>
 <a name="Leda98">[Leda98]</a>
-<a href="http://www.algorithmic-solutions.com/enleda.htm">LEDA</a>
+<a href="https://www.algorithmic-solutions.com/enleda.htm">LEDA</a>
 (accessed 4 December 2002).
 </p>
 
@@ -149,3 +152,4 @@ Object-Oriented Software Specification Methods and Techniques</em>,
 ACM Computing Surveys, 30(4):459-527, December 1998.
 </p>
 
+dnl end of bibliography.m4
