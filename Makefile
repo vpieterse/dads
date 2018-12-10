@@ -1,6 +1,6 @@
 # $Id: Makefile,v 1.56 2012/01/06 17:06:55 black Exp $
 # *created  "Tue Nov 17 11:55:10 1998" *by "Paul E. Black"
-# *modified "Wed Feb 22 14:46:28 2017" *by "Paul E. Black"
+# *modified "Mon Dec  3 15:44:54 2018" *by "Paul E. Black"
 #
 # $Log$
 # Wed Feb 22 15:17:48 2017  Paul E. Black,,,
@@ -39,8 +39,8 @@
 TARFILE=dads.tar
 PROGRAMS=mkterms mkauthors mkcommon.pl macroReplace.pl mksiteNIST.pl mksiteFastar.pl
 PAGES=Pages
-DIRS=Images Sources ${PAGES} bin
-FILES=Makefile *Test.trm *.data dads.css dads.spell htmlWarnings .gitignore
+DIRS=Images Sources ${PAGES} bin aaaaTestDir
+FILES=Makefile *Test.trm aaaaTestScript *.data dads.css dads.spell htmlWarnings .gitignore README dictAlgoDataStruc2013.pdf
 OUTDIR=Target
 HTMLDIR=${OUTDIR}/HTML
 OTHERDIR=${OUTDIR}/Other
@@ -291,7 +291,7 @@ spell:
 	-diff dads.spell.new dads.spell | grep '^<'
 
 tar:
-	tar -cf ${TARFILE} ${PROGRAMS} ${FILES} ${DIRS} Terms
+	tar -pcf ${TARFILE} ${PROGRAMS} ${FILES} ${DIRS} Terms
 
 # find .trm files newer than the tar file, that is, needing to be tar'd
 findnew:
