@@ -1,7 +1,10 @@
 # *created  "Mon Nov 27 10:44:04 2017" *by "Paul E. Black"
-# *modified "Mon Nov 27 11:07:12 2017" *by "Paul E. Black"
+# *modified "Wed Jan 30 12:39:01 2019" *by "Paul E. Black"
 
 # $Log: dualPivotQuicksort.trm,v $
+# Wed Jan 30 12:45:19 2019  Paul E. Black
+# Update URL for Java IMPL. Add that partition is INME
+# 
 #
 
 # entry name
@@ -30,7 +33,7 @@ greater pivot, and recursively sort these partitions.
 # Aggregate parent: "I am a part of or used in ..."
 @IMIN=
 # Aggregate child: "... is a part of or used in me."
-@INME=
+@INME={partition} (2)
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={quicksort}
 
@@ -55,7 +58,7 @@ slower.  Sebastian Wild offers a plausible explanation why in
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/8u40-b25/java/util/DualPivotQuicksort.java">Yaroslavskiy,
+href="https://zgrepcode.com/java/oracle/jdk-8u181/java/util/dualpivotquicksort.java">Yaroslavskiy,
 Bentley, and Bloch (Java)</a> used in JDK,
 <a
 href="https://algs4.cs.princeton.edu/23quicksort/QuickDualPivot.java.html">Sedgewick
