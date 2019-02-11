@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 12:10:28 1998" *by "Paul E. Black"
-# *modified "Tue Dec 14 10:33:18 2010" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:09:27 2019" *by "Paul E. Black"
 
 # $Log: heap.trm,v $
+# Mon Feb 11 17:10:00 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.9  2010/12/14 15:34:20  black
 # LINK to a VM efficient implementation: B-heap.
 #
@@ -43,7 +46,7 @@ extreme (greater or less) than or equal to the key of its {parent}.
 Usually understood to be a {binary heap}.
 # formal definition or {cross reference} to an entry
 @FORML=
-# comma-sep list of pure names or {cross refs} that this is Also Known As.
+# comma-sep list of pure names that this is Also Known As.
 @AKA=
 # other cross-listings solely for the web, such as name or spelling variants
 @WEB=
@@ -60,7 +63,7 @@ Usually understood to be a {binary heap}.
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS=
 
-# bib refs, eg, to defining article (pure HTML).  printed within <P>..</P>
+# bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=<strong>J. W. J. Williams</strong>, <em>Algorithm 232 Heapsort</em>,
 CACM, 7(6):378-348, June 1964.
 # any notes.  these will not be printed in the final dictionary
@@ -68,7 +71,7 @@ CACM, 7(6):378-348, June 1964.
 memory from which chunks can be allocated.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
+<a href="https://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
 subtrees to a single page for better virtual memory performance.
 
 # implementation(s) (pure HTML)
