@@ -1,7 +1,10 @@
 # *created  "Fri May 16 14:14:02 2008" *by "Paul E. Black"
-# *modified "Fri May 16 16:12:40 2008" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:10:20 2019" *by "Paul E. Black"
 
 # $Log: localitySensitiveHashing.trm,v $
+# Mon Feb 11 17:10:25 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.1  2008/05/16 20:14:28  black
 # Initial revision
 #
@@ -70,7 +73,7 @@ Alexandr Andoni's
 <a href="http://www.mit.edu/~andoni/LSH/">Locality-Sensitive Hashing
 home page</a>.
 <a
-href="http://en.wikipedia.org/wiki/Locality_sensitive_hashing">Locality
+href="https://en.wikipedia.org/wiki/Locality_sensitive_hashing">Locality
 sensitive hashing</a> in Wikipedia.
 
 # author's initials (see authors.data)
