@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed May 31 09:36:39 2006" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:10:33 2019" *by "Paul E. Black"
 
 # $Log: manhattanDistance.trm,v $
+# Mon Feb 11 17:10:37 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.5  2006/05/31 13:40:14  black
 # XREF Hamming distance, which is Manhattan distance on bit vectors.
 # NOTE links at Lm distance entry.
@@ -68,7 +71,7 @@ vectors.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for 
-<a href="http://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab
+<a href="https://en.wikipedia.org/wiki/Taxicab_geometry">Taxicab
 geometry</a>.
 Comparison between <a
 href="http://www.improvedoutcomes.com/docs/WebSiteDocs/Clustering/Clustering_Parameters/Manhattan_Distance_Metric.htm">Manhattan</a>
