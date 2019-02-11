@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:20:52 2017" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:08:08 2019" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Mon Feb 11 17:08:12 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Wed Feb 24 12:18:39 2016  Paul E. Black
 # Remove asymptotic upper bound: it is just another name for this.
 # Remove asymptotically tight bound, since it is another name for
@@ -153,7 +156,7 @@ Strictly, the character is the upper-case Greek letter Omicron, not
 the letter O, but who can tell the difference?
 # further explanation (pure HTML)
 @LINKS=
-Wikipedia <a href="http://en.wikipedia.org/wiki/Big_O_notation">Big O
+Wikipedia <a href="https://en.wikipedia.org/wiki/Big_O_notation">Big O
 notation</a>.
 Big O is a
 <a href="http://mathworld.wolfram.com/LandauSymbols.html">Landau Symbol</a>.
