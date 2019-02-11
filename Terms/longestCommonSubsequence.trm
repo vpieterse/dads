@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Tue Sep  2 08:43:04 2014" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:10:26 2019" *by "Paul E. Black"
 #
 # $Log: longestCommonSubsequence.trm,v $
+# Mon Feb 11 17:10:32 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Tue Sep  2 08:43:12 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -87,7 +90,7 @@ Dan Hirschberg's <a
 href="http://www.ics.uci.edu/~dan/class/161/notes/6/Dynamic.html">pseudocode</a>
 as an example of {dynamic programming}
 <a
-href="http://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-common
+href="https://en.wikipedia.org/wiki/Longest-common_subsequence_problem">Longest-common
 subsequence problem</a> in Wikipedia.
 # implementation(s) (pure HTML)
 @IMPL=<a
