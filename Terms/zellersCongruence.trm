@@ -1,7 +1,10 @@
 # *created  "Tue Mar  5 12:32:22 2002" *by "Paul E. Black"
-# *modified "Mon Sep 14 08:46:41 2015" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:11:47 2019" *by "Paul E. Black"
 
 # $Log: zellersCongruence.trm,v $
+# Mon Feb 11 17:11:51 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Mon Sep 14 08:48:36 2015  Paul E. Black
 # Remove LINKS to ISO 8601 at merlyn.demon.co.uk: that domain is gone.
 # 
@@ -81,7 +84,7 @@ href="http://www.lysator.liu.se/faq/c-faq/c-17.html#17-28">question
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Zeller's_congruence">Zeller's
+<a href="https://en.wikipedia.org/wiki/Zeller's_congruence">Zeller's
 congruence</a>.
 A summary of the International Standard Date and Time Notation <a
 href="http://www.cl.cam.ac.uk/~mgk25/iso-time.html">ISO 8601</a>.
