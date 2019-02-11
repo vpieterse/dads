@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Jun 22 11:51:12 2015" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:05:11 2019" *by "Paul E. Black"
 
 # $Log: Levenshtein.trm,v $
+# Mon Feb 11 17:05:43 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Mon Jun 22 11:57:03 2015  Paul E. Black
 # Access wikibooks with https.
 # 
@@ -88,7 +91,7 @@ Appearing in the Dictionary of Computer Science, Engineering and
 Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
-<a href="http://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
+<a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Wikipedia
 entry</a> which has links to implementations.
 March 2003
 <a
