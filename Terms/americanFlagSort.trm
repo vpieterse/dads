@@ -1,7 +1,10 @@
 # *created  "Tue May 13 13:59:28 2003" *by "Paul E. Black"
-# *modified "Wed Dec  2 17:09:28 2009" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:13:21 2019" *by "Paul E. Black"
 
 # $Log: americanFlagSort.trm,v $
+# Mon Feb 11 17:13:43 2019  Paul E. Black
+# use https to access workmall.com
+# 
 # Revision 1.8  2009/12/02 22:10:55  black
 # Use the DOI of the right paper for the IMPL
 #
@@ -76,7 +79,7 @@ href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.6990">program C
 in the McIlroy, Bostic, and McIlroy paper.
 # further explanation (pure HTML)
 @LINKS=The flag of the 
-<a href="http://www.workmall.com/flags/united_states_flag.html">United States
+<a href="https://www.workmall.com/flags/united_states_flag.html">United States
 of America</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
