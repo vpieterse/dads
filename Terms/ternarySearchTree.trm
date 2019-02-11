@@ -1,7 +1,10 @@
 # *created  "Wed Mar 17 12:22:48 1999" *by "Paul E. Black"
-# *modified "Mon Jan 13 10:16:02 2014" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:11:36 2019" *by "Paul E. Black"
 
 # $Log: ternarySearchTree.trm,v $
+# Mon Feb 11 17:11:40 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Mon Jan 13 10:18:57 2014  Paul E. Black
 # Update URL for de Halleuxs IMPL in C#
 # 
@@ -89,7 +92,7 @@ Search Trees</em>,  Dr. Dobb's Journal, April 1998.
 # further explanation (pure HTML)
 @LINKS=
 The 
-<a href="http://en.wikipedia.org/wiki/Ternary_search_tree">wikipedia
+<a href="https://en.wikipedia.org/wiki/Ternary_search_tree">wikipedia
 entry</a>.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www.cs.princeton.edu/~rs/strings/">papers,
