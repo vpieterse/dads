@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Apr 30 11:30:58 2007" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:11:13 2019" *by "Paul E. Black"
 
 # $Log: prefixcode.trm,v $
+# Mon Feb 11 17:11:17 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.3  2007/04/30 15:31:14  black
 # LINK Wikipedia entry.
 #
@@ -39,7 +42,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Prefix_code">prefix code</a>.
+<a href="https://en.wikipedia.org/wiki/Prefix_code">prefix code</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials (see authors.data)
