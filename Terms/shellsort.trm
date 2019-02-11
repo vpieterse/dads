@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:54:51 1998" *by "Paul E. Black"
-# *modified "Mon Aug 10 10:53:49 2015" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:11:24 2019" *by "Paul E. Black"
 
 # $Log: shellsort.trm,v $
+# Mon Feb 11 17:11:27 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Mon Aug 10 10:57:44 2015  Paul E. Black
 # describe how to find the Shellsort in the Fortran IMPL.
 # 
@@ -224,7 +227,7 @@ differed just enough to be confusing.
 
 <p>
 Somewhere around 1961 or so, Pratt got an 
-<a href="http://en.wikipedia.org/wiki/IBM_1620">IBM 1620</a>. 
+<a href="https://en.wikipedia.org/wiki/IBM_1620">IBM 1620</a>. 
 This was a much smaller computer using punched paper tape instead of
 cards.  
 # Did it's math by using tables loaded during boot. (CADET -- Can't
