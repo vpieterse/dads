@@ -1,7 +1,10 @@
 # *created  "Thu Feb 20 11:48:59 2003" *by "Paul E. Black"
-# *modified "Mon Mar 30 14:16:42 2009" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:08:51 2019" *by "Paul E. Black"
 
 # $Log: cuckooHashing.trm,v $
+# Mon Feb 11 17:08:55 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.9  2009/03/30 18:17:53  black
 # Fix DEFN: some universal fns do NOT give good performance
 #
@@ -84,7 +87,7 @@ proc 7th Workshop on Distributed Data and Structures (WDAS'06), Santa
 Clara, CA, January 2006. 
 # any notes.  these are not printed in the final dictionary
 @NOTES=The name comes from the 
-<a href="http://en.wikipedia.org/wiki/Common_Cuckoo">European
+<a href="https://en.wikipedia.org/wiki/Common_Cuckoo">European
 cuckoo</a>, whose young
 pushes other, competing eggs out of the nest.
 # implementation(s) (pure HTML)
