@@ -1,7 +1,10 @@
 # *created  "Thu Dec 16 09:26:33 1999" *by "Paul E. Black"
-# *modified "Sat Jun  7 11:45:40 2014" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:09:14 2019" *by "Paul E. Black"
 
 # $Log: graycode.trm,v $
+# Mon Feb 11 17:09:21 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Sat Jun  7 11:54:35 2014  Paul E. Black
 # Remove "See links" NOTE since there are no more LINKs to conversion algorithms.
 # 
@@ -128,7 +131,7 @@ patented a method using the codes in 1953.
 
 <p>
 See the Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
+<a href="https://en.wikipedia.org/wiki/Gray_code">Gray code</a> for
 more information.
 </p>
 
