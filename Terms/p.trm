@@ -1,7 +1,10 @@
 # *created  "Wed Jun  2 13:42:31 1999" *by "Phillip Laplante"
-# *modified "Mon Sep  9 13:56:44 2013" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:10:45 2019" *by "Paul E. Black"
 
 # $Log: p.trm,v $
+# Mon Feb 11 17:10:50 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.12  2013/09/09 17:56:45  black
 # update URL for Aaronson's Complexity Zoo
 #
@@ -70,7 +73,7 @@ Technology, Copyright &copy; 2000 CRC Press LLC.
 href="https://cs.uwaterloo.ca/~alopez-o/comp-faq/faq.html">Comp.Theory
 FAQ</a>, scroll down to <strong>P vs. NP</strong>.
 Wikipedia entry on <a
-href="http://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
+href="https://en.wikipedia.org/wiki/Complexity_classes_P_and_NP">Complexity
 classes P and NP</a>.
 </p>
 
