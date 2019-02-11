@@ -1,7 +1,10 @@
 # *created  "Tue Jan 26 08:45:51 1999" *by "Paul E. Black"
-# *modified "Mon Apr 18 09:04:55 2005" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:07:58 2019" *by "Paul E. Black"
 
 # $Log: bestfirst.trm,v $
+# Mon Feb 11 17:08:06 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.4  2005/04/18 13:05:00  black
 # Remove LINK to Mitchell's (1998) lecture notes - account gone.
 #
@@ -48,7 +51,7 @@ refinements of those.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for <a
-href="http://en.wikipedia.org/wiki/A-star_search_algorithm">A* search</a>.
+href="https://en.wikipedia.org/wiki/A-star_search_algorithm">A* search</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 # author's initials
