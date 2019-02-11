@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:24:14 1998" *by "Paul E. Black"
-# *modified "Fri Mar  4 13:02:33 2005" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:07:47 2019" *by "Paul E. Black"
 
 # $Log: bellmanford.trm,v $
+# Mon Feb 11 17:07:52 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.8  2005/03/04 18:03:23  black
 # Add Wikipedia IMPL
 #
@@ -67,7 +70,7 @@ After <a href="../terms.html#CLR90">[CLR90, page 532]</a>
 # implementation(s) (pure HTML)
 @IMPL=
 The entry in
-<a href="http://en.wikipedia.org/wiki/Bellman-Ford_algorithm">Wikipedia
+<a href="https://en.wikipedia.org/wiki/Bellman-Ford_algorithm">Wikipedia
 (C, Assembly, and pseudocode)</a> has a proof, too.
 # further explanation (pure HTML)
 @LINKS=
