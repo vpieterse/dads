@@ -1,7 +1,10 @@
 # *created  "Fri Dec  3 10:31:39 2004" *by "Paul E. Black"
-# *modified "Mon Mar 28 11:15:56 2011" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:08:44 2019" *by "Paul E. Black"
 
 # $Log: cordic.trm,v $
+# Mon Feb 11 17:08:50 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.6  2011/03/28 15:16:19  black
 # remove Ken Turkowski's intro - not found
 #
@@ -67,7 +70,7 @@ Arithmetic</em>, IEEE Computer Society Press, 1990.
 
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://en.wikipedia.org/wiki/CORDIC">Wikipedia entry (C,
+<a href="https://en.wikipedia.org/wiki/CORDIC">Wikipedia entry (C,
 MATLAB)</a>.
 dspGuru's
 <a href="http://www.dspguru.com/dsp/faqs/cordic">introduction and
