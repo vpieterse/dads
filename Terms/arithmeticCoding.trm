@@ -1,7 +1,10 @@
 # *created  "Thu Feb 14 16:03:59 2002" *by "Paul E. Black"
-# *modified "Mon Dec 12 10:06:50 2011" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:06:59 2019" *by "Paul E. Black"
 
 # $Log: arithmeticCoding.trm,v $
+# Mon Feb 11 17:07:43 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.10  2011/12/12 15:06:59  black
 # Remove IMPL from Numerical Recipes in C - files are gone.
 #
@@ -103,9 +106,9 @@ An <a
 href="http://www.ics.uci.edu/~dan/pubs/DC-Sec3.html">introduction to data
 compression</a> methods.
 Wikipedia entries for
-<a href="http://en.wikipedia.org/wiki/Arithmetic_coding">Arithmetic
+<a href="https://en.wikipedia.org/wiki/Arithmetic_coding">Arithmetic
 coding</a> and <a
-href="http://en.wikipedia.org/wiki/Range_encoding">Range encoding</a>.
+href="https://en.wikipedia.org/wiki/Range_encoding">Range encoding</a>.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/arithmeticCoding.trm,v $
