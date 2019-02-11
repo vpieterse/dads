@@ -1,7 +1,10 @@
 # *created  "Thu Jun 17 09:56:40 1999" *by "Paul E. Black"
-# *modified "Thu Sep 13 14:51:33 2007" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:10:52 2019" *by "Paul E. Black"
 
 # $Log: partialfunct.trm,v $
+# Mon Feb 11 17:10:57 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Revision 1.4  2007/09/13 18:52:46  black
 # Change DEFN wording to parallel "total function".
 #
@@ -47,7 +50,7 @@ total, too.
 # further explanation (pure HTML)
 @LINKS=
 Wikipedia entry for
-<a href="http://en.wikipedia.org/wiki/Partial_function">partial
+<a href="https://en.wikipedia.org/wiki/Partial_function">partial
 function</a>.
 # implementation(s) (pure HTML)
 @IMPL=
