@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:52:44 2016" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:08:16 2019" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Mon Feb 11 17:08:24 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Mon Dec  5 11:03:47 2016  Paul E. Black
 # Improve citation of xkcd comic.
 # 
@@ -84,7 +87,7 @@ of nodes, the child does not exist.
 <p>
 The above implementation is inefficient with virtual memories because
 (almost) every {level} is in a different page.
-<a href="http://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
+<a href="https://en.wikipedia.org/wiki/B-heap">B-heaps</a> allocate
 subtrees to a single page for better virtual memory performance.
 </p>
 
