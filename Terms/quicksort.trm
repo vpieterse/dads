@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 10:47:34 2018" *by "Paul E. Black"
+# *modified "Mon Feb 11 17:11:19 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Mon Feb 11 17:11:22 2019  Paul E. Black
+# use https to access Wikipedia
+# 
 # Fri Apr  6 11:16:40 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -128,7 +131,7 @@ partitioning <a
 href="http://www.cs.princeton.edu/~rs/talks/QuicksortIsOptimal.pdf">Quicksort
 Is Optimal (C)</a> (pdf format) for random files possibly with
 duplicate keys; includes discussion and proof.
-<a href="http://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
+<a href="https://en.wikipedia.org/wiki/Quicksort">Wikipedia entry with
 extended discussion and alternatives (C, Python, Haskell, pseudocode)</a>.
 Demos and code for <a
 href="http://people.cs.ubc.ca/~harrison/Java/sorting-demo.html">enhanced,
