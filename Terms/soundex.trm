@@ -1,7 +1,10 @@
 # *created  "Fri Feb 19 11:27:28 1999" *by "Paul E. Black"
-# *modified "Mon Dec 13 08:59:46 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:12:20 2019" *by "Paul E. Black"
 
 # $Log: soundex.trm,v $
+# Tue Feb 12 10:12:25 2019  Paul E. Black
+# Update Mark Crocker IMPL URL
+# 
 # Revision 1.14  2010/12/13 14:00:13  black
 # Remove NARA and GIL links - the pages are gone (or moved).
 #
@@ -84,7 +87,7 @@ Apache codec implementations of
 <a href="http://commons.apache.org/codec/">soundex, Metaphone,
 and Double Metaphone (Java)</a>. 
 <a href="http://www.source-code.biz/snippets/vbasic/4.htm">(Visual Basic)</a>.
-<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>.
 <a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(Cobol)</a>.
 # author's initials
 @AUTHOR=PEB
