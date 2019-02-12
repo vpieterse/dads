@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:03:39 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:51:55 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:38:10 2019" *by "Paul E. Black"
 
 # $Log: binaryPriorityQueue.trm,v $
+# Tue Feb 12 09:38:16 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.6  2009/11/16 14:52:00  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -64,9 +67,9 @@ After
 # implementation(s) (pure HTML)
 @IMPL=
 Gonnet and Baeza-Yates <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/516b.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/516b.ins.c">insert
 (C and Pascal)</a> and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/516b.del.c">delete
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/516b.del.c">delete
 (C and Pascal)</a>
 # author's initials
 @AUTHOR=PEB
