@@ -1,0 +1,2 @@
+mvterm: not a regular file: Terms/testDirP05.trm
+Usage: mvterm [-nh] [--verbose] currentName newName

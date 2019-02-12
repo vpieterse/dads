@@ -1,0 +1,2 @@
+mvterm: file not readable: Terms/gcomOne.trm
+Usage: mvterm [-nh] [--verbose] currentName newName

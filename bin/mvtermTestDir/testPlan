@@ -1,0 +1,29 @@
+Test plan for testing mvterm
+- UI
+- funny operands
+  * funny name
+    # begin with -
+    # embedded spaces
+    # other special characters
+  * from operand has directory name (Terms)
+  * from operand does not have directory name
+  * from operand ends in .trm
+  * from operand does not end in .trm
+  * to operand has directory name (Terms)
+  * to operand does not have directory name
+- existence
+  * Terms directory doesn't exist	P01
+  * Terms directory is not writable	P01.5
+  * from file doesn't exist		P02
+  * from file is not readable		P03
+  * to file exists			P04
+  * from "file" is a directory		P05
+  * from "file" is a link		P06
+- User approval
+  * <cr>
+  * ? (unknown character)
+  * Yes
+  * n
+  * L
+  * quack
+Then, of course, check that the changes are as expected.

@@ -1,0 +1,2 @@
+mvterm: "to" file already exists: Terms/gcomTwo.trm
+Usage: mvterm [-nh] [--verbose] currentName newName

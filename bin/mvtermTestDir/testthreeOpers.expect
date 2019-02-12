@@ -1,0 +1,2 @@
+mvterm: Wrong number of operands
+Usage: mvterm [-nh] [--verbose] currentName newName

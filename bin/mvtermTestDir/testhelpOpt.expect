@@ -1,0 +1,5 @@
+Usage: mvterm [-nh] [--verbose] currentName newName
+	-n	No changes; just print what would be done
+	--verbose print what is done as it is done
+	--version print Version information
+	--	End of options (e.g., currentName begins with -)

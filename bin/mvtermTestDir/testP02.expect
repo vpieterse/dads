@@ -1,0 +1,2 @@
+mvterm: file not found: Terms/fileNotFound.trm
+Usage: mvterm [-nh] [--verbose] currentName newName

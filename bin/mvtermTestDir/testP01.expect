@@ -1,0 +1,2 @@
+mvterm: directory not found: Terms
+Usage: mvterm [-nh] [--verbose] currentName newName

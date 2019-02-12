@@ -1,0 +1,267 @@
+#!/usr/bin/perl -w
+# $Id$
+#             *created  "Fri Feb 10 09:08:39 2017" *by "Paul E. Black"';
+$versionMod=' *modified "Fri Feb 10 12:23:31 2017" *by "Paul E. Black"';
+
+#-----------------------------------------------------------------------------
+#
+#	Test mvterm
+#
+$useMsg = "use: test_mvterm";
+$minOperands = 0;
+$maxOperands = 0;
+#$typUse = "test_mvterm";
+#
+# This software was developed at the National Institute of Standards 
+# and Technology by employees of the Federal Government in the course 
+# of their official duties.  Pursuant to title 17 Section 105 of the 
+# United States Code this software is not subject to copyright 
+# protection and is in the public domain. 
+# 
+# We would appreciate acknowledgment if the software is used.
+#
+# Paul E. Black  paul.black@nist.gov or p.black@acm.org
+#	http://hissa.nist.gov/~black/
+#
+#-----------------------------------------------------------------------------
+
+# $Log$
+
+#------------------------------------------------------------------------------
+#	Command line handling
+#------------------------------------------------------------------------------
+
+while ($#ARGV >= 0) {
+    if ($ARGV[0] =~ /^--?v(e(r(s(i(on?)?)?)?)?)?$/) {
+	print "$versionMod\n";
+	exit 0;
+    } elsif ($ARGV[0] eq "--") {
+	shift;
+	last;
+    } elsif ($ARGV[0] =~ /^-/) {
+	print "unknown option: $ARGV[0]\n";
+	print "$useMsg\n";
+	exit 1;
+    } else {
+	# end of options
+	last;
+    }
+}
+
+$numberOfOperands = 1 + $#ARGV;
+if ($numberOfOperands < $minOperands || $maxOperands < $numberOfOperands) {
+    print "Wrong number of operands\n";
+    print "$useMsg\n";
+    exit 1;
+}
+
+###############################################################################
+#
+#	program proper
+#
+###############################################################################
+
+# this is the program we're testing
+$program = "mvterm";
+
+# full path to executable
+$prog = `which $program`;
+# "which" doesn't expand ~, so it may fail even if the shell finds $program
+die "Cannot find $program. Stopped" if ("$prog" eq "");
+chomp $prog;
+
+$now  = localtime;
+
+##### create an error file in case this script fails #####
+
+$errfile = "ERROR_${program}_FAILED_AUTOMATIC_TEST";
+
+# first, delete any existing file
+unlink $errfile;
+die "Cannot remove $errfile.  Stopped" if -e $errfile;
+
+open(ERRFILE, "> $errfile")
+    || die "Cannot create error file $errfile.  Stopped";
+print ERRFILE "test of $prog begun at $now\n";
+
+$numErrors = 0;
+
+##### run all tests in a new directory #####
+
+use File::Temp qw/ tempdir /;
+# safely create a unique directory
+my ($testdir) = tempdir("tmpTSTmvtermXXXXXXX", DIR => "/tmp");
+
+print ERRFILE "Test directory is $testdir\n";
+
+#------------------------------------------------------------------------------
+#	user interface tests
+#------------------------------------------------------------------------------
+
+print                     "user interface tests\n";
+print ERRFILE "=========== user interface tests ===========\n";
+
+foreach $testName ("helpOpt", "vAmbig", "version", "verbose", "unkOpt", "noOper", "oneOper", "threeOpers")
+{
+    if      ($testName eq "helpOpt") {
+	$cmdlnopt="--he";
+	$opers = "these are ignored";
+    } elsif ($testName eq "vAmbig") {
+	$cmdlnopt="   -v";
+	$opers = "-second option ignored";
+    } elsif ($testName eq "version") {
+	$cmdlnopt="   --vers";
+	$opers = "-second option ignored";
+    } elsif ($testName eq "verbose") {
+	$cmdlnopt="   --verb";
+	$opers = "first second third";
+    } elsif ($testName eq "unkOpt") {
+	$cmdlnopt="-r2001";
+	$opers = "";
+    } elsif ($testName eq "noOper") {
+	$cmdlnopt="--";
+	$opers = "";
+    } elsif ($testName eq "oneOper") {
+	$cmdlnopt="";
+	$opers = "notEnough";
+    } elsif ($testName eq "threeOpers") {
+	$cmdlnopt="";
+	$opers = "too many operands";
+    } else {
+	die "Case $testName not handled.  Stopped";
+    }
+
+    print ERRFILE "==Running $prog $cmdlnopt $opers\n";
+
+    # filter out modified date (only needed for -v)
+    `cd $testdir;$prog $cmdlnopt $opers 2>&1|perl -wpe 's/"[^"]*"/"..."/g'>test$testName.out`;
+    #$status = $?; don't care what the status is
+    `cmp $testdir/test$testName.out test$testName.expect`;
+    if ($? != 0) {
+	# output didn't match expected
+	$numErrors++;
+	print ERRFILE "diff $testdir/test$testName.out test$testName.expect\n";
+	print ERRFILE `diff $testdir/test$testName.out test$testName.expect 2>&1 |tr ' ' '.'`;
+    }
+}
+
+#------------------------------------------------------------------------------
+#	file/directory problem tests
+#------------------------------------------------------------------------------
+
+print                     "file/directory problem tests\n";
+print ERRFILE "=========== file/directory problem tests ===========\n";
+
+my($termsDir) = "$testdir/Terms";
+
+foreach $testName ("P01", "P01.5", "P02", "P03", "P04", "P05", "P06")
+{
+    $purpose = "NONE GIVEN";
+    $opers = "NONE GIVEN";
+
+    if ($testName eq "P01") {
+	$purpose = "Terms directory doesn't exist";
+	$opers = "fromFile toFile";
+    } elsif ($testName eq "P01.5") {
+	$purpose = "Terms directory isn't writable";
+	$opers = "-- fileNotFound.trm secondFile";
+
+	# make Terms directory
+	mkdir "$termsDir", 0555 or die "Cannot mkdir $termsDir: $!";
+	print ERRFILE "Created Terms directory unwritable\n";
+    } elsif ($testName eq "P02") {
+	$purpose = "missing from file (and test --)";
+	$opers = "-- fileNotFound.trm secondFile";
+
+	# make Terms directory writable
+	chmod 0755, "$termsDir" or die "Cannot make $termsDir writable: $!";
+	print ERRFILE "Made Terms directory writable\n";
+    } elsif ($testName eq "P03") {
+	$purpose = "from file not readable";
+	$opers = "Terms/gcomOne gcomTwo";
+
+	# create the "from" file (exit zero is success)
+	`date > "$termsDir/gcomOne.trm"` and die "Cannot touch gcomOne.trm: $!";
+
+	# make it unreadable
+	chmod 0000, "$termsDir/gcomOne.trm" or die "Cannot chmod gcomOne.trm: $!";
+	print ERRFILE "Create gcomOne.trm unreadable\n";
+    } elsif ($testName eq "P04") {
+	$purpose = "to file exists";
+	$opers = "gcomOne.trm Terms/gcomTwo";
+
+	# make the "from" file readable
+	chmod 0444, "$termsDir/gcomOne.trm" or die "Cannot chmod gcomOne.trm: $!";
+	print ERRFILE "Make gcomOne.trm readable\n";
+
+	# create the "to" file (exit zero is success)
+	`touch "$termsDir/gcomTwo.trm"` and die "Cannot touch gcomTwo.trm: $!";
+	print ERRFILE "Create gcomTwo.trm\n";
+    } elsif ($testName eq "P05") {
+	$purpose = "from 'file' is directory";
+	$opers = "testDir$testName tofile";
+
+	# delete "to" file
+	unlink "$termsDir/gcomTwo.trm" or die "Cannot unlink gcomTwo.trm: $!";
+	print ERRFILE "Delete gcomTwo.trm\n";
+
+	mkdir "$termsDir/testDir$testName.trm", 0755 or die "Cannot mkdir $termsDir/testDir$testName.trm: $!";
+    } elsif ($testName eq "P06") {
+	$purpose = "from 'file' is a symbolic link";
+	$opers = "gcomSlink fileTwo";
+
+	symlink "$termsDir/gcomOne.trm", "$termsDir/gcomSlink.trm" 
+		or die "Cannot create symlink to gcomOne.  Stopped";
+	print ERRFILE "Create gcomSlink.trm as sym link to gcomOne.trm\n";
+    } else {
+	die "Case $testName not handled.  Stopped";
+    }
+
+    print ERRFILE "==== test purpose: $purpose\n";
+    print ERRFILE "==Running $prog $opers\n";
+
+    `cd $testdir;$prog $opers 2>&1 >test$testName.out`;
+    #$status = $?; don't care what the status is
+    `cmp $testdir/test$testName.out test$testName.expect`;
+    if ($? != 0) {
+	# output didn't match expected
+	$numErrors++;
+	print "Test failed: $purpose\n";
+	print ERRFILE "diff $testdir/test$testName.out test$testName.expect\n";
+	print ERRFILE `diff $testdir/test$testName.out test$testName.expect 2>&1 |tr ' ' '.'`;
+    }
+}
+
+# TEMPORARY
+exit
+
+#------------------------------------------------------------------------------
+#	operational tests
+#------------------------------------------------------------------------------
+
+print                     "operational tests\n";
+print ERRFILE "=========== operational tests ===========\n";
+
+foreach $testName ("One", "Two", "Three")
+{
+    if      ($testName eq "helpOpt") {
+    }
+}
+
+#------------------------------------------------------------------------------
+#	clean up and finish
+#------------------------------------------------------------------------------
+
+close ERRFILE;
+
+print "Done!\n";
+
+# remove temporary test directory
+use File::Path qw(remove_tree);
+#remove_tree("$testdir") or die "Cannot remove test directory '$testdir': $!";
+
+print "There are $numErrors error(s)\n";
+# finished without error; remove error file
+#unlink $errfile;
+
+# end of $Source$

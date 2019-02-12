@@ -1,0 +1,2 @@
+ambiguous: use --verb[ose] or --vers[ion] (or --help)
+Usage: mvterm [-nh] [--verbose] currentName newName
