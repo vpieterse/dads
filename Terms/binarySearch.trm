@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:53 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 11:07:00 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:38:23 2019" *by "Paul E. Black"
 
 # $Log: binarySearch.trm,v $
+# Tue Feb 12 09:38:28 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Fri Apr  6 11:17:52 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -157,7 +160,7 @@ Mukundan's <a
 href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/BSearch.html">animation
 (Java)</a>. 
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/321.srch.c">search
 (C)</a>, which uses
 {0-based indexing}.
 Flower Brackets <a
