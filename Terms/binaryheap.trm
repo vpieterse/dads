@@ -1,7 +1,10 @@
 # *created  "Fri Dec 18 14:19:17 1998" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:08:16 2019" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:38:42 2019" *by "Paul E. Black"
 
 # $Log: binaryheap.trm,v $
+# Tue Feb 12 09:38:48 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Mon Feb 11 17:08:24 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -107,11 +110,11 @@ Attribution-NonCommercial 2.5 License</a>.
 
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.del.c">delete
 (C)</a> and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.ins.c">insert
 (C and Pascal)</a> both of which use the auxiliary function <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/5/513.sift.c">siftup
 (C and Pascal)</a>,
 # John Morris morris@ee.uwa.edu.au
 <a
