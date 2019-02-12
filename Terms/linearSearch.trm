@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 11:32:20 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 11:13:12 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:42:05 2019" *by "Paul E. Black"
 
 # $Log: linearSearch.trm,v $
+# Tue Feb 12 09:42:09 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Fri Apr  6 11:18:03 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -70,7 +73,7 @@ found.
 href="http://www.cs.auckland.ac.nz/software/AlgAnim/searching.html">expected time</a>.
 <a href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/LSearch.html">Demonstration</a>.
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>.
+@IMPL=<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/311c.srch.c">(C)</a>.
 <a href="http://www.flowerbrackets.com/linear-search-in-java/">(Java)</a>.
 
 # author's initials
