@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 13:00:26 1998" *by "Paul E. Black"
-# *modified "Mon Mar  2 15:53:52 2015" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:43:31 2019" *by "Paul E. Black"
 
 # $Log: radixsort.trm,v $
+# Tue Feb 12 09:43:34 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Mon Mar  2 15:59:55 2015  Paul E. Black
 # Remove John David Stones (Grinnell) IMPL - Stones account is entirely gone.
 # 
@@ -120,7 +123,7 @@ Dr. Dobb's Journal, May 2002, pages 89-94.)
 # implementation(s) (pure HTML)
 @IMPL=
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/424.sort.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/4/424.sort.c">(C
 and Pascal)</a>.
 # John Morris morris@ee.uwa.edu.au
 <a
