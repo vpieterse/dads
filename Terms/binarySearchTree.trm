@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Mon Jan 26 10:34:12 2015" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:38:33 2019" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Tue Feb 12 09:38:39 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Mon Jan 26 10:36:06 2015  Paul E. Black
 # Update URL of IMPL in Michael Gross slides
 # 
@@ -135,10 +138,10 @@ trees, AVL trees, and dictionaries.
 href="https://classes.soe.ucsc.edu/cmps012b/Spring97/Lecture16/sld013.htm">insert
 (C)</a>,
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.srch.c">search
 (C)</a>.
 Algorithms and Data Structures'
 <a
