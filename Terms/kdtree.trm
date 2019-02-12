@@ -1,7 +1,10 @@
 # *created  "Mon Nov 16 15:21:02 1998" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:42:38 2014" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:41:30 2019" *by "Paul E. Black"
 
 # $Log: kdtree.trm,v $
+# Tue Feb 12 09:41:35 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Tue Sep  2 08:42:51 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -69,11 +72,11 @@ been used.  The keys are used again beginning at level $k$.
 # implementation(s) (pure HTML)
 @IMPL=<a href="http://www3.cs.stonybrook.edu/~algorith/files/kd-trees.shtml">C,
 Pascal, or FORTRAN</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.ins.c">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.range.c">range
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.range.c">range
 search (C)</a>, and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/352.srch.c">search
 (C)</a>.
 <a href="http://www3.cs.stonybrook.edu/~algorith/files/kd-trees.shtml">(C,
 Pascal, and Fortran)</a>
