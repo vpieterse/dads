@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Fri Oct 27 15:30:42 2017" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:42:17 2019" *by "Paul E. Black"
 
 # $Log: median.trm,v $
+# Tue Feb 12 09:42:25 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Fri Oct 27 15:52:35 2017  Paul E. Black
 # Improve wording: "that" instead of "which".
 # 
@@ -50,7 +53,7 @@ is 2.5, the mean of 2 and 3.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/selec_a.html">select
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/selec_a.html">select
 kth element (Pascal and C++)</a>
 # author's initials
 @AUTHOR=PEB
