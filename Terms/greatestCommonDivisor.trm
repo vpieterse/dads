@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 12:08:29 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 11:03:30 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:58:07 2019" *by "Paul E. Black"
 
 # $Log: greatestCommonDivisor.trm,v $
+# Tue Feb 12 09:58:22 2019  Paul E. Black
+# Update Flower Bracket IMPL URL
+# 
 # Fri Apr  6 11:17:26 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -59,8 +62,8 @@ the same.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-Flower Brackets <a
-href="http://www.flowerbrackets.com/java-program-to-find-gcd-and-lcm-of-two-numbers/">(Java)</a>. 
+Flower Brackets
+<a href="https://www.flowerbrackets.com/gcd-java/">(Java)</a>. 
 
 # author's initials
 @AUTHOR=PEB
