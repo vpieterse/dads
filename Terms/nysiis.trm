@@ -1,7 +1,10 @@
 # *created  "Fri May  3 15:34:09 2002" *by "Paul E. Black"
-# *modified "Fri Dec 22 15:00:18 2017" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:12:00 2019" *by "Paul E. Black"
 
 # $Log: nysiis.trm,v $
+# Tue Feb 12 10:12:08 2019  Paul E. Black
+# Update Mark Crocker IMPL URL
+# 
 # Fri Dec 22 15:01:49 2017  Paul E. Black
 # Report was December of 1970.
 # 
@@ -84,7 +87,7 @@ No. 1, Albany, New York, December 1970.
 <a href="http://www.dropby.com/NYSIIS.html">(JavaScript)</a> (in page source).
 <a href="http://raven.utc.edu/cgi-bin/WA.EXE?A2=ind0102d&L=hp3000-l&P=33747">(SPL)</a>.
 <a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>
+href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0482.html">(Rexx)</a>
 (reportedly buggy).
 # further explanation (pure HTML)
 @LINKS=
