@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 11:05:14 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:56:39 2019" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Tue Feb 12 09:57:14 2019  Paul E. Black
+# Update Flower Brackets IMPL URL
+# 
 # Fri Apr  6 11:17:45 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -107,8 +110,8 @@ Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Bubble_sort">explanation
 (Java and C++)</a>.
-Flower Brackets <a
-href="http://www.flowerbrackets.com/bubble-sort-program-in-java/">(Java)</a>. 
+Flower Brackets
+<a href="https://www.flowerbrackets.com/bubble-sort-java/">(Java)</a>. 
 <a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
 
 # further explanation (pure HTML)
