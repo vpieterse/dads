@@ -1,7 +1,10 @@
 # *created  "Thu Jan  7 13:33:55 1999" *by "Paul E. Black"
-# *modified "Fri Apr  6 10:55:50 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:08:54 2019" *by "Paul E. Black"
 
 # $Log: selectionSort.trm,v $
+# Tue Feb 12 10:09:08 2019  Paul E. Black
+# Update Flower Brackets IMPL URL
+# 
 # Fri Apr  6 11:16:57 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -129,8 +132,8 @@ Simple Programming Tutorials'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Selection_sort">explanation
 (Java and C++)</a>.
-Flower Brackets <a
-href="http://www.flowerbrackets.com/best-way-to-implement-selection-sort-in-java/">explanation (Java)</a>. 
+Flower Brackets
+<a href="https://www.flowerbrackets.com/selection-sort-java/">explanation (Java)</a>. 
 
 # further explanation (pure HTML)
 @LINKS=
