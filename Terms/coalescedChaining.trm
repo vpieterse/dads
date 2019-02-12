@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:43:34 1998" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:08:35 2019" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:40:03 2019" *by "Paul E. Black"
 
 # $Log: coalescedChaining.trm,v $
+# Tue Feb 12 09:40:07 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Mon Feb 11 17:08:40 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -72,9 +75,9 @@ so it can be reused for insertion, but leaves the search list intact.
 <a href="https://en.wikipedia.org/wiki/Coalesced_hashing">Wikipedia
 article (C)</a> (starts at the beginning of the array for empty places).
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.ins.c">insert
 (C)</a>  (starts at the end of the array for empty places), <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3312.srch.c">search
 (C)</a>.
 # author's initials
 @AUTHOR=PEB
