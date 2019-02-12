@@ -1,7 +1,10 @@
 dnl *created  "Fri Sep  4 16:39:08 1998" *by "Paul E. Black"
-dnl *modified "Tue May  6 13:29:56 2014" *by "Paul E. Black"
+dnl *modified "Wed Dec 12 13:07:20 2018" *by "Paul E. Black"
 dnl
 dnl $Log: terms.intro.m4,v $
+dnl Tue Feb 12 10:41:53 2019  Paul E. Black
+dnl Add (back) note seeking someone to take over DADS.
+dnl 
 dnl Tue May  6 13:45:32 2014  Paul E. Black
 dnl Put the need-help anchor by itself, instead of wrapping it around the
 dnl include, in order to remove nested anchors.  Also include bits Fix
@@ -96,6 +99,14 @@ This web site is hosted by
 include(`Pages/bitsHostedBy.m4')
 Development of this dictionary started in 1998 
 under the editorship of Paul E. Black. </p>
+
+<p>
+<strong>
+After 20 years, DADS needs to move.  If you are interested in
+taking over DADS, please contact 
+include(`Pages/bitsEmail.m4').
+</strong>
+</p>
 
 <p>
 This is a dictionary of algorithms, algorithmic techniques, 
