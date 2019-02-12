@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:51:37 1998" *by "Paul E. Black"
-# *modified "Mon Sep 30 16:11:34 2013" *by "Vreda Pieterse"
+# *modified "Tue Feb 12 09:42:54 2019" *by "Paul E. Black"
 
 # $Log: perfecthash.trm,v $
+# Tue Feb 12 09:42:58 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision "Mon Sep 30 16:05:40 2013" *by "Vreda Pieterse"
 # Add missing .html to IMPL Links to Gonnet and Baeza-Yates's implementations
 #
@@ -80,9 +83,9 @@ SIAM J. Comput., 23(4):738-761, August 1994.
 # implementation(s) (pure HTML)
 @IMPL=See the implementations at {minimal perfect hashing} and Gonnet and Baeza-Yates's
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c.html">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.ins.c.html">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c.html">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3316.srch.c.html">search
 (C)</a> implementations.
 # author's initials
 @AUTHOR=PEB
