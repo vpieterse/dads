@@ -1,7 +1,10 @@
 # *created  "Sat Sep  4 16:51:08 1999" *by "Paul E. Black"
-# *modified "Wed Sep  4 12:42:08 2013" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:48:17 2019" *by "Paul E. Black"
 
 # $Log: binaryRelation.trm,v $
+# Tue Feb 12 09:48:45 2019  Paul E. Black
+# update URL for Pieterses explanation.
+# 
 # Revision 1.5  2013/09/04 16:43:24  black
 # add LINK to Pieterse's explanation of representations of binary relations
 #
@@ -46,8 +49,8 @@ of" ($\subset$), or "is connected to" (has an {edge} to) for
 $GreaterThan(3, 2) = true$.
 # further explanation (pure HTML)
 @LINKS=
-Vreda Pieterse's explanation of <a
-href="http://www.cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">different
+Vreda Pieterse's explanation of
+<a href="https://cs.up.ac.za/cs/vpieterse/AptiAlgo/AptiAlgoritmi.html">different
 representations of binary relations</a>.
 
 
