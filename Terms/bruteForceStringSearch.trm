@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:12:01 1999" *by "Paul E. Black"
-# *modified "Fri Jul 20 16:26:53 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:39:39 2019" *by "Paul E. Black"
 
 # $Log: bruteForceStringSearch.trm,v $
+# Tue Feb 12 09:39:45 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Fri Jul 20 16:37:03 2018  Paul E. Black
 # Make the DEFN shorter.  Add IMA brute force and IMIN strsrch.
 # 
@@ -52,7 +55,7 @@ faster {string matching} algorithms.
 href="http://www-igm.univ-mlv.fr/~lecroq/string/">Exact String
 Matching Algorithms (C)</a>,
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/711a.srch.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/711a.srch.c">(C
 and Pascal)</a>
 # author's initials
 @AUTHOR=PEB
