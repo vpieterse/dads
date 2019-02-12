@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:59:25 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:19 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:41:09 2019" *by "Paul E. Black"
 
 # $Log: interpolationSearch.trm,v $
+# Tue Feb 12 09:41:13 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.12  2009/11/16 14:52:20  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -105,7 +108,7 @@ binary search only takes log(n) comparisons anyway.
 <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/inter.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography.
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/322.srch.p">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/interpolationSearch.trm,v $
