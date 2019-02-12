@@ -1,7 +1,7 @@
-Descriptions of files and directories in DADS.  This is not complete.
+Descriptions of files and directories in DADS.  This may not be complete.
 
  *created  "Wed Feb  8 09:46:31 2012" *by "Paul E. Black"
- *modified "Fri Aug 24 09:47:58 2018" *by "Paul E. Black"
+ *modified "Wed Dec 12 12:48:03 2018" *by "Paul E. Black"
 
 FILES
 
@@ -48,3 +48,10 @@ DIRECTORIES
     permissions, sources for files, etc.
   Images
     gifs and pictures
+
+ELSEWHERE
+  Documents/OtherPapers/dictAlgoDataStruc2013.*
+    Description of DADS and thoughts on future improvements.
+../termsFormat
+  Explanation of how to write a DADS entry.  This was incorporated
+  into the above document.
