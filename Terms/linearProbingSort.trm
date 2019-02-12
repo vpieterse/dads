@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:27:25 1999" *by "Paul E. Black"
-# *modified "Mon Jan  7 11:51:16 2013" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:41:59 2019" *by "Paul E. Black"
 
 # $Log: linearProbingSort.trm,v $
+# Tue Feb 12 09:42:03 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.9  2013/01/07 16:51:30  black
 # Polish translation is gone - remove LINK.
 #
@@ -67,7 +70,7 @@ The distribution phase may be seen as putting the elements in a
 
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/417.sort.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/4/417.sort.c">(C
 and Pascal)</a>.
 # GBY91 pp 168-170
 
