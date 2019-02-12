@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:38:55 1998" *by "Paul E. Black"
-# *modified "Wed Nov  3 12:09:15 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:43:54 2019" *by "Paul E. Black"
 
 # $Log: separateChaining.trm,v $
+# Tue Feb 12 09:43:58 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.7  2010/11/03 16:14:58  black
 # fix broken anchor.  Improve grammar.
 #
@@ -74,9 +77,9 @@ After <a href="../terms.html#GBY91">[GBY91, pages 74-77]</a>
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.ins.c">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3311.srch.c">search
 (C)</a>.
 # author's initials
 @AUTHOR=PEB
