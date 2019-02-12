@@ -1,7 +1,10 @@
 # *created  "Thu Feb  3 16:49:31 2000" *by "Paul E. Black"
-# *modified "Mon Dec 17 09:48:59 2012" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:46:12 2019" *by "Paul E. Black"
 
 # $Log: bdd.trm,v $
+# Tue Feb 12 09:46:59 2019  Paul E. Black
+# update URL for Lams slides
+# 
 # Revision 1.8  2012/12/17 14:50:08  black
 # remove NOTE of dbpl bibliography, It disappeared in web site reorg.
 #
@@ -62,8 +65,7 @@ Boolean Function Manipulation</em>, IEEE Transactions on Computers,
 C-35(8):677-691, August, 1986.
 # any notes.  these will not be printed in the final dictionary
 @NOTES=
-<a
-href="http://www.cs.cmu.edu/~bryant/">Randy
+<a href="http://www.cs.cmu.edu/~bryant/">Randy
 Bryant's homepage</a>
 </p>
 
@@ -72,7 +74,7 @@ A BDD is a {full binary tree}.
 # further explanation (pure HTML)
 @LINKS=
 Starting with slide 39, Monica Lam shows how a BDD relates to a truth
-table in <a href="http://suif.stanford.edu/~lam/hm.pdf">Software
+table in <a href="https://suif.stanford.edu/~lam/hm.pdf">Software
 Design Rules</a>.
 # implementation(s) (pure HTML)
 @IMPL=
