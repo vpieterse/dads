@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:41:50 1998" *by "Paul E. Black"
-# *modified "Fri Dec 15 15:49:18 2017" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:40:45 2019" *by "Paul E. Black"
 #
 # $Log: hash.trm,v $
+# Tue Feb 12 09:40:50 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Fri Dec 15 17:47:45 2017  Paul E. Black
 # hash ISIN Merkle tree, a new term.  Change hash to be AKA, not just WEB.
 # 
@@ -167,7 +170,7 @@ Hash Functions (C, C++, Pascal, Object Pascal, Java, Ruby, Python)</a>
 and Bloom filter for strings.
 # This implementation is okay - PEB 6 April 1999
 Gonnet and Baeza-Yates's 
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c.html">hash functions for strings.(C)</a>.
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/331.hash.c.html">hash functions for strings.(C)</a>.
 Austin Appleby's fast
 <a href="http://sites.google.com/site/murmurhash/">MurmurHash (C)</a>,
 including avalanche diagrams for Hsieh SuperFastHash, Jenkin's
