@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:27:04 1998" *by "Paul E. Black"
-# *modified "Wed Nov  3 11:59:41 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:40:18 2019" *by "Paul E. Black"
 
 # $Log: directChaining.trm,v $
+# Tue Feb 12 09:40:29 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.9  2010/11/03 16:15:20  black
 # fix broken HTML anchor
 #
@@ -65,9 +68,9 @@ After <a href="../terms.html#GBY91">[GBY91, pages 71-74]</a>
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.ins.c">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3310.srch.c">search
 (C)</a>.
 Duane A. Bailey's
 <a
