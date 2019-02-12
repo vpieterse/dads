@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:53:23 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 11:02:08 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:58:57 2019" *by "Paul E. Black"
 
 # $Log: insertionSort.trm,v $
+# Tue Feb 12 09:59:11 2019  Paul E. Black
+# Update Flower Bracket IMPL URL
+# 
 # Fri Apr  6 11:17:17 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -125,8 +128,8 @@ Other implementations may be available through the <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/sorting.shtml">Stony
 Brook Algorithm Repository, Sorting</a>.
 <a href="http://gams.nist.gov/serve.cgi/Module/TOMS/505/8547">(Fortran)</a>.
-Flower Brackets using <a
-href="http://www.flowerbrackets.com/insertion-sort-in-java/">scanners,
+Flower Brackets using
+<a href="https://www.flowerbrackets.com/insertion-sort-java/">scanners,
 objects, and recursion (Java)</a>. 
 
 
