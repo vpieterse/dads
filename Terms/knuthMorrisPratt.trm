@@ -1,7 +1,10 @@
 # *created  "Wed Apr  5 11:10:38 2000" *by "Sterling Bates"
-# *modified "Mon Oct  4 14:56:00 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:41:39 2019" *by "Paul E. Black"
 
 # $Log: knuthMorrisPratt.trm,v $
+# Tue Feb 12 09:41:44 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.10  2010/10/04 18:56:03  black
 # Update utexas URLs
 #
@@ -84,9 +87,9 @@ Matching Algorithms (C)</a>.
 Unix strstr implemented with <a
 href="http://barnyard.syr.edu/quickies/kmp.c">KMP (C)</a>.
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/712.srch.c">(C
 and Pascal)</a> which uses <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
 preprocessing (C)</a>
 # author's initials
 @AUTHOR=SB
