@@ -1,7 +1,10 @@
 # *created  "Thu Feb 11 16:40:46 1999" *by "Paul E. Black"
-# *modified "Mon Jan 24 10:38:28 2005" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:26:58 2019" *by "Paul E. Black"
 
 # $Log: calendarQueue.trm,v $
+# Tue Feb 12 10:27:33 2019  Paul E. Black
+# Update Fishwick URL
+# 
 # Revision 1.3  2005/01/24 15:38:55  black
 # Remove LINK to Dynamic Calendar Queue at computer.org: no longer found.
 #
@@ -50,8 +53,8 @@ John Wiley and Sons, Inc., 1996, page 410.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-In a <a
-href="http://www.cise.ufl.edu/~fishwick/CPUDisk/queuing_code.html">simulation
+In a
+<a href="https://www.cise.ufl.edu/~fishwick/CPUDisk/queuing_code.html">simulation
 tool package (C)</a>
 # author's initials
 @AUTHOR=PEB
