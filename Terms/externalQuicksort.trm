@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 09:37:44 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:16 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:40:38 2019" *by "Paul E. Black"
 
 # $Log: externalQuicksort.trm,v $
+# Tue Feb 12 09:40:43 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.4  2009/11/16 14:52:17  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -49,7 +52,7 @@ random (direct) access.
 # further explanation (pure HTML)
 @LINKS=
 # implementation(s) (pure HTML)
-@IMPL=<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/4/446.sort.c">(C)</a>
+@IMPL=<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/4/446.sort.c">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/externalQuicksort.trm,v $
