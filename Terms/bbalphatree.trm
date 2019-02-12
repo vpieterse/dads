@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:51:50 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:37:46 2019" *by "Paul E. Black"
 
 # $Log: bbalphatree.trm,v $
+# Tue Feb 12 09:37:56 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.10  2009/11/16 14:51:55  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -74,20 +77,20 @@ See <a href="../terms.html#GBY91">[GBY91, pages 100-102]</a>.
 href="https://www.auto.tuwien.ac.at/~blieb/woop/euclid.html">traversal,
 annotated for real time (WOOP/ADA)</a>, including bibliography.
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.ins.c">insert
 (C and Pascal)</a> and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.del.c">delete
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.del.c">delete
 (C and Pascal)</a> that use <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.chckr.c">check
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.chckr.c">check
 root (C and Pascal)</a> (or <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3415.chckr.c">this
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3415.chckr.c">this
 one</a> or <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/34155.chckr.c">this
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/34155.chckr.c">this
 one</a>?), 
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.lrot.c">left
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.lrot.c">left
 rotation (C and Pascal)</a>, and <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">right
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3414.rrot.c">right
 rotation (C and Pascal)</a>.
 # author's initials
 @AUTHOR=PEB
