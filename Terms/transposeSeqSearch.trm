@@ -1,7 +1,10 @@
 # *created  "Wed Dec 23 08:04:52 1998" *by "Paul E. Black"
-# *modified "Fri Dec 23 13:01:38 2011" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:44:22 2019" *by "Paul E. Black"
 
 # $Log: transposeSeqSearch.trm,v $
+# Tue Feb 12 09:44:30 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.6  2011/12/23 18:02:31  black
 # IMA linear search and Wikipedia:Self-organising_heuristic.  Move
 # linear search from XREFS.
@@ -58,7 +61,7 @@ faster, though.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/313.srch.c">(C)</a>
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/313.srch.c">(C)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/transposeSeqSearch.trm,v $
