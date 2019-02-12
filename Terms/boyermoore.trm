@@ -1,7 +1,10 @@
 # *created  "Tue Nov 17 13:35:17 1998" *by "Paul E. Black"
-# *modified "Mon Oct  4 14:55:53 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:39:19 2019" *by "Paul E. Black"
 
 # $Log: boyermoore.trm,v $
+# Tue Feb 12 09:39:27 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.10  2010/10/04 18:56:00  black
 # Update utexas URLs
 #
@@ -79,9 +82,9 @@ Boyer-Moore works</a>.
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node14.html">Boyer-Moore
 algorithm (C)</a>.
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713a.srch.c">(C)</a>
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/713a.srch.c">(C)</a>
 which uses <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/713.preproc.c">Boyer-Moore
 preprocessing (C)</a>
 # author's initials
 @AUTHOR=PEB
