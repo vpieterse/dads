@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:18:33 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:06 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:39:02 2019" *by "Paul E. Black"
 
 # $Log: boyerMooreHorspool.trm,v $
+# Tue Feb 12 09:39:14 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.5  2009/11/16 14:52:08  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -60,9 +63,9 @@ Software - Practice and Experience, 10:501-506, 1980.
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node18.html">Horspool
 algorithm (C)</a>.
 Gonnet and Baeza-Yates' <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(C)</a> or
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(C)</a> or
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</a>
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/713b.srch.c">(Pascal)</a>
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/boyerMooreHorspool.trm,v $
