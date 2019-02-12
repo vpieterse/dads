@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:28:46 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:09 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:39:29 2019" *by "Paul E. Black"
 
 # $Log: bruteForceStrSrchwMismatch.trm,v $
+# Tue Feb 12 09:39:34 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.4  2009/11/16 14:52:10  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -45,7 +48,7 @@ mismatches.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=Gonnet and Baeza-Yates' <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/718.srch.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/718.srch.c">(C
 and Pascal)</a>
 # author's initials
 @AUTHOR=PEB
