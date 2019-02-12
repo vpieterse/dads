@@ -1,7 +1,10 @@
 # *created  "Mon Dec 14 14:33:02 1998" *by "Paul E. Black"
-# *modified "Wed Dec  1 12:41:25 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:42:46 2019" *by "Paul E. Black"
 
 # $Log: patriciatree.trm,v $
+# Tue Feb 12 09:42:52 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.18  2010/12/01 17:42:43  black
 # Remove LINK to U Freiburg 1999 Report129 "Dictionary Automaton in
 # Optimal Space" - no longer at that URL.
@@ -113,7 +116,7 @@ C prototyping tools,
 <a href="http://cprops.sourceforge.net/">cprops (C)</a>, is a threaded
 implementation (find trie.c).
 <a href="http://www.mindrot.org/projects/py-radix/">py-radix (Python)</a>.
-<a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
+<a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.ins.c">insert (C)</a>, <a href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3445.srch.c">search (C)</a>. 
 # author's initials
 @AUTHOR=SE
 # end $Source: /home/black/Workspace/dads/Terms/RCS/patriciatree.trm,v $
