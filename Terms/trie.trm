@@ -1,7 +1,10 @@
 # *created  "Tue Dec 15 11:05:07 1998" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:07:05 2017" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:44:38 2019" *by "Paul E. Black"
 
 # $Log: trie.trm,v $
+# Tue Feb 12 09:44:46 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.11  2011/02/22 22:10:32  black
 # Darius Bacon IMPL gone - remove link to it.
 #
@@ -114,10 +117,10 @@ Ed Fredkin
 # implementation(s): pure HTML
 @IMPL=
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.ins.c">insert 
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.ins.c">insert 
  (C)</a> and
 <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.srch.c">search 
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/344.srch.c">search 
  (C)</a>.
 
 # further explanation (pure HTML)
