@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 10:19:28 1999" *by "Paul E. Black"
-# *modified "Mon Nov 16 09:52:21 2009" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:41:21 2019" *by "Paul E. Black"
 
 # $Log: karpRabin.trm,v $
+# Tue Feb 12 09:41:25 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.5  2009/11/16 14:52:22  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -57,7 +60,7 @@ Matching Algorithms (C)</a>,
 <a
 href="http://www-igm.univ-mlv.fr/~lecroq/string/node5.html">description
 and animation (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/7/715.srch.c">(C
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/7/715.srch.c">(C
 and Pascal)</a>.
 # author's initials
 @AUTHOR=PEB
