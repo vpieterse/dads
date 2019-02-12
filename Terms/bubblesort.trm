@@ -1,7 +1,10 @@
 # *created  "Fri Sep 18 10:13:39 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:56:39 2019" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:11:19 2019" *by "Paul E. Black"
 
 # $Log: bubblesort.trm,v $
+# Tue Feb 12 10:11:45 2019  Paul E. Black
+# Update Mark Crocker IMPL URL
+# 
 # Tue Feb 12 09:57:14 2019  Paul E. Black
 # Update Flower Brackets IMPL URL
 # 
@@ -112,7 +115,7 @@ href="http://www.algolist.net/Algorithms/Sorting/Bubble_sort">explanation
 (Java and C++)</a>.
 Flower Brackets
 <a href="https://www.flowerbrackets.com/bubble-sort-java/">(Java)</a>. 
-<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0469.html">(Rexx)</a>.
 
 # further explanation (pure HTML)
 @LINKS=<a
