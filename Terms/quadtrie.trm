@@ -1,7 +1,10 @@
 # *created  "Tue Feb  2 16:52:28 1999" *by "Paul E. Black"
-# *modified "Thu Aug 24 09:07:33 2017" *by "Paul E. Black"
+# *modified "Tue Feb 12 09:43:25 2019" *by "Paul E. Black"
 
 # $Log: quadtrie.trm,v $
+# Tue Feb 12 09:43:29 2019  Paul E. Black
+# update access to rbaeza handbook
+# 
 # Revision 1.8  2009/11/16 14:52:47  black
 # Update domain name of Ricardo Baeza-Yates' Handbook of Algorithms and Data Structures
 #
@@ -58,9 +61,9 @@ pronounced, "tree".  See the historical note at {trie}.
 @LINKS=
 # implementation(s) (pure HTML)
 @IMPL=<a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.ins.c">insert
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.ins.c">insert
 (C)</a>, <a
-href="http://www.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.srch.c">search
+href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/351b.srch.c">search
 (C)</a>
 # author's initials
 @AUTHOR=PEB
