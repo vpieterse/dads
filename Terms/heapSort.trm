@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:52:18 1998" *by "Paul E. Black"
-# *modified "Mon Jan 25 09:53:11 2010" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:11:49 2019" *by "Paul E. Black"
 
 # $Log: heapSort.trm,v $
+# Tue Feb 12 10:11:56 2019  Paul E. Black
+# Update Mark Crocker IMPL URL
+# 
 # Revision 1.16  2010/01/25 14:53:56  black
 # Remove Mike Copley's IMPL (account is gone) and add Paulo Roma's IMPL.
 #
@@ -116,7 +119,7 @@ Paulo Roma's
 Worst-case behavior <a
 href="https://www.auto.tuwien.ac.at/~blieb/woop/heapsort.html">annotated
 for real time (WOOP/ADA)</a>, including bibliography,
-<a href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0472.html">(Rexx)</a>.
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0472.html">(Rexx)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/heapSort.trm,v $
