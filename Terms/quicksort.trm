@@ -1,7 +1,11 @@
 # *created  "Wed Sep 16 08:54:42 1998" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:11:19 2019" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:07:55 2019" *by "Paul E. Black"
 
 # $Log: quicksort.trm,v $
+# Tue Feb 12 10:08:21 2019  Paul E. Black
+# Update Flower Brackets and Mark Crocker IMPL URL
+# OUpdateDIFF:  @@ -2 +2 @@
+# 
 # Mon Feb 11 17:11:22 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -142,14 +146,12 @@ Algorithms and Data Structures'
 <a
 href="http://www.algolist.net/Algorithms/Sorting/Quicksort">explanation
 (Java and C++)</a>.
-Flower Brackets <a
-href="http://www.flowerbrackets.com/how-to-implement-quick-sort-in-java-program/">explanation,
+Flower Brackets
+<a href="https://www.flowerbrackets.com/quick-sort-java/">explanation,
 including code and complexity (Java)</a>. 
-<a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0470.html">In-line
 compare (Rexx)</a>, 
-<a
-href="http://www.markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
+<a href="https://markcrocker.com/rexxtipsntricks/rxtt28.2.0471.html">compare
 function (Rexx)</a>.
 # further explanation (pure HTML)
 @LINKS=
