@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:54:15 1998" *by "Paul E. Black"
-# *modified "Fri Apr  6 10:57:57 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 10:05:38 2019" *by "Paul E. Black"
 
 # $Log: mergesort.trm,v $
+# Tue Feb 12 10:05:53 2019  Paul E. Black
+# Update Flower Brackets IMPL URL
+# 
 # Fri Apr  6 11:17:09 2018  Paul E. Black
 # Add Flower Brackets IMPL
 # 
@@ -136,8 +139,8 @@ Alexander Georgiev's
 href="https://code.google.com/p/singly-linked-list/source/browse/trunk/src/main/java/datastructure/SinglyLinkedList.java">
 merge sort (Java)</a> implemented as part of a linked-list package.
 Includes a parallel merge sort, too.
-Flower Brackets <a
-href="http://www.flowerbrackets.com/java-merge-sort/">(Java)</a>. 
+Flower Brackets
+<a href="https://www.flowerbrackets.com/merge-sort-java/">(Java)</a>. 
 
 # further explanation (pure HTML)
 @LINKS=
