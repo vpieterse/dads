@@ -1,7 +1,10 @@
 # *created  "Wed Apr 24 13:37:06 2002" *by "Paul E. Black"
-# *modified "Mon Sep 29 09:06:38 2014" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:50:44 2019" *by "Paul E. Black"
 
 # $Log: bozoSort.trm,v $
+# Tue Feb 19 10:51:35 2019  Paul E. Black
+# Gruber paper not found; remove reference.
+# 
 # Mon Sep 29 09:06:53 2014  Paul E. Black
 # update URL for Pat Morins sorting algorithm visualizations
 # 
@@ -60,8 +63,6 @@ Run time analysis in<br />
 Ruepp</strong>, <em>Sorting the slow way: An analysis of perversely
 awful randomized sorting algorithms</em>, FUN 2007, LNCS 4475,
 pp. 183-197, 2007.
-Available at 
-<a href="http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf">http://www2.tcs.ifi.lmu.de/~gruberh/data/fun07-final.pdf</a>
 <br />
 Note: "Supercalifragilisticexpialidocious" is misspelled
 on the sixth page, although it is spelled correctly in the footnote.
