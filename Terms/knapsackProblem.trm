@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Dec  5 10:51:58 2016" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:58:41 2019" *by "Paul E. Black"
 
 # $Log: knapsackProblem.trm,v $
+# Tue Feb 19 10:01:41 2019  Paul E. Black
+# Change xkcd URL to https
+# 
 # Mon Dec  5 11:03:34 2016  Paul E. Black
 # Improve citation of xkcd comic.
 # 
@@ -106,8 +109,8 @@ exceeds a certain value?  The decision problem is {NP-complete}.
 # further explanation (pure HTML)
 @LINKS=
 <img src="../Images/xkcd 0287 np_complete.png"><br />
-From <a href="http://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
-<a href="http://xkcd.com/license.html">Creative Commons
+From <a href="https://xkcd.com/287/">xkcd 287</a> by Randall Munroe.
+<a href="https://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
 
 # implementation(s) (pure HTML)
