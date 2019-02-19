@@ -1,7 +1,10 @@
 # *created  "Mon Jan  4 09:05:07 1999" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:38:33 2019" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:56:06 2019" *by "Paul E. Black"
 
 # $Log: binarySearchTree.trm,v $
+# Tue Feb 19 10:47:24 2019  Paul E. Black
+# Remove Gross IMPL - no longer found
+# 
 # Tue Feb 12 09:38:39 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -133,10 +136,6 @@ Maksim Goleta's
 <a href="http://goletas.com/csharp-collections">Collections
 (C#)</a> implementing stacks, queues, linked lists, binary search
 trees, AVL trees, and dictionaries.
-# class slides of Dr. Michael E. Gross
-<a
-href="https://classes.soe.ucsc.edu/cmps012b/Spring97/Lecture16/sld013.htm">insert
-(C)</a>,
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/3411.ins.c">insert
 (C)</a>,
