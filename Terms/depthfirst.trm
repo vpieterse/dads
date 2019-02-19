@@ -1,7 +1,10 @@
 # *created  "Tue Dec  1 12:02:24 1998" *by "Paul E. Black"
-# *modified "Fri Feb 10 13:44:45 2017" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:58:34 2019" *by "Paul E. Black"
 
 # $Log: depthfirst.trm,v $
+# Tue Feb 19 10:01:32 2019  Paul E. Black
+# Change xkcd URL to https
+# 
 # Fri Feb 10 13:51:26 2017  Paul E. Black,,,
 # Since Cupif-Giannini tree traversal does not visit internal nodes, it
 # is not strictly a traversal, like preorder or postorder traversals
@@ -199,8 +202,8 @@ href="http://www.cosc.canterbury.ac.nz/mukundan/dsal/GraphAppl.html">animation (
   possible situations - medical emergency, dancing, food too
   expensive, etc. - by depth-first search.">
 <br />
-From <a href="http://xkcd.com/761/">xkcd 761</a> by Randall Munroe.
-<a href="http://xkcd.com/license.html">Creative Commons
+From <a href="https://xkcd.com/761/">xkcd 761</a> by Randall Munroe.
+<a href="https://xkcd.com/license.html">Creative Commons
 Attribution-NonCommercial 2.5 License</a>.
 
 # implementation(s) (pure HTML)
