@@ -1,7 +1,10 @@
 # *created  "Wed Sep 16 08:59:44 1998" *by "Paul E. Black"
-# *modified "Tue Sep  2 08:48:47 2014" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:09:28 2019" *by "Paul E. Black"
 
 # $Log: travelingSalesman.trm,v $
+# Tue Feb 19 10:49:19 2019  Paul E. Black
+# Add U Arizona IMPL and animation.
+# 
 # Tue Sep  2 08:54:01 2014  Paul E. Black
 # Change stonybrook.edu URL in IMPL
 # 
@@ -120,6 +123,10 @@ advances, etc.</a>.
 <a
 href="http://www3.cs.stonybrook.edu/~algorith/files/traveling-salesman.shtml">(C,
 Fortran, Pascal, Mathematica, and C++)</a>.
+# "The Icon Programming Language" -> "Odds and Ends"
+Animation and
+<a href="http://www2.cs.arizona.edu/icon/oddsends/travels/travels.htm">implementation
+(Icon)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/travelingSalesman.trm,v $
