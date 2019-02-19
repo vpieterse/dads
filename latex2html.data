@@ -1,12 +1,15 @@
 # $Id: latex2html.data,v 1.22 2012/05/31 12:56:01 black Exp $
 # *created  "Mon Jun  7 10:29:20 1999" *by "Paul E. Black"
-# *modified "Mon Mar  5 09:40:26 2018" *by "Paul E. Black"
+# *modified "Tue Feb 12 11:03:57 2019" *by "Paul E. Black"
 
 #
 #		Rewrites from LaTeX math mode into HTML
 #
 
 # $Log: latex2html.data,v $
+# Tue Feb 19 10:45:32 2019  Paul E. Black
+# fix HTML for real numbers (double-struck capital R) symbol
+# 
 # Revision 1.22  2012/05/31 12:56:01  black
 # Use tilde instead of sim.gif for \sim
 #
@@ -97,7 +100,7 @@
 \rightarrow	&rarr;
 \mapsto		|&rarr;
 #    Table 3.7: Miscellaneous Symbols
-\Re	$Real;
+\Re		&real;
 \prime		&prime;
 \Prime		&Prime;
 \emptyset	&oslash;
