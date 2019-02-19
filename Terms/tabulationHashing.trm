@@ -1,7 +1,10 @@
 # *created  "Thu Jun  7 10:49:37 2018" *by "Paul E. Black"
-# *modified "Fri Jul 20 16:29:05 2018" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:38:21 2019" *by "Paul E. Black"
 
 # $Log: tabulationHashing.trm,v $
+# Tue Feb 19 10:38:47 2019  Paul E. Black
+# Use underscore (_) instead of space in Wikipedia reference.
+# 
 
 # entry name
 @NAME=tabulation hashing
@@ -34,7 +37,7 @@ $c<sub>i</sub>$ is the i<sup>th</sup> character.
 @INME=
 # Other cross references that don't fit the above.  printed as "See also ..."
 @XREFS={Pearson's hash},
-{Zobrist hashing#Wikipedia:Zobrist hashing}
+{Wikipedia:Zobrist_hashing}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=

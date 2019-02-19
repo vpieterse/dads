@@ -1,7 +1,10 @@
 # *created  "Tue Jan 20 16:45:15 2004" *by "Paul E. Black"
-# *modified "Mon Dec  5 11:32:18 2016" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:16:21 2019" *by "Paul E. Black"
 
 # $Log: burrowsWheelerTransform.trm,v $
+# Tue Feb 19 10:31:53 2019  Paul E. Black
+# Use underscore (_) instead of space in Wikipedia reference.
+# 
 # Mon Dec  5 11:39:20 2016  Paul E. Black
 # Improve DEFN (use "permute" instead of rarrange).  Add a note relating
 # the output array and suffix array.  Use special "new" Wikipedia:
@@ -83,7 +86,7 @@ the Burrows-Wheeler Transform (C++)</a> explains the algorithm.
 Dr. Dobb's Journal, September, 1996.
 # further explanation (pure HTML)
 @LINKS=
-{Wikipedia:Burrows-Wheeler transform}.
+{Wikipedia:Burrows-Wheeler_transform}.
 # author's initials (see authors.data)
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/burrowsWheelerTransform.trm,v $

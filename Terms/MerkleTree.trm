@@ -1,7 +1,10 @@
 # *created  "Fri Dec 15 11:01:02 2017" *by "Paul E. Black"
-# *modified "Fri Feb 23 10:05:21 2018" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:35:22 2019" *by "Paul E. Black"
 
 # $Log$
+# Tue Feb 19 10:34:47 2019  Paul E. Black
+# Use underscore (_) instead of space in Wikipedia reference.
+# 
 # Mon Mar  5 10:57:55 2018  Paul E. Black
 # small correction to bib reference
 # 
@@ -54,7 +57,7 @@ degenerate tree (only left subtrees) all the way to the leaf level.
 @INME={hash function}
 
 # Other cross references that don't fit the above.  printed as "See also ..."
-@XREFS={Wikipedia:Merkle tree}
+@XREFS={Wikipedia:Merkle_tree}
 
 # bib refs, eg, to defining article (pure HTML).  printed within <p>..</p>
 @BIB=

@@ -1,7 +1,10 @@
 # *created  "Thu Oct 15 08:36:29 1998" *by "Paul E. Black"
-# *modified "Fri Jun  8 09:45:23 2018" *by "Paul E. Black"
+# *modified "Tue Feb 19 10:16:11 2019" *by "Paul E. Black"
 
 # $Log: bloomFilter.trm,v $
+# Tue Feb 19 10:31:16 2019  Paul E. Black
+# Use underscore (_) instead of space in Wikipedia reference.
+# 
 # Fri Jun  8 10:24:27 2018  Paul E. Black
 # New XREF: invertible Bloom lookup table
 # 
@@ -119,7 +122,7 @@ Arash Partow's
 @LINKS=
 The Bose, Guo, Kranakis, et. al. paper below shows that "The actual
 false-positive rate is strictly larger than" Bloom's formula. <br />
-{Wikipedia:Bloom filter} gives many variants and extensions.
+{Wikipedia:Bloom_filter} gives many variants and extensions.
 <a href="http://cap-lore.com/code/BloomTheory.html">Trade-offs and
 engineering techniques</a> with links to sites with recent papers,
 hash functions, etc.
