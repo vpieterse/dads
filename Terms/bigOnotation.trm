@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Mon Feb 11 17:08:08 2019" *by "Paul E. Black"
+# *modified "Tue Feb 19 09:41:25 2019" *by "Paul E. Black"
 
 # $Log: bigOnotation.trm,v $
+# Tue Feb 19 10:35:12 2019  Paul E. Black
+# Use underscore (_) instead of space in Wikipedia reference.
+# 
 # Mon Feb 11 17:08:12 2019  Paul E. Black
 # use https to access Wikipedia
 # 
@@ -142,7 +145,7 @@ disk accesses, memory used, or elapsed ("wall clock") time.
 <a href="../terms.html#HS83">[HS83, page 31]</a>, and
 <a href="../terms.html#Stand98">[Stand98, page 466]</a> use
 $|f(n)| \leq c|g(n)|$.  
-In {Wikipedia:computational complexity theory} "only positive
+In {Wikipedia:computational_complexity_theory} "only positive
 functions are considered, so the
 absolute value bars may be left out." (Wikipedia, "Big O notation").
 This definition after
