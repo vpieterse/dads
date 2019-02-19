@@ -1,10 +1,13 @@
 dnl *created  "Wed Feb  2 16:01:34 2000" *by "Paul E. Black"
-dnl *modified "Mon Jun 18 09:05:19 2018" *by "Paul E. Black"
+dnl *modified "Tue Feb 19 09:33:27 2019" *by "Paul E. Black"
 dnl
 dnl This is run through m4 then joined with an introduction and 
 dnl the entries to make a complete terms page.
 dnl
 dnl $Log$
+dnl Tue Feb 19 10:46:28 2019  Paul E. Black
+dnl Update URL for Computing Resource Repository (CoRR)
+dnl 
 dnl Mon Jun 18 09:05:49 2018  Paul E. Black
 dnl SPOJ is now https
 dnl 
@@ -128,7 +131,7 @@ online judge</a> (SPOJ) has about 6600 small programming tasks or puzzles and
 
 <p>
 The <a
-href="https://arxiv.org/corr/home">Computing Research Repository</a> (CoRR).
+href="https://arxiv.org/corr/">Computing Research Repository</a> (CoRR).
 </p>
 
 <p>
@@ -169,7 +172,7 @@ Fri Sep  4 16:39:23 1998
 include(`Pages/bitsPaul.m4')
 <em>This Trailer</em>
 <em>Updated
-Mon Jun 18 09:05:19 2018
+Tue Feb 19 09:33:27 2019
 </em><address>
 by <a href="https://hissa.nist.gov/~black/">Paul E. Black
 </a>
