@@ -1,7 +1,10 @@
 # *created  "Tue Sep 15 16:55:14 1998" *by "Paul E. Black"
-# *modified "Tue Feb 12 09:39:48 2019" *by "Paul E. Black"
+# *modified "Tue Feb 19 11:03:19 2019" *by "Paul E. Black"
 
 # $Log: btree.trm,v $
+# Tue Feb 19 11:04:26 2019  Paul E. Black
+# Update URL for Pick Basic IMPL and tutorial and variants XREF
+# 
 # Tue Feb 12 09:39:53 2019  Paul E. Black
 # update access to rbaeza handbook
 # 
@@ -110,9 +113,9 @@ After <a href="../terms.html#HS83">[HS83, page 499]</a>.
 # CLR page 385 says from t to 2t children, which doesn't permit 2-3 trees.
 # further explanation (pure HTML)
 @LINKS= A
-<a href="http://www.semaphorecorp.com/btp/algo.html">tutorial
+<a href="http://maf.directory/btp/algo.html">tutorial
 on the basics</a>, and
-<a href="http://www.semaphorecorp.com/btp/var.html">variants</a>.
+<a href="http://maf.directory/btp/var.html">variants</a>.
 # implementation(s) (pure HTML)
 @IMPL=
 <a href="http://perl.plover.com/BTree/">tutorial of how
@@ -131,7 +134,7 @@ functions (C and Pascal)</a>,
 <a
 href="https://users.dcc.uchile.cl/~rbaeza/handbook/algs/3/342.srch.c">search
 (C and Pascal)</a>,
-<a href="http://www.semaphorecorp.com/btp/btp.html">(Pick Basic?)</a>.
+<a href="http://maf.directory/btp/btp.html">(Pick Basic?)</a>.
 # author's initials
 @AUTHOR=PEB
 # end $Source: /home/black/Workspace/dads/Terms/RCS/btree.trm,v $
