@@ -1,7 +1,10 @@
 # *created  "Wed Feb  3 13:42:31 1999" *by "Paul E. Black"
-# *modified "Wed Nov  3 12:00:29 2010" *by "Paul E. Black"
+# *modified "Tue Feb 19 11:07:23 2019" *by "Paul E. Black"
 
 # $Log: orthogonalLists.trm,v $
+# Tue Feb 19 11:08:21 2019  Paul E. Black
+# Remove lab exercise LINK-gone. Update Sahni lecture slides URL.
+# 
 # Revision 1.5  2010/11/03 16:16:00  black
 # remove orphan HTML end-anchor.
 #
@@ -45,11 +48,7 @@ orthogonal lists by row and column.  Inserting an item means inserting
 it into each list as appropriate.
 # further explanation (pure HTML)
 @LINKS=
-A <a 
-href="http://cs.saddleback.edu/rwatkins/CS2B/Lab Exercises/Orthogal Lists Lab.pdf">lab 
-exercise with four attributes</a>.
-<a
-href="http://www.cise.ufl.edu/~sahni/cop3530/powerpoint/lec11.ppt">PowerPoint</a>
+<a href="https://www.cise.ufl.edu/~sahni/cop3530/powerpoint/lec11.ppt">PowerPoint</a>
 lecture notes of using orthogonal lists to implement a sparse matrix.
 # implementation(s) (pure HTML)
 @IMPL=
